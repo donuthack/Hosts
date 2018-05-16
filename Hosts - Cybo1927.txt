@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 132
+#Number of ad services/trackers blocked: 133
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -26,6 +26,8 @@ ff02::3 ip6-allhosts
 
 #A
 0.0.0.0 app-measurement.com
+0.0.0.0 ads.trafficjunkey.net
+0.0.0.0 ads.trafficjunkey.com
 0.0.0.0 ads.servebom.com
 0.0.0.0 app.adjust.com
 0.0.0.0 ad8.adfarm1.adition.com
