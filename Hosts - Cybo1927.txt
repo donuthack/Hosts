@@ -13,7 +13,16 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 100
+#Number of ad services/trackers blocked: 110
+
+#Keep Google from constantly checking on you
+0.0.0.0 clients1.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 reports.crashlytics.com
+0.0.0.0 mtalk.google.com
 
 #A
 0.0.0.0 app-measurement.com
@@ -54,45 +63,53 @@ ff02::3 ip6-allhosts
 0.0.0.0 app.monetizze.com.br
 0.0.0.0 app.scanscout.com
 0.0.0.0 a.ads2.msads.net
+
 #B
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 b.ads2.msads.net
+
 #C
 0.0.0.0 cdn.taboola.com
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
-0.0.0.0 clients1.google.com
-0.0.0.0 clients2.google.com
-0.0.0.0 clients3.google.com
 0.0.0.0 cherryhi.app.ur.gcion.com
 0.0.0.0 directrev.cloudapp.net
+0.0.0.0 cde-ta-g7g.amazon.com
 0.0.0.0 clickkingdom.net
+
 #D
 0.0.0.0 dpm.demdex.net
 0.0.0.0 d.ligatus.com
+
 #E
 0.0.0.0 edge.quantserve.com
 0.0.0.0 e.crashlytics.com
 0.0.0.0 enter.sexlist.com
+
 #F
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 floridat.app.ur.gcion.com
+
 #G
 0.0.0.0 googleadservices.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
 0.0.0.0 googleads.g.doubleclick.net
+
 #H
 0.0.0.0 hit1.hotlog.ru
 0.0.0.0 hitcents.com
 0.0.0.0 hitcounter.ru
 0.0.0.0 hitfox.go2cloud.org
 0.0.0.0 honolulu.app.ur.gcion.com
+
 #I
+0.0.0.0 images-na.ssl-images-amazon.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
+
 #K
 
 #L
@@ -102,18 +119,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 mobile.smartadserver.com
 0.0.0.0 merchantapp.com
 0.0.0.0 m.adnxs.com
+
 #N
+0.0.0.0 gwp.nuggad.net
 
 #O
 0.0.0.0 widgets.outbrain.com
+
 #P
 0.0.0.0 pixel.rubiconproject.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 profitboosterapp.com
+
 #Q
 
 #R
 0.0.0.0 reports.crashlytics.com
+
 #S
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
 0.0.0.0 secure-us.imrworldwide.com
@@ -121,30 +143,40 @@ ff02::3 ip6-allhosts
 0.0.0.0 script.rtbclick.net
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 s7.addthis.com
+0.0.0.0 s95.research.de.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 sb.scorecardresearch.com
+
 #T
 0.0.0.0 trends.revcontent.com
 0.0.0.0 tag.yoc-adserver.com
 0.0.0.0 testapp.adhood.com
 0.0.0.0 track.adrpanel.es
 0.0.0.0 trk.tracksys55.com
+0.0.0.0 todo-ta-g7g.amazon.com
+
 #U
 
 #V
 0.0.0.0 video.plista.com
+
 #W
 0.0.0.0 wd.adcolony.com
 0.0.0.0 winprizesapp.com
+
 #X
 0.0.0.0 x.ligatus.com
+
 #Y
 0.0.0.0 you2mail.com
 0.0.0.0 younglingsbcjzvozva.download
 0.0.0.0 your.365advert.com
+
 #Z
 0.0.0.0 z.moatads.com
+0.0.0.0 zeit01.webtrekk.net
+
 #Misc
 0.0.0.0 2542116.fls.doubleclick.net
 0.0.0.0 050003.voodoo.com
