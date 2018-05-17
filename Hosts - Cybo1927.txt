@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 133
+#Number of ad services/trackers blocked: 185
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -26,7 +26,38 @@ ff02::3 ip6-allhosts
 
 #A
 0.0.0.0 app-measurement.com
+0.0.0.0 adeventtracker.spotify.com
+0.0.0.0 adlock.in
+0.0.0.0 a.wyzmob.com
+0.0.0.0 a1.dp25.kr
+0.0.0.0 ad-first.co.kr
+0.0.0.0 ad.about.co.kr
+0.0.0.0 ad.ad-ya.net
+0.0.0.0 ad.ad4989.co.kr
+0.0.0.0 ad.adinc.kr
+0.0.0.0 ad.adixs.co.kr
+0.0.0.0 ad.adlike.co.kr
+0.0.0.0 ad.adnmore.co.kr
+0.0.0.0 ad.hankookilbo.com
+0.0.0.0 ad.hooniad.com
+0.0.0.0 ad.ilikesponsorad.co.kr
+0.0.0.0 ad.ilikesponsorad.com
+0.0.0.0 ad.ingfac.co.kr
+0.0.0.0 ad.openmatch.co.kr
+0.0.0.0 ad.osen.co.kr
+0.0.0.0 ad.owra.net
+0.0.0.0 adgallery.whitehousedrugpolicy.gov
+0.0.0.0 ad.doubleclick.net
 0.0.0.0 ads.trafficjunkey.net
+0.0.0.0 adserver.adtechus.com
+0.0.0.0 adserver.sbtrustmedia.com
+0.0.0.0 adserver.uniqube.tv
+0.0.0.0 adsvc2.wisenut.co.kr
+0.0.0.0 adtg.widerplanet.com
+0.0.0.0 adv.imadrep.co.kr
+0.0.0.0 ads.pandora.tv.net
+0.0.0.0 adclick.g.doublecklick.net
+0.0.0.0 ad.pandora.tv
 0.0.0.0 ads.trafficjunkey.com
 0.0.0.0 ads.servebom.com
 0.0.0.0 app.adjust.com
@@ -34,12 +65,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.stickyadstv.com
 0.0.0.0 ads.newtentionassets.net
 0.0.0.0 ad-emea.doubleclick.net
+0.0.0.0 ads.youtube.com
 0.0.0.0 ad.mamastar.jp
 0.0.0.0 aclickads.com
 0.0.0.0 acmeaffiliate.go2cloud.org
 0.0.0.0 ad-ace.doubleclick.net
 0.0.0.0 adsb4trk.com
+0.0.0.0 ads-fa.spotify.com
 0.0.0.0 ad-agent.com
+0.0.0.0 ad.aeonad.co.kr
+0.0.0.0 ad.aeonad.net
+0.0.0.0 ad.applead.co.kr
+0.0.0.0 ad.crwdcntrl.net
+0.0.0.0 ad.daum.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad.dt.co.kr
+0.0.0.0 ad.hankooki.com
 0.0.0.0 ad-balancer.net
 0.0.0.0 ad-blaster.com
 0.0.0.0 ad-board.com
@@ -62,6 +103,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 app.yesware.com
 0.0.0.0 andrionmobileapp.bid
 0.0.0.0 app.datafastguru.info
+0.0.0.0 ad.kmib.co.kr
+0.0.0.0 ad.koreadaily.com
+0.0.0.0 ad.mediatoday.co.kr
 0.0.0.0 app.getresponse.com
 0.0.0.0 app.monetizze.com.br
 0.0.0.0 app.scanscout.com
@@ -72,6 +116,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 b.ads2.msads.net
 0.0.0.0 bat.bing.com
+0.0.0.0 banner-link.com.br
 
 #C
 0.0.0.0 cdn.taboola.com
@@ -148,6 +193,7 @@ ff02::3 ip6-allhosts
 #R
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 rover.ebay.com
+0.0.0.0 rutube.ru
 
 #S
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
@@ -155,6 +201,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.chartbeat.com
 0.0.0.0 script.rtbclick.net
 0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 stats.pandora.com
 0.0.0.0 s7.addthis.com
 0.0.0.0 s95.research.de.com
 0.0.0.0 ssl.google-analytics.com
@@ -203,4 +250,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 2542116.fls.doubleclick.net
 0.0.0.0 050003.voodoo.com
 0.0.0.0 050005.voodoo.com
+0.0.0.0 101order.com
+0.0.0.0 123freeavatars.com
 0.0.0.0 192.com
+0.0.0.0 24log.com
+0.0.0.0 24log.de
+0.0.0.0 999fitness.com
+0.0.0.0 101com.com
