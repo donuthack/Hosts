@@ -13,29 +13,41 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 185
+#Number of ad services/trackers blocked: 200
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
 0.0.0.0 clients2.google.com
 0.0.0.0 clients3.google.com
 0.0.0.0 settings.crashlytics.com
-0.0.0.0 android.clients.google.com
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 mtalk.google.com
 
 #A
 0.0.0.0 app-measurement.com
+0.0.0.0 advertising.com
+0.0.0.0 adforce.ru
+0.0.0.0 adcycle.com
+0.0.0.0 adcycle.everyone.net
+0.0.0.0 adgear.com
+0.0.0.0 adchoices.com.vn
+0.0.0.0 adforce.com
+0.0.0.0 adcontent.saymedia.com
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 adlock.in
 0.0.0.0 a.wyzmob.com
 0.0.0.0 a1.dp25.kr
+0.0.0.0 adcenter.net
+0.0.0.0 adcenter.mdf.se
 0.0.0.0 ad-first.co.kr
 0.0.0.0 ad.about.co.kr
+0.0.0.0 adcentric.go2cloud.org
+0.0.0.0 ads.mopub.com
 0.0.0.0 ad.ad-ya.net
 0.0.0.0 ad.ad4989.co.kr
 0.0.0.0 ad.adinc.kr
 0.0.0.0 ad.adixs.co.kr
+0.0.0.0 adcheck.about.co.kr
 0.0.0.0 ad.adlike.co.kr
 0.0.0.0 ad.adnmore.co.kr
 0.0.0.0 ad.hankookilbo.com
@@ -194,6 +206,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 rover.ebay.com
 0.0.0.0 rutube.ru
+0.0.0.0 req.appads.com
 
 #S
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
@@ -206,6 +219,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s95.research.de.com
 0.0.0.0 ssl.google-analytics.com
 0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 s3.phluant.com
 0.0.0.0 securemetrics.apple.com
 0.0.0.0 s.adroll.com
 0.0.0.0 stats.wp.com
@@ -241,6 +255,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 you2mail.com
 0.0.0.0 younglingsbcjzvozva.download
 0.0.0.0 your.365advert.com
+0.0.0.0 youradchoices.com
 
 #Z
 0.0.0.0 z.moatads.com
