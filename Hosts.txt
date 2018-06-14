@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 226
+#Number of ad services/trackers blocked: 229
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -153,6 +153,7 @@ ff02::3 ip6-allhosts
 
 #C
 0.0.0.0 cdn.taboola.com
+0.0.0.0 counter.yadro.ru
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 chartboost.com
@@ -235,6 +236,7 @@ ff02::3 ip6-allhosts
 #S
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
 0.0.0.0 secure-us.imrworldwide.com
+0.0.0.0 static.doubleclick.net
 0.0.0.0 static.chartbeat.com
 0.0.0.0 script.rtbclick.net
 0.0.0.0 securepubads.g.doubleclick.net
@@ -262,6 +264,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 trk.tracksys55.com
 0.0.0.0 trafficjunky.com
 0.0.0.0 todo-ta-g7g.amazon.com
+0.0.0.0 teamplayer-d.openx.net
 
 #U
 
