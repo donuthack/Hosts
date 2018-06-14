@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 200
+#Number of ad services/trackers blocked: 222
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -25,10 +25,28 @@ ff02::3 ip6-allhosts
 
 #A
 0.0.0.0 app-measurement.com
+0.0.0.0 admaster.de
+0.0.0.0 ads.aceweb.net
+0.0.0.0 advertise.bingads.microsoft.com
+0.0.0.0 ads.ad-center.com
+0.0.0.0 ads.160tracker.com
+0.0.0.0 ads.3d.com
+0.0.0.0 ads.1a-infosysteme.de
+0.0.0.0 ads.51.net
+0.0.0.0 ads-links.com
+0.0.0.0 adonads.com
+0.0.0.0 adr-g3-1.vindicosuite.com
+0.0.0.0 adonion.com
+0.0.0.0 adolent.go2cloud.org
+0.0.0.0 ad-clicks.com
+0.0.0.0 admaster.com.cn
+0.0.0.0 adocean.pl
 0.0.0.0 advertising.com
+0.0.0.0 admarvel.s3.amazonaws.com
 0.0.0.0 adforce.ru
 0.0.0.0 adcycle.com
 0.0.0.0 adcycle.everyone.net
+0.0.0.0 admarvel.com
 0.0.0.0 adgear.com
 0.0.0.0 adchoices.com.vn
 0.0.0.0 adforce.com
@@ -99,6 +117,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad-brix.com
 0.0.0.0 ad-clicks.com
 0.0.0.0 ad-feeds.com
+0.0.0.0 analytics.msnbc.msn.com
 0.0.0.0 affiliates.mature.eu
 0.0.0.0 ad-flow.com
 0.0.0.0 ad-host.com
@@ -107,7 +126,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ademails.com
 0.0.0.0 adlog.com.com
 0.0.0.0 ad-logics.com
-0.0.0.0 analytics.msnbc.msn.com
 0.0.0.0 analytics.myfinances.com
 0.0.0.0 a-nj.1rx.io
 0.0.0.0 anm.intelli-direct.com
@@ -134,6 +152,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.taboola.com
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
+0.0.0.0 chartboost.com
 0.0.0.0 cherryhi.app.ur.gcion.com
 0.0.0.0 directrev.cloudapp.net
 0.0.0.0 cde-ta-g7g.amazon.com
@@ -186,6 +205,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mobile.smartadserver.com
 0.0.0.0 merchantapp.com
 0.0.0.0 m.adnxs.com
+0.0.0.0 media.net
 
 #N
 0.0.0.0 gwp.nuggad.net
