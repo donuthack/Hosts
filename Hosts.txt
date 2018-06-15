@@ -13,7 +13,30 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 333
+#Number of ad services/trackers blocked: 341
+
+#Grabify (IP Logger) Tracking Links
+0.0.0.0 grabify.link
+0.0.0.0 bmwforum.co
+0.0.0.0 leancoding.co
+0.0.0.0 quickmessage.io
+0.0.0.0 spottyfly.com
+0.0.0.0 spötify.com
+0.0.0.0 stopify.co
+0.0.0.0 yoütu.be
+0.0.0.0 yoütübe.co
+0.0.0.0 yoütübe.com
+0.0.0.0 xda-developers.io
+0.0.0.0 starbucksiswrong.com
+0.0.0.0 starbucksisbadforyou.com
+0.0.0.0 bucks.as
+0.0.0.0 discörd.com
+0.0.0.0 minecräft.com
+0.0.0.0 cyberh1.xyz
+0.0.0.0 discördapp.com
+0.0.0.0 freegiftcards.co
+0.0.0.0 disçordapp.com
+0.0.0.0 rëddït.com
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
