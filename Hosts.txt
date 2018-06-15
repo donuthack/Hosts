@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 #Number of ad services/trackers blocked: 345
 
 #Grabify (IP Logger) Tracking Links
-0.0.0.0 grabify.link
+0.0.0.0 https://grabify.link
 0.0.0.0 bmwforum.co
 0.0.0.0 leancoding.co
 0.0.0.0 quickmessage.io
