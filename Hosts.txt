@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 685
+#Number of ad services/trackers blocked: 686
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -569,6 +569,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 counter.yadro.ru
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
+0.0.0.0 cdn.mouseflow.com
 0.0.0.0 chartboost.com
 0.0.0.0 cherryhi.app.ur.gcion.com
 0.0.0.0 cdn.optimizely.com
