@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 275
+#Number of ad services/trackers blocked: 293
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -25,8 +25,16 @@ ff02::3 ip6-allhosts
 
 #A
 0.0.0.0 app-measurement.com
+0.0.0.0 ad.adriver.ru
 0.0.0.0 analytics.facebook.com
+0.0.0.0 ads.bidvertiser.com
+0.0.0.0 ad.adnet.biz
+0.0.0.0 adnet.com.ua
+0.0.0.0 a1.admaster.net
+0.0.0.0 adcore.ru
+0.0.0.0 admaster.net
 0.0.0.0 assets.adobedtm.com
+0.0.0.0 adfocus.ru
 0.0.0.0 ads.twitter.com
 0.0.0.0 asset.pagefair.com
 0.0.0.0 analytics.twitter.com
@@ -122,6 +130,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.dt.co.kr
 0.0.0.0 ad.hankooki.com
 0.0.0.0 ad-balancer.net
+0.0.0.0 ads.purefuck.com
 0.0.0.0 ad-blaster.com
 0.0.0.0 ad-board.com
 0.0.0.0 ad-brix.com
@@ -145,6 +154,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 andrionmobileapp.bid
 0.0.0.0 app.datafastguru.info
 0.0.0.0 ad.kmib.co.kr
+0.0.0.0 www2.adhost.com
 0.0.0.0 ad.koreadaily.com
 0.0.0.0 ad.mediatoday.co.kr
 0.0.0.0 app.getresponse.com
@@ -155,17 +165,48 @@ ff02::3 ip6-allhosts
 #B
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 b.ads1.msn.com
+0.0.0.0 b.6sc.co
 0.0.0.0 b.ads2.msads.net
+0.0.0.0 banner.casinotropez.com
 0.0.0.0 bat.bing.com
 0.0.0.0 banner-link.com.br
 
 #C
+0.0.0.0 count3.51yes.com
+0.0.0.0 count4.51yes.com
+0.0.0.0 count5.51yes.com
+0.0.0.0 count8.51yes.com
+0.0.0.0 count10.51yes.com
+0.0.0.0 count11.51yes.com
+0.0.0.0 count12.51yes.com
+0.0.0.0 count14.51yes.com
+0.0.0.0 count15.51yes.com
+0.0.0.0 count16.51yes.com
+0.0.0.0 count17.51yes.com
+0.0.0.0 count19.51yes.com
+0.0.0.0 count20.51yes.com
+0.0.0.0 count22.51yes.com
+0.0.0.0 count24.51yes.com
+0.0.0.0 count25.51yes.com
+0.0.0.0 count27.51yes.com
+0.0.0.0 count29.51yes.com
+0.0.0.0 count30.51yes.com
+0.0.0.0 count31.51yes.com
+0.0.0.0 count32.51yes.com
+0.0.0.0 count33.51yes.com
+0.0.0.0 count35.51yes.com
+0.0.0.0 count37.51yes.com
+0.0.0.0 count38.51yes.com
+0.0.0.0 count46.51yes.com
+0.0.0.0 count47.51yes.com
+0.0.0.0 count48.51yes.com
 0.0.0.0 cdn.krxd.net
 0.0.0.0 cdns.gigya.com
 0.0.0.0 casalemedia.com
 0.0.0.0 criteo.net
 0.0.0.0 cbs.siteintercept.qualtrics.com
 0.0.0.0 c.amazon-adsystem.com
+
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
 0.0.0.0 counter.yadro.ru
@@ -185,6 +226,8 @@ ff02::3 ip6-allhosts
 #D
 0.0.0.0 dpm.demdex.net
 0.0.0.0 d.ligatus.com
+0.0.0.0 dl.gameplaylabs.com
+0.0.0.0 download.cdn.sharelive.net 
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 
 #E
@@ -203,6 +246,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
 0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 gameplaylabs.com
+0.0.0.0 get.whitesmoke.com
 0.0.0.0 graph.facebook.com
 0.0.0.0 graph.instagram.com
 0.0.0.0 google-analytics.com
@@ -217,6 +262,7 @@ ff02::3 ip6-allhosts
 #I
 0.0.0.0 images-na.ssl-images-amazon.com
 0.0.0.0 imasdk.googleapis.com
+0.0.0.0 img.admaster.net
 
 #J
 0.0.0.0 js-agent.newrelic.com
@@ -238,16 +284,20 @@ ff02::3 ip6-allhosts
 
 #N
 0.0.0.0 gwp.nuggad.net
+0.0.0.0 net.softonicads.com
 0.0.0.0 native.sharethrough.com
 
 #O
 0.0.0.0 widgets.outbrain.com
 0.0.0.0 o.aolcdn.com
+0.0.0.0 opensoftwareupdate.com 
 
 #P
 0.0.0.0 pixel.rubiconproject.com
+0.0.0.0 pub.weatherbug.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 profitboosterapp.com
+0.0.0.0 proxy.softonicads.com
 0.0.0.0 pixel.wp.com
 0.0.0.0 pt.trafficjunkey.net
 
@@ -260,6 +310,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rover.ebay.com
 0.0.0.0 rubiconproject.com
 0.0.0.0 rutube.ru
+0.0.0.0 ranks.sextracker.com
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
 
@@ -275,6 +326,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 script.crazyegg.com
 0.0.0.0 secure.insightexpressai.com
+0.0.0.0 0.0.0.0 s.adexpert.cz
 0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.chartbeat.com
@@ -284,6 +336,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s7.addthis.com
 0.0.0.0 s95.research.de.com
 0.0.0.0 ssl.google-analytics.com
+0.0.0.0 spywarenuker.com
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 s3.phluant.com
 0.0.0.0 securemetrics.apple.com
@@ -299,8 +352,11 @@ ff02::3 ip6-allhosts
 #T
 0.0.0.0 trends.revcontent.com
 0.0.0.0 tags.tiqcdn.com
+0.0.0.0 t1.softonicads.com
+0.0.0.0 t2.softonicads.com
 0.0.0.0 tag.yoc-adserver.com
 0.0.0.0 tru.am
+0.0.0.0 textads.adultadworld.com
 0.0.0.0 tag.crsspxl.com
 0.0.0.0 testapp.adhood.com
 0.0.0.0 track.adrpanel.es
@@ -314,6 +370,8 @@ ff02::3 ip6-allhosts
 
 #V
 0.0.0.0 video.plista.com
+0.0.0.0 v10.xmlsearch.miva.com
+0.0.0.0 visitor-track.com
 
 #W
 0.0.0.0 wd.adcolony.com
@@ -338,6 +396,8 @@ ff02::3 ip6-allhosts
 
 #Misc
 0.0.0.0 2542116.fls.doubleclick.net
+0.0.0.0 123-tracker.com
+0.0.0.0 20d625b48e.se
 0.0.0.0 050003.voodoo.com
 0.0.0.0 050005.voodoo.com
 0.0.0.0 101order.com
