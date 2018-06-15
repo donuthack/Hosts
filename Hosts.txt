@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 366
+#Number of ad services/trackers blocked: 374
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -70,6 +70,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 ads.bidvertiser.com
 0.0.0.0 awaps.yandex.ru
 0.0.0.0 yandex.ru
+0.0.0.0 api.segment.io
 0.0.0.0 ad.adnet.biz
 0.0.0.0 adnet.com.ua
 0.0.0.0 a1.admaster.net
@@ -244,6 +245,8 @@ IP-Grabber (IP Logger)
 0.0.0.0 count47.51yes.com
 0.0.0.0 count48.51yes.com
 0.0.0.0 cdn.krxd.net
+0.0.0.0 cdn.segment.com
+0.0.0.0 cdn.carbonads.com
 0.0.0.0 cdns.gigya.com
 0.0.0.0 casalemedia.com
 0.0.0.0 criteo.net
@@ -274,6 +277,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 dev.visualwebsiteoptimizer.com
 0.0.0.0 download.cdn.sharelive.net 
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
+0.0.0.0 d24n15hnbwhuhn.cloudfront.net
 
 #E
 0.0.0.0 edge.quantserve.com
@@ -314,6 +318,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.agkn.com
 0.0.0.0 js-sec.indexww.com
+0.0.0.0 js.honeybadger.io
 
 #K
 
@@ -425,6 +430,7 @@ IP-Grabber (IP Logger)
 
 #W
 0.0.0.0 wd.adcolony.com
+0.0.0.0 widget.intercom.io
 0.0.0.0 wblt.oui.sncf
 0.0.0.0 w.usabilla.com
 0.0.0.0 widgets.outbrain.com
