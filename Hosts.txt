@@ -227,7 +227,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 teksograd.ru
 0.0.0.0 tepix.ru
 0.0.0.0 test-traffic.narod.ru
-thehomelabs.ru
+0.0.0.0 thehomelabs.ru
 0.0.0.0 thesuperexchange.ru
 0.0.0.0 timedirect.ru
 0.0.0.0 tnk-sat.com
