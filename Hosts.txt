@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 258
+#Number of ad services/trackers blocked: 270
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -28,6 +28,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.facebook.com
 0.0.0.0 assets.adobedtm.com
 0.0.0.0 ads.twitter.com
+0.0.0.0 asset.pagefair.com
 0.0.0.0 analytics.twitter.com
 0.0.0.0 ap.lijit.com
 0.0.0.0 adobedtm.com
@@ -129,6 +130,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 affiliates.mature.eu
 0.0.0.0 ad-flow.com
 0.0.0.0 ad-host.com
+0.0.0.0 ado.pro-market.net
 0.0.0.0 adcounter.globeandmail.com
 0.0.0.0 adcounter.theglobeandmail.com
 0.0.0.0 ademails.com
@@ -177,6 +179,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clickkingdom.net
 0.0.0.0 cdnssl.clicktale.net
 0.0.0.0 cdn.krxd.net
+0.0.0.0 cdn.pushcrew.com
 
 #D
 0.0.0.0 dpm.demdex.net
@@ -190,6 +193,7 @@ ff02::3 ip6-allhosts
 #F
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fastlane.rubiconproject.com
+0.0.0.0 facebook.com/plugins/likebox.php
 0.0.0.0 floridat.app.ur.gcion.com
 
 #G
@@ -249,6 +253,7 @@ ff02::3 ip6-allhosts
 
 #R
 0.0.0.0 reports.crashlytics.com
+0.0.0.0 resources.infolinks.com
 0.0.0.0 rover.ebay.com
 0.0.0.0 rubiconproject.com
 0.0.0.0 rutube.ru
@@ -259,9 +264,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.criteo.net
+0.0.0.0 st.bebi.com
+0.0.0.0 secure.statcounter.com
 0.0.0.0 s10.histats.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 script.crazyegg.com
+0.0.0.0 secure.insightexpressai.com
 0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.chartbeat.com
@@ -288,10 +296,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 tags.tiqcdn.com
 0.0.0.0 tag.yoc-adserver.com
 0.0.0.0 tru.am
+0.0.0.0 tag.crsspxl.com
 0.0.0.0 testapp.adhood.com
 0.0.0.0 track.adrpanel.es
 0.0.0.0 trk.tracksys55.com
 0.0.0.0 trafficjunky.com
+0.0.0.0 tags.expo9.exponential.com
 0.0.0.0 todo-ta-g7g.amazon.com
 0.0.0.0 teamplayer-d.openx.net
 
@@ -302,7 +312,9 @@ ff02::3 ip6-allhosts
 
 #W
 0.0.0.0 wd.adcolony.com
+0.0.0.0 wcs.naver.net
 0.0.0.0 winprizesapp.com
+0.0.0.0 w.uptolike.com
 
 #X
 0.0.0.0 x.ligatus.com
