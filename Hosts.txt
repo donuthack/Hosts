@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 684
+#Number of ad services/trackers blocked: 685
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -719,6 +719,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 trends.revcontent.com
 0.0.0.0 try.abtasty.com
 0.0.0.0 tags.tiqcdn.com
+0.0.0.0 tags.bkrtx.com
 0.0.0.0 t1.softonicads.com
 0.0.0.0 t2.softonicads.com
 0.0.0.0 tag.yoc-adserver.com
