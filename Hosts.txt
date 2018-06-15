@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 345
+#Number of ad services/trackers blocked: 351
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -37,6 +37,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 freegiftcards.co
 0.0.0.0 disçordapp.com
 0.0.0.0 rëddït.com
+
+#IP Logger (Org)
+0.0.0.0 iplogger.org
+0.0.0.0 iplogger.com
+0.0.0.0 iplogger.ru
+0.0.0.0 2no.co
+0.0.0.0 yip.su
+
+#Blasze (IP Logger)
+0.0.0.0 blasze.tk
+
+#ps3CFW (IP Logger)
+0.0.0.0 ps3cfw.com
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
