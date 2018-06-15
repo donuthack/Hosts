@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 239
+#Number of ad services/trackers blocked: 250
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -154,6 +154,7 @@ ff02::3 ip6-allhosts
 
 #C
 0.0.0.0 cdn.krxd.net
+0.0.0.0 cbs.siteintercept.qualtrics.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
@@ -162,6 +163,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.segment.com
 0.0.0.0 chartboost.com
 0.0.0.0 cherryhi.app.ur.gcion.com
+0.0.0.0 cdn.optimizely.com
 0.0.0.0 directrev.cloudapp.net
 0.0.0.0 cde-ta-g7g.amazon.com
 0.0.0.0 c.go-mpulse.net
@@ -205,6 +207,7 @@ ff02::3 ip6-allhosts
 #J
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.agkn.com
+0.0.0.0 js-sec.indexww.com
 
 #K
 
@@ -216,10 +219,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 mobile.smartadserver.com
 0.0.0.0 merchantapp.com
 0.0.0.0 m.adnxs.com
+0.0.0.0 mtrx.go.sonobi.com
 0.0.0.0 media.net
 
 #N
 0.0.0.0 gwp.nuggad.net
+0.0.0.0 native.sharethrough.com
 
 #O
 0.0.0.0 widgets.outbrain.com
@@ -232,6 +237,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pt.trafficjunkey.net
 
 #Q
+0.0.0.0 qualtrics.com
 
 #R
 0.0.0.0 reports.crashlytics.com
@@ -245,6 +251,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 s10.histats.com
 0.0.0.0 secure-us.imrworldwide.com
+0.0.0.0 script.crazyegg.com
+0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.chartbeat.com
 0.0.0.0 script.rtbclick.net
@@ -298,6 +306,7 @@ ff02::3 ip6-allhosts
 #Z
 0.0.0.0 z.moatads.com
 0.0.0.0 zeit01.webtrekk.net
+0.0.0.0 zn_0xssfnnsxmogd01-cbs.siteintercept.qualtrics.com
 
 #Misc
 0.0.0.0 2542116.fls.doubleclick.net
