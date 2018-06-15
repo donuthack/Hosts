@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 229
+#Number of ad services/trackers blocked: 239
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -28,6 +28,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.facebook.com
 0.0.0.0 ads.twitter.com
 0.0.0.0 analytics.twitter.com
+0.0.0.0 ap.lijit.com
 0.0.0.0 admaster.de
 0.0.0.0 ads.aceweb.net
 0.0.0.0 advertise.bingads.microsoft.com
@@ -152,6 +153,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 banner-link.com.br
 
 #C
+0.0.0.0 cdn.krxd.net
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
 0.0.0.0 counter.yadro.ru
 0.0.0.0 cdn.optimizely.com
@@ -196,9 +200,11 @@ ff02::3 ip6-allhosts
 
 #I
 0.0.0.0 images-na.ssl-images-amazon.com
+0.0.0.0 imasdk.googleapis.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
+0.0.0.0 js.agkn.com
 
 #K
 
@@ -232,9 +238,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 rover.ebay.com
 0.0.0.0 rutube.ru
 0.0.0.0 req.appads.com
+0.0.0.0 r.nexac.com
 
 #S
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
+0.0.0.0 secure-us.imrworldwide.com
+0.0.0.0 s10.histats.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.chartbeat.com
@@ -258,7 +267,9 @@ ff02::3 ip6-allhosts
 
 #T
 0.0.0.0 trends.revcontent.com
+0.0.0.0 tags.tiqcdn.com
 0.0.0.0 tag.yoc-adserver.com
+0.0.0.0 tru.am
 0.0.0.0 testapp.adhood.com
 0.0.0.0 track.adrpanel.es
 0.0.0.0 trk.tracksys55.com
