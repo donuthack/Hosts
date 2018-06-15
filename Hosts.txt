@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 683
+#Number of ad services/trackers blocked: 684
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -697,6 +697,7 @@ thehomelabs.ru
 0.0.0.0 ssp.adriver.ru
 0.0.0.0 script.rtbclick.net
 0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 static.ads-twitter.com
 0.0.0.0 stats.pandora.com
 0.0.0.0 s7.addthis.com
 0.0.0.0 s95.research.de.com
