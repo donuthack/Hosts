@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 352
+#Number of ad services/trackers blocked: 366
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -45,6 +45,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 2no.co
 0.0.0.0 yip.su
 
+IP-Grabber (IP Logger)
+0.0.0.0 IP-Grabber.com
+
 #Blasze (IP Logger)
 0.0.0.0 blasze.tk
 
@@ -61,9 +64,12 @@ ff02::3 ip6-allhosts
 
 #A
 0.0.0.0 app-measurement.com
+0.0.0.0 an.yandex.ru
 0.0.0.0 ad.adriver.ru
 0.0.0.0 analytics.facebook.com
 0.0.0.0 ads.bidvertiser.com
+0.0.0.0 awaps.yandex.ru
+0.0.0.0 yandex.ru
 0.0.0.0 ad.adnet.biz
 0.0.0.0 adnet.com.ua
 0.0.0.0 a1.admaster.net
@@ -201,6 +207,7 @@ ff02::3 ip6-allhosts
 #B
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 b.ads1.msn.com
+0.0.0.0 browser-update.org
 0.0.0.0 b.6sc.co
 0.0.0.0 b.ads2.msads.net
 0.0.0.0 banner.casinotropez.com
@@ -242,7 +249,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 criteo.net
 0.0.0.0 cbs.siteintercept.qualtrics.com
 0.0.0.0 c.amazon-adsystem.com
-
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
 0.0.0.0 counter.yadro.ru
@@ -262,7 +268,10 @@ ff02::3 ip6-allhosts
 #D
 0.0.0.0 dpm.demdex.net
 0.0.0.0 d.ligatus.com
+0.0.0.0 dcinfos.abtasty.com
 0.0.0.0 dl.gameplaylabs.com
+0.0.0.0 datacollect6.abtasty.com
+0.0.0.0 dev.visualwebsiteoptimizer.com
 0.0.0.0 download.cdn.sharelive.net 
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 
@@ -290,6 +299,7 @@ ff02::3 ip6-allhosts
 
 #H
 0.0.0.0 hit1.hotlog.ru
+0.0.0.0 halc.iadvize.com
 0.0.0.0 hitcents.com
 0.0.0.0 hitcounter.ru
 0.0.0.0 hitfox.go2cloud.org
@@ -316,6 +326,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 merchantapp.com
 0.0.0.0 m.adnxs.com
 0.0.0.0 mtrx.go.sonobi.com
+0.0.0.0 mc.yandex.ru
 0.0.0.0 media.net
 
 #N
@@ -366,6 +377,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.chartbeat.com
+0.0.0.0 ssp.adriver.ru
 0.0.0.0 script.rtbclick.net
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 stats.pandora.com
@@ -387,6 +399,7 @@ ff02::3 ip6-allhosts
 
 #T
 0.0.0.0 trends.revcontent.com
+0.0.0.0 try.abtasty.com
 0.0.0.0 tags.tiqcdn.com
 0.0.0.0 t1.softonicads.com
 0.0.0.0 t2.softonicads.com
@@ -396,6 +409,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tag.crsspxl.com
 0.0.0.0 testapp.adhood.com
 0.0.0.0 track.adrpanel.es
+0.0.0.0 tns-counter.ru
 0.0.0.0 trk.tracksys55.com
 0.0.0.0 trafficjunky.com
 0.0.0.0 tags.expo9.exponential.com
@@ -411,6 +425,8 @@ ff02::3 ip6-allhosts
 
 #W
 0.0.0.0 wd.adcolony.com
+0.0.0.0 wblt.oui.sncf
+0.0.0.0 w.usabilla.com
 0.0.0.0 widgets.outbrain.com
 0.0.0.0 wcs.naver.net
 0.0.0.0 winprizesapp.com
@@ -423,6 +439,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 you2mail.com
 0.0.0.0 younglingsbcjzvozva.download
 0.0.0.0 your.365advert.com
+0.0.0.0 yastatic.net
 0.0.0.0 youradchoices.com
 
 #Z
