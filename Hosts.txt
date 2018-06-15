@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 270
+#Number of ad services/trackers blocked: 272
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -184,6 +184,7 @@ ff02::3 ip6-allhosts
 #D
 0.0.0.0 dpm.demdex.net
 0.0.0.0 d.ligatus.com
+0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 
 #E
 0.0.0.0 edge.quantserve.com
@@ -266,6 +267,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 static.criteo.net
 0.0.0.0 st.bebi.com
 0.0.0.0 secure.statcounter.com
+0.0.0.0 s.ntv.io
 0.0.0.0 s10.histats.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 script.crazyegg.com
@@ -312,6 +314,7 @@ ff02::3 ip6-allhosts
 
 #W
 0.0.0.0 wd.adcolony.com
+0.0.0.0 widgets.outbrain.com
 0.0.0.0 wcs.naver.net
 0.0.0.0 winprizesapp.com
 0.0.0.0 w.uptolike.com
