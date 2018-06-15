@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 250
+#Number of ad services/trackers blocked: 258
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
@@ -26,13 +26,17 @@ ff02::3 ip6-allhosts
 #A
 0.0.0.0 app-measurement.com
 0.0.0.0 analytics.facebook.com
+0.0.0.0 assets.adobedtm.com
 0.0.0.0 ads.twitter.com
 0.0.0.0 analytics.twitter.com
 0.0.0.0 ap.lijit.com
+0.0.0.0 adobedtm.com
 0.0.0.0 admaster.de
 0.0.0.0 ads.aceweb.net
+0.0.0.0 anrdoezrs.net
 0.0.0.0 advertise.bingads.microsoft.com
 0.0.0.0 ads.ad-center.com
+0.0.0.0 as-sec.casalemedia.com
 0.0.0.0 ads.160tracker.com
 0.0.0.0 ads.3d.com
 0.0.0.0 ads.1a-infosysteme.de
@@ -154,6 +158,9 @@ ff02::3 ip6-allhosts
 
 #C
 0.0.0.0 cdn.krxd.net
+0.0.0.0 cdns.gigya.com
+0.0.0.0 casalemedia.com
+0.0.0.0 criteo.net
 0.0.0.0 cbs.siteintercept.qualtrics.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 cdn.viglink.com
@@ -182,6 +189,7 @@ ff02::3 ip6-allhosts
 
 #F
 0.0.0.0 fls.doubleclick.net
+0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 floridat.app.ur.gcion.com
 
 #G
@@ -242,6 +250,7 @@ ff02::3 ip6-allhosts
 #R
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 rover.ebay.com
+0.0.0.0 rubiconproject.com
 0.0.0.0 rutube.ru
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
@@ -249,6 +258,7 @@ ff02::3 ip6-allhosts
 #S
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
 0.0.0.0 secure-us.imrworldwide.com
+0.0.0.0 static.criteo.net
 0.0.0.0 s10.histats.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 script.crazyegg.com
