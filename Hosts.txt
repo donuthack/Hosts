@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 688
+#Number of ad services/trackers blocked: 695
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -376,6 +376,7 @@ IP-Grabber (IP Logger)
 
 #A
 0.0.0.0 app-measurement.com
+0.0.0.0 a1.adform.net
 0.0.0.0 an.yandex.ru
 0.0.0.0 autolinkmaker.itunes.apple.com
 0.0.0.0 ad.adriver.ru
@@ -522,6 +523,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 browser-update.org
+0.0.0.0 bh.contextweb.com
 0.0.0.0 b.6sc.co
 0.0.0.0 b.ads2.msads.net
 0.0.0.0 banner.casinotropez.com
@@ -627,6 +629,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 images-na.ssl-images-amazon.com
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 img.admaster.net
+0.0.0.0 image5.pubmatic.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
@@ -657,9 +660,11 @@ IP-Grabber (IP Logger)
 0.0.0.0 widgets.outbrain.com
 0.0.0.0 o.aolcdn.com
 0.0.0.0 opensoftwareupdate.com 
+0.0.0.0 odr.mookie1.com
 
 #P
 0.0.0.0 pixel.rubiconproject.com
+0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 pub.weatherbug.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 profitboosterapp.com
@@ -686,6 +691,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.criteo.net
 0.0.0.0 st.bebi.com
+0.0.0.0 sync.1rx.io
 0.0.0.0 secure.statcounter.com
 0.0.0.0 s.ntv.io
 0.0.0.0 s10.histats.com
@@ -739,6 +745,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 teamplayer-d.openx.net
 
 #U
+0.0.0.0 us-u.openx.net
 
 #V
 0.0.0.0 video.plista.com
