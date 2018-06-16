@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 686
+#Number of ad services/trackers blocked: 688
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -377,6 +377,7 @@ IP-Grabber (IP Logger)
 #A
 0.0.0.0 app-measurement.com
 0.0.0.0 an.yandex.ru
+0.0.0.0 autolinkmaker.itunes.apple.com
 0.0.0.0 ad.adriver.ru
 0.0.0.0 analytics.facebook.com
 0.0.0.0 ads.bidvertiser.com
@@ -662,6 +663,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 pub.weatherbug.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 profitboosterapp.com
+0.0.0.0 p.skimresources.com
 0.0.0.0 proxy.softonicads.com
 0.0.0.0 pixel.wp.com
 0.0.0.0 pt.trafficjunkey.net
