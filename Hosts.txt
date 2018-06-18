@@ -778,8 +778,6 @@ IP-Grabber (IP Logger)
 0.0.0.0 ads.ninemsn.com.au
 0.0.0.0 ads.nj.com
 0.0.0.0 ads.nola.com
-
-
 0.0.0.0 app-measurement.com
 0.0.0.0 a1.adform.net
 0.0.0.0 an.yandex.ru
