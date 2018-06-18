@@ -740,7 +740,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 trk.tracksys55.com
 0.0.0.0 trafficjunky.com
 0.0.0.0 tags.expo9.exponential.com
-#todo-ta-g7g.amazon.com
+0.0.0.0 todo-ta-g7g.amazon.com
 0.0.0.0 teamplayer-d.openx.net
 
 #U
