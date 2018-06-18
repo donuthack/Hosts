@@ -416,7 +416,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 admaster.com.cn
 0.0.0.0 adocean.pl
 0.0.0.0 advertising.com
-0.0.0.0 admarvel.s3.amazonaws.com
+#admarvel.s3.amazonaws.com
 0.0.0.0 adforce.ru
 0.0.0.0 adcycle.com
 0.0.0.0 adcycle.everyone.net
@@ -565,7 +565,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 casalemedia.com
 0.0.0.0 criteo.net
 0.0.0.0 cbs.siteintercept.qualtrics.com
-0.0.0.0 c.amazon-adsystem.com
+#c.amazon-adsystem.com
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
 0.0.0.0 counter.yadro.ru
@@ -576,7 +576,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 cherryhi.app.ur.gcion.com
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 directrev.cloudapp.net
-0.0.0.0 cde-ta-g7g.amazon.com
+#cde-ta-g7g.amazon.com
 0.0.0.0 c.go-mpulse.net
 0.0.0.0 clickkingdom.net
 0.0.0.0 cdnssl.clicktale.net
@@ -625,7 +625,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 honolulu.app.ur.gcion.com
 
 #I
-0.0.0.0 images-na.ssl-images-amazon.com
+#images-na.ssl-images-amazon.com
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 img.admaster.net
 0.0.0.0 image5.pubmatic.com
@@ -720,7 +720,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 s.skimresources.com
 0.0.0.0 secure.quantserve.com
-0.0.0.0 s.amazon-adsystem.com
+#s.amazon-adsystem.com
 0.0.0.0 static.hotjar.com
 
 #T
@@ -740,7 +740,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 trk.tracksys55.com
 0.0.0.0 trafficjunky.com
 0.0.0.0 tags.expo9.exponential.com
-0.0.0.0 todo-ta-g7g.amazon.com
+#todo-ta-g7g.amazon.com
 0.0.0.0 teamplayer-d.openx.net
 
 #U
