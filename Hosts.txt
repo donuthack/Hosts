@@ -1048,7 +1048,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 honolulu.app.ur.gcion.com
 
 #I
-#images-na.ssl-images-amazon.com
+0.0.0.0 images-na.ssl-images-amazon.com
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 img.admaster.net
 0.0.0.0 image5.pubmatic.com
