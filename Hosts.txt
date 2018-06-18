@@ -1143,7 +1143,6 @@ IP-Grabber (IP Logger)
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 s.skimresources.com
 0.0.0.0 secure.quantserve.com
-0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 static.hotjar.com
 
 #T
