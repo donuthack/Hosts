@@ -481,7 +481,6 @@ IP-Grabber (IP Logger)
 0.0.0.0 adimg.uimserv.net
 0.0.0.0 adimg1.chosun.com
 0.0.0.0 adimgs.sapo.pt
-
 0.0.0.0 admailtiser.com
 0.0.0.0 adman.gr
 0.0.0.0 adman.otenet.gr
@@ -943,6 +942,7 @@ IP-Grabber (IP Logger)
 
 #B
 0.0.0.0 b.scorecardresearch.com
+0.0.0.0 banner.chat.ru
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 browser-update.org
 0.0.0.0 bh.contextweb.com
@@ -1144,6 +1144,65 @@ IP-Grabber (IP Logger)
 0.0.0.0 secure.quantserve.com
 0.0.0.0 static.hotjar.com
 0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 srwww1.com
+0.0.0.0 starffa.com
+0.0.0.0 start.freeze.com
+0.0.0.0 stat.cliche.se
+0.0.0.0 stat.dealtime.com
+0.0.0.0 stat.dyna.ultraweb.hu
+0.0.0.0 stat.pl
+0.0.0.0 stat.webmedia.pl
+0.0.0.0 stat.zenon.net
+0.0.0.0 stat24.com
+0.0.0.0 stat24.meta.ua
+0.0.0.0 statcounter.com
+0.0.0.0 static.fmpub.net
+0.0.0.0 static.itrack.it
+0.0.0.0 staticads.btopenworld.com
+0.0.0.0 statistik-gallup.net
+0.0.0.0 statm.the-adult-company.com
+0.0.0.0 stats.blogger.com
+0.0.0.0 stats.directnic.com
+0.0.0.0 stats.hyperinzerce.cz
+0.0.0.0 stats.merriam-webster.com
+0.0.0.0 stats.mirrorfootball.co.uk
+0.0.0.0 stats.olark.com
+0.0.0.0 stats.pusher.com
+0.0.0.0 stats.self.com
+0.0.0.0 stats.townnews.com
+0.0.0.0 stats.unwired-i.net
+0.0.0.0 stats.wordpress.com
+0.0.0.0 stats.x14.eu
+0.0.0.0 stats2.self.com
+0.0.0.0 stats4all.com
+0.0.0.0 statsie.com
+0.0.0.0 statxpress.com
+0.0.0.0 steelhouse.com
+0.0.0.0 steelhousemedia.com
+0.0.0.0 stickyadstv.com
+0.0.0.0 storesurprise.com
+0.0.0.0 stormyachiever.com
+0.0.0.0 stormyshock.com
+0.0.0.0 stormysponge.com
+0.0.0.0 straightnest.com
+0.0.0.0 stream4fun.com
+0.0.0.0 strivesidewalk.com
+0.0.0.0 subscribe.hearstmags.com
+0.0.0.0 succeedscene.com
+0.0.0.0 sugoicounter.com
+0.0.0.0 sumo.com
+0.0.0.0 sumome.com
+0.0.0.0 superclix.de
+0.0.0.0 superficialsink.com
+0.0.0.0 superstats.com
+0.0.0.0 supertop.ru
+0.0.0.0 supertop100.com
+0.0.0.0 surfmusik-adserver.de
+0.0.0.0 swan-swan-goose.com
+0.0.0.0 switchadhub.com
+0.0.0.0 switchads.com
+0.0.0.0 swordfishdc.com
+0.0.0.0 sx.trhnt.com
 
 #T
 0.0.0.0 trends.revcontent.com
@@ -1165,13 +1224,41 @@ IP-Grabber (IP Logger)
 0.0.0.0 todo-ta-g7g.amazon.com
 0.0.0.0 teamplayer-d.openx.net
 
+
 #U
 0.0.0.0 us-u.openx.net
+0.0.0.0 uarating.com
+0.0.0.0 ukbanners.com
+0.0.0.0 ultimateclixx.com
+0.0.0.0 ultramercial.com
+0.0.0.0 unarmedindustry.com
+0.0.0.0 undertone.com
+0.0.0.0 unknowntray.com
+0.0.0.0 unrulymedia.com
+0.0.0.0 untd.com
+0.0.0.0 unusualtitle.com
+0.0.0.0 urlcash.net
+0.0.0.0 us.a1.yimg.com
+0.0.0.0 usapromotravel.com
+0.0.0.0 useriq.com
+0.0.0.0 userreplay.com
+0.0.0.0 userreplay.net
+0.0.0.0 utarget.co.uk
+0.0.0.0 utils.mediageneral.net
 
 #V
 0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
 0.0.0.0 visitor-track.com
+0.0.0.0 visit.webhosting.yahoo.com
+0.0.0.0 visitbox.de
+0.0.0.0 visitpath.com
+0.0.0.0 visual-pagerank.fr
+0.0.0.0 visualrevenue.com
+0.0.0.0 vmmpxl.com
+0.0.0.0 voicefive.com
+0.0.0.0 voicevegetable.com
+0.0.0.0 vpon.com
 
 #W
 0.0.0.0 wd.adcolony.com
@@ -1182,6 +1269,25 @@ IP-Grabber (IP Logger)
 0.0.0.0 wcs.naver.net
 0.0.0.0 winprizesapp.com
 0.0.0.0 w.uptolike.com
+0.0.0.0 webmasterplan.de
+0.0.0.0 weborama.fr
+0.0.0.0 webpower.com
+0.0.0.0 webreseau.com
+0.0.0.0 webseoanalytics.com
+0.0.0.0 websponsors.com
+0.0.0.0 webstat.channel4.com
+0.0.0.0 whispa.com
+0.0.0.0 whoisonline.net
+0.0.0.0 wholesaletraffic.info
+0.0.0.0 widdit.com
+0.0.0.0 widespace.com
+0.0.0.0 widgetbucks.com
+0.0.0.0 wikia-ads.wikia.com
+0.0.0.0 window.nixnet.cz
+0.0.0.0 wintricksbanner.googlepages.com
+0.0.0.0 wisepops.com
+0.0.0.0 woopra.com
+0.0.0.0 worldwide-cash.net
 
 #X
 0.0.0.0 x.ligatus.com
