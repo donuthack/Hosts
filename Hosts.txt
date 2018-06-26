@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,218
+#Number of ad services/trackers blocked: 1,260
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1082,6 +1082,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 o.aolcdn.com
 0.0.0.0 opensoftwareupdate.com 
 0.0.0.0 odr.mookie1.com
+0.0.0.0 stats.olark.com
 
 #P
 0.0.0.0 pixel.rubiconproject.com
