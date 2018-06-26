@@ -1291,6 +1291,20 @@ IP-Grabber (IP Logger)
 
 #X
 0.0.0.0 x.ligatus.com
+0.0.0.0 x-traceur.com
+0.0.0.0 x6.yakiuchi.com
+0.0.0.0 xchange.ro
+0.0.0.0 xclicks.net
+0.0.0.0 xertive.com
+0.0.0.0 xg4ken.com
+0.0.0.0 xiti.com
+0.0.0.0 xplusone.com
+0.0.0.0 xponsor.com
+0.0.0.0 xq1.net
+0.0.0.0 xtendmedia.com
+0.0.0.0 xtremetop100.com
+0.0.0.0 xxxcounter.com
+0.0.0.0 xxxmyself.com
 
 #Y
 0.0.0.0 you2mail.com
@@ -1298,11 +1312,38 @@ IP-Grabber (IP Logger)
 0.0.0.0 your.365advert.com
 0.0.0.0 yastatic.net
 0.0.0.0 youradchoices.com
+0.0.0.0 y.ibsys.com
+0.0.0.0 yab-adimages.s3.amazonaws.com
+0.0.0.0 yabuka.com
+0.0.0.0 yadro.ru
+0.0.0.0 yesads.com
+0.0.0.0 yesadvertising.com
+0.0.0.0 yieldads.com
+0.0.0.0 yieldlab.net
+0.0.0.0 yieldmanager.com
+0.0.0.0 yieldmanager.net
+0.0.0.0 yieldmo.com
+0.0.0.0 yieldtraffic.com
+0.0.0.0 yldbt.com
+0.0.0.0 yoggrt.com
 
 #Z
 0.0.0.0 z.moatads.com
 0.0.0.0 zeit01.webtrekk.net
 0.0.0.0 zn_0xssfnnsxmogd01-cbs.siteintercept.qualtrics.com
+0.0.0.0 z5x.net
+0.0.0.0 zangocash.com
+0.0.0.0 zanox-affiliate.de
+0.0.0.0 zanox.com
+0.0.0.0 zantracker.com
+0.0.0.0 zedo.com
+0.0.0.0 zencudo.co.uk
+0.0.0.0 zenkreka.com
+0.0.0.0 zenzuu.com
+0.0.0.0 zeus.developershed.com
+0.0.0.0 zeusclicks.com
+0.0.0.0 zmedia.com
+0.0.0.0 zqtk.net
 
 #Misc
 0.0.0.0 2542116.fls.doubleclick.net
