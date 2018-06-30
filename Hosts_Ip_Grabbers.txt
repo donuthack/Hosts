@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Grabify (IP Logger) Trackers
+#Grabify
 0.0.0.0 grabify.link
 0.0.0.0 bmwforum.co
 0.0.0.0 leancoding.co
@@ -43,11 +43,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 2no.co
 0.0.0.0 yip.su
 
-IP-Grabber (IP Logger)
+IP-Grabber
 0.0.0.0 IP-Grabber.com
 
-#Blasze (IP Logger)
+#Blasze
 0.0.0.0 blasze.tk
 
-#ps3CFW (IP Logger)
+#ps3CFW
 0.0.0.0 ps3cfw.com
+
+#Whats Their IP
+0.0.0.0 youramonkey.com
+0.0.0.0 whatstheirip.com
