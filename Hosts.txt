@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,273
+#Number of ad services/trackers blocked: 1,275
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -44,6 +44,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 iplogger.ru
 0.0.0.0 2no.co
 0.0.0.0 yip.su
+
+#Whats Their IP
+0.0.0.0 youramonkey.com
+0.0.0.0 whatstheirip.com
 
 IP-Grabber (IP Logger)
 0.0.0.0 IP-Grabber.com
