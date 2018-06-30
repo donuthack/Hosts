@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,274
+#Number of ad services/trackers blocked: 1,273
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1142,7 +1142,6 @@ IP-Grabber (IP Logger)
 0.0.0.0 secure.statcounter.com
 0.0.0.0 s.ntv.io
 0.0.0.0 s10.histats.com
-0.0.0.0 s.yimg.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 script.crazyegg.com
 0.0.0.0 secure.insightexpressai.com
