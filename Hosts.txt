@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,260
+#Number of ad services/trackers blocked: 1,262
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -61,6 +61,30 @@ IP-Grabber (IP Logger)
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 mtalk.google.com
+
+#Keylogger Downloads (Updated Ones Go Here)
+0.0.0.0 filesriver.com/download-file-2/272/refog-free-keylogger/312
+0.0.0.0 refog.com
+0.0.0.0 free-keylogger.en.softonic.com
+0.0.0.0 mobistealth.com
+0.0.0.0 raymond.cc/blog/download/did/1464
+0.0.0.0 raymond.cc/blog/download/did/1462
+0.0.0.0 raymond.cc/blog/download/did/1460
+0.0.0.0 raymond.cc/blog/download/did/1461
+0.0.0.0 raymond.cc/blog/download/did/1459
+0.0.0.0 raymond.cc/blog/download/did/1458
+0.0.0.0 raymond.cc/blog/download/did/1456
+0.0.0.0 raymond.cc/blog/download/did/1457
+0.0.0.0 raymond.cc/blog/download/did/1455
+0.0.0.0 actualkeylogger.com
+0.0.0.0 kmint21.com
+0.0.0.0 logixoft.com
+0.0.0.0 kidlogger.net
+0.0.0.0 webwatcher.com
+0.0.0.0 ardamax.com
+0.0.0.0 mspy.com
+0.0.0.0 windowskeyloggers.com
+0.0.0.0 spyrix.com
 
 #Malware Domains
 0.0.0.0 textspeier.de
@@ -1027,6 +1051,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 facebook.com/plugins/likebox.php
 0.0.0.0 floridat.app.ur.gcion.com
+0.0.0.0 freewarefreedownload.com
 
 #G
 0.0.0.0 googleadservices.com
