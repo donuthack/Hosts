@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,273
+#Number of ad services/trackers blocked: 1,274
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1351,6 +1351,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 yieldmo.com
 0.0.0.0 yieldtraffic.com
 0.0.0.0 yldbt.com
+0.0.0.0 yimg.com
 0.0.0.0 yoggrt.com
 
 #Z
