@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,275
+#Number of ad services/trackers blocked: 1,277
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -57,6 +57,11 @@ IP-Grabber (IP Logger)
 
 #ps3CFW (IP Logger)
 0.0.0.0 ps3cfw.com
+
+#IP Stack ("Locate and identify website visitors by IP address")
+0.0.0.0 freegeoip.net
+0.0.0.0 ipstack.com
+0.0.0.0 ipstack.net
 
 #Keep Google from constantly checking on you
 0.0.0.0 clients1.google.com
