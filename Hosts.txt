@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,278
+#Number of ad services/trackers blocked: 1,280
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -94,6 +94,50 @@ IP-Grabber (IP Logger)
 0.0.0.0 mspy.com
 0.0.0.0 windowskeyloggers.com
 0.0.0.0 spyrix.com
+
+#Email Scam/Scam IP Addresses
+0.0.0.0 203.128.2.71 #"New Way to Track Text Messages, GPS, and More" Email
+0.0.0.0 91.82.220.48 #"$175.92* For 6 Mo (Your Email Here) OF Auto lnsurance??"+"APPLY DRIVE. Cailebmurphy GET A $500 BONUS.."
+0.0.0.0 173.247.231.102 #"Please Confirm: Do you want to Subscribe Or Unsubscribe?"
+0.0.0.0 38.135.33.18 #"Find Your Perfect Latina Match"
+0.0.0.0 91.82.220.48 #"Attn:(Your Email Here) Your Pending Application.."
+0.0.0.0 31.202.149.126 #"Who's Texting Your Wife?"
+0.0.0.0 45.221.118.17 #"$100 free chip no deposit required" (People Search)
+0.0.0.0 45.221.119.220 #"Who's Texting Your Partner?" (People Search)
+0.0.0.0 5.175.247.87 #"Track an iPhone or Android without Phone Access"
+0.0.0.0 46.3.45.156 #"$100 free chip no deposit required"
+0.0.0.0 91.82.220.48 #"{(Your Email Name Here)}, Dentists that ACCEPT your dental plan in Your City"
+0.0.0.0 45.221.101.224 #"The Original XT808 Flashlight, Now Free!"
+0.0.0.0 195.88.174.61 #"Are You [(Your Email Name Here)] ??"
+0.0.0.0 46.3.36.161 #"$100 free chip no deposit required"
+0.0.0.0 46.3.32.184 #"$100 free chip no deposit required"
+0.0.0.0 136.243.13.164 #"-do I know you? (Your Email Here) ??"
+0.0.0.0 153.149.233.23 #"Dear Beneficiary"
+0.0.0.0 208.110.72.122 #"Program Her Brain To Chase You Into Bed"
+0.0.0.0 190.2.143.26 #"Program Her Brain To Chase You Into Bed"
+0.0.0.0 195.154.37.183 #"-L00king_for_something_discreet?"
+0.0.0.0 176.31.117.18 #"Re: Is it possible to be contacted?"
+0.0.0.0 108.61.60.74 #"why?"
+0.0.0.0 74.208.46.77  #"July HVAC Specials- Cut Your Electric Bill up to 60%" (Gmail Says This Was Used To Steal people's Personal Info)
+0.0.0.0 185.229.115.213 #"Is your partner cheating? Find out today"
+0.0.0.0 45.221.118.111 #"How To Spy on SMS, Call Logs, GPS, and More"
+0.0.0.0 5.231.122.46 #"The Only Site that Gets You A Girl"
+0.0.0.0 81.128.197.223 #"Don't ignore this (Your Email Name Here)"
+0.0.0.0 31.214.241.234 #"(Your Email Name Here), MaKe LiFe EaSiEr WiTh A pErSoNal lOaN"
+0.0.0.0 109.201.140.118 #"Find Your Love Matches for Free on eHarmony"
+0.0.0.0 195.154.106.28 #"**Someone_has_unlocked_their_private_photo's_for_you**"
+0.0.0.0 5.175.250.83 #"We'vE GoT a LimiteD OfFeR JusT FoR yoU, FrienD"
+0.0.0.0 212.83.145.139 #"Don't_spend_Saturday_night_alone-Match_Seniors"
+0.0.0.0 5.230.167.227 #"Boost Testosterone, Support Prostate Health | Free Trial Offer"
+0.0.0.0 46.3.39.129 #"The Original XT808 Flashlight, Now Free!"
+0.0.0.0 45.221.117.238 #"The Original XT808 Flashlight, Now Free!"
+0.0.0.0 46.3.36.172 #"$100 free chip no deposit required"
+0.0.0.0 94.249.171.201 #"How To Spy on SMS, Call Logs, GPS, and More"
+0.0.0.0 162.144.42.191 #"How To Look Up Your Ex And Peek Into Their Life"
+0.0.0.0 46.3.38.72 #"$25 FREE CHIP To Play in Our Casino."
+0.0.0.0 45.221.127.138 #"Who's Texting Your Partner?"
+0.0.0.0 45.58.115.170 #"Re: unsubscribe NOW*..*"
+0.0.0.0 216.127.138.111 #"Just to Say Hello"
 
 #Malware Domains
 0.0.0.0 liceulogoga.ro #Suspicious Traffic
@@ -1016,6 +1060,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 count46.51yes.com
 0.0.0.0 count47.51yes.com
 0.0.0.0 count48.51yes.com
+0.0.0.0 collector.githubapp.com
 0.0.0.0 cdn.krxd.net
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.carbonads.com
