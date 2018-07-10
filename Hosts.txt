@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,300
+#Number of ad services/trackers blocked: 1,320
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -144,7 +144,7 @@ IP-Grabber (IP Logger)
 #208.110.72.122
 0.0.0.0 youarewinners.com
 
-#190.2.143.26
+#190.2.143.26 + 190.2.143.30
 0.0.0.0 rightsorganisation.com
 
 #195.154.37.183
@@ -215,6 +215,9 @@ IP-Grabber (IP Logger)
 
 #216.127.138.111
 0.0.0.0 vsb.recentshopping.com 
+
+#178.221.98.33
+0.0.0.0 178-221-98-33.dynamic.isp.telekom.rs
 
 #Malware Domains
 0.0.0.0 liceulogoga.ro #Suspicious Traffic
