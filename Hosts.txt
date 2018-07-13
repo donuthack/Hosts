@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,320
+#Number of ad services/trackers blocked: 1,322
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1148,6 +1148,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 casalemedia.com
 0.0.0.0 criteo.net
 0.0.0.0 cbs.siteintercept.qualtrics.com
+0.0.0.0 cellphoneapplicationminesoft.win
 #c.amazon-adsystem.com
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
@@ -1251,6 +1252,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 pub.weatherbug.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 profitboosterapp.com
+0.0.0.0 play.bestapp.com
 0.0.0.0 p.skimresources.com
 0.0.0.0 proxy.softonicads.com
 0.0.0.0 pixel.wp.com
