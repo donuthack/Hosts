@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,331
+#Number of ad services/trackers blocked: 1,332
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1191,6 +1191,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 edge.quantserve.com
 0.0.0.0 e.crashlytics.com
 0.0.0.0 enter.sexlist.com
+0.0.0.0 events.evie.com
 
 #F
 0.0.0.0 fls.doubleclick.net
