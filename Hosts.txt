@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,322
+#Number of ad services/trackers blocked: 1,330
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -220,8 +220,16 @@ IP-Grabber (IP Logger)
 0.0.0.0 178-221-98-33.dynamic.isp.telekom.rs
 
 #Malware Domains
-0.0.0.0 liceulogoga.ro #Suspicious Traffic
+0.0.0.0 liceulogoga.ro
+0.0.0.0 a46.bulehero.in
+0.0.0.0 http://91.210.104.247
+0.0.0.0 clairevaessen.nl
+0.0.0.0 cluster006.ovh.net
 0.0.0.0 textspeier.de
+0.0.0.0 cryptovoip.in
+0.0.0.0 webproj.com.br
+0.0.0.0 dirkon.pserver.ru
+0.0.0.0 biznetvigator.cf
 0.0.0.0 zuricco.opx.pl
 0.0.0.0 photoscape.ch
 0.0.0.0 sarahdaniella.com
