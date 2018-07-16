@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,340
+#Number of ad services/trackers blocked: 1,360
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -94,6 +94,9 @@ IP-Grabber (IP Logger)
 0.0.0.0 mspy.com
 0.0.0.0 windowskeyloggers.com
 0.0.0.0 spyrix.com
+
+#Fake Tech Support
+0.0.0.0 server4.getitgadgets.info
 
 #Email Spam/Scam Websites (Includes IP Address Of The Sender)
 #203.128.2.71
@@ -542,6 +545,11 @@ IP-Grabber (IP Logger)
 0.0.0.0 5thcongress.iribs.org
 0.0.0.0 7alati.com
 
+#Possibly Dangerous
+0.0.0.0 universalfwding.com
+0.0.0.0 clickconfirmation.com
+0.0.0.0 quickdomainfwd.com
+0.0.0.0 xml.onwardclick.com
 
 #A
 0.0.0.0 actualdeals.com
@@ -1116,6 +1124,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 banner.chat.ru
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 browser-update.org
+0.0.0.0 bestfwdservice.com
 0.0.0.0 bh.contextweb.com
 0.0.0.0 b.6sc.co
 0.0.0.0 b.ads2.msads.net
@@ -1170,6 +1179,8 @@ IP-Grabber (IP Logger)
 0.0.0.0 cdn.mouseflow.com
 0.0.0.0 chartboost.com
 0.0.0.0 cherryhi.app.ur.gcion.com
+0.0.0.0 chip.de
+0.0.0.0 cdn3.optimizely.com
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 directrev.cloudapp.net
 #cde-ta-g7g.amazon.com
@@ -1182,6 +1193,8 @@ IP-Grabber (IP Logger)
 #D
 0.0.0.0 dpm.demdex.net
 0.0.0.0 d.ligatus.com
+0.0.0.0 dsparking.com
+0.0.0.0 dp.g.doubleclick.net
 0.0.0.0 dcinfos.abtasty.com
 0.0.0.0 dl.gameplaylabs.com
 0.0.0.0 datacollect6.abtasty.com
@@ -1201,6 +1214,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 facebook.com/plugins/likebox.php
 0.0.0.0 freenom.link
+0.0.0.0 flexytalk.net
 0.0.0.0 floridat.app.ur.gcion.com
 0.0.0.0 freewarefreedownload.com
 
@@ -1246,6 +1260,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 merchantapp.com
 0.0.0.0 m.adnxs.com
 0.0.0.0 mtrx.go.sonobi.com
+0.0.0.0 media.msg.dotomi.com
 0.0.0.0 mc.yandex.ru
 0.0.0.0 media.net
 
@@ -1267,6 +1282,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 pub.weatherbug.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 profitboosterapp.com
+0.0.0.0 park.above.com
 0.0.0.0 play.bestapp.com
 0.0.0.0 p.skimresources.com
 0.0.0.0 proxy.softonicads.com
@@ -1276,6 +1292,7 @@ IP-Grabber (IP Logger)
 
 #Q
 0.0.0.0 qualtrics.com
+0.0.0.0 qfind.net
 
 #R
 0.0.0.0 reports.crashlytics.com
@@ -1291,6 +1308,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.yieldmo.com
+0.0.0.0 securetoolext.com
 0.0.0.0 spoxy-shard4.spot.im
 0.0.0.0 static.criteo.net
 0.0.0.0 st.bebi.com
@@ -1300,6 +1318,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 s10.histats.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 script.crazyegg.com
+0.0.0.0 script.ioam.de
 0.0.0.0 secure.insightexpressai.com
 0.0.0.0 0.0.0.0 s.adexpert.cz
 0.0.0.0 siteintercept.qualtrics.com
@@ -1351,6 +1370,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 stats.pusher.com
 0.0.0.0 stats.self.com
 0.0.0.0 stats.townnews.com
+0.0.0.0 searchinquire.com
 0.0.0.0 stats.unwired-i.net
 0.0.0.0 stats.wordpress.com
 0.0.0.0 stats.x14.eu
@@ -1409,6 +1429,7 @@ IP-Grabber (IP Logger)
 #U
 0.0.0.0 us-u.openx.net
 0.0.0.0 uarating.com
+0.0.0.0 ublock.org
 0.0.0.0 ukbanners.com
 0.0.0.0 ultimateclixx.com
 0.0.0.0 ultramercial.com
@@ -1435,6 +1456,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 visitbox.de
 0.0.0.0 visitpath.com
 0.0.0.0 visual-pagerank.fr
+0.0.0.0 vlc.de
 0.0.0.0 visualrevenue.com
 0.0.0.0 vmmpxl.com
 0.0.0.0 voicefive.com
@@ -1456,6 +1478,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 webreseau.com
 0.0.0.0 webseoanalytics.com
 0.0.0.0 websponsors.com
+0.0.0.0 ww2.qfind.net
 0.0.0.0 webstat.channel4.com
 0.0.0.0 whispa.com
 0.0.0.0 whoisonline.net
