@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,335
+#Number of ad services/trackers blocked: 1,340
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -597,6 +597,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 adboost.net
 0.0.0.0 adbooth.net
 0.0.0.0 adbot.com
+0.0.0.0 app-cdn.spot.im
 0.0.0.0 adbrite.com
 0.0.0.0 adbrn.com
 0.0.0.0 adbroker.de
@@ -1237,6 +1238,7 @@ IP-Grabber (IP Logger)
 
 #L
 0.0.0.0 lt500.tritondigital.com
+0.0.0.0 launcher.spot.im
 
 #M
 0.0.0.0 munchkin.marketo.net
@@ -1270,6 +1272,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 proxy.softonicads.com
 0.0.0.0 pixel.wp.com
 0.0.0.0 pt.trafficjunkey.net
+0.0.0.0 pix.spot.im
 
 #Q
 0.0.0.0 qualtrics.com
@@ -1287,6 +1290,8 @@ IP-Grabber (IP Logger)
 #S
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
 0.0.0.0 secure-us.imrworldwide.com
+0.0.0.0 static.yieldmo.com
+0.0.0.0 spoxy-shard4.spot.im
 0.0.0.0 static.criteo.net
 0.0.0.0 st.bebi.com
 0.0.0.0 sync.1rx.io
