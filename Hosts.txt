@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,333
+#Number of ad services/trackers blocked: 1,335
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -221,6 +221,7 @@ IP-Grabber (IP Logger)
 
 #Malware Domains
 0.0.0.0 liceulogoga.ro
+0.0.0.0 pceqvirus.xyz
 0.0.0.0 a46.bulehero.in
 0.0.0.0 http://213.186.33.17
 0.0.0.0 http://91.210.104.247
@@ -1198,6 +1199,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 facebook.com/plugins/likebox.php
+0.0.0.0 freenom.link
 0.0.0.0 floridat.app.ur.gcion.com
 0.0.0.0 freewarefreedownload.com
 
