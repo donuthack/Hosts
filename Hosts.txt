@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,323
+#Number of ad services/trackers blocked: 1,324
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1171,7 +1171,6 @@ IP-Grabber (IP Logger)
 0.0.0.0 criteo.net
 0.0.0.0 cbs.siteintercept.qualtrics.com
 0.0.0.0 cellphoneapplicationminesoft.win
-#c.amazon-adsystem.com
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
 0.0.0.0 counter.yadro.ru
@@ -1184,7 +1183,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 cdn3.optimizely.com
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 directrev.cloudapp.net
-#cde-ta-g7g.amazon.com
+0.0.0.0 assets.customer.io
 0.0.0.0 c.go-mpulse.net
 0.0.0.0 clickkingdom.net
 0.0.0.0 cdnssl.clicktale.net
