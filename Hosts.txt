@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,329
+#Number of ad services/trackers blocked: 1,325
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1174,9 +1174,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 cellphoneapplicationminesoft.win
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
-0.0.0.0 cnzz.com
 0.0.0.0 counter.yadro.ru
-0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.mouseflow.com
@@ -1275,8 +1273,7 @@ IP-Grabber (IP Logger)
 #O
 0.0.0.0 widgets.outbrain.com
 0.0.0.0 o.aolcdn.com
-0.0.0.0 opensoftwareupdate.com
-0.0.0.0 onesignal.com
+0.0.0.0 opensoftwareupdate.com 
 0.0.0.0 odr.mookie1.com
 0.0.0.0 stats.olark.com
 
@@ -1322,10 +1319,9 @@ IP-Grabber (IP Logger)
 0.0.0.0 s10.histats.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 script.crazyegg.com
-0.0.0.0 s11.cnzz.com
 0.0.0.0 script.ioam.de
 0.0.0.0 secure.insightexpressai.com
-0.0.0.0 s.adexpert.cz
+0.0.0.0 0.0.0.0 s.adexpert.cz
 0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 static.doubleclick.net
 0.0.0.0 static.chartbeat.com
