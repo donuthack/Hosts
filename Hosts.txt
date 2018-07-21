@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,325
+#Number of ad services/trackers blocked: 1,328
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1224,6 +1224,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
 0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 google.com/ads
 0.0.0.0 gameplaylabs.com
 0.0.0.0 get.whitesmoke.com
 0.0.0.0 graph.facebook.com
@@ -1310,6 +1311,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 securetoolext.com
+0.0.0.0 s0.2mdn.net
 0.0.0.0 spoxy-shard4.spot.im
 0.0.0.0 static.criteo.net
 0.0.0.0 st.bebi.com
@@ -1408,6 +1410,7 @@ IP-Grabber (IP Logger)
 
 #T
 0.0.0.0 trends.revcontent.com
+0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 try.abtasty.com
 0.0.0.0 tags.tiqcdn.com
 0.0.0.0 tags.bkrtx.com
