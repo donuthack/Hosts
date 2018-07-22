@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,346
+#Number of ad services/trackers blocked: 1,349
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -554,6 +554,7 @@ IP-Grabber (IP Logger)
 #A
 0.0.0.0 actualdeals.com
 0.0.0.0 actuallysheep.com
+0.0.0.0 app-sj01.marketo.com
 0.0.0.0 acuityads.com
 0.0.0.0 acuty1adsrv.com
 0.0.0.0 ad-balancer.at
@@ -1133,6 +1134,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 banner.casinotropez.com
 0.0.0.0 bat.bing.com
 0.0.0.0 banner-link.com.br
+0.0.0.0 bam.nr-data.net
 
 #C
 0.0.0.0 count3.51yes.com
@@ -1328,6 +1330,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search or Yahoo Mail
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.yieldmo.com
+0.0.0.0 s3.amazonaws.com
 0.0.0.0 securetoolext.com
 0.0.0.0 s0.2mdn.net
 0.0.0.0 spoxy-shard4.spot.im
