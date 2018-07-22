@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,328
+#Number of ad services/trackers blocked: 1,346
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -1218,12 +1218,14 @@ IP-Grabber (IP Logger)
 0.0.0.0 flexytalk.net
 0.0.0.0 floridat.app.ur.gcion.com
 0.0.0.0 freewarefreedownload.com
+0.0.0.0 feedads.googleadservices.com
 
 #G
 0.0.0.0 googleadservices.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
 0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googlewordpad.info
 0.0.0.0 google.com/ads
 0.0.0.0 gameplaylabs.com
 0.0.0.0 get.whitesmoke.com
@@ -1259,7 +1261,19 @@ IP-Grabber (IP Logger)
 #M
 0.0.0.0 munchkin.marketo.net
 0.0.0.0 mobile.smartadserver.com
+0.0.0.0 m4.afs.googleadservices.com
 0.0.0.0 merchantapp.com
+0.0.0.0 mimageads.googleadservices.com
+0.0.0.0 mimageads1.googleadservices.com
+0.0.0.0 mimageads2.googleadservices.com
+0.0.0.0 mimageads3.googleadservices.com
+0.0.0.0 mimageads4.googleadservices.com
+0.0.0.0 mimageads5.googleadservices.com
+0.0.0.0 mimageads6.googleadservices.com
+0.0.0.0 mimageads7.googleadservices.com
+0.0.0.0 mimageads8.googleadservices.com
+0.0.0.0 mimageads9.googleadservices.com
+0.0.0.0 mpartner.googleadservices.com
 0.0.0.0 m.adnxs.com
 0.0.0.0 mtrx.go.sonobi.com
 0.0.0.0 media.msg.dotomi.com
@@ -1282,7 +1296,10 @@ IP-Grabber (IP Logger)
 0.0.0.0 pixel.rubiconproject.com
 0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 pub.weatherbug.com
+0.0.0.0 pagead.googlesyndication
+0.0.0.0 pagead1.googlesyndication.com
 0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead3.googlesyndication.com
 0.0.0.0 profitboosterapp.com
 0.0.0.0 park.above.com
 0.0.0.0 play.bestapp.com
@@ -1301,6 +1318,7 @@ IP-Grabber (IP Logger)
 0.0.0.0 resources.infolinks.com
 0.0.0.0 rover.ebay.com
 0.0.0.0 rubiconproject.com
+0.0.0.0 router.googlecom.biz
 0.0.0.0 rutube.ru
 0.0.0.0 ranks.sextracker.com
 0.0.0.0 req.appads.com
