@@ -1,4 +1,4 @@
-#Number of ad services/trackers blocked: 38
+#Number of ad services/trackers blocked: 42
 #Last Updated on Friday, July 27, 2018
 
 /fingerprint.min.js
@@ -41,3 +41,7 @@
 ||clients1.google.com$third-party
 ||clients2.google.com$third-party
 ||clients3.google.com$third-party
+||pagead.googlesyndication$third-party
+||pagead1.googlesyndication.com$third-party
+||pagead2.googlesyndication.com$third-party
+||pagead3.googlesyndication.com$third-party
