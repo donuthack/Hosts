@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,356
-#Last Updated on Tuesday, July 24, 2018
+#Number of ad services/trackers blocked: 1,365
+#Last Updated on Friday, July 27, 2018
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -101,6 +101,11 @@ IP-Grabber (IP Logger)
 
 #JSCoinminer Website (Intrusion/Malicious)
 0.0.0.0 2giga.link
+0.0.0.0 2giga.download
+0.0.0.0 2k20.tk
+0.0.0.0 2ledhenone.com
+0.0.0.0 2miners.com
+0.0.0.0 2miners.ru
 0.0.0.0 webmine.cz
 0.0.0.0 coin-have.com
 0.0.0.0 sleeptimer.org
@@ -611,6 +616,10 @@ IP-Grabber (IP Logger)
 0.0.0.0 adap.tv
 0.0.0.0 adapt.tv
 0.0.0.0 adbard.net
+0.0.0.0 ad-miner.com
+0.0.0.0 ad.antpool.com
+0.0.0.0 ad.g-content.bid
+0.0.0.0 ad.jsecoin.com
 0.0.0.0 adblade.com
 0.0.0.0 adblockanalytics.com
 0.0.0.0 adboost.de.vu
