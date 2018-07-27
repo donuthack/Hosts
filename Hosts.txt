@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,365
+#Number of ad services/trackers blocked: 1,366
 #Last Updated on Friday, July 27, 2018
 
 #Grabify (IP Logger) Trackers
@@ -239,6 +239,7 @@ IP-Grabber (IP Logger)
 #Malware Domains
 0.0.0.0 liceulogoga.ro
 0.0.0.0 pceqvirus.xyz
+0.0.0.0 gamestoredownload.download
 0.0.0.0 a46.bulehero.in
 0.0.0.0 http://213.186.33.17
 0.0.0.0 http://91.210.104.247
