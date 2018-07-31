@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,368
-#Last Updated on Friday, July 27, 2018
+#Number of ad services/trackers blocked: 1,400
+#Last Updated on Tuesday, July 31, 2018
 
 #Grabify (IP Logger) Trackers
 0.0.0.0 grabify.link
@@ -111,136 +111,88 @@ IP-Grabber (IP Logger)
 0.0.0.0 sleeptimer.org
 0.0.0.0 hide.ovh
 0.0.0.0 crypto-loot.com
+0.0.0.0 load.jsecoin.com
+0.0.0.0 edgeno.de
+0.0.0.0 reasedoper.pw
+0.0.0.0 mataharirama.xyz
+0.0.0.0 listat.biz
+0.0.0.0 lmodr.biz
+0.0.0.0 ad-miner.com
+0.0.0.0 ppoi.org
+0.0.0.0 coinerra.com
+0.0.0.0 minero.pw
+0.0.0.0 coinblind.com
+0.0.0.0 webmine.cz
+0.0.0.0 inwemo.com
+0.0.0.0 cloudcoins.co
+0.0.0.0 coinhive-manager.com
+0.0.0.0 rocks.io
+0.0.0.0 papoto.com
+0.0.0.0 coinlab.biz
+0.0.0.0 d3iz6lralvg77g.cloudfront.net
+0.0.0.0 hatevery.info
+0.0.0.0 minr.pw
+0.0.0.0 d-ns.ga
+0.0.0.0 ron.si
+0.0.0.0 kjli.fi
+0.0.0.0 pema.cl
+0.0.0.0 nullrefexcep.com
+0.0.0.0 hk.rs
+0.0.0.0 coin-service.com
+0.0.0.0 gustaver.ddns.net
+0.0.0.0 cryptown.netlify.com
+0.0.0.0 allfontshere.press
 
-#Email Spam/Scam Websites (Includes IP Address Of The Sender)
-#203.128.2.71
+#Email Spam/Scam Websites
 0.0.0.0 mx4.worldwidehuman.com
-
-#91.82.220.48
 0.0.0.0 playgames.nclnext.com
-
-#173.247.231.102
 0.0.0.0 chbeta.filteraspect.com
-
-#38.135.33.18
 0.0.0.0 hiu.topaccessoriess.com
-
-#31.202.149.126
 0.0.0.0 kvv.yougonnafindit.com
-
-#45.221.118.17
 0.0.0.0 oms.cactusbridges.com
-
-#45.221.119.220
 0.0.0.0 def.healthy-life-foru.com
-
-#5.175.247.87
 0.0.0.0 xxf.bestpopularmusic.com
-
-#46.3.45.156
 0.0.0.0 vll.jobzinamerica.com
-
-#45.221.101.224
 0.0.0.0 muc.maddeningjam.com
-
-#195.88.174.61
 0.0.0.0 khedy.haveshack.com
-
-#46.3.36.161
 0.0.0.0 nhw.buyeverythiingonline.com
-
-#46.3.32.184
 0.0.0.0 zzq.optionfashion.com
-
-#136.243.13.164
 0.0.0.0 static.164.13.243.136.clients.your-server.de
-
-#153.149.233.23
 0.0.0.0 mbkd0222.ocn.ad.jp
-
-#208.110.72.122
 0.0.0.0 youarewinners.com
-
-#190.2.143.26 + 190.2.143.30
 0.0.0.0 rightsorganisation.com
-
-#195.154.37.183
 0.0.0.0 srv7.messi10.info
-
-#176.31.117.18
 0.0.0.0 18.117.31.176.in-addr.arpa
-
-#108.61.60.74 (For Some Reason The Host Name Is The IP Address)
 0.0.0.0 108.61.60.74
-
-#74.208.46.77 (Gmail Says This Was Used To Steal people's Personal Info)
 0.0.0.0 nookframe.com
-
-#185.229.115.213
 0.0.0.0 mrh.moments0fpeace.com
-
-#45.221.118.111
 0.0.0.0 zak.raspyroute.com
-
-#5.231.122.46
 0.0.0.0 mkc.passingmomentsphotography.com
-
-#81.128.197.223
 0.0.0.0 omok.adenayuniela.com
-
-#31.214.241.234
 0.0.0.0 hjk.scandalousfrogs.com
-
-#109.201.140.118
 0.0.0.0 toe.satisfactionz.com
-
-#195.154.106.28
 0.0.0.0 srv1.topusmarketer.club
-
-#5.175.250.83
 0.0.0.0 jex.standyourgroundz.com
-
-#212.83.145.139
 0.0.0.0 srv4.messi10.info
-
-#5.230.167.227
 0.0.0.0 mx0.topmarketplayed.com
-
-#46.3.39.129
 0.0.0.0 vfr.helplessnut.com
-
-#45.221.117.238
 0.0.0.0 bzc.maddeningjam.com
-
-#46.3.36.172
 0.0.0.0 ukr.buyeverythiingonline.com
-
-#94.249.171.201
 0.0.0.0 nfv.coolwaterblue.com
-
-#162.144.42.191
 0.0.0.0 wds.mayteacalories.com
-
-#46.3.38.72
 0.0.0.0 zpz.callforfreetoday.com
-
-#45.221.127.138
 0.0.0.0 gwi.notenecklaces.com
-
-#45.58.115.170 (For Some Reason The Host Name Is The IP Address)
 0.0.0.0 45.58.115.170 
-
-#216.127.138.111
 0.0.0.0 vsb.recentshopping.com 
-
-#178.221.98.33
 0.0.0.0 178-221-98-33.dynamic.isp.telekom.rs
 
 #Malware Domains
 0.0.0.0 liceulogoga.ro
+0.0.0.0 ahigherstandardofcare.com
 0.0.0.0 pceqvirus.xyz
 0.0.0.0 gamestoredownload.download
 0.0.0.0 a46.bulehero.in
+0.0.0.0 mvns.railfan.net
 0.0.0.0 http://213.186.33.17
 0.0.0.0 http://91.210.104.247
 0.0.0.0 clairevaessen.nl
@@ -576,7 +528,6 @@ IP-Grabber (IP Logger)
 0.0.0.0 ad-balancer.net
 0.0.0.0 ad-center.com
 0.0.0.0 adworkmedia.com
-0.0.0.0 ad-miner.com
 0.0.0.0 ad-pay.de
 0.0.0.0 ad-rotator.com
 0.0.0.0 ad-server.gulasidorna.se
