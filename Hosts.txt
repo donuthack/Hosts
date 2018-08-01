@@ -68,7 +68,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 Supportfortech.co.uk
 0.0.0.0 Kaspersky-support.net
 
-#JSCoinminer Website (Intrusion/Malicious)
+#JSCoinminer Website (Malicious Coin Miners)
 0.0.0.0 2giga.link
 0.0.0.0 2giga.download
 0.0.0.0 2k20.tk
@@ -622,11 +622,33 @@ ff02::3 ip6-allhosts
 0.0.0.0 showj.f3322.net
 0.0.0.0 deutschpornosbild.blogspot.de
 0.0.0.0 chevymalibulouisvilleky.com
+0.0.0.0  berita-mediasemasa.blogspot.com
+0.0.0.0 bestnyaduit.blogspot.de
+0.0.0.0 vivid-ipad-wallpaper-news.blogspot.de
+0.0.0.0 todofilmebh.blogspot.de
+0.0.0.0 thebrotherssawyer.com
+0.0.0.0 taigamenow.blogspot.de
+0.0.0.0 stopmysite.blogspot.kr
+0.0.0.0 social-issue-news.blogspot.com.tr
+0.0.0.0 slr-mclaren-tuning-news.blogspot.de
+0.0.0.0 sigarayibitirdim.blogspot.de
+0.0.0.0  secret-hotes.blogspot.kr
+0.0.0.0 sarhosuzsarhossunuz.blogspot.nl.3s3s.org
+0.0.0.0 sabceducation.co.za
+0.0.0.0 risayuliani.blogspot.com
+0.0.0.0 oohmygee.blogspot.kr
+0.0.0.0 pasuruanbloggers.blogspot.com
+0.0.0.0 pesagennn.blogspot.kr
+0.0.0.0 ojioo.blogspot.kr
 0.0.0.0 cerita-banyuwangi.blogspot.de
 0.0.0.0 celebrity-tattoo-designs-pictures.blogspot.kr
+0.0.0.0 thebestmenworld.blogspot.com
 0.0.0.0 cdd.net.ua
 0.0.0.0 brownstonefood.com
 0.0.0.0 197.35.134.69
+0.0.0.0 atitude-correta.blogspot.kr
+0.0.0.0 auto-mir-news.blogspot.kr
+0.0.0.0  bancofotografias.blogspot.com
 0.0.0.0 whxianghe.com
 0.0.0.0 vibrostanki.ru
 0.0.0.0 thecinecircle.com
