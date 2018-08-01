@@ -1803,7 +1803,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.nexac.com
 
 #S
-#0.0.0.0 sb.scorecardresearch.com #Might affect Yahoo search
+0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 s3.amazonaws.com
@@ -2031,7 +2031,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 yieldmo.com
 0.0.0.0 yieldtraffic.com
 0.0.0.0 yldbt.com
-#0.0.0.0 yimg.com
 0.0.0.0 yoggrt.com
 0.0.0.0 youarewinner.com
 
