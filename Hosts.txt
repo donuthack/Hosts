@@ -52,8 +52,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipstack.com
 0.0.0.0 ipstack.net
 
-#Fake Tech Support
+#Tech Support Scams
 0.0.0.0 server4.getitgadgets.info
+0.0.0.0 UAEtechnician.com
+0.0.0.0 Iphonesupport.net
+0.0.0.0 Supportantivirus.org
+0.0.0.0 FastSupport.com
+0.0.0.0 Microsoftsupport.co
+0.0.0.0 pcvirusalerts.net
+0.0.0.0 Safety.microsoft.com.wboeuax.nhmv8cec5xy4.bid
+0.0.0.0 Windows-support-me.com
+0.0.0.0 Barewire.us
+0.0.0.0 Babasupport.org
+0.0.0.0 Email-customer-support.com
+0.0.0.0 Supportfortech.co.uk
+0.0.0.0 Kaspersky-support.net
 
 #JSCoinminer Website (Intrusion/Malicious)
 0.0.0.0 2giga.link
@@ -650,6 +663,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 nadegda-95.ru
 0.0.0.0 nailbytes1.com
 0.0.0.0 hotfacesitting.com
+0.0.0.0 luggagepreview.com
+0.0.0.0 lunaticjazz.com
+0.0.0.0 luwyou.com
+0.0.0.0 m2132.ehgaugysd.net
+0.0.0.0 mahindrainsurance.com
+0.0.0.0 mailboto.com
+0.0.0.0 malest.com
+0.0.0.0 manoske.com
+0.0.0.0 marchen-toy.co.jp
+0.0.0.0 marialorena.com.br
+0.0.0.0 marx-brothers.mhwang.com
+0.0.0.0 mathenea.com
+0.0.0.0 maxisoft.co.uk
+0.0.0.0 mbrdot.tk
+0.0.0.0 mediatrade.h19.ru
+0.0.0.0 mepra.blautechnology.cl
+0.0.0.0 merrymilkfoods.com
+0.0.0.0 metrocuadro.com.ve
+0.0.0.0 mgfd1b.petrix.net
+0.0.0.0 miespaciopilates.com
+0.0.0.0 milf.gabriola.cl
+0.0.0.0 milleniumpapelaria.com.br
+0.0.0.0 mindstormstudio.ro
+0.0.0.0 ministerio-publi.info
+0.0.0.0 miracema.rj.gov.br
+0.0.0.0 mirandolasrl.it
+0.0.0.0 mlpoint.pt
+0.0.0.0 mmile.com
+0.0.0.0 mobatory.com
+0.0.0.0 mobile.bitterstrawberry.org
 0.0.0.0 hotspot.cz
 0.0.0.0 immediateresponseforcomputer.com
 0.0.0.0 impressoras-cartoes.com.pt
