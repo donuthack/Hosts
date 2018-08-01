@@ -532,7 +532,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dtstesting.com
 0.0.0.0 www.yserch.com
 0.0.0.0 56hj.cn
-0.0.0.0 net4um.com
+0.0.0.0 net4um.comF
 0.0.0.0 nt002.cn
 0.0.0.0 evasive.expertwitnessautomaticdoor.net
 0.0.0.0 d4n.platformd.com
@@ -1954,7 +1954,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
 0.0.0.0 visitor-track.com
-0.0.0.0 visit.webhosting.yahoo.com
+#0.0.0.0 visit.webhosting.yahoo.com affects Yahoo Search
 0.0.0.0 visitbox.de
 0.0.0.0 visitpath.com
 0.0.0.0 visual-pagerank.fr
