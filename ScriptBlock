@@ -1,5 +1,5 @@
-#Number of ad services/trackers blocked: 45
-#Last Updated on Friday, July 27, 2018
+#Number of ad services/trackers blocked: 33
+#Last Updated on Wednesday, August 1, 2018
 
 /fingerprint.min.js
 /r07/core130.js
@@ -34,17 +34,3 @@
 /vote/displayFlash.js
 /cc.js
 /ralib/magento/raa.js
-
-#Block 3rd Party Scripts
-||google.com$third-party
-||youtube.com$third-party
-||clients1.google.com$third-party
-||clients2.google.com$third-party
-||clients3.google.com$third-party
-||pagead.googlesyndication$third-party
-||pagead1.googlesyndication.com$third-party
-||pagead2.googlesyndication.com$third-party
-||pagead3.googlesyndication.com$third-party
-||pandora.com$third-party
-||spotify.com$third-party
-||foxnews.com$third-party
