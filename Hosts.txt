@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,400
+#Number of ad services/trackers blocked: 1,463
 #Last Updated on Tuesday, July 31, 2018
 
 #Grabify (IP Logger) Trackers
