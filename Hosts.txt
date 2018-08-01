@@ -620,6 +620,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 http://91.210.104.247
 0.0.0.0 farzan.ddns.net
 0.0.0.0 showj.f3322.net
+0.0.0.0 deutschpornosbild.blogspot.de
+0.0.0.0 chevymalibulouisvilleky.com
+0.0.0.0 cerita-banyuwangi.blogspot.de
+0.0.0.0 celebrity-tattoo-designs-pictures.blogspot.kr
+0.0.0.0 cdd.net.ua
+0.0.0.0 brownstonefood.com
 0.0.0.0 197.35.134.69
 0.0.0.0 whxianghe.com
 0.0.0.0 vibrostanki.ru
@@ -629,6 +635,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 system-express.ru
 0.0.0.0 sintozen.com
 0.0.0.0 pbwater.info
+0.0.0.0 blog4.rapichat.com
 0.0.0.0 paw-tech.com
 0.0.0.0 host-197.35.134.69.tedata.net
 0.0.0.0 free1.neiwangtong.com
