@@ -1954,7 +1954,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
 0.0.0.0 visitor-track.com
-#0.0.0.0 visit.webhosting.yahoo.com affects Yahoo Search
+0.0.0.0 visit.webhosting.yahoo.com
 0.0.0.0 visitbox.de
 0.0.0.0 visitpath.com
 0.0.0.0 visual-pagerank.fr
