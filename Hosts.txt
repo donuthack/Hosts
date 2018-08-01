@@ -52,14 +52,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipstack.com
 0.0.0.0 ipstack.net
 
-#Keep Google from constantly checking on you
-0.0.0.0 clients1.google.com
-0.0.0.0 clients2.google.com
-0.0.0.0 clients3.google.com
-0.0.0.0 settings.crashlytics.com
-0.0.0.0 reports.crashlytics.com
-0.0.0.0 mtalk.google.com
-
 #Fake Tech Support
 0.0.0.0 server4.getitgadgets.info
 
@@ -439,7 +431,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 everythingfou.net
 0.0.0.0 thelotterysecrets.net
 
-#Malvratisement
+#Malvertisement
 0.0.0.0 alphaprinthouse.org
 0.0.0.0 amo122.com
 0.0.0.0 marco-behrendt.de
@@ -1980,3 +1972,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 24log.de
 0.0.0.0 999fitness.com
 0.0.0.0 101com.com
+
+#Keep Google from constantly checking on you
+0.0.0.0 clients1.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 reports.crashlytics.com
+0.0.0.0 mtalk.google.com
