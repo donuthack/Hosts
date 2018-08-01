@@ -639,6 +639,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 empe3net7.neostrada.pl
 0.0.0.0 huidakms.com.cn
 0.0.0.0 iwb.com.cn
+0.0.0.0 71.202.205.235
+0.0.0.0 pmt-chan.com
+0.0.0.0 pkisistemas.com
+0.0.0.0 oferta.watra.com.pl
+0.0.0.0 nz.dilmah.com
+0.0.0.0 c-71-202-205-235.hsd1.ca.comcast.net
+0.0.0.0 71.202.205.235
+0.0.0.0 c-71-202-205-235.hsd1.ca.comcast.net
+0.0.0.0 prosourcedpartners.com
+0.0.0.0  	procej-mali.org
 0.0.0.0 www.xmhbcc.com
 0.0.0.0 www.nbyuxin.com
 0.0.0.0 www.qqkabb.com
