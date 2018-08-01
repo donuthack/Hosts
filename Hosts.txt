@@ -13,10 +13,10 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers blocked: 1,752
+#Number of ad services/trackers blocked: 1,915
 #Last Updated on Wednesday, August 1, 2018
 
-#Grabify (IP Logger) Trackers
+#IP Loggers
 0.0.0.0 grabify.link
 0.0.0.0 bmwforum.co
 0.0.0.0 leancoding.co
@@ -38,28 +38,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 freegiftcards.co
 0.0.0.0 disçordapp.com
 0.0.0.0 rëddït.com
-
-#IP Logger (Org)
 0.0.0.0 iplogger.org
 0.0.0.0 iplogger.com
 0.0.0.0 iplogger.ru
 0.0.0.0 2no.co
 0.0.0.0 yip.su
-
-#Whats Their IP
 0.0.0.0 youramonkey.com
 0.0.0.0 whatstheirip.com
-
-IP-Grabber (IP Logger)
 0.0.0.0 IP-Grabber.com
-
-#Blasze (IP Logger)
 0.0.0.0 blasze.tk
-
-#ps3CFW (IP Logger)
 0.0.0.0 ps3cfw.com
-
-#IP Stack ("Locate and identify website visitors by IP address")
 0.0.0.0 freegeoip.net
 0.0.0.0 ipstack.com
 0.0.0.0 ipstack.net
@@ -71,30 +59,6 @@ IP-Grabber (IP Logger)
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 mtalk.google.com
-
-#Keylogger Downloads (Updated Ones Go Here)
-0.0.0.0 filesriver.com/download-file-2/272/refog-free-keylogger/312
-0.0.0.0 refog.com
-0.0.0.0 free-keylogger.en.softonic.com
-0.0.0.0 mobistealth.com
-0.0.0.0 raymond.cc/blog/download/did/1464
-0.0.0.0 raymond.cc/blog/download/did/1462
-0.0.0.0 raymond.cc/blog/download/did/1460
-0.0.0.0 raymond.cc/blog/download/did/1461
-0.0.0.0 raymond.cc/blog/download/did/1459
-0.0.0.0 raymond.cc/blog/download/did/1458
-0.0.0.0 raymond.cc/blog/download/did/1456
-0.0.0.0 raymond.cc/blog/download/did/1457
-0.0.0.0 raymond.cc/blog/download/did/1455
-0.0.0.0 actualkeylogger.com
-0.0.0.0 kmint21.com
-0.0.0.0 logixoft.com
-0.0.0.0 kidlogger.net
-0.0.0.0 webwatcher.com
-0.0.0.0 ardamax.com
-0.0.0.0 mspy.com
-0.0.0.0 windowskeyloggers.com
-0.0.0.0 spyrix.com
 
 #Fake Tech Support
 0.0.0.0 server4.getitgadgets.info
