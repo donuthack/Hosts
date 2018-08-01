@@ -1942,7 +1942,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 untd.com
 0.0.0.0 unusualtitle.com
 0.0.0.0 urlcash.net
-#0.0.0.0 us.a1.yimg.com
+0.0.0.0 us.a1.yimg.com
 0.0.0.0 usapromotravel.com
 0.0.0.0 useriq.com
 0.0.0.0 userreplay.com
