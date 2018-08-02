@@ -408,6 +408,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 everythingfou.net
 0.0.0.0 thelotterysecrets.net
 
+#Ransomeware
+0.0.0.0 00005ik.rcomhost.com
+0.0.0.0 01ad681.netsolhost.com
+0.0.0.0 023pc.cn
+0.0.0.0 027tzx.com
+0.0.0.0 028cdxyk.com
+0.0.0.0 028happy.com
+0.0.0.0 03284db.netsolhost.com
+0.0.0.0 03991ce.netsolhost.com
+0.0.0.0 0551gx.cn
+0.0.0.0 10minutesto1.net
+
 #Malvertisement
 0.0.0.0 alphaprinthouse.org
 0.0.0.0 amo122.com
