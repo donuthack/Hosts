@@ -2951,6 +2951,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 681-1-35-236.w90-88.abo.wanadoo.fr
 0.0.0.0 aragogroups.com
 
+#Ransomeware
+0.0.0.0 00005ik.rcomhost.com
+0.0.0.0 01ad681.netsolhost.com
+0.0.0.0 023pc.cn
+0.0.0.0 027tzx.com
+0.0.0.0 028cdxyk.com
+0.0.0.0 028happy.com
+0.0.0.0 03284db.netsolhost.com
+0.0.0.0 03991ce.netsolhost.com
+0.0.0.0 0551gx.cn
+0.0.0.0 10minutesto1.net
+
 #Possibly Dangerous
 0.0.0.0 universalfwding.com
 0.0.0.0 clickconfirmation.com
