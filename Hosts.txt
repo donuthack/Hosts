@@ -2937,6 +2937,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 53server.com
 0.0.0.0 5thcongress.iribs.org
 0.0.0.0 7alati.com
+0.0.0.0 apl.com.pk
+0.0.0.0 bitbucket.org
+0.0.0.0 loamerr.xyz
+0.0.0.0 mtztech.com
+0.0.0.0 gorontula.com
+0.0.0.0 mega360.kiennhay.vn
+0.0.0.0 fundacionafanic.com
+0.0.0.0 mediaritm.com.ua
+0.0.0.0 operationcloud.org
+0.0.0.0 gehwol.tk
+0.0.0.0 odegalla.com
 
 #Possibly Dangerous
 0.0.0.0 universalfwding.com
