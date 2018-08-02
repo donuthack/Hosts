@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 1,839
+#Number of ad services/trackers/malware blocked: 1,840
 #Last Updated on Wednesday, August 1, 2018
 
 #Tech Support Scams
@@ -1860,6 +1860,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 operationcloud.org
 0.0.0.0 gehwol.tk
 0.0.0.0 odegalla.com
+0.0.0.0 681-1-35-236.w90-88.abo.wanadoo.fr
 
 #Possibly Dangerous
 0.0.0.0 universalfwding.com
