@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,841
+#Number of ad services/trackers/malware blocked: 3,842
 #Last Updated on Thursday, August 2, 2018
 
 #IP Loggers
@@ -1346,6 +1346,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
 0.0.0.0 reward-video.fyber.com
+0.0.0.0 rewarded-video.fyber.com
 
 #S
 0.0.0.0 sb.scorecardresearch.com
