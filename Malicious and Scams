@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 1,858
-#Last Updated on Thursday, August 2, 2018
+#Number of ad services/trackers/malware blocked: 1,859
+#Last Updated on Saturday, August 4, 2018
 
 #Tech Support Scams
 0.0.0.0 server4.getitgadgets.info
@@ -1881,6 +1881,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 anhchebongda.blogspot.com
 0.0.0.0 bacsitot.blogspot.com
 0.0.0.0 taifacebookk.blogspot.nl
+0.0.0.0 35.193.89.147
 
 #Possibly Dangerous
 0.0.0.0 universalfwding.com
