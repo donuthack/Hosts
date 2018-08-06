@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,842
+#Number of ad services/trackers/malware blocked: 3,844
 #Last Updated on Thursday, August 2, 2018
 
 #IP Loggers
@@ -73,6 +73,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.100.tbn.ru
 0.0.0.0 adclick.g.doubleclick.net
 0.0.0.0 ad.71i.de
+0.0.0.0 adserver-us.adtech.advertising.com
+0.0.0.0 advertising.com
 0.0.0.0 ad.a8.net
 0.0.0.0 ad.abcnews.com
 0.0.0.0 ad.abctv.com
