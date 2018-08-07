@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,844
+#Number of ad services/trackers/malware blocked: 3,845
 #Last Updated on Thursday, August 2, 2018
 
 #IP Loggers
@@ -1314,6 +1314,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 o.aolcdn.com
 0.0.0.0 opensoftwareupdate.com 
 0.0.0.0 odr.mookie1.com
+0.0.0.0 ojrq.net
 0.0.0.0 stats.olark.com
 
 #P
