@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,845
+#Number of ad services/trackers/malware blocked: 3,856
 #Last Updated on Thursday, August 9, 2018
 
 #IP Loggers
