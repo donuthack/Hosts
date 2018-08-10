@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,863
+#Number of ad services/trackers/malware blocked: 3,864
 #Last Updated on Friday, August 10, 2018
 
 #IP Loggers
@@ -479,6 +479,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.optusnet.com.au
 0.0.0.0 ads.outpersonals.com
 0.0.0.0 ads.passion.com
+0.0.0.0 a3.fdlstatic.com
 0.0.0.0 ads.pennet.com
 0.0.0.0 ads.penny-arcade.com
 0.0.0.0 ads.phpclasses.org
@@ -1187,9 +1188,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 count48.51yes.com
 0.0.0.0 collector.githubapp.com
 0.0.0.0 cdn.quantummetric.com
+0.0.0.0 cbsi.demdex.net
 0.0.0.0 cdn.krxd.net
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.carbonads.com
+0.0.0.0 cbsi.com
+0.0.0.0 cbsi.net
 0.0.0.0 cdns.gigya.com
 0.0.0.0 casalemedia.com
 0.0.0.0 criteo.net
@@ -1229,6 +1233,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 download.cdn.sharelive.net 
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 0.0.0.0 d24n15hnbwhuhn.cloudfront.net
+0.0.0.0 dw.cbsi.com
+0.0.0.0 dl1.cbsistatic.com
 
 #E
 0.0.0.0 edge.quantserve.com
@@ -1272,6 +1278,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 img.admaster.net
 0.0.0.0 image5.pubmatic.com
+0.0.0.0 i.i.cbsi.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
@@ -1372,6 +1379,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.ntv.io
 0.0.0.0 s10.histats.com
 0.0.0.0 secure-us.imrworldwide.com
+0.0.0.0 som.cbsi.com
 0.0.0.0 script.crazyegg.com
 0.0.0.0 script.ioam.de
 0.0.0.0 secure.insightexpressai.com
