@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,861
+#Number of ad services/trackers/malware blocked: 3,862
 #Last Updated on Friday, August 10, 2018
 
 #IP Loggers
@@ -1412,6 +1412,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 stat24.meta.ua
 0.0.0.0 statcounter.com
 0.0.0.0 static.fmpub.net
+0.0.0.0 scorecardresearch.com
 0.0.0.0 static.itrack.it
 0.0.0.0 staticads.btopenworld.com
 0.0.0.0 statistik-gallup.net
