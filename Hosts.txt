@@ -1280,6 +1280,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.honeybadger.io
 
 #K
+0.0.0.0 krxd.net
 
 #L
 0.0.0.0 lt500.tritondigital.com
