@@ -1190,6 +1190,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.quantummetric.com
 0.0.0.0 cbsi.demdex.net
 0.0.0.0 cdn.krxd.net
+0.0.0.0 c-7npsfqifvt34x24ax2enpbubetx2edpn.g00.cnet.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.carbonads.com
 0.0.0.0 cbsi.com
@@ -1201,6 +1202,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cellphoneapplicationminesoft.win
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
+0.0.0.0 cdn3.doubleverify.com
 0.0.0.0 counter.yadro.ru
 0.0.0.0 cdn.optimizely.com
 0.0.0.0 cdn.segment.com
@@ -1233,6 +1235,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 download.cdn.sharelive.net 
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 0.0.0.0 d24n15hnbwhuhn.cloudfront.net
+0.0.0.0 doubleverify.com
 0.0.0.0 dw.cbsi.com
 0.0.0.0 dl1.cbsistatic.com
 
@@ -1273,12 +1276,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 hitcounter.ru
 0.0.0.0 hitfox.go2cloud.org
 0.0.0.0 honolulu.app.ur.gcion.com
+0.0.0.0 h6.msn.com
 
 #I
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 img.admaster.net
 0.0.0.0 image5.pubmatic.com
 0.0.0.0 i.i.cbsi.com
+0.0.0.0 indexww.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
