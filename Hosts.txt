@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,876
+#Number of ad services/trackers/malware blocked: 3,877
 #Last Updated on Friday, August 10, 2018
 
 #IP Loggers
@@ -1188,8 +1188,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 count48.51yes.com
 0.0.0.0 collector.githubapp.com
 0.0.0.0 cdn.quantummetric.com
+0.0.0.0 cdn.auth0.com
 0.0.0.0 cbsi.demdex.net
 0.0.0.0 cdn.krxd.net
+0.0.0.0 cdn-s-optional.optimizely.com
 0.0.0.0 c-7npsfqifvt34x24ax2enpbubetx2edpn.g00.cnet.com
 0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.carbonads.com
@@ -1284,12 +1286,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 image5.pubmatic.com
 0.0.0.0 i.i.cbsi.com
 0.0.0.0 indexww.com
+0.0.0.0 imrworldwide.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.agkn.com
 0.0.0.0 js-sec.indexww.com
 0.0.0.0 js.honeybadger.io
+0.0.0.0 jwpcdn.com
 
 #K
 0.0.0.0 krxd.net
@@ -1298,6 +1302,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lt500.tritondigital.com
 0.0.0.0 launcher.spot.im
 0.0.0.0 tritondigital.com
+0.0.0.0 lp4.io
 
 #M
 0.0.0.0 munchkin.marketo.net
@@ -1320,6 +1325,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 media.msg.dotomi.com
 0.0.0.0 mc.yandex.ru
 0.0.0.0 media.net
+0.0.0.0 mixi.media
 
 #N
 0.0.0.0 gwp.nuggad.net
@@ -1350,6 +1356,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel.wp.com
 0.0.0.0 pt.trafficjunkey.net
 0.0.0.0 pix.spot.im
+0.0.0.0 pp.lp4.io
+0.0.0.0 player.h-cdn.com
 
 #Q
 0.0.0.0 qualtrics.com
@@ -1377,13 +1385,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 s0.2mdn.net
 0.0.0.0 srv.main.ebayrtm.com
 0.0.0.0 spoxy-shard4.spot.im
+0.0.0.0 ssl.p.jwpcdn.com
 0.0.0.0 static.criteo.net
 0.0.0.0 st.bebi.com
 0.0.0.0 sync.1rx.io
 0.0.0.0 secure.statcounter.com
 0.0.0.0 s.ntv.io
 0.0.0.0 s10.histats.com
-0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 som.cbsi.com
 0.0.0.0 script.crazyegg.com
 0.0.0.0 script.ioam.de
@@ -1532,6 +1540,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 voicefive.com
 0.0.0.0 voicevegetable.com
 0.0.0.0 vpon.com
+0.0.0.0 vk.com
 
 #W
 0.0.0.0 wd.adcolony.com
@@ -1542,6 +1551,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wcs.naver.net
 0.0.0.0 winprizesapp.com
 0.0.0.0 w.uptolike.com
+0.0.0.0 widget.engageya.com
 0.0.0.0 webmasterplan.de
 0.0.0.0 weborama.fr
 0.0.0.0 webpower.com
