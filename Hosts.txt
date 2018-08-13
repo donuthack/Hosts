@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,886
+#Number of ad services/trackers/malware blocked: 3,887
 #Last Updated on Friday, August 10, 2018
 
 #IP Loggers
@@ -1378,6 +1378,7 @@ ff02::3 ip6-allhosts
 
 #S
 0.0.0.0 sb.scorecardresearch.com
+0.0.0.0 sentry.io
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 s3.amazonaws.com
