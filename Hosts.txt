@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 3,888
+#Number of ad services/trackers/malware blocked: 3,892
 #Last Updated on Friday, August 10, 2018
 
 #IP Loggers
@@ -648,6 +648,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bb.connextra.com
 0.0.0.0 bbb7-bfec-9a0b-58ba.reporo.net
 0.0.0.0 bbca.channelfinder.net
+0.0.0.0 bounceads.net
 0.0.0.0 bbcandroid.2cnt.net
 0.0.0.0 bbcandroidtest.2cnt.net
 0.0.0.0 bbcdotcom.2cnt.net
@@ -1201,6 +1202,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 casalemedia.com
 0.0.0.0 criteo.net
 0.0.0.0 cbs.siteintercept.qualtrics.com
+0.0.0.0 click.bounceads.net
 0.0.0.0 cellphoneapplicationminesoft.win
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
@@ -3903,6 +3905,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 haphuongfoundation.net
 0.0.0.0 aileronx.com
 0.0.0.0 downloadscanning.com
+0.0.0.0 cloudconnectedprogram.com
 0.0.0.0 gddingtian.com.cn
 0.0.0.0 annengdl.com
 0.0.0.0 downloadadvisory.com
@@ -3960,6 +3963,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 busco-mujeres.blogspot.com
 0.0.0.0 anhchebongda.blogspot.com
 0.0.0.0 bacsitot.blogspot.com
+
+#Phishing
+0.0.0.0 sycjamsa.com
+0.0.0.0 inshalpharma.com
 
 #Ransomeware
 0.0.0.0 00005ik.rcomhost.com
