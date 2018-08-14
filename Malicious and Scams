@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 1,859
+#Number of ad services/trackers/malware blocked: 1,862
 #Last Updated on Saturday, August 4, 2018
 
 #Tech Support Scams
@@ -102,6 +102,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zak.raspyroute.com
 0.0.0.0 mkc.passingmomentsphotography.com
 0.0.0.0 omok.adenayuniela.com
+0.0.0.0 cloudconnectedprogram.com
 0.0.0.0 hjk.scandalousfrogs.com
 0.0.0.0 toe.satisfactionz.com
 0.0.0.0 srv1.topusmarketer.club
@@ -1882,6 +1883,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 bacsitot.blogspot.com
 0.0.0.0 taifacebookk.blogspot.nl
 0.0.0.0 35.193.89.147
+
+#Phishing
+0.0.0.0 sycjamsa.com
+0.0.0.0 inshalpharma.com
 
 #Possibly Dangerous
 0.0.0.0 universalfwding.com
