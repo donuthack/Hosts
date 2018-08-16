@@ -16,6 +16,26 @@ ff02::3 ip6-allhosts
 #Number of ad services/trackers/malware blocked: 4,194
 #Last Updated on Thursday, August 16, 2018
 
+#Mozilla Firefox Trackers
+0.0.0.0 crash-stats.mozilla.com
+0.0.0.0 malware-error.mozilla.com 
+0.0.0.0 phish-error.mozilla.com
+0.0.0.0 snippets.cdn.mozilla.net
+0.0.0.0 tiles.services.mozilla.com
+0.0.0.0 location.services.mozilla.com
+0.0.0.0 shavar.services.mozilla.com
+0.0.0.0 push.services.mozilla.com
+0.0.0.0 search.services.mozilla.com
+0.0.0.0 versioncheck-bg.addons.mozilla.org
+0.0.0.0 accounts.firefox.com
+0.0.0.0 activations.cdn.mozilla.net
+0.0.0.0 aus5.mozilla.org
+0.0.0.0 crash-stats.mozilla.com
+0.0.0.0 crash-stats.mozilla.org
+0.0.0.0 data.mozilla.com
+0.0.0.0 detectportal.firefox.com
+0.0.0.0 ftp.mozilla.org
+
 #IP Loggers
 0.0.0.0 grabify.link
 0.0.0.0 bmwforum.co
