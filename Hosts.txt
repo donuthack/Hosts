@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,213
+#Number of ad services/trackers/malware blocked: 4,214
 #Last Updated on Thursday, August 16, 2018
 
 #Mozilla Firefox Trackers
@@ -1233,6 +1233,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.livefyre.com
 0.0.0.0 coinbase.com
 0.0.0.0 cdn.trackjs.com
+0.0.0.0 cdn.windstream.com
 0.0.0.0 cdn.quantummetric.com
 0.0.0.0 cdn.jsdelivr.net
 0.0.0.0 crazyegg.com
