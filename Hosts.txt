@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,195
+#Number of ad services/trackers/malware blocked: 4,194
 #Last Updated on Thursday, August 16, 2018
 
 #IP Loggers
@@ -1307,7 +1307,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 graph.instagram.com
 0.0.0.0 gramombird.com
 0.0.0.0 google-analytics.com
-0.0.0.0 gstatic.com
 0.0.0.0 gannett-d.openx.net
 0.0.0.0 gads.pubmatic.com
 
