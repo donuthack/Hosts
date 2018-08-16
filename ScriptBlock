@@ -1,5 +1,7 @@
-#Number of ad services/trackers blocked: 124
-#Last Updated on Wednesday, August 1, 2018
+#Number of ad services/trackers blocked: 126
+#Last Updated on Thursday, August 16, 2018
+
+*.windstream.com
 
 /fingerprint.min.js
 /r07/core130.js
@@ -34,6 +36,7 @@
 /vote/displayFlash.js
 /cc.js
 /ralib/magento/raa.js
+/windstream.js
 
 #Kill Scripts That Tell You To Turn Your Adblocker Off
 ###AdBlockDialog
