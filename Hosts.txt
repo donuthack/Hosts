@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,212
+#Number of ad services/trackers/malware blocked: 4,213
 #Last Updated on Thursday, August 16, 2018
 
 #Mozilla Firefox Trackers
@@ -1690,6 +1690,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wisepops.com
 0.0.0.0 woopra.com
 0.0.0.0 worldwide-cash.net
+0.0.0.0 windstream.com
 
 #X
 0.0.0.0 x.ligatus.com
