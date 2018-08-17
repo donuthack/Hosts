@@ -19,3 +19,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 198.41.215.162
 0.0.0.0 ya-in-f94.1e100.net
 0.0.0.0 1e100.net
+0.0.0.0 tuner.pandora.com
+0.0.0.0 mediaserver-dc6-t1-2v4.pandora.com
+0.0.0.0 edge-star-shv-02-ort2.facebook.com
