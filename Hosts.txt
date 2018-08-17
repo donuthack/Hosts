@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,225
+#Number of ad services/trackers/malware blocked: 4,226
 #Last Updated on Thursday, August 16, 2018
 
 #Mozilla Firefox Trackers
@@ -1302,6 +1302,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dw.cbsi.com
 0.0.0.0 dl1.cbsistatic.com
 0.0.0.0 dev.adfoc.us
+0.0.0.0 doubleclick.net
 
 #E
 0.0.0.0 edge.quantserve.com
