@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,218
+#Number of ad services/trackers/malware blocked: 4,220
 #Last Updated on Thursday, August 16, 2018
 
 #Mozilla Firefox Trackers
@@ -695,11 +695,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 bbcdotcom.2cnt.net
 0.0.0.0 bbcdotcomtest.2cnt.net
 0.0.0.0 bbcios.2cnt.net
+0.0.0.0 betrad.com
 0.0.0.0 bbciostest.2cnt.net
 0.0.0.0 bbcnewscouk.112.2o7.net
 0.0.0.0 bbf7n.voluumtrk.com
 0.0.0.0 bbn.img.com.ua
 0.0.0.0 bbp.brazzers.com
+0.0.0.0 www.bizographics.com
 0.0.0.0 bbpntg3.homestead.com
 0.0.0.0 bbs.duba.net
 0.0.0.0 bbvj6.voluumtrk.com
@@ -1231,6 +1233,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 collector.githubapp.com
 0.0.0.0 cdn.adsafeprotected.com
 0.0.0.0 code.jquery.com
+0.0.0.0 c.betrad.com
 0.0.0.0 cdn.livefyre.com
 0.0.0.0 coinbase.com
 0.0.0.0 cdn.trackjs.com
@@ -1369,6 +1372,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lp4.io
 0.0.0.0 log.adtimaserver.vn
 0.0.0.0 livefyre.com
+0.0.0.0 l.betrad.com
 
 #M
 0.0.0.0 munchkin.marketo.net
