@@ -1,1 +1,21 @@
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
 0.0.0.0 ox-in-f188.1e100.net
+0.0.0.0 yoyo.org
+0.0.0.0 13.91.1.19
+0.0.0.0 198.41.215.162
+0.0.0.0 ya-in-f94.1e100.net
+0.0.0.0 1e100.net
