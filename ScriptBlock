@@ -2,6 +2,8 @@
 #Last Updated on Friday, August 17, 2018
 
 *.windstream.com
+*.googleadservices.com
+*.www.googleadservices.com
 
 /fingerprint.min.js
 /r07/core130.js
