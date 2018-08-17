@@ -22,4 +22,3 @@ ff02::3 ip6-allhosts
 0.0.0.0 tuner.pandora.com
 0.0.0.0 mediaserver-dc6-t1-2v4.pandora.com
 0.0.0.0 edge-star-shv-02-ort2.facebook.com
-0.0.0.0 yt3.ggpht.com
