@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,220
+#Number of ad services/trackers/malware blocked: 4,221
 #Last Updated on Thursday, August 16, 2018
 
 #Mozilla Firefox Trackers
@@ -1343,6 +1343,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hitfox.go2cloud.org
 0.0.0.0 honolulu.app.ur.gcion.com
 0.0.0.0 h6.msn.com
+0.0.0.0 hello.myfonts.net
 
 #I
 0.0.0.0 imasdk.googleapis.com
