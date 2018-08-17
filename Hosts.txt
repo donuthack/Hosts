@@ -13,12 +13,12 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,214
+#Number of ad services/trackers/malware blocked: 4,218
 #Last Updated on Thursday, August 16, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
-0.0.0.0 malware-error.mozilla.com 
+0.0.0.0 malware-error.mozilla.com
 0.0.0.0 phish-error.mozilla.com
 0.0.0.0 snippets.cdn.mozilla.net
 0.0.0.0 tiles.services.mozilla.com
@@ -92,6 +92,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad-delivery.net
 0.0.0.0 apex.go.sonobi.com
 0.0.0.0 api.adtimaserver.vn
+0.0.0.0 app-sj11.marketo.com
 0.0.0.0 adtimaserver.vn
 0.0.0.0 adtimaserver.net
 0.0.0.0 atdmt.com
@@ -1395,6 +1396,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mftracking.imfast.io
 0.0.0.0 mathtag.com
 0.0.0.0 mediamath.com
+0.0.0.0 marketo.com
 
 #N
 0.0.0.0 gwp.nuggad.net
@@ -1467,6 +1469,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ssl.p.jwpcdn.com
 0.0.0.0 ssl.cdn.turner.com
 0.0.0.0 static.criteo.net
+0.0.0.0 se.monetate.net
 0.0.0.0 st.bebi.com
 0.0.0.0 sync.1rx.io
 0.0.0.0 static.parsely.com
@@ -1692,6 +1695,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 woopra.com
 0.0.0.0 worldwide-cash.net
 0.0.0.0 windstream.com
+0.0.0.0 windstreamenterprise.com
 
 #X
 0.0.0.0 x.ligatus.com
