@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,986
+#Number of ad services/trackers/malware blocked: 4,999
 #Last Updated on Thursday, August 16, 2018
 
 #Mozilla Firefox Trackers
@@ -2200,6 +2200,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pubportal.brkmd.com
 0.0.0.0 players.brightcove.net
 0.0.0.0 plugin.mediavoice.com
+0.0.0.0 privy.com
 
 #Q
 0.0.0.0 qualtrics.com
@@ -2686,6 +2687,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 82.6.87.194.dynamic.dol.ru
 0.0.0.0 8233fa03a40c92d.com
 0.0.0.0 824le.voluumtrk.com
+0.0.0.0 1e100.net
 0.0.0.0 82d914.se
 0.0.0.0 82sn9.voluumtrk.com
 0.0.0.0 83.6.87.194.dynamic.dol.ru
