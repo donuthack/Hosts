@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 4,999
-#Last Updated on Thursday, August 16, 2018
+#Number of ad services/trackers/malware blocked: 5,020
+#Last Updated on Sunday, August 19, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -80,30 +80,49 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.adroll.com
 0.0.0.0 adroll.com
 0.0.0.0 ads.ad4game.com
+0.0.0.0 applift.com
 0.0.0.0 ad4game.com
+0.0.0.0 ad.leadboltmobile.net
+0.0.0.0 ad.mo.doubleclick.net
 0.0.0.0 acuty1adsrv.com
 0.0.0.0 ad-balancer.at
 0.0.0.0 ad-balancer.net
 0.0.0.0 app-ab24.marketo.com
 0.0.0.0 analytics.kaltura.com
+0.0.0.0 ads.celtra.com
 0.0.0.0 adsystem.com
+0.0.0.0 applovin.com
 0.0.0.0 ad-center.com
+0.0.0.0 adadapted.com
+0.0.0.0 adtracker.inmobi.com
+0.0.0.0 analytics.admob.com
+0.0.0.0 appads.com
+0.0.0.0 adwhirl.com
+0.0.0.0 ads.mdotm.com
 0.0.0.0 adworkmedia.com
+0.0.0.0 adinfuse.com
+0.0.0.0 ads.mobclix.com
+0.0.0.0 analytics.freedom.press
+0.0.0.0 akamai.smartadserver.com
 0.0.0.0 a.quora.com
 0.0.0.0 ad-pay.de
+0.0.0.0 au.youmi.net
 0.0.0.0 ads.rubiconproject.com
 0.0.0.0 ad-rotator.com
+0.0.0.0 adimg3.search.naver.net
 0.0.0.0 analytics.yahoo.com
 0.0.0.0 ad-server.gulasidorna.se
 0.0.0.0 asset.pagefair.net
 0.0.0.0 alexa.com
 0.0.0.0 app.livechatoo.com
 0.0.0.0 amobee.com
+0.0.0.0 ad.parrot.mable-inc.com
 0.0.0.0 a1webstrategy.com
 0.0.0.0 a1webstats.com
 0.0.0.0 ad-delivery.net
 0.0.0.0 apex.go.sonobi.com
 0.0.0.0 api.adtimaserver.vn
+0.0.0.0 aos.wall.youmi.net
 0.0.0.0 app-sj11.marketo.com
 0.0.0.0 adtimaserver.vn
 0.0.0.0 adtimaserver.net
@@ -232,6 +251,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 admantx.com
 0.0.0.0 admarketplace.net
 0.0.0.0 admarvel.com
+0.0.0.0 adsx.greystripe.com
 0.0.0.0 admax.nexage.com
 0.0.0.0 admedia.com
 0.0.0.0 admedia.ro
@@ -242,6 +262,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adminder.com
 0.0.0.0 adminshop.com
 0.0.0.0 admized.com
+0.0.0.0 ads2.greystripe.com
 0.0.0.0 admob.com
 0.0.0.0 admonitor.com
 0.0.0.0 admotion.com.ar
@@ -1246,6 +1267,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 count47.51yes.com
 0.0.0.0 count48.51yes.com
 0.0.0.0 collector.githubapp.com
+0.0.0.0 cdn1.inner-active.mobi
+0.0.0.0 cdn.mdotm.com
+0.0.0.0 coconuts.boy.jp
+0.0.0.0 cdn.ajillionmax.com
 0.0.0.0 cdn01.mzbcdn.net
 0.0.0.0 connect.facebook.com
 0.0.0.0 cpmstar.com
@@ -1253,6 +1278,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cfvod.kaltura.com
 0.0.0.0 cdn.mxpnl.com
 0.0.0.0 chimpstatic.com
+0.0.0.0 celtra.com
 0.0.0.0 com-symantec.netmng.com
 0.0.0.0 c674753.ssl.cf2.rackcdn.com
 0.0.0.0 clicktale.net
@@ -1310,6 +1336,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.flashtalking.com
 0.0.0.0 cdn01.basis.net
 0.0.0.0 connect.facebook.net
+0.0.0.0 creative.medialytics.com
 
 #D
 0.0.0.0 dpm.demdex.net
@@ -1333,6 +1360,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 demandbase.com
 0.0.0.0 di-dtaectolog-us-prod-1.appspot.com
 0.0.0.0 disqus.com
+0.0.0.0 do-not-tracker.org
+0.0.0.0 dispatch.admixer.co.kr
+0.0.0.0 data.mobclix.com
 
 #E
 0.0.0.0 edge.quantserve.com
@@ -1340,6 +1370,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 enter.sexlist.com
 0.0.0.0 events.evie.com
 0.0.0.0 edge.api.brightcove.com
+0.0.0.0 eviltracker.net
 
 #F
 0.0.0.0 fls.doubleclick.net
@@ -1372,6 +1403,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gads.pubmatic.com
 0.0.0.0 googlesyndication.com
 0.0.0.0 g2crowd.com
+0.0.0.0 greystripe.com
 
 #H
 0.0.0.0 hit1.hotlog.ru
@@ -1394,6 +1426,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 images.webads.nl
 0.0.0.0 imrworldwide.com
 0.0.0.0 instinctiveads.com
+0.0.0.0 ifc.inmobi.com
+0.0.0.0 img.adecorp.co.kr
+0.0.0.0 img.ads1.mocean.mobi
+0.0.0.0 img.ads2.mojiva.com
+0.0.0.0 img.ads3.mojiva.com
+0.0.0.0 img.ads4.mocean.mobi
+0.0.0.0 inmobi.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
@@ -1404,6 +1443,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.hs-analytics.net
 0.0.0.0 js.hs-scripts.com
 0.0.0.0 js.hsforms.net
+0.0.0.0 jumptap.com
 
 #K
 0.0.0.0 kabradrugsltd.com
@@ -2126,6 +2166,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 l.betrad.com
 0.0.0.0 livechatoo.com
 0.0.0.0 load.instinctiveads.com
+0.0.0.0 localytics.com
 
 #M
 0.0.0.0 munchkin.marketo.net
@@ -2146,7 +2187,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 m.adnxs.com
 0.0.0.0 mtrx.go.sonobi.com
 0.0.0.0 media.msg.dotomi.com
+0.0.0.0 mydas.mobi
+0.0.0.0 mobileads.msn.com
 0.0.0.0 mc.yandex.ru
+0.0.0.0 mocean.mobi
+0.0.0.0 mojiva.com
 0.0.0.0 media.net
 0.0.0.0 mixi.media
 0.0.0.0 maps.googleapis.com
@@ -2157,6 +2202,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 mxpnl.com
 0.0.0.0 metrics.brightcove.com
 0.0.0.0 mediavoice.com
+0.0.0.0 medialytics.com
+0.0.0.0 met.adwhirl.com
+0.0.0.0 mob.adwhirl.com
+0.0.0.0 media.admob.com
+0.0.0.0 mdotm.com
+0.0.0.0 mobclix.com
+0.0.0.0 mobpartner.mobi
+0.0.0.0 m2m1.inner-active.mobi
 
 #N
 0.0.0.0 gwp.nuggad.net
@@ -2201,6 +2254,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 players.brightcove.net
 0.0.0.0 plugin.mediavoice.com
 0.0.0.0 privy.com
+0.0.0.0 plugin.2easydroid.com
+0.0.0.0 phluantmobile.net
+0.0.0.0 pflexads.com
 
 #Q
 0.0.0.0 qualtrics.com
@@ -2229,9 +2285,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 s3.amazonaws.com
+0.0.0.0 smaato.net
 0.0.0.0 steepto.com
 0.0.0.0 securetoolext.com
 0.0.0.0 s0.2mdn.net
+0.0.0.0 smartadserver.com
+0.0.0.0 www.smartadserver.com
+0.0.0.0 www2.smartadserver.com
+0.0.0.0 www3.smartadserver.com
+0.0.0.0 www4.smartadserver.com
+0.0.0.0 ww14.smartadserver.com
+0.0.0.0 st.a-link.co.kr
 0.0.0.0 server.cpmstar.com
 0.0.0.0 scripts.demandbase.com
 0.0.0.0 srv.main.ebayrtm.com
@@ -2253,6 +2317,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 servicer.mgid.com
 0.0.0.0 stats.kaltura.com
 0.0.0.0 supercell.ca1.qualtrics.com
+0.0.0.0 s.mobclix.com
 0.0.0.0 suppoet.me
 0.0.0.0 surf.11r.biz
 0.0.0.0 surf.org.pl
@@ -2380,7 +2445,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 tags.tiqcdn.com
 0.0.0.0 tags.bkrtx.com
 0.0.0.0 t1.softonicads.com
+0.0.0.0 trackersimulator.org
 0.0.0.0 t2.softonicads.com
+0.0.0.0 thinknear-hosted.thinknearhub.com
+0.0.0.0 tapad.com
 0.0.0.0 tag.yoc-adserver.com
 0.0.0.0 tru.am
 0.0.0.0 textads.adultadworld.com
@@ -2425,6 +2493,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ugdturner.com
 0.0.0.0 ugdturner.com
 0.0.0.0 udmserve.net
+0.0.0.0 us0.adlibr.com
 
 #V
 0.0.0.0 video.plista.com
@@ -2442,6 +2511,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 vpon.com
 0.0.0.0 vk.com
 0.0.0.0 visualwebsiteoptimizer.com
+0.0.0.0 velti.com
+0.0.0.0 vserv.mobi
 
 #W
 0.0.0.0 wd.adcolony.com
@@ -2476,6 +2547,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 windstream.com
 0.0.0.0 windstreamenterprise.com
 0.0.0.0 webads.nl
+0.0.0.0 wv.inner-active.mobi
 
 #X
 0.0.0.0 x.ligatus.com
