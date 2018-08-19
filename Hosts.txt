@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 5,071
+#Number of ad services/trackers/malware blocked: 5,072
 #Last Updated on Sunday, August 19, 2018
 
 #Mozilla Firefox Trackers
@@ -5146,6 +5146,7 @@ ff02::3 ip6-allhosts
 #Phishing
 0.0.0.0 sycjamsa.com
 0.0.0.0 inshalpharma.com
+0.0.0.0 bankofamerica.com.login
 
 #Ransomeware
 0.0.0.0 00005ik.rcomhost.com
