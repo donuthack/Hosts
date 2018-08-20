@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 5,072
+#Number of ad services/trackers/malware blocked: 5,074
 #Last Updated on Sunday, August 19, 2018
 
 #Mozilla Firefox Trackers
@@ -93,6 +93,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adsystem.com
 0.0.0.0 applovin.com
 0.0.0.0 ad-center.com
+0.0.0.0 ads.pro-market.net
 0.0.0.0 adadapted.com
 0.0.0.0 adtracker.inmobi.com
 0.0.0.0 analytics.admob.com
@@ -2280,6 +2281,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rackcdn.com
 
 #S
+0.0.0.0 analytics.slashdotmedia.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sentry.io
 0.0.0.0 secure-us.imrworldwide.com
