@@ -1388,6 +1388,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 events.evie.com
 0.0.0.0 edge.api.brightcove.com
 0.0.0.0 eviltracker.net
+0.0.0.0 ero-advertising.com
 
 #F
 0.0.0.0 fls.doubleclick.net
