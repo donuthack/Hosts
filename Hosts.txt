@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 5,074
-#Last Updated on Sunday, August 19, 2018
+#Number of ad services/trackers/malware blocked: 5,075
+#Last Updated on Tuesday, August 21, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -1595,6 +1595,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 kamden.com
 0.0.0.0 kameja-veikals-78267.rekviziti.lv
 0.0.0.0 kameleoon.com
+0.0.0.0 kochava.com
 0.0.0.0 kameleoon.eu
 0.0.0.0 kameliya.dn.ua
 0.0.0.0 kamen-e.ru
