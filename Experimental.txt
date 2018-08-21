@@ -21,3 +21,5 @@ ff02::3 ip6-allhosts
 0.0.0.0 mediaserver-dc6-t1-2v4.pandora.com
 0.0.0.0 pandoramedia.sc.omtrdc.net
 0.0.0.0 edge-star-shv-02-ort2.facebook.com
+0.0.0.0 102.251.109.119
+0.0.0.0 r.cloudfront.net
