@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,382
+#Number of ad services/trackers/malware blocked: 6,386
 #Last Updated on Tuesday, August 21, 2018
 
 #Mozilla Firefox Trackers
@@ -90,6 +90,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.investingchannel.com
 0.0.0.0 api.ipify.org
 0.0.0.0 ad-balancer.at
+0.0.0.0 ads.musixmatch.com
 0.0.0.0 api.hackertarget.com
 0.0.0.0 api.ipinfodb.com
 0.0.0.0 ad.com
@@ -1268,6 +1269,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.saberfeedback.com
 0.0.0.0 clarium.global.ssl.fastly.net
 0.0.0.0 c2.taboola.com
+0.0.0.0 clickfuse.com
+0.0.0.0 cdn.clickfuse.com
 0.0.0.0 cdn.engine.4dsply.com
 0.0.0.0 cdn.springserve.com
 0.0.0.0 cdn.dynamicyield.com
@@ -2583,6 +2586,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tag.crsspxl.com
 0.0.0.0 taboola.com
 0.0.0.0 testapp.adhood.com
+0.0.0.0 tracking.musixmatch.com
 0.0.0.0 turn.com
 0.0.0.0 track.adrpanel.es
 0.0.0.0 tap-cdn.rubiconproject.com
