@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,386
-#Last Updated on Tuesday, August 21, 2018
+#Number of ad services/trackers/malware blocked: 6,402
+#Last Updated on Wednesday, August 22, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -78,15 +78,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 app-sj01.marketo.com
 0.0.0.0 acuityads.com
 0.0.0.0 a.adroll.com
+0.0.0.0 ads.lordlucky.com
+0.0.0.0 ads.harvard.edu
+0.0.0.0 ads.ac.uk
+0.0.0.0 ads.mobilebet.com
+0.0.0.0 ads.msstate.edu
+0.0.0.0 adassembly.com
 0.0.0.0 adroll.com
 0.0.0.0 ads.ad4game.com
 0.0.0.0 applift.com
 0.0.0.0 ad4game.com
+0.0.0.0 ads.red
 0.0.0.0 ad.leadboltmobile.net
 0.0.0.0 ad.mo.doubleclick.net
 0.0.0.0 acuty1adsrv.com
+0.0.0.0 ads.viksaffiliates.com
 0.0.0.0 a.pub.network
+0.0.0.0 ads.socialtheater.com
 0.0.0.0 adscreendirect.com
+0.0.0.0 adassembly.com
 0.0.0.0 ads.investingchannel.com
 0.0.0.0 api.ipify.org
 0.0.0.0 ad-balancer.at
@@ -1275,6 +1285,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.springserve.com
 0.0.0.0 cdn.dynamicyield.com
 0.0.0.0 connatix.com
+0.0.0.0 cdn.livechatinc.com
 0.0.0.0 cdn2.lockerdome.com
 0.0.0.0 www.civicscience.com
 0.0.0.0 configusa.veinteractive.com
@@ -1455,6 +1466,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 graph.instagram.com
 0.0.0.0 gramombird.com
 0.0.0.0 google-analytics.com
+0.0.0.0 gateway.foresee.com
 0.0.0.0 gannett-d.openx.net
 0.0.0.0 gads.pubmatic.com
 0.0.0.0 googlesyndication.com
@@ -1479,6 +1491,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 h6.msn.com
 0.0.0.0 hello.myfonts.net
 0.0.0.0 hm.baidu.com
+0.0.0.0 hotjar.com
 
 #I
 0.0.0.0 imasdk.googleapis.com
@@ -1499,6 +1512,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.ads1.mocean.mobi
 0.0.0.0 img.ads2.mojiva.com
 0.0.0.0 img.ads3.mojiva.com
+0.0.0.0 www.iyfubh.com
 0.0.0.0 img.ads4.mocean.mobi
 0.0.0.0 inmobi.com
 0.0.0.0 ipinfodb.com
@@ -2254,6 +2268,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lightboxcdn.com
 0.0.0.0 lockerdome.com
 0.0.0.0 liqwid.net
+0.0.0.0 logs1.smithsonian.museum
 
 #M
 0.0.0.0 munchkin.marketo.net
@@ -2305,6 +2320,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mobpartner.mobi
 0.0.0.0 m2m1.inner-active.mobi
 0.0.0.0 maxmind.com
+0.0.0.0 memo2.nl
 
 #N
 0.0.0.0 gwp.nuggad.net
