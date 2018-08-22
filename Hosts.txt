@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,360
+#Number of ad services/trackers/malware blocked: 6,382
 #Last Updated on Tuesday, August 21, 2018
 
 #Mozilla Firefox Trackers
@@ -90,6 +90,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.investingchannel.com
 0.0.0.0 api.ipify.org
 0.0.0.0 ad-balancer.at
+0.0.0.0 api.hackertarget.com
 0.0.0.0 api.ipinfodb.com
 0.0.0.0 ad.com
 0.0.0.0 api.parsely.com
@@ -1459,6 +1460,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 go2cloud.org
 0.0.0.0 global.proper.io
 0.0.0.0 go.goroost.com
+0.0.0.0 gd.geobytes.com
+0.0.0.0 geobytes.com
+0.0.0.0 geoiplookup.io
+0.0.0.0 www.geoplugin.net
+0.0.0.0 geoip.nekudo.com
 
 #H
 0.0.0.0 hit1.hotlog.ru
@@ -1493,6 +1499,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.ads4.mocean.mobi
 0.0.0.0 inmobi.com
 0.0.0.0 ipinfodb.com
+0.0.0.0 ipapi.co
+0.0.0.0 ip-api.com
+0.0.0.0 ipdata.co
+0.0.0.0 ipfind.co
+0.0.0.0 ipgeolocation.io
+0.0.0.0 ipify.org
+0.0.0.0 ipinfo.io
+0.0.0.0 ipcalf.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
@@ -1507,6 +1521,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.maxmind.com
 0.0.0.0 jsc.idealmedia.com
 0.0.0.0 justicejudo.com
+0.0.0.0 json.geoiplookup.io
+0.0.0.0 jsonip.com
 
 #K
 0.0.0.0 kabradrugsltd.com
@@ -2295,6 +2311,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 netdna.bootstrapcdn.com
 0.0.0.0 no-ip.info
 0.0.0.0 nextmillennium.liqwid.net
+0.0.0.0 net.ipcalf.com
 
 #O
 0.0.0.0 widgets.outbrain.com
@@ -2394,9 +2411,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 secure.gaug.es
 0.0.0.0 s.newsmaxfeednetwork.com
 0.0.0.0 secure.adnxs.com
+0.0.0.0 static.olark.com
 0.0.0.0 smartadserver.com
 0.0.0.0 www.smartadserver.com
+0.0.0.0 smart-ip.net
 0.0.0.0 springserve.com
+0.0.0.0 www.stupidwebtools.com
 0.0.0.0 www2.smartadserver.com
 0.0.0.0 www3.smartadserver.com
 0.0.0.0 www4.smartadserver.com
@@ -2580,6 +2600,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tracker.com
 0.0.0.0 track.spots.im
 0.0.0.0 tags.bluekai.com
+0.0.0.0 telize.com
 
 #U
 0.0.0.0 us-u.openx.net
@@ -2877,6 +2898,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 123advertising.nl
 0.0.0.0 20d625b48e.se
 0.0.0.0 050003.voodoo.com
+0.0.0.0 l2.io
 0.0.0.0 0ac28006501rh1687sd32.win
 0.0.0.0 0ac28009580nh621929171.win
 0.0.0.0 0ac28009723614822731qd.win
