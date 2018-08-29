@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,402
+#Number of ad services/trackers/malware blocked: 6,406
 #Last Updated on Wednesday, August 22, 2018
 
 #Mozilla Firefox Trackers
@@ -83,6 +83,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.ac.uk
 0.0.0.0 ads.mobilebet.com
 0.0.0.0 ads.msstate.edu
+0.0.0.0 assoc-amazon.com
 0.0.0.0 adassembly.com
 0.0.0.0 adroll.com
 0.0.0.0 ads.ad4game.com
@@ -1289,6 +1290,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn2.lockerdome.com
 0.0.0.0 www.civicscience.com
 0.0.0.0 configusa.veinteractive.com
+0.0.0.0 cpanel.nativeads.com
 0.0.0.0 ced.sascdn.com
 0.0.0.0 cdn.connatix.com
 0.0.0.0 count3.51yes.com
@@ -2331,6 +2333,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 no-ip.info
 0.0.0.0 nextmillennium.liqwid.net
 0.0.0.0 net.ipcalf.com
+0.0.0.0 nativeads.com
 
 #O
 0.0.0.0 widgets.outbrain.com
@@ -4621,6 +4624,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 Email-customer-support.com
 0.0.0.0 Supportfortech.co.uk
 0.0.0.0 Kaspersky-support.net
+0.0.0.0 tryservice.azurewebsites.net
 
 #JSCoinminer Website (Malicious Coin Miners)
 0.0.0.0 2giga.link
