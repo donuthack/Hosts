@@ -1,13 +1,73 @@
-#Number of ad services/trackers blocked: 135
+#Number of ad services/trackers blocked: 137
 #Last Updated on Thursday, August 30, 2018
 
-/encryption/helixstronghold
-/encryption/wharfrat
-/encryption/the_algorithm
-/encryption/kryptel
-/encryption/cipherpad
-/encryption/archive/rar/x52/x61/x72
-/certificate/digital_id
+/encryption/helixstronghold.js
+/encryption/wharfrat.js
+/encryption/the_algorithm.js
+/encryption/kryptel.js
+/encryption/cipherpad.js
+/encryption/archive/rar/x52/x61/x72.js
+/encryption/pgp/message.js
+/certificate/digital_id.js
+/mail/webmail/yahoo/login mail/english.js
+/mail/webmail/yahoo/login mail/arabic.js
+/browser/cellphone/iphone.js
+/browser/cellphone/motorola.js
+/browser/cellphone/samsung.js
+/browser/cellphone/android.js
+/browser/cellphone/sony.js
+/browser/cellphone/blackberry.js
+
+@@||encryption/helixstronghold.js
+@@||encryption/wharfrat.js
+@@||encryption/the_algorithm.js
+@@||encryption/kryptel.js
+@@||encryption/cipherpad.js
+@@||encryption/pgp/message.js
+@@||encryption/archive/rar/x52/x61/x72.js
+@@||certificate/digital_id.js
+@@||mail/webmail/yahoo/login mail/english.js
+@@||mail/webmail/yahoo/login mail/arabic.js
+@@||browser/cellphone/iphone.js
+@@||browser/cellphone/motorola.js
+@@||browser/cellphone/samsung.js
+@@||browser/cellphone/android.js
+@@||browser/cellphone/sony.js
+@@||browser/cellphone/blackberry.js
+
+@@||encryption/helixstronghold
+@@||encryption/wharfrat
+@@||encryption/the_algorithm
+@@||encryption/kryptel
+@@||encryption/cipherpad
+@@||encryption/pgp/message
+@@||encryption/archive/rar/x52/x61/x72
+@@||certificate/digital_id
+@@||mail/webmail/yahoo/login mail/english
+@@||mail/webmail/yahoo/login mail/arabic
+@@||browser/cellphone/iphone
+@@||browser/cellphone/motorola
+@@||browser/cellphone/samsung
+@@||browser/cellphone/android
+@@||browser/cellphone/sony
+@@||browser/cellphone/blackberry
+
+@@||encryption/*helixstronghold
+@@||encryption/*wharfrat
+@@||encryption/*the_algorithm
+@@||encryption/*kryptel
+@@||encryption/*cipherpad
+@@||encryption/pgp/*message
+@@||encryption/archive/rar/x52/x61/*x72
+@@||certificate/*digital_id
+@@||mail/webmail/yahoo/login mail/*english
+@@||mail/webmail/yahoo/login mail/*arabic
+@@||browser/cellphone/*iphone
+@@||browser/cellphone/*motorola
+@@||browser/cellphone/*samsung
+@@||browser/cellphone/*android
+@@||browser/cellphone/*sony
+@@||browser/cellphone/*blackberry
 
 *.windstream.com
 *.googleadservices.com
