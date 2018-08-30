@@ -1,5 +1,13 @@
-#Number of ad services/trackers blocked: 128
-#Last Updated on Friday, August 17, 2018
+#Number of ad services/trackers blocked: 135
+#Last Updated on Thursday, August 30, 2018
+
+/encryption/helixstronghold
+/encryption/wharfrat
+/encryption/the_algorithm
+/encryption/kryptel
+/encryption/cipherpad
+/encryption/archive/rar/x52/x61/x72
+/certificate/digital_id
 
 *.windstream.com
 *.googleadservices.com
