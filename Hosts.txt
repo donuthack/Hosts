@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,406
-#Last Updated on Wednesday, August 22, 2018
+#Number of ad services/trackers/malware blocked: 6,416
+#Last Updated on Thursday, August 30, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -93,12 +93,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.leadboltmobile.net
 0.0.0.0 ad.mo.doubleclick.net
 0.0.0.0 acuty1adsrv.com
+0.0.0.0 amplifypixel.outbrain.com
+0.0.0.0 ade.clmbtech.com
 0.0.0.0 ads.viksaffiliates.com
 0.0.0.0 a.pub.network
+0.0.0.0 aweber.com
 0.0.0.0 ads.socialtheater.com
 0.0.0.0 adscreendirect.com
 0.0.0.0 adassembly.com
 0.0.0.0 ads.investingchannel.com
+0.0.0.0 aff.bstatic.com
 0.0.0.0 api.ipify.org
 0.0.0.0 ad-balancer.at
 0.0.0.0 ads.musixmatch.com
@@ -761,6 +765,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 b-code.liadm.com
 0.0.0.0 bbb7-bfec-9a0b-58ba.reporo.net
 0.0.0.0 bbca.channelfinder.net
+0.0.0.0 bskyb.demdex.net
 0.0.0.0 bounceads.net
 0.0.0.0 bgr.disqus.com
 0.0.0.0 bbcandroid.2cnt.net
@@ -1292,6 +1297,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 configusa.veinteractive.com
 0.0.0.0 cpanel.nativeads.com
 0.0.0.0 ced.sascdn.com
+0.0.0.0 carambo.la
+0.0.0.0 c.tadst.com
+0.0.0.0 consent.cmp.oath.com
 0.0.0.0 cdn.connatix.com
 0.0.0.0 count3.51yes.com
 0.0.0.0 count4.51yes.com
@@ -1401,16 +1409,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 dsparking.com
 0.0.0.0 dp.g.doubleclick.net
 0.0.0.0 dcinfos.abtasty.com
-0.0.0.0 d2np5nlsc31ci5.cloudfront.net
-0.0.0.0 d2lo2tipcl3aii.cloudfront.net
 0.0.0.0 dl.gameplaylabs.com
 0.0.0.0 datacollect6.abtasty.com
 0.0.0.0 dev.visualwebsiteoptimizer.com
 0.0.0.0 download.cdn.sharelive.net 
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 0.0.0.0 d2na2p72vtqyok.cloudfront.net
+0.0.0.0 d2np5nlsc31ci5.cloudfront.net
+0.0.0.0 d36fjmz5qqu02b.cloudfront.net
+0.0.0.0 d226aj4ao1t61q.cloudfront.net
+0.0.0.0 d3rxaij56vjege.cloudfront.net
+0.0.0.0 d3hwh14livah35.cloudfront.net
+0.0.0.0 d2lo2tipcl3aii.cloudfront.net
+0.0.0.0 d2dq2ahtl5zl1z.cloudfront.net
+0.0.0.0 d283cy82q96avo.cloudfront.net
 0.0.0.0 d24n15hnbwhuhn.cloudfront.net
+0.0.0.0 d31vxm9ubutrmw.cloudfront.net
 0.0.0.0 d16fvbyxlcp1p1.cloudfront.net
+0.0.0.0 d3c3cq33003psk.cloudfront.net
 0.0.0.0 d1upw2736fa7mu.cloudfront.net
 0.0.0.0 doubleverify.com
 0.0.0.0 ds.reson8.com
@@ -1439,6 +1455,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ero-advertising.com
 0.0.0.0 engine.4dsply.com
 0.0.0.0 experience.tinypass.com
+0.0.0.0 ezoic.net
+0.0.0.0 exelator.com
 
 #F
 0.0.0.0 fls.doubleclick.net
@@ -1452,6 +1470,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fonts.googleapis.com
 0.0.0.0 fast.fonts.net
 0.0.0.0 fonts.net
+0.0.0.0 fyre.co
 
 #G
 0.0.0.0 googleadservices.com
@@ -1460,8 +1479,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 googletagservices.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googlewordpad.info
+0.0.0.0 getsitecontrol.com
 0.0.0.0 google.com/ads
 0.0.0.0 gameplaylabs.com
+0.0.0.0 g.ezoic.net
+0.0.0.0 go.ezoic.net
 0.0.0.0 gaug.es
 0.0.0.0 get.whitesmoke.com
 0.0.0.0 graph.facebook.com
@@ -1516,6 +1538,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.ads3.mojiva.com
 0.0.0.0 www.iyfubh.com
 0.0.0.0 img.ads4.mocean.mobi
+0.0.0.0 idealmedia.com
 0.0.0.0 inmobi.com
 0.0.0.0 ipinfodb.com
 0.0.0.0 ipapi.co
@@ -2271,6 +2294,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 lockerdome.com
 0.0.0.0 liqwid.net
 0.0.0.0 logs1.smithsonian.museum
+0.0.0.0 live.sekindo.com
+0.0.0.0 loadus.exelator.com
 
 #M
 0.0.0.0 munchkin.marketo.net
@@ -2334,6 +2359,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 nextmillennium.liqwid.net
 0.0.0.0 net.ipcalf.com
 0.0.0.0 nativeads.com
+0.0.0.0 nativeroll.tv
 
 #O
 0.0.0.0 widgets.outbrain.com
@@ -2345,6 +2371,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 openx.net
 0.0.0.0 onelink.me
 0.0.0.0 online-metrix.net
+0.0.0.0 opentag-stats.qubit.com
 
 #P
 0.0.0.0 pixel.rubiconproject.com
@@ -2355,6 +2382,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead1.googlesyndication.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead3.googlesyndication.com
+0.0.0.0 pixel.watch
 0.0.0.0 profitboosterapp.com
 0.0.0.0 parsely.com
 0.0.0.0 park.above.com
@@ -2391,6 +2419,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qingdaonews.com
 0.0.0.0 quantcount.com
 0.0.0.0 quantcast.mgr.consensu.org
+0.0.0.0 qubit.com
 
 #R
 0.0.0.0 reports.crashlytics.com
@@ -2399,6 +2428,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rubiconproject.com
 0.0.0.0 router.googlecom.biz
 0.0.0.0 rutube.ru
+0.0.0.0 route.carambo.la
 0.0.0.0 ranks.sextracker.com
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
@@ -2407,6 +2437,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 res.cloudinary.com
 0.0.0.0 www.roosterfirework.com
 0.0.0.0 roosterfirework.com
+0.0.0.0 relap.io
 0.0.0.0 rackcdn.com
 0.0.0.0 rtstats.com
 0.0.0.0 reporo.net
@@ -2425,16 +2456,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 s3.amazonaws.com
 0.0.0.0 segment-data.zqtk.net
 0.0.0.0 sjrtp1.marketo.com
+0.0.0.0 static.clmbtech.com
 0.0.0.0 smaato.net
 0.0.0.0 steepto.com
 0.0.0.0 static.addtoany.com
+0.0.0.0 stats.qubit.com
 0.0.0.0 securetoolext.com
 0.0.0.0 s0.2mdn.net
+0.0.0.0 sync.search.spotxchange.com
 0.0.0.0 secure.gaug.es
 0.0.0.0 s.newsmaxfeednetwork.com
 0.0.0.0 secure.adnxs.com
 0.0.0.0 static.olark.com
 0.0.0.0 smartadserver.com
+0.0.0.0 sekindo.com
 0.0.0.0 www.smartadserver.com
 0.0.0.0 smart-ip.net
 0.0.0.0 springserve.com
@@ -2597,6 +2632,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 t1.softonicads.com
 0.0.0.0 trackersimulator.org
 0.0.0.0 t2.softonicads.com
+0.0.0.0 timeanddate-d.openx.net
 0.0.0.0 thinknear-hosted.thinknearhub.com
 0.0.0.0 tapad.com
 0.0.0.0 tag.yoc-adserver.com
@@ -2693,6 +2729,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 webreseau.com
 0.0.0.0 webseoanalytics.com
 0.0.0.0 websponsors.com
+0.0.0.0 widgets.getsitecontrol.com
 0.0.0.0 ww2.qfind.net
 0.0.0.0 webstat.channel4.com
 0.0.0.0 whispa.com
@@ -2822,6 +2859,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 z44124-p37459-n231.pub.pgssl.com
 0.0.0.0 z44127-p37459-n231.pub.pgssl.com
 0.0.0.0 za1.zeroredirect12.com
+0.0.0.0 zm232.com
 0.0.0.0 zahonero.com
 0.0.0.0 zansceeifcmm.com
 0.0.0.0 zavfvuooiqvepj.com
@@ -2914,6 +2952,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 123-tracker.com
 0.0.0.0 000owamail0.000webhostapp.com
 0.0.0.0 4dsply.com
+0.0.0.0 202.164.36.10
 0.0.0.0 11f976743800.com
 0.0.0.0 11hour.com
 0.0.0.0 11167236.adscreendirect.com
