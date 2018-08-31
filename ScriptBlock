@@ -1,4 +1,4 @@
-#Number of ad services/trackers blocked: 272
+#Number of ad services/trackers blocked: 290
 #Last Updated on Thursday, August 30, 2018
 
 /encryption/helixstronghold.js
@@ -73,6 +73,15 @@
 *.googleadservices.com
 *.www.googleadservices.com
 
+/swfobject.js
+/PluginDetect.js
+/plugindetect.js
+/sha1.js
+/fp.js
+/webGL.js
+/returningVisitor.js
+/cookies.js
+/browser-fingerprint
 /fingerprint.min.js
 /fingerprint.css
 /static/fp2.js
@@ -131,6 +140,15 @@
 /ad.js
 /ads.js
 
+@@||swfobject.js
+@@||PluginDetect.js
+@@||plugindetect.js
+@@||sha1.js
+@@||fp.js
+@@||webGL.js
+@@||returningVisitor.js
+@@||cookies.js
+@@||browser-fingerprint
 @@||fingerprint.min.js
 @@||static/fp2.js
 @@||fp2.js
