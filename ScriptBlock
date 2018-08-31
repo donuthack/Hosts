@@ -1,4 +1,4 @@
-#Number of ad services/trackers blocked: 195
+#Number of ad services/trackers blocked: 212
 #Last Updated on Thursday, August 30, 2018
 
 /encryption/helixstronghold.js
@@ -74,7 +74,24 @@
 *.www.googleadservices.com
 
 /fingerprint.min.js
+/fingerprint.css
 /js/canvas.js
+/js/ip-direct-vi.js
+/js/ip-direct.js
+/js/ip.js
+/js/webgl.js
+/js/webrtc.js
+/js/fonts.js
+/js/modernizr-custom.js
+/js/modernizr.js
+/jsgeo.js
+/js/css.js
+/css.js
+/jquery.canvasjs.min.js
+/canvasjs.min.js
+/canvasjs.js
+/ubercookie.js
+/assets/ubercookie.js
 /r07/core130.js
 /fp2.js
 /fingerprint/figp.js
