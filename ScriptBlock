@@ -1,4 +1,4 @@
-#Number of ad services/trackers blocked: 212
+#Number of ad services/trackers blocked: 216
 #Last Updated on Thursday, August 30, 2018
 
 /encryption/helixstronghold.js
@@ -75,6 +75,8 @@
 
 /fingerprint.min.js
 /fingerprint.css
+/static/fp2.js
+/fp2.js
 /js/canvas.js
 /js/ip-direct-vi.js
 /js/ip-direct.js
@@ -129,6 +131,8 @@
 /ads.js
 
 @@||fingerprint.min.js
+@@||static/fp2.js
+@@||fp2.js
 @@||fingerprint.css
 @@||js/canvas.js
 @@||js/ip-direct-vi.js
