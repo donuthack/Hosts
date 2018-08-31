@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,416
-#Last Updated on Thursday, August 30, 2018
+#Number of ad services/trackers/malware blocked: 6,426
+#Last Updated on Friday, August 31, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -86,7 +86,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 assoc-amazon.com
 0.0.0.0 adassembly.com
 0.0.0.0 adroll.com
+0.0.0.0 aax.amazon-adsystem.com
 0.0.0.0 ads.ad4game.com
+0.0.0.0 adsrvr.org
 0.0.0.0 applift.com
 0.0.0.0 ad4game.com
 0.0.0.0 ads.red
@@ -758,6 +760,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 banner-link.com.br
 0.0.0.0 www.bugherd.com
 0.0.0.0 bathyliticlkjwh.download
+0.0.0.0 buysellads.com
 0.0.0.0 bavners2.ero-advertising.com
 0.0.0.0 baypops.com
 0.0.0.0 bazingandroid.com
@@ -1293,6 +1296,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 connatix.com
 0.0.0.0 cdn.livechatinc.com
 0.0.0.0 cdn2.lockerdome.com
+0.0.0.0 cdn.speedcurve.com
 0.0.0.0 www.civicscience.com
 0.0.0.0 configusa.veinteractive.com
 0.0.0.0 cpanel.nativeads.com
@@ -1300,6 +1304,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 carambo.la
 0.0.0.0 c.tadst.com
 0.0.0.0 consent.cmp.oath.com
+0.0.0.0 cxense.com
+0.0.0.0 cdn.tinypass.com
 0.0.0.0 cdn.connatix.com
 0.0.0.0 count3.51yes.com
 0.0.0.0 count4.51yes.com
@@ -1426,6 +1432,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d24n15hnbwhuhn.cloudfront.net
 0.0.0.0 d31vxm9ubutrmw.cloudfront.net
 0.0.0.0 d16fvbyxlcp1p1.cloudfront.net
+0.0.0.0 dk98ddgl0znzm.cloudfront.net
 0.0.0.0 d3c3cq33003psk.cloudfront.net
 0.0.0.0 d1upw2736fa7mu.cloudfront.net
 0.0.0.0 doubleverify.com
@@ -1471,6 +1478,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fast.fonts.net
 0.0.0.0 fonts.net
 0.0.0.0 fyre.co
+0.0.0.0 force.com
 
 #G
 0.0.0.0 googleadservices.com
@@ -1527,6 +1535,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 indexww.com
 0.0.0.0 imrworldwide.com
 0.0.0.0 img.bleacherreport.net
+0.0.0.0 insight.adsrvr.org
 0.0.0.0 images.webads.nl
 0.0.0.0 imrworldwide.com
 0.0.0.0 instinctiveads.com
@@ -2372,6 +2381,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 onelink.me
 0.0.0.0 online-metrix.net
 0.0.0.0 opentag-stats.qubit.com
+0.0.0.0 optimize-stats.voxmedia.com
 
 #P
 0.0.0.0 pixel.rubiconproject.com
@@ -2386,6 +2396,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 profitboosterapp.com
 0.0.0.0 parsely.com
 0.0.0.0 park.above.com
+0.0.0.0 petiteumbrella.com
 0.0.0.0 play.bestapp.com
 0.0.0.0 pub.network
 0.0.0.0 p.skimresources.com
@@ -2412,6 +2423,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pro.ip-api.com
 0.0.0.0 pixel-a.basis.net
 0.0.0.0 p.adrta.com
+0.0.0.0 phonograph2.voxmedia.com
 
 #Q
 0.0.0.0 qualtrics.com
@@ -2455,18 +2467,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 staticxx.facebook.com
 0.0.0.0 s3.amazonaws.com
 0.0.0.0 segment-data.zqtk.net
+0.0.0.0 speedcurve.com
 0.0.0.0 sjrtp1.marketo.com
 0.0.0.0 static.clmbtech.com
 0.0.0.0 smaato.net
 0.0.0.0 steepto.com
 0.0.0.0 static.addtoany.com
+0.0.0.0 secure-dcr.imrworldwide.com
 0.0.0.0 stats.qubit.com
+0.0.0.0 scdn.cxense.com
 0.0.0.0 securetoolext.com
 0.0.0.0 s0.2mdn.net
+0.0.0.0 secure.force.com
 0.0.0.0 sync.search.spotxchange.com
 0.0.0.0 secure.gaug.es
 0.0.0.0 s.newsmaxfeednetwork.com
 0.0.0.0 secure.adnxs.com
+0.0.0.0 spshared.5min.com
+0.0.0.0 s3.buysellads.com
 0.0.0.0 static.olark.com
 0.0.0.0 smartadserver.com
 0.0.0.0 sekindo.com
@@ -2490,6 +2508,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 smarticon.geotrust.com
 0.0.0.0 ssl.p.jwpcdn.com
 0.0.0.0 ssl.cdn.turner.com
+0.0.0.0 salesforcecom.tt.omtrdc.net
 0.0.0.0 static.criteo.net
 0.0.0.0 se.monetate.net
 0.0.0.0 st.bebi.com
@@ -2622,6 +2641,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 switchads.com
 0.0.0.0 swordfishdc.com
 0.0.0.0 sx.trhnt.com
+0.0.0.0 sbnationbidder-d.openx.net
+0.0.0.0 sejs.moatads.com
 
 #T
 0.0.0.0 trends.revcontent.com
@@ -2636,6 +2657,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 thinknear-hosted.thinknearhub.com
 0.0.0.0 tapad.com
 0.0.0.0 tag.yoc-adserver.com
+0.0.0.0 tag.mtrcs.samba.tv
 0.0.0.0 tru.am
 0.0.0.0 textads.adultadworld.com
 0.0.0.0 tag.crsspxl.com
@@ -2955,6 +2977,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 0.0.0.0 11f976743800.com
 0.0.0.0 11hour.com
+0.0.0.0 5min.com
 0.0.0.0 11167236.adscreendirect.com
 0.0.0.0 123ads.nl
 0.0.0.0 123advertising.nl
