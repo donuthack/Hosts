@@ -83,6 +83,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.ac.uk
 0.0.0.0 ads.mobilebet.com
 0.0.0.0 ads.msstate.edu
+0.0.0.0 ads.cdnslate.com
 0.0.0.0 assoc-amazon.com
 0.0.0.0 adassembly.com
 0.0.0.0 adroll.com
@@ -92,7 +93,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 applift.com
 0.0.0.0 ad4game.com
 0.0.0.0 ads.red
+0.0.0.0 a.visualrevenue.com
+0.0.0.0 assets.devx.com
 0.0.0.0 ad.leadboltmobile.net
+0.0.0.0 anyclip.com
 0.0.0.0 analytics.slashdotmedia.com
 0.0.0.0 www.anrdoezrs.net
 0.0.0.0 adziff.com
@@ -1291,6 +1295,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cd8ba0b44a15c10065fd-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com
 0.0.0.0 cdn.saberfeedback.com
 0.0.0.0 api.saberfeedback.com
 0.0.0.0 clarium.global.ssl.fastly.net
@@ -1303,9 +1308,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 connatix.com
 0.0.0.0 cdn.livechatinc.com
 0.0.0.0 cdn2.lockerdome.com
+0.0.0.0 cdn.fastclick.net
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 www.civicscience.com
 0.0.0.0 configusa.veinteractive.com
+0.0.0.0 c.jsrdn.com
 0.0.0.0 cdn.accelerator.arsdev.net
 0.0.0.0 cpanel.nativeads.com
 0.0.0.0 www.condenastdigital.com
@@ -1455,6 +1462,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 d36wtdrdo22bqa.cloudfront.net
 0.0.0.0 d2c8v52ll5s99u.cloudfront.net
 0.0.0.0 d2c8v52ll5s99u.cloudfront.net
+0.0.0.0 d3nq5jrakcyw1w.cloudfront.net
+0.0.0.0 d15shllkswkct0.cloudfront.net
 0.0.0.0 dwgyu36up6iuz.cloudfront.net
 0.0.0.0 dwgyu36up6iuz.cloudfront.net
 0.0.0.0 dk98ddgl0znzm.cloudfront.net
@@ -1491,6 +1500,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ezoic.net
 0.0.0.0 exelator.com
 0.0.0.0 edigitalsurvey.com
+0.0.0.0 e1.cdn.qnsr.com
 
 #F
 0.0.0.0 fls.doubleclick.net
@@ -1507,6 +1517,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fyre.co
 0.0.0.0 force.com
 0.0.0.0 fo-api.omnitagjs.com
+0.0.0.0 fastclick.net
 
 #G
 0.0.0.0 googleadservices.com
@@ -1557,6 +1568,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 horizon.sailthru.com
 0.0.0.0 h-bid.com
 0.0.0.0 hb-api.omnitagjs.com
+0.0.0.0 htl.bid
 
 #I
 0.0.0.0 imasdk.googleapis.com
@@ -1609,6 +1621,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 justicejudo.com
 0.0.0.0 json.geoiplookup.io
 0.0.0.0 jsonip.com
+0.0.0.0 js.adsrvr.org
 
 #K
 0.0.0.0 kabradrugsltd.com
@@ -2340,6 +2353,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 logs1.smithsonian.museum
 0.0.0.0 live.sekindo.com
 0.0.0.0 loadus.exelator.com
+0.0.0.0 load.sumo.com
 
 #M
 0.0.0.0 munchkin.marketo.net
@@ -2358,6 +2372,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mimageads9.googleadservices.com
 0.0.0.0 mpartner.googleadservices.com
 0.0.0.0 mailchimp.com
+0.0.0.0 media.richrelevance.com
 0.0.0.0 mybbc-analytics.files.bbci.co.uk
 0.0.0.0 mktoresp.com
 0.0.0.0 mediadc-d.openx.net
@@ -2421,6 +2436,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 opentag-stats.qubit.com
 0.0.0.0 optimize-stats.voxmedia.com
 0.0.0.0 omnitagjs.com
+0.0.0.0 www.one-count.com
+0.0.0.0 one-count.com
+0.0.0.0 www.onecount.net
+0.0.0.0 onecount.net
+0.0.0.0 onscroll.com
 
 #P
 0.0.0.0 pixel.rubiconproject.com
@@ -2432,6 +2452,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead3.googlesyndication.com
 0.0.0.0 pixel.watch
+0.0.0.0 player.anyclip.com
 0.0.0.0 profitboosterapp.com
 0.0.0.0 parsely.com
 0.0.0.0 perimeterx.net
@@ -2474,6 +2495,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 quantcount.com
 0.0.0.0 quantcast.mgr.consensu.org
 0.0.0.0 qubit.com
+0.0.0.0 qnsr.com
 
 #R
 0.0.0.0 reports.crashlytics.com
@@ -2500,6 +2522,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rules.quantcount.com
 0.0.0.0 rlcdn.com
 0.0.0.0 rfihub.net
+0.0.0.0 richrelevance.com
 
 #S
 0.0.0.0 sb.scorecardresearch.com
@@ -2514,12 +2537,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.dpmsrv.com
 0.0.0.0 speedcurve.com
 0.0.0.0 www.stack-sonar.com
+0.0.0.0 s.pubmine.com
 0.0.0.0 static.h-bid.com
 0.0.0.0 sjrtp1.marketo.com
 0.0.0.0 static.adziff.com
+0.0.0.0 static.woopra.com
 0.0.0.0 sailthru.com
 0.0.0.0 static.clmbtech.com
 0.0.0.0 smaato.net
+0.0.0.0 slate.bootstrap.fyre.co
+0.0.0.0 surveywall-api.survata.com
 0.0.0.0 steepto.com
 0.0.0.0 static.addtoany.com
 0.0.0.0 secure-dcr.imrworldwide.com
@@ -2715,6 +2742,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 toolbar.complex.com
 0.0.0.0 tru.am
 0.0.0.0 textads.adultadworld.com
+0.0.0.0 tag.onscroll.com
 0.0.0.0 tag.crsspxl.com
 0.0.0.0 taboola.com
 0.0.0.0 testapp.adhood.com
@@ -2802,6 +2830,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wa.and.co.uk
 0.0.0.0 widget.engageya.com
 0.0.0.0 wms-na.amazon-adsystem.com
+0.0.0.0 ws.sharethis.com
 0.0.0.0 webmasterplan.de
 0.0.0.0 web.adblade.com
 0.0.0.0 weborama.fr
