@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,582 (uBlock)
+#Number of ad services/trackers/malware blocked: 6,570 (uBlock)
 #Last Updated on Friday, August 31, 2018
 
 #Mozilla Firefox Trackers
@@ -89,10 +89,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 adassembly.com
 0.0.0.0 adroll.com
 0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 aka-cdn-ns.adtechus.com
 0.0.0.0 app-sj02.marketo.com
 0.0.0.0 ads.ad4game.com
 0.0.0.0 adsrvr.org
 0.0.0.0 applift.com
+0.0.0.0 ads.superawesome.tv
 0.0.0.0 ad4game.com
 0.0.0.0 ads.red
 0.0.0.0 adsnative.com
@@ -802,6 +804,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bbs.duba.net
 0.0.0.0 bizible.com
 0.0.0.0 bbvj6.voluumtrk.com
+0.0.0.0 beacon.riskified.com
 0.0.0.0 bc2.fivecdm.com
 0.0.0.0 bc84-88b8-96b7-6515.reporo.net
 0.0.0.0 bcanalytics.bigcommerce.com
@@ -1307,6 +1310,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clickfuse.com
 0.0.0.0 cdn.clickfuse.com
 0.0.0.0 cdn.engine.4dsply.com
+0.0.0.0 cdn.intergi.com
 0.0.0.0 cdn.springserve.com
 0.0.0.0 cdn.dynamicyield.com
 0.0.0.0 connatix.com
@@ -1319,7 +1323,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 c.jsrdn.com
 0.0.0.0 cdn.roiq-vice.ranker.com
 0.0.0.0 cdn.georiot.com
+0.0.0.0 code.ionicframework.com
 0.0.0.0 cdn.accelerator.arsdev.net
+0.0.0.0 coolmath.tt.omtrdc.net
 0.0.0.0 cpanel.nativeads.com
 0.0.0.0 www.condenastdigital.com
 0.0.0.0 condenastdigital.com
@@ -1477,6 +1483,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 d1su7676ffyt2e.cloudfront.net
 0.0.0.0 d26x5ounzdjojj.cloudfront.net
 0.0.0.0 d2j3qa5nc37287.cloudfront.net
+0.0.0.0 d2ok2u3bz752mp.cloudfront.net
+0.0.0.0 djtflbt20bdde.cloudfront.net
 0.0.0.0 dwgyu36up6iuz.cloudfront.net
 0.0.0.0 dwgyu36up6iuz.cloudfront.net
 0.0.0.0 dk98ddgl0znzm.cloudfront.net
@@ -1514,6 +1522,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 exelator.com
 0.0.0.0 edigitalsurvey.com
 0.0.0.0 e1.cdn.qnsr.com
+0.0.0.0 echo.intergient.com
 
 #F
 0.0.0.0 fls.doubleclick.net
@@ -1602,6 +1611,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 imrworldwide.com
 0.0.0.0 instinctiveads.com
 0.0.0.0 investingchannel.com
+0.0.0.0 intergi.com
 0.0.0.0 ifc.inmobi.com
 0.0.0.0 img.adecorp.co.kr
 0.0.0.0 img.ads1.mocean.mobi
@@ -1621,6 +1631,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipinfo.io
 0.0.0.0 ipcalf.com
 0.0.0.0 idsync.rlcdn.com
+0.0.0.0 i.kissmetrics.com
+0.0.0.0 ionicframework.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
@@ -1663,6 +1675,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 kadiyles.ru
 0.0.0.0 kadjar-forum.de.intellitxt.com
 0.0.0.0 kadman.net
+0.0.0.0 kissmetrics.com
 0.0.0.0 kadmixer.ge
 0.0.0.0 kadobonspel.com
 0.0.0.0 kadokawa-d.openx.net
@@ -2562,10 +2575,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 sjs.bizographics.com
 0.0.0.0 sjrtp1.marketo.com
 0.0.0.0 static.adziff.com
+0.0.0.0 shopify.privy.com
 0.0.0.0 static.woopra.com
 0.0.0.0 sailthru.com
 0.0.0.0 static.clmbtech.com
 0.0.0.0 smaato.net
+0.0.0.0 sdk.beeketing.com
 0.0.0.0 slate.bootstrap.fyre.co
 0.0.0.0 surveywall-api.survata.com
 0.0.0.0 steepto.com
@@ -2744,6 +2759,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sx.trhnt.com
 0.0.0.0 sbnationbidder-d.openx.net
 0.0.0.0 sejs.moatads.com
+0.0.0.0 scripts.kissmetrics.com
 
 #T
 0.0.0.0 trends.revcontent.com
@@ -2786,6 +2802,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 track.spots.im
 0.0.0.0 tags.bluekai.com
 0.0.0.0 telize.com
+0.0.0.0 tt.omtrdc.net
 
 #U
 0.0.0.0 us-u.openx.net
@@ -2838,6 +2855,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 video.unrulymedia.com
 0.0.0.0 veinteractive.com
 0.0.0.0 vice-useast.gscontxt.net
+0.0.0.0 v.shopify.com
 
 #W
 0.0.0.0 wd.adcolony.com
