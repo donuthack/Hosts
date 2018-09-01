@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,570 (uBlock)
+#Number of ad services/trackers/malware blocked: 6,572 (uBlock)
 #Last Updated on Friday, August 31, 2018
 
 #Mozilla Firefox Trackers
@@ -1317,6 +1317,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.livechatinc.com
 0.0.0.0 cdn2.lockerdome.com
 0.0.0.0 cdn.fastclick.net
+0.0.0.0 cdn.heapanalytics.com
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 www.civicscience.com
 0.0.0.0 configusa.veinteractive.com
@@ -1594,6 +1595,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 hb-api.omnitagjs.com
 0.0.0.0 htl.bid
 0.0.0.0 heatmap.it
+0.0.0.0 heapanalytics.com
 
 #I
 0.0.0.0 imasdk.googleapis.com
