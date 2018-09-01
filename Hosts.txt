@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,528
+#Number of ad services/trackers/malware blocked: 6,557 (uBlock)
 #Last Updated on Friday, August 31, 2018
 
 #Mozilla Firefox Trackers
@@ -81,6 +81,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.lordlucky.com
 0.0.0.0 ads.harvard.edu
 0.0.0.0 ads.ac.uk
+0.0.0.0 a.optmstr.com
 0.0.0.0 ads.mobilebet.com
 0.0.0.0 ads.msstate.edu
 0.0.0.0 ads.cdnslate.com
@@ -88,11 +89,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 adassembly.com
 0.0.0.0 adroll.com
 0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 app-sj02.marketo.com
 0.0.0.0 ads.ad4game.com
 0.0.0.0 adsrvr.org
 0.0.0.0 applift.com
 0.0.0.0 ad4game.com
 0.0.0.0 ads.red
+0.0.0.0 adsnative.com
 0.0.0.0 a.visualrevenue.com
 0.0.0.0 assets.devx.com
 0.0.0.0 ad.leadboltmobile.net
@@ -775,6 +778,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 baypops.com
 0.0.0.0 bazingandroid.com
 0.0.0.0 b2c.com
+0.0.0.0 bizographics.com
 0.0.0.0 bb.connextra.com
 0.0.0.0 b-code.liadm.com
 0.0.0.0 bbb7-bfec-9a0b-58ba.reporo.net
@@ -1313,10 +1317,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.civicscience.com
 0.0.0.0 configusa.veinteractive.com
 0.0.0.0 c.jsrdn.com
+0.0.0.0 cdn.roiq-vice.ranker.com
+0.0.0.0 cdn.georiot.com
 0.0.0.0 cdn.accelerator.arsdev.net
 0.0.0.0 cpanel.nativeads.com
 0.0.0.0 www.condenastdigital.com
 0.0.0.0 condenastdigital.com
+0.0.0.0 cdn-images.mailchimp.com
+0.0.0.0 cdn.ywxi.net
+0.0.0.0 cdn.vidible.tv
 0.0.0.0 c1.rfihub.net
 0.0.0.0 capture.condenastdigital.com
 0.0.0.0 cdn.accelerator.arsdev.net
@@ -1445,7 +1454,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dl.gameplaylabs.com
 0.0.0.0 datacollect6.abtasty.com
 0.0.0.0 dev.visualwebsiteoptimizer.com
-0.0.0.0 download.cdn.sharelive.net 
+0.0.0.0 download.cdn.sharelive.net
+0.0.0.0 driftt.com
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 0.0.0.0 d2na2p72vtqyok.cloudfront.net
 0.0.0.0 d2np5nlsc31ci5.cloudfront.net
@@ -1464,6 +1474,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2c8v52ll5s99u.cloudfront.net
 0.0.0.0 d3nq5jrakcyw1w.cloudfront.net
 0.0.0.0 d15shllkswkct0.cloudfront.net
+0.0.0.0 d1su7676ffyt2e.cloudfront.net
+0.0.0.0 d26x5ounzdjojj.cloudfront.net
+0.0.0.0 d2j3qa5nc37287.cloudfront.net
 0.0.0.0 dwgyu36up6iuz.cloudfront.net
 0.0.0.0 dwgyu36up6iuz.cloudfront.net
 0.0.0.0 dk98ddgl0znzm.cloudfront.net
@@ -1518,6 +1531,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 force.com
 0.0.0.0 fo-api.omnitagjs.com
 0.0.0.0 fastclick.net
+0.0.0.0 f1.media.brightcove.com
 
 #G
 0.0.0.0 googleadservices.com
@@ -1527,7 +1541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googlewordpad.info
 0.0.0.0 getsitecontrol.com
-0.0.0.0 google.com/ads
+0.0.0.0 gscontxt.net
 0.0.0.0 gameplaylabs.com
 0.0.0.0 g.ezoic.net
 0.0.0.0 go.ezoic.net
@@ -1540,6 +1554,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 google-analytics.com
 0.0.0.0 gateway.foresee.com
 0.0.0.0 gannett-d.openx.net
+0.0.0.0 georiot.com
 0.0.0.0 gads.pubmatic.com
 0.0.0.0 googlesyndication.com
 0.0.0.0 g2crowd.com
@@ -1569,6 +1584,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 h-bid.com
 0.0.0.0 hb-api.omnitagjs.com
 0.0.0.0 htl.bid
+0.0.0.0 heatmap.it
 
 #I
 0.0.0.0 imasdk.googleapis.com
@@ -1622,6 +1638,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 json.geoiplookup.io
 0.0.0.0 jsonip.com
 0.0.0.0 js.adsrvr.org
+0.0.0.0 js.driftt.com
 
 #K
 0.0.0.0 kabradrugsltd.com
@@ -2441,6 +2458,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.onecount.net
 0.0.0.0 onecount.net
 0.0.0.0 onscroll.com
+0.0.0.0 omtrdc.net
 
 #P
 0.0.0.0 pixel.rubiconproject.com
@@ -2523,6 +2541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 rlcdn.com
 0.0.0.0 rfihub.net
 0.0.0.0 richrelevance.com
+0.0.0.0 ranker.com
 
 #S
 0.0.0.0 sb.scorecardresearch.com
@@ -2537,8 +2556,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.dpmsrv.com
 0.0.0.0 speedcurve.com
 0.0.0.0 www.stack-sonar.com
+0.0.0.0 static.adsnative.com
 0.0.0.0 s.pubmine.com
 0.0.0.0 static.h-bid.com
+0.0.0.0 sjs.bizographics.com
 0.0.0.0 sjrtp1.marketo.com
 0.0.0.0 static.adziff.com
 0.0.0.0 static.woopra.com
@@ -2791,6 +2812,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ugdturner.com
 0.0.0.0 udmserve.net
 0.0.0.0 us0.adlibr.com
+0.0.0.0 u.heatmap.it
+0.0.0.0 ubm.tt.omtrdc.net
 
 #V
 0.0.0.0 video.plista.com
@@ -2814,6 +2837,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vkontakte.ru
 0.0.0.0 video.unrulymedia.com
 0.0.0.0 veinteractive.com
+0.0.0.0 vice-useast.gscontxt.net
 
 #W
 0.0.0.0 wd.adcolony.com
@@ -2901,6 +2925,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ys.actnx.com
 0.0.0.0 ys5egue.dteted7f7r.et4.4656.5.t65.5.5875.dhirt.4989.rgkhr.594k.e.clearpointsupplies.com
 0.0.0.0 ys5z8.voluumtrk.com
+0.0.0.0 ywxi.net
 0.0.0.0 ysance.com
 0.0.0.0 ysance.net
 0.0.0.0 ysance-labs.com
