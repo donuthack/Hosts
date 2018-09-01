@@ -1,5 +1,5 @@
-#Number of ad services/trackers blocked: 290
-#Last Updated on Thursday, August 30, 2018
+#Number of ad services/trackers blocked: 294
+#Last Updated on Saturday, September 1, 2018
 
 /encryption/helixstronghold.js
 /encryption/wharfrat.js
@@ -17,6 +17,7 @@
 /browser/cellphone/android.js
 /browser/cellphone/sony.js
 /browser/cellphone/blackberry.js
+/piwik.js
 
 @@||encryption/helixstronghold.js
 @@||encryption/wharfrat.js
@@ -34,6 +35,7 @@
 @@||browser/cellphone/android.js
 @@||browser/cellphone/sony.js
 @@||browser/cellphone/blackberry.js
+@@||piwik.js
 
 @@||encryption/helixstronghold
 @@||encryption/wharfrat
@@ -51,6 +53,7 @@
 @@||browser/cellphone/android
 @@||browser/cellphone/sony
 @@||browser/cellphone/blackberry
+@@||piwik
 
 @@||encryption/*helixstronghold
 @@||encryption/*wharfrat
@@ -68,6 +71,7 @@
 @@||browser/cellphone/*android
 @@||browser/cellphone/*sony
 @@||browser/cellphone/*blackberry
+@@||*piwik.js
 
 *.windstream.com
 *.googleadservices.com
