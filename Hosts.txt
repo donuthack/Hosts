@@ -1325,6 +1325,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 cc.amazingcounters.com
 0.0.0.0 cdn2.lockerdome.com
 0.0.0.0 cpro.baidustatic.com
+0.0.0.0 cl2.webterren.com
+0.0.0.0 counter.hitslink.com
 0.0.0.0 cdn.fastclick.net
 0.0.0.0 cdn.heapanalytics.com
 0.0.0.0 cdn.branch.io
@@ -1517,6 +1519,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d17wd0umvxxjds.cloudfront.net
 0.0.0.0 d1u5p3l4wpay3k.cloudfront.net
 0.0.0.0 d1gkberomxrum0.cloudfront.net
+0.0.0.0 d35mridaos0l3l.cloudfront.net
 0.0.0.0 dooe3vx785zy.cloudfront.net
 0.0.0.0 du3vkre908mr5.cloudfront.net
 0.0.0.0 damt7w3yoa0t2.cloudfront.net
@@ -1638,6 +1641,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 heapanalytics.com
 0.0.0.0 h.nexac.com
 0.0.0.0 h5.sinaimg.cn
+0.0.0.0 hitslink.com
 
 #I
 0.0.0.0 imasdk.googleapis.com
@@ -1697,6 +1701,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 jsonip.com
 0.0.0.0 js.adsrvr.org
 0.0.0.0 js.driftt.com
+0.0.0.0 js.users.51.la
 
 #K
 0.0.0.0 kabradrugsltd.com
@@ -2580,6 +2585,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.adrta.com
 0.0.0.0 phonograph2.voxmedia.com
 0.0.0.0 pixel.condenastdigital.com
+0.0.0.0 p.typekit.net
 
 #Q
 0.0.0.0 qualtrics.com
@@ -2638,6 +2644,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s22.cnzz.com
 0.0.0.0 static.adsnative.com
 0.0.0.0 s.pubmine.com
+0.0.0.0 s19.cnzz.com
 0.0.0.0 static.h-bid.com
 0.0.0.0 s-microsoft.com
 0.0.0.0 survey.g.doubleclick.net
@@ -2667,6 +2674,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sync.search.spotxchange.com
 0.0.0.0 secure.gaug.es
 0.0.0.0 s.newsmaxfeednetwork.com
+0.0.0.0 s11.cnzz.com
 0.0.0.0 static.zdbb.net
 0.0.0.0 secure.adnxs.com
 0.0.0.0 spshared.5min.com
@@ -2950,6 +2958,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 winprizesapp.com
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 w.uptolike.com
+0.0.0.0 widget.weibo.com
 0.0.0.0 wa.and.co.uk
 0.0.0.0 widget.engageya.com
 0.0.0.0 wms-na.amazon-adsystem.com
@@ -4024,6 +4033,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 10x1515744.112.2o7.net
 0.0.0.0 10xhellometro.112.2o7.net
 0.0.0.0 1100ad.com
+0.0.0.0 121.43.68.40
 0.0.0.0 1100i.com
 0.0.0.0 2542116.fls.doubleclick.net
 0.0.0.0 123-tracker.com
@@ -5036,8 +5046,55 @@ ff02::3 ip6-allhosts
 0.0.0.0 vqlgli.com
 0.0.0.0 teksograd.ru
 0.0.0.0 www26.llbb88.com
+0.0.0.0 chynyta69.com
 0.0.0.0 www346.tx5200.com
 0.0.0.0 www415.mxyyth.com
+0.0.0.0 huikkoscustomtileandflooring.com
+0.0.0.0 elitepearlcharter.com
+0.0.0.0 tunasindopratama.com
+0.0.0.0 agn-city.net
+0.0.0.0 mkjebret.com
+0.0.0.0 ns2.lowermycarinsurance.org
+0.0.0.0 lowermycarinsurance.org
+0.0.0.0 reformalareforma.cl
+0.0.0.0 swimmings.flu.cc
+0.0.0.0 faridjasaie.000webhostapp.com
+0.0.0.0 et.transfer.funds-deps1t-smsref-und-emt2910739047339837.com
+0.0.0.0 subitotaxi.net
+0.0.0.0 grupogalpic.com
+0.0.0.0 ae-centre.ch
+0.0.0.0 www.ebill.update.musthavetrades.com
+0.0.0.0 validate-info.live
+0.0.0.0 sanrafaeldentist.gq
+0.0.0.0 cglobot.com
+0.0.0.0 implantexpertsindia.com
+0.0.0.0 chapaccd.com
+0.0.0.0 mgr.co.id
+0.0.0.0 healthgainsmd.com
+0.0.0.0 bankofamericasecured.aba.ae
+0.0.0.0 aba.ae
+0.0.0.0 unitedagainstcrime.org
+0.0.0.0 ns1.cheaptimeshare.org
+0.0.0.0 ns2.cheaptimeshare.org
+0.0.0.0 ns1.lowrefinance.org
+0.0.0.0 ns2.andrewburd.org
+0.0.0.0 ns1.carsurance.org
+0.0.0.0 aloeveralider.com
+0.0.0.0 lowercarinsurance.org
+0.0.0.0 ns1.acins.org
+0.0.0.0 nacins.org
+0.0.0.0 cheaptimeshare.org
+0.0.0.0 accounts.infos.flagberry.com
+0.0.0.0 mobelringen.trade
+0.0.0.0 realdemita.com
+0.0.0.0 mailadmins.workmind.com.au
+0.0.0.0 mobelringen.trade
+0.0.0.0 ipqhc.org.br
+0.0.0.0 www.ipqhc.org.br
+0.0.0.0 nakliyeciler.org
+0.0.0.0 mafia-code.com
+0.0.0.0 www.mafia-code.com
+0.0.0.0 giftboxaustralia.com
 0.0.0.0 mjw.or.kr
 0.0.0.0 xin-lian.cn
 0.0.0.0 bor-bogdanych.com
@@ -5103,12 +5160,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 zzq.optionfashion.com
 0.0.0.0 static.164.13.243.136.clients.your-server.de
 0.0.0.0 mbkd0222.ocn.ad.jp
+0.0.0.0 1maximus.ru
 0.0.0.0 youarewinners.com
 0.0.0.0 rightsorganisation.com
 0.0.0.0 srv7.messi10.info
 0.0.0.0 123-jewelry-store.com
 0.0.0.0 18.117.31.176.in-addr.arpa
 0.0.0.0 108.61.60.74
+0.0.0.0 keyba01se.usa.cc
+0.0.0.0 0668.com
 0.0.0.0 nookframe.com
 0.0.0.0 mrh.moments0fpeace.com
 0.0.0.0 zak.raspyroute.com
