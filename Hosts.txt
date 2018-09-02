@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,659 (uBlock)
+#Number of ad services/trackers/malware blocked: 6,660 (uBlock)
 #Last Updated on Friday, August 31, 2018
 
 #Mozilla Firefox Trackers
@@ -1505,6 +1505,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d2vxvnufz8f5c5.cloudfront.net
 0.0.0.0 d1fc8wv8zag5ca.cloudfront.net
 0.0.0.0 d3fjrnfgbgznt3.cloudfront.net
+0.0.0.0 dooe3vx785zy.cloudfront.net
 0.0.0.0 du3vkre908mr5.cloudfront.net
 0.0.0.0 damt7w3yoa0t2.cloudfront.net
 0.0.0.0 dr5dymrsxhdzh.cloudfront.net
