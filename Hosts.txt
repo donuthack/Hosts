@@ -2846,6 +2846,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 timeanddate-d.openx.net
 0.0.0.0 thinknear-hosted.thinknearhub.com
 0.0.0.0 tapad.com
+0.0.0.0 t.insigit.com
 0.0.0.0 tag.yoc-adserver.com
 0.0.0.0 tag.marinsm.com
 0.0.0.0 tag.mtrcs.samba.tv
