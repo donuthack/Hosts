@@ -1321,8 +1321,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 connatix.com
 0.0.0.0 cdn.livechatinc.com
 0.0.0.0 cookie-script.com
+0.0.0.0 cnzz.com
 0.0.0.0 cc.amazingcounters.com
 0.0.0.0 cdn2.lockerdome.com
+0.0.0.0 cpro.baidustatic.com
 0.0.0.0 cdn.fastclick.net
 0.0.0.0 cdn.heapanalytics.com
 0.0.0.0 cdn.branch.io
@@ -1330,6 +1332,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cargurus-d.openx.net
 0.0.0.0 cdn.keywee.co
+0.0.0.0 cpro.baidustatic.com
 0.0.0.0 www.civicscience.com
 0.0.0.0 cdn.appdynamics.com
 0.0.0.0 cpx.to
@@ -1478,6 +1481,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 datacollect6.abtasty.com
 0.0.0.0 dev.visualwebsiteoptimizer.com
 0.0.0.0 download.cdn.sharelive.net
+0.0.0.0 dup.baidustatic.com
 0.0.0.0 driftt.com
 0.0.0.0 di.rlcdn.com
 0.0.0.0 dmvorg.s3.amazonaws.com
@@ -1510,6 +1514,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 d1fc8wv8zag5ca.cloudfront.net
 0.0.0.0 d3fjrnfgbgznt3.cloudfront.net
 0.0.0.0 d3iz6lralvg77g.cloudfront.net
+0.0.0.0 d17wd0umvxxjds.cloudfront.net
+0.0.0.0 d1u5p3l4wpay3k.cloudfront.net
+0.0.0.0 d1gkberomxrum0.cloudfront.net
 0.0.0.0 dooe3vx785zy.cloudfront.net
 0.0.0.0 du3vkre908mr5.cloudfront.net
 0.0.0.0 damt7w3yoa0t2.cloudfront.net
@@ -1630,6 +1637,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 heatmap.it
 0.0.0.0 heapanalytics.com
 0.0.0.0 h.nexac.com
+0.0.0.0 h5.sinaimg.cn
 
 #I
 0.0.0.0 imasdk.googleapis.com
@@ -2537,10 +2545,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 profitboosterapp.com
 0.0.0.0 parsely.com
 0.0.0.0 perimeterx.net
+0.0.0.0 partner.ads.placeiq.com
 0.0.0.0 park.above.com
 0.0.0.0 petiteumbrella.com
 0.0.0.0 p.cpx.to
 0.0.0.0 pix.nbcuni.com
+0.0.0.0 placeiq.com
 0.0.0.0 play.bestapp.com
 0.0.0.0 pub.network
 0.0.0.0 p.skimresources.com
@@ -2625,6 +2635,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 speedcurve.com
 0.0.0.0 www.stack-sonar.com
 0.0.0.0 servedby-buysellads.com
+0.0.0.0 s22.cnzz.com
 0.0.0.0 static.adsnative.com
 0.0.0.0 s.pubmine.com
 0.0.0.0 static.h-bid.com
@@ -2923,6 +2934,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 vice-useast.gscontxt.net
 0.0.0.0 v.shopify.com
 0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 v.admaster.com.cn
 
 #W
 0.0.0.0 wd.adcolony.com
