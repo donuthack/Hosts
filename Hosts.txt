@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,745 (uBlock)
-#Last Updated on Sunday, September 2, 2018
+#Number of ad services/trackers/malware blocked: 6,746 (uBlock)
+#Last Updated on Monday, September 3, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -4917,6 +4917,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lmodr.biz
 0.0.0.0 ad-miner.com
 0.0.0.0 ppoi.org
+0.0.0.0 hd-world.org
 0.0.0.0 coinerra.com
 0.0.0.0 minero.pw
 0.0.0.0 coinblind.com
