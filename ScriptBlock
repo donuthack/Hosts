@@ -42,6 +42,9 @@
 /browser.js
 /google-analytics/js/fingerprint.min.js
 /qbj3zin.js
+/shim.js
+/ec5-shim.js
+/kochava.com/wp-json
 
 @@||encryption/helixstronghold.js
 @@||encryption/wharfrat.js
