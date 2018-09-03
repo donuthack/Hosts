@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,747 (uBlock)
+#Number of ad services/trackers/malware blocked: 6,748 (uBlock)
 #Last Updated on Monday, September 3, 2018
 
 #Mozilla Firefox Trackers
@@ -2609,6 +2609,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
 0.0.0.0 reward-video.fyber.com
+0.0.0.0 r4---sn-fpoqnugx5h-qnhe.googlevideo.com
 0.0.0.0 rewarded-video.fyber.com
 0.0.0.0 res.cloudinary.com
 0.0.0.0 www.roosterfirework.com
