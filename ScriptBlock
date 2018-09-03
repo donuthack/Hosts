@@ -1,4 +1,4 @@
-#Number of ad services/trackers blocked: 296
+#Number of ad services/trackers blocked: 298
 #Last Updated on Monday, September 3, 2018
 
 /encryption/helixstronghold.js
@@ -20,6 +20,8 @@
 /piwik.js
 /coinhive.min.js
 /head.load.min.js
+/js/fingerprint.pc.js
+/fingerprint.pc.js
 
 @@||encryption/helixstronghold.js
 @@||encryption/wharfrat.js
