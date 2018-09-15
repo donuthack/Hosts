@@ -34,3 +34,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.evie.com
 0.0.0.0 api1.evie.com
 0.0.0.0 api2.evie.com
+0.0.0.0 cauli.acge.com
+0.0.0.0 ns1.p20.dynect.net
+0.0.0.0 ns2.p20.dynect.net
+0.0.0.0 dns1.p05.nsone.net
+0.0.0.0 dns2.p05.nsone.net
+0.0.0.0 mediaserver-ch1-t2-1-v4.pandora.com
+0.0.0.0 mediaserver-sv5-t2-2-v4.pandora.com
+0.0.0.0 mediaserver-sv5-t1-1-v4.pandora.com
+0.0.0.0 mediaserver-dc6-t1-2-v4.pandora.com
+0.0.0.0 mediaserver-ch1-t1-2-v4.pandora.com
+0.0.0.0 h17.0.138.40.static.ip.windstream.net
+0.0.0.0 static.ip.windstream.net
+0.0.0.0 ip.windstream.net
