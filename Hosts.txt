@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,025 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,026 (uBlock)
 #Last Updated on Saturday, September 15, 2018
 
 #Mozilla Firefox Trackers
@@ -85,8 +85,26 @@ alt8-mtalk.google.com
 0.0.0.0 actuallysheep.com
 0.0.0.0 app.link
 0.0.0.0 app-sj01.marketo.com
+0.0.0.0 ad4screen.com
+0.0.0.0 appanalytics.io
+0.0.0.0 addapptr.com
+0.0.0.0 apptentive.com
+0.0.0.0 ar.umeng.com
+0.0.0.0 alogs.umeng.com
+0.0.0.0 analytics.uber.com
+0.0.0.0 alog.umeng.com
+0.0.0.0 apptimize.com
+0.0.0.0 analytics.mobile.yandex.net
+0.0.0.0 appmetrica.yandex.com
+0.0.0.0 appsflyer.com
+0.0.0.0 ads.unity3d.com
+0.0.0.0 api.alphonso.tv
 0.0.0.0 acuityads.com
+0.0.0.0 alphonso.tv
 0.0.0.0 a.adroll.com
+0.0.0.0 az416426.vo.msecnd.net
+0.0.0.0 atinternet.com
+0.0.0.0 ati-host.net
 0.0.0.0 ads.lordlucky.com
 0.0.0.0 ads.harvard.edu
 0.0.0.0 ad.a-ads.com
@@ -795,6 +813,9 @@ alt8-mtalk.google.com
 0.0.0.0 bluekai.com
 0.0.0.0 bc.marfeel.com
 0.0.0.0 banner-link.com.br
+0.0.0.0 banners-slb.mobile.yandex.net
+0.0.0.0 banners.mobile.yandex.net
+0.0.0.0 brahe.apptimize.com
 0.0.0.0 www.bugherd.com
 0.0.0.0 btstatic.com
 0.0.0.0 bathyliticlkjwh.download
@@ -1343,8 +1364,11 @@ alt8-mtalk.google.com
 0.0.0.0 cdn.livechatinc.com
 0.0.0.0 cookie-script.com
 0.0.0.0 cnzz.com
+0.0.0.0 click-haproxy.supersonicads.com
+0.0.0.0 cloud.sensoro.com
 0.0.0.0 cc.amazingcounters.com
 0.0.0.0 cdn2.lockerdome.com
+0.0.0.0 www.commandersact.com
 0.0.0.0 cpro.baidustatic.com
 0.0.0.0 cl2.webterren.com
 0.0.0.0 counter.hitslink.com
@@ -1508,6 +1532,8 @@ alt8-mtalk.google.com
 0.0.0.0 driftt.com
 0.0.0.0 di.rlcdn.com
 0.0.0.0 dmvorg.s3.amazonaws.com
+0.0.0.0 device-api.urbanairship.com
+0.0.0.0 databerries.com
 0.0.0.0 detroittradingservices.demdex.net
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 0.0.0.0 d2na2p72vtqyok.cloudfront.net
@@ -1586,6 +1612,7 @@ alt8-mtalk.google.com
 0.0.0.0 echo.intergient.com
 0.0.0.0 en25.com
 0.0.0.0 eloqua.com
+0.0.0.0 events.uber.com
 
 #F
 0.0.0.0 fls.doubleclick.net
@@ -1605,6 +1632,8 @@ alt8-mtalk.google.com
 0.0.0.0 fastclick.net
 0.0.0.0 f1.media.brightcove.com
 0.0.0.0 fast.detroittradingservices.demdex.net
+0.0.0.0 flurry.com
+0.0.0.0 fidzup.com
 
 #G
 0.0.0.0 googleadservices.com
@@ -1663,6 +1692,11 @@ alt8-mtalk.google.com
 0.0.0.0 h.nexac.com
 0.0.0.0 h5.sinaimg.cn
 0.0.0.0 hitslink.com
+0.0.0.0 hypertracklive.com
+0.0.0.0 hypertrack.com
+0.0.0.0 hypertrack.io
+0.0.0.0 hockeyapp.net
+0.0.0.0 helpshift.com
 
 #I
 0.0.0.0 imasdk.googleapis.com
@@ -1671,18 +1705,22 @@ alt8-mtalk.google.com
 0.0.0.0 i.po.st
 0.0.0.0 izatcloud.net
 0.0.0.0 image5.pubmatic.com
+0.0.0.0 inmobi.info
+0.0.0.0 inmobi.us
 0.0.0.0 i.i.cbsi.com
 0.0.0.0 infinityid.condenastdigital.com
 0.0.0.0 img07.en25.com
 0.0.0.0 indexww.com
 0.0.0.0 imrworldwide.com
 0.0.0.0 img.bleacherreport.net
+0.0.0.0 ironsrc.com
 0.0.0.0 insight.adsrvr.org
 0.0.0.0 images.webads.nl
 0.0.0.0 imrworldwide.com
 0.0.0.0 img.en25.com
 0.0.0.0 instinctiveads.com
 0.0.0.0 investingchannel.com
+0.0.0.0 ironsource.com
 0.0.0.0 intergi.com
 0.0.0.0 ifc.inmobi.com
 0.0.0.0 img.adecorp.co.kr
@@ -1705,6 +1743,7 @@ alt8-mtalk.google.com
 0.0.0.0 idsync.rlcdn.com
 0.0.0.0 i.kissmetrics.com
 0.0.0.0 ionicframework.com
+0.0.0.0 init.supersonicads.com
 
 #J
 0.0.0.0 js-agent.newrelic.com
@@ -2462,12 +2501,18 @@ alt8-mtalk.google.com
 0.0.0.0 liveperson.net
 0.0.0.0 lptag.liveperson.net
 0.0.0.0 login.microsoftonline.com
+0.0.0.0 localytics.android.com
+0.0.0.0 loggly.com
+0.0.0.0 ligatus.com
+0.0.0.0 location.silverpush.com
 
 #M
 0.0.0.0 munchkin.marketo.net
 0.0.0.0 mobile.smartadserver.com
 0.0.0.0 m4.afs.googleadservices.com
 0.0.0.0 merchantapp.com
+0.0.0.0 md-a-s.apptimize.com
+0.0.0.0 md-a-c.apptimize.com
 0.0.0.0 mscom.demdex.net
 0.0.0.0 m.servedby-buysellads.com
 0.0.0.0 mimageads.googleadservices.com
@@ -2482,6 +2527,12 @@ alt8-mtalk.google.com
 0.0.0.0 mimageads9.googleadservices.com
 0.0.0.0 mpartner.googleadservices.com
 0.0.0.0 mem.gfx.ms
+0.0.0.0 mobileapptracker.com
+0.0.0.0 mparticle.com
+0.0.0.0 mc.yandex.ru
+0.0.0.0 mobvista.com
+0.0.0.0 mopub.com
+0.0.0.0 mobileads.com
 0.0.0.0 mailchimp.com
 0.0.0.0 media.richrelevance.com
 0.0.0.0 microsoftonline.com
@@ -2495,6 +2546,8 @@ alt8-mtalk.google.com
 0.0.0.0 mtrx.go.sonobi.com
 0.0.0.0 mystat-in.net
 0.0.0.0 media.msg.dotomi.com
+0.0.0.0 mngads.com
+0.0.0.0 millennialmedia.com
 0.0.0.0 mobileapptracking.com
 0.0.0.0 mydas.mobi
 0.0.0.0 mktoresp.com
@@ -2537,6 +2590,7 @@ alt8-mtalk.google.com
 0.0.0.0 nativeroll.tv
 0.0.0.0 nervoussummer.com
 0.0.0.0 nexac.com
+0.0.0.0 nativex.com
 
 #O
 0.0.0.0 odb.outbrain.com
@@ -2558,6 +2612,9 @@ alt8-mtalk.google.com
 0.0.0.0 onscroll.com
 0.0.0.0 omtrdc.net
 0.0.0.0 optmnstr.com
+0.0.0.0 oc.umeng.com
+0.0.0.0 ow-gateway.supersonicads.com
+0.0.0.0 outcome.supersonicads.com
 
 #P
 0.0.0.0 pixel.rubiconproject.com
@@ -2574,7 +2631,9 @@ alt8-mtalk.google.com
 0.0.0.0 parsely.com
 0.0.0.0 perimeterx.net
 0.0.0.0 partner.ads.placeiq.com
+0.0.0.0 presage.io
 0.0.0.0 park.above.com
+0.0.0.0 pushwoosh.com
 0.0.0.0 petiteumbrella.com
 0.0.0.0 p.cpx.to
 0.0.0.0 pix.nbcuni.com
@@ -2631,11 +2690,13 @@ alt8-mtalk.google.com
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
 0.0.0.0 reward-video.fyber.com
+0.0.0.0 rv-gateway.supersonicads.com|pixel-tracking.sonic-us.supersonicads.com
 #r4---sn-fpoqnugx5h-qnhe.googlevideo.com (Blocks YouTube on mobile)
 0.0.0.0 rewarded-video.fyber.com
 0.0.0.0 res.cloudinary.com
 0.0.0.0 www.roosterfirework.com
 0.0.0.0 roosterfirework.com
+0.0.0.0 report.appmetrica.yandex.net
 0.0.0.0 relap.io
 0.0.0.0 rackcdn.com
 0.0.0.0 rtstats.com
@@ -2652,17 +2713,35 @@ alt8-mtalk.google.com
 #S
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sentry.io
+0.0.0.0 sync2ad.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 ssum-sec.casalemedia.com
 0.0.0.0 sp.analytics.yahoo.com
+0.0.0.0 schibsted.com
+0.0.0.0 schibsted.io
+0.0.0.0 snowplowanalytics.com
 0.0.0.0 static.yieldmo.com
+0.0.0.0 soma.smaato.net
+0.0.0.0 supersonic.com
+0.0.0.0 silverpush.location.com
+0.0.0.0 saspreview.com
 0.0.0.0 s1258972516.t.eloqua.com
+0.0.0.0 sensoro.com
+0.0.0.0 sam4m.com
+0.0.0.0 s4m.io
 0.0.0.0 staticxx.facebook.com
 0.0.0.0 s.btstatic.com
 0.0.0.0 s3.amazonaws.com
+0.0.0.0 sptproximitykit.com
+0.0.0.0 silverpush.com
+0.0.0.0 serving-sys.com
+0.0.0.0 singlespot.com
 0.0.0.0 s.po.st
+0.0.0.0 www.supersonicads.com
+0.0.0.0 singlespot
 0.0.0.0 segment-data.zqtk.net
 0.0.0.0 s.dpmsrv.com
+0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 speedcurve.com
 0.0.0.0 www.stack-sonar.com
 0.0.0.0 stats.zotabox.com
@@ -2877,12 +2956,20 @@ alt8-mtalk.google.com
 0.0.0.0 tags.bkrtx.com
 0.0.0.0 teads.tv
 0.0.0.0 t1.softonicads.com
+0.0.0.0 trck.at
 0.0.0.0 trackersimulator.org
+0.0.0.0 track.adform.net
 0.0.0.0 tracker.nbcuas.com
 0.0.0.0 t2.softonicads.com
+0.0.0.0 tag-mediation.supersonic.com
 0.0.0.0 timeanddate-d.openx.net
+0.0.0.0 tencent.mm.plugin.location_soso.com
+0.0.0.0 tencent.mm.plugin.location.com
+0.0.0.0 tencent.map.geolocation.com
 0.0.0.0 thinknear-hosted.thinknearhub.com
+0.0.0.0 www.teemo.co
 0.0.0.0 tags.crwdcntrl.net
+0.0.0.0 tagcommander.com
 0.0.0.0 tapad.com
 0.0.0.0 t.insigit.com
 0.0.0.0 tag.yoc-adserver.com
@@ -2929,8 +3016,15 @@ alt8-mtalk.google.com
 0.0.0.0 undertone.com
 0.0.0.0 unknowntray.com
 0.0.0.0 unrulymedia.com
+0.0.0.0 uop.umeng.com
 0.0.0.0 uhf.microsoft.com
+0.0.0.0 unity3d.ads.com
+0.0.0.0 ua.supersonicads.com
+0.0.0.0 us.supersonicads.com
+0.0.0.0 umeng.com
+0.0.0.0 umeng.fb
 0.0.0.0 untd.com
+0.0.0.0 urbanairship.com
 0.0.0.0 unusualtitle.com
 0.0.0.0 urlcash.net
 0.0.0.0 us.a1.yimg.com
@@ -2991,6 +3085,9 @@ alt8-mtalk.google.com
 0.0.0.0 widget.weibo.com
 0.0.0.0 wa.and.co.uk
 0.0.0.0 widget.engageya.com
+0.0.0.0 weborama.com
+0.0.0.0 weborama.net
+0.0.0.0 weborama.fr
 0.0.0.0 wms-na.amazon-adsystem.com
 0.0.0.0 ws.sharethis.com
 0.0.0.0 webmasterplan.de
@@ -3053,6 +3150,7 @@ alt8-mtalk.google.com
 0.0.0.0 yabuka.com
 0.0.0.0 yadro.ru
 0.0.0.0 yesads.com
+0.0.0.0 yandex.mobile.ads.com
 0.0.0.0 yesadvertising.com
 0.0.0.0 yieldads.com
 0.0.0.0 yieldlab.net
