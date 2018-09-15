@@ -25,3 +25,4 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.cloudfront.net
 0.0.0.0 13.33.165.230
 0.0.0.0 connectivitycheck.android.com
+0.0.0.0 gateway.discord.gg
