@@ -27,6 +27,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 connectivitycheck.android.com
 0.0.0.0 gateway.discord.gg
 0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 clientservices.googleapis.com
 0.0.0.0 suggestqueries.google.com
 0.0.0.0 api.ticlock.com
 0.0.0.0 ticlock.com
