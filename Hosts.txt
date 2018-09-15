@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,750 (uBlock)
+#Number of ad services/trackers/malware blocked: 6,753 (uBlock)
 #Last Updated on Monday, September 3, 2018
 
 #Mozilla Firefox Trackers
@@ -82,6 +82,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.harvard.edu
 0.0.0.0 android.clients.google.com
 0.0.0.0 ads.ac.uk
+0.0.0.0 a.teads.tv
 0.0.0.0 a.optmstr.com
 0.0.0.0 analytics.com
 0.0.0.0 ads.mobilebet.com
@@ -2611,7 +2612,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
 0.0.0.0 reward-video.fyber.com
-0.0.0.0 r4---sn-fpoqnugx5h-qnhe.googlevideo.com
+#r4---sn-fpoqnugx5h-qnhe.googlevideo.com (Blocks YouTube on mobile)
 0.0.0.0 rewarded-video.fyber.com
 0.0.0.0 res.cloudinary.com
 0.0.0.0 www.roosterfirework.com
@@ -2852,12 +2853,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 try.abtasty.com
 0.0.0.0 tags.tiqcdn.com
 0.0.0.0 tags.bkrtx.com
+0.0.0.0 teads.tv
 0.0.0.0 t1.softonicads.com
 0.0.0.0 trackersimulator.org
 0.0.0.0 tracker.nbcuas.com
 0.0.0.0 t2.softonicads.com
 0.0.0.0 timeanddate-d.openx.net
 0.0.0.0 thinknear-hosted.thinknearhub.com
+0.0.0.0 tags.crwdcntrl.net
 0.0.0.0 tapad.com
 0.0.0.0 t.insigit.com
 0.0.0.0 tag.yoc-adserver.com
