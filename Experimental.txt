@@ -30,3 +30,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 suggestqueries.google.com
 0.0.0.0 api.ticlock.com
 0.0.0.0 ticlock.com
+0.0.0.0 api.evie.com
+0.0.0.0 api1.evie.com
+0.0.0.0 api2.evie.com
