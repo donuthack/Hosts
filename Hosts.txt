@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 6,758 (uBlock)
+#Number of ad services/trackers/malware blocked: 6,762 (uBlock)
 #Last Updated on Saturday, September 15, 2018
 
 #Mozilla Firefox Trackers
@@ -84,6 +84,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.ac.uk
 0.0.0.0 a.teads.tv
 0.0.0.0 a.optmstr.com
+0.0.0.0 adservice.google.com
 0.0.0.0 analytics.com
 0.0.0.0 ads.mobilebet.com
 0.0.0.0 ads.msstate.edu
@@ -1656,6 +1657,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 img.admaster.net
 0.0.0.0 infolinks.com
 0.0.0.0 i.po.st
+0.0.0.0 izatcloud.net
 0.0.0.0 image5.pubmatic.com
 0.0.0.0 i.i.cbsi.com
 0.0.0.0 infinityid.condenastdigital.com
@@ -2640,6 +2642,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 sentry.io
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 ssum-sec.casalemedia.com
+0.0.0.0 sp.analytics.yahoo.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 s1258972516.t.eloqua.com
 0.0.0.0 staticxx.facebook.com
@@ -2653,6 +2656,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 stats.zotabox.com
 0.0.0.0 servedby-buysellads.com
 0.0.0.0 s22.cnzz.com
+0.0.0.0 stats.nextcloud.com
+0.0.0.0 stats.popcap.com
 0.0.0.0 static.adsnative.com
 0.0.0.0 s.pubmine.com
 0.0.0.0 s19.cnzz.com
@@ -3004,6 +3009,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xtrapath1.izatcloud.net
+0.0.0.0 xtrapath2.izatcloud.net
+0.0.0.0 xtrapath3.izatcloud.net
 0.0.0.0 x.ligatus.com
 0.0.0.0 x-traceur.com
 0.0.0.0 x6.yakiuchi.com
