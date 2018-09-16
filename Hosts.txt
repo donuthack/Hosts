@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,123 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,126 (uBlock)
 #Last Updated on Saturday, September 15, 2018
 
 #Mozilla Firefox Trackers
@@ -1634,6 +1634,7 @@ alt8-mtalk.google.com
 0.0.0.0 fast.detroittradingservices.demdex.net
 0.0.0.0 flurry.com
 0.0.0.0 fidzup.com
+0.0.0.0 frog.wix.com
 
 #G
 0.0.0.0 googleadservices.com
@@ -3070,6 +3071,8 @@ alt8-mtalk.google.com
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wixlabs-countdown.appspot.com
+0.0.0.0 wixlabs-hcounter.appspot.com
 0.0.0.0 wd.adcolony.com
 0.0.0.0 widget.intercom.io
 0.0.0.0 wblt.oui.sncf
