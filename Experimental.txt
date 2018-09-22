@@ -18,14 +18,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 13.91.1.19
 0.0.0.0 198.41.215.162
 0.0.0.0 ya-in-f94.1e100.net
-0.0.0.0 mediaserver-dc6-t1-2v4.pandora.com
-0.0.0.0 pandoramedia.sc.omtrdc.net
 0.0.0.0 edge-star-shv-02-ort2.facebook.com
 0.0.0.0 102.251.109.119
 0.0.0.0 r.cloudfront.net
 0.0.0.0 13.33.165.230
 0.0.0.0 connectivitycheck.android.com
-0.0.0.0 gateway.discord.gg
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 clientservices.googleapis.com
 0.0.0.0 suggestqueries.google.com
@@ -39,11 +36,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ns2.p20.dynect.net
 0.0.0.0 dns1.p05.nsone.net
 0.0.0.0 dns2.p05.nsone.net
-0.0.0.0 mediaserver-ch1-t2-1-v4.pandora.com
-0.0.0.0 mediaserver-sv5-t2-2-v4.pandora.com
-0.0.0.0 mediaserver-sv5-t1-1-v4.pandora.com
-0.0.0.0 mediaserver-dc6-t1-2-v4.pandora.com
-0.0.0.0 mediaserver-ch1-t1-2-v4.pandora.com
 0.0.0.0 h17.0.138.40.static.ip.windstream.net
 0.0.0.0 static.ip.windstream.net
 0.0.0.0 ip.windstream.net
