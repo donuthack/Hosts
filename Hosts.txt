@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,127 (uBlock)
-#Last Updated on Saturday, September 15, 2018
+#Number of ad services/trackers/malware blocked: 7,128 (uBlock)
+#Last Updated on Sunday, September 23, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -1673,6 +1673,7 @@ alt8-mtalk.google.com
 0.0.0.0 www.geoplugin.net
 0.0.0.0 geoip.nekudo.com
 0.0.0.0 gurgle.zdbb.net
+0.0.0.0 gannett.hb.omtrdc.net
 
 #H
 0.0.0.0 hit1.hotlog.ru
