@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,128 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,132 (uBlock)
 #Last Updated on Sunday, September 23, 2018
 
 #Mozilla Firefox Trackers
@@ -93,6 +93,7 @@ alt8-mtalk.google.com
 0.0.0.0 ar.umeng.com
 0.0.0.0 alogs.umeng.com
 0.0.0.0 analytics.uber.com
+0.0.0.0 ads.nexage.com
 0.0.0.0 alog.umeng.com
 0.0.0.0 apptimize.com
 0.0.0.0 analytics.mobile.yandex.net
@@ -746,6 +747,7 @@ alt8-mtalk.google.com
 0.0.0.0 ad.pandora.tv
 0.0.0.0 ads.trafficjunkey.com
 0.0.0.0 ads.servebom.com
+0.0.0.0 adjust.com
 0.0.0.0 app.adjust.com
 0.0.0.0 ad8.adfarm1.adition.com
 0.0.0.0 ads.stickyadstv.com
@@ -1531,6 +1533,7 @@ alt8-mtalk.google.com
 0.0.0.0 download.cdn.sharelive.net
 0.0.0.0 dup.baidustatic.com
 0.0.0.0 driftt.com
+0.0.0.0 data.logentries.com
 0.0.0.0 di.rlcdn.com
 0.0.0.0 dmvorg.s3.amazonaws.com
 0.0.0.0 device-api.urbanairship.com
@@ -1614,6 +1617,7 @@ alt8-mtalk.google.com
 0.0.0.0 en25.com
 0.0.0.0 eloqua.com
 0.0.0.0 events.uber.com
+0.0.0.0 engine.mobileapptracking.com
 
 #F
 0.0.0.0 fls.doubleclick.net
@@ -2486,6 +2490,7 @@ alt8-mtalk.google.com
 0.0.0.0 lt500.tritondigital.com
 0.0.0.0 launcher.spot.im
 0.0.0.0 tritondigital.com
+0.0.0.0 logentries.com
 0.0.0.0 lp4.io
 0.0.0.0 log.adtimaserver.vn
 0.0.0.0 livefyre.com
@@ -2529,6 +2534,7 @@ alt8-mtalk.google.com
 0.0.0.0 mimageads8.googleadservices.com
 0.0.0.0 mimageads9.googleadservices.com
 0.0.0.0 mpartner.googleadservices.com
+0.0.0.0 mobile-collector.newrelic.com
 0.0.0.0 mem.gfx.ms
 0.0.0.0 mobileapptracker.com
 0.0.0.0 mparticle.com
@@ -2594,6 +2600,7 @@ alt8-mtalk.google.com
 0.0.0.0 nervoussummer.com
 0.0.0.0 nexac.com
 0.0.0.0 nativex.com
+0.0.0.0 newrelic.com
 
 #O
 0.0.0.0 odb.outbrain.com
@@ -2732,6 +2739,7 @@ alt8-mtalk.google.com
 0.0.0.0 sensoro.com
 0.0.0.0 sam4m.com
 0.0.0.0 s4m.io
+0.0.0.0 static-www.ec.popcap.com
 0.0.0.0 staticxx.facebook.com
 0.0.0.0 s.btstatic.com
 0.0.0.0 s3.amazonaws.com
@@ -3602,6 +3610,7 @@ alt8-mtalk.google.com
 0.0.0.0 0c4e7ca4a9a4803f563e38c47d93575b.org
 0.0.0.0 0ec97c88.000webhostapp.com
 0.0.0.0 0c4uuexarf.usa.cc
+0.0.0.0 1681.engine.mobileapptracking.com
 0.0.0.0 0c4vmruphe.centade.com
 0.0.0.0 0cg1vshykm.centade.com
 0.0.0.0 0cgemsucus.centade.com
