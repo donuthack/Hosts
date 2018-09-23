@@ -85,7 +85,9 @@ alt8-mtalk.google.com
 0.0.0.0 actuallysheep.com
 0.0.0.0 adserver.pandora.com
 0.0.0.0 app.link
+0.0.0.0 ad-survey.com
 0.0.0.0 app-sj01.marketo.com
+0.0.0.0 analytics.meituan.net
 0.0.0.0 ad4screen.com
 0.0.0.0 appanalytics.io
 0.0.0.0 addapptr.com
@@ -1680,6 +1682,11 @@ alt8-mtalk.google.com
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+h1.analytics.126.net
+h2.analytics.126.net
+h3.analytics.126.net
+h4.analytics.126.net
+h5.analytics.126.net
 0.0.0.0 hit1.hotlog.ru
 0.0.0.0 halc.iadvize.com
 0.0.0.0 hitcents.com
@@ -2723,6 +2730,7 @@ alt8-mtalk.google.com
 #S
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sentry.io
+0.0.0.0 sspservice.ad-survey.com
 0.0.0.0 sync2ad.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 ssum-sec.casalemedia.com
