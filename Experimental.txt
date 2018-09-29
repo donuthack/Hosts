@@ -41,3 +41,4 @@ ff02::3 ip6-allhosts
 0.0.0.0 ip.windstream.net
 0.0.0.0 135.197.186.35.bc.googleusercontent.com
 0.0.0.0 snapchat-webfonts.storage.googleapis.com
+0.0.0.0 server-13-35-87-47.bos50.r.cloudfront.net
