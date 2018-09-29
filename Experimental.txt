@@ -46,3 +46,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 private.comet.vip.ne1.yahoo.com
 0.0.0.0 e1.ycpi.vip.nya.yahoo.com
 0.0.0.0 e2.ycpi.vip.nya.yahoo.com
+0.0.0.0 192.0.66.2
+0.0.0.0 lga25s61-in-f4.1e100.net
+0.0.0.0 a104-118-211-76.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-44-197-236.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-66-211-153.deploy.static.akamaitechnologies.com
+0.0.0.0 foxnews.com.ssl.d1.sc.omtrdc.net
