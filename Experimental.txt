@@ -51,4 +51,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 a104-118-211-76.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-44-197-236.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-66-211-153.deploy.static.akamaitechnologies.com
+0.0.0.0 a184-50-213-121.deploy.static.akamaitechnologies.com
+0.0.0.0 a104-106-242-113.deploy.static.akamaitechnologies.com
 0.0.0.0 foxnews.com.ssl.d1.sc.omtrdc.net
