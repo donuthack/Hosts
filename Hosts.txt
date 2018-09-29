@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,156 (uBlock)
-#Last Updated on Wednsday, September 26, 2018
+#Number of ad services/trackers/malware blocked: 7,158 (uBlock)
+#Last Updated on Saturday, September 29, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -1527,6 +1527,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 d1.sc.omtrdc.net
 0.0.0.0 dpm.demdex.net
 0.0.0.0 demdex.net
 0.0.0.0 d.ligatus.com
@@ -2715,7 +2716,6 @@ h5.analytics.126.net
 0.0.0.0 r.nexac.com
 0.0.0.0 reward-video.fyber.com
 0.0.0.0 rv-gateway.supersonicads.com|pixel-tracking.sonic-us.supersonicads.com
-#r4---sn-fpoqnugx5h-qnhe.googlevideo.com (Blocks YouTube on mobile)
 0.0.0.0 rewarded-video.fyber.com
 0.0.0.0 res.cloudinary.com
 0.0.0.0 www.roosterfirework.com
@@ -2750,6 +2750,7 @@ h5.analytics.126.net
 0.0.0.0 sleepcartoon.com
 0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 supersonic.com
+0.0.0.0 sc.omtrdc.net
 0.0.0.0 snapads.com
 0.0.0.0 silverpush.location.com
 0.0.0.0 saspreview.com
