@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,148 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,155 (uBlock)
 #Last Updated on Wednsday, September 26, 2018
 
 #Mozilla Firefox Trackers
@@ -84,10 +84,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 app-analytics.snapchat.com
 0.0.0.0 actualdeals.com
 0.0.0.0 actuallysheep.com
+0.0.0.0 adserver.snapads.com
 0.0.0.0 adserver.pandora.com
 0.0.0.0 app.link
 0.0.0.0 analytics.dwebsite.com
 0.0.0.0 ad-survey.com
+0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 app-sj01.marketo.com
 0.0.0.0 analytics.meituan.net
 0.0.0.0 ad4screen.com
@@ -1646,6 +1648,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 frog.wix.com
 
 #G
+0.0.0.0 geo.yahoo.com
 0.0.0.0 googleadservices.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 googletagmanager.com
@@ -2528,6 +2531,7 @@ h5.analytics.126.net
 0.0.0.0 mobile.smartadserver.com
 0.0.0.0 m4.afs.googleadservices.com
 0.0.0.0 merchantapp.com
+0.0.0.0 metrics.sdkbox.com
 0.0.0.0 md-a-s.apptimize.com
 0.0.0.0 md-a-c.apptimize.com
 0.0.0.0 mscom.demdex.net
@@ -2742,7 +2746,10 @@ h5.analytics.126.net
 0.0.0.0 snowplowanalytics.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 soma.smaato.net
+0.0.0.0 sleepcartoon.com
+0.0.0.0 sc-analytics.appspot.com
 0.0.0.0 supersonic.com
+0.0.0.0 snapads.com
 0.0.0.0 silverpush.location.com
 0.0.0.0 saspreview.com
 0.0.0.0 s1258972516.t.eloqua.com
