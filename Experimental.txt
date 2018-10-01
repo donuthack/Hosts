@@ -13,6 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
+0.0.0.0 h15.0.138.40.static.ip.windstream.net
 0.0.0.0 ox-in-f188.1e100.net
 0.0.0.0 yoyo.org
 0.0.0.0 13.91.1.19
