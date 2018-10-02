@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,160 (uBlock)
-#Last Updated on Saturday, September 29, 2018
+#Number of ad services/trackers/malware blocked: 7,165 (uBlock)
+#Last Updated on Tuesday, October 2, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -86,6 +86,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 actualdeals.com
 0.0.0.0 actuallysheep.com
 0.0.0.0 adserver.snapads.com
+0.0.0.0 ads.api.vungle.com
 0.0.0.0 adserver.pandora.com
 0.0.0.0 app.link
 0.0.0.0 analytics.dwebsite.com
@@ -1385,6 +1386,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.fastclick.net
 0.0.0.0 cdn.heapanalytics.com
 0.0.0.0 cdn.branch.io
+0.0.0.0 www.conversantmedia.com
+0.0.0.0 conversantmedia.com
 0.0.0.0 cdn.tynt.com
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cargurus-d.openx.net
@@ -2736,6 +2739,7 @@ h5.analytics.126.net
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 swrve.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sentry.io
 0.0.0.0 sspservice.ad-survey.com
@@ -3632,6 +3636,7 @@ h5.analytics.126.net
 0.0.0.0 0ec97c88.000webhostapp.com
 0.0.0.0 135.197.186.35.bc.googleusercontent.com
 0.0.0.0 0c4uuexarf.usa.cc
+0.0.0.0 1781.content.swrve.com
 0.0.0.0 1681.engine.mobileapptracking.com
 0.0.0.0 0c4vmruphe.centade.com
 0.0.0.0 0cg1vshykm.centade.com
