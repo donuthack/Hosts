@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 #Number of ad services/trackers/malware blocked: 7,168 (uBlock)
-#Last Updated on Tuesday, October 2, 2018
+#Last Updated on Wednsday, October 3, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
