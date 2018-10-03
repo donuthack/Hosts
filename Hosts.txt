@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,172(uBlock)
+#Number of ad services/trackers/malware blocked: 7,172 (uBlock)
 #Last Updated on Wednsday, October 3, 2018
 
 #Mozilla Firefox Trackers
@@ -2755,6 +2755,7 @@ h5.analytics.126.net
 0.0.0.0 sp.analytics.yahoo.com
 0.0.0.0 schibsted.com
 0.0.0.0 schibsted.io
+0.0.0.0 subscription-assets.timeinc.com
 0.0.0.0 snowplowanalytics.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 soma.smaato.net
