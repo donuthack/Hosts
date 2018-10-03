@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,168 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,172F(uBlock)
 #Last Updated on Wednsday, October 3, 2018
 
 #Mozilla Firefox Trackers
@@ -1536,6 +1536,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dpm.demdex.net
 0.0.0.0 demdex.net
 0.0.0.0 d.ligatus.com
+0.0.0.0 www.dynatrace.com
+0.0.0.0 dynatrace.com
 0.0.0.0 data.flurry.com
 0.0.0.0 dsparking.com
 0.0.0.0 dp.g.doubleclick.net
@@ -2658,6 +2660,7 @@ h5.analytics.126.net
 0.0.0.0 pixel.watch
 0.0.0.0 player.anyclip.com
 0.0.0.0 profitboosterapp.com
+0.0.0.0 pub20.bravenet.com
 0.0.0.0 parsely.com
 0.0.0.0 perimeterx.net
 0.0.0.0 partner.ads.placeiq.com
