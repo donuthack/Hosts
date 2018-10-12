@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,172 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,174 (uBlock)
 #Last Updated on Friday, October 12, 2018
 
 #Mozilla Firefox Trackers
@@ -90,6 +90,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.api.vungle.com
 0.0.0.0 adserver.pandora.com
 0.0.0.0 app.link
+0.0.0.0 ace.advertising.com
 0.0.0.0 analytics.dwebsite.com
 0.0.0.0 ad-survey.com
 0.0.0.0 analytics.query.yahoo.com
@@ -1392,6 +1393,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.tynt.com
 0.0.0.0 cdn.speedcurve.com
 0.0.0.0 cargurus-d.openx.net
+0.0.0.0 cmap.uac.ace.advertising.com
 0.0.0.0 cdn.keywee.co
 0.0.0.0 cpro.baidustatic.com
 0.0.0.0 www.civicscience.com
