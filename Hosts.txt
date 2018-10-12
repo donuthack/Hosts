@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 #Number of ad services/trackers/malware blocked: 7,172 (uBlock)
-#Last Updated on Wednsday, October 3, 2018
+#Last Updated on Friday, October 12, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -82,7 +82,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 alt7-mtalk.google.com
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 atl26s16-in-f3.1e100.net
-0.0.0.0 app-analytics.snapchat.com
+#0.0.0.0 app-analytics.snapchat.com (Block notifications?)
 0.0.0.0 a-sl014.insnw.net
 0.0.0.0 actualdeals.com
 0.0.0.0 actuallysheep.com
