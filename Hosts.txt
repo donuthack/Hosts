@@ -1525,7 +1525,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clickkingdom.net
 0.0.0.0 cdnssl.clicktale.net
 0.0.0.0 cdn.krxd.net
-0.0.0.0 cdn.pushcrew.com
+#0.0.0.0 cdn.pushcrew.com (Blocks notifications for many apps)
 0.0.0.0 cdn.flashtalking.com
 0.0.0.0 cdn01.basis.net
 0.0.0.0 connect.facebook.net
@@ -2666,7 +2666,7 @@ h5.analytics.126.net
 0.0.0.0 partner.ads.placeiq.com
 0.0.0.0 presage.io
 0.0.0.0 park.above.com
-0.0.0.0 pushwoosh.com
+#0.0.0.0 pushwoosh.com (Blocks many notifications)
 0.0.0.0 petiteumbrella.com
 0.0.0.0 p.cpx.to
 0.0.0.0 pix.nbcuni.com
