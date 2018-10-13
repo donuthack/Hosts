@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,174 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,176 (uBlock)
 #Last Updated on Friday, October 12, 2018
 
 #Mozilla Firefox Trackers
@@ -85,6 +85,8 @@ ff02::3 ip6-allhosts
 #0.0.0.0 app-analytics.snapchat.com (Block notifications?)
 0.0.0.0 a-sl014.insnw.net
 0.0.0.0 actualdeals.com
+0.0.0.0 adtrack.voicestar.com
+0.0.0.0 analytic.engagetosell.com
 0.0.0.0 actuallysheep.com
 0.0.0.0 adserver.snapads.com
 0.0.0.0 ads.api.vungle.com
@@ -1629,6 +1631,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ezoic.net
 0.0.0.0 exelator.com
 0.0.0.0 edigitalsurvey.com
+0.0.0.0 edw.edmunds.com
 0.0.0.0 e1.cdn.qnsr.com
 0.0.0.0 echo.intergient.com
 0.0.0.0 en25.com
@@ -1676,7 +1679,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 get.whitesmoke.com
 0.0.0.0 graph.facebook.com
 0.0.0.0 graph.instagram.com
+0.0.0.0 gubagoo.io
 0.0.0.0 gramombird.com
+0.0.0.0 g.3gl.net
 0.0.0.0 google-analytics.com
 0.0.0.0 gateway.foresee.com
 0.0.0.0 gfx.ms
@@ -1745,6 +1750,7 @@ h5.analytics.126.net
 0.0.0.0 img.bleacherreport.net
 0.0.0.0 ironsrc.com
 0.0.0.0 insight.adsrvr.org
+0.0.0.0 ima3vpaid.appspot.com
 0.0.0.0 images.webads.nl
 0.0.0.0 imrworldwide.com
 0.0.0.0 img.en25.com
@@ -2646,6 +2652,8 @@ h5.analytics.126.net
 0.0.0.0 onscroll.com
 0.0.0.0 omtrdc.net
 0.0.0.0 optmnstr.com
+0.0.0.0 www.ojrq.net
+0.0.0.0 ojrq.net
 0.0.0.0 oc.umeng.com
 0.0.0.0 ow-gateway.supersonicads.com
 0.0.0.0 outcome.supersonicads.com
@@ -2671,6 +2679,7 @@ h5.analytics.126.net
 #0.0.0.0 pushwoosh.com (Blocks many notifications)
 0.0.0.0 petiteumbrella.com
 0.0.0.0 p.cpx.to
+0.0.0.0 pixel-tracker.com
 0.0.0.0 pix.nbcuni.com
 0.0.0.0 placeiq.com
 0.0.0.0 play.bestapp.com
@@ -2757,6 +2766,7 @@ h5.analytics.126.net
 0.0.0.0 sp.analytics.yahoo.com
 0.0.0.0 schibsted.com
 0.0.0.0 schibsted.io
+0.0.0.0 stats.lotlinx.com
 0.0.0.0 subscription-assets.timeinc.com
 0.0.0.0 snowplowanalytics.com
 0.0.0.0 static.yieldmo.com
@@ -3006,6 +3016,9 @@ h5.analytics.126.net
 0.0.0.0 tracker.nbcuas.com
 0.0.0.0 t2.softonicads.com
 0.0.0.0 tag-mediation.supersonic.com
+0.0.0.0 tracking.callmeasurement.com
+0.0.0.0 www.tqlkg.com
+0.0.0.0 tqlkg.com
 0.0.0.0 timeanddate-d.openx.net
 0.0.0.0 tencent.mm.plugin.location_soso.com
 0.0.0.0 tencent.mm.plugin.location.com
