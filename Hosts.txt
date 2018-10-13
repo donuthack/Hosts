@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 #Number of ad services/trackers/malware blocked: 7,176 (uBlock)
-#Last Updated on Friday, October 12, 2018
+#Last Updated on Friday, October 13, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -85,6 +85,9 @@ ff02::3 ip6-allhosts
 #0.0.0.0 app-analytics.snapchat.com (Block notifications?)
 0.0.0.0 a-sl014.insnw.net
 0.0.0.0 actualdeals.com
+0.0.0.0 ads.namiflow.com
+0.0.0.0 adsrevenue.clicksor.net
+0.0.0.0 ads.adonion.com
 0.0.0.0 adtrack.voicestar.com
 0.0.0.0 analytic.engagetosell.com
 0.0.0.0 actuallysheep.com
@@ -1374,6 +1377,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.springserve.com
 0.0.0.0 cdn.dynamicyield.com
 0.0.0.0 concertads-configs.vox-cdn.com
+0.0.0.0 clicksor.net
 0.0.0.0 connatix.com
 0.0.0.0 clients.google.com
 0.0.0.0 cdn.livechatinc.com
@@ -2766,8 +2770,11 @@ h5.analytics.126.net
 0.0.0.0 sp.analytics.yahoo.com
 0.0.0.0 schibsted.com
 0.0.0.0 schibsted.io
+0.0.0.0 streaminfo-live.secure.footprint.net
+0.0.0.0 secure.footprint.net
 0.0.0.0 stats.lotlinx.com
 0.0.0.0 subscription-assets.timeinc.com
+0.0.0.0 serving.adsrevenue.clicksor.net
 0.0.0.0 snowplowanalytics.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 soma.smaato.net
