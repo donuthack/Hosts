@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,193 (uBlock)
-#Last Updated on Friday, October 13, 2018
+#Number of ad services/trackers/malware blocked: 7,195 (uBlock)
+#Last Updated on Sunday, October 14, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -85,6 +85,7 @@ ff02::3 ip6-allhosts
 #0.0.0.0 app-analytics.snapchat.com (Block notifications?)
 0.0.0.0 a-sl014.insnw.net
 0.0.0.0 actualdeals.com
+0.0.0.0 android.bugly.qq.com
 0.0.0.0 ads.namiflow.com
 0.0.0.0 adsrevenue.clicksor.net
 0.0.0.0 ads.adonion.com
@@ -1817,6 +1818,7 @@ h5.analytics.126.net
 0.0.0.0 kad.kaskus.com
 0.0.0.0 kadampra.in
 0.0.0.0 kadashihotel.com
+0.0.0.0 kvinit-prod.api.kochava.com
 0.0.0.0 kadem.com.tr
 0.0.0.0 kade-project.de
 0.0.0.0 kadesuitungenfunhandesuin.com
