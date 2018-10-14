@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,191 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,193 (uBlock)
 #Last Updated on Friday, October 13, 2018
 
 #Mozilla Firefox Trackers
@@ -2557,6 +2557,7 @@ h5.analytics.126.net
 0.0.0.0 md-a-c.apptimize.com
 0.0.0.0 mscom.demdex.net
 0.0.0.0 m.servedby-buysellads.com
+0.0.0.0 mobilenetworkscoring-pa.googleapis.com
 0.0.0.0 mimageads.googleadservices.com
 0.0.0.0 mimageads1.googleadservices.com
 0.0.0.0 mimageads2.googleadservices.com
@@ -3078,6 +3079,7 @@ h5.analytics.126.net
 0.0.0.0 ultramercial.com
 0.0.0.0 unarmedindustry.com
 0.0.0.0 undertone.com
+0.0.0.0 update.sdk.jiguang.cn
 0.0.0.0 unknowntray.com
 0.0.0.0 unrulymedia.com
 0.0.0.0 uop.umeng.com
