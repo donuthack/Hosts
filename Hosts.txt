@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,195 (uBlock)
-#Last Updated on Sunday, October 14, 2018
+#Number of ad services/trackers/malware blocked: 7,198 (uBlock)
+#Last Updated on Monday, October 15, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -94,6 +94,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 actuallysheep.com
 0.0.0.0 adserver.snapads.com
 0.0.0.0 ads.api.vungle.com
+0.0.0.0 analytics.io
 0.0.0.0 adserver.pandora.com
 0.0.0.0 app.link
 0.0.0.0 ace.advertising.com
@@ -2522,6 +2523,7 @@ h5.analytics.126.net
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 loadbalancer.visitor-analytics.io
 0.0.0.0 lt500.tritondigital.com
 0.0.0.0 launcher.spot.im
 0.0.0.0 tritondigital.com
@@ -3118,6 +3120,7 @@ h5.analytics.126.net
 0.0.0.0 visitbox.de
 0.0.0.0 visitpath.com
 0.0.0.0 visual-pagerank.fr
+0.0.0.0 visitor-analytics.io
 0.0.0.0 vlc.de
 0.0.0.0 visualrevenue.com
 0.0.0.0 vidora.com
