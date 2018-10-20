@@ -89,6 +89,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 actualdeals.com
 0.0.0.0 android.bugly.qq.com
 0.0.0.0 ads.namiflow.com
+0.0.0.0 api.evie.com
+0.0.0.0 api1.evie.com
+0.0.0.0 api2.evie.com
 0.0.0.0 adsrevenue.clicksor.net
 0.0.0.0 ads.adonion.com
 0.0.0.0 adtrack.voicestar.com
@@ -1380,6 +1383,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.intergi.com
 0.0.0.0 cdn.springserve.com
 0.0.0.0 cdn.dynamicyield.com
+0.0.0.0 connectivitycheck.android.com
 0.0.0.0 concertads-configs.vox-cdn.com
 0.0.0.0 clicksor.net
 0.0.0.0 connatix.com
@@ -1391,6 +1395,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 click-haproxy.supersonicads.com
 0.0.0.0 cloud.sensoro.com
 0.0.0.0 cc.amazingcounters.com
+0.0.0.0 clientservices.googleapis.com
 0.0.0.0 cdn2.lockerdome.com
 0.0.0.0 www.commandersact.com
 0.0.0.0 cpro.baidustatic.com
@@ -1629,6 +1634,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 edge-star-shv-02-ort2.facebook.com
 0.0.0.0 edge.quantserve.com
 0.0.0.0 e.crashlytics.com
 0.0.0.0 enter.sexlist.com
@@ -1738,6 +1744,21 @@ h5.analytics.126.net
 0.0.0.0 h6.msn.com
 0.0.0.0 hello.myfonts.net
 0.0.0.0 hm.baidu.com
+0.0.0.0 h1.0.138.40.static.ip.windstream.net
+0.0.0.0 h2.0.138.40.static.ip.windstream.net
+0.0.0.0 h3.0.138.40.static.ip.windstream.net
+0.0.0.0 h4.0.138.40.static.ip.windstream.net
+0.0.0.0 h5.0.138.40.static.ip.windstream.net
+0.0.0.0 h6.0.138.40.static.ip.windstream.net
+0.0.0.0 h7.0.138.40.static.ip.windstream.net
+0.0.0.0 h8.0.138.40.static.ip.windstream.net
+0.0.0.0 h9.0.138.40.static.ip.windstream.net
+0.0.0.0 h10.0.138.40.static.ip.windstream.net
+0.0.0.0 h11.0.138.40.static.ip.windstream.net
+0.0.0.0 h12.0.138.40.static.ip.windstream.net
+0.0.0.0 h13.0.138.40.static.ip.windstream.net
+0.0.0.0 h14.0.138.40.static.ip.windstream.net
+0.0.0.0 h15.0.138.40.static.ip.windstream.net
 0.0.0.0 hotjar.com
 0.0.0.0 horizon.sailthru.com
 0.0.0.0 h-bid.com
@@ -2682,6 +2703,7 @@ h5.analytics.126.net
 0.0.0.0 ow-gateway.supersonicads.com
 0.0.0.0 outcome.supersonicads.com
 0.0.0.0 oclasrv.com
+0.0.0.0 ox-in-f188.1e100.net
 
 #P
 0.0.0.0 pixel.rubiconproject.com
@@ -2790,10 +2812,12 @@ h5.analytics.126.net
 0.0.0.0 static.adsafeprotected.com
 0.0.0.0 sp.analytics.yahoo.com
 0.0.0.0 schibsted.com
+0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 schibsted.io
 0.0.0.0 streaminfo-live.secure.footprint.net
 0.0.0.0 secure.footprint.net
 0.0.0.0 stats.lotlinx.com
+0.0.0.0 suggestqueries.google.com
 0.0.0.0 subscription-assets.timeinc.com
 0.0.0.0 serving.adsrevenue.clicksor.net
 0.0.0.0 snowplowanalytics.com
