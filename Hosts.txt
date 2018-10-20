@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,240 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,245 (uBlock)
 #Last Updated on Sunday, October 20, 2018
 
 #Mozilla Firefox Trackers
@@ -91,6 +91,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.namiflow.com
 0.0.0.0 api.evie.com
 0.0.0.0 api1.evie.com
+0.0.0.0 a104-118-211-76.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-44-197-236.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-66-211-153.deploy.static.akamaitechnologies.com
+0.0.0.0 a184-50-213-121.deploy.static.akamaitechnologies.com
+0.0.0.0 a104-106-242-113.deploy.static.akamaitechnologies.com
 0.0.0.0 api2.evie.com
 0.0.0.0 adsrevenue.clicksor.net
 0.0.0.0 ads.adonion.com
@@ -1651,6 +1656,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 e1.cdn.qnsr.com
 0.0.0.0 echo.intergient.com
 0.0.0.0 en25.com
+0.0.0.0 e1.ycpi.vip.nya.yahoo.com
+0.0.0.0 e2.ycpi.vip.nya.yahoo.com
 0.0.0.0 eloqua.com
 0.0.0.0 events.uber.com
 0.0.0.0 engine.mobileapptracking.com
@@ -1664,6 +1671,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 expo8.exponential.com
 0.0.0.0 expo9.exponential.com
 0.0.0.0 exponential.com
+0.0.0.0 ec2-35-163-238-255.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
 0.0.0.0 fls.doubleclick.net
@@ -1683,6 +1692,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fastclick.net
 0.0.0.0 f1.media.brightcove.com
 0.0.0.0 fast.detroittradingservices.demdex.net
+0.0.0.0 foxnews.com.ssl.d1.sc.omtrdc.net
 0.0.0.0 flurry.com
 0.0.0.0 fidzup.com
 0.0.0.0 frog.wix.com
@@ -1730,20 +1740,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
-h1.analytics.126.net
-h2.analytics.126.net
-h3.analytics.126.net
-h4.analytics.126.net
-h5.analytics.126.net
-0.0.0.0 hit1.hotlog.ru
-0.0.0.0 halc.iadvize.com
-0.0.0.0 hitcents.com
-0.0.0.0 hitcounter.ru
-0.0.0.0 hitfox.go2cloud.org
-0.0.0.0 honolulu.app.ur.gcion.com
-0.0.0.0 h6.msn.com
-0.0.0.0 hello.myfonts.net
-0.0.0.0 hm.baidu.com
 0.0.0.0 h1.0.138.40.static.ip.windstream.net
 0.0.0.0 h2.0.138.40.static.ip.windstream.net
 0.0.0.0 h3.0.138.40.static.ip.windstream.net
@@ -1759,6 +1755,22 @@ h5.analytics.126.net
 0.0.0.0 h13.0.138.40.static.ip.windstream.net
 0.0.0.0 h14.0.138.40.static.ip.windstream.net
 0.0.0.0 h15.0.138.40.static.ip.windstream.net
+0.0.0.0 h16.0.138.40.static.ip.windstream.net
+0.0.0.0 h17.0.138.40.static.ip.windstream.net
+0.0.0.0 h1.analytics.126.net
+0.0.0.0 h2.analytics.126.net
+0.0.0.0 h3.analytics.126.net
+0.0.0.0 h4.analytics.126.net
+0.0.0.0 h5.analytics.126.net
+0.0.0.0 hit1.hotlog.ru
+0.0.0.0 halc.iadvize.com
+0.0.0.0 hitcents.com
+0.0.0.0 hitcounter.ru
+0.0.0.0 hitfox.go2cloud.org
+0.0.0.0 honolulu.app.ur.gcion.com
+0.0.0.0 h6.msn.com
+0.0.0.0 hello.myfonts.net
+0.0.0.0 hm.baidu.com
 0.0.0.0 hotjar.com
 0.0.0.0 horizon.sailthru.com
 0.0.0.0 h-bid.com
@@ -1799,6 +1811,7 @@ h5.analytics.126.net
 0.0.0.0 instinctiveads.com
 0.0.0.0 investingchannel.com
 0.0.0.0 ironsource.com
+0.0.0.0 ip.windstream.net
 0.0.0.0 intergi.com
 0.0.0.0 ifc.inmobi.com
 0.0.0.0 img.adecorp.co.kr
@@ -2586,6 +2599,7 @@ h5.analytics.126.net
 0.0.0.0 loggly.com
 0.0.0.0 ligatus.com
 0.0.0.0 location.silverpush.com
+0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
 0.0.0.0 munchkin.marketo.net
@@ -2815,6 +2829,7 @@ h5.analytics.126.net
 0.0.0.0 safebrowsing.googleapis.com
 0.0.0.0 schibsted.io
 0.0.0.0 streaminfo-live.secure.footprint.net
+0.0.0.0 snapchat-webfonts.storage.googleapis.com
 0.0.0.0 secure.footprint.net
 0.0.0.0 stats.lotlinx.com
 0.0.0.0 suggestqueries.google.com
@@ -2823,6 +2838,7 @@ h5.analytics.126.net
 0.0.0.0 snowplowanalytics.com
 0.0.0.0 static.yieldmo.com
 0.0.0.0 static.digidip.net
+0.0.0.0 static.ip.windstream.net
 0.0.0.0 soma.smaato.net
 0.0.0.0 sleepcartoon.com
 0.0.0.0 sc-analytics.appspot.com
@@ -3262,6 +3278,7 @@ h5.analytics.126.net
 0.0.0.0 your.365advert.com
 0.0.0.0 yastatic.net
 0.0.0.0 youradchoices.com
+0.0.0.0 ya-in-f94.1e100.net
 0.0.0.0 y.ibsys.com
 0.0.0.0 yab-adimages.s3.amazonaws.com
 0.0.0.0 yabuka.com
@@ -3717,6 +3734,7 @@ h5.analytics.126.net
 0.0.0.0 0c4uuexarf.usa.cc
 0.0.0.0 1781.content.swrve.com
 0.0.0.0 1681.engine.mobileapptracking.com
+0.0.0.0 135.197.186.35.bc.googleusercontent.com
 0.0.0.0 0c4vmruphe.centade.com
 0.0.0.0 0cg1vshykm.centade.com
 0.0.0.0 0cgemsucus.centade.com
