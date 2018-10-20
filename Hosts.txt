@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,202 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,204 (uBlock)
 #Last Updated on Sunday, October 20, 2018
 
 #Mozilla Firefox Trackers
@@ -82,6 +82,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 alt7-mtalk.google.com
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 atl26s16-in-f3.1e100.net
+0.0.0.0 www.adnetworkperformance.com
+0.0.0.0 adnetworkperformance.com
 #0.0.0.0 app-analytics.snapchat.com (Block notifications?)
 0.0.0.0 a-sl014.insnw.net
 0.0.0.0 actualdeals.com
@@ -129,7 +131,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.a-ads.com
 0.0.0.0 adhitzads.com
 0.0.0.0 www.bitcoadz.io
-0.0.0.0 android.clients.google.com
+#0.0.0.0 android.clients.google.com
 0.0.0.0 ads.ac.uk
 0.0.0.0 a.teads.tv
 0.0.0.0 a.optmstr.com
@@ -1563,6 +1565,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 di.rlcdn.com
 0.0.0.0 dmvorg.s3.amazonaws.com
 0.0.0.0 device-api.urbanairship.com
+0.0.0.0 digidip.net
 0.0.0.0 databerries.com
 0.0.0.0 detroittradingservices.demdex.net
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
@@ -1645,6 +1648,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 eloqua.com
 0.0.0.0 events.uber.com
 0.0.0.0 engine.mobileapptracking.com
+0.0.0.0 expo1.exponential.com
+0.0.0.0 expo2.exponential.com
+0.0.0.0 expo3.exponential.com
+0.0.0.0 expo4.exponential.com
+0.0.0.0 expo5.exponential.com
+0.0.0.0 expo6.exponential.com
+0.0.0.0 expo7.exponential.com
+0.0.0.0 expo8.exponential.com
+0.0.0.0 expo9.exponential.com
+0.0.0.0 exponential.com
 
 #F
 0.0.0.0 fls.doubleclick.net
@@ -2785,6 +2798,7 @@ h5.analytics.126.net
 0.0.0.0 serving.adsrevenue.clicksor.net
 0.0.0.0 snowplowanalytics.com
 0.0.0.0 static.yieldmo.com
+0.0.0.0 static.digidip.net
 0.0.0.0 soma.smaato.net
 0.0.0.0 sleepcartoon.com
 0.0.0.0 sc-analytics.appspot.com
@@ -3024,6 +3038,7 @@ h5.analytics.126.net
 0.0.0.0 tags.tiqcdn.com
 0.0.0.0 tags.bkrtx.com
 0.0.0.0 teads.tv
+0.0.0.0 tracking-opi.fonpit.de
 0.0.0.0 t1.softonicads.com
 0.0.0.0 trck.at
 0.0.0.0 trackersimulator.org
