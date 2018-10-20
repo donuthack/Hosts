@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,198 (uBlock)
-#Last Updated on Monday, October 15, 2018
+#Number of ad services/trackers/malware blocked: 7,202 (uBlock)
+#Last Updated on Sunday, October 20, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -1384,6 +1384,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 clients.google.com
 0.0.0.0 cdn.livechatinc.com
 0.0.0.0 cookie-script.com
+0.0.0.0 capture.trackjs.com
 0.0.0.0 cnzz.com
 0.0.0.0 click-haproxy.supersonicads.com
 0.0.0.0 cloud.sensoro.com
@@ -1669,6 +1670,7 @@ ff02::3 ip6-allhosts
 
 #G
 0.0.0.0 geo.yahoo.com
+0.0.0.0 go.oclasrv.com
 0.0.0.0 googleadservices.com
 0.0.0.0 www.googleadservices.com
 0.0.0.0 googletagmanager.com
@@ -2666,6 +2668,7 @@ h5.analytics.126.net
 0.0.0.0 oc.umeng.com
 0.0.0.0 ow-gateway.supersonicads.com
 0.0.0.0 outcome.supersonicads.com
+0.0.0.0 oclasrv.com
 
 #P
 0.0.0.0 pixel.rubiconproject.com
@@ -3078,6 +3081,7 @@ h5.analytics.126.net
 0.0.0.0 us-u.openx.net
 0.0.0.0 uarating.com
 0.0.0.0 ublock.org
+0.0.0.0 usage.trackjs.com
 0.0.0.0 ukbanners.com
 0.0.0.0 ultimateclixx.com
 0.0.0.0 ultramercial.com
