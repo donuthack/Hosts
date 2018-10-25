@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,258 (uBlock)
-#Last Updated on Sunday, October 20, 2018
+#Number of ad services/trackers/malware blocked: 7,268 (uBlock)
+#Last Updated on Wednsday, October 24, 2018
 
 #Mozilla Firefox Trackers
 0.0.0.0 crash-stats.mozilla.com
@@ -1388,6 +1388,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.intergi.com
 0.0.0.0 cdn.springserve.com
 0.0.0.0 cdn.dynamicyield.com
+0.0.0.0 cdn.simpleanalytics.io
 0.0.0.0 connectivitycheck.android.com
 0.0.0.0 concertads-configs.vox-cdn.com
 0.0.0.0 clicksor.net
@@ -1573,6 +1574,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 driftt.com
 0.0.0.0 data.logentries.com
 0.0.0.0 di.rlcdn.com
+0.0.0.0 dotcomsecrets.com
 0.0.0.0 dmvorg.s3.amazonaws.com
 0.0.0.0 device-api.urbanairship.com
 0.0.0.0 digidip.net
@@ -1696,6 +1698,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 flurry.com
 0.0.0.0 fidzup.com
 0.0.0.0 frog.wix.com
+0.0.0.0 freshmarketer.com
 
 #G
 0.0.0.0 geo.yahoo.com
@@ -1801,6 +1804,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 img07.en25.com
 0.0.0.0 indexww.com
 0.0.0.0 imrworldwide.com
+0.0.0.0 iesnare.com
 0.0.0.0 img.bleacherreport.net
 0.0.0.0 ironsrc.com
 0.0.0.0 insight.adsrvr.org
@@ -2609,6 +2613,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 metrics.sdkbox.com
 0.0.0.0 md-a-s.apptimize.com
 0.0.0.0 md-a-c.apptimize.com
+0.0.0.0 mediavine.com
+0.0.0.0 www.mb104.com
+0.0.0.0 mb104.com
 0.0.0.0 mscom.demdex.net
 0.0.0.0 m.servedby-buysellads.com
 0.0.0.0 mobilenetworkscoring-pa.googleapis.com
@@ -2624,6 +2631,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mimageads9.googleadservices.com
 0.0.0.0 mpartner.googleadservices.com
 0.0.0.0 mobile-collector.newrelic.com
+0.0.0.0 mpsnare.iesnare.com
 0.0.0.0 mem.gfx.ms
 0.0.0.0 mobileapptracker.com
 0.0.0.0 mparticle.com
@@ -2831,6 +2839,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 streaminfo-live.secure.footprint.net
 0.0.0.0 snapchat-webfonts.storage.googleapis.com
 0.0.0.0 secure.footprint.net
+0.0.0.0 simpleanalytics.io
+0.0.0.0 scripts.mediavine.com
 0.0.0.0 stats.lotlinx.com
 0.0.0.0 suggestqueries.google.com
 0.0.0.0 subscription-assets.timeinc.com
