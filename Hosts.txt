@@ -16,27 +16,7 @@ ff02::3 ip6-allhosts
 #Number of ad services/trackers/malware blocked: 7,268 (uBlock)
 #Last Updated on Wednsday, October 24, 2018
 
-#Mozilla Firefox Trackers
-0.0.0.0 crash-stats.mozilla.com
-0.0.0.0 malware-error.mozilla.com
-0.0.0.0 phish-error.mozilla.com
-0.0.0.0 snippets.cdn.mozilla.net
-0.0.0.0 tiles.services.mozilla.com
-0.0.0.0 location.services.mozilla.com
-0.0.0.0 shavar.services.mozilla.com
-0.0.0.0 push.services.mozilla.com
-0.0.0.0 search.services.mozilla.com
-0.0.0.0 versioncheck-bg.addons.mozilla.org
-0.0.0.0 accounts.firefox.com
-0.0.0.0 activations.cdn.mozilla.net
-0.0.0.0 aus5.mozilla.org
-0.0.0.0 crash-stats.mozilla.com
-0.0.0.0 crash-stats.mozilla.org
-0.0.0.0 data.mozilla.com
-0.0.0.0 detectportal.firefox.com
-0.0.0.0 ftp.mozilla.org
-
-#IP Loggers
+# IP Loggers
 0.0.0.0 grabify.link
 0.0.0.0 bmwforum.co
 0.0.0.0 leancoding.co
@@ -73,6 +53,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipstack.net
 
 #A
+0.0.0.0 accounts.firefox.com
+0.0.0.0 activations.cdn.mozilla.net
+0.0.0.0 aus5.mozilla.org
 0.0.0.0 alt1-mtalk.google.com
 0.0.0.0 alt2-mtalk.google.com
 0.0.0.0 alt3-mtalk.google.com
@@ -1376,6 +1359,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 crash-stats.mozilla.com
+0.0.0.0 crash-stats.mozilla.org
 0.0.0.0 cd8ba0b44a15c10065fd-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com
 0.0.0.0 cdn.saberfeedback.com
 0.0.0.0 api.saberfeedback.com
@@ -1387,6 +1372,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.engine.4dsply.com
 0.0.0.0 cdn.intergi.com
 0.0.0.0 cdn.springserve.com
+0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 cdn.dynamicyield.com
 0.0.0.0 cdn.simpleanalytics.io
 0.0.0.0 connectivitycheck.android.com
@@ -1556,6 +1542,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 data.mozilla.com
+0.0.0.0 detectportal.firefox.com
 0.0.0.0 d1.sc.omtrdc.net
 0.0.0.0 dpm.demdex.net
 0.0.0.0 demdex.net
@@ -1677,6 +1665,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 ftp.mozilla.org
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 facebook.com/plugins/likebox.php
@@ -2576,6 +2565,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 location.services.mozilla.com
 0.0.0.0 loadbalancer.visitor-analytics.io
 0.0.0.0 lt500.tritondigital.com
 0.0.0.0 launcher.spot.im
@@ -2614,6 +2604,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 md-a-s.apptimize.com
 0.0.0.0 md-a-c.apptimize.com
 0.0.0.0 mediavine.com
+0.0.0.0 malware-error.mozilla.com
 0.0.0.0 www.mb104.com
 0.0.0.0 mb104.com
 0.0.0.0 mscom.demdex.net
@@ -2728,6 +2719,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 push.services.mozilla.com
+0.0.0.0 phish-error.mozilla.com
 0.0.0.0 pixel.rubiconproject.com
 0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 pixel.quantserve.com
@@ -2823,6 +2816,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 search.services.mozilla.com
+0.0.0.0 shavar.services.mozilla.com
+0.0.0.0 snippets.cdn.mozilla.net
 0.0.0.0 swrve.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sentry.io
@@ -3082,6 +3078,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tiles.services.mozilla.com
 0.0.0.0 trends.revcontent.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 try.abtasty.com
@@ -3182,6 +3179,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 userzoom.com
 
 #V
+0.0.0.0 versioncheck-bg.addons.mozilla.org
 0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
 0.0.0.0 visitor-track.com
