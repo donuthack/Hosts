@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 #Number of ad services/trackers/malware blocked: 7,268 (uBlock)
-#Last Updated on Wednsday, October 24, 2018
+#Last Updated on Friday, October 26, 2018
 
 # IP Loggers
 0.0.0.0 grabify.link
@@ -67,12 +67,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 atl26s16-in-f3.1e100.net
 0.0.0.0 www.adnetworkperformance.com
 0.0.0.0 adnetworkperformance.com
-#0.0.0.0 app-analytics.snapchat.com (Block notifications?)
+0.0.0.0 analytics.mobile.walmart.com
+#0.0.0.0 app-analytics.snapchat.com (Blocks notifications)
 0.0.0.0 a-sl014.insnw.net
 0.0.0.0 actualdeals.com
 0.0.0.0 android.bugly.qq.com
 0.0.0.0 ads.namiflow.com
 0.0.0.0 api.evie.com
+0.0.0.0 aax-us-east-amazon-adsystem.com
+0.0.0.0 aax-us-east-amazon-adsystem.amazon.com
 0.0.0.0 api1.evie.com
 0.0.0.0 a104-118-211-76.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-44-197-236.deploy.static.akamaitechnologies.com
@@ -1364,6 +1367,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cd8ba0b44a15c10065fd-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com
 0.0.0.0 cdn.saberfeedback.com
 0.0.0.0 api.saberfeedback.com
+0.0.0.0 config.88-f.net
 0.0.0.0 clarium.global.ssl.fastly.net
 0.0.0.0 c2.taboola.com
 0.0.0.0 clickfuse.com
@@ -1379,6 +1383,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 concertads-configs.vox-cdn.com
 0.0.0.0 clicksor.net
 0.0.0.0 connatix.com
+0.0.0.0 cdn.districtm.io
 0.0.0.0 clients.google.com
 0.0.0.0 cdn.livechatinc.com
 0.0.0.0 cookie-script.com
@@ -1671,6 +1676,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 facebook.com/plugins/likebox.php
 0.0.0.0 freenom.link
 0.0.0.0 flexytalk.net
+0.0.0.0 fls-na.amazon.com
 0.0.0.0 floridat.app.ur.gcion.com
 0.0.0.0 freewarefreedownload.com
 0.0.0.0 feedads.googleadservices.com
@@ -1687,6 +1693,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 flurry.com
 0.0.0.0 fidzup.com
 0.0.0.0 frog.wix.com
+0.0.0.0 fyc.heyzap.com
 0.0.0.0 freshmarketer.com
 
 #G
@@ -1758,6 +1765,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 halc.iadvize.com
 0.0.0.0 hitcents.com
 0.0.0.0 hitcounter.ru
+0.0.0.0 heyzap.com
 0.0.0.0 hitfox.go2cloud.org
 0.0.0.0 honolulu.app.ur.gcion.com
 0.0.0.0 h6.msn.com
@@ -1786,6 +1794,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 i.po.st
 0.0.0.0 izatcloud.net
 0.0.0.0 image5.pubmatic.com
+0.0.0.0 id.google.com
 0.0.0.0 inmobi.info
 0.0.0.0 inmobi.us
 0.0.0.0 i.i.cbsi.com
@@ -3146,6 +3155,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 usage.trackjs.com
 0.0.0.0 ukbanners.com
 0.0.0.0 ultimateclixx.com
+0.0.0.0 unagi-na.amazon.com
 0.0.0.0 ultramercial.com
 0.0.0.0 unarmedindustry.com
 0.0.0.0 undertone.com
