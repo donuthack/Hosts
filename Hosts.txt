@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,268 (uBlock)
+#Number of ad services/trackers/malware blocked: 7,280 (uBlock)
 #Last Updated on Friday, October 26, 2018
 
 # IP Loggers
@@ -1708,6 +1708,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 getsitecontrol.com
 0.0.0.0 gscontxt.net
 0.0.0.0 gameplaylabs.com
+0.0.0.0 githubapp.com
+0.0.0.0 www.githubapp.com
 0.0.0.0 g.ezoic.net
 0.0.0.0 go.ezoic.net
 0.0.0.0 gothamistllc.com
