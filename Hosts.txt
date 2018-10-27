@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-#Number of ad services/trackers/malware blocked: 7,280 (uBlock)
-#Last Updated on Friday, October 26, 2018
+##Number of ad services/trackers/malware blocked: 7,280 (uBlock)
+##Last Updated on Friday, October 26, 2018
 
 # IP Loggers
 0.0.0.0 grabify.link
@@ -53,6 +53,40 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipstack.net
 
 #A
+0.0.0.0 as.webmd.com
+0.0.0.0 adv.medscape.com
+0.0.0.0 adv.webmd.com
+0.0.0.0 ads4pubs.com
+0.0.0.0 ads.socialreach.com
+0.0.0.0 apps.clickcash.com
+0.0.0.0 ads.telecinco.es
+0.0.0.0 ads.timesunion.com
+0.0.0.0 ads.nwsource.com
+0.0.0.0 ads.propertycasualty360.com
+0.0.0.0 ads.itzdigital.com
+0.0.0.0 ads.lifehealthpro.com
+0.0.0.0 ads.benefitspro.com
+0.0.0.0 ads.bhmedianetwork.com
+0.0.0.0 ads.bloomberg.com
+0.0.0.0 ad.directrev.com
+0.0.0.0 ads.realmedia.com.br
+0.0.0.0 ad.realmedia.co.kr
+0.0.0.0 adcontent.videoegg.com
+0.0.0.0 www.adshost1.com
+0.0.0.0 a.mgid.com
+0.0.0.0 aa-gb.mgid.com
+0.0.0.0 ab-gb.mgid.com
+0.0.0.0 aa-nb.mgid.com
+0.0.0.0 ab-nb.mgid.com
+0.0.0.0 ac-gb.mgid.com
+0.0.0.0 advert.funimation.com
+0.0.0.0 advertising.finditt.com
+0.0.0.0 adserver1.realtracker.com
+0.0.0.0 adserver2.realtracker.com
+0.0.0.0 ad.wretch.cc
+0.0.0.0 ads.yimg.com
+0.0.0.0 api.yieldmanager.com
+0.0.0.0 adjax.flickr.yahoo.com
 0.0.0.0 accounts.firefox.com
 0.0.0.0 activations.cdn.mozilla.net
 0.0.0.0 aus5.mozilla.org
@@ -65,18 +99,33 @@ ff02::3 ip6-allhosts
 0.0.0.0 alt7-mtalk.google.com
 0.0.0.0 alt8-mtalk.google.com
 0.0.0.0 atl26s16-in-f3.1e100.net
+0.0.0.0 ad.hi5.com
+0.0.0.0 ad.creafi.com
+0.0.0.0 ad.foxnetworks.com
+0.0.0.0 ads.clicksor.com
+0.0.0.0 adserver.yahoo.com
+0.0.0.0 au.adserver.yahoo.com
+0.0.0.0 ar.adserver.yahoo.com
+0.0.0.0 ae.adserver.yahoo.com
+0.0.0.0 advision.webevents.yahoo.com
 0.0.0.0 www.adnetworkperformance.com
+0.0.0.0 ac.ybinst6.ec.yimg.com
+0.0.0.0 aps.media.adrevolver.com
+0.0.0.0 a.analytics.yahoo.com
 0.0.0.0 adnetworkperformance.com
 0.0.0.0 analytics.mobile.walmart.com
 #0.0.0.0 app-analytics.snapchat.com (Blocks notifications)
 0.0.0.0 a-sl014.insnw.net
 0.0.0.0 actualdeals.com
+0.0.0.0 advertising.yandex.ru
 0.0.0.0 android.bugly.qq.com
+0.0.0.0 ads.zedo.com
 0.0.0.0 ads.namiflow.com
 0.0.0.0 api.evie.com
 0.0.0.0 aax-us-east-amazon-adsystem.com
 0.0.0.0 aax-us-east-amazon-adsystem.amazon.com
 0.0.0.0 api1.evie.com
+0.0.0.0 aka-root.com
 0.0.0.0 a104-118-211-76.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-44-197-236.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-66-211-153.deploy.static.akamaitechnologies.com
@@ -816,6 +865,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 business.realtracker.com
+0.0.0.0 br.adserver.yahoo.com
+0.0.0.0 be.adserver.yahoo.com
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 banner.chat.ru
 0.0.0.0 b.ads1.msn.com
@@ -829,7 +881,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 bluekai.com
 0.0.0.0 bc.marfeel.com
 0.0.0.0 banner-link.com.br
+0.0.0.0 beap.adx.yahoo.com
+0.0.0.0 banner.adsrevenue.net
 0.0.0.0 banners-slb.mobile.yandex.net
+0.0.0.0 bs-meta.yandex.ru
+0.0.0.0 bs.yandex.ru
 0.0.0.0 banners.mobile.yandex.net
 0.0.0.0 brahe.apptimize.com
 0.0.0.0 www.bugherd.com
@@ -1362,6 +1418,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cc.webpower.com
+0.0.0.0 clickcash.webpower.com
+0.0.0.0 www.clickcash.com
+0.0.0.0 core.videoegg.com
+0.0.0.0 cdn.trafficstars.com
+0.0.0.0 counter.mgid.com
+0.0.0.0 clients1.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 cn.adserver.yahoo.com
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.mozilla.org
 0.0.0.0 cd8ba0b44a15c10065fd-24461f391e20b7336331d5789078af53.ssl.cf1.rackcdn.com
@@ -1369,6 +1435,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 api.saberfeedback.com
 0.0.0.0 config.88-f.net
 0.0.0.0 clarium.global.ssl.fastly.net
+0.0.0.0 ci.beap.ad.yieldmanager.net
 0.0.0.0 c2.taboola.com
 0.0.0.0 clickfuse.com
 0.0.0.0 cdn.clickfuse.com
@@ -1376,7 +1443,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.engine.4dsply.com
 0.0.0.0 cdn.intergi.com
 0.0.0.0 cdn.springserve.com
+0.0.0.0 clck.yandex.ru
+0.0.0.0 clicksor.com
+0.0.0.0 www.clicksor.com
+0.0.0.0 csc.beap.ad.yieldmanager.net
+0.0.0.0 csc.beap.bc.yahoo.com
+0.0.0.0 clicks.beap.ad.yieldmanager.net
 0.0.0.0 crash-stats.mozilla.com
+0.0.0.0 cn2.adserver.yahoo.com
+0.0.0.0 ca.adserver.yahoo.com
+0.0.0.0 c1.zxxds.net
+0.0.0.0 c7.zxxds.net
+0.0.0.0 c1.zedo.com
+0.0.0.0 c2.zedo.com
+0.0.0.0 c3.zedo.com
+0.0.0.0 c4.zedo.com
+0.0.0.0 c5.zedo.com
+0.0.0.0 c6.zedo.com
+0.0.0.0 c7.zedo.com
+0.0.0.0 c8.zedo.com
 0.0.0.0 cdn.dynamicyield.com
 0.0.0.0 cdn.simpleanalytics.io
 0.0.0.0 connectivitycheck.android.com
@@ -1547,6 +1632,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dcs.wtlive.com
+0.0.0.0 dk.adserver.yahoo.com
+0.0.0.0 de.adserver.yahoo.com
 0.0.0.0 data.mozilla.com
 0.0.0.0 detectportal.firefox.com
 0.0.0.0 d1.sc.omtrdc.net
@@ -1554,6 +1642,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 demdex.net
 0.0.0.0 d.ligatus.com
 0.0.0.0 www.dynatrace.com
+0.0.0.0 d2.zedo.com
+0.0.0.0 d3.zedo.com
+0.0.0.0 d7.zedo.com
+0.0.0.0 d8.zedo.com
 0.0.0.0 dynatrace.com
 0.0.0.0 data.flurry.com
 0.0.0.0 dsparking.com
@@ -1634,6 +1726,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 event.ohmyad.co
+0.0.0.0 e.yieldmanager.net
+0.0.0.0 eu-pn4.adserver.yahoo.com
+0.0.0.0 es.adserver.yahoo.com
 0.0.0.0 edge-star-shv-02-ort2.facebook.com
 0.0.0.0 edge.quantserve.com
 0.0.0.0 e.crashlytics.com
@@ -1670,6 +1766,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fttcj.com
+0.0.0.0 free.realtracker.com
+0.0.0.0 free1.usa.realtracker.com
+0.0.0.0 fr.adserver.yahoo.com
 0.0.0.0 ftp.mozilla.org
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fastlane.rubiconproject.com
@@ -1697,7 +1797,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 getclicky.com
+0.0.0.0 gr.adserver.yahoo.com
 0.0.0.0 geo.yahoo.com
+0.0.0.0 geo.query.yahoo.com
+0.0.0.0 gd.ads.vip.gq1.yahoo.com
 0.0.0.0 go.oclasrv.com
 0.0.0.0 googleadservices.com
 0.0.0.0 www.googleadservices.com
@@ -1705,11 +1809,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 googletagservices.com
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googlewordpad.info
+0.0.0.0 gambling911.adrevolver.com
 0.0.0.0 getsitecontrol.com
 0.0.0.0 gscontxt.net
 0.0.0.0 gameplaylabs.com
+0.0.0.0 www.gameplaylabs.com
 0.0.0.0 githubapp.com
 0.0.0.0 www.githubapp.com
+0.0.0.0 grade.market.yandex.ru
+0.0.0.0 g.zedo.com
+0.0.0.0 gw.zedo.com
 0.0.0.0 g.ezoic.net
 0.0.0.0 go.ezoic.net
 0.0.0.0 gothamistllc.com
@@ -1764,6 +1873,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 h4.analytics.126.net
 0.0.0.0 h5.analytics.126.net
 0.0.0.0 hit1.hotlog.ru
+0.0.0.0 h.zedo.com
+0.0.0.0 hk.adserver.yahoo.com
+0.0.0.0 http.edge.ru4.com
+0.0.0.0 https.edge.ru4.com
+0.0.0.0 hostingprod.com
 0.0.0.0 halc.iadvize.com
 0.0.0.0 hitcents.com
 0.0.0.0 hitcounter.ru
@@ -1790,6 +1904,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 in.getclicky.com
+0.0.0.0 i3.putags.com
 0.0.0.0 imasdk.googleapis.com
 0.0.0.0 img.admaster.net
 0.0.0.0 infolinks.com
@@ -1804,11 +1920,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 img07.en25.com
 0.0.0.0 indexww.com
 0.0.0.0 imrworldwide.com
+0.0.0.0 it.adserver.yahoo.com
+0.0.0.0 www.infinityads.com
 0.0.0.0 iesnare.com
+0.0.0.0 in.adserver.yahoo.com
 0.0.0.0 img.bleacherreport.net
 0.0.0.0 ironsrc.com
 0.0.0.0 insight.adsrvr.org
 0.0.0.0 ima3vpaid.appspot.com
+0.0.0.0 img.jizzads.com
 0.0.0.0 images.webads.nl
 0.0.0.0 imrworldwide.com
 0.0.0.0 img.en25.com
@@ -1841,6 +1961,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jsn.dt07.net
+0.0.0.0 jsc.mgid.com
+0.0.0.0 jsn.mgid.com
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.agkn.com
 0.0.0.0 js-sec.indexww.com
@@ -2576,8 +2699,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 layout1.realtracker.com
+0.0.0.0 l.yieldmanager.net
 0.0.0.0 location.services.mozilla.com
 0.0.0.0 loadbalancer.visitor-analytics.io
+0.0.0.0 launch.adserver.yahoo.com
 0.0.0.0 lt500.tritondigital.com
 0.0.0.0 launcher.spot.im
 0.0.0.0 tritondigital.com
@@ -2591,6 +2717,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 localytics.com
 0.0.0.0 liveadvert.com
 0.0.0.0 lightboxcdn.com
+0.0.0.0 l1.zedo.com
+0.0.0.0 l2.zedo.com
+0.0.0.0 l3.zedo.com
+0.0.0.0 l4.zedo.com
+0.0.0.0 l5.zedo.com
+0.0.0.0 l6.zedo.com
+0.0.0.0 l8.zedo.com
 0.0.0.0 lockerdome.com
 0.0.0.0 liqwid.net
 0.0.0.0 logs1.smithsonian.museum
@@ -2607,6 +2740,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 mjx.ads.nwsource.com
+0.0.0.0 mgid.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 mi.adinterax.com
+0.0.0.0 my.adtegrity.net
+0.0.0.0 my.aim4media.com
+0.0.0.0 my.yieldmanager.com
 0.0.0.0 munchkin.marketo.net
 0.0.0.0 mobile.smartadserver.com
 0.0.0.0 m4.afs.googleadservices.com
@@ -2615,10 +2755,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 md-a-s.apptimize.com
 0.0.0.0 md-a-c.apptimize.com
 0.0.0.0 mediavine.com
+0.0.0.0 mx.adserver.yahoo.com
 0.0.0.0 malware-error.mozilla.com
 0.0.0.0 www.mb104.com
 0.0.0.0 mb104.com
+0.0.0.0 multipops.com
+0.0.0.0 www1.multipops.com
+0.0.0.0 www2.multipops.com
+0.0.0.0 www.multipops.com
 0.0.0.0 mscom.demdex.net
+0.0.0.0 media.adrevolver.com
+0.0.0.0 main.clicksor.com
+0.0.0.0 mci12.clicksor.com
+0.0.0.0 myad.clicksor.net
+0.0.0.0 mp.clicksor.net
 0.0.0.0 m.servedby-buysellads.com
 0.0.0.0 mobilenetworkscoring-pa.googleapis.com
 0.0.0.0 mimageads.googleadservices.com
@@ -2634,6 +2784,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 mpartner.googleadservices.com
 0.0.0.0 mobile-collector.newrelic.com
 0.0.0.0 mpsnare.iesnare.com
+0.0.0.0 www.myroitracking.com
 0.0.0.0 mem.gfx.ms
 0.0.0.0 mobileapptracker.com
 0.0.0.0 mparticle.com
@@ -2661,7 +2812,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 mktoresp.com
 0.0.0.0 mobileads.msn.com
 0.0.0.0 mises-media.s3.amazonaws.com
-0.0.0.0 mc.yandex.ru
 0.0.0.0 mocean.mobi
 0.0.0.0 mojiva.com
 0.0.0.0 media.net
@@ -2686,6 +2836,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 ntkrnlpa.info
+0.0.0.0 nz.adserver.yahoo.com
+0.0.0.0 nl.adserver.yahoo.com
+0.0.0.0 no.adserver.yahoo.com
+0.0.0.0 nol.yahoo.com
 0.0.0.0 gwp.nuggad.net
 0.0.0.0 net.softonicads.com
 0.0.0.0 native.sharethrough.com
@@ -2700,8 +2855,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 nexac.com
 0.0.0.0 nativex.com
 0.0.0.0 newrelic.com
+0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 ocs.websponsors.com
+0.0.0.0 orders.webpower.com
+0.0.0.0 oas.ad-vice.biz
+0.0.0.0 o.analytics.yahoo.com
 0.0.0.0 odb.outbrain.com
 0.0.0.0 o.aolcdn.com
 0.0.0.0 opensoftwareupdate.com 
@@ -2727,14 +2887,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 ow-gateway.supersonicads.com
 0.0.0.0 outcome.supersonicads.com
 0.0.0.0 oclasrv.com
+0.0.0.0 open.ad.yieldmanager.net
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 promo.clickcash.com
+0.0.0.0 pmetrics.getclicky.com
+0.0.0.0 pmetrics.performancing.com
+0.0.0.0 project2.realtracker.com
 0.0.0.0 push.services.mozilla.com
 0.0.0.0 phish-error.mozilla.com
 0.0.0.0 pixel.rubiconproject.com
 0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 pixel.quantserve.com
+0.0.0.0 popunder.adsrevenue.net
 0.0.0.0 pub.weatherbug.com
 0.0.0.0 pagead.googlesyndication
 0.0.0.0 pagead1.googlesyndication.com
@@ -2742,9 +2908,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 pagead3.googlesyndication.com
 0.0.0.0 pixel.watch
 0.0.0.0 player.anyclip.com
+0.0.0.0 pub.clicksor.net
 0.0.0.0 profitboosterapp.com
 0.0.0.0 pub20.bravenet.com
 0.0.0.0 parsely.com
+0.0.0.0 partnerads.ysm.yahoo.com
+0.0.0.0 pn2.adserver.yahoo.com
+0.0.0.0 pn1.adserver.yahoo.com
 0.0.0.0 perimeterx.net
 0.0.0.0 partner.ads.placeiq.com
 0.0.0.0 presage.io
@@ -2796,6 +2966,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rusads.toysrus.com
+0.0.0.0 ru4.com
+0.0.0.0 realtracker.com
+0.0.0.0 www.realtracker.com
+0.0.0.0 reporting.cpxinteractive.com
 0.0.0.0 reports.crashlytics.com
 0.0.0.0 resources.infolinks.com
 0.0.0.0 rover.ebay.com
@@ -2806,6 +2981,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ranks.sextracker.com
 0.0.0.0 req.appads.com
 0.0.0.0 r.nexac.com
+0.0.0.0 r1.zedo.com
 0.0.0.0 reward-video.fyber.com
 0.0.0.0 rv-gateway.supersonicads.com|pixel-tracking.sonic-us.supersonicads.com
 0.0.0.0 rewarded-video.fyber.com
@@ -2824,21 +3000,51 @@ ff02::3 ip6-allhosts
 0.0.0.0 rfihub.net
 0.0.0.0 richrelevance.com
 0.0.0.0 ranker.com
+0.0.0.0 rt.udmserve.net
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 s.tagsrvcs.com
+0.0.0.0 static.getclicky.com
+0.0.0.0 stats.webleads-tracker.com
+0.0.0.0 statse.webtrendslive.com
+0.0.0.0 spylog.com
+0.0.0.0 smartad.mercadolibre.com.ar
+0.0.0.0 smartad.mercadolivre.com.br
+0.0.0.0 s.xp1.ru4.com
+0.0.0.0 settings.crashlytics.com
+0.0.0.0 sg.adserver.yahoo.com
+0.0.0.0 se.adserver.yahoo.com
 0.0.0.0 search.services.mozilla.com
 0.0.0.0 shavar.services.mozilla.com
 0.0.0.0 snippets.cdn.mozilla.net
 0.0.0.0 swrve.com
+0.0.0.0 stats.indextools.com
+0.0.0.0 stats.indexstats.com
+0.0.0.0 secure.indexstats.com
+0.0.0.0 s.analytics.yahoo.com
 0.0.0.0 sb.scorecardresearch.com
 0.0.0.0 sentry.io
 0.0.0.0 sspservice.ad-survey.com
+0.0.0.0 s201.indexstats.com
+0.0.0.0 syndication.streamads.yahoo.com
+0.0.0.0 srv1.wa.marketingsolutions.yahoo.com
+0.0.0.0 srv2.wa.marketingsolutions.yahoo.com
+0.0.0.0 srv3.wa.marketingsolutions.yahoo.com
 0.0.0.0 sync2ad.com
 0.0.0.0 secure-us.imrworldwide.com
 0.0.0.0 ssum-sec.casalemedia.com
 0.0.0.0 servedbyadbutler.com
+0.0.0.0 www.stickylogic.com
 0.0.0.0 static.adsafeprotected.com
+0.0.0.0 serw.clicksor.com
+0.0.0.0 search.clicksor.com
+0.0.0.0 serw.myroitracking.com
+0.0.0.0 simg.zedo.com
+0.0.0.0 ss1.zedo.com
+0.0.0.0 ss2.zedo.com
+0.0.0.0 ss7.zedo.com
+0.0.0.0 service.multi-pops.com
 0.0.0.0 sp.analytics.yahoo.com
 0.0.0.0 schibsted.com
 0.0.0.0 safebrowsing.googleapis.com
@@ -3089,15 +3295,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracking.247search.com
+0.0.0.0 trafficstars.com
+0.0.0.0 toroadvertisingmedia.com
+0.0.0.0 talkcity.realtracker.com
+0.0.0.0 tpl1.realtracker.com
+0.0.0.0 tpl2.realtracker.com
+0.0.0.0 tw.adserver.yahoo.com
 0.0.0.0 tiles.services.mozilla.com
 0.0.0.0 trends.revcontent.com
 0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 try.abtasty.com
 0.0.0.0 tags.tiqcdn.com
 0.0.0.0 tags.bkrtx.com
+0.0.0.0 track.visitorpath.com
 0.0.0.0 teads.tv
+0.0.0.0 tw2.adserver.yahoo.com
+0.0.0.0 tr1.myroitracking.com
 0.0.0.0 tracking-opi.fonpit.de
 0.0.0.0 t1.softonicads.com
+0.0.0.0 track.clicksor.com
+0.0.0.0 track.adrevolver.com
 0.0.0.0 trck.at
 0.0.0.0 trackersimulator.org
 0.0.0.0 track.adform.net
@@ -3151,6 +3369,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 u5761.57.spylog.com
+0.0.0.0 uk.adserver.yahoo.com
 0.0.0.0 us-u.openx.net
 0.0.0.0 uarating.com
 0.0.0.0 ublock.org
@@ -3189,8 +3409,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 u.heatmap.it
 0.0.0.0 ubm.tt.omtrdc.net
 0.0.0.0 userzoom.com
+0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 verivox01.webtrekk.net
 0.0.0.0 versioncheck-bg.addons.mozilla.org
 0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
@@ -3220,6 +3442,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www.webclients.net
+0.0.0.0 webclients.net
+0.0.0.0 www.websponsors.com
+0.0.0.0 websponsors.com
+0.0.0.0 webleads-tracker.com
+0.0.0.0 webtrekk.net
+0.0.0.0 wt.o.nytimes.com
+0.0.0.0 web1.realtracker.com
+0.0.0.0 web2.realtracker.com
+0.0.0.0 web3.realtracker.com
+0.0.0.0 web4.realtracker.com
 0.0.0.0 wixlabs-countdown.appspot.com
 0.0.0.0 wixlabs-hcounter.appspot.com
 0.0.0.0 wd.adcolony.com
@@ -3235,6 +3468,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 w.uptolike.com
 0.0.0.0 widget.weibo.com
+0.0.0.0 www.winaproduct.com
+0.0.0.0 www.winadiscount.com
 0.0.0.0 wa.and.co.uk
 0.0.0.0 widget.engageya.com
 0.0.0.0 weborama.com
@@ -3289,10 +3524,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxcounter.com
 0.0.0.0 xxxmyself.com
 0.0.0.0 xg4ken.com
+0.0.0.0 xads.zedo.com
 0.0.0.0 xslt.alexa.com
+0.0.0.0 www.xxxwebtraffic.com
 
 #Y
+0.0.0.0 ym.bannerconnect.net
 0.0.0.0 yx-in-f106.1e100.net
+0.0.0.0 www.yourstats.net
+0.0.0.0 y.analytics.yahoo.com
+0.0.0.0 y3.analytics.yahoo.com
+0.0.0.0 yourstats.net
 0.0.0.0 you2mail.com
 0.0.0.0 younglingsbcjzvozva.download
 0.0.0.0 your.365advert.com
@@ -3302,7 +3544,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 y.ibsys.com
 0.0.0.0 yab-adimages.s3.amazonaws.com
 0.0.0.0 yabuka.com
+0.0.0.0 yandexadexchange.net
 0.0.0.0 yadro.ru
+0.0.0.0 ybinst3.ec.yimg.com
 0.0.0.0 yesads.com
 0.0.0.0 yandex.mobile.ads.com
 0.0.0.0 yesadvertising.com
@@ -3315,6 +3559,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 yldbt.com
 0.0.0.0 yoggrt.com
 0.0.0.0 youarewinner.com
+0.0.0.0 yads.zedo.com
 0.0.0.0 ys.actnx.com
 0.0.0.0 ys5egue.dteted7f7r.et4.4656.5.t65.5.5875.dhirt.4989.rgkhr.594k.e.clearpointsupplies.com
 0.0.0.0 ys5z8.voluumtrk.com
@@ -3366,6 +3611,7 @@ ff02::3 ip6-allhosts
 
 #Z
 0.0.0.0 z.moatads.com
+0.0.0.0 z.analytics.yahoo.com
 0.0.0.0 zeit01.webtrekk.net
 0.0.0.0 zn_0xssfnnsxmogd01-cbs.siteintercept.qualtrics.com
 0.0.0.0 zn824bpwruzg5mxb3-carmax.siteintercept.qualtrics.com
@@ -3374,6 +3620,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zanox-affiliate.de
 0.0.0.0 zanox.com
 0.0.0.0 zantracker.com
+0.0.0.0 www.zedo.com
 0.0.0.0 zedo.com
 0.0.0.0 zencudo.co.uk
 0.0.0.0 zenkreka.com
@@ -3399,7 +3646,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 zdizakf.ibifa.biz
 0.0.0.0 zebestof.com
 0.0.0.0 zebulon.fr.intellitxt.com
-0.0.0.0 zedo.com
 0.0.0.0 zedplays.com
 0.0.0.0 zemanta.com
 0.0.0.0 zenad.net
@@ -3456,7 +3702,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zycvyudt.com
 0.0.0.0 zyqlfplqdgxu.com
 
-#Misc
+##Misc
 0.0.0.0 0w57c49k-0bddcc2a9e9452a590d18ab7d1b1050e5a1fc2d4-am1.d.aa.online-metrix.net
 0.0.0.0 0w57c49k-132f9b3ca8235f809e440190ebaaf58aca4f02d6-am1.d.aa.online-metrix.net
 0.0.0.0 0w57c49k-168ac67632e3bb211f55ae23a38735e9007b0da4-am1.d.aa.online-metrix.net
@@ -5177,15 +5423,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 57.6.87.194.dynamic.dol.ru
 0.0.0.0 6901690.fls.doubleclick.net
 
-#Keep Google from constantly checking on you
-0.0.0.0 clients1.google.com
-0.0.0.0 clients2.google.com
-0.0.0.0 clients3.google.com
-0.0.0.0 settings.crashlytics.com
-0.0.0.0 reports.crashlytics.com
-0.0.0.0 mtalk.google.com
-
-#Malware/Scam
+# Malware/Scam
+0.0.0.0 www.yournewluxurywatch.ru
+0.0.0.0 www.yourxmasgifts.ru
+0.0.0.0 superxmassavers.ru
 0.0.0.0 2giga.link
 0.0.0.0 2giga.download
 0.0.0.0 2k20.tk
@@ -7344,13 +7585,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 busco-mujeres.blogspot.com
 0.0.0.0 anhchebongda.blogspot.com
 0.0.0.0 bacsitot.blogspot.com
-
-#Phishing
 0.0.0.0 sycjamsa.com
 0.0.0.0 inshalpharma.com
 0.0.0.0 bankofamerica.com.login
-
-#Ransomeware
 0.0.0.0 00005ik.rcomhost.com
 0.0.0.0 01ad681.netsolhost.com
 0.0.0.0 023pc.cn
@@ -7361,8 +7598,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 03991ce.netsolhost.com
 0.0.0.0 0551gx.cn
 0.0.0.0 10minutesto1.net
-
-#Possibly Dangerous
 0.0.0.0 universalfwding.com
 0.0.0.0 clickconfirmation.com
 0.0.0.0 quickdomainfwd.com
