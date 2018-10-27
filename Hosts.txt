@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services/trackers/malware blocked: 7,280 (uBlock)
-##Last Updated on Friday, October 26, 2018
+##Number of ad services/trackers/malware blocked: 7,524 (uBlock)
+##Last Updated on Saturday, October 27, 2018
 
 # IP Loggers
 0.0.0.0 grabify.link
