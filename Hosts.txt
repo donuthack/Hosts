@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services/trackers/malware blocked: 7,578 (uBlock)
+##Number of ad services/trackers/malware blocked: 7,579 (uBlock)
 ##Last Updated on Sunday, October 28, 2018
 
 # IP Loggers
@@ -53,6 +53,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipstack.net
 
 #A
+0.0.0.0 adssrv.nationmultimedia.com
+0.0.0.0 ads.nationchannel.com
+0.0.0.0 adv.netmedia.bg
+0.0.0.0 ads.ads.netlog.com
+0.0.0.0 ad.netgoo.com
+0.0.0.0 ads.netinfo.bg
+0.0.0.0 adv.netinfo.bg
 0.0.0.0 ad.next2news.com
 0.0.0.0 ads.newtention.net
 0.0.0.0 ad.newsnow.net
@@ -2864,6 +2871,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 naj.sk
 0.0.0.0 www.nlbanner.nl
 0.0.0.0 www.nowstat.com
 0.0.0.0 ntkrnlpa.info
@@ -2928,6 +2936,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 pool.ads.netlog.com
+0.0.0.0 pf.newegg.com
 0.0.0.0 partner.googleadservices.com
 0.0.0.0 pix.news.at
 0.0.0.0 promo.clickcash.com
@@ -3044,6 +3054,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sponsoredlinks.nationalgeographic.com
+0.0.0.0 script.netminers.dk
 0.0.0.0 secure-cdn.mplxtms.com
 0.0.0.0 secure-assets.rubiconproject.com
 0.0.0.0 servedby.orn-adserver.nl
@@ -3345,6 +3357,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracker.netklix.com
 0.0.0.0 tracking.onefeed.co.uk
 0.0.0.0 track.omguk.com
 0.0.0.0 tracking.oe24.at
