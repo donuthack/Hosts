@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 7,992 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 7,994 (uBlock)
 ##Last Updated on Sunday, October 28, 2018
 
 # IP Loggers
@@ -5491,6 +5491,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 6901690.fls.doubleclick.net
 
 ##Malware.txt
+0.0.0.0 webtech392-net.tk
+0.0.0.0 explorer.com
 0.0.0.0 www.yournewluxurywatch.ru
 0.0.0.0 www.yourxmasgifts.ru
 0.0.0.0 superxmassavers.ru
