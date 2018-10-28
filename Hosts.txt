@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services/trackers/malware blocked: 7,524 (uBlock)
-##Last Updated on Saturday, October 27, 2018
+##Last Updated on Sunday, October 28, 2018
 
 # IP Loggers
 0.0.0.0 grabify.link
@@ -53,6 +53,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipstack.net
 
 #A
+0.0.0.0 ad.next2news.com
+0.0.0.0 ads.newtention.net
+0.0.0.0 ad.newsnow.net
+0.0.0.0 adserve5.nikkeibp.co.jp
+0.0.0.0 ads.novinar.bg
+0.0.0.0 adv.novinar.bg
+0.0.0.0 ads.novsport.com
+0.0.0.0 ad1.nownews.com
+0.0.0.0 ad.orbitel.bg
+0.0.0.0 adserver.online-tech.com
+0.0.0.0 ad.onlinechange.biz
+0.0.0.0 ads1.omdadget.com
+0.0.0.0 adserver.omroepflevoland.nl
+0.0.0.0 ads.olx.com
+0.0.0.0 ads.ookla.com
+0.0.0.0 ads.okazii.ro
+0.0.0.0 ads.ogdenpubs.com
 0.0.0.0 as.webmd.com
 0.0.0.0 adv.medscape.com
 0.0.0.0 adv.webmd.com
@@ -865,6 +882,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 beacon.walmart.com
+0.0.0.0 bizrate.com
+0.0.0.0 banner.oddcast.com
+0.0.0.0 banner-a.oddcast.com
+0.0.0.0 banner-d.oddcast.com
 0.0.0.0 business.realtracker.com
 0.0.0.0 br.adserver.yahoo.com
 0.0.0.0 be.adserver.yahoo.com
@@ -1418,6 +1440,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 counter.nope.dk
 0.0.0.0 cc.webpower.com
 0.0.0.0 clickcash.webpower.com
 0.0.0.0 www.clickcash.com
@@ -1632,6 +1655,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dis.criteo.com
+0.0.0.0 delivery.ad.newsnow.net
 0.0.0.0 dcs.wtlive.com
 0.0.0.0 dk.adserver.yahoo.com
 0.0.0.0 de.adserver.yahoo.com
@@ -1726,6 +1751,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 eval.bizrate.com
 0.0.0.0 event.ohmyad.co
 0.0.0.0 e.yieldmanager.net
 0.0.0.0 eu-pn4.adserver.yahoo.com
@@ -1904,6 +1930,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ib.adnxs.com
 0.0.0.0 in.getclicky.com
 0.0.0.0 i3.putags.com
 0.0.0.0 imasdk.googleapis.com
@@ -2699,6 +2726,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 libs.coremetrics.com
 0.0.0.0 layout1.realtracker.com
 0.0.0.0 l.yieldmanager.net
 0.0.0.0 location.services.mozilla.com
@@ -2836,6 +2864,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 www.nlbanner.nl
+0.0.0.0 www.nowstat.com
 0.0.0.0 ntkrnlpa.info
 0.0.0.0 nz.adserver.yahoo.com
 0.0.0.0 nl.adserver.yahoo.com
@@ -2858,6 +2888,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 www.oxinads.com
+0.0.0.0 www.oxiads.fr
+0.0.0.0 otracking.com
+0.0.0.0 otclick-adv.ru
+0.0.0.0 openstat.net
+0.0.0.0 www.onestatfree.com
+0.0.0.0 www.onestat.com
 0.0.0.0 ocs.websponsors.com
 0.0.0.0 orders.webpower.com
 0.0.0.0 oas.ad-vice.biz
@@ -2891,6 +2928,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 pix.news.at
 0.0.0.0 promo.clickcash.com
 0.0.0.0 pmetrics.getclicky.com
 0.0.0.0 pmetrics.performancing.com
@@ -2966,6 +3005,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 recs.richrelevance.com
 0.0.0.0 rusads.toysrus.com
 0.0.0.0 ru4.com
 0.0.0.0 realtracker.com
@@ -3004,6 +3044,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 secure-cdn.mplxtms.com
+0.0.0.0 secure-assets.rubiconproject.com
+0.0.0.0 servedby.orn-adserver.nl
+0.0.0.0 stats.media.onet.pl
+0.0.0.0 stats0.one.ru
+0.0.0.0 stats1.one.ru
+0.0.0.0 stats2.one.ru
+0.0.0.0 stat.onestat.com
+0.0.0.0 stats.omg.com.au
+0.0.0.0 stats2.omg.com.au
 0.0.0.0 s.tagsrvcs.com
 0.0.0.0 static.getclicky.com
 0.0.0.0 stats.webleads-tracker.com
@@ -3295,6 +3345,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracking.onefeed.co.uk
+0.0.0.0 track.omguk.com
+0.0.0.0 tracking.oe24.at
 0.0.0.0 tracking.247search.com
 0.0.0.0 trafficstars.com
 0.0.0.0 toroadvertisingmedia.com
@@ -3442,6 +3495,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www18.officedepot.com
 0.0.0.0 www.webclients.net
 0.0.0.0 webclients.net
 0.0.0.0 www.websponsors.com
