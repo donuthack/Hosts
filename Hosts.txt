@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,005 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,010 (uBlock)
 ##Last Updated on Tuesday, October 30, 2018
 
 # IP Loggers
@@ -58,6 +58,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adssrv.nationmultimedia.com
 0.0.0.0 ads.nationchannel.com
 0.0.0.0 adv.netmedia.bg
+0.0.0.0 ads.netlog.com
 0.0.0.0 ads.ads.netlog.com
 0.0.0.0 ad.netgoo.com
 0.0.0.0 ads.netinfo.bg
@@ -1455,6 +1456,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 counter.nope.dk
 0.0.0.0 cc.webpower.com
 0.0.0.0 clickcash.webpower.com
+0.0.0.0 clickcash.com
 0.0.0.0 www.clickcash.com
 0.0.0.0 core.videoegg.com
 0.0.0.0 cdn.trafficstars.com
@@ -2945,6 +2947,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 plista.com
 0.0.0.0 pool.ads.netlog.com
 0.0.0.0 pf.newegg.com
 0.0.0.0 partner.googleadservices.com
@@ -3063,6 +3066,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static-uk.plista.com
 0.0.0.0 sedo.cachefly.net
 0.0.0.0 sponsoredlinks.nationalgeographic.com
 0.0.0.0 script.netminers.dk
@@ -3445,6 +3449,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 uk.plista.com
 0.0.0.0 u5761.57.spylog.com
 0.0.0.0 uk.adserver.yahoo.com
 0.0.0.0 us-u.openx.net
