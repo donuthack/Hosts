@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 7,994 (uBlock)
-##Last Updated on Sunday, October 28, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,005 (uBlock)
+##Last Updated on Tuesday, October 30, 2018
 
 # IP Loggers
 0.0.0.0 grabify.link
@@ -53,6 +53,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ipstack.net
 
 #A
+0.0.0.0 ads.exoclick.com
+0.0.0.0 ads.exosrv.com
 0.0.0.0 adssrv.nationmultimedia.com
 0.0.0.0 ads.nationchannel.com
 0.0.0.0 adv.netmedia.bg
@@ -331,7 +333,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 aws.predictiveresponse.net
 0.0.0.0 ad.a8.net
 0.0.0.0 ad.abcnews.com
-0.0.0.0 akamaihd.net
+#0.0.0.0 akamaihd.net (Breaks some sites)
 0.0.0.0 ad.abctv.com
 0.0.0.0 ads.admarvel.com
 0.0.0.0 ad.aboutwebservices.com
@@ -1447,6 +1449,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.engine.phn.doublepimp.com
+0.0.0.0 cdn.doublepimpssl.com
+0.0.0.0 cdn.appsflyer.com
 0.0.0.0 counter.nope.dk
 0.0.0.0 cc.webpower.com
 0.0.0.0 clickcash.webpower.com
@@ -1758,6 +1763,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 exosrv.com
+0.0.0.0 exoclick.com
+0.0.0.0 etahub.com
 0.0.0.0 eval.bizrate.com
 0.0.0.0 event.ohmyad.co
 0.0.0.0 e.yieldmanager.net
@@ -2775,6 +2783,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 media.trafficjunky.net
 0.0.0.0 mjx.ads.nwsource.com
 0.0.0.0 mgid.com
 0.0.0.0 mtalk.google.com
@@ -3054,6 +3063,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sedo.cachefly.net
 0.0.0.0 sponsoredlinks.nationalgeographic.com
 0.0.0.0 script.netminers.dk
 0.0.0.0 secure-cdn.mplxtms.com
@@ -5491,6 +5501,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 6901690.fls.doubleclick.net
 
 ##Malware.txt
+0.0.0.0 popcash.net
 0.0.0.0 webtech392-net.tk
 0.0.0.0 explorer.com
 0.0.0.0 www.yournewluxurywatch.ru
