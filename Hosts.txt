@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,010 (uBlock)
-##Last Updated on Tuesday, October 30, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,011 (uBlock)
+##Last Updated on Thursday, November 1, 2018
 
 # IP Loggers
 0.0.0.0 grabify.link
@@ -892,6 +892,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bb8de7de67cf32727f11-15fc5251a791315c6701a6c0ad757ff3.ssl.cf5.rackcdn.com
 0.0.0.0 beacon.walmart.com
 0.0.0.0 bizrate.com
 0.0.0.0 banner.oddcast.com
