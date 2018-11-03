@@ -13,10 +13,10 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,011 (uBlock)
-##Last Updated on Thursday, November 1, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,018 (uBlock)
+##Last Updated on Friday, November 2, 2018
 
-# IP Loggers
+#IP Loggers
 0.0.0.0 grabify.link
 0.0.0.0 bmwforum.co
 0.0.0.0 leancoding.co
@@ -51,8 +51,46 @@ ff02::3 ip6-allhosts
 0.0.0.0 freegeoip.net
 0.0.0.0 ipstack.com
 0.0.0.0 ipstack.net
+0.0.0.0 tracemyip.org
+0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adclerks.com
+0.0.0.0 abmr.org
+0.0.0.0 aads.go2cloud.org
+0.0.0.0 ads.computer.org
+0.0.0.0 adrunner.mycomputer.com
+0.0.0.0 ads.mp.mydas.mobi
+0.0.0.0 androidsdk.ads.mp.mydas.mobi
+0.0.0.0 androidsk.ads.mp.mydas.mobi
+0.0.0.0 androidquery.appspot.com
+0.0.0.0 androidads20.adcolony.com
+0.0.0.0 androidads21.adcolony.com
+0.0.0.0 android.revmob.com
+0.0.0.0 android.reporo.net
+0.0.0.0 android.mobpartner.mobi
+0.0.0.0 android.heyzap.com
+0.0.0.0 android.bcfads.com
+0.0.0.0 android-sdk31.transpera.com
+0.0.0.0 android-hilfe.de.intellitxt.com
+0.0.0.0 adserver.goforandroid.com
+0.0.0.0 advertising.microsoft.com
+0.0.0.0 analytics.abacast.com
+0.0.0.0 analytics.ad.daum.net
+0.0.0.0 analytics.adnetwork.vn
+0.0.0.0 analytics.adspaces.ero-advertising.com
+0.0.0.0 analytic.gatewayinterface.com
+0.0.0.0 attributiontrackingga.googlecode.com
+0.0.0.0 analytics.google.com
+0.0.0.0 analytics-api-samples.googlecode.com
+0.0.0.0 afs.googlesyndication.com
+0.0.0.0 afs.googleusercontent.com
+0.0.0.0 ads.google.com
+0.0.0.0 ade.googlesyndication.com
+0.0.0.0 ad-creatives-public.commondatastorage.googleapis.com
+0.0.0.0 av.beap.bc.yahoo.com
+0.0.0.0 avatraffic.com
+0.0.0.0 avazutracking.net
 0.0.0.0 ads.exoclick.com
 0.0.0.0 ads.exosrv.com
 0.0.0.0 adssrv.nationmultimedia.com
@@ -892,6 +930,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bannerexchange.mycomputer.com
 0.0.0.0 bb8de7de67cf32727f11-15fc5251a791315c6701a6c0ad757ff3.ssl.cf5.rackcdn.com
 0.0.0.0 beacon.walmart.com
 0.0.0.0 bizrate.com
@@ -1451,6 +1490,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.adclerks.com
+0.0.0.0 clearwebstats.com
+0.0.0.0 counter.mycomputer.com
+0.0.0.0 computershopper.zdnet.com
+0.0.0.0 computerwoche.de.intellitxt.com
+0.0.0.0 computershopper.uk.intellitxt.com
+0.0.0.0 cdn.cdncomputer.com
+0.0.0.0 c.computerbild.de
+0.0.0.0 c5androidtest.2cnt.net
+0.0.0.0 c5android.2cnt.net
+0.0.0.0 c4android.2cnt.net
+0.0.0.0 c4androidtest.2cnt.net
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 choice.microsoft.com
+0.0.0.0 c.microsoft.com
+0.0.0.0 c1.microsoft.com
 0.0.0.0 cdn.engine.phn.doublepimp.com
 0.0.0.0 cdn.doublepimpssl.com
 0.0.0.0 cdn.appsflyer.com
@@ -1670,6 +1725,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 domains.googlesyndication.com
 0.0.0.0 dis.criteo.com
 0.0.0.0 delivery.ad.newsnow.net
 0.0.0.0 dcs.wtlive.com
@@ -1766,6 +1823,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 www.ezec.co.uk
+0.0.0.0 evbeacon.godaddy.com
 0.0.0.0 exosrv.com
 0.0.0.0 exoclick.com
 0.0.0.0 etahub.com
@@ -1841,6 +1900,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 global.adserver.yahoo.com
+0.0.0.0 www.google.com.1.302br.net
+0.0.0.0 gopacket.goforandroid.com
+0.0.0.0 geoip.goforandroid.com
+0.0.0.0 googleads1.g.doubleclick.net
+0.0.0.0 googleads2.g.doubleclick.net
+0.0.0.0 googleads3.g.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 gg.google.com
 0.0.0.0 getclicky.com
 0.0.0.0 gr.adserver.yahoo.com
 0.0.0.0 geo.yahoo.com
@@ -1948,6 +2016,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 intellitxt.com
+0.0.0.0 ir2.beap.gemini.yahoo.com
+0.0.0.0 im.ov.yahoo.co.jp
 0.0.0.0 ib.adnxs.com
 0.0.0.0 in.getclicky.com
 0.0.0.0 i3.putags.com
@@ -2786,6 +2857,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 mywebstats.org
+0.0.0.0 mywebstats.com.au
+0.0.0.0 m9.webstats.motigo.com
+0.0.0.0 m8.webstats.motigo.com
+0.0.0.0 m7.webstats.motigo.com
+0.0.0.0 m6.webstats.motigo.com
+0.0.0.0 m5.webstats.motigo.com
+0.0.0.0 m4.webstats.motigo.com
+0.0.0.0 m3.webstats.motigo.com
+0.0.0.0 m2.webstats.motigo.com
+0.0.0.0 m1.webstats4u.com
+0.0.0.0 mycomputer.superstats.com
+0.0.0.0 media-mc-adrunner.mycomputer.com
+0.0.0.0 media-adrunner.mycomputer.com
+0.0.0.0 microsoftwindows.112.2o7.net
+0.0.0.0 microsoftwga.112.2o7.net
+0.0.0.0 microsoftgamestudio.112.2o7.net
+0.0.0.0 microsofteup.112.2o7.net
+0.0.0.0 microsoft-watch.us.intellitxt.com
+0.0.0.0 myscoop-tracking.googlecode.com
+0.0.0.0 mcc.godaddy.com
 0.0.0.0 media.trafficjunky.net
 0.0.0.0 mjx.ads.nwsource.com
 0.0.0.0 mgid.com
@@ -2883,6 +2975,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 n.gemini.yahoo.com
 0.0.0.0 naj.sk
 0.0.0.0 www.nlbanner.nl
 0.0.0.0 www.nowstat.com
@@ -2908,6 +3001,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 ov.yahoo.co.jp
+0.0.0.0 optimizely.s3.amazonaws.com
 0.0.0.0 www.oxinads.com
 0.0.0.0 www.oxiads.fr
 0.0.0.0 otracking.com
@@ -2948,6 +3044,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 phoenix-mc-adrunner.mycomputer.com
+0.0.0.0 phoenix-adrunner.mycomputer.com
+0.0.0.0 pclick.yahoo.com
+0.0.0.0 pclick.internal.yahoo.com
+0.0.0.0 pclick.europe.yahoo.com
+0.0.0.0 pa.yahoo.com
 0.0.0.0 plista.com
 0.0.0.0 pool.ads.netlog.com
 0.0.0.0 pf.newegg.com
@@ -2964,10 +3066,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 pixel.quantserve.com
 0.0.0.0 popunder.adsrevenue.net
 0.0.0.0 pub.weatherbug.com
+0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 pagead.googlesyndication
 0.0.0.0 pagead1.googlesyndication.com
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead3.googlesyndication.com
+0.0.0.0 pagead4.googlesyndication.com
 0.0.0.0 pixel.watch
 0.0.0.0 player.anyclip.com
 0.0.0.0 pub.clicksor.net
@@ -3019,6 +3123,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qawiman.com
+0.0.0.0 qarmonija.justclick.ru
+0.0.0.0 qantas.demdex.net
+0.0.0.0 qannd.voluumtrk.com
+0.0.0.0 qadabra.com
+0.0.0.0 www.qadabra.com
 0.0.0.0 qualtrics.com
 0.0.0.0 qfind.net
 0.0.0.0 qingdaonews.com
@@ -3028,6 +3138,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 r1.computerbild.de
+0.0.0.0 revmob.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 redir.metaservices.microsoft.com
 0.0.0.0 recs.richrelevance.com
 0.0.0.0 rusads.toysrus.com
 0.0.0.0 ru4.com
@@ -3067,6 +3181,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 siteminer.mycomputer.com
+0.0.0.0 ssl-youtube.2cnt.net
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 spynet.microsoft.com
+0.0.0.0 spynet1.microsoft.com
+0.0.0.0 spynet2.microsoft.com
+0.0.0.0 skype.tt.omtrdc.net
 0.0.0.0 static-uk.plista.com
 0.0.0.0 sedo.cachefly.net
 0.0.0.0 sponsoredlinks.nationalgeographic.com
@@ -3372,6 +3498,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracker.lgcontent.cl
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 trakksocial.googlecode.com
+0.0.0.0 tpc.googlesyndication.com.proxy.c9w.net
+0.0.0.0 tpcnc.googlesyndication.com
 0.0.0.0 tracker.netklix.com
 0.0.0.0 tracking.onefeed.co.uk
 0.0.0.0 track.omguk.com
@@ -3494,6 +3627,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 video-stats.video.google.com
 0.0.0.0 verivox01.webtrekk.net
 0.0.0.0 versioncheck-bg.addons.mozilla.org
 0.0.0.0 video.plista.com
@@ -3524,6 +3661,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 webstats.seoinc.com
+0.0.0.0 webstats.sapo.pt
+0.0.0.0 webstats.perfectworld.com
+0.0.0.0 webstats.com.br
+0.0.0.0 webstats.adspaces.ero-advertising.com
+0.0.0.0 webstats4u.com
+0.0.0.0 web-stats.org
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 watson.microsoft.com
 0.0.0.0 www18.officedepot.com
 0.0.0.0 www.webclients.net
 0.0.0.0 webclients.net
@@ -3612,6 +3760,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.xxxwebtraffic.com
 
 #Y
+0.0.0.0 youtube.2cnt.net
 0.0.0.0 ym.bannerconnect.net
 0.0.0.0 yx-in-f106.1e100.net
 0.0.0.0 www.yourstats.net
@@ -3693,6 +3842,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zn0cjgsju6439lcsd-microsoft.siteintercept.qualtrics.com
 0.0.0.0 z.moatads.com
 0.0.0.0 z.analytics.yahoo.com
 0.0.0.0 zeit01.webtrekk.net
@@ -4082,6 +4232,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 135.197.186.35.bc.googleusercontent.com
 0.0.0.0 0c4uuexarf.usa.cc
 0.0.0.0 1781.content.swrve.com
+0.0.0.0 6322.web-stats.org
+0.0.0.0 63ads.go2cloud.org
 0.0.0.0 1681.engine.mobileapptracking.com
 0.0.0.0 135.197.186.35.bc.googleusercontent.com
 0.0.0.0 0c4vmruphe.centade.com
