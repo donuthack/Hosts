@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,122 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,135 (uBlock)
 ##Last Updated on Friday, November 2, 2018
 
 #IP Loggers
@@ -55,6 +55,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adhigh.net
+0.0.0.0 aweme.snssdk.com
+0.0.0.0 aan.amazon.com
+0.0.0.0 aax-us-east.amazon-adsystem.com
 0.0.0.0 adclerks.com
 0.0.0.0 abmr.org
 0.0.0.0 aads.go2cloud.org
@@ -1725,6 +1729,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 d.applovin.com
+0.0.0.0 dm.pstatp.com
 0.0.0.0 df.telemetry.microsoft.com
 0.0.0.0 domains.googlesyndication.com
 0.0.0.0 dis.criteo.com
@@ -1823,6 +1829,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 events.appsflyer.com
 0.0.0.0 www.ezec.co.uk
 0.0.0.0 evbeacon.godaddy.com
 0.0.0.0 exosrv.com
@@ -1962,6 +1969,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hotsoon.snssdk.com
 0.0.0.0 h1.0.138.40.static.ip.windstream.net
 0.0.0.0 h2.0.138.40.static.ip.windstream.net
 0.0.0.0 h3.0.138.40.static.ip.windstream.net
@@ -2815,6 +2823,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lookaside.facebook.com
 0.0.0.0 libs.coremetrics.com
 0.0.0.0 layout1.realtracker.com
 0.0.0.0 l.yieldmanager.net
@@ -2975,6 +2984,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nuq04s19-in-f3.1e100.net
 0.0.0.0 n.gemini.yahoo.com
 0.0.0.0 naj.sk
 0.0.0.0 www.nlbanner.nl
@@ -3044,6 +3054,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 px.adhigh.net
+0.0.0.0 pstatp.com
 0.0.0.0 phoenix-mc-adrunner.mycomputer.com
 0.0.0.0 phoenix-adrunner.mycomputer.com
 0.0.0.0 pclick.yahoo.com
@@ -3181,6 +3193,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 snssdk.com
 0.0.0.0 siteminer.mycomputer.com
 0.0.0.0 ssl-youtube.2cnt.net
 0.0.0.0 settings-win.data.microsoft.com
