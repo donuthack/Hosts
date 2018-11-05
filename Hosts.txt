@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,135 (uBlock)
-##Last Updated on Friday, November 2, 2018
+##Last Updated on Sunday, November 4, 2018
 
 #IP Loggers
 0.0.0.0 grabify.link
@@ -55,6 +55,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 advnet.xyz
+0.0.0.0 adsrv4k.com
+0.0.0.0 adserwer.xwords.pl
+0.0.0.0 amadagasca.com
+0.0.0.0 adrino.pl
+0.0.0.0 adbitty.com
+0.0.0.0 admp.io
+0.0.0.0 advertnative.com
+0.0.0.0 adcalm.com
+0.0.0.0 adscpm.site
+0.0.0.0 adcaser.pl
+0.0.0.0 adtify.pl
+0.0.0.0 ad.linkprice.com
+0.0.0.0 adleadevent.com
+0.0.0.0 adtrack.adleadevent.com
+0.0.0.0 adserver.juicyads.com
+0.0.0.0 ads.juicyads.com
+0.0.0.0 aaxads.com
 0.0.0.0 adhigh.net
 0.0.0.0 aweme.snssdk.com
 0.0.0.0 aan.amazon.com
@@ -934,6 +952,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 beaverads.com
 0.0.0.0 bannerexchange.mycomputer.com
 0.0.0.0 bb8de7de67cf32727f11-15fc5251a791315c6701a6c0ad757ff3.ssl.cf5.rackcdn.com
 0.0.0.0 beacon.walmart.com
@@ -1494,6 +1513,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 compass.adop.cc
+0.0.0.0 chainads.io
+0.0.0.0 click.advertnative.com
+0.0.0.0 cdn.elasticad.net
+0.0.0.0 c.parkingcrew.net
+0.0.0.0 c.aaxads.com
+0.0.0.0 c1.popads.net
+0.0.0.0 c2.popads.net
 0.0.0.0 cdn.adclerks.com
 0.0.0.0 clearwebstats.com
 0.0.0.0 counter.mycomputer.com
@@ -1829,6 +1856,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 egooad.com
+0.0.0.0 elasticad.net
 0.0.0.0 events.appsflyer.com
 0.0.0.0 www.ezec.co.uk
 0.0.0.0 evbeacon.godaddy.com
@@ -1907,6 +1936,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.pub2srv.com
+0.0.0.0 goadservices.com
 0.0.0.0 global.adserver.yahoo.com
 0.0.0.0 www.google.com.1.302br.net
 0.0.0.0 gopacket.goforandroid.com
@@ -1969,6 +2000,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hitadsmedia.com
 0.0.0.0 hotsoon.snssdk.com
 0.0.0.0 h1.0.138.40.static.ip.windstream.net
 0.0.0.0 h2.0.138.40.static.ip.windstream.net
@@ -2024,6 +2056,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ininmacerad.pro
 0.0.0.0 intellitxt.com
 0.0.0.0 ir2.beap.gemini.yahoo.com
 0.0.0.0 im.ov.yahoo.co.jp
@@ -2085,6 +2118,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 juicyads.com
 0.0.0.0 jsn.dt07.net
 0.0.0.0 jsc.mgid.com
 0.0.0.0 jsn.mgid.com
@@ -2107,6 +2141,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kyad88.com
 0.0.0.0 kabradrugsltd.com
 0.0.0.0 kace.corp.appnexus.com
 0.0.0.0 kace.exacttarget.com
@@ -2823,6 +2858,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 linkprice.com
 0.0.0.0 lookaside.facebook.com
 0.0.0.0 libs.coremetrics.com
 0.0.0.0 layout1.realtracker.com
@@ -3011,6 +3047,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 optad360.io
 0.0.0.0 oca.telemetry.microsoft.com
 0.0.0.0 ov.yahoo.co.jp
 0.0.0.0 optimizely.s3.amazonaws.com
@@ -3054,6 +3091,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 popads.media
+0.0.0.0 parkingcrew.net
+0.0.0.0 popads.net
 0.0.0.0 px.adhigh.net
 0.0.0.0 pstatp.com
 0.0.0.0 phoenix-mc-adrunner.mycomputer.com
@@ -3193,6 +3233,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sigmaad.com
 0.0.0.0 snssdk.com
 0.0.0.0 siteminer.mycomputer.com
 0.0.0.0 ssl-youtube.2cnt.net
@@ -3674,6 +3715,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wtg-ads.com
+0.0.0.0 worker1.advertnative.com
 0.0.0.0 webstats.seoinc.com
 0.0.0.0 webstats.sapo.pt
 0.0.0.0 webstats.perfectworld.com
@@ -3773,6 +3816,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.xxxwebtraffic.com
 
 #Y
+0.0.0.0 yebadu.com
 0.0.0.0 youtube.2cnt.net
 0.0.0.0 ym.bannerconnect.net
 0.0.0.0 yx-in-f106.1e100.net
@@ -3949,6 +3993,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 360adshost.com
+0.0.0.0 0c4e7ca4a9a4803f563e38c47d93575b.org
+0.0.0.0 0ec97c88.000webhostapp.com
+0.0.0.0 1669323.r.msn.com
+0.0.0.0 1669437.r.msn.com
+0.0.0.0 1695842.r.msn.com
+0.0.0.0 1695693.r.msn.com
+0.0.0.0 1696908298.rsc.cdn77.org
+0.0.0.0 135.197.186.35.bc.googleusercontent.com
+0.0.0.0 0c4uuexarf.usa.cc
+0.0.0.0 1781.content.swrve.com
+0.0.0.0 6322.web-stats.org
+0.0.0.0 63ads.go2cloud.org
+0.0.0.0 1681.engine.mobileapptracking.com
+0.0.0.0 135.197.186.35.bc.googleusercontent.com
 0.0.0.0 0w57c49k-0bddcc2a9e9452a590d18ab7d1b1050e5a1fc2d4-am1.d.aa.online-metrix.net
 0.0.0.0 0w57c49k-132f9b3ca8235f809e440190ebaaf58aca4f02d6-am1.d.aa.online-metrix.net
 0.0.0.0 0w57c49k-168ac67632e3bb211f55ae23a38735e9007b0da4-am1.d.aa.online-metrix.net
@@ -4240,15 +4299,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 0ef7a677020aad408f044b50e0386877.co.cc
 0.0.0.0 0eff262d16588c41a968b1820e7b3c7d.co.cc
 0.0.0.0 0f188ad37b07b4ee47920c21e769e381.co.cc
-0.0.0.0 0c4e7ca4a9a4803f563e38c47d93575b.org
-0.0.0.0 0ec97c88.000webhostapp.com
-0.0.0.0 135.197.186.35.bc.googleusercontent.com
-0.0.0.0 0c4uuexarf.usa.cc
-0.0.0.0 1781.content.swrve.com
-0.0.0.0 6322.web-stats.org
-0.0.0.0 63ads.go2cloud.org
-0.0.0.0 1681.engine.mobileapptracking.com
-0.0.0.0 135.197.186.35.bc.googleusercontent.com
 0.0.0.0 0c4vmruphe.centade.com
 0.0.0.0 0cg1vshykm.centade.com
 0.0.0.0 0cgemsucus.centade.com
