@@ -1,3 +1,6 @@
+/log
+/log?format
+/log?format=json
 /complete/search?client
 /complete/search?client=youtube
 /sponsored.php
