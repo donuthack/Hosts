@@ -3235,6 +3235,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 searchguide.windstream.net
 0.0.0.0 sigmaad.com
 0.0.0.0 snssdk.com
 0.0.0.0 siteminer.mycomputer.com
