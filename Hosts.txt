@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,194 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,197 (uBlock)
 ##Last Updated on Thursday, November 8, 2018
 
 #IP Loggers
@@ -7909,6 +7909,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/log
+/log?format
+/log?format=json
 /complete/search?client
 /complete/search?client=youtube
 /sponsored.php
