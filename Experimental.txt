@@ -17,3 +17,4 @@ ff02::3 ip6-allhosts
 0.0.0.0 sponsored.php
 0.0.0.0 /sponsored.php
 0.0.0.0 /js/v0Min.js
+0.0.0.0 /add_search.php
