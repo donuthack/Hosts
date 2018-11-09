@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,197 (uBlock)
-##Last Updated on Thursday, November 8, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,198 (uBlock)
+##Last Updated on Friday, November 9, 2018
 
 #IP Loggers
 0.0.0.0 grabify.link
@@ -55,6 +55,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 www7.addfreestats.com
+0.0.0.0 addfreestats.com
 0.0.0.0 ad.wsod.com
 0.0.0.0 adsenseguard.com
 0.0.0.0 advnet.xyz
@@ -1515,6 +1517,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.cpmstar.com
 0.0.0.0 compass.adop.cc
 0.0.0.0 chainads.io
 0.0.0.0 click.advertnative.com
@@ -3640,6 +3643,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 use.fontawesome.com
 0.0.0.0 uk.plista.com
 0.0.0.0 u5761.57.spylog.com
 0.0.0.0 uk.adserver.yahoo.com
@@ -3718,6 +3722,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wearesmartertravel.com
 0.0.0.0 wsod.com
 0.0.0.0 wtg-ads.com
 0.0.0.0 worker1.advertnative.com
@@ -3820,6 +3825,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.xxxwebtraffic.com
 
 #Y
+0.0.0.0 www.y8.com
+0.0.0.0 y8.com
 0.0.0.0 yebadu.com
 0.0.0.0 youtube.2cnt.net
 0.0.0.0 ym.bannerconnect.net
@@ -7909,6 +7916,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/x.gif?&ads
+/monetization.js
 /log
 /log?format
 /log?format=json
