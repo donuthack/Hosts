@@ -55,6 +55,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 admanmedia.com
 0.0.0.0 www7.addfreestats.com
 0.0.0.0 addfreestats.com
 0.0.0.0 ad.wsod.com
@@ -1861,6 +1862,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ec-ns.sascdn.com
 0.0.0.0 egooad.com
 0.0.0.0 elasticad.net
 0.0.0.0 events.appsflyer.com
@@ -2061,6 +2063,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 img.mobusi.com
 0.0.0.0 ininmacerad.pro
 0.0.0.0 intellitxt.com
 0.0.0.0 ir2.beap.gemini.yahoo.com
@@ -2907,6 +2910,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 mobusi.com
+0.0.0.0 mona.admanmedia.com
 0.0.0.0 mywebstats.org
 0.0.0.0 mywebstats.com.au
 0.0.0.0 m9.webstats.motigo.com
