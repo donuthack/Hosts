@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,198 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,212 (uBlock)
 ##Last Updated on Friday, November 9, 2018
 
 #IP Loggers
@@ -1695,7 +1695,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 coconuts.boy.jp
 0.0.0.0 cdn.ajillionmax.com
 0.0.0.0 cdn01.mzbcdn.net
-0.0.0.0 connect.facebook.com
 0.0.0.0 cpmstar.com
 0.0.0.0 cdn-gl.imrworldwide.com
 0.0.0.0 cfvod.kaltura.com
@@ -3101,6 +3100,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 pingdom.net
 0.0.0.0 popads.media
 0.0.0.0 parkingcrew.net
 0.0.0.0 popads.net
@@ -3200,6 +3200,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rum-static.pingdom.net
 0.0.0.0 r1.computerbild.de
 0.0.0.0 revmob.com
 0.0.0.0 reports.wes.df.telemetry.microsoft.com
