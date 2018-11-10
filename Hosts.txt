@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,212 (uBlock)
-##Last Updated on Friday, November 9, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,213 (uBlock)
+##Last Updated on Saturday, November 10, 2018
 
 #IP Loggers
 0.0.0.0 grabify.link
@@ -55,6 +55,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 analytic.herokuapp.com
 0.0.0.0 admanmedia.com
 0.0.0.0 www7.addfreestats.com
 0.0.0.0 addfreestats.com
@@ -1518,6 +1519,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 collectra.herokuapp.com
 0.0.0.0 cdn.cpmstar.com
 0.0.0.0 compass.adop.cc
 0.0.0.0 chainads.io
