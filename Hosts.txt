@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,213 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,214 (uBlock)
 ##Last Updated on Saturday, November 10, 2018
 
 #IP Loggers
@@ -55,6 +55,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 analytics.teksystems.com
+0.0.0.0 accenture.com
+0.0.0.0 adservices.net
+0.0.0.0 adservice.com
 0.0.0.0 analytic.herokuapp.com
 0.0.0.0 admanmedia.com
 0.0.0.0 www7.addfreestats.com
@@ -7924,6 +7928,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/reportsuites.js
 /x.gif?&ads
 /monetization.js
 /log
