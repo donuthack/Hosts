@@ -55,6 +55,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 analytics.usa.gov
+0.0.0.0 analytics.twitter.com
+0.0.0.0 analytics.net
 0.0.0.0 analytics.teksystems.com
 0.0.0.0 accenture.com
 0.0.0.0 adservices.net
@@ -2915,6 +2918,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 mobalytics.gg
 0.0.0.0 mobusi.com
 0.0.0.0 mona.admanmedia.com
 0.0.0.0 mywebstats.org
