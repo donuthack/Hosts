@@ -7928,6 +7928,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/analytical-services
 /reportsuites.js
 /x.gif?&ads
 /monetization.js
