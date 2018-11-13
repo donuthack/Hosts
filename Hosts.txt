@@ -17,6 +17,8 @@ ff02::3 ip6-allhosts
 ##Last Updated on Saturday, November 10, 2018
 
 #IP Loggers
+0.0.0.0 ipstat.com
+0.0.0.0 ipstatp.com
 0.0.0.0 grabify.link
 0.0.0.0 bmwforum.co
 0.0.0.0 leancoding.co
@@ -55,6 +57,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 api.fyber.com
+0.0.0.0 a.idio.co
 0.0.0.0 app_usa_prod_eqffnyamdzrb.s3.amazonaws.com
 0.0.0.0 analytics.usa.gov
 0.0.0.0 analytics.twitter.com
@@ -1527,6 +1531,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cloudfront-labs.amazonaws.com
 0.0.0.0 collectra.herokuapp.com
 0.0.0.0 cdn.cpmstar.com
 0.0.0.0 compass.adop.cc
@@ -1771,6 +1776,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dm.toutiao.com
 0.0.0.0 d.applovin.com
 0.0.0.0 dm.pstatp.com
 0.0.0.0 df.telemetry.microsoft.com
@@ -1871,6 +1877,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ensighten.com
 0.0.0.0 ec-ns.sascdn.com
 0.0.0.0 egooad.com
 0.0.0.0 elasticad.net
@@ -1921,6 +1928,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fyber.com
 0.0.0.0 fttcj.com
 0.0.0.0 free.realtracker.com
 0.0.0.0 free1.usa.realtracker.com
@@ -2919,6 +2927,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 mads.amazon-adsystem.com
 0.0.0.0 mobalytics.gg
 0.0.0.0 mobusi.com
 0.0.0.0 mona.admanmedia.com
@@ -3040,6 +3049,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nexus.ensighten.com
 0.0.0.0 nuq04s19-in-f3.1e100.net
 0.0.0.0 n.gemini.yahoo.com
 0.0.0.0 naj.sk
@@ -3067,6 +3077,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 onepush.query.yahoo.com
 0.0.0.0 optad360.io
 0.0.0.0 oca.telemetry.microsoft.com
 0.0.0.0 ov.yahoo.co.jp
@@ -3111,6 +3122,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 p0.ipstatp.com
+0.0.0.0 p.ipstatp.com
 0.0.0.0 pingdom.net
 0.0.0.0 popads.media
 0.0.0.0 parkingcrew.net
@@ -3211,6 +3224,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 register.appsflyer.com
+0.0.0.0 req.startappservice.com
 0.0.0.0 rum-static.pingdom.net
 0.0.0.0 r1.computerbild.de
 0.0.0.0 revmob.com
@@ -3255,6 +3270,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 startappservice.com
 0.0.0.0 s1.go-mpulse.net
 0.0.0.0 s2.go-mpulse.net
 0.0.0.0 searchguide.windstream.net
@@ -3820,6 +3836,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xlog-va.byteoversea.com
 0.0.0.0 xtrapath1.izatcloud.net
 0.0.0.0 xtrapath2.izatcloud.net
 0.0.0.0 xtrapath3.izatcloud.net
@@ -3842,6 +3859,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xads.zedo.com
 0.0.0.0 xslt.alexa.com
 0.0.0.0 www.xxxwebtraffic.com
+0.0.0.0 xxxwebtraffic.com
 
 #Y
 0.0.0.0 www.y8.com
@@ -7935,6 +7953,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/jquery.adrotate.clicktracker.js
+/adrotate.clicktracker.js
+/clicktracker.js
 /js/platform.js
 /analytical-services
 /reportsuites.js
