@@ -57,6 +57,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 app-sj16.marketo.com
+0.0.0.0 analytics.moat.com
 0.0.0.0 api.fyber.com
 0.0.0.0 a.idio.co
 0.0.0.0 app_usa_prod_eqffnyamdzrb.s3.amazonaws.com
@@ -970,6 +972,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bingads.microsoft.com
 0.0.0.0 beaverads.com
 0.0.0.0 bannerexchange.mycomputer.com
 0.0.0.0 bb8de7de67cf32727f11-15fc5251a791315c6701a6c0ad757ff3.ssl.cf5.rackcdn.com
@@ -1531,6 +1534,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 comscore.com
+0.0.0.0 consent.truste.com
 0.0.0.0 cloudfront-labs.amazonaws.com
 0.0.0.0 collectra.herokuapp.com
 0.0.0.0 cdn.cpmstar.com
@@ -1776,6 +1781,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 datafest.com
+0.0.0.0 distillery.wistia.com
 0.0.0.0 dm.toutiao.com
 0.0.0.0 d.applovin.com
 0.0.0.0 dm.pstatp.com
@@ -1960,6 +1967,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 geo2.adobe.com
+0.0.0.0 geo.adobe.com
 0.0.0.0 go.pub2srv.com
 0.0.0.0 goadservices.com
 0.0.0.0 global.adserver.yahoo.com
@@ -2080,6 +2089,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 img03.en25.com
+0.0.0.0 impact.com
 0.0.0.0 img.mobusi.com
 0.0.0.0 ininmacerad.pro
 0.0.0.0 intellitxt.com
@@ -2883,6 +2894,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 licensing.bitmovin.com
+0.0.0.0 lnkd.demdex.net
 0.0.0.0 linkprice.com
 0.0.0.0 lookaside.facebook.com
 0.0.0.0 libs.coremetrics.com
@@ -2927,6 +2940,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 mixpo.com
+0.0.0.0 marchex.io
+0.0.0.0 metamarkets.com
+0.0.0.0 marinanalytic.com
+0.0.0.0 www.marinanalytic.com
+0.0.0.0 moat.com
 0.0.0.0 mads.amazon-adsystem.com
 0.0.0.0 mobalytics.gg
 0.0.0.0 mobusi.com
@@ -3049,6 +3068,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nanigans.com
 0.0.0.0 nexus.ensighten.com
 0.0.0.0 nuq04s19-in-f3.1e100.net
 0.0.0.0 n.gemini.yahoo.com
@@ -3077,6 +3097,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 www.oracleimg.com
 0.0.0.0 onepush.query.yahoo.com
 0.0.0.0 optad360.io
 0.0.0.0 oca.telemetry.microsoft.com
@@ -3122,6 +3143,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 pipedream.wistia.com
 0.0.0.0 p0.ipstatp.com
 0.0.0.0 p.ipstatp.com
 0.0.0.0 pingdom.net
@@ -3593,6 +3615,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tune.com
+0.0.0.0 tenjin.io
+0.0.0.0 tubemogul.com
 0.0.0.0 tracker.lgcontent.cl
 0.0.0.0 telemetry.urs.microsoft.com
 0.0.0.0 telemetry.microsoft.com
@@ -7953,6 +7978,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/2062
+/wDq4Hx70.min.js
+/analytics-event-adapter.bundle.min.js
+/elqCfg.min.js
+/country.js
+/167493.js
+/insight.min.js
 /jquery.adrotate.clicktracker.js
 /adrotate.clicktracker.js
 /clicktracker.js
