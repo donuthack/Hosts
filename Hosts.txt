@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,249 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,282 (uBlock)
 ##Last Updated on Tuesday, November 13, 2018
 
 #IP Loggers
@@ -3097,6 +3097,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 oracleimg.com
 0.0.0.0 www.oracleimg.com
 0.0.0.0 onepush.query.yahoo.com
 0.0.0.0 optad360.io
