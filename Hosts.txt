@@ -2896,6 +2896,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 learnpython-ads.datacamp.com
 0.0.0.0 licensing.bitmovin.com
 0.0.0.0 lnkd.demdex.net
 0.0.0.0 linkprice.com
@@ -3400,7 +3401,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 static-www.ec.popcap.com
 0.0.0.0 staticxx.facebook.com
 0.0.0.0 s.btstatic.com
-0.0.0.0 s3.amazonaws.com
 0.0.0.0 sptproximitykit.com
 0.0.0.0 silverpush.com
 0.0.0.0 serving-sys.com
