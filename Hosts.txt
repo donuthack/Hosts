@@ -5798,6 +5798,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 6901690.fls.doubleclick.net
 
 ##Malware.txt
+0.0.0.0 0-facebook.com
 0.0.0.0 popcash.net
 0.0.0.0 webtech392-net.tk
 0.0.0.0 explorer.com
