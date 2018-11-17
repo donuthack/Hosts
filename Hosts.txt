@@ -1535,6 +1535,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cx.atdmt.com
 0.0.0.0 completion.amazon.com
 0.0.0.0 comscore.com
 0.0.0.0 consent.truste.com
@@ -2091,6 +2092,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 improving.duckduckgo.com
 0.0.0.0 img03.en25.com
 0.0.0.0 impact.com
 0.0.0.0 img.mobusi.com
@@ -3147,6 +3149,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 pixel.facebook.com
 0.0.0.0 pipedream.wistia.com
 0.0.0.0 p0.ipstatp.com
 0.0.0.0 p.ipstatp.com
@@ -3296,6 +3299,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static.mywebstats.com.au
 0.0.0.0 startappservice.com
 0.0.0.0 s1.go-mpulse.net
 0.0.0.0 s2.go-mpulse.net
