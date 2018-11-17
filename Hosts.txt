@@ -2036,6 +2036,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 histats.com
 0.0.0.0 hitadsmedia.com
 0.0.0.0 hotsoon.snssdk.com
 0.0.0.0 h1.0.138.40.static.ip.windstream.net
@@ -3253,6 +3254,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 retiremely.com
 0.0.0.0 register.appsflyer.com
 0.0.0.0 req.startappservice.com
 0.0.0.0 rum-static.pingdom.net
@@ -3299,6 +3301,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sstatic1.histats.com
 0.0.0.0 static.mywebstats.com.au
 0.0.0.0 startappservice.com
 0.0.0.0 s1.go-mpulse.net
@@ -7987,6 +7990,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/jwplayer-20/assets/images/favicon.ico
+/jwplayer-20/assets/images/favicon-152.png
+/jwplayer-20/assets/images/favicon-144.png
+/jwplayer-20/assets/images/favicon-120.png
+/jwplayer-20/assets/images/favicon-114.png
+/jwplayer-20/assets/images/favicon-72.png
+/jwplayer-20/assets/images/favicon-57.png
 /2062
 /wDq4Hx70.min.js
 /analytics-event-adapter.bundle.min.js
