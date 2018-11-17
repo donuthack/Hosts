@@ -14,5 +14,4 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 0.0.0.0 android.clients.google.com
-#No idea what the server is -found in Fiddler 4- blocking due to server not loading
 0.0.0.0 canonicalizer.ucsuri.tcs
