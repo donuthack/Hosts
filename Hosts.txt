@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,282 (uBlock)
-##Last Updated on Tuesday, November 13, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,284 (uBlock)
+##Last Updated on Friday, November 16, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 array605-prod.do.dsp.mp.microsoft.com
 0.0.0.0 app-sj16.marketo.com
 0.0.0.0 analytics.moat.com
 0.0.0.0 api.fyber.com
@@ -1534,6 +1535,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 completion.amazon.com
 0.0.0.0 comscore.com
 0.0.0.0 consent.truste.com
 0.0.0.0 cloudfront-labs.amazonaws.com
