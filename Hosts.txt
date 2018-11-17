@@ -973,6 +973,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bodelen.com
 0.0.0.0 bingads.microsoft.com
 0.0.0.0 beaverads.com
 0.0.0.0 bannerexchange.mycomputer.com
@@ -1535,6 +1536,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 clickadu.com
+0.0.0.0 clksite.com
 0.0.0.0 cx.atdmt.com
 0.0.0.0 completion.amazon.com
 0.0.0.0 comscore.com
@@ -1784,6 +1787,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 delivery.adrecover.com
 0.0.0.0 datafest.com
 0.0.0.0 distillery.wistia.com
 0.0.0.0 dm.toutiao.com
@@ -1826,6 +1830,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 digidip.net
 0.0.0.0 databerries.com
 0.0.0.0 detroittradingservices.demdex.net
+0.0.0.0 desgao1zt7irn.cloudfront.net
+0.0.0.0 d4ngwggzm3w7j.cloudfront.net
+0.0.0.0 dkm6b5q0h53z4.cloudfront.net
+0.0.0.0 d2zjd612oq0w0l.cloudfront.net
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 0.0.0.0 d2na2p72vtqyok.cloudfront.net
 0.0.0.0 d2np5nlsc31ci5.cloudfront.net
@@ -1970,6 +1978,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.pushnative.com
 0.0.0.0 geo2.adobe.com
 0.0.0.0 geo.adobe.com
 0.0.0.0 go.pub2srv.com
@@ -3150,6 +3159,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 propellerads.com
+0.0.0.0 p146641.clksite.com
 0.0.0.0 pixel.facebook.com
 0.0.0.0 pipedream.wistia.com
 0.0.0.0 p0.ipstatp.com
@@ -3254,6 +3265,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 www.revenuehits.com
+0.0.0.0 revenuehits.com
 0.0.0.0 retiremely.com
 0.0.0.0 register.appsflyer.com
 0.0.0.0 req.startappservice.com
@@ -3792,6 +3805,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wwwabrokegamercom.imageshack.host
 0.0.0.0 wearesmartertravel.com
 0.0.0.0 wsod.com
 0.0.0.0 wtg-ads.com
