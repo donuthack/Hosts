@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,327 (uBlock)
-##Last Updated on sunday, November 18, 2018
+##Last Updated on Tuesday, November 20, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 amazon-adsystem.com
 0.0.0.0 adx.com.ru
 0.0.0.0 api.sypexgeo.net
 0.0.0.0 api.geoipcloud.com
@@ -236,7 +237,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.zedo.com
 0.0.0.0 ads.namiflow.com
 0.0.0.0 api.evie.com
-0.0.0.0 aax-us-east-amazon-adsystem.com
 0.0.0.0 aax-us-east-amazon-adsystem.amazon.com
 0.0.0.0 api1.evie.com
 0.0.0.0 aka-root.com
@@ -3168,6 +3168,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 piano.io
 0.0.0.0 propellerads.com
 0.0.0.0 p146641.clksite.com
 0.0.0.0 pixel.facebook.com
@@ -3582,7 +3583,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.skimresources.com
 0.0.0.0 secure.quantserve.com
 0.0.0.0 static.hotjar.com
-0.0.0.0 s.amazon-adsystem.com
+  0.0.0.0 s.amazon-adsystem.com
 0.0.0.0 srwww1.com
 0.0.0.0 starffa.com
 0.0.0.0 start.freeze.com
