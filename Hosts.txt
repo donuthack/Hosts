@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 analytics.podtrac.com
 0.0.0.0 akadns.com
 0.0.0.0 apprep.smartscreen.microsoft.com
 0.0.0.0 amazon-adsystem.com
@@ -1797,6 +1798,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dts.podtrac.com
 0.0.0.0 ds-aksb-a.akamaihd.net
 0.0.0.0 delivery.adrecover.com
 0.0.0.0 datafest.com
@@ -3182,6 +3184,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 podtrac.com
 0.0.0.0 piano.io
 0.0.0.0 propellerads.com
 0.0.0.0 p146641.clksite.com
