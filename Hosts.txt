@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,327 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,328 (uBlock)
 ##Last Updated on Tuesday, November 20, 2018
 
 #IP Loggers
@@ -57,6 +57,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 akadns.com
+0.0.0.0 apprep.smartscreen.microsoft.com
 0.0.0.0 amazon-adsystem.com
 0.0.0.0 adx.com.ru
 0.0.0.0 api.sypexgeo.net
@@ -1795,6 +1797,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 ds-aksb-a.akamaihd.net
 0.0.0.0 delivery.adrecover.com
 0.0.0.0 datafest.com
 0.0.0.0 distillery.wistia.com
@@ -1954,6 +1957,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 factset.com
+0.0.0.0 fbsbx.com
+0.0.0.0 feedback.microsoft-hohm.com
 0.0.0.0 fyber.com
 0.0.0.0 fttcj.com
 0.0.0.0 free.realtracker.com
@@ -1986,6 +1992,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 www.google-analytics.l.google.com
+0.0.0.0 google-analytics.l.google.com
 0.0.0.0 go.pushnative.com
 0.0.0.0 geo2.adobe.com
 0.0.0.0 geo.adobe.com
@@ -2053,6 +2061,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hs-analytics.net
 0.0.0.0 histats.com
 0.0.0.0 hitadsmedia.com
 0.0.0.0 hotsoon.snssdk.com
@@ -2110,6 +2119,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 idms.foxbusiness.com
 0.0.0.0 improving.duckduckgo.com
 0.0.0.0 img03.en25.com
 0.0.0.0 impact.com
@@ -2964,6 +2974,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 microsoft-sql-server.wp-club.net
 0.0.0.0 mixpo.com
 0.0.0.0 marchex.io
 0.0.0.0 metamarkets.com
@@ -3275,6 +3286,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rcm-images.amazon.com
 0.0.0.0 www.revenuehits.com
 0.0.0.0 revenuehits.com
 0.0.0.0 retiremely.com
@@ -3324,6 +3336,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 segment.io
+0.0.0.0 silverpush.co
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 schemas.microsoft.akadns.net
 0.0.0.0 s.spoutable.com
 0.0.0.0 spoutable.com
 0.0.0.0 sync.teads.tv
@@ -3739,6 +3755,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 uedata.amazon.com
 0.0.0.0 use.fontawesome.com
 0.0.0.0 uk.plista.com
 0.0.0.0 u5761.57.spylog.com
@@ -3784,6 +3801,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 v10.vortex-win.data.microsoft.com
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 vortex-win.data.microsoft.com
 0.0.0.0 vortex-sandbox.data.microsoft.com
@@ -5719,7 +5737,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 35369.9265.302br.net
 0.0.0.0 36.6.87.194.dynamic.dol.ru
 0.0.0.0 36.6.87.194.dynamic.dol.ru
-0.0.0.0 360.yahoo.com
 0.0.0.0 360ads.go2cloud.org
 0.0.0.0 360popunder.com
 0.0.0.0 360redirect.com
