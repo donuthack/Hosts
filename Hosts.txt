@@ -1957,6 +1957,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fncstatic.com
 0.0.0.0 factset.com
 0.0.0.0 fbsbx.com
 0.0.0.0 feedback.microsoft-hohm.com
@@ -1992,6 +1993,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 global.fncstatic.com
 0.0.0.0 www.google-analytics.l.google.com
 0.0.0.0 google-analytics.l.google.com
 0.0.0.0 go.pushnative.com
