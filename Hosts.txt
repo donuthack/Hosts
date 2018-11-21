@@ -2976,6 +2976,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 mabping.chartbeat.net
 0.0.0.0 microsoft-sql-server.wp-club.net
 0.0.0.0 mixpo.com
 0.0.0.0 marchex.io
