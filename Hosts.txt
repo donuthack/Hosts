@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,349 (uBlock)
-##Last Updated on Wednsday, November 21, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,350 (uBlock)
+##Last Updated on Friday, November 23, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -2976,6 +2976,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 medialytics.io
 0.0.0.0 mabping.chartbeat.net
 0.0.0.0 microsoft-sql-server.wp-club.net
 0.0.0.0 mixpo.com
