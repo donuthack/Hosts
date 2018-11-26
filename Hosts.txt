@@ -4139,6 +4139,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 207.net
 0.0.0.0 360adshost.com
 0.0.0.0 0c4e7ca4a9a4803f563e38c47d93575b.org
 0.0.0.0 0ec97c88.000webhostapp.com
