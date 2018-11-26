@@ -1548,6 +1548,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 clients5.google.com
 0.0.0.0 cc-dt.com
 0.0.0.0 cdn.listrakbi.com
 0.0.0.0 certify-js.alexametrics.com
