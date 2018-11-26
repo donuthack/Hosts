@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,350 (uBlock)
-##Last Updated on Friday, November 23, 2018
+##Last Updated on Sunday, November 25, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 atlassolutions.com
 0.0.0.0 analytics.podtrac.com
 0.0.0.0 akadns.com
 0.0.0.0 apprep.smartscreen.microsoft.com
@@ -982,6 +983,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 backtype.com
+0.0.0.0 buzz.yahoo.com
 0.0.0.0 bodelen.com
 0.0.0.0 bingads.microsoft.com
 0.0.0.0 beaverads.com
@@ -1545,6 +1548,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cc-dt.com
 0.0.0.0 cdn.listrakbi.com
 0.0.0.0 certify-js.alexametrics.com
 0.0.0.0 clickadu.com
@@ -1798,6 +1802,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.destinationurl.com
 0.0.0.0 dts.podtrac.com
 0.0.0.0 ds-aksb-a.akamaihd.net
 0.0.0.0 delivery.adrecover.com
@@ -1959,6 +1964,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 friendfeed.com
 0.0.0.0 factset.com
 0.0.0.0 fbsbx.com
 0.0.0.0 feedback.microsoft-hohm.com
@@ -2121,6 +2127,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 invitemedia.com
 0.0.0.0 idms.foxbusiness.com
 0.0.0.0 improving.duckduckgo.com
 0.0.0.0 img03.en25.com
@@ -3183,6 +3190,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 postrank.com
+0.0.0.0 pulse.yahoo.com
 0.0.0.0 podtrac.com
 0.0.0.0 piano.io
 0.0.0.0 propellerads.com
@@ -3341,6 +3350,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 smtad.net
 0.0.0.0 segment.io
 0.0.0.0 silverpush.co
 0.0.0.0 statsfe2.ws.microsoft.com
@@ -3672,6 +3682,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 teracent.net
 0.0.0.0 tune.com
 0.0.0.0 tenjin.io
 0.0.0.0 tubemogul.com
@@ -3947,6 +3958,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 ytsa.net
 0.0.0.0 www.y8.com
 0.0.0.0 y8.com
 0.0.0.0 yebadu.com
