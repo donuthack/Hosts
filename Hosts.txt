@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,350 (uBlock)
-##Last Updated on Sunday, November 25, 2018
+##Last Updated on Tuesday, November 27, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 analytics.ghostery.com
 0.0.0.0 atlassolutions.com
 0.0.0.0 analytics.podtrac.com
 0.0.0.0 akadns.com
@@ -1548,8 +1549,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 clients5.google.com
 0.0.0.0 cc-dt.com
+0.0.0.0 certify.alexametrics.com
 0.0.0.0 cdn.listrakbi.com
 0.0.0.0 certify-js.alexametrics.com
 0.0.0.0 clickadu.com
@@ -1852,6 +1855,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 desgao1zt7irn.cloudfront.net
 0.0.0.0 d4ngwggzm3w7j.cloudfront.net
 0.0.0.0 dkm6b5q0h53z4.cloudfront.net
+0.0.0.0 d31qbv1cthcecs.cloudfront.net
 0.0.0.0 d2zjd612oq0w0l.cloudfront.net
 0.0.0.0 d1z2jf7jlzjs58.cloudfront.net
 0.0.0.0 d2na2p72vtqyok.cloudfront.net
@@ -2196,6 +2200,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js.intercomcdn.com
 0.0.0.0 juicyads.com
 0.0.0.0 jsn.dt07.net
 0.0.0.0 jsc.mgid.com
