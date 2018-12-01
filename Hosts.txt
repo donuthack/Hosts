@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,379 (uBlock)
-##Last Updated on Friday, November 30, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,385 (uBlock)
+##Last Updated on Saturday, December 1, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 awltovhc.com
 0.0.0.0 analytics.ghostery.com
 0.0.0.0 atlassolutions.com
 0.0.0.0 analytics.podtrac.com
@@ -1550,6 +1551,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.chitika.net
+0.0.0.0 chitika.net
 0.0.0.0 c.bing.com
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 clients5.google.com
@@ -3157,6 +3160,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 optimizely.com
 0.0.0.0 oracleimg.com
 0.0.0.0 www.oracleimg.com
 0.0.0.0 onepush.query.yahoo.com
@@ -3787,6 +3791,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 use.typekit.net
 0.0.0.0 uedata.amazon.com
 0.0.0.0 use.fontawesome.com
 0.0.0.0 uk.plista.com
@@ -3974,6 +3979,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yceml.net
 0.0.0.0 ytsa.net
 0.0.0.0 www.y8.com
 0.0.0.0 y8.com
