@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,385 (uBlock)
-##Last Updated on Saturday, December 1, 2018
+##Last Updated on Sunday, December 2, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -985,6 +985,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bidder.criteo.com
 0.0.0.0 bat.r.msn.com
 0.0.0.0 backtype.com
 0.0.0.0 buzz.yahoo.com
@@ -1551,6 +1552,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 code.tidio.co
 0.0.0.0 cdn.chitika.net
 0.0.0.0 chitika.net
 0.0.0.0 c.bing.com
@@ -2015,6 +2017,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gwallet.com
 0.0.0.0 www.google-analytics.l.google.com
 0.0.0.0 google-analytics.l.google.com
 0.0.0.0 go.pushnative.com
@@ -3000,6 +3003,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 monetate.net
 0.0.0.0 medialytics.io
 0.0.0.0 mabping.chartbeat.net
 0.0.0.0 microsoft-sql-server.wp-club.net
@@ -3138,12 +3142,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 naj.sk
 0.0.0.0 www.nlbanner.nl
 0.0.0.0 www.nowstat.com
+0.0.0.0 nowstat.com
 0.0.0.0 ntkrnlpa.info
 0.0.0.0 nz.adserver.yahoo.com
 0.0.0.0 nl.adserver.yahoo.com
 0.0.0.0 no.adserver.yahoo.com
 0.0.0.0 nol.yahoo.com
 0.0.0.0 gwp.nuggad.net
+0.0.0.0 nuggad.net
 0.0.0.0 net.softonicads.com
 0.0.0.0 native.sharethrough.com
 0.0.0.0 nsg.symantec.com
@@ -3318,6 +3324,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 responsetap.com
+0.0.0.0 rs.gwallet.com
 0.0.0.0 realtime.services.disqus.com
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 www.revenuehits.com
@@ -3369,6 +3377,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static-ssl.responsetap.com
+0.0.0.0 segment.com
 0.0.0.0 smtad.net
 0.0.0.0 segment.io
 0.0.0.0 silverpush.co
@@ -3838,6 +3848,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 viglink.com
+0.0.0.0 v2.zopim.com
 0.0.0.0 v10.vortex-win.data.microsoft.com
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 vortex-win.data.microsoft.com
@@ -3873,6 +3885,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 widget-v4.tidiochat.com
 0.0.0.0 wwwabrokegamercom.imageshack.host
 0.0.0.0 wearesmartertravel.com
 0.0.0.0 wsod.com
