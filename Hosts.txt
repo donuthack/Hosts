@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,399 (uBlock)
-##Last Updated on Friday, December 7, 2018
+##Last Updated on Saturday, December 8, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -2157,6 +2157,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 infowars.iljmp.com
 0.0.0.0 ipapi.com
 0.0.0.0 i.simpli.fi
 0.0.0.0 invitemedia.com
@@ -3341,6 +3342,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 recreativ.ru
 0.0.0.0 responsetap.com
 0.0.0.0 rs.gwallet.com
 0.0.0.0 realtime.services.disqus.com
@@ -3394,6 +3396,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 seal.godaddy.com
 0.0.0.0 simpli.fi
 0.0.0.0 s.yjtag.jp
 0.0.0.0 siteimproveanalytics.com
