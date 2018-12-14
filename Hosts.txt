@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,433 (uBlock)
-##Last Updated on Sunday, December 9, 2018
+##Last Updated on Thursday, December 13, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,46 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ads.smartshoppingads.de
+0.0.0.0 ads.smartdevicemedia.com
+0.0.0.0 ad.smaclick.com
+0.0.0.0 ads.slava.bg
+0.0.0.0 ads.sladur.com
+0.0.0.0 ads.skelbiu.lt
+0.0.0.0 ads.sina.com
+0.0.0.0 adserve.shopzilla.com
+0.0.0.0 advertising.seenews.com
+0.0.0.0 adv.powertracker.org
+0.0.0.0 ads.periodistadigital.com
+0.0.0.0 ads.sapo.pt
+0.0.0.0 ads.search.bg
+0.0.0.0 ad.searchhound.com
+0.0.0.0 ad.payclick.it
+0.0.0.0 ads.partystars.bg
+0.0.0.0 ad.mylook.ee
+0.0.0.0 ads.monetize-me.com
+0.0.0.0 adtracker.meinungsstudie.de
+0.0.0.0 app.medyanetads.com
+0.0.0.0 ad.mcminteractive.com
+0.0.0.0 action.metaffiliation.com
+0.0.0.0 ads.mezimedia.com
+0.0.0.0 adshow.it168.com
+0.0.0.0 api.geo.kontagent.net
+0.0.0.0 adserver.hardwareanalysis.com
+0.0.0.0 ads.garga.biz
+0.0.0.0 ads.gateway.bg
+0.0.0.0 ads.gather.com
+0.0.0.0 a3.cdnpark.com
+0.0.0.0 adserve.canadawidemagazines.com
+0.0.0.0 ads.cars.com
+0.0.0.0 ads.buzzcity.net
+0.0.0.0 ads.businessclick.pl
+0.0.0.0 ads.businessclick.com
+0.0.0.0 ads.buljobs.bg
+0.0.0.0 ads.btv.bg
+0.0.0.0 ads.bta.bg
+0.0.0.0 ads.bsplayer.com
+0.0.0.0 analytics.androidandme.com
 0.0.0.0 app-usa-modeast-prod-a01239f.s3.amazonaws.com
 0.0.0.0 addthis.com
 0.0.0.0 awltovhc.com
@@ -987,6 +1027,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bbcdn.code.new.smartcontext.pl
+0.0.0.0 beacon.saymedia.com
+0.0.0.0 banner.search.bg
+0.0.0.0 banex.search.bg
+0.0.0.0 buzzclick.com
+0.0.0.0 buzzcity.net
+0.0.0.0 businessclick.com
+0.0.0.0 bridgetrack.com
 0.0.0.0 bidder.criteo.com
 0.0.0.0 bat.r.msn.com
 0.0.0.0 backtype.com
@@ -1554,6 +1602,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 code.new.smartcontext.pl
+0.0.0.0 counter.search.bg
+0.0.0.0 catrg.peer39.net
+0.0.0.0 counter.ok.ee
+0.0.0.0 counter.megaindex.ru
+0.0.0.0 cc12797.counter.hackers.lv
+0.0.0.0 cc9905.counter.hackers.lv
+0.0.0.0 counter.hackers.lv
+0.0.0.0 carbonads.net
+0.0.0.0 cashfiesta.com
+0.0.0.0 casinotropez.com
+0.0.0.0 citi.bridgetrack.com
+0.0.0.0 collect.igodigital.com
 0.0.0.0 clickiocdn.com
 0.0.0.0 contextweb.com
 0.0.0.0 content.pulse360.com
@@ -1819,6 +1880,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 domainpark.sitelutions.com
+0.0.0.0 dc.sify.com
+0.0.0.0 dt.scanscout.com
+0.0.0.0 d-track.send.microad.jp
+0.0.0.0 directads.mcafee.com
+0.0.0.0 delivery.ipvertising.com
 0.0.0.0 dianomi.com
 0.0.0.0 disqusads.com
 0.0.0.0 disquscdn.com
@@ -1937,6 +2004,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 et.twyn.com
+0.0.0.0 estat.com
+0.0.0.0 engage.commander1.com
+0.0.0.0 exdynsrv.com
 0.0.0.0 eu-gmtdmp.gd1.mookie1.com
 0.0.0.0 ensighten.com
 0.0.0.0 ec-ns.sascdn.com
@@ -1989,6 +2060,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 freeresultsguide.com
 0.0.0.0 foresee.com
 0.0.0.0 friendfeed.com
 0.0.0.0 factset.com
@@ -2026,6 +2098,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 goska.siol.net
+0.0.0.0 geoip.securitetotale.com
+0.0.0.0 geoip.p24.hu
+0.0.0.0 geo.kontagent.net
+0.0.0.0 goku.brightcove.com
 0.0.0.0 gapt.hit.gemius.pl
 0.0.0.0 gemius.pl
 0.0.0.0 govws.audioeye.com
@@ -2159,6 +2236,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 img.parked.ru
+0.0.0.0 idpix.media6degrees.com
+0.0.0.0 ipvertising.com
+0.0.0.0 iranwebads.com
+0.0.0.0 ilead.itrack.it
+0.0.0.0 ingameads.gameloft.com
+0.0.0.0 images.cashfiesta.com
+0.0.0.0 igodigital.com
+0.0.0.0 incoming.telementary.mozilla.org
 0.0.0.0 infowars.iljmp.com
 0.0.0.0 ipapi.com
 0.0.0.0 i.simpli.fi
@@ -2230,6 +2316,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js.bunchofads.com
 0.0.0.0 js.intercomcdn.com
 0.0.0.0 juicyads.com
 0.0.0.0 jsn.dt07.net
@@ -2254,6 +2341,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kropka.onet.pl
 0.0.0.0 ktrackdata.com
 0.0.0.0 kyad88.com
 0.0.0.0 kabradrugsltd.com
@@ -2972,6 +3060,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 link.ixs1.net
 0.0.0.0 learnpython-ads.datacamp.com
 0.0.0.0 licensing.bitmovin.com
 0.0.0.0 lnkd.demdex.net
@@ -3019,6 +3108,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 media.scanscout.com
+0.0.0.0 monetize-me.com
+0.0.0.0 microad.jp
+0.0.0.0 messagetag.com
+0.0.0.0 medyanetads.com
+0.0.0.0 media6degrees.com
+0.0.0.0 metaffiliation.com
+0.0.0.0 metavertising.com
+0.0.0.0 mcmads.mediacapital.pt
+0.0.0.0 www3.macys.com
 0.0.0.0 monetate.net
 0.0.0.0 medialytics.io
 0.0.0.0 mabping.chartbeat.net
@@ -3151,6 +3250,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 new.smartcontext.pl
 0.0.0.0 nakanohito.jp
 0.0.0.0 nanigans.com
 0.0.0.0 nexus.ensighten.com
@@ -3183,6 +3283,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 o1.qnsr.com
+0.0.0.0 one.ru
+0.0.0.0 www1.o2.co.uk
 0.0.0.0 optimizely.com
 0.0.0.0 oracleimg.com
 0.0.0.0 www.oracleimg.com
@@ -3231,6 +3334,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 powertracker.org
+0.0.0.0 ppctracking.net
+0.0.0.0 pxl.pmsrvr.com
+0.0.0.0 pheedo.com
+0.0.0.0 pixel.pcworld.com
+0.0.0.0 pub.sapo.pt
+0.0.0.0 peer39.net
+0.0.0.0 peer39.com
+0.0.0.0 payclick.it
+0.0.0.0 partner-ads.com
+0.0.0.0 park.parkingpanel.com
+0.0.0.0 pagerank10.co.uk
+0.0.0.0 paidstats.com
+0.0.0.0 pubs.mgn.net
+0.0.0.0 perfectaudience.com
 0.0.0.0 pt-gmtdmp.mookie1.com
 0.0.0.0 pulse360.com
 0.0.0.0 projectwonderful.com
@@ -3344,6 +3462,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 r.offnews.bg
+0.0.0.0 reklama.onet.pl
 0.0.0.0 recreativ.ru
 0.0.0.0 responsetap.com
 0.0.0.0 rs.gwallet.com
@@ -3398,6 +3518,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 smartshoppingads.de
+0.0.0.0 smartdevicemedia.com
+0.0.0.0 smartcontext.pl
+0.0.0.0 smaclick.com
+0.0.0.0 sitestatslive.com
+0.0.0.0 scanscout.com
+0.0.0.0 static.scanscout.com
+0.0.0.0 samtrack1.com
+0.0.0.0 searchmagnified.com
+0.0.0.0 stat.pchome.net
+0.0.0.0 stats.partypoker.com
+0.0.0.0 stat.p24.hu
+0.0.0.0 ssend.microad.jp
+0.0.0.0 send.microad.jp
+0.0.0.0 stat.it168.com
+0.0.0.0 stats.canalblog.com
+0.0.0.0 srv.carbonads.net
+0.0.0.0 syndication.exdynsrv.com
+0.0.0.0 storage.trafic.ro
 0.0.0.0 s.clickiocdn.com
 0.0.0.0 seal.godaddy.com
 0.0.0.0 simpli.fi
@@ -3737,6 +3876,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracking.searchmarketing.com
+0.0.0.0 tracking.peopletomysite.com
+0.0.0.0 trg.peer39.net
+0.0.0.0 twyn.com
+0.0.0.0 track.send.microad.jp
+0.0.0.0 tracking.metalyzer.com
+0.0.0.0 tracking.mdxdata.com
+0.0.0.0 ts.istrack.com
+0.0.0.0 tracking.gameforge.de
+0.0.0.0 track.gawker.com
+0.0.0.0 tracking.cdiscount.com
+0.0.0.0 txads.buzzcity.com
+0.0.0.0 trafic.ro
+0.0.0.0 tag.perfectaudience.com
 0.0.0.0 tags.us.onscroll.com
 0.0.0.0 top-fwz1.mail.ru
 0.0.0.0 thedailywire.disqus.com
@@ -3877,6 +4030,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 viewer.peer39.com
+0.0.0.0 vitals.tracking.mdxdata.com
 0.0.0.0 viglink.com
 0.0.0.0 v2.zopim.com
 0.0.0.0 v10.vortex-win.data.microsoft.com
@@ -3914,6 +4069,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 w.estat.com
+0.0.0.0 whos.amung.us
+0.0.0.0 www.exacttarget.com
+0.0.0.0 exacttarget.com
 0.0.0.0 ww1510.smartadserver.com
 0.0.0.0 widget-v4.tidiochat.com
 0.0.0.0 wwwabrokegamercom.imageshack.host
@@ -4203,6 +4362,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 l1.cdn.qnsr.com
+0.0.0.0 404.online.net
+0.0.0.0 6398530.collect.igodigital.com
 0.0.0.0 207.net
 0.0.0.0 360adshost.com
 0.0.0.0 0c4e7ca4a9a4803f563e38c47d93575b.org
