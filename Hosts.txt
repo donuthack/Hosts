@@ -1975,6 +1975,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 desgao1zt7irn.cloudfront.net
 0.0.0.0 d4ngwggzm3w7j.cloudfront.net
 0.0.0.0 dkm6b5q0h53z4.cloudfront.net
+0.0.0.0 d2v02itv0y9u9t.cloudfront.net
 0.0.0.0 d12ulf131zb0yj.cloudfront.net
 0.0.0.0 d2wy8f7a9ursnm.cloudfront.net
 0.0.0.0 d31qbv1cthcecs.cloudfront.net
