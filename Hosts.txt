@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,654 (uBlock)
-##Last Updated on Friday, December 14, 2018
+##Last Updated on Saturday, December 15, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 api.gameanalytics.com
 0.0.0.0 adv.speednet.bg
 0.0.0.0 analytics.spongecell.com
 0.0.0.0 ads.stackoverflow.com
@@ -1623,6 +1624,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cbox.ws
 0.0.0.0 count.spiegel.de
 0.0.0.0 c.spiegel.de
 0.0.0.0 counter.spylog.com
@@ -2133,6 +2135,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gameanalytics.com
+0.0.0.0 googlecommerence.com
 0.0.0.0 goska.siol.net
 0.0.0.0 geoip.securitetotale.com
 0.0.0.0 geoip.p24.hu
@@ -2272,6 +2276,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 insightexpressai.com
 0.0.0.0 i.smartwebads.com
 0.0.0.0 ivox.socratos.net
 0.0.0.0 img.parked.ru
@@ -3561,6 +3566,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static.cbox.ws
+0.0.0.0 secure-vtrack.com
 0.0.0.0 speedcount.de
 0.0.0.0 s1.srtk.net
 0.0.0.0 s2.srtk.net
@@ -4086,6 +4093,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vtrack.com
 0.0.0.0 viewer.peer39.com
 0.0.0.0 vitals.tracking.mdxdata.com
 0.0.0.0 viglink.com
