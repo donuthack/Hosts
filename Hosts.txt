@@ -1047,6 +1047,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bkrtx.com
 0.0.0.0 bannerads.standard.net
 0.0.0.0 banners.swsoft.com
 0.0.0.0 bbcdn.code.new.smartcontext.pl
@@ -3152,6 +3153,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 ml314.com
 0.0.0.0 my.surveypopups.com
 0.0.0.0 media.scanscout.com
 0.0.0.0 monetize-me.com
@@ -3381,6 +3383,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 ping.getadblock.com
 0.0.0.0 pixel.staticworld.net
 0.0.0.0 pub.softonic.com
 0.0.0.0 powertracker.org
