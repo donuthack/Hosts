@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,666 (uBlock)
-##Last Updated on Monday, December 17, 2018
+##Last Updated on Tuesday, December 18, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 api.demandbase.com
+0.0.0.0 developermedia.com
+0.0.0.0 apps.developermedia.com
+0.0.0.0 a.ns.facebook.com
 0.0.0.0 api.gameanalytics.com
 0.0.0.0 adv.speednet.bg
 0.0.0.0 analytics.spongecell.com
@@ -1625,6 +1629,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn1.developermedia.com
 0.0.0.0 cbox.ws
 0.0.0.0 count.spiegel.de
 0.0.0.0 c.spiegel.de
@@ -2042,6 +2047,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 external-veil-1.xx.fbcdn.net
+0.0.0.0 external-frt3-1.xx.fbcdn.net
+0.0.0.0 external-frt3-2.xx.fbcdn.net
+0.0.0.0 evoke-windowsservices-tas.msedge.net
+0.0.0.0 eb2.3lift.com
 0.0.0.0 eu1.snoobi.com
 0.0.0.0 et.twyn.com
 0.0.0.0 estat.com
@@ -2099,6 +2109,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 fbstatic-a.akamaihd.net
+0.0.0.0 fbexternal-a.akamaihd.net
+0.0.0.0 fbcdn-static-b-a.akamaihd.net
+0.0.0.0 fbcdn-creative-a.akamaihd.net
+0.0.0.0 functionalclam.com
+0.0.0.0 files.adform.net
+0.0.0.0 feedbacksite-bn2b.smartscreen.microsoft.com
+0.0.0.0 feedback.windows.com
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 0.0.0.0 freeresultsguide.com
 0.0.0.0 foresee.com
 0.0.0.0 friendfeed.com
@@ -2137,6 +2158,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 global.msads.net
+0.0.0.0 geover-prod.do.dsp.mp.microsoft.com
+0.0.0.0 geo-prod.do.dsp.mp.microsoft.com
+0.0.0.0 g.microsoft.com
+0.0.0.0 g.msn.com
+0.0.0.0 g.live.com
+0.0.0.0 g.bing.com
 0.0.0.0 gameanalytics.com
 0.0.0.0 googlecommerence.com
 0.0.0.0 goska.siol.net
@@ -2278,6 +2306,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 img-s-msn-com.akamaized.net
+0.0.0.0 ieonlinews.microsoft.com
+0.0.0.0 ieonline.microsoft.com
+0.0.0.0 iecvlist.microsoft.com
+0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 i.liadm.com
 0.0.0.0 insightexpressai.com
 0.0.0.0 i.smartwebads.com
 0.0.0.0 ivox.socratos.net
@@ -2361,6 +2395,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jslog.krxd.net
 0.0.0.0 js.bunchofads.com
 0.0.0.0 js.intercomcdn.com
 0.0.0.0 juicyads.com
@@ -3105,6 +3140,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 livetileedge.dsx.mp.microsoft.com
+0.0.0.0 live.rads.msn.com
 0.0.0.0 link.ixs1.net
 0.0.0.0 learnpython-ads.datacamp.com
 0.0.0.0 licensing.bitmovin.com
@@ -3153,6 +3190,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 msads.net
+0.0.0.0 match.adsrvr.org
 0.0.0.0 ml314.com
 0.0.0.0 my.surveypopups.com
 0.0.0.0 media.scanscout.com
@@ -3332,6 +3371,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 oca8.ppe.telemetry.microsoft.com
+0.0.0.0 oca7.ppe.telemetry.microsoft.com
+0.0.0.0 oca7.alpha.telemetry.microsoft.com
+0.0.0.0 oca.alpha.telemetry.microsoft.com
 0.0.0.0 o1.qnsr.com
 0.0.0.0 one.ru
 0.0.0.0 www1.o2.co.uk
@@ -3570,6 +3614,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 services.social.microsoft.com
 0.0.0.0 static.cbox.ws
 0.0.0.0 secure-vtrack.com
 0.0.0.0 speedcount.de
@@ -4432,6 +4477,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 3lift.com
+0.0.0.0 5118230.fls.doubleclick.net
 0.0.0.0 360yield.com
 0.0.0.0 l1.cdn.qnsr.com
 0.0.0.0 404.online.net
