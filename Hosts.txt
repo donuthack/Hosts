@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,800 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,801 (uBlock)
 ##Last Updated on Wednsday, December 19, 2018
 
 #IP Loggers
@@ -8484,6 +8484,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/adsid/google/ui
 /universal-federated-analytics-min.js
 /js/ssa.firefly.head.js
 /framework/js/ssa.firefly.body.js
