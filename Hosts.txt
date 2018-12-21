@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ad-score.com
 0.0.0.0 ad.yieldlab.net
 0.0.0.0 auth.gfx.ms
 0.0.0.0 a.ads1.msads.net
@@ -1658,6 +1659,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.revcontent.com
 0.0.0.0 criteo.com
 0.0.0.0 clickout.sharethrough.com
 0.0.0.0 cdn.blueconic.net
@@ -2478,6 +2480,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js.ad-score.com
 0.0.0.0 jslog.krxd.net
 0.0.0.0 js.bunchofads.com
 0.0.0.0 js.intercomcdn.com
@@ -3647,6 +3650,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 revcontent.com
 0.0.0.0 r.offnews.bg
 0.0.0.0 reklama.onet.pl
 0.0.0.0 recreativ.ru
