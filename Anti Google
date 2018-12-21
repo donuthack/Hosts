@@ -1,0 +1,178 @@
+#This file is meant to be used on Android phones with Blokada
+0.0.0.0 google.com
+0.0.0.0 1e100.net
+0.0.0.0 googleusercontent.com
+0.0.0.0 bc.googleusercontent.com
+0.0.0.0 attributiontrackingga.googlecode.com
+0.0.0.0 analytics.google.com
+0.0.0.0 analytics-api-samples.googlecode.com
+0.0.0.0 afs.googlesyndication.com
+0.0.0.0 afs.googleusercontent.com
+0.0.0.0 ads.google.com
+0.0.0.0 ade.googlesyndication.com
+0.0.0.0 ad-creatives-public.commondatastorage.googleapis.com
+0.0.0.0 alt1-mtalk.google.com
+0.0.0.0 alt2-mtalk.google.com
+0.0.0.0 alt3-mtalk.google.com
+0.0.0.0 alt4-mtalk.google.com
+0.0.0.0 alt5-mtalk.google.com
+0.0.0.0 alt6-mtalk.google.com
+0.0.0.0 alt7-mtalk.google.com
+0.0.0.0 alt8-mtalk.google.com
+0.0.0.0 android.clients.google.com
+0.0.0.0 adservice.google.com
+0.0.0.0 clients.google.com
+0.0.0.0 client.google.com
+0.0.0.0 clients1.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 clients4.google.com
+0.0.0.0 clients5.google.com
+0.0.0.0 clientservices.googleapis.com
+0.0.0.0 domains.googlesyndication.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 feedads.googleadservices.com
+0.0.0.0 fonts.googleapis.com
+0.0.0.0 googlecommerence.com
+0.0.0.0 www.google-analytics.l.google.com
+0.0.0.0 google-analytics.l.google.com
+0.0.0.0 www.google.com.1.302br.net
+0.0.0.0 googleads1.g.doubleclick.net
+0.0.0.0 74.125.124.188
+0.0.0.0 192.168.254.254
+0.0.0.0 ord38s09-in-f4.1e100.net
+0.0.0.0 googleads2.g.doubleclick.net
+0.0.0.0 googleads3.g.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 gg.google.com
+0.0.0.0 googleadservices.com
+0.0.0.0 www.googleadservices.com
+0.0.0.0 googletagmanager.com
+0.0.0.0 googletagservices.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googlewordpad.info
+0.0.0.0 google-analytics.com
+0.0.0.0 imasdk.googleapis.com
+0.0.0.0 id.google.com
+0.0.0.0 myscoop-tracking.googlecode.com
+0.0.0.0 mtalk.google.com
+0.0.0.0 m4.afs.googleadservices.com
+0.0.0.0 mobilenetworkscoring-pa.googleapis.com
+0.0.0.0 mimageads.googleadservices.com
+0.0.0.0 mimageads1.googleadservices.com
+0.0.0.0 mimageads2.googleadservices.com
+0.0.0.0 mimageads3.googleadservices.com
+0.0.0.0 mimageads4.googleadservices.com
+0.0.0.0 mimageads5.googleadservices.com
+0.0.0.0 mimageads6.googleadservices.com
+0.0.0.0 mimageads7.googleadservices.com
+0.0.0.0 mimageads8.googleadservices.com
+0.0.0.0 mimageads9.googleadservices.com
+0.0.0.0 mpartner.googleadservices.com
+0.0.0.0 maps.googleapis.com
+0.0.0.0 partner.googleadservices.com
+0.0.0.0 pagead.googlesyndication
+0.0.0.0 pagead1.googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 pagead3.googlesyndication.com
+0.0.0.0 pagead4.googlesyndication.com
+0.0.0.0 router.googlecom.biz
+0.0.0.0 googlecom.biz
+0.0.0.0 safebrowsing.googleapis.com
+0.0.0.0 suggestqueries.google.com
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 trakksocial.googlecode.com
+0.0.0.0 tpc.googlesyndication.com.proxy.c9w.net
+0.0.0.0 tpcnc.googlesyndication.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 video-stats.video.google.com
+0.0.0.0 wintricksbanner.googlepages.com
+0.0.0.0 135.197.186.35.bc.googleusercontent.com
+0.0.0.0 135.197.186.35.bc.googleusercontent.com
+0.0.0.0 0-google.com
+0.0.0.0 mygooglemy.com
+0.0.0.0 atl26s16-in-f3.1e100.net
+0.0.0.0 lga25s61-in-f4.1e100.net
+0.0.0.0 nuq04s19-in-f3.1e100.net
+0.0.0.0 ox-in-f188.1e100.net
+0.0.0.0 yx-in-f106.1e100.net
+0.0.0.0 ya-in-f94.1e100.net
+0.0.0.0 ord38s09-in-f4.1e100.net
+0.0.0.0 172.217.9.68
+0.0.0.0 203.0.113.2
+0.0.0.0 ad.mo.doubleclick.net
+0.0.0.0 adclick.g.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 ad-emea.doubleclick.net
+0.0.0.0 ad-ace.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 betaadvertisers.doubleclick.net
+0.0.0.0 betareportcentral.doubleclick.net
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 dp.g.doubleclick.net
+0.0.0.0 doubleclick.net
+0.0.0.0 fls.doubleclick.net
+0.0.0.0 googleads1.g.doubleclick.net
+0.0.0.0 googleads2.g.doubleclick.net
+0.0.0.0 googleads3.g.doubleclick.net
+0.0.0.0 googleads4.g.doubleclick.net
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 pagead46.l.doubleclick.net
+0.0.0.0 survey.g.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 5118230.fls.doubleclick.net
+0.0.0.0 1016557.fls.doubleclick.net
+0.0.0.0 2542116.fls.doubleclick.net
+0.0.0.0 4218562.fls.doubleclick.net
+0.0.0.0 1268402.fls.doubleclick.net
+0.0.0.0 1326154.fls.doubleclick.net
+0.0.0.0 1330903.fls.doubleclick.net
+0.0.0.0 1359940.fls.doubleclick.net
+0.0.0.0 1412173.fls.doubleclick.net
+0.0.0.0 2013561.fls.doubleclick.net
+0.0.0.0 3130320.fls.doubleclick.net
+0.0.0.0 3276817.fls.doubleclick.net
+0.0.0.0 3501113.fls.doubleclick.net
+0.0.0.0 3738527.fls.doubleclick.net
+0.0.0.0 3773523.fls.doubleclick.net
+0.0.0.0 3738527.fls.doubleclick.net
+0.0.0.0 3773523.fls.doubleclick.net
+0.0.0.0 3879194.fls.doubleclick.net
+0.0.0.0 3941123.fls.doubleclick.net
+0.0.0.0 3973258.fls.doubleclick.net
+0.0.0.0 3982178.fls.doubleclick.net
+0.0.0.0 6901690.fls.doubleclick.net
+0.0.0.0 connectivitycheck.android.com
+0.0.0.0 android.com
+0.0.0.0 chrome.com
+0.0.0.0 gopacket.goforandroid.com
+0.0.0.0 geoip.goforandroid.com
+0.0.0.0 localytics.android.com
+0.0.0.0 ord38s08-in-f5.1e100.net
+0.0.0.0 ord38s09-in-f3.1e100.net
+0.0.0.0 ord38s09-in-f2.1e100.net
+0.0.0.0 ord38s09-in-f1.1e100.net
+0.0.0.0 ord38s09-in-f.1e100.net
+0.0.0.0 android.clients.google.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
