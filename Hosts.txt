@@ -3459,6 +3459,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 ord38s09-in-f4.1e100.net
 0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
 0.0.0.0 oca8.ppe.telemetry.microsoft.com
 0.0.0.0 oca7.ppe.telemetry.microsoft.com
@@ -4255,7 +4256,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 vortex-sandbox.data.microsoft.com
 0.0.0.0 video-stats.video.google.com
 0.0.0.0 verivox01.webtrekk.net
-0.0.0.0 versioncheck-bg.addons.mozilla.org
 0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
 0.0.0.0 visitor-track.com
