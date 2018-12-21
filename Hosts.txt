@@ -2212,7 +2212,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 free.realtracker.com
 0.0.0.0 free1.usa.realtracker.com
 0.0.0.0 fr.adserver.yahoo.com
-0.0.0.0 ftp.mozilla.org
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 facebook.com/plugins/likebox.php
@@ -3459,7 +3458,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 ord38s08-in-f5.1e100.net
 0.0.0.0 ord38s09-in-f4.1e100.net
+0.0.0.0 ord38s09-in-f3.1e100.net
+0.0.0.0 ord38s09-in-f2.1e100.net
+0.0.0.0 ord38s09-in-f1.1e100.net
+0.0.0.0 ord38s09-in-f.1e100.net
 0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
 0.0.0.0 oca8.ppe.telemetry.microsoft.com
 0.0.0.0 oca7.ppe.telemetry.microsoft.com
