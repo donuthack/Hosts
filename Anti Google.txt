@@ -1,5 +1,9 @@
 #This file is meant to be used on Android phones with Blokada
 0.0.0.0 google.com
+0.0.0.0 google.co
+0.0.0.0 google.co.ao
+0.0.0.0 gstatic.com
+0.0.0.0 google.net
 0.0.0.0 1e100.net
 0.0.0.0 googleusercontent.com
 0.0.0.0 bc.googleusercontent.com
