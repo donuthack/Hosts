@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,693 (uBlock)
-##Last Updated on Thursday, December 20, 2018
+##Last Updated on Friday, December 21, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 alb.reddit.com
+0.0.0.0 atl26s14-in-f10.1e100.net
+0.0.0.0 atl26s13-in-f10.1e100.net
+0.0.0.0 atl14s80-in-f8.1e100.net
+0.0.0.0 atl14s77-in-f10.1e100.net
 0.0.0.0 ad-score.com
 0.0.0.0 ad.yieldlab.net
 0.0.0.0 auth.gfx.ms
@@ -2127,6 +2132,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 e.reddit.com
+0.0.0.0 events.redditmedia.com
 0.0.0.0 e.nexac.com
 0.0.0.0 external-veil-1.xx.fbcdn.net
 0.0.0.0 external-frt3-1.xx.fbcdn.net
@@ -2388,6 +2395,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ig-in-f188.1e100.net
 0.0.0.0 irqs.ioam.de
 0.0.0.0 ioam.de
 0.0.0.0 img-s-msn-com.akamaized.net
@@ -3423,6 +3431,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nuq04s119-in-f10.1e100.net
 0.0.0.0 n2.smartyads.com
 0.0.0.0 netsr.softonicads.com
 0.0.0.0 new.smartcontext.pl
@@ -3655,6 +3664,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 trafficfactory.biz
+0.0.0.0 rpc-php.trafficfactory.biz
 0.0.0.0 revcontent.com
 0.0.0.0 r.offnews.bg
 0.0.0.0 reklama.onet.pl
@@ -3712,6 +3723,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 server-99-84-168-103.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-125.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-122.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-21.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-115.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-66.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-84.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-38.ord52.r.cloudfront.net
 0.0.0.0 ssl-heise.met.vgwort.de
 0.0.0.0 stags.bluekai.com
 0.0.0.0 sharethrough.adnxs.com
@@ -4402,6 +4421,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yb-in-f139.1e100.net
+0.0.0.0 yx-in-f101.1e100.net
+0.0.0.0 yv-in-f95.1e100.net
+0.0.0.0 yx-in-f95.1e100.net
+0.0.0.0 yb-in-f95.1e100.net
 0.0.0.0 yceml.net
 0.0.0.0 ytsa.net
 0.0.0.0 www.y8.com
@@ -4583,6 +4607,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 108.177.122.95
+0.0.0.0 108.177.122.188
+0.0.0.0 108.177.122.138
 0.0.0.0 112.2o7.net
 0.0.0.0 6to4.ipv6.microsoft.com
 0.0.0.0 a-0001.a-msedge.net
