@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,733 (uBlock)
-##Last Updated on Friday, December 21, 2018
+##Last Updated on Saturday, December 22, 2018
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -2132,6 +2132,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 edge-star-shv-02-ort2.facebook.com
 0.0.0.0 edge-star-mini-shv-01-atl3.facebook.com
 0.0.0.0 e.reddit.com
 0.0.0.0 events.redditmedia.com
@@ -2162,7 +2163,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 e.yieldmanager.net
 0.0.0.0 eu-pn4.adserver.yahoo.com
 0.0.0.0 es.adserver.yahoo.com
-0.0.0.0 edge-star-shv-02-ort2.facebook.com
 0.0.0.0 edge.quantserve.com
 0.0.0.0 e.crashlytics.com
 0.0.0.0 enter.sexlist.com
@@ -2222,7 +2222,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 fr.adserver.yahoo.com
 0.0.0.0 fls.doubleclick.net
 0.0.0.0 fastlane.rubiconproject.com
-0.0.0.0 facebook.com/plugins/likebox.php
 0.0.0.0 freenom.link
 0.0.0.0 flexytalk.net
 0.0.0.0 fls-na.amazon.com
@@ -2488,6 +2487,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jp.doubleclick.net
 0.0.0.0 js.ad-score.com
 0.0.0.0 jslog.krxd.net
 0.0.0.0 js.bunchofads.com
@@ -3284,6 +3284,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 mobile-gtalk.l.google.com
+0.0.0.0 metric.gstatic.com
 0.0.0.0 www1.mpnrs.com
 0.0.0.0 met.vgwort.de
 0.0.0.0 msads.net
@@ -3530,6 +3532,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 p5-lhw4jk4anlzk2-i63aajw7rkfmqnb7-248277-s1-v6exp3-v4.metric.gstatic.com
+0.0.0.0 p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-i1-unicast3.metric.gstatic.com
+0.0.0.0 p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-i2-unicast4.metric.gstatic.com
+0.0.0.0 p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-s1-v6exp3-v4.metric.gstatic.com
 0.0.0.0 platform-cdn.sharethrough.com
 0.0.0.0 platform.sharethrough.com
 0.0.0.0 ping.getadblock.com
@@ -4220,6 +4226,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 urchin.com
+0.0.0.0 uk.doubleclick.net
 0.0.0.0 ui.userlocal.jp
 0.0.0.0 use.typekit.net
 0.0.0.0 uedata.amazon.com
@@ -4608,6 +4616,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 2mdn.net
 0.0.0.0 185.151.204.9
 0.0.0.0 72.30.3.62
 0.0.0.0 74.125.136.95
