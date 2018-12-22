@@ -5,3 +5,5 @@ Hosts.txt - The main hosts file for ad blocking with a combination of ScriptBloc
 Malware.txt - Blocks malware URLs
 
 ScriptBlock.txt - Blocks scripts for analytic services, fingerprinting services, popups that tell you to turn your adblocker off as well as some ad services
+
+Anti Google.txt - Blocks everything I could find on Google, best used on Android to help keep Google from tracking everything you do
