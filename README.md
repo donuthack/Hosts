@@ -7,3 +7,5 @@ Malware.txt - Blocks malware URLs
 ScriptBlock.txt - Blocks scripts for analytic services, fingerprinting services, popups that tell you to turn your adblocker off as well as some ad services
 
 Anti Google.txt - Blocks everything I could find on Google, best used on Android to help keep Google from tracking everything you do
+
+Anti Yahoo.txt - Great for blocking crrap from Yahoo if you don't use Yahoo's Search Engine or Flickr
