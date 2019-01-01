@@ -8589,7 +8589,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
-/tr?id
+/tr
 /trg.gif
 /blank.gif
 /adServer.bs
