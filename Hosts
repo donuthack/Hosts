@@ -3545,6 +3545,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 pixel-geo.prfct.co
 0.0.0.0 profile.ak.fbcdn.net
 0.0.0.0 p5-lhw4jk4anlzk2-i63aajw7rkfmqnb7-248277-s1-v6exp3-v4.metric.gstatic.com
 0.0.0.0 p5-leclabnbo2pba-vfblo2qjncrb2sk4-328953-i1-unicast3.metric.gstatic.com
@@ -8589,6 +8590,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/_pa.facebookPixelId
 /tr
 /trg.gif
 /blank.gif
