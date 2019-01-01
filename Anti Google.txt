@@ -1,4 +1,4 @@
-#This file is meant to be used on Android phones with Blokada
+#This file is meant to be used on Android phones with Blokada (Breaks many features, tested on Motorola Z Droid and Google Pixel 3)
 0.0.0.0 google.com
 0.0.0.0 google.co
 0.0.0.0 google.ac
