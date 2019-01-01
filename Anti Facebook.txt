@@ -1,4 +1,6 @@
 0.0.0.0 facebook.com
+0.0.0.0 m.facebook.com
+0.0.0.0 facebook.de
 0.0.0.0 facebook.co
 0.0.0.0 facebook.net
 0.0.0.0 fbcdn.net
