@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,733 (uBlock)
-##Last Updated on Wednsday, December 26, 2018
+##Number of ad services, trackers, malware and scripts blocked: 8,734 (uBlock)
+##Last Updated on Tuesday, January 1, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -2133,6 +2133,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ec2-52-20-205-167.compute-1.amazonaws.com
 0.0.0.0 edge-star-shv-02-ort2.facebook.com
 0.0.0.0 edge-star-mini-shv-01-atl3.facebook.com
 0.0.0.0 e.reddit.com
@@ -4618,6 +4619,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 203.0.113.2
+0.0.0.0 198.41.215.162
+0.0.0.0 232.44.185.35.bc.googleusercontent.com
+0.0.0.0 198.41.214.162
+0.0.0.0 74.125.124.188
+0.0.0.0 40.112.192.231
+0.0.0.0 209.97.222.140
 0.0.0.0 2mdn.net
 0.0.0.0 185.151.204.9
 0.0.0.0 72.30.3.62
