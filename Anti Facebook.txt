@@ -1,1 +1,9 @@
-
+0.0.0.0 facebook.com
+0.0.0.0 facebook.co
+0.0.0.0 facebook.net
+0.0.0.0 fbcdn.net
+0.0.0.0 external-veil-1.xx.fbcdn.net
+0.0.0.0 external-frt3-1.xx.fbcdn.net
+0.0.0.0 external-frt3-2.xx.fbcdn.net
+0.0.0.0 edge-star-shv-02-ort2.facebook.com
+0.0.0.0 edge-star-mini-shv-01-atl3.facebook.com
