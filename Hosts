@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 a.ns.igcdn.com
 0.0.0.0 api-read.facebook.com
 0.0.0.0 action.media6degrees.com
 0.0.0.0 alb.reddit.com
@@ -1081,6 +1082,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 b.ns.musepixynet.com
+0.0.0.0 b.ns.igcdn.com
 0.0.0.0 b.sharethrough.com
 0.0.0.0 btlr.sharethrough.com
 0.0.0.0 b.codeonclick.com
@@ -2202,6 +2205,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fdda274d380ki4frcgi-rumjfjai1460158783-sonar.xx.fbcdn.net
 0.0.0.0 fbcdn-photos.akamaihd.net
 0.0.0.0 fbcdn-profile-a.akamaihd.net
 0.0.0.0 fullstory.com
@@ -3241,6 +3245,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 liverail.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com
 0.0.0.0 live.rads.msn.com
 0.0.0.0 link.ixs1.net
@@ -4627,6 +4632,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 173.252.70.250
+0.0.0.0 69.171.255.11
+0.0.0.0 69.171.239.11
+0.0.0.0 69.171.239.12
+0.0.0.0 69.171.255.12
+0.0.0.0 31.13.75.8
 0.0.0.0 203.0.113.2
 0.0.0.0 198.41.215.162
 0.0.0.0 232.44.185.35.bc.googleusercontent.com
