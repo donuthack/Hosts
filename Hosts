@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,758 (uBlock)
-##Last Updated on Tuesday, January 1, 2019
+##Last Updated on Wednesday, January 2, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -3545,6 +3545,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f188.1e100.net
 
 #P
+0.0.0.0 proxad.net
 0.0.0.0 pixel-geo.prfct.co
 0.0.0.0 profile.ak.fbcdn.net
 0.0.0.0 p5-lhw4jk4anlzk2-i63aajw7rkfmqnb7-248277-s1-v6exp3-v4.metric.gstatic.com
