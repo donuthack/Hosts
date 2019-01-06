@@ -57,6 +57,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ads.p-cdn.com
+0.0.0.0 ads.p-cdn.us
 0.0.0.0 adskeeper.co.uk
 0.0.0.0 a.ns.igcdn.com
 0.0.0.0 api-read.facebook.com
