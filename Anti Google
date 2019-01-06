@@ -329,6 +329,10 @@
 0.0.0.0 device-provisioning.googleapis.com
 0.0.0.0 youtube.googleapis.com
 0.0.0.0 youtubei.googleapis.com
+0.0.0.0 gtq.sct.sc-prod.net
+0.0.0.0 155.55.190.35.bc.googleusercontent.com
+0.0.0.0 164.121.201.35.bc.googleusercontent.com
+0.0.0.0 sc-prod.net
 0.0.0.0 appengine.clients6.google.com
 0.0.0.0 bigtableadmin.clients6.google.com
 0.0.0.0 clouddebugger.clients6.google.com
