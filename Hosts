@@ -1672,6 +1672,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 canonicalizer.ucsuri.tcs
 0.0.0.0 collector-pxhyx10rg3.perimeterx.net
 0.0.0.0 channel.facebook.com
 0.0.0.0 cdn.revcontent.com
