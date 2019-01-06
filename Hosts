@@ -3752,6 +3752,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 server-99-84-254-122.ord50.r.cloudfront.net
 0.0.0.0 service.t.sina.com.cn
 0.0.0.0 static.ak.fbcdn.net
 0.0.0.0 spot.im
