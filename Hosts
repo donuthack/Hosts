@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,804 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,805 (uBlock)
 ##Last Updated on Sunday, January 6, 2019
 
 #IP Loggers
@@ -3304,6 +3304,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 main.exdynsrv.com
 0.0.0.0 men.mittenscissors.pw
 0.0.0.0 mybestmv.com
 0.0.0.0 mobile-gtalk.l.google.com
