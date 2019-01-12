@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,816 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,820 (uBlock)
 ##Last Updated on Saturday, January 12, 2019
 
 #IP Loggers
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 api.swrve.com
 0.0.0.0 ads.p-cdn.com
 0.0.0.0 ads.p-cdn.us
 0.0.0.0 adskeeper.co.uk
@@ -2148,6 +2149,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 engine.spotscenered.info
 0.0.0.0 ecdn.firstimpression.io
 0.0.0.0 ec2-52-20-205-167.compute-1.amazonaws.com
 0.0.0.0 edge-star-shv-02-ort2.facebook.com
@@ -3763,6 +3765,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 spotscenered.info
 0.0.0.0 server-99-84-254-122.ord50.r.cloudfront.net
 0.0.0.0 service.t.sina.com.cn
 0.0.0.0 static.ak.fbcdn.net
@@ -4654,6 +4657,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 2405.api.swrve.com
 0.0.0.0 203.0.113.3
 0.0.0.0 138.197.218.56
 0.0.0.0 216.239.36.126
