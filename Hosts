@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,807 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,808 (uBlock)
 ##Last Updated on Friday, January 11, 2019
 
 #IP Loggers
@@ -4148,6 +4148,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracker.internetwarriors.net
 0.0.0.0 track.pricespider.com
 0.0.0.0 trowel.twitch.tv
 0.0.0.0 tyxo.bg
