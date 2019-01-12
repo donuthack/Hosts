@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,809 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,812 (uBlock)
 ##Last Updated on Saturday, January 12, 2019
 
 #IP Loggers
@@ -2146,6 +2146,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ecdn.firstimpression.io
 0.0.0.0 ec2-52-20-205-167.compute-1.amazonaws.com
 0.0.0.0 edge-star-shv-02-ort2.facebook.com
 0.0.0.0 edge-star-mini-shv-01-atl3.facebook.com
@@ -2213,6 +2214,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 firstimpression.io
 0.0.0.0 fdda274d380ki4frcgi-rumjfjai1460158783-sonar.xx.fbcdn.net
 0.0.0.0 fbcdn-photos.akamaihd.net
 0.0.0.0 fbcdn-profile-a.akamaihd.net
@@ -8610,6 +8612,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/player_204
 /ptracking
 /favicon.gif
 /yt/advertise/
