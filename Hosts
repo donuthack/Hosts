@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,815 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,816 (uBlock)
 ##Last Updated on Saturday, January 12, 2019
 
 #IP Loggers
@@ -1674,6 +1674,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 countess.twitch.tv
+0.0.0.0 client-event-reporter.twitch.tv
 0.0.0.0 coinadq7vhzoslid.onion
 0.0.0.0 canonicalizer.ucsuri.tcs
 0.0.0.0 collector-pxhyx10rg3.perimeterx.net
@@ -8612,6 +8614,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xml.onwardclick.com
 
 ##ScriptBlock.txt
+/ping.gif
 /adframestats
 /_tracking
 /fi_client.js
