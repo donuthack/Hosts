@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,820 (uBlock)
-##Last Updated on Saturday, January 12, 2019
+##Last Updated on Sunday, January 13, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -1086,6 +1086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 buzzadnetwork.com
 0.0.0.0 brohoodahjzxriv7.onion
 0.0.0.0 blockadblock.com
 0.0.0.0 b.ns.musepixynet.com
@@ -1675,6 +1676,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 clk.verblife-3.co
 0.0.0.0 countess.twitch.tv
 0.0.0.0 client-event-reporter.twitch.tv
 0.0.0.0 coinadq7vhzoslid.onion
@@ -2149,6 +2151,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 explorads.com
 0.0.0.0 engine.spotscenered.info
 0.0.0.0 ecdn.firstimpression.io
 0.0.0.0 ec2-52-20-205-167.compute-1.amazonaws.com
@@ -2421,6 +2424,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 iyfnzgb.com
 0.0.0.0 ig-in-f188.1e100.net
 0.0.0.0 irqs.ioam.de
 0.0.0.0 ioam.de
@@ -3465,6 +3469,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nextoptim.com
 0.0.0.0 nuq04s119-in-f10.1e100.net
 0.0.0.0 n2.smartyads.com
 0.0.0.0 netsr.softonicads.com
@@ -4317,6 +4322,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 viewmypdf.com
+0.0.0.0 verblife-3.co
 0.0.0.0 vntsm.com
 0.0.0.0 vtrack.com
 0.0.0.0 viewer.peer39.com
@@ -4445,6 +4452,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xml.explorads.com
 0.0.0.0 xlog-va.byteoversea.com
 0.0.0.0 xtrapath1.izatcloud.net
 0.0.0.0 xtrapath2.izatcloud.net
@@ -4563,6 +4571,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zukxd6fkxqn.com
 0.0.0.0 zn0cjgsju6439lcsd-microsoft.siteintercept.qualtrics.com
 0.0.0.0 z.moatads.com
 0.0.0.0 z.analytics.yahoo.com
