@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,820 (uBlock)
-##Last Updated on Sunday, January 13, 2019
+##Number of ad services, trackers, malware and scripts blocked: 8,821 (uBlock)
+##Last Updated on Wednesday, January 16, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 a63t9o1azf.com
 0.0.0.0 api.swrve.com
 0.0.0.0 ads.p-cdn.com
 0.0.0.0 ads.p-cdn.us
