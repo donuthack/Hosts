@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 8,823 (uBlock)
-##Last Updated on Sunday, January 20, 2019
+##Last Updated on Monday, January 21, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -1677,6 +1677,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 client-channel.google.com.au
+0.0.0.0 client1.google.com.au
+#0.0.0.0 client2.google.com.au (Blocks updates for Google products such as Chrome)
+0.0.0.0 client3.google.com.au
+0.0.0.0 client4.google.com.au
+0.0.0.0 client5.google.com.au
+0.0.0.0 client6.google.com.au
+0.0.0.0 clients2.google.com.au
+0.0.0.0 clients3.google.com.au
+0.0.0.0 clients4.google.com.au
+0.0.0.0 clients6.google.com.au
+0.0.0.0 client-channel.google.com
+0.0.0.0 client1.google.com
+#0.0.0.0 client2.google.com (Blocks updates for Google products such as Chrome)
+0.0.0.0 client3.google.com
+0.0.0.0 client4.google.com
+0.0.0.0 client5.google.com
+0.0.0.0 client6.google.com
+0.0.0.0 clients2.google.com
+0.0.0.0 clients3.google.com
+0.0.0.0 clients4.google.com
+0.0.0.0 clients6.google.com
+0.0.0.0 clientmetrics-pa.googleapis.com
 0.0.0.0 clk.verblife-3.co
 0.0.0.0 countess.twitch.tv
 0.0.0.0 client-event-reporter.twitch.tv
@@ -3267,6 +3290,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 logging.clients6.google.com
 0.0.0.0 liverail.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com
 0.0.0.0 live.rads.msn.com
@@ -3318,6 +3342,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 memcache.clients6.google.com
+0.0.0.0 ml.clients6.google.com
+0.0.0.0 mobilecrashreporting.clients6.google.com
 0.0.0.0 myvzw.com
 0.0.0.0 main.exdynsrv.com
 0.0.0.0 men.mittenscissors.pw
@@ -3509,6 +3536,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 ord36s01-in-f4.1e100.net
 0.0.0.0 ord38s19-in-f19.1e100.net
 0.0.0.0 ord38s08-in-f5.1e100.net
 0.0.0.0 ord38s09-in-f4.1e100.net
