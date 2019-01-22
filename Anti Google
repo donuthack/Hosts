@@ -480,6 +480,18 @@
 0.0.0.0 clients4.google.com
 0.0.0.0 clients6.google.com
 0.0.0.0 toolbarqueries.clients.google.com
+0.0.0.0 client-channel.google.com.au
+0.0.0.0 client1.google.com.au
+0.0.0.0 client2.google.com.au
+0.0.0.0 client3.google.com.au
+0.0.0.0 client4.google.com.au
+0.0.0.0 client5.google.com.au
+0.0.0.0 client6.google.com.au
+0.0.0.0 clients2.google.com.au
+0.0.0.0 clients3.google.com.au
+0.0.0.0 clients4.google.com.au
+0.0.0.0 clients6.google.com.au
+0.0.0.0 toolbarqueries.clients.google.com.au
 0.0.0.0 desktop1.google.com
 0.0.0.0 desktop2.google.com
 0.0.0.0 desktop3.google.com
@@ -2056,6 +2068,7 @@
 0.0.0.0 ord38s09-in-f.1e100.net
 0.0.0.0 ord37s19-in-f4.1e100.net
 0.0.0.0 ord38s19-in-f19.1e100.net
+0.0.0.0 ord36s01-in-f4.1e100.net
 0.0.0.0 android.clients.google.com
 0.0.0.0 ggpht.com
 0.0.0.0 216.239.36.126
@@ -2066,3 +2079,4 @@
 0.0.0.0 108.177.122.188
 0.0.0.0 108.177.122.95
 0.0.0.0 74.125.136.95
+0.0.0.0 198.41.215.162
