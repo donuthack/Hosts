@@ -2175,6 +2175,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ec2-52-206-219-190.compute-1.amazonaws.com
+0.0.0.0 ec2-34-203-185-26.compute-1.amazonaws.com
 0.0.0.0 www1.esat.kuleuven.be
 0.0.0.0 esat.kuleuven.be
 0.0.0.0 explorads.com
@@ -2573,6 +2575,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 knowledge.verizon.com
 0.0.0.0 kropka.onet.pl
 0.0.0.0 ktrackdata.com
 0.0.0.0 kyad88.com
@@ -3344,6 +3347,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f4.1e100.net
 
 #M
+0.0.0.0 myvzweb.verizon.com
 0.0.0.0 memcache.clients6.google.com
 0.0.0.0 ml.clients6.google.com
 0.0.0.0 mobilecrashreporting.clients6.google.com
@@ -3804,6 +3808,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 server-52-222-218-137.msp50.r.cloudfront.net
+0.0.0.0 server-99-84-168-50.ord52.r.cloudfront.net
 0.0.0.0 spotscenered.info
 0.0.0.0 server-99-84-254-122.ord50.r.cloudfront.net
 0.0.0.0 service.t.sina.com.cn
@@ -4701,6 +4707,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 52.222.218.137
+0.0.0.0 52.206.219.190
+0.0.0.0 99.84.168.50
 0.0.0.0 135.sub-198-224-148.myvzw.com
 0.0.0.0 2405.api.swrve.com
 0.0.0.0 203.0.113.3
