@@ -2175,6 +2175,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 www1.esat.kuleuven.be
+0.0.0.0 esat.kuleuven.be
 0.0.0.0 explorads.com
 0.0.0.0 engine.spotscenered.info
 0.0.0.0 ecdn.firstimpression.io
@@ -3742,6 +3744,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rp1.esat.kuleuven.be
 0.0.0.0 trafficfactory.biz
 0.0.0.0 rpc-php.trafficfactory.biz
 0.0.0.0 revcontent.com
