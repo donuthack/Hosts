@@ -1711,7 +1711,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 criteo.com
 0.0.0.0 clickout.sharethrough.com
 0.0.0.0 cdn.blueconic.net
-0.0.0.0 c.s-microsoft.com
 0.0.0.0 c.urs.microsoft.com
 0.0.0.0 cache.datamart.windows.com
 0.0.0.0 candycrushsoda.king.com
@@ -4004,7 +4003,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 s.pubmine.com
 0.0.0.0 s19.cnzz.com
 0.0.0.0 static.h-bid.com
-0.0.0.0 s-microsoft.com
 0.0.0.0 survey.g.doubleclick.net
 0.0.0.0 sjs.bizographics.com
 0.0.0.0 sjrtp1.marketo.com
