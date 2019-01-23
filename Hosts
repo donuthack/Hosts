@@ -2177,8 +2177,6 @@ ff02::3 ip6-allhosts
 #E
 0.0.0.0 ec2-52-206-219-190.compute-1.amazonaws.com
 0.0.0.0 ec2-34-203-185-26.compute-1.amazonaws.com
-0.0.0.0 www1.esat.kuleuven.be
-0.0.0.0 esat.kuleuven.be
 0.0.0.0 explorads.com
 0.0.0.0 engine.spotscenered.info
 0.0.0.0 ecdn.firstimpression.io
