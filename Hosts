@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,876 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,875 (uBlock)
 ##Last Updated on Thursday, January 24, 2019
 
 #IP Loggers
@@ -4332,7 +4332,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 unknowntray.com
 0.0.0.0 unrulymedia.com
 0.0.0.0 uop.umeng.com
-0.0.0.0 uhf.microsoft.com
 0.0.0.0 unity3d.ads.com
 0.0.0.0 ua.supersonicads.com
 0.0.0.0 us.supersonicads.com
