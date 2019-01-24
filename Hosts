@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,877 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,876 (uBlock)
 ##Last Updated on Thursday, January 24, 2019
 
 #IP Loggers
@@ -2368,7 +2368,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 g.3gl.net
 0.0.0.0 google-analytics.com
 0.0.0.0 gateway.foresee.com
-0.0.0.0 gfx.ms
 0.0.0.0 gannett-d.openx.net
 0.0.0.0 georiot.com
 0.0.0.0 gads.pubmatic.com
