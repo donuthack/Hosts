@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 a104-91-166-81.deploy.static.akamaitechnologies.com
 0.0.0.0 a63t9o1azf.com
 0.0.0.0 api.swrve.com
 0.0.0.0 ads.p-cdn.com
@@ -3537,6 +3538,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 ord30s26-in-f4.1e100.net
+0.0.0.0 atl26s18-in-f3.1e100.net
+0.0.0.0 ord30s21-in-f5.1e100.net
+0.0.0.0 ord38s19-in-f3.1e100.net
+0.0.0.0 ord37s08-in-f3.1e100.net
 0.0.0.0 ord31s22-in-f4.1e100.net
 0.0.0.0 ord37s18-in-f10.1e100.net
 0.0.0.0 ord36s01-in-f4.1e100.net
@@ -3805,6 +3811,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sfo03s06-in-f3.1e100.net
+0.0.0.0 server-99-84-254-114.ord50.r.cloudfront.net
+0.0.0.0 server-13-33-165-151.ord50.r.cloudfront.net
 0.0.0.0 server-52-222-218-137.msp50.r.cloudfront.net
 0.0.0.0 server-99-84-168-50.ord52.r.cloudfront.net
 0.0.0.0 spotscenered.info
@@ -4703,6 +4712,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 216.58.195.227
+0.0.0.0 216.239.36.5
+0.0.0.0 216.239.36.4
+0.0.0.0 216.58.192.228
 0.0.0.0 52.222.218.137
 0.0.0.0 52.206.219.190
 0.0.0.0 99.84.168.50
