@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,879 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 8,882 (uBlock)
 ##Last Updated on Sunday, January 27, 2019
 
 #IP Loggers
@@ -3291,6 +3291,34 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lga25s63-in-f1.1e100.net
+0.0.0.0 lga25s63-in-f2.1e100.net
+0.0.0.0 lga25s63-in-f3.1e100.net
+0.0.0.0 lga25s63-in-f4.1e100.net
+0.0.0.0 lga25s63-in-f5.1e100.net
+0.0.0.0 lga25s63-in-f6.1e100.net
+0.0.0.0 lga25s63-in-f7.1e100.net
+0.0.0.0 lga25s63-in-f8.1e100.net
+0.0.0.0 lga25s63-in-f9.1e100.net
+0.0.0.0 lga25s63-in-f10.1e100.net
+0.0.0.0 lga25s63-in-f11.1e100.net
+0.0.0.0 lga25s63-in-f12.1e100.net
+0.0.0.0 lga25s63-in-f13.1e100.net
+0.0.0.0 lga25s63-in-f14.1e100.net
+0.0.0.0 lga34s19-in-f1.1e100.net
+0.0.0.0 lga34s19-in-f2.1e100.net
+0.0.0.0 lga34s19-in-f3.1e100.net
+0.0.0.0 lga34s19-in-f4.1e100.net
+0.0.0.0 lga34s19-in-f5.1e100.net
+0.0.0.0 lga34s19-in-f6.1e100.net
+0.0.0.0 lga34s19-in-f6.1e100.net
+0.0.0.0 lga34s19-in-f8.1e100.net
+0.0.0.0 lga34s19-in-f9.1e100.net
+0.0.0.0 lga34s19-in-f10.1e100.net
+0.0.0.0 lga34s19-in-f11.1e100.net
+0.0.0.0 lga34s19-in-f12.1e100.net
+0.0.0.0 lga34s19-in-f13.1e100.net
+0.0.0.0 lga34s19-in-f14.1e100.net
 0.0.0.0 logging.clients6.google.com
 0.0.0.0 liverail.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com
