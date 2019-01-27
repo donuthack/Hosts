@@ -13,8 +13,8 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 8,875 (uBlock)
-##Last Updated on Thursday, January 24, 2019
+##Number of ad services, trackers, malware and scripts blocked: 8,879 (uBlock)
+##Last Updated on Sunday, January 27, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -3501,6 +3501,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nsvip01.windstream.net
+0.0.0.0 nsvip02.windstream.net
+0.0.0.0 nsvip03.windstream.net
+0.0.0.0 nsvip.windstream.net
 0.0.0.0 nextoptim.com
 0.0.0.0 nuq04s119-in-f10.1e100.net
 0.0.0.0 n2.smartyads.com
