@@ -15733,6 +15733,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tunnl.com
 0.0.0.0 tibaco.net
 0.0.0.0 t.irtya.com
 0.0.0.0 tracker.internetwarriors.net
@@ -15939,6 +15940,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wgplayer.com
 0.0.0.0 webservices.sub2tech.com
 0.0.0.0 web.softonic-analytics.net
 0.0.0.0 w.estat.com
