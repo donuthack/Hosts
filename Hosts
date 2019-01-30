@@ -57,6 +57,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ad.adpon.jp
+0.0.0.0 adingo.jp.eimg.jp
+0.0.0.0 ard.yahoo.co.jp
+0.0.0.0 ard.yahoo.co
+0.0.0.0 adserver.yahoo.co.jp
+0.0.0.0 adserver.yahoo.co
 0.0.0.0 a-ads.com
 0.0.0.0 atl26s13-in-f0.1e100.net
 0.0.0.0 atl26s13-in-f1.1e100.net
@@ -4089,6 +4095,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bc.geocities.yahoo.co.jp
+0.0.0.0 bc.geocities.yahoo.co
 0.0.0.0 buzzadnetwork.com
 0.0.0.0 brohoodahjzxriv7.onion
 0.0.0.0 blockadblock.com
@@ -5301,6 +5309,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 geocities.yahoo.co.jp
+0.0.0.0 geocities.yahoo.co
 0.0.0.0 getfree-vpn.com
 0.0.0.0 gum.criteo.com
 0.0.0.0 global.msads.net
@@ -5389,6 +5399,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 he2d.com
 0.0.0.0 hb.vntsm.com
 0.0.0.0 hitx.statistics.ro
 0.0.0.0 hit.gemius.pl
@@ -6793,6 +6804,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 logoole.yahoo.co.jp
+0.0.0.0 logoole.yahoo.co
 0.0.0.0 lga25s63-in-f0.1e100.net
 0.0.0.0 lga25s63-in-f1.1e100.net
 0.0.0.0 lga25s63-in-f2.1e100.net
@@ -14611,6 +14624,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f500.1e100.net
 
 #P
+0.0.0.0 promotionalads.yahoo.co.jp
+0.0.0.0 promotionalads.yahoo.co
 0.0.0.0 proxad.net
 0.0.0.0 pixel-geo.prfct.co
 0.0.0.0 profile.ak.fbcdn.net
@@ -14753,6 +14768,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rd.yahoo.co.jp
+0.0.0.0 rd.yahoo.co
 0.0.0.0 rp1.esat.kuleuven.be
 0.0.0.0 trafficfactory.biz
 0.0.0.0 rpc-php.trafficfactory.biz
@@ -14813,6 +14830,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sdqoi2d.com
+0.0.0.0 smartads.mobile.yahoo.co.jp
+0.0.0.0 smartads.mobile.yahoo.co
 0.0.0.0 statsforads.com
 0.0.0.0 sfo03s06-in-f0.1e100.net
 0.0.0.0 sfo03s06-in-f1.1e100.net
@@ -15870,6 +15890,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 v4dwkcv.com
 0.0.0.0 viewmypdf.com
 0.0.0.0 verblife-3.co
 0.0.0.0 vntsm.com
@@ -16027,6 +16048,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yjaxc.yahoo.co.jp
+0.0.0.0 yjaxc.yahoo.co
+0.0.0.0 yads.yjtag.yahoo.co.jp
+0.0.0.0 yads.yjtag.yahoo.co
+0.0.0.0 yjtag.yahoo.co.jp
+0.0.0.0 yjtag.yahoo.co
+0.0.0.0 yads.yahoo.co.jp
+0.0.0.0 yads.yahoo.co
+0.0.0.0 yeas.yahoo.co.jp
+0.0.0.0 yeas.yahoo.co
 0.0.0.0 yx-in-f0.1e100.net
 0.0.0.0 yx-in-f1.1e100.net
 0.0.0.0 yx-in-f2.1e100.net
