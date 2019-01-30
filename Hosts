@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adomik.com
 0.0.0.0 adoric-om.com
 0.0.0.0 ad.adpon.jp
 0.0.0.0 adingo.jp.eimg.jp
@@ -4688,6 +4689,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 consensu.org
 0.0.0.0 click.a-ads.com
 0.0.0.0 client-channel.google.com.au
 0.0.0.0 client1.google.com.au
@@ -14628,6 +14630,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ox-in-f500.1e100.net
 
 #P
+0.0.0.0 prebid.org
 0.0.0.0 promotionalads.yahoo.co.jp
 0.0.0.0 promotionalads.yahoo.co
 0.0.0.0 proxad.net
