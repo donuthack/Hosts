@@ -4689,6 +4689,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cognito-identity.us-east-1.amazonaws.com
 0.0.0.0 consensu.org
 0.0.0.0 click.a-ads.com
 0.0.0.0 client-channel.google.com.au
@@ -14837,6 +14838,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 syndn.net
+0.0.0.0 s-onetag.com
 0.0.0.0 static-dmp.mediaglacier.com
 0.0.0.0 sdqoi2d.com
 0.0.0.0 smartads.mobile.yahoo.co.jp
