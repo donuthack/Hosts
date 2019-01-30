@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 22,379 (uBlock)
-##Last Updated on Sunday, January 27, 2019
+##Last Updated on Tuesday, January 29, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 a-ads.com
 0.0.0.0 atl26s13-in-f0.1e100.net
 0.0.0.0 atl26s13-in-f1.1e100.net
 0.0.0.0 atl26s13-in-f2.1e100.net
@@ -4678,6 +4679,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 click.a-ads.com
 0.0.0.0 client-channel.google.com.au
 0.0.0.0 client1.google.com.au
 #0.0.0.0 client2.google.com.au (Blocks updates for Google products such as Chrome)
@@ -14811,6 +14813,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 statsforads.com
 0.0.0.0 sfo03s06-in-f0.1e100.net
 0.0.0.0 sfo03s06-in-f1.1e100.net
 0.0.0.0 sfo03s06-in-f2.1e100.net
@@ -18208,6 +18211,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 104.24.5.71
+0.0.0.0 72.21.91.29
+0.0.0.0 151.101.186.110
 0.0.0.0 216.58.195.227
 0.0.0.0 216.239.36.5
 0.0.0.0 216.239.36.4
