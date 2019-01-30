@@ -57,6 +57,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adoric-om.com
 0.0.0.0 ad.adpon.jp
 0.0.0.0 adingo.jp.eimg.jp
 0.0.0.0 ard.yahoo.co.jp
@@ -5399,6 +5400,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hb.improvedigital.com
 0.0.0.0 he2d.com
 0.0.0.0 hb.vntsm.com
 0.0.0.0 hitx.statistics.ro
@@ -5462,6 +5464,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 improvedigital.com
 0.0.0.0 irtya.com
 0.0.0.0 iyfnzgb.com
 0.0.0.0 ig-in-f0.1e100.net
@@ -7859,6 +7862,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 lga25s61-in-f500.1e100.net
 
 #M
+0.0.0.0 mediaglacier.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 myvzweb.verizon.com
 0.0.0.0 memcache.clients6.google.com
@@ -14830,6 +14834,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static-dmp.mediaglacier.com
 0.0.0.0 sdqoi2d.com
 0.0.0.0 smartads.mobile.yahoo.co.jp
 0.0.0.0 smartads.mobile.yahoo.co
@@ -15728,6 +15733,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tibaco.net
 0.0.0.0 t.irtya.com
 0.0.0.0 tracker.internetwarriors.net
 0.0.0.0 track.pricespider.com
@@ -18242,6 +18248,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 60095256.adoric-om.com
 0.0.0.0 104.24.5.71
 0.0.0.0 72.21.91.29
 0.0.0.0 151.101.186.110
