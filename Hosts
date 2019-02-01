@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 22,690 (uBlock)
-##Last Updated on Wednesday, January 30, 2019
+##Last Updated on Thursday, January 31, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 audiens.com
+0.0.0.0 www.audiens.com
+0.0.0.0 adv.ru
+0.0.0.0 abs-static.org
+0.0.0.0 adnetpartner.com
+0.0.0.0 advadnetwork.me
+0.0.0.0 ardeta.ru
+0.0.0.0 awempire.com
+0.0.0.0 www.awempire.com
+0.0.0.0 allmysource.ru
+0.0.0.0 adsbridge.com
+0.0.0.0 api.adplexity.com
+0.0.0.0 adplexity.com
+0.0.0.0 advg.agency
+0.0.0.0 acstat.com
+0.0.0.0 ad.outstream.today
 0.0.0.0 adtags.pro
 0.0.0.0 ayauaqatyx.xyz
 0.0.0.0 arbxtrack.com
@@ -1170,6 +1186,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 beroll.ru
+0.0.0.0 brlxlpe8pmdgqv.ru
+0.0.0.0 bbvc2.com
+0.0.0.0 blog.bemob.com
+0.0.0.0 bemob.com
+0.0.0.0 blog.mgid.com
+0.0.0.0 b.nude-moon.xyz
 0.0.0.0 bussters.com
 0.0.0.0 bonus2u.ru
 0.0.0.0 brndrm.com
@@ -1783,8 +1806,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 c704655a9050bdcc.com
+0.0.0.0 crusewind.net
+0.0.0.0 creofun.com
+0.0.0.0 creofive.com
+0.0.0.0 count251yes.com
+0.0.0.0 credishe.com
+0.0.0.0 carriers.adplexity.com
+0.0.0.0 cpamatica.com
+0.0.0.0 cpamatica.io
+0.0.0.0 cpagettio.com
+0.0.0.0 cdn.malokacha.club
+0.0.0.0 cpagette.com
+0.0.0.0 cpiyz.com
 0.0.0.0 chygam.ru
 0.0.0.0 code.directadvert.ru
+0.0.0.0 cpaggetti.com
 0.0.0.0 clickganic.com
 0.0.0.0 click-gate.ru
 0.0.0.0 cityadspix.com
@@ -2147,6 +2184,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 doctorsh.ru
+0.0.0.0 daayenetra.ml
+0.0.0.0 duhtate.ru
+0.0.0.0 dditscdn.com
+0.0.0.0 desktop.adplexity.com
 0.0.0.0 directadvert.ru
 0.0.0.0 dashboard.adtags.pro
 0.0.0.0 dounwil.ru
@@ -2154,6 +2196,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dintsupnejec.ru
 0.0.0.0 dlads.cn
 0.0.0.0 dazhantai.com
+0.0.0.0 d7921da5d4c24.com
 0.0.0.0 doubleclick.ne.jp
 0.0.0.0 de.ioam.de
 0.0.0.0 dumb-waiter.sharethrough.com
@@ -2312,6 +2355,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 epartner.ru
+0.0.0.0 eogli.org
+0.0.0.0 entercash.ru
+0.0.0.0 erotraf.com
+0.0.0.0 et-cod.com
+0.0.0.0 ejdbebdeghajgdicadc.ru
+0.0.0.0 eqtaxag.ru
+0.0.0.0 ecommerce.adplexity.com
+0.0.0.0 efngeka8czukzyb.ru
+0.0.0.0 e5mbjzv.com
 0.0.0.0 ecadikenaz.com
 0.0.0.0 ehntqzv1apeizca.ru
 0.0.0.0 edugram.com
@@ -2389,6 +2442,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 forex-tv-online.com
+0.0.0.0 fastcpm.ru
+0.0.0.0 falobo.ru
+0.0.0.0 fouoh.com
 0.0.0.0 forum.globusevent.ru
 0.0.0.0 faktty.com
 0.0.0.0 fafc5ra5.ru
@@ -2446,6 +2503,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gakogedifoda.ru
+0.0.0.0 get35.com
+0.0.0.0 gcjehafhajjhcdicaeb.ru
 0.0.0.0 gfjhgfjfebhccgafaed.ru
 0.0.0.0 gwxpv.com
 0.0.0.0 geocities.yahoo.co.jp
@@ -2538,6 +2598,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hd100546b.com
+0.0.0.0 hnikna.ru
+0.0.0.0 help.bemob.com
 0.0.0.0 healthynews03.ru
 0.0.0.0 haphiterton.ru
 0.0.0.0 hjgajfbhiefjigafafc.ru
@@ -2605,6 +2668,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ipml-qvr8go.ru
+0.0.0.0 idealmedia.io
 0.0.0.0 impressionsme.net
 0.0.0.0 ieuhd.com
 0.0.0.0 inmobi-jp.com
@@ -2702,6 +2767,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jopd.ru
+0.0.0.0 jsc.idealmedia.io
 0.0.0.0 jeculdfores.ru
 0.0.0.0 jivosite.com
 0.0.0.0 jiawen88.com
@@ -2735,6 +2802,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kibaneba.ru
+0.0.0.0 knopka.trade
 0.0.0.0 kdsk32lfa.xyz
 0.0.0.0 kukuplay.com
 0.0.0.0 knowledge.verizon.com
@@ -3457,6 +3526,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lactotof.ru
+0.0.0.0 livechatinc.com
+0.0.0.0 ladyya.ru
+0.0.0.0 leuxq.com
 0.0.0.0 look-reklama.ru
 0.0.0.0 lactonssofut.ru
 0.0.0.0 livead.jp
@@ -3515,6 +3588,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 m0zdeb.ru
+0.0.0.0 mdvkn.com
+0.0.0.0 mypictures-onlinegood.info
+0.0.0.0 molefefiseranis.ru
+0.0.0.0 medtiz.com
+0.0.0.0 mynikolaev.vn.ua
+0.0.0.0 megapu.sh
+0.0.0.0 megapu.ru
+0.0.0.0 mobiads.ru
 0.0.0.0 money-in-net.ru
 0.0.0.0 mbzl-pro.xyz
 0.0.0.0 mega-polza.ru
@@ -3682,6 +3764,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 namogemi.ru
+0.0.0.0 native.adplexity.com
+0.0.0.0 nztrt.top
 0.0.0.0 nethatriheg.ru
 0.0.0.0 nnavigation.info
 0.0.0.0 nsvip01.windstream.net
@@ -3723,6 +3808,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 offerlead.net
+0.0.0.0 ogeri.ru
+0.0.0.0 offervault.com
+0.0.0.0 obladv.ru
+0.0.0.0 obliv.online
+0.0.0.0 oblvk.ru
+0.0.0.0 outstream.today
 0.0.0.0 osrones.ru
 0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
 0.0.0.0 oca8.ppe.telemetry.microsoft.com
@@ -3779,6 +3871,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 proofly.date
+0.0.0.0 prgmh.com
+0.0.0.0 promo-bc.com
+0.0.0.0 panel.bemob.com
+0.0.0.0 partner.adsbridge.com
+0.0.0.0 panel.peerclick.com
+0.0.0.0 peerclick.com
+0.0.0.0 peer-click.com
 0.0.0.0 plp.parklogic.com
 0.0.0.0 parking.parklogic.com
 0.0.0.0 prnhpe.pro
@@ -3917,6 +4017,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qxyam.com
 0.0.0.0 qihucdn.com
 0.0.0.0 qls.qsstats.com
 0.0.0.0 qsstats.com
@@ -3935,6 +4036,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rtbmedia.org
+0.0.0.0 revart.trade
+0.0.0.0 rekl1.com
+0.0.0.0 realbig.media
+0.0.0.0 roistat.com
 0.0.0.0 rbrxg.com
 0.0.0.0 rinwasmahis.ru
 0.0.0.0 retsiti.ru
@@ -4003,6 +4109,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 smiinformer1.com
+0.0.0.0 sedoparking.com
+0.0.0.0 st.astraone.io
+0.0.0.0 sexohme.ru
+0.0.0.0 static.awempire.com
+0.0.0.0 smiinformer.online
+0.0.0.0 sdv-m.ru
+0.0.0.0 stat360.net
+0.0.0.0 smiinform.zone
 0.0.0.0 sfo1.admarketplace.net
 0.0.0.0 sendpulse.com
 0.0.0.0 steambets.net
@@ -4407,6 +4522,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 t-fb-w-sv-bn-7j.ru
+0.0.0.0 tnevota.ru
+0.0.0.0 traffikx.info
+0.0.0.0 toroptotrab.ru
 0.0.0.0 teasers.mobi
 0.0.0.0 trevoltas.pro
 0.0.0.0 tizerbox.net
@@ -4530,6 +4649,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 uryle.ru
+0.0.0.0 usstero.com
+0.0.0.0 undleftranver.ru
 0.0.0.0 ubfhq.top
 0.0.0.0 u1tshop.ru
 0.0.0.0 u2tshop.ru
@@ -4584,6 +4706,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vatafapac.ru
 0.0.0.0 v0hs81ev3vepjr.ru
 0.0.0.0 vam-nado.ru
 0.0.0.0 v4dwkcv.com
@@ -4629,6 +4752,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 webvideomarketing.ru
+0.0.0.0 wap.men
+0.0.0.0 www.wap.men
+0.0.0.0 wapclick.guru
+0.0.0.0 www.wapclick.guru
+0.0.0.0 wapclick.com
+0.0.0.0 www.wapclick.com
+0.0.0.0 wap.click
+0.0.0.0 www.wap.click
+0.0.0.0 webmoney.ru
+0.0.0.0 www.webmoney.ru
+0.0.0.0 web.money
+0.0.0.0 www.web.money
+0.0.0.0 widget.market-place.su
 0.0.0.0 wer.glib-cough.fun
 0.0.0.0 wgplayer.com
 0.0.0.0 webservices.sub2tech.com
@@ -4719,6 +4856,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xlnuj.com
 0.0.0.0 x-lift.jp
 0.0.0.0 xml.explorads.com
 0.0.0.0 xlog-va.byteoversea.com
@@ -4747,6 +4885,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 ywhnh.top
+0.0.0.0 ysowy.com
+0.0.0.0 yndxstat.ru
+0.0.0.0 youngrul.pro
+0.0.0.0 ya.vteplom.ru
 0.0.0.0 yqkpt.com
 0.0.0.0 ylkkp.com
 0.0.0.0 yu0123456.com
@@ -4943,6 +5086,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 89eb01f7f8503aef.com
+0.0.0.0 93.93.53.198
 0.0.0.0 777-888.ru
 0.0.0.0 7offers.ru
 0.0.0.0 6a9c7d514c81589.com
