@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 22,690 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 22,836 (uBlock)
 ##Last Updated on Thursday, January 31, 2019
 
 #IP Loggers
