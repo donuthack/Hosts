@@ -3765,6 +3765,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nqs.nice264.com
 0.0.0.0 namogemi.ru
 0.0.0.0 native.adplexity.com
 0.0.0.0 nztrt.top
@@ -5093,6 +5094,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 74.125.196.105
 0.0.0.0 209.237.196.128
 0.0.0.0 209.237.200.128
 0.0.0.0 104.244.42.130
