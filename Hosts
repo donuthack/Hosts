@@ -57,6 +57,35 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adsapi.manhuaren.com
+0.0.0.0 adplex.co.kr
+0.0.0.0 adplex.com
+0.0.0.0 adtive.co.kr
+0.0.0.0 adtive.com
+0.0.0.0 a.6d47c1118927cf53ba9654931df80e8d.com
+0.0.0.0 abtest.mistat.xiaomi.com
+0.0.0.0 abtest.mistat.intl.xiaomi.com
+0.0.0.0 apse-clean.ludashi.com
+0.0.0.0 api.iad1.squareup.com
+0.0.0.0 appnext.com
+0.0.0.0 admin.appnext.com
+0.0.0.0 api.mobojoy.baidu.com
+0.0.0.0 ads.duapps.com
+0.0.0.0 ad.duapps.com
+0.0.0.0 api.mobula.sdk.duapps.com
+0.0.0.0 api.mobula.ds.duapps.com
+0.0.0.0 ad2play.ftv-publicite.fr
+0.0.0.0 ad.prismamediadigital.com
+0.0.0.0 api.ads.watchabc.go.com
+0.0.0.0 ads.watchabc.go.com
+0.0.0.0 ads-chunks.prod.ihrhls.com
+0.0.0.0 adserver.shadow.snapads.com
+0.0.0.0 ad.flipboard.com
+0.0.0.0 ad.api.kaffnet.com
+0.0.0.0 advonline.goforandroid.com
+0.0.0.0 adpush.goforandroid.com
+0.0.0.0 advs2sonline.goforandroid.com
+0.0.0.0 ad.weplayer.cc
 0.0.0.0 anetwork.ir
 0.0.0.0 adzouktech.com
 0.0.0.0 adzouk1tag.com
@@ -1247,6 +1276,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bu1.duba.com
 0.0.0.0 brat-online.ro
 0.0.0.0 bannersnack.com
 0.0.0.0 broced.co
@@ -1872,6 +1902,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn1.ettoday.net
+0.0.0.0 course-fitness.com
+0.0.0.0 c3.myapkcdn.in
+0.0.0.0 common.duapps.com
+0.0.0.0 crosspromotion.weplayer.cc
+0.0.0.0 cmdts.ksmobile.com
 0.0.0.0 coolmobile.es
 0.0.0.0 coolmobile.net
 0.0.0.0 contadorgratis.web-kit.org
@@ -2270,6 +2306,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 deliveryengine.adswizz.com
+0.0.0.0 doesxyz.com
+0.0.0.0 dzpu6za66svjl.cloudfront.net
 0.0.0.0 detectca.easysol.net
 0.0.0.0 de17a.com
 0.0.0.0 datatech.es
@@ -2448,6 +2487,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ettoday.net
+0.0.0.0 euadsapi.manhuaren.com
+0.0.0.0 ec2-52-71-18-187.compute-1.amazonaws.com
+0.0.0.0 ec2-52-4-246-83.compute-1.amazonaws.com
+0.0.0.0 ec2-3-93-210-64.compute-1.amazonaws.com
+0.0.0.0 ec2-52-2-100-167.compute-1.amazonaws.com
+0.0.0.0 ec2-18-206-2-146.compute-1.amazonaws.com
+0.0.0.0 ec2-174-129-10-203.compute-1.amazonaws.com
 0.0.0.0 en.2performant.com
 0.0.0.0 economicos.cl
 0.0.0.0 enlarget.com
@@ -2539,6 +2586,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 freeindoapp.com
 0.0.0.0 foxpush.com
 0.0.0.0 forex-tv-online.com
 0.0.0.0 fastcpm.ru
@@ -2601,6 +2649,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 goforandroid.com
 0.0.0.0 grgs.ro
 0.0.0.0 gravityrd-services.com
 0.0.0.0 getmyads.com
@@ -2703,6 +2752,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 h5.wannaplay.cn
 0.0.0.0 hitplus.ir
 0.0.0.0 harrenmedianetwork.com
 0.0.0.0 hd100546b.com
@@ -2775,6 +2825,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 i.mxplayer.j2inter.com
+0.0.0.0 i2.myapkcdn.in
+0.0.0.0 id1.cn
 0.0.0.0 irjo.ga
 0.0.0.0 i401xox.com
 0.0.0.0 ip-label.co.uk
@@ -2879,6 +2932,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 j2inter.com
+0.0.0.0 js.mobojoy.baidu.com
 0.0.0.0 js.foxpush.com
 0.0.0.0 jsecoin.com
 0.0.0.0 jwpsrv.com
@@ -2918,6 +2973,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kaffnet.com
 0.0.0.0 kaprila.com
 0.0.0.0 kibaneba.ru
 0.0.0.0 knopka.trade
@@ -3643,6 +3699,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 look.kfiopkln.com
+0.0.0.0 liftoff.io
+0.0.0.0 li1499-96.members.linode.com
 0.0.0.0 liveadoptimizer.com
 0.0.0.0 leadzutw.com
 0.0.0.0 lzrikate.com
@@ -3708,6 +3767,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mistat.intl.xiaomi.com
+0.0.0.0 mail.cocamobile.com
+0.0.0.0 mo.freeindoapp.com
+0.0.0.0 mblapi.ssl2.duapps.com
+0.0.0.0 mobula.ssl2.duapps.com
+0.0.0.0 mobile-campaigns.avast.com
+0.0.0.0 m.yap.yahoo.com
 0.0.0.0 miarroba.com
 0.0.0.0 myownads.space
 0.0.0.0 megapopads.com
@@ -3893,6 +3959,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 noxagile.duapp.com
 0.0.0.0 new.cetrk.com
 0.0.0.0 newd.cetrk.com
 0.0.0.0 noadblock.org
@@ -3942,6 +4009,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 opr.formulas.jp
+0.0.0.0 online-prod.zenmxapps.com
 0.0.0.0 omniconvert.com
 0.0.0.0 onclicktop.com
 0.0.0.0 offaces-butional.com
@@ -4008,6 +4077,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 post-box.xyz
+0.0.0.0 plugin.mobopay.baidu.com
+0.0.0.0 pasta.esfile.duapps.com
+0.0.0.0 p-behacdn.ksmobile.net
 0.0.0.0 paypop.org
 0.0.0.0 p30rank.ir
 0.0.0.0 pwa.grgs.ro
@@ -4186,6 +4259,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rtapi.abbi.io
+0.0.0.0 rtb.appbid.com
 0.0.0.0 raychat.io
 0.0.0.0 rzb.ir
 0.0.0.0 retargeting.biz
@@ -4267,6 +4342,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sitemaji.com
+0.0.0.0 server-13-33-165-165.ord50.r.cloudfront.net
+0.0.0.0 server-54-230-90-3.ind6.r.cloudfront.net
+0.0.0.0 sync.mobojoy.baidu.com
+0.0.0.0 shadow.snapads.com
 0.0.0.0 static.clix.ir
 0.0.0.0 ssads.net
 0.0.0.0 sabavision.com
@@ -4706,6 +4786,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tveta.naver.net
+0.0.0.0 tapdaq-adverts.global.ssl.fastly.net
 0.0.0.0 tapsell.ir
 0.0.0.0 track.atom-data.io
 0.0.0.0 tesseradigital.com
@@ -4839,6 +4921,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 usp1.baidu.com
+0.0.0.0 ufz.doesxyz.com
 0.0.0.0 usemessages.com
 0.0.0.0 uryle.ru
 0.0.0.0 usstero.com
@@ -4945,6 +5029,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 weplayer.cc
 0.0.0.0 wofana.com
 0.0.0.0 witholiced.info
 0.0.0.0 wekiss.co
@@ -5053,6 +5138,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xdrig.com
 0.0.0.0 xlnuj.com
 0.0.0.0 x-lift.jp
 0.0.0.0 xml.explorads.com
@@ -5285,6 +5371,40 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 6d47c1118927cf53ba9654931df80e8d.com
+0.0.0.0 49.82.38.178
+0.0.0.0 46.61.67.199
+0.0.0.0 180.242.34.243
+0.0.0.0 104.238.39.111
+0.0.0.0 86.127.178.238
+0.0.0.0 79.184.45.145
+0.0.0.0 192.144.185.219
+0.0.0.0 31.23.107.80
+0.0.0.0 31.23.136.211
+0.0.0.0 93.178.67.136
+0.0.0.0 84.51.210.90
+0.0.0.0 185.175.34.65
+0.0.0.0 109.165.42.72
+0.0.0.0 118.169.81.209
+0.0.0.0 31.23.217.30
+0.0.0.0 104.16.204.165
+0.0.0.0 154.51.128.102
+0.0.0.0 52.219.80.120
+0.0.0.0 203.119.129.119
+0.0.0.0 203.107.1.1
+0.0.0.0 203.119.216.50
+0.0.0.0 85.97.201.35.bc.googleusercontent.com
+0.0.0.0 172.217.9.84
+0.0.0.0 45.60.11.176
+0.0.0.0 152.195.54.7
+0.0.0.0 12.197.161.75
+0.0.0.0 47.74.171.2
+0.0.0.0 161.117.70.127
+0.0.0.0 78.129.129.136
+0.0.0.0 216.58.192.148
+0.0.0.0 52.2.100.167
+0.0.0.0 18.206.2.146
+0.0.0.0 54.222.186.106
 0.0.0.0 30nama.fun
 0.0.0.0 1000click.ir
 0.0.0.0 4yonder.net
