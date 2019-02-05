@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 23,195 (uBlock)
-##Last Updated on Saturday, February 2, 2019
+##Last Updated on Monday, February 4, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adn.insight.ucweb.com
+0.0.0.0 auction.unityads.unity3d.com
+0.0.0.0 aclickoooo.host
+0.0.0.0 ap.smardroid.com
+0.0.0.0 advertserve.com
+0.0.0.0 adbetnet.advertserve.com
+0.0.0.0 adsmogo.net
+0.0.0.0 adsmogo.org
+0.0.0.0 adsmogo.mobi
+0.0.0.0 adtiming.com
+0.0.0.0 api.vpon.com
+0.0.0.0 adbert.info
+0.0.0.0 agent.tamedia.com.tw
+0.0.0.0 abroad-ad.kingsoft-office-service.com
+0.0.0.0 ads.jianchiapp.com
+0.0.0.0 ads-bidder-api.twitter.com
+0.0.0.0 ad.adapter.kaffnet.com
+0.0.0.0 adv-ettoday.cdn.hinet.net
+0.0.0.0 ad-ettoday.cdn.hinet.net
+0.0.0.0 adv.ettoday.net
+0.0.0.0 a0.awsstatic.com
 0.0.0.0 adsapi.manhuaren.com
 0.0.0.0 adplex.co.kr
 0.0.0.0 adplex.com
@@ -972,6 +993,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.creative-serving.com
 0.0.0.0 ads.creativematch.com
 0.0.0.0 ads.cricbuzz.com
+0.0.0.0 adops.cricbuzz.com
 0.0.0.0 ads.cybersales.cz
 0.0.0.0 ads.dada.it
 0.0.0.0 ads.datinggold.com
@@ -1902,6 +1924,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn-highwinds.unityads.unity3d.com
+0.0.0.0 cdn.adbert.info
+0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 cdn-cf.postitial.com
+0.0.0.0 client.midosoo.com
 0.0.0.0 cdn1.ettoday.net
 0.0.0.0 course-fitness.com
 0.0.0.0 c3.myapkcdn.in
@@ -2282,7 +2309,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cellphoneapplicationminesoft.win
 0.0.0.0 cdn.viglink.com
 0.0.0.0 cdn.taboola.com
-0.0.0.0 cdnjs.cloudflare.com
 0.0.0.0 cdn3.doubleverify.com
 0.0.0.0 counter.yadro.ru
 0.0.0.0 cdn.optimizely.com
@@ -2306,6 +2332,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 daumcdn.net
 0.0.0.0 deliveryengine.adswizz.com
 0.0.0.0 doesxyz.com
 0.0.0.0 dzpu6za66svjl.cloudfront.net
@@ -2420,6 +2447,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 desgao1zt7irn.cloudfront.net
 0.0.0.0 d4ngwggzm3w7j.cloudfront.net
 0.0.0.0 dkm6b5q0h53z4.cloudfront.net
+0.0.0.0 d32z5ni8t5127x.cloudfront.net
+0.0.0.0 d1zkodo2u3p4pe.cloudfront.net
 0.0.0.0 d1lxhc4jvstzrp.cloudfront.net
 0.0.0.0 d2v02itv0y9u9t.cloudfront.net
 0.0.0.0 d12ulf131zb0yj.cloudfront.net
@@ -2487,6 +2516,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 etcodes.com
 0.0.0.0 ettoday.net
 0.0.0.0 euadsapi.manhuaren.com
 0.0.0.0 ec2-52-71-18-187.compute-1.amazonaws.com
@@ -2649,6 +2679,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gdn.bigfishgames.com
 0.0.0.0 goforandroid.com
 0.0.0.0 grgs.ro
 0.0.0.0 gravityrd-services.com
@@ -2752,6 +2783,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 httpkafka.unityads.unity3d.com
+0.0.0.0 home.mobpowertech.com
 0.0.0.0 h5.wannaplay.cn
 0.0.0.0 hitplus.ir
 0.0.0.0 harrenmedianetwork.com
@@ -2825,6 +2858,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 init.startappservice.com
+0.0.0.0 iqzone.com
 0.0.0.0 i.mxplayer.j2inter.com
 0.0.0.0 i2.myapkcdn.in
 0.0.0.0 id1.cn
@@ -2973,6 +3008,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kds.media
+0.0.0.0 kingsoft-office-service.com
 0.0.0.0 kaffnet.com
 0.0.0.0 kaprila.com
 0.0.0.0 kibaneba.ru
@@ -3767,6 +3804,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mobpowertech.com
+0.0.0.0 m-shes.ru
+0.0.0.0 msg.ettoday.net
 0.0.0.0 mistat.intl.xiaomi.com
 0.0.0.0 mail.cocamobile.com
 0.0.0.0 mo.freeindoapp.com
@@ -4009,6 +4049,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 onedrive.su
+0.0.0.0 opt8.co
 0.0.0.0 opr.formulas.jp
 0.0.0.0 online-prod.zenmxapps.com
 0.0.0.0 omniconvert.com
@@ -4077,6 +4119,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pssvc.iqzone.com
+0.0.0.0 postitial.com
 0.0.0.0 post-box.xyz
 0.0.0.0 plugin.mobopay.baidu.com
 0.0.0.0 pasta.esfile.duapps.com
@@ -4259,6 +4303,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rtb.kds.media
 0.0.0.0 rtapi.abbi.io
 0.0.0.0 rtb.appbid.com
 0.0.0.0 raychat.io
@@ -4342,6 +4387,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sumatoad.com
+0.0.0.0 splicky.com
+0.0.0.0 sdk.adtiming.com
+0.0.0.0 speee-ad.akamaized.net
+0.0.0.0 sc.smardroid.com
 0.0.0.0 sitemaji.com
 0.0.0.0 server-13-33-165-165.ord50.r.cloudfront.net
 0.0.0.0 server-54-230-90-3.ind6.r.cloudfront.net
@@ -4786,6 +4836,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tkmftc.aotter.net
+0.0.0.0 tw.api.vpon.com
+0.0.0.0 tnkfactory.com
+0.0.0.0 tkportal.aotter.net
+0.0.0.0 tkmedia-cache.aotter.net
+0.0.0.0 tkmedia.aotter.net
+0.0.0.0 tkcatwalk.aotter.net
 0.0.0.0 tveta.naver.net
 0.0.0.0 tapdaq-adverts.global.ssl.fastly.net
 0.0.0.0 tapsell.ir
@@ -4921,6 +4978,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 upsight.com
+0.0.0.0 upsight-api.com
+0.0.0.0 unityads.unity3d.com
 0.0.0.0 usp1.baidu.com
 0.0.0.0 ufz.doesxyz.com
 0.0.0.0 usemessages.com
@@ -4981,6 +5041,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 valshara.com
 0.0.0.0 vitalads.net
 0.0.0.0 www.vitalads.net
 0.0.0.0 vatafapac.ru
@@ -5138,6 +5199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 x.appbaqend.com
 0.0.0.0 xdrig.com
 0.0.0.0 xlnuj.com
 0.0.0.0 x-lift.jp
@@ -5371,6 +5433,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 883.engine.mobileapptracking.com
+0.0.0.0 13.33.165.85
 0.0.0.0 6d47c1118927cf53ba9654931df80e8d.com
 0.0.0.0 49.82.38.178
 0.0.0.0 46.61.67.199
