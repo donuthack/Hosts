@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 23,259 (uBlock)
-##Last Updated on Monday, February 4, 2019
+##Last Updated on Tuesday, February 5, 2019
 
 #IP Loggers
 0.0.0.0 ipstat.com
@@ -57,6 +57,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 analysis.lionmobi.com
+0.0.0.0 ap.appcloudbox.net
+0.0.0.0 a.net-bz74.stream
+0.0.0.0 ad.one.lv
+0.0.0.0 ad-blocker.org
 0.0.0.0 adn.insight.ucweb.com
 0.0.0.0 auction.unityads.unity3d.com
 0.0.0.0 aclickoooo.host
@@ -1298,6 +1303,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bp.blogspot.com
 0.0.0.0 bu1.duba.com
 0.0.0.0 brat-online.ro
 0.0.0.0 bannersnack.com
@@ -1924,6 +1930,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.appcloudbox.net
+0.0.0.0 cdp.cloud.unity3d.com
+0.0.0.0 clubf07.date
 0.0.0.0 cdn-highwinds.unityads.unity3d.com
 0.0.0.0 cdn.adbert.info
 0.0.0.0 config.unityads.unity3d.com
@@ -2332,6 +2341,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dolohen.com
 0.0.0.0 daumcdn.net
 0.0.0.0 deliveryengine.adswizz.com
 0.0.0.0 doesxyz.com
@@ -2516,9 +2526,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 echosoftinfocom.com
 0.0.0.0 etcodes.com
 0.0.0.0 ettoday.net
 0.0.0.0 euadsapi.manhuaren.com
+0.0.0.0 ec2-52-22-211-47.compute-1.amazonaws.com
+0.0.0.0 ec2-52-21-217-73.compute-1.amazonaws.com
+0.0.0.0 ec2-52-20-57-219.compute-1.amazonaws.com
+0.0.0.0 ec2-52-45-249-140.compute-1.amazonaws.com
+0.0.0.0 ec2-54-193-2-171.us-west-1.compute.amazonaws.com
+0.0.0.0 ec2-52-51-36-154.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-54-193-42-169.us-west-1.compute.amazonaws.com
+0.0.0.0 ec2-54-193-110-22.us-west-1.compute.amazonaws.com
+0.0.0.0 ec2-54-241-0-117.us-west-1.compute.amazonaws.com
 0.0.0.0 ec2-52-71-18-187.compute-1.amazonaws.com
 0.0.0.0 ec2-52-4-246-83.compute-1.amazonaws.com
 0.0.0.0 ec2-3-93-210-64.compute-1.amazonaws.com
@@ -3736,6 +3756,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lionmobi.com
 0.0.0.0 look.kfiopkln.com
 0.0.0.0 liftoff.io
 0.0.0.0 li1499-96.members.linode.com
@@ -3804,6 +3825,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 myphonesupport.com
 0.0.0.0 mobpowertech.com
 0.0.0.0 m-shes.ru
 0.0.0.0 msg.ettoday.net
@@ -3999,6 +4021,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 net-bz74.stream
+0.0.0.0 net-cb15.stream
 0.0.0.0 noxagile.duapp.com
 0.0.0.0 new.cetrk.com
 0.0.0.0 newd.cetrk.com
@@ -4119,6 +4143,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pushstar.com
+0.0.0.0 pcvark.com
+0.0.0.0 pctonics.com
 0.0.0.0 pssvc.iqzone.com
 0.0.0.0 postitial.com
 0.0.0.0 post-box.xyz
@@ -4284,6 +4311,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 quick-recovery.s3.amazonaws.com
 0.0.0.0 qxyam.com
 0.0.0.0 qihucdn.com
 0.0.0.0 qls.qsstats.com
@@ -4303,6 +4331,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 reimage-pc-repair.com
+0.0.0.0 reimage-app-manager.en.aptoide.com
+0.0.0.0 reimage-cleaner.en.9apps.com
+0.0.0.0 reimage-app-manager.en.9apps.com
+0.0.0.0 reimage-cleaner.droidinformer.org
+0.0.0.0 reimagemac.com
+0.0.0.0 reimage.us.com
+0.0.0.0 reimage.org
+0.0.0.0 reimage-plus.com
+0.0.0.0 reimageplus.com
+0.0.0.0 reimage-pc-repair.en.uptodown.com
 0.0.0.0 rtb.kds.media
 0.0.0.0 rtapi.abbi.io
 0.0.0.0 rtb.appbid.com
@@ -4387,6 +4426,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 ssp-3-9f58.trnox.com
+0.0.0.0 sec.tclclouds.com
+0.0.0.0 supporthello.com
+0.0.0.0 softwillinfotech.in
+0.0.0.0 support.pcvark.com
 0.0.0.0 sumatoad.com
 0.0.0.0 splicky.com
 0.0.0.0 sdk.adtiming.com
@@ -4836,6 +4880,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tharbadir.com
 0.0.0.0 tkmftc.aotter.net
 0.0.0.0 tw.api.vpon.com
 0.0.0.0 tnkfactory.com
@@ -5041,6 +5086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 visit.net-cb15.stream
 0.0.0.0 valshara.com
 0.0.0.0 vitalads.net
 0.0.0.0 www.vitalads.net
@@ -5090,6 +5136,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 winnerkur.com
+0.0.0.0 w.clubf07.date
 0.0.0.0 weplayer.cc
 0.0.0.0 wofana.com
 0.0.0.0 witholiced.info
@@ -5199,6 +5247,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xentracking.com
 0.0.0.0 x.appbaqend.com
 0.0.0.0 xdrig.com
 0.0.0.0 xlnuj.com
@@ -5433,6 +5482,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 161.69.29.185
+0.0.0.0 61.183.65.3
+0.0.0.0 47.98.19.224
+0.0.0.0 47.254.52.167
+0.0.0.0 47.98.19.224
+0.0.0.0 169.254.10.10
 0.0.0.0 883.engine.mobileapptracking.com
 0.0.0.0 13.33.165.85
 0.0.0.0 6d47c1118927cf53ba9654931df80e8d.com
