@@ -14,9 +14,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 23,259 (uBlock)
-##Last Updated on Tuesday, February 5, 2019
+##Last Updated on Wednesday, February 6, 2019
 
-#IP Loggers
+#IP Grabbers
 0.0.0.0 ipstat.com
 0.0.0.0 ipstatp.com
 0.0.0.0 grabify.link
@@ -2342,6 +2342,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 defpush.com
 0.0.0.0 dolohen.com
 0.0.0.0 daumcdn.net
 0.0.0.0 deliveryengine.adswizz.com
@@ -2527,6 +2528,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 engine.spotscentered.info
 0.0.0.0 echosoftinfocom.com
 0.0.0.0 etcodes.com
 0.0.0.0 ettoday.net
@@ -2637,6 +2639,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 flytraff.com
 0.0.0.0 freeindoapp.com
 0.0.0.0 foxpush.com
 0.0.0.0 forex-tv-online.com
@@ -2879,6 +2882,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 imgview.pw
 0.0.0.0 init.startappservice.com
 0.0.0.0 iqzone.com
 0.0.0.0 i.mxplayer.j2inter.com
@@ -3826,6 +3830,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 main.dynsrvazg.com
 0.0.0.0 myphonesupport.com
 0.0.0.0 mobpowertech.com
 0.0.0.0 m-shes.ru
@@ -4074,6 +4079,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 onclicksuper.com
 0.0.0.0 onedrive.su
 0.0.0.0 opt8.co
 0.0.0.0 opr.formulas.jp
@@ -4144,6 +4150,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 ppndr.net
 0.0.0.0 pushstar.com
 0.0.0.0 pcvark.com
 0.0.0.0 pctonics.com
@@ -4427,6 +4434,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 solvemedia.com
+0.0.0.0 safelinking.net
 0.0.0.0 ssp-3-9f58.trnox.com
 0.0.0.0 sec.tclclouds.com
 0.0.0.0 supporthello.com
@@ -5024,6 +5033,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 uod2quk646.com
 0.0.0.0 upsight.com
 0.0.0.0 upsight-api.com
 0.0.0.0 unityads.unity3d.com
@@ -5137,6 +5147,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 withdromnit.pro
 0.0.0.0 winnerkur.com
 0.0.0.0 w.clubf07.date
 0.0.0.0 weplayer.cc
@@ -5483,6 +5494,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 180chan.pk
 0.0.0.0 161.69.29.185
 0.0.0.0 61.183.65.3
 0.0.0.0 47.98.19.224
