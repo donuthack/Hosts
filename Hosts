@@ -16,6 +16,12 @@ ff02::3 ip6-allhosts
 ##Number of ad services, trackers, malware and scripts blocked: 23,259 (uBlock)
 ##Last Updated on Wednesday, February 6, 2019
 
+#Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
+0.0.0.0 hola.org
+0.0.0.0 holaspark.com
+0.0.0.0 h-cdn.com
+0.0.0.0 luminati.io
+
 #IP Grabbers
 0.0.0.0 ipstat.com
 0.0.0.0 ipstatp.com
@@ -57,6 +63,39 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adsrv.eacdn.com
+0.0.0.0 advmaker.net
+0.0.0.0 am15.net
+0.0.0.0 adverum.lt
+0.0.0.0 adclick.lt
+0.0.0.0 adbox.lt
+0.0.0.0 adart.hostin.lt
+0.0.0.0 a1.lrytas.lt
+0.0.0.0 ads.image.lv
+0.0.0.0 adsxchange.lv
+0.0.0.0 adsplius.lt
+0.0.0.0 a.0333o.com
+0.0.0.0 adpinnacle.com
+0.0.0.0 adsata.com
+0.0.0.0 adultex.net
+0.0.0.0 adomantra.com
+0.0.0.0 adspyglass.com
+0.0.0.0 addigimediapte.offerslook.com
+0.0.0.0 addigi.media
+0.0.0.0 adnetpro.com
+0.0.0.0 advertiseclick.com
+0.0.0.0 adsolus.com
+0.0.0.0 adpanda.net
+0.0.0.0 adstour.com
+0.0.0.0 affilight.com
+0.0.0.0 adv.popadup.com
+0.0.0.0 atomx.com
+0.0.0.0 adhands.ru
+0.0.0.0 adbox.lv
+0.0.0.0 a.draugiem.lv
+0.0.0.0 atlaides.delfi.lv
+0.0.0.0 ao.skaties.lv
+0.0.0.0 admp-tc.delfi.lv
 0.0.0.0 arrlnk.com
 0.0.0.0 analysis.lionmobi.com
 0.0.0.0 ap.appcloudbox.net
@@ -1304,6 +1343,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 banners.igloro.info
+0.0.0.0 balsas.lt
+0.0.0.0 b.inbox.lt
+0.0.0.0 b.itvnet.lv
+0.0.0.0 bitadexchange.com
+0.0.0.0 blu.im
+0.0.0.0 bidsopt.com
+0.0.0.0 bannerexchange.lv
+0.0.0.0 banners.zl.lv
 0.0.0.0 bp.blogspot.com
 0.0.0.0 bu1.duba.com
 0.0.0.0 brat-online.ro
@@ -1931,6 +1979,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cherami.cloud
+0.0.0.0 convertise.io
+0.0.0.0 crowncpm.com
+0.0.0.0 coinzillatag.com
+0.0.0.0 clicksocean.com
+0.0.0.0 coinzilla.io
 0.0.0.0 cdn.appcloudbox.net
 0.0.0.0 cdp.cloud.unity3d.com
 0.0.0.0 clubf07.date
@@ -2342,6 +2396,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dmdata-198011.appspot.com
+0.0.0.0 digitalbrain.xyz
+0.0.0.0 digicrew.in
+0.0.0.0 dataxu.com
+0.0.0.0 doska.eu
 0.0.0.0 defpush.com
 0.0.0.0 dolohen.com
 0.0.0.0 daumcdn.net
@@ -2459,6 +2518,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 desgao1zt7irn.cloudfront.net
 0.0.0.0 d4ngwggzm3w7j.cloudfront.net
 0.0.0.0 dkm6b5q0h53z4.cloudfront.net
+0.0.0.0 d32wqyuo10o653.cloudfront.net
 0.0.0.0 d32z5ni8t5127x.cloudfront.net
 0.0.0.0 d1zkodo2u3p4pe.cloudfront.net
 0.0.0.0 d1lxhc4jvstzrp.cloudfront.net
@@ -2528,6 +2588,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 eads.lt
+0.0.0.0 e1aop.delfi.lt
+0.0.0.0 enrgg.com
+0.0.0.0 encurta.net
+0.0.0.0 exa.li
+0.0.0.0 ecompics.power.oho.lv
 0.0.0.0 engine.spotscentered.info
 0.0.0.0 echosoftinfocom.com
 0.0.0.0 etcodes.com
@@ -2639,6 +2705,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 foxarmedia.com
 0.0.0.0 flytraff.com
 0.0.0.0 freeindoapp.com
 0.0.0.0 foxpush.com
@@ -2703,6 +2770,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 getawesome6.com
+0.0.0.0 globeads.net
+0.0.0.0 giami.media
+0.0.0.0 goshrt.xyz
+0.0.0.0 gsafe.getawesome5.com
+0.0.0.0 getawesome5.com
+0.0.0.0 getcpm.com
+0.0.0.0 globaladsmedia.us
+0.0.0.0 gbooking.ru
 0.0.0.0 gdn.bigfishgames.com
 0.0.0.0 goforandroid.com
 0.0.0.0 grgs.ro
@@ -2807,6 +2883,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 h.itvnet.lv
 0.0.0.0 httpkafka.unityads.unity3d.com
 0.0.0.0 home.mobpowertech.com
 0.0.0.0 h5.wannaplay.cn
@@ -2882,6 +2959,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 iwant.lt
+0.0.0.0 imd.petit.lv
+0.0.0.0 img.petit.lv
+0.0.0.0 itvnet.lv
+0.0.0.0 installppi.com
 0.0.0.0 imgview.pw
 0.0.0.0 init.startappservice.com
 0.0.0.0 iqzone.com
@@ -2992,6 +3074,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jagwaradsmedia.com
 0.0.0.0 j2inter.com
 0.0.0.0 js.mobojoy.baidu.com
 0.0.0.0 js.foxpush.com
@@ -3033,6 +3116,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kimia.mobi
+0.0.0.0 kaban-media.com
 0.0.0.0 kds.media
 0.0.0.0 kingsoft-office-service.com
 0.0.0.0 kaffnet.com
@@ -3761,6 +3846,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 l2r.xz.lt
+0.0.0.0 l2j.lt
 0.0.0.0 lionmobi.com
 0.0.0.0 look.kfiopkln.com
 0.0.0.0 liftoff.io
@@ -3830,6 +3917,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mediamobassets.com
+0.0.0.0 mobipromote.com
+0.0.0.0 mediawayss.com
+0.0.0.0 mediacpm.pl
+0.0.0.0 mediablam.com
+0.0.0.0 monumetric.com
+0.0.0.0 mediarithmics.com
 0.0.0.0 main.dynsrvazg.com
 0.0.0.0 myphonesupport.com
 0.0.0.0 mobpowertech.com
@@ -4027,6 +4121,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 naughtysearch.xyz
+0.0.0.0 news-host.pw
+0.0.0.0 nominaltechno.com
+0.0.0.0 nominaltechno.ru
+0.0.0.0 nominaltechno.by
+0.0.0.0 neskaties.lv
 0.0.0.0 net-bz74.stream
 0.0.0.0 net-cb15.stream
 0.0.0.0 noxagile.duapp.com
@@ -4079,6 +4179,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 offers.webitas.lt
+0.0.0.0 onwardclick.com
+0.0.0.0 onwardclick.co.com
+0.0.0.0 offerslook.com
+0.0.0.0 onthe.io
 0.0.0.0 onclicksuper.com
 0.0.0.0 onedrive.su
 0.0.0.0 opt8.co
@@ -4150,6 +4255,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 proxy.dlf.lt
+0.0.0.0 prod.one.lt
+0.0.0.0 pokalbis.narod.ru
+0.0.0.0 part.lt
+0.0.0.0 promo.boomtime.lv
+0.0.0.0 pwrads.com
+0.0.0.0 pinvert.com
+0.0.0.0 picellaltd.com
+0.0.0.0 payclick.com
+0.0.0.0 popadup.com
 0.0.0.0 ppndr.net
 0.0.0.0 pushstar.com
 0.0.0.0 pcvark.com
@@ -4319,6 +4434,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 q.tvnet.lv
 0.0.0.0 quick-recovery.s3.amazonaws.com
 0.0.0.0 qxyam.com
 0.0.0.0 qihucdn.com
@@ -4339,6 +4455,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rembi.lv
+0.0.0.0 roimarketplace.com
+0.0.0.0 r.inbox.lv
 0.0.0.0 reimage-pc-repair.com
 0.0.0.0 reimage-app-manager.en.aptoide.com
 0.0.0.0 reimage-cleaner.en.9apps.com
@@ -4429,11 +4548,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 rlcdn.com
 0.0.0.0 rfihub.net
 0.0.0.0 richrelevance.com
-0.0.0.0 ranker.com
 0.0.0.0 rt.udmserve.net
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sentry-cdn.com
+0.0.0.0 soda.media
+0.0.0.0 shmokiads.com
+0.0.0.0 science-media-group.com
+0.0.0.0 skyadmedia.com
+0.0.0.0 stackadapt.com
 0.0.0.0 solvemedia.com
 0.0.0.0 safelinking.net
 0.0.0.0 ssp-3-9f58.trnox.com
@@ -4890,6 +5014,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tv3.lt
+0.0.0.0 tl.tc
+0.0.0.0 trafficplan.pl
+0.0.0.0 tunicalabs.trackneo.com
+0.0.0.0 tunicalabs.com
+0.0.0.0 thinkclevermedia.com
+0.0.0.0 thetradedesk.com
+0.0.0.0 tvplst.com
 0.0.0.0 tharbadir.com
 0.0.0.0 tkmftc.aotter.net
 0.0.0.0 tw.api.vpon.com
@@ -5033,6 +5165,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 unsoldexchange.com
 0.0.0.0 uod2quk646.com
 0.0.0.0 upsight.com
 0.0.0.0 upsight-api.com
@@ -5097,6 +5230,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vashoot.com
 0.0.0.0 visit.net-cb15.stream
 0.0.0.0 valshara.com
 0.0.0.0 vitalads.net
@@ -5147,6 +5281,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wlneteller.adsrv.eacdn.com
+0.0.0.0 whiteadmedia.com
+0.0.0.0 waardex.com
+0.0.0.0 web-set.com
 0.0.0.0 withdromnit.pro
 0.0.0.0 winnerkur.com
 0.0.0.0 w.clubf07.date
@@ -5259,6 +5397,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xa.net
 0.0.0.0 xentracking.com
 0.0.0.0 x.appbaqend.com
 0.0.0.0 xdrig.com
@@ -5291,6 +5430,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yashi.com
 0.0.0.0 yu987.com
 0.0.0.0 ywhnh.top
 0.0.0.0 ysowy.com
@@ -5494,6 +5634,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 7proof.com
+0.0.0.0 23433aa.xyz
+0.0.0.0 247rtb.com
+0.0.0.0 1advertising.com
 0.0.0.0 180chan.pk
 0.0.0.0 161.69.29.185
 0.0.0.0 61.183.65.3
