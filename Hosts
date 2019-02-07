@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 23,469 (uBlock)
+##Number of ad services, trackers, malware and scripts blocked: 23,468 (uBlock)
 ##Last Updated on Wednesday, February 6, 2019
 
 #Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
@@ -1352,7 +1352,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bidsopt.com
 0.0.0.0 bannerexchange.lv
 0.0.0.0 banners.zl.lv
-0.0.0.0 bp.blogspot.com
 0.0.0.0 bu1.duba.com
 0.0.0.0 brat-online.ro
 0.0.0.0 bannersnack.com
