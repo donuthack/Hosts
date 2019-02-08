@@ -2704,6 +2704,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 factucare.com
 0.0.0.0 foxarmedia.com
 0.0.0.0 flytraff.com
 0.0.0.0 freeindoapp.com
@@ -2769,6 +2770,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 goindaw.cf
 0.0.0.0 getawesome6.com
 0.0.0.0 globeads.net
 0.0.0.0 giami.media
@@ -4254,6 +4256,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 placeofentertainment.org
+0.0.0.0 promonotes.com
 0.0.0.0 proxy.dlf.lt
 0.0.0.0 prod.one.lt
 0.0.0.0 pokalbis.narod.ru
@@ -5280,6 +5284,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wellssed.000webhostapp.com
+0.0.0.0 werwe43.000webhostapp.com
 0.0.0.0 wlneteller.adsrv.eacdn.com
 0.0.0.0 whiteadmedia.com
 0.0.0.0 waardex.com
@@ -5429,6 +5435,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yourfreesoftonline.com
 0.0.0.0 yashi.com
 0.0.0.0 yu987.com
 0.0.0.0 ywhnh.top
@@ -7551,7 +7558,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 57.6.87.194.dynamic.dol.ru
 0.0.0.0 6901690.fls.doubleclick.net
 
-##Malware.txt
+#(No longer puting malware under here as I deleted Malware.txt)
 0.0.0.0 s5prou7ulr.com
 0.0.0.0 0-google.com
 0.0.0.0 0-facebook.com
@@ -7635,8 +7642,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gamestoredownload.download
 0.0.0.0 a46.bulehero.in
 0.0.0.0 mvns.railfan.net
-0.0.0.0 http://213.186.33.17
-0.0.0.0 http://91.210.104.247
+0.0.0.0 213.186.33.17
+0.0.0.0 91.210.104.247
 0.0.0.0 farzan.ddns.net
 0.0.0.0 showj.f3322.net
 0.0.0.0 deutschpornosbild.blogspot.de
