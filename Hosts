@@ -23354,7 +23354,7 @@ ff02::3 ip6-allhosts
 /log_event
 /log_interaction
 /px/client/main.min.js
-d_video-ads
+/d_video-ads
 /d_display-ads
 /d_ads-common
 /d_audio-ads
@@ -23372,9 +23372,6 @@ d_video-ads
 /d_krux.0708b5ce7f601c8984b9.js
 /d_adWords.ddab47d5154d95db6c48.js
 /d_rewards.f1b44d0d1798bf77c075.js
-/webLegacy-app.js?v=1536859593317
-/web-vendor.js?v=1536859593317
-/webLegacy-vendor.js?v=1536859593317
 /displayAdFrame.html?cb=15371282272319750
 /ads.js?v=1536859593317
 /encryption/helixstronghold.js
