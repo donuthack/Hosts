@@ -23279,6 +23279,8 @@ ff02::3 ip6-allhosts
 /favicon.gif
 /yt/advertise/
 /advertise
+/ads
+/ad
 /9_rICcQEs1i28yq2ECdx4lNAqnXY68gixcJK91aOanQ.js
 /_pa.facebookPixelId
 /tr
@@ -23431,7 +23433,6 @@ ff02::3 ip6-allhosts
 /fp.js
 /webGL.js
 /returningVisitor.js
-/cookies.js
 /browser-fingerprint
 /fingerprint.min.js
 /fingerprint.css
@@ -23490,7 +23491,6 @@ ff02::3 ip6-allhosts
 /windstream.js
 /ad.js
 /ads.js
-#Kill Scripts That Tell You To Turn Your Adblocker Off
 ###AdBlockDialog
 ###adb-warning
 ###adblock-alert
@@ -23551,3 +23551,4 @@ ff02::3 ip6-allhosts
 ##.kill-adblock-container
 ##.noadblock
 ##.top-bar-adblock
+##.ad
