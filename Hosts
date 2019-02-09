@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ##Number of ad services, trackers, malware and scripts blocked: 23,468 (uBlock)
-##Last Updated on Wednesday, February 6, 2019
+##Last Updated on Friday, February 8, 2019
 
 #Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -63,6 +63,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ad1.media
+0.0.0.0 adberan.com
+0.0.0.0 app.bidmag.net
 0.0.0.0 adsrv.eacdn.com
 0.0.0.0 advmaker.net
 0.0.0.0 am15.net
@@ -1343,6 +1346,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bidmag.net
 0.0.0.0 banners.igloro.info
 0.0.0.0 balsas.lt
 0.0.0.0 b.inbox.lt
@@ -1978,6 +1982,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 coinverti.com
 0.0.0.0 cherami.cloud
 0.0.0.0 convertise.io
 0.0.0.0 crowncpm.com
@@ -2960,6 +2965,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 inxyads.com
 0.0.0.0 iwant.lt
 0.0.0.0 imd.petit.lv
 0.0.0.0 img.petit.lv
@@ -3918,6 +3924,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 my.ppcmate.com
 0.0.0.0 mediamobassets.com
 0.0.0.0 mobipromote.com
 0.0.0.0 mediawayss.com
@@ -4256,6 +4263,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 ppcmate.com
 0.0.0.0 placeofentertainment.org
 0.0.0.0 promonotes.com
 0.0.0.0 proxy.dlf.lt
@@ -4555,6 +4563,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 ssp.yottads.com
 0.0.0.0 sentry-cdn.com
 0.0.0.0 soda.media
 0.0.0.0 shmokiads.com
@@ -5233,6 +5242,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vortexads.media
 0.0.0.0 vashoot.com
 0.0.0.0 visit.net-cb15.stream
 0.0.0.0 valshara.com
@@ -5435,6 +5445,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yottads.com
 0.0.0.0 yourfreesoftonline.com
 0.0.0.0 yashi.com
 0.0.0.0 yu987.com
