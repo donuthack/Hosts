@@ -63,6 +63,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adyou.co
+0.0.0.0 adyou.me
+0.0.0.0 adtechus.com
+0.0.0.0 adnety.com
 0.0.0.0 ads.24ur.com
 0.0.0.0 ad.partis.si
 0.0.0.0 a-net-bs51.stream
@@ -1210,7 +1214,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ads.penny-arcade.com
 0.0.0.0 ads.phpclasses.org
 0.0.0.0 ads.planet.nl
-0.0.0.0 yandex.ru
 0.0.0.0 api.segment.io
 0.0.0.0 ad.adnet.biz
 0.0.0.0 adnet.com.ua
@@ -1999,6 +2002,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 clicknety.com
 0.0.0.0 cliqcares.cliq.com
 0.0.0.0 click.newpush.support
 0.0.0.0 cdn.driverdetails.com
@@ -2741,6 +2745,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 freebytecoin.cf
 0.0.0.0 filesonic.in
 0.0.0.0 facetickle.com
 0.0.0.0 factucare.com
@@ -3005,6 +3010,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ie8eamus.com
 0.0.0.0 idigito.net
 0.0.0.0 ireuro.com
 0.0.0.0 inxyads.com
@@ -3167,6 +3173,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kos.interseek.si
 0.0.0.0 kshitijinfra.com
 0.0.0.0 kurzal.ru
 0.0.0.0 kndesign.com.br
@@ -4192,6 +4199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 native.propellerclick.com
 0.0.0.0 nt-kmv.ru
 0.0.0.0 newpush.support
 0.0.0.0 nami.com.uy
@@ -4332,6 +4340,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 propellerclick.com
+0.0.0.0 push-notifications.top
 0.0.0.0 prisma.fp.ub.ac.id
 0.0.0.0 pbxsystems.ae
 0.0.0.0 pirates-mist.ru
@@ -4543,6 +4553,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 remarketingpixel.com
 0.0.0.0 roksmmnr.kozow.com
 0.0.0.0 rubylux.vn
 0.0.0.0 radiohunter.com.br
@@ -5117,6 +5128,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 trackpprofile.com
+0.0.0.0 trhunt.com
+0.0.0.0 trhnt.com
 0.0.0.0 tingecatalogue.club
 0.0.0.0 toplist.cz
 0.0.0.0 track.pcgrh.com
@@ -5393,6 +5407,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 webeatyouradblocker.com
 0.0.0.0 webrevolutionfactory.com
 0.0.0.0 wildcard.insafmalaysia.org
 0.0.0.0 wellssed.000webhostapp.com
@@ -5756,6 +5771,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 1yqbp.com
+0.0.0.0 49oa3o49b6.com
 0.0.0.0 104.248.163.221
 0.0.0.0 173.208.139.170
 0.0.0.0 35.182.171.137
@@ -23426,41 +23443,60 @@ ff02::3 ip6-allhosts
 0.0.0.0 ya-in-f500.1e100.net
 
 # Blocking specific things on domains
-||www.facebook.com^$third-party
+||facebook.com^$third-party
+0.0.0.0 facebook.com/tr
 ||pandora.com^$third-party
+||converto.io^$popup,third-party
+youtube.com##.ad-div
+youtube.com##.ytp-ad-progress
+youtube.com###promotion-shelf
+youtube.com##.masthead-ad-control
+youtube.com##.pyv-afc-ads-container
+||file-upload.net^$subdocument
+file-upload.net##+js(abort-on-property-write.js, Fingerprint2)
+file-upload.net##iframe
+bloomberg.com###adBlockerContainer
+||bit.ly^$popup
+||openload.co^$popup
+www.uploadbank.com###\32 iegLoGXmk2LIjw1VxrdDKg7CWfCJy
+www.uploadbank.com###juzvY65xAdNlY2Yi2zp
+telegraph.co.uk##.adblocker-message
+mp4upload.com##+js(popads-dummy.js)
+mp4upload.com###overlay
+playview.io##.ads_player
 
-# Block tracking scripts and ads (ScriptBlock.txt no longer being updated)
+# Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 /Ping.aspx
 /fonts/ssj.jpg
 /adoric.js
 /ping.gif
-/adframestats/
-/_tracking/
+/adframestats
+/_tracking
 /fi_client.js
-/player_204/
-/ptracking/
+/player_204
+/ptracking
 /favicon.gif
-/yt/advertise/
-/advertise/
-/ads/
-/ad/
+/yt/advertise
+/advertise
+/ads
+/ad
 /9_rICcQEs1i28yq2ECdx4lNAqnXY68gixcJK91aOanQ.js
 /_pa.facebookPixelId/
-/tr/
+/tr
 /trg.gif
 /blank.gif
 /adServer.bs
 /digitalfirstmedia.js
-/com.snowplowanalytics/
+/com.snowplowanalytics
 /sites/all/modules/features/dw_adops/prebid-1541451197.js
-/akam/10/d1bc67e/
-/b/ss/foxnews/1/JS-1.7.0/s09375317477627/
-/i/jot/syndication/
-/sem_campaigns/sem_pixel_test/
-/sem_pixel_test/
+/akam/10/d1bc67e
+/b/ss/foxnews/1/JS-1.7.0/s09375317477627
+/i/jot/syndication
+/sem_campaigns/sem_pixel_test
+/sem_pixel_test
 /csi_204/
-/youtubei/v1/log_event/
-/insights/consumersurveys/async_survey/
+/youtubei/v1/log_event
+/insights/consumersurveys/async_survey
 /adsid/google/ui/
 /universal-federated-analytics-min.js
 /js/ssa.firefly.head.js
@@ -23475,7 +23511,7 @@ ff02::3 ip6-allhosts
 /jwplayer-20/assets/images/favicon-114.png
 /jwplayer-20/assets/images/favicon-72.png
 /jwplayer-20/assets/images/favicon-57.png
-/2062/
+/2062
 /wDq4Hx70.min.js
 /analytics-event-adapter.bundle.min.js
 /elqCfg.min.js
@@ -23651,32 +23687,32 @@ ff02::3 ip6-allhosts
 /ad.js
 /ads.js
 /ad.json
-###AdBlockDialog
-###adb-warning
-###adblock-alert
-###adblock-box
-###adblock-modal
-###adblock-msg
-###adblock-overlay
+###.AdBlockDialog
+###.adb-warning
+###.adblock-alert
+###.adblock-box
+###.adblock-modal
+###.adblock-msg
+###.adblock-overlay
 ##.adbd-background
 ##.adbd-message
-###abp-killer
-###adBlockAlert
-###adBlockAlertWrap
-###adBlockDetect
-###adBlockerModal
-###adb-actived
-###adb-enabled
-###adb-enabled3
-###adblock_detected
-###adblocker_announce
-###adblocker_message
-###adblocker_modal_overlay
-###advertisementjsalert
-###anti_adblock
-###detectadblock
-###fnAdblockingOverlay
-###message_adblock
+###.abp-killer
+###.adBlockAlert
+###.adBlockAlertWrap
+###.adBlockDetect
+###.adBlockerModal
+###.adb-actived
+###.adb-enabled
+###.adb-enabled3
+###.adblock_detected
+###.adblocker_announce
+###.adblocker_message
+###.adblocker_modal_overlay
+###.advertisementjsalert
+###.anti_adblock
+###.detectadblock
+###.fnAdblockingOverlay
+###.message_adblock
 ##.AdblockMessage
 ##.AdblockMessage_msg
 ##.ad-block-enabled
@@ -23712,3 +23748,9 @@ ff02::3 ip6-allhosts
 ##.noadblock
 ##.top-bar-adblock
 ##.ad
+##.advert.box
+##.ad_unit
+##.ad.inner
+##.ads-to-hide
+##.stageAds
+###stageAds
