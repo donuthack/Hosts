@@ -63,6 +63,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ads.24ur.com
+0.0.0.0 ad.partis.si
+0.0.0.0 a-net-bs51.stream
+0.0.0.0 albazarbali.com
 0.0.0.0 adplayer.pro
 0.0.0.0 andreysharanov.info
 0.0.0.0 adbull.me
@@ -1353,6 +1357,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 beautyandbrainsmagazine.site
+0.0.0.0 bkkbubblebar.com
 0.0.0.0 bezoekbosnie.nl
 0.0.0.0 belyi.ug
 0.0.0.0 bankofamerica.com.update.checkdrycleaners.co.za
@@ -1993,6 +1999,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cliqcares.cliq.com
+0.0.0.0 click.newpush.support
 0.0.0.0 cdn.driverdetails.com
 0.0.0.0 chaimcampbell.chez.com
 0.0.0.0 clockdownload.blogspot.com
@@ -2418,6 +2426,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dotmetrics.net
+0.0.0.0 document.magixcreative.io
+0.0.0.0 dev.go.bookingrobin.com
+0.0.0.0 dijitalkalkinma.org
+0.0.0.0 duken.kz
 0.0.0.0 dmdata-198011.appspot.com
 0.0.0.0 digitalbrain.xyz
 0.0.0.0 digicrew.in
@@ -2913,6 +2926,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 homepros.zone
+0.0.0.0 haine2.webrevolutionfactory.com
 0.0.0.0 hyoureasyforms.com
 0.0.0.0 h.itvnet.lv
 0.0.0.0 httpkafka.unityads.unity3d.com
@@ -3108,6 +3123,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jiggyconnect.com
 0.0.0.0 jaspinformatica.com
 0.0.0.0 jagwaradsmedia.com
 0.0.0.0 j2inter.com
@@ -3151,6 +3167,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kshitijinfra.com
+0.0.0.0 kurzal.ru
 0.0.0.0 kndesign.com.br
 0.0.0.0 khbl.com
 0.0.0.0 kelp4less.com
@@ -3885,6 +3903,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 labterpadu.ulm.ac.id
 0.0.0.0 leptokurtosis.com
 0.0.0.0 linksysdatakeys.se
 0.0.0.0 link2u.nl
@@ -3958,6 +3977,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mrm.lt
+0.0.0.0 molly.thememove.com
+0.0.0.0 mpdpro.sk
+0.0.0.0 mimiabner.com
+0.0.0.0 miamifloridainvestigator.com
+0.0.0.0 mashina.com
+0.0.0.0 marketingonline.vn
 0.0.0.0 meseva.in
 0.0.0.0 matongcaocap.vn
 0.0.0.0 misophoniatreatment.com
@@ -4166,6 +4192,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nt-kmv.ru
+0.0.0.0 newpush.support
 0.0.0.0 nami.com.uy
 0.0.0.0 nathandale.com
 0.0.0.0 netserv19.com
@@ -4304,6 +4332,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 prisma.fp.ub.ac.id
+0.0.0.0 pbxsystems.ae
+0.0.0.0 pirates-mist.ru
 0.0.0.0 pluralsight-static.s3.amazonaws.com
 0.0.0.0 pushible.com
 0.0.0.0 pickro.pk
@@ -4489,6 +4520,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qqenglish.com.cn
 0.0.0.0 qvnpt.supervid.pro
 0.0.0.0 q.tvnet.lv
 0.0.0.0 quick-recovery.s3.amazonaws.com
@@ -4511,6 +4543,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 roksmmnr.kozow.com
 0.0.0.0 rubylux.vn
 0.0.0.0 radiohunter.com.br
 0.0.0.0 rembi.lv
@@ -4610,6 +4643,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sieure.asia
+0.0.0.0 sinagogart.org
+0.0.0.0 sd5doozry8.com
 0.0.0.0 saltworld.net
 0.0.0.0 supervid.pro
 0.0.0.0 spaceforslums.com
@@ -5081,6 +5117,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tingecatalogue.club
+0.0.0.0 toplist.cz
 0.0.0.0 track.pcgrh.com
 0.0.0.0 tv3.lt
 0.0.0.0 tl.tc
@@ -5233,6 +5271,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 upscore.com
+0.0.0.0 ulco.tv
 0.0.0.0 unsoldexchange.com
 0.0.0.0 uod2quk646.com
 0.0.0.0 upsight.com
@@ -5353,6 +5393,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 webrevolutionfactory.com
 0.0.0.0 wildcard.insafmalaysia.org
 0.0.0.0 wellssed.000webhostapp.com
 0.0.0.0 werwe43.000webhostapp.com
@@ -5615,6 +5656,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zerbinipersonalizzabili.it
 0.0.0.0 zonatorrent.es
 0.0.0.0 zurgerya.ru
 0.0.0.0 zewkj.com
@@ -5713,7 +5755,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 zycvyudt.com
 0.0.0.0 zyqlfplqdgxu.com
 
-##Misc
+#Misc
+0.0.0.0 104.248.163.221
+0.0.0.0 173.208.139.170
+0.0.0.0 35.182.171.137
 0.0.0.0 185.245.96.247
 0.0.0.0 185.101.105.142
 0.0.0.0 94.185.86.56
@@ -23380,7 +23425,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 ya-in-f499.1e100.net
 0.0.0.0 ya-in-f500.1e100.net
 
+# Blocking specific things on domains
+||facebook.com/tr
+||youtube.com/ads
+||youtube.com/yt/advertise
+||stats.pandora.com/json
+||cdn.krxd.net/controltag
+||pandora.com/web-version/1.51.0/d_analytics.05dfee8dee37be977bae.js
+
 # Block tracking scripts and ads (ScriptBlock.txt no longer being updated)
+/Ping.aspx
 /fonts/ssj.jpg
 /adoric.js
 /ping.gif
@@ -23441,6 +23495,7 @@ ff02::3 ip6-allhosts
 /x.gif?&ads
 /monetization.js
 /log
+/logger.js
 /log?format
 /log?format=json
 /complete/search?client
@@ -23604,6 +23659,7 @@ ff02::3 ip6-allhosts
 /windstream.js
 /ad.js
 /ads.js
+/ad.json
 ###AdBlockDialog
 ###adb-warning
 ###adblock-alert
