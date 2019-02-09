@@ -23426,7 +23426,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ya-in-f500.1e100.net
 
 # Blocking specific things on domains
-||facebook.com/tr^
+||www.facebook.com/tr^
 ||youtube.com/ads^
 ||youtube.com/yt/advertise^
 ||stats.pandora.com/json^
