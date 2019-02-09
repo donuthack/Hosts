@@ -63,6 +63,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ad5.pw
+0.0.0.0 adshort.im
 0.0.0.0 adyou.co
 0.0.0.0 adyou.me
 0.0.0.0 adtechus.com
@@ -2002,6 +2004,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cedexis.com
 0.0.0.0 clicknety.com
 0.0.0.0 cliqcares.cliq.com
 0.0.0.0 click.newpush.support
@@ -2430,6 +2433,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dotomi.com
 0.0.0.0 dotmetrics.net
 0.0.0.0 document.magixcreative.io
 0.0.0.0 dev.go.bookingrobin.com
@@ -2627,6 +2631,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 emjcd.com
 0.0.0.0 elracosecret.com
 0.0.0.0 eads.lt
 0.0.0.0 e1aop.delfi.lt
@@ -2745,6 +2750,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 foxurl.net
 0.0.0.0 freebytecoin.cf
 0.0.0.0 filesonic.in
 0.0.0.0 facetickle.com
@@ -5128,6 +5134,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tkqlhce.com
 0.0.0.0 trackpprofile.com
 0.0.0.0 trhunt.com
 0.0.0.0 trhnt.com
@@ -23444,9 +23451,9 @@ ff02::3 ip6-allhosts
 
 # Blocking specific things on domains
 ||facebook.com^$third-party
-0.0.0.0 facebook.com/tr
 ||pandora.com^$third-party
 ||converto.io^$popup,third-party
+||linkshrink.net^$popup,third-party
 youtube.com##.ad-div
 youtube.com##.ytp-ad-progress
 youtube.com###promotion-shelf
@@ -23464,8 +23471,49 @@ telegraph.co.uk##.adblocker-message
 mp4upload.com##+js(popads-dummy.js)
 mp4upload.com###overlay
 playview.io##.ads_player
+cut-earn.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+thepiratebay.cr##+js(abort-on-property-write.js, adcashMacros)
+thepiratebay.cr##+js(abort-on-property-write.js, Fingerprint2)
+thepiratebay.cr##+js(window.open-defuser.js)
+conservativetribune.com##+js(set-constant.js, oio, true)
+uploadfiles.io##+js(abort-on-property-read.js, HTMLScriptElement)
+uploadfiles.io##+js(nano-setInterval-booster.js)
+uploadfiles.io##.ad-blocked
+usatoday.com##.home.taboola-sidebar-title.sidebar-title
+usatoday.com##.sidebar-static-title-wrapper
+mp3converter.net##+js(abort-on-property-write.js, Fingerprint2)
+sourceforge.net##+js(nano-setTimeout-booster.js)
+twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/)
+reddit.com##.size-compact.Post:has([class*="promoted"])
+reddit.com##.vuIDB
+fbdown.net##script:inject(set-constant.js,harshblock,false)
+twitch.tv##+js(twitch-videoad.js)
+foxsports.com##+js(set-constant.js, cxStartDetectionProcess, noopFunc)
+foxsports.com.au##+js(set-constant.js, cxStartDetectionProcess, noopFunc)
+e-mailscamalerts.*##+js(bab-defuser.js)
+loadvid.online##+js(abort-current-inline-script.js, fileID, adblock)
+loadvid.online##+js(abort-on-property-read.js, BetterJsPop)
+loadvid.online##+js(set-constant.js, adBlockNotDetected, true)
+loadvid.online##+js(set-constant.js, pop_cnt, 1)
+loadvid.online##+js(setTimeout-defuser.js, _creatBait)
+loadvid.online###overlay-vcplayer
+||bit.ly^$subdocument,domain=loadvid.online
+solarmoviez.*,yesmovies.to##a[href^="https://watchasap.com/"]
+solarmoviez.*##+js(nowebrtc.js)
+mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
+bitfun.co,moonbitcoin.cash###flexContentAdFrame:style(visibility: collapse !important)
+moonbitcoin.cash###slideIn
+igg-games.com##+js(abort-current-inline-script.js, decodeURI, getScriptFromCss)
+igg-games.com##+js(abort-current-inline-script.js, RegExp, zfgloaded)
+igg-games.com##a[href$=".jpg"]
+paidshort.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+paidshort.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
+xda-developers-forum.*##+js(bab-defuser.js)
+wallpapersmania.com##.js_disabled
+wallpapersmania.com###cpa_wrap
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
+/api/analytics/view.json
 /Ping.aspx
 /fonts/ssj.jpg
 /adoric.js
@@ -23526,7 +23574,7 @@ playview.io##.ads_player
 /reportsuites.js
 /x.gif?&ads/
 /monetization.js
-/log/
+/log
 /logger.js
 /log?format/
 /log?format=json/
