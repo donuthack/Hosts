@@ -13,7 +13,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-## Number of ad services, trackers, malware and scripts blocked: 23,468 (uBlock)
+## Number of ad services, trackers, malware and scripts blocked: 23,576 (uBlock)
 ## Last Updated on Friday, February 8, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
