@@ -23431,7 +23431,7 @@ ff02::3 ip6-allhosts
 ||youtube.com/yt/advertise
 ||stats.pandora.com/json
 ||cdn.krxd.net/controltag
-||pandora.com/web-version/1.51.0/d_analytics.05dfee8dee37be977bae.js
+||pandora.com/web-version/1.51.0/d_analytics
 
 # Block tracking scripts and ads (ScriptBlock.txt no longer being updated)
 /Ping.aspx
