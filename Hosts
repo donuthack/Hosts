@@ -13,10 +13,10 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-##Number of ad services, trackers, malware and scripts blocked: 23,468 (uBlock)
-##Last Updated on Friday, February 8, 2019
+## Number of ad services, trackers, malware and scripts blocked: 23,468 (uBlock)
+## Last Updated on Friday, February 8, 2019
 
-#Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
+# Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
 0.0.0.0 holaspark.com
 0.0.0.0 h-cdn.com
@@ -63,6 +63,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adbull.me
+0.0.0.0 ad5.eu
+0.0.0.0 ad7.biz
+0.0.0.0 atendimento-bbestilo.gq
+0.0.0.0 ax8y.xyz
 0.0.0.0 ad1.media
 0.0.0.0 adberan.com
 0.0.0.0 app.bidmag.net
@@ -1346,6 +1351,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bankofamerica.com.update.checkdrycleaners.co.za
+0.0.0.0 bmodevelop.com
 0.0.0.0 bidmag.net
 0.0.0.0 banners.igloro.info
 0.0.0.0 balsas.lt
@@ -1982,6 +1989,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.driverdetails.com
+0.0.0.0 chaimcampbell.chez.com
+0.0.0.0 clockdownload.blogspot.com
+0.0.0.0 clubedosnarguileiros.blogspot.com
+0.0.0.0 coc-saja.blogspot.com
+0.0.0.0 colbymoon.chez.com
+0.0.0.0 commoditytipsprovider.blogspot.com
 0.0.0.0 coinverti.com
 0.0.0.0 cherami.cloud
 0.0.0.0 convertise.io
@@ -2775,6 +2789,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gastroenterologymeet.com
 0.0.0.0 goindaw.cf
 0.0.0.0 getawesome6.com
 0.0.0.0 globeads.net
@@ -2965,6 +2980,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ireuro.com
 0.0.0.0 inxyads.com
 0.0.0.0 iwant.lt
 0.0.0.0 imd.petit.lv
@@ -3853,8 +3869,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
-0.0.0.0 l2r.xz.lt
-0.0.0.0 l2j.lt
+0.0.0.0 logradouroonline.com.br
 0.0.0.0 lionmobi.com
 0.0.0.0 look.kfiopkln.com
 0.0.0.0 liftoff.io
@@ -4129,6 +4144,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 netserv19.com
 0.0.0.0 naughtysearch.xyz
 0.0.0.0 news-host.pw
 0.0.0.0 nominaltechno.com
@@ -4187,6 +4203,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 o65.xyz
 0.0.0.0 offers.webitas.lt
 0.0.0.0 onwardclick.com
 0.0.0.0 onwardclick.co.com
@@ -4263,6 +4280,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pickro.pk
 0.0.0.0 ppcmate.com
 0.0.0.0 placeofentertainment.org
 0.0.0.0 promonotes.com
@@ -4466,6 +4484,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 radiohunter.com.br
 0.0.0.0 rembi.lv
 0.0.0.0 roimarketplace.com
 0.0.0.0 r.inbox.lv
@@ -4563,6 +4582,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 supported-center.16mb.com
+0.0.0.0 srst.in
+0.0.0.0 security-customer-verification.com
+0.0.0.0 serwer1954085.home.pl
 0.0.0.0 ssp.yottads.com
 0.0.0.0 sentry-cdn.com
 0.0.0.0 soda.media
@@ -5242,6 +5265,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vipmember.cu.ma
+0.0.0.0 vipmember.acoxi.com
+0.0.0.0 vipmember-cpanelcheatcocc.blogspot.com
 0.0.0.0 vortexads.media
 0.0.0.0 vashoot.com
 0.0.0.0 visit.net-cb15.stream
@@ -5294,6 +5320,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wildcard.insafmalaysia.org
 0.0.0.0 wellssed.000webhostapp.com
 0.0.0.0 werwe43.000webhostapp.com
 0.0.0.0 wlneteller.adsrv.eacdn.com
@@ -5412,6 +5439,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xpg.com.br
 0.0.0.0 xa.net
 0.0.0.0 xentracking.com
 0.0.0.0 x.appbaqend.com
@@ -5651,6 +5679,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 2bp.blogspot.com
+0.0.0.0 ww1.22apple.com
+0.0.0.0 ww2.22apple.com
+0.0.0.0 ww3.22apple.com
+0.0.0.0 ww4.22apple.com
+0.0.0.0 ww5.22apple.com
+0.0.0.0 ww6.22apple.com
+0.0.0.0 ww7.22apple.com
+0.0.0.0 ww8.22apple.com
+0.0.0.0 ww9.22apple.com
+0.0.0.0 ww10.22apple.com
+0.0.0.0 ww11.22apple.com
+0.0.0.0 ww12.22apple.com
+0.0.0.0 22apple.com
+0.0.0.0 1337x.pl
+0.0.0.0 1337x.to
+0.0.0.0 l2r.xz.lt
+0.0.0.0 l2j.lt
 0.0.0.0 7proof.com
 0.0.0.0 23433aa.xyz
 0.0.0.0 247rtb.com
@@ -23285,7 +23331,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ya-in-f499.1e100.net
 0.0.0.0 ya-in-f500.1e100.net
 
-##ScriptBlock.txt
+# Block tracking scripts and ads (ScriptBlock.txt no longer being updated)
 /fonts/ssj.jpg
 /adoric.js
 /ping.gif
