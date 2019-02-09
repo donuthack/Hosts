@@ -63,6 +63,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adplayer.pro
+0.0.0.0 andreysharanov.info
 0.0.0.0 adbull.me
 0.0.0.0 ad5.eu
 0.0.0.0 ad7.biz
@@ -1351,6 +1353,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bezoekbosnie.nl
+0.0.0.0 belyi.ug
 0.0.0.0 bankofamerica.com.update.checkdrycleaners.co.za
 0.0.0.0 bmodevelop.com
 0.0.0.0 bidmag.net
@@ -2606,6 +2610,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 elracosecret.com
 0.0.0.0 eads.lt
 0.0.0.0 e1aop.delfi.lt
 0.0.0.0 enrgg.com
@@ -2723,6 +2728,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 filesonic.in
+0.0.0.0 facetickle.com
 0.0.0.0 factucare.com
 0.0.0.0 foxarmedia.com
 0.0.0.0 flytraff.com
@@ -2789,6 +2796,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go2linkfast.com
+0.0.0.0 groundswellfilms.org
 0.0.0.0 gastroenterologymeet.com
 0.0.0.0 goindaw.cf
 0.0.0.0 getawesome6.com
@@ -2904,6 +2913,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hyoureasyforms.com
 0.0.0.0 h.itvnet.lv
 0.0.0.0 httpkafka.unityads.unity3d.com
 0.0.0.0 home.mobpowertech.com
@@ -2980,6 +2990,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 idigito.net
 0.0.0.0 ireuro.com
 0.0.0.0 inxyads.com
 0.0.0.0 iwant.lt
@@ -3097,6 +3108,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jaspinformatica.com
 0.0.0.0 jagwaradsmedia.com
 0.0.0.0 j2inter.com
 0.0.0.0 js.mobojoy.baidu.com
@@ -3139,6 +3151,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kndesign.com.br
+0.0.0.0 khbl.com
+0.0.0.0 kelp4less.com
+0.0.0.0 kline.rizon.net
 0.0.0.0 kimia.mobi
 0.0.0.0 kaban-media.com
 0.0.0.0 kds.media
@@ -3869,6 +3885,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 leptokurtosis.com
+0.0.0.0 linksysdatakeys.se
+0.0.0.0 link2u.nl
 0.0.0.0 logradouroonline.com.br
 0.0.0.0 lionmobi.com
 0.0.0.0 look.kfiopkln.com
@@ -3939,6 +3958,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 meseva.in
+0.0.0.0 matongcaocap.vn
+0.0.0.0 misophoniatreatment.com
 0.0.0.0 my.ppcmate.com
 0.0.0.0 mediamobassets.com
 0.0.0.0 mobipromote.com
@@ -4144,6 +4166,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nami.com.uy
+0.0.0.0 nathandale.com
 0.0.0.0 netserv19.com
 0.0.0.0 naughtysearch.xyz
 0.0.0.0 news-host.pw
@@ -4280,6 +4304,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pluralsight-static.s3.amazonaws.com
+0.0.0.0 pushible.com
 0.0.0.0 pickro.pk
 0.0.0.0 ppcmate.com
 0.0.0.0 placeofentertainment.org
@@ -4463,6 +4489,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qvnpt.supervid.pro
 0.0.0.0 q.tvnet.lv
 0.0.0.0 quick-recovery.s3.amazonaws.com
 0.0.0.0 qxyam.com
@@ -4484,6 +4511,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rubylux.vn
 0.0.0.0 radiohunter.com.br
 0.0.0.0 rembi.lv
 0.0.0.0 roimarketplace.com
@@ -4582,6 +4610,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 saltworld.net
+0.0.0.0 supervid.pro
+0.0.0.0 spaceforslums.com
+0.0.0.0 stablinost.ug
 0.0.0.0 supported-center.16mb.com
 0.0.0.0 srst.in
 0.0.0.0 security-customer-verification.com
@@ -5049,6 +5081,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 track.pcgrh.com
 0.0.0.0 tv3.lt
 0.0.0.0 tl.tc
 0.0.0.0 trafficplan.pl
@@ -5473,6 +5506,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yhufp.supervid.pro
+0.0.0.0 youreasyforms.com
 0.0.0.0 yottads.com
 0.0.0.0 yourfreesoftonline.com
 0.0.0.0 yashi.com
@@ -5679,6 +5714,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 ##Misc
+0.0.0.0 185.245.96.247
+0.0.0.0 185.101.105.142
+0.0.0.0 94.185.86.56
+0.0.0.0 194.5.99.159
+0.0.0.0 31.171.152.105
+0.0.0.0 185.141.62.213
+0.0.0.0 201.235.149.157
+0.0.0.0 157.100.238.225
+0.0.0.0 5.102.165.159
+0.0.0.0 92.27.88.150
+0.0.0.0 190.147.42.32
+0.0.0.0 201.192.163.160
+0.0.0.0 54.37.86.44
+0.0.0.0 92.63.197.153
 0.0.0.0 2bp.blogspot.com
 0.0.0.0 ww1.22apple.com
 0.0.0.0 ww2.22apple.com
