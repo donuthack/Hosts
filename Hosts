@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ## Number of ad services, trackers, malware and scripts blocked: 23,576 (uBlock)
-## Last Updated on Saturday, February 9, 2019
+## Last Updated on Sunday, February 10, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -2755,6 +2755,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fuckadblock.sitexw.fr
 0.0.0.0 foxurl.net
 0.0.0.0 freebytecoin.cf
 0.0.0.0 filesonic.in
@@ -23579,7 +23580,21 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 2giga.link##+js(addEventListener-defuser.js, click)
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
+/fuckadblock
 /fuckadblock.js
+/fuckadblock.min.js
+/FuckAdBlock.min.js
+/FuckAdBlock.js
+/FuckAdBlock
+/BlockAdBlock
+/BlockAdBlock.js
+/BlockAdBlock.min.js
+/blockadblock.min.js
+/blockadblock.js
+/blockadblock
+/FuckAdBlock.git
+/fuckadblock.git
+/blockadblock.git
 /api/analytics/view.json
 /Ping.aspx
 /fonts/ssj.jpg
