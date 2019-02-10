@@ -23579,6 +23579,7 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 2giga.link##+js(addEventListener-defuser.js, click)
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
+/fuckadblock.js
 /api/analytics/view.json
 /Ping.aspx
 /fonts/ssj.jpg
