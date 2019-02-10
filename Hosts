@@ -63,6 +63,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adsnet.com.pe
+0.0.0.0 adslop.com
 0.0.0.0 ad5.pw
 0.0.0.0 adshort.im
 0.0.0.0 adyou.co
@@ -1362,6 +1364,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 ba4g2huj349253.w46f1-c5f1.kfhpgtq.tk
 0.0.0.0 beautyandbrainsmagazine.site
 0.0.0.0 bkkbubblebar.com
 0.0.0.0 bezoekbosnie.nl
@@ -2561,6 +2564,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 desgao1zt7irn.cloudfront.net
 0.0.0.0 d4ngwggzm3w7j.cloudfront.net
 0.0.0.0 dkm6b5q0h53z4.cloudfront.net
+0.0.0.0 ds02gfqy6io6i.cloudfront.net
 0.0.0.0 d32wqyuo10o653.cloudfront.net
 0.0.0.0 d32z5ni8t5127x.cloudfront.net
 0.0.0.0 d1zkodo2u3p4pe.cloudfront.net
@@ -2631,6 +2635,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 email.teamsnap.com
 0.0.0.0 emjcd.com
 0.0.0.0 elracosecret.com
 0.0.0.0 eads.lt
@@ -4559,6 +4564,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 royalacecampaign.com
+0.0.0.0 royalacelinks.com
 0.0.0.0 remarketingpixel.com
 0.0.0.0 roksmmnr.kozow.com
 0.0.0.0 rubylux.vn
@@ -5134,6 +5141,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 totdorancaltert.club
 0.0.0.0 tkqlhce.com
 0.0.0.0 trackpprofile.com
 0.0.0.0 trhunt.com
@@ -5292,6 +5300,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 urh.easyshoopingenligne.com
 0.0.0.0 upscore.com
 0.0.0.0 ulco.tv
 0.0.0.0 unsoldexchange.com
@@ -5778,6 +5787,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 7vauw8000kmqcshek.bmi.scandalousscarecrow.com
 0.0.0.0 1yqbp.com
 0.0.0.0 49oa3o49b6.com
 0.0.0.0 104.248.163.221
@@ -23462,9 +23472,15 @@ youtube.com##.pyv-afc-ads-container
 ||file-upload.net^$subdocument
 file-upload.net##+js(abort-on-property-write.js, Fingerprint2)
 file-upload.net##iframe
+file-up.org,file-upload.*##+js(abort-current-inline-script.js, document.getElementById, undefined)
+file-upload.*##+js(setTimeout-defuser.js, nextFunction, 2000)
+file-upload.*##+js(abort-current-inline-script.js, RegExp, zfgloaded)
+file-up.org##+js(abort-current-inline-script.js, atob, decodeURIComponent)
+file-upload.*##.adsbygoogle
 bloomberg.com###adBlockerContainer
 ||bit.ly^$popup
 ||openload.co^$popup
+openload.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 uploadbank.com###\32 iegLoGXmk2LIjw1VxrdDKg7CWfCJy
 uploadbank.com###juzvY65xAdNlY2Yi2zp
 uploadbank.com##+js(abort-current-inline-script.js, Math.random, banner)
@@ -23476,6 +23492,7 @@ cut-earn.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
 thepiratebay.cr##+js(abort-on-property-write.js, adcashMacros)
 thepiratebay.cr##+js(abort-on-property-write.js, Fingerprint2)
 thepiratebay.cr##+js(window.open-defuser.js)
+thepiratebay.*##+js(abort-on-property-write.js, spot)
 conservativetribune.com##+js(set-constant.js, oio, true)
 uploadfiles.io##+js(abort-on-property-read.js, HTMLScriptElement)
 uploadfiles.io##+js(nano-setInterval-booster.js)
@@ -23504,6 +23521,8 @@ solarmoviez.*##+js(nowebrtc.js)
 solarmoviex.to##+js(abort-current-inline-script.js, decodeURI, atob)
 solarmoviex.to##+js(abort-current-inline-script.js, RegExp, zfgloaded)
 ||solarmoviex.to/sw.js$script
+solarmovie.cam##+js(abort-on-property-read.js, AaDetector)
+solarmovie.cam##+js(window.open-defuser.js)
 mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
 bitfun.co,moonbitcoin.cash###flexContentAdFrame:style(visibility: collapse !important)
 moonbitcoin.cash###slideIn
@@ -23515,6 +23534,49 @@ paidshort.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 xda-developers-forum.*##+js(bab-defuser.js)
 wallpapersmania.com##.js_disabled
 wallpapersmania.com###cpa_wrap
+imgrock.*##+js(abort-current-inline-script.js, CustomEvent, window[_0x)
+imgrock.*##+js(abort-on-property-write.js, Fingerprint2)
+imgrock.*##+js(nano-setTimeout-booster.js, /.?/, 4000)
+imgrock.*##+js(popads-dummy.js)
+imgrock.*##+js(popads.net.js)
+imgrock.*##+js(window.open-defuser.js)
+wordgames.com###ad-gamepage-leaderboard
+wordgames.com###skyscrapper-container
+wordgames.com###skyscraper-container
+uqload.com##+js(abort-current-inline-script.js, atob, decodeURIComponent)
+unblocksites.co##+js(nowebrtc.js)
+royalurls.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
+imageuploads.co.uk##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
+uploadbox.io##+js(setInterval-defuser.js, (), 5000)
+c123movies.com,123freemovies.*,123movieslife.*,123movie.*,123movies123.*,123moviesu.com###option-0, a[href="#option-0"]
+123freemovies.*,123movies123.*,123movieslife.*,123movies4u.club,v123movies.com##.pframe:has([href^="javascript: void(0);"])
+123moviesfree.live##.pframe:has([src^="https://123moviesfree.live/"])
+123moviesok.com##.pframe:has([src^="https://123moviesok.com/"])
+123moviesunblocked.net##+js(abort-on-property-write.js, Fingerprint2)
+123movieswatch.fun##+js(abort-on-property-read.js, Date.prototype.toUTCString)
+123movieswatch.fun##.btn3d:has-text(/stream/i)
+123movieswatch.fun##.btn3d:has-text(/Download/i)
+l23movies.*,123movies0.*,123movieshub.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
+e123movies.com,123moviespower.com,123moviez.online##+js(abort-current-inline-script.js, atob, decodeURIComponent)
+0123movies.*,123movieshub.*##+js(abort-on-property-read.js, AaDetector)
+vidwatch.me##+js(abort-on-property-read.js, AaDetector)
+0l23movies.*##+js(abort-on-property-read.js, rid)
+0l23movies.com,123movieshd.vip,vidwatch.me##+js(nano-setInterval-booster.js)
+123movies.*##a[href="https://www.123movies.club/stream-now/"]
+123movies.*,123movieslife.*##.btn-watch-area
+123movies.*##li > .options:has-text(Watch Online)
+123movies.*##.selected.options
+yesmovies.*##+js(abort-on-property-read.js, AaDetector)
+yesmovies.gg##+js(abort-on-property-read.js, Date.prototype.toUTCString)
+yesmovies.cloud##+js(abort-on-property-read.js, zfgloadedpopup)
+uploadproper.com##.adsbygoogle
+uploadproper.com##.ads_small
+uploadproper.com##.ads_big
+uploadproper.com##[href*=".info/"]
+uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
+||2giga.link/sw.js$script,1p
+2giga.link##+js(abort-on-property-write.js, Fingerprint2)
+2giga.link##+js(addEventListener-defuser.js, click)
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 /api/analytics/view.json
@@ -23806,3 +23868,4 @@ wallpapersmania.com###cpa_wrap
 ##.ads-to-hide
 ##.stageAds
 ###stageAds
+###preroll_ads
