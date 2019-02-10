@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ## Number of ad services, trackers, malware and scripts blocked: 23,576 (uBlock)
-## Last Updated on Friday, February 8, 2019
+## Last Updated on Saturday, February 9, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -23465,8 +23465,9 @@ file-upload.net##iframe
 bloomberg.com###adBlockerContainer
 ||bit.ly^$popup
 ||openload.co^$popup
-www.uploadbank.com###\32 iegLoGXmk2LIjw1VxrdDKg7CWfCJy
-www.uploadbank.com###juzvY65xAdNlY2Yi2zp
+uploadbank.com###\32 iegLoGXmk2LIjw1VxrdDKg7CWfCJy
+uploadbank.com###juzvY65xAdNlY2Yi2zp
+uploadbank.com##+js(abort-current-inline-script.js, Math.random, banner)
 telegraph.co.uk##.adblocker-message
 mp4upload.com##+js(popads-dummy.js)
 mp4upload.com###overlay
@@ -23500,6 +23501,9 @@ loadvid.online###overlay-vcplayer
 ||bit.ly^$subdocument,domain=loadvid.online
 solarmoviez.*,yesmovies.to##a[href^="https://watchasap.com/"]
 solarmoviez.*##+js(nowebrtc.js)
+solarmoviex.to##+js(abort-current-inline-script.js, decodeURI, atob)
+solarmoviex.to##+js(abort-current-inline-script.js, RegExp, zfgloaded)
+||solarmoviex.to/sw.js$script
 mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
 bitfun.co,moonbitcoin.cash###flexContentAdFrame:style(visibility: collapse !important)
 moonbitcoin.cash###slideIn
