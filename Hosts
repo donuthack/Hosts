@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ## Number of ad services, trackers, malware and scripts blocked: 23,576 (uBlock)
-## Last Updated on Sunday, February 10, 2019
+## Last Updated on Wednesday, February 13, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -22,7 +22,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 h-cdn.com
 0.0.0.0 luminati.io
 
-#IP Grabbers
+# Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
+0.0.0.0 weathercenter.co
+0.0.0.0 quickemailaccess.co
+0.0.0.0 easyspeedtest.co
+
+# IP Grabbers
 0.0.0.0 ipstat.com
 0.0.0.0 ipstatp.com
 0.0.0.0 grabify.link
@@ -63,6 +68,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adsco.re
+0.0.0.0 adsco.com
+0.0.0.0 adsco.nl
 0.0.0.0 adsnet.com.pe
 0.0.0.0 adslop.com
 0.0.0.0 ad5.pw
@@ -2007,6 +2015,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cc.bingj.com
 0.0.0.0 cedexis.com
 0.0.0.0 clicknety.com
 0.0.0.0 cliqcares.cliq.com
@@ -2635,6 +2644,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 eu.geo.yahoo.com
 0.0.0.0 email.teamsnap.com
 0.0.0.0 emjcd.com
 0.0.0.0 elracosecret.com
@@ -3022,6 +3032,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ifcard.com
 0.0.0.0 ie8eamus.com
 0.0.0.0 idigito.net
 0.0.0.0 ireuro.com
@@ -3996,6 +4007,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mt48.net
 0.0.0.0 mrm.lt
 0.0.0.0 molly.thememove.com
 0.0.0.0 mpdpro.sk
@@ -4565,6 +4577,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 review.easycounter.com
 0.0.0.0 royalacecampaign.com
 0.0.0.0 royalacelinks.com
 0.0.0.0 remarketingpixel.com
@@ -5301,6 +5314,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 updates.easycounter.com
+0.0.0.0 uk-advertising.yahoo.com
 0.0.0.0 urh.easyshoopingenligne.com
 0.0.0.0 upscore.com
 0.0.0.0 ulco.tv
@@ -5424,6 +5439,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 webonflex.com
 0.0.0.0 webeatyouradblocker.com
 0.0.0.0 webrevolutionfactory.com
 0.0.0.0 wildcard.insafmalaysia.org
@@ -5579,6 +5595,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 y7mna.com
+0.0.0.0 yui-s.yahooapis.com
 0.0.0.0 yhufp.supervid.pro
 0.0.0.0 youreasyforms.com
 0.0.0.0 yottads.com
