@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ## Number of ad services, trackers, malware and scripts blocked: 23,576 (uBlock)
-## Last Updated on Wednesday, February 13, 2019
+## Last Updated on Thursday, February 14, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -68,6 +68,37 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adimg.donga.com
+0.0.0.0 adimage.newscloud.or.kr
+0.0.0.0 adhappy.co.kr
+0.0.0.0 adgger.com
+0.0.0.0 adget.co.kr
+0.0.0.0 adfront.auction.co.kr
+0.0.0.0 adfactory.kr
+0.0.0.0 adecorp.co.kr
+0.0.0.0 adcrm.co.kr
+0.0.0.0 adcreative.hani.naver.net
+0.0.0.0 adclix.daum.net
+0.0.0.0 adclixad.daum.net
+0.0.0.0 adcdn.247realmedia.co.kr
+0.0.0.0 adc.dreamwiz.com
+0.0.0.0 adby.me
+0.0.0.0 adbiz.co.kr
+0.0.0.0 ad4989.co.kr
+0.0.0.0 ad4980.kr
+0.0.0.0 ad2.nbms.naver.com
+0.0.0.0 ad2.thisisgame.com
+0.0.0.0 ad1.cjmooter.com
+0.0.0.0 ad00.inews24.com
+0.0.0.0 ad.xtendmedia.com
+0.0.0.0 ad.xc.nis.nitmus.com
+0.0.0.0 ad.wo.to
+0.0.0.0 ad.tvreport.co.kr
+0.0.0.0 ad.ilbe.com
+0.0.0.0 ad.incruit.com
+0.0.0.0 ad.livere.co.kr
+0.0.0.0 ad.tving.com
+0.0.0.0 adv.realclick.co.kr
 0.0.0.0 adsco.re
 0.0.0.0 adsco.com
 0.0.0.0 adsco.nl
@@ -2015,6 +2046,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cas.criteo.com
+0.0.0.0 cm.keywordsconnect.com
 0.0.0.0 cc.bingj.com
 0.0.0.0 cedexis.com
 0.0.0.0 clicknety.com
@@ -3152,6 +3185,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js2.keywordsconnect.com
+0.0.0.0 js.hnscom.com
 0.0.0.0 jiggyconnect.com
 0.0.0.0 jaspinformatica.com
 0.0.0.0 jagwaradsmedia.com
@@ -3933,6 +3968,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 livere.co.kr
 0.0.0.0 labterpadu.ulm.ac.id
 0.0.0.0 leptokurtosis.com
 0.0.0.0 linksysdatakeys.se
@@ -4287,6 +4323,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 outbanner.hu.co.kr
 0.0.0.0 o65.xyz
 0.0.0.0 offers.webitas.lt
 0.0.0.0 onwardclick.com
@@ -4577,6 +4614,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 realclick.co.kr
 0.0.0.0 review.easycounter.com
 0.0.0.0 royalacecampaign.com
 0.0.0.0 royalacelinks.com
@@ -4681,6 +4719,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sp1.jssearch.net
+0.0.0.0 sosa.semanticrep.com
 0.0.0.0 sieure.asia
 0.0.0.0 sinagogart.org
 0.0.0.0 sd5doozry8.com
@@ -5155,6 +5195,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tags.mathtag.com
 0.0.0.0 totdorancaltert.club
 0.0.0.0 tkqlhce.com
 0.0.0.0 trackpprofile.com
@@ -23598,6 +23639,8 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 2giga.link##+js(addEventListener-defuser.js, click)
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
+/adnetwork.js
+/api/v1/tracking-event/creative_view
 /fuckadblock
 /fuckadblock.js
 /fuckadblock.min.js
@@ -23706,13 +23749,6 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 /px/client/main.min.js
 /displayAdFrame.html?cb=15371282272319750
 /ads.js?v=1536859593317
-/encryption/helixstronghold.js
-/encryption/wharfrat.js
-/encryption/the_algorithm.js
-/encryption/kryptel.js
-/encryption/cipherpad.js
-/encryption/archive/rar/x52/x61/x72.js
-/encryption/pgp/message.js
 /certificate/digital_id.js
 /mail/webmail/yahoo/login mail/english.js
 /mail/webmail/yahoo/login mail/arabic.js
@@ -23727,36 +23763,22 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 /head.load.min.js
 /js/fingerprint.pc.js
 /fingerprint.pc.js
-/2333360399.js
-/js/2333360399.js
 /ads.js
 /infinity.js.aspx
 /Yxm1CmxEPNZB1Lj9EXw.js
 /QMZcByGC8JsTWu_Q_IrkfA.jpg
-/gtm.js
 /googletagmanager.js
 /js/jquery.js
 /js/blank.html
-/html5.js
 /vbulletin_fingerprint.js
-/ie8 no-js
 /tracker/cssjs
 /tracker/
-/js/landing.js
-/bowser.js
-/browser.js
 /google-analytics/js/fingerprint.min.js
-/qbj3zin.js
-/shim.js
-/ec5-shim.js
-/kochava.com/wp-json/
-/swfobject.js
 /PluginDetect.js
 /plugindetect.js
 /sha1.js
 /fp.js
 /webGL.js
-/returningVisitor.js
 /browser-fingerprint
 /fingerprint.min.js
 /fingerprint.css
@@ -23769,49 +23791,18 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 /js/ip.js
 /js/webgl.js
 /js/webrtc.js
-/js/fonts.js
-/js/modernizr-custom.js
-/js/modernizr.js
-/jsgeo.js
-/js/css.js
-/css.js
 /jquery.canvasjs.min.js
 /canvasjs.min.js
 /canvasjs.js
 /ubercookie.js
 /assets/ubercookie.js
-/r07/core130.js
 /fp2.js
 /fingerprint/figp.js
-/af-bdaz/bquery.js
 /smeadvert-intermediate-ad.js
 /STAT/89946.js
 /fp.min.jsp
-/mongoose.fp.js
-/__zenedge/assets/a.js
 /fingerprint2.min.js
 /bsredirect5.js
-/static_desktop/gen/packed.main.1412cee0.js
-/dvbs_src.js
-/js/theme_wxnpqvm_common.887d3ed3.js
-/webEvent/cywevent.js
-/assets/featurekicker.js
-/scripts/callback.min.js
-/3012/scpolls.js
-/js/f-code.js
-/go_ccfm/js/playerccfm.min.js
-/public/public/scripts/src/jsEngine.js
-/augur.min.js
-/fm.js
-/talkable-1.0.min.js
-/fp/Scripts/PixelBundle.js
-/security/umscript/3.0.11/um.js
-/ac.js
-/101/gc-html5.js
-/vote/displayFlash.js
-/cc.js
-/ralib/magento/raa.js
-/windstream.js
 /ad.js
 /ads.js
 /ad.json
@@ -23876,6 +23867,9 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 ##.noadblock
 ##.top-bar-adblock
 ##.ad
+###ad_*
+###hns_ad*
+###iconad
 ##.advert.box
 ##.ad_unit
 ##.ad.inner
@@ -23883,3 +23877,6 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 ##.stageAds
 ###stageAds
 ###preroll_ads
+##.google_banner
+###adArea
+###bylineaAd1
