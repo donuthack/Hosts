@@ -23521,7 +23521,6 @@ ff02::3 ip6-allhosts
 
 # Blocking specific things on domains
 ||facebook.com^$third-party
-||pandora.com^$third-party
 ||converto.io^$popup,third-party
 ||linkshrink.net^$popup,third-party
 youtube.com##.ad-div
