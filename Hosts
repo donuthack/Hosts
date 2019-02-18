@@ -68,6 +68,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ads.gamemeca.com
+0.0.0.0 adplace.co.kr
+0.0.0.0 ad.3dpop.kr
+0.0.0.0 adotsolution.com
+0.0.0.0 adop.cc
+0.0.0.0 adop.kr
+0.0.0.0 ad-playstore.com
+0.0.0.0 adoneclick.com
+0.0.0.0 ad-js.chip.de
+0.0.0.0 a870.casalemedia.com
+0.0.0.0 adpartner.pro
+0.0.0.0 a4p.adpartner.pro
+0.0.0.0 adinsight.co.kr
+0.0.0.0 adinc.co.kr
+0.0.0.0 adimg.koreadaily.com
+0.0.0.0 ads.openx.net
+0.0.0.0 adv.gpm-digital.com
+0.0.0.0 ad4.liverail.com
 0.0.0.0 adimg.donga.com
 0.0.0.0 adimage.newscloud.or.kr
 0.0.0.0 adhappy.co.kr
@@ -1324,6 +1342,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.adixs.co.kr
 0.0.0.0 adcheck.about.co.kr
 0.0.0.0 ad.adlike.co.kr
+0.0.0.0 adnmore.co.kr
 0.0.0.0 ad.adnmore.co.kr
 0.0.0.0 ad.hankookilbo.com
 0.0.0.0 ad.hooniad.com
@@ -2478,6 +2497,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dp25.kr
 0.0.0.0 dotomi.com
 0.0.0.0 dotmetrics.net
 0.0.0.0 document.magixcreative.io
@@ -2869,6 +2889,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gaja79.com
+0.0.0.0 gamehouse.com
 0.0.0.0 go2linkfast.com
 0.0.0.0 groundswellfilms.org
 0.0.0.0 gastroenterologymeet.com
@@ -4692,7 +4714,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 rover.ebay.com
 0.0.0.0 rubiconproject.com
 0.0.0.0 router.googlecom.biz
-0.0.0.0 rutube.ru
 0.0.0.0 route.carambo.la
 0.0.0.0 ranks.sextracker.com
 0.0.0.0 req.appads.com
@@ -5664,8 +5685,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 yeas.yahoo.co
 0.0.0.0 yceml.net
 0.0.0.0 ytsa.net
-0.0.0.0 www.y8.com
-0.0.0.0 y8.com
 0.0.0.0 yebadu.com
 0.0.0.0 youtube.2cnt.net
 0.0.0.0 ym.bannerconnect.net
@@ -5847,6 +5866,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 33across.com
 0.0.0.0 7vauw8000kmqcshek.bmi.scandalousscarecrow.com
 0.0.0.0 1yqbp.com
 0.0.0.0 49oa3o49b6.com
@@ -23523,6 +23543,54 @@ ff02::3 ip6-allhosts
 ||facebook.com^$third-party
 ||converto.io^$popup,third-party
 ||linkshrink.net^$popup,third-party
+||allgames.io^$third-party
+||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
+userscloud.com##.alert.alert-info:has-text
+multifilemirror.com##.noticeContainer:has-text
+multifilemirror.com##.blockContainer:has-text
+minecraftforge.net##.ad-container
+||www.primarygames.com/2_pg/Home/featuredgame.php
+www.primarygames.com##.hide_at_1005.featuredgame
+||www.notdoppler.com/php/mmobox.php
+||i.notdoppler.com/img/main_topshadow.gif
+www.notdoppler.com##td:nth-of-type(7) > table > tbody > tr:nth-of-type(3) > td
+www.notdoppler.com##table:nth-of-type(5) > tbody > tr:nth-of-type(2) > td:nth-of-type(7)
+www.notdoppler.com##table:nth-of-type(5) > tbody > tr:nth-of-type(2) > td:nth-of-type(6)
+pogo.com###allGamesAdBar
+www.fupa.com###content > table > tbody > tr > td:nth-of-type(2)
+||www.shockwave.com/i/common/upsells/swu_homepage_upsell.jpg
+www.shockwave.com###ympb_slot__desktop-sticky-template-0
+www.shockwave.com###ympb_slot__desktop-medrec-template-2
+www.shockwave.com##.newPodContent.dsContainer > h2
+www.shockwave.com##.topDownGamePod
+www.shockwave.com###podDownloadGames > .newPodContent.podContent
+www.shockwave.com###podDownloadGames
+www.shockwave.com##.js-stickybit-parent.colLast.col4.col.Sidebar
+www.shockwave.com###wrapper > div:nth-of-type(1)
+www.shockwave.com##.topGamesPodNoBkg.podContent > div.clearfix:nth-of-type(2)
+girlsgogames.com##.MrHp1.mpu.fancy.advert.col-l-1-3.col-m-1-2.grid-col
+girlsgogames.com##.MrHp2.mpu.fancy.advert.col-l-1-3.col-m-1-2.grid-col
+girlsgogames.com##.SsHp1.skyscraper.fancy.advert.col-l-1-3.col-m-1-2.grid-col
+freegames.net^$popup
+freegames.net##div#content-box:nth-of-type(6) > div:nth-of-type(1)
+freegames.net##div:nth-of-type(2) > div.underdogmedia-inpage:nth-of-type(2)
+freegames.net##div:nth-of-type(2) > div.underdogmedia-inpage:nth-of-type(1)
+freegames.net##div:nth-of-type(13) > .underdogmedia-inpage
+freegames.net##div#content-box:nth-of-type(10) > .underdogmedia-inpage
+freegames.net##div#content-box:nth-of-type(10)
+freegames.net###content > div:nth-of-type(13)
+freegames.net##div#content-box:nth-of-type(4)
+freegames.net##.center > .underdogmedia-inpage
+freegames.net###tab-content-played > .games > div.game:nth-of-type(50)
+freegames.net###tab-content-played > .games > div.game:nth-of-type(75) > div
+freegammes.net###tab-content-played > .games > div.game:nth-of-type(100) > div
+freegames.net##div:nth-of-type(8) > .underdogmedia-inpage
+allgames.io##.stupac
+allgames.io##.stupactreci
+allgames.io##.oglas
+freeonlinegames.com##.marginBottom0.well-blue.well
+freeonlinegames.com##.clearfix.span12
+games.aarp.org###div_blockTop_1
 youtube.com##.ad-div
 youtube.com##.ytp-ad-progress
 youtube.com###promotion-shelf
@@ -23539,6 +23607,19 @@ file-upload.*##.adsbygoogle
 bloomberg.com###adBlockerContainer
 ||bit.ly^$popup
 ||openload.co^$popup
+||assetshuluimcom-a.akamaihd.net/*.mp3$media,redirect=noopmp3-0.1s,domain=hulu.com
+||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
+||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
+||akamaihd.net/prerolls$media,redirect=noopmp4-1s,domain=hulu.com
+hulu.com###banner-ad-container
+hulu.com##.ad-choices
+urlchecker.net###adchecker
+urlchecker.net###adchecker_btn
+urlchecker.net###ads_notify
+urlchecker.org###adchecker
+urlchecker.org###adchecker_btn
+urlchecker.org###ads_notify
+ria.ru##.antiblock
 openload.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 uploadbank.com###\32 iegLoGXmk2LIjw1VxrdDKg7CWfCJy
 uploadbank.com###juzvY65xAdNlY2Yi2zp
@@ -23575,6 +23656,16 @@ loadvid.online##+js(set-constant.js, pop_cnt, 1)
 loadvid.online##+js(setTimeout-defuser.js, _creatBait)
 loadvid.online###overlay-vcplayer
 ||bit.ly^$subdocument,domain=loadvid.online
+4chan.org##.ad-plea
+4chan.org##.topad
+4chan.org##.middlead
+4chan.org##.bottomad
+crypto-clix.net##.ad-block
+crypto-clix.net##.ad-content
+crypto-clix.net##.ad-footer
+hireteen.com###adb-enabled
+theguardian.com##.js-adblock-sticky
+theguardian.com##.site-message--adblock-message
 solarmoviez.*,yesmovies.to##a[href^="https://watchasap.com/"]
 solarmoviez.*##+js(nowebrtc.js)
 solarmoviex.to##+js(abort-current-inline-script.js, decodeURI, atob)
@@ -23599,6 +23690,9 @@ imgrock.*##+js(nano-setTimeout-booster.js, /.?/, 4000)
 imgrock.*##+js(popads-dummy.js)
 imgrock.*##+js(popads.net.js)
 imgrock.*##+js(window.open-defuser.js)
+uptobox.com###adblocktrap
+uptobox.com##.ad-leader
+uptobox.com##.ad-leader > div[id]
 wordgames.com###ad-gamepage-leaderboard
 wordgames.com###skyscrapper-container
 wordgames.com###skyscraper-container
@@ -23636,6 +23730,71 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 ||2giga.link/sw.js$script,1p
 2giga.link##+js(abort-on-property-write.js, Fingerprint2)
 2giga.link##+js(addEventListener-defuser.js, click)
+link.tl##.adblockBox
+link.tl##.adblockOverlay
+filez.tv###adblockinfo
+flashx.tv##.box_hdr > center
+flashx.tv##.left.box_body
+flashx.tv##.main_box_right
+fullmatchesandshows.com##.adsbox
+fullmatchesandshows.com##.adsense
+fullmatchesandshows.com##.adslot
+fullmatchesandshows.com##.adspot
+fullmatchesandshows.com##.pub_300x250
+fullmatchesandshows.com##.pub_300x250m
+fullmatchesandshows.com##.pub_728x90
+fullmatchesandshows.com##.text-ad
+fullmatchesandshows.com##.textAd
+fullmatchesandshows.com##.text_ad
+fullmatchesandshows.com##.text_ads
+fullmatchesandshows.com##.text-ads
+fullmatchesandshows.com##.text-ad-links
+cinemablend.com##.adsbox
+cinemablend.com##.adsense
+cinemablend.com##.adslot
+cinemablend.com##.adspot
+cinemablend.com##.pub_300x250
+cinemablend.com##.pub_300x250m
+cinemablend.com##.pub_728x90
+cinemablend.com##.text-ad
+cinemablend.com##.textAd
+cinemablend.com##.text_ad
+cinemablend.com##.text_ads
+cinemablend.com##.text-ads
+cinemablend.com##.text-ad-links
+playwire.com##.adsbox
+playwire.com##.adsense
+playwire.com##.adslot
+playwire.com##.adspot
+playwire.com##.pub_300x250
+playwire.com##.pub_300x250m
+playwire.com##.pub_728x90
+playwire.com##.text-ad
+playwire.com##.textAd
+playwire.com##.text_ad
+playwire.com##.text_ads
+playwire.com##.text-ads
+playwire.com##.text-ad-links
+hdmovie14.net##.pub_300x250
+hdmovie14.net##.pub_300x250m
+hdmovie14.net##.pub_728x90
+hdmovie14.net##.text-ad
+hdmovie14.net##.textAd
+hdmovie14.net##.text_ad
+hdmovie14.net##.text_ads
+hdmovie14.net##.text-ads
+hdmovie14.net##.text-ad-links
+ria.ru##.antiblock
+ria.ru##div.section:nth-of-type(1) > .section__cell > .section__banner-column
+ria.ru##div.section:nth-of-type(2) > .section__cell > .section__banner-column
+ria.ru##div.section:nth-of-type(3) > .section__cell > .section__banner-column
+ria.ru##div.section:nth-of-type(4) > .section__cell > .section__banner-column
+ria.ru##div.section:nth-of-type(5) > .section__cell > .section__banner-column
+rtlxl.nl##.adblock
+spele.nl##.adblocker
+videofun.me###flowplayer > div[class][style]:first-child
+abc-fonts.me###galepro-core-adb-enabled
+findretros.com##.fuck-adblock
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 /adnetwork.js
@@ -23805,6 +23964,61 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 /ad.js
 /ads.js
 /ad.json
+/wp-content/plugins/sorry-adblocker/js/sab.js$script
+/ad-blocking-detector/*
+/adb_detector.
+/adblock-blocker/*
+/adblock_detector.
+/adblockdetect.
+/adblockdetection.
+/anti_ab.
+/antiadblock.
+/wp-content/plugins/anti_ad_blocker/*
+/adblock_detection/*
+/antipubblicita.js
+/noadblock.jpg
+/adblock/adblockpopup.js$script
+/adblockbait.js$script
+/adblockchecker.js$script
+/kill-adblock/js/function.js$script
+##amp-ad
+##amp-embed.ad_cnt
+##div#adbay_adExpandDiv
+##div#adbay_adExpandIframe
+##div#adya_area
+##div#livereAd
+##div#livere_ad
+##div#mobitree
+##div#mobitreeP
+##div#prism_displayAD
+##div#uniqubeAd_area
+##div#uniqubeAd_area_iframe
+##div#uniqubeAd_area_text
+##div#uniqubeFirstDiv
+##div#wiseAd
+##div.__uz__widget div.__uz__article.ad_response
+##div._popIn_recommend_container a._popIn_recommend_article_ad
+##div._popIn_recommend_container a._popIn_recommend_article_ad_reserved
+##div._popIn_recommend_container div._popIn_infinite_ad
+##div._popIn_recommend_container div._popIn_recommend_article_ad
+##div._taxel_recommend_container div[class*=" _taxel_ad_article_"]
+##div._taxel_recommend_container div[class^="_taxel_ad_article_"]
+##div.ezAdsense
+##div.ezoic-ad
+##div.gpt_ad_container
+##div.js-relap__item>div.js-relap__item-inner>a[data-ad-link="true"]
+##div.logly-lift-ad a[href^="https://dsp.logly.co.jp/click"]
+##div.logly-lift-ad-ad
+##div.logly-lift-adz
+##div.ob-widget-section>ul.ob-widget-items-container>li.ob-oc
+##div.ob-widget-section>ul.ob-widget-items-container>li.ob-p
+##div.ob_box_cont>ul>li.ob-p
+##div.ob_container>a.ob-p
+##div.pushADMiddle
+##div.trc_popover_aug_container
+##div.trc_rbox_container div.trc-content-sponsored.trc_rbox
+##div.trc_rbox_container div.trc_rbox_outer div.syndicatedItem
+##div.wpcnt
 ###.AdBlockDialog
 ###.adb-warning
 ###.adblock-alert
@@ -23860,6 +24074,7 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 ##.adblocker-wrap
 ##.counterAdblocks
 ###adblockDetect
+###adblock_detected
 ##.dispositifAdblockMessageBox
 ##.js-checkad-warning
 ##.kill-adblock-container
@@ -23878,4 +24093,48 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 ###preroll_ads
 ##.google_banner
 ###adArea
+###ad-tile
+###ad-banner-wrapper
 ###bylineaAd1
+##.adblock-whitelist-messaging__wrapper
+##.antiblock
+##.site-message--adblock-message
+##.js-adblock-sticky
+###adblockBanner
+###like-us-adblock-modal
+##.admania_adblock_detector
+##.o-AdhesionNotifier
+##.popup-premium__apla
+###abp-killer
+###adBlockAlert
+###adBlockAlertWrap
+###adBlockDetect
+###adBlockerModal
+###ad_blocker
+###adb-actived
+###adb-enabled
+###adb-enabled3
+###adb-warning
+###adblock-alert
+###adblock-box
+###adblock-modal
+###adblock-msg
+###adblock-notice
+###adblock-overlay
+###adblocker_announce
+###adblocker_message
+###adblocker_modal_overlay
+###adblockinfo
+###ads-blocked
+###anti_adblock
+###advertisementjsalert
+###detectadblock
+###fnAdblockingOverlay
+###message_adblock
+##.ad-alert-wrapper
+##.ad_blocker
+##.fuckYouAdBlock
+##.fuckYouAdBlock2
+##.svg-adblock-full
+##.svg-adblock-full--box
+##[class][data-sitename][data-header-version] > div[id^="detection-block"]
