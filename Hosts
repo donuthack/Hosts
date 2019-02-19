@@ -14,7 +14,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ## Number of ad services, trackers, malware and scripts blocked: 23,576 (uBlock)
-## Last Updated on Thursday, February 14, 2019
+## Last Updated on Monday, February 18, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -68,6 +68,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adpopcon.com
+0.0.0.0 ad.adenc.co.kr
+0.0.0.0 ad.ad-ya.net
+0.0.0.0 ad-ya.net
+0.0.0.0 ad.ad-stir.com
+0.0.0.0 ad-stir.com
+0.0.0.0 advs.hankyung.com
+0.0.0.0 adviva.net
+0.0.0.0 advert.kbench.com
+0.0.0.0 adv.mediaharbor.co.kr
+0.0.0.0 adtime.img.or.kr
+0.0.0.0 adsystem.kr
+0.0.0.0 adswap.co.kr
+0.0.0.0 adsrv.munhwa.co.kr
+0.0.0.0 adserve.com
+0.0.0.0 adsensekr.com
+0.0.0.0 adscript.gmarket.co.kr
+0.0.0.0 ads.tattermedia.com
+0.0.0.0 ads.ibtimes.co.kr
 0.0.0.0 ads.gamemeca.com
 0.0.0.0 adplace.co.kr
 0.0.0.0 ad.3dpop.kr
@@ -2065,6 +2084,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cookiex.ngd.yahoo.com
 0.0.0.0 cas.criteo.com
 0.0.0.0 cm.keywordsconnect.com
 0.0.0.0 cc.bingj.com
@@ -2497,6 +2517,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dable.io
+0.0.0.0 dynata.com
 0.0.0.0 dp25.kr
 0.0.0.0 dotomi.com
 0.0.0.0 dotmetrics.net
@@ -2889,6 +2911,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gtosite7.com
 0.0.0.0 gaja79.com
 0.0.0.0 gamehouse.com
 0.0.0.0 go2linkfast.com
@@ -4423,6 +4446,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 px.srvcs.tumblr.com
 0.0.0.0 propellerclick.com
 0.0.0.0 push-notifications.top
 0.0.0.0 prisma.fp.ub.ac.id
@@ -4740,6 +4764,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 surveysampling.com
 0.0.0.0 sp1.jssearch.net
 0.0.0.0 sosa.semanticrep.com
 0.0.0.0 sieure.asia
@@ -5766,6 +5791,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zone5.adpopcon.com
 0.0.0.0 zerbinipersonalizzabili.it
 0.0.0.0 zonatorrent.es
 0.0.0.0 zurgerya.ru
@@ -23545,6 +23571,7 @@ ff02::3 ip6-allhosts
 ||linkshrink.net^$popup,third-party
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
+||safe.txmblr.com/research/pixel
 userscloud.com##.alert.alert-info:has-text
 multifilemirror.com##.noticeContainer:has-text
 multifilemirror.com##.blockContainer:has-text
@@ -23797,6 +23824,7 @@ abc-fonts.me###galepro-core-adb-enabled
 findretros.com##.fuck-adblock
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
+/research/pixel
 /adnetwork.js
 /api/v1/tracking-event/creative_view
 /fuckadblock
