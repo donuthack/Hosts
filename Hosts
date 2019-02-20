@@ -13,8 +13,9 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-## Number of ad services, trackers, malware and scripts blocked: 23,576 (uBlock)
-## Last Updated on Monday, February 18, 2019
+# Title: Cybo's Hosts
+# Number of ad services, trackers, malware and scripts blocked: 23,576 (uBlock)
+# Last Updated on Wednesday, February 20, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -68,6 +69,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 advertising.apple.com
 0.0.0.0 adpopcon.com
 0.0.0.0 ad.adenc.co.kr
 0.0.0.0 ad.ad-ya.net
@@ -1441,6 +1443,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bbs.operachina.com
 0.0.0.0 ba4g2huj349253.w46f1-c5f1.kfhpgtq.tk
 0.0.0.0 beautyandbrainsmagazine.site
 0.0.0.0 bkkbubblebar.com
@@ -2084,6 +2087,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cplog.flashget.com
+0.0.0.0 cap.cyberlink.com
 0.0.0.0 cookiex.ngd.yahoo.com
 0.0.0.0 cas.criteo.com
 0.0.0.0 cm.keywordsconnect.com
@@ -2467,7 +2472,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 code.jquery.com
 0.0.0.0 c.betrad.com
 0.0.0.0 cdn.livefyre.com
-0.0.0.0 coinbase.com
 0.0.0.0 cdn.trackjs.com
 0.0.0.0 cdn.windstream.com
 0.0.0.0 cdn.quantummetric.com
@@ -3031,6 +3035,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 heartbeat.flickr.com
+0.0.0.0 hsrd.yahoo.com
 0.0.0.0 homepros.zone
 0.0.0.0 haine2.webrevolutionfactory.com
 0.0.0.0 hyoureasyforms.com
@@ -4088,6 +4094,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mini.operachina.com
 0.0.0.0 mt48.net
 0.0.0.0 mrm.lt
 0.0.0.0 molly.thememove.com
@@ -4368,6 +4375,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 oupeng.com
+0.0.0.0 operachina.com
 0.0.0.0 outbanner.hu.co.kr
 0.0.0.0 o65.xyz
 0.0.0.0 offers.webitas.lt
@@ -4446,6 +4455,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 press.operachina.com
+0.0.0.0 portal.operachina.com
 0.0.0.0 px.srvcs.tumblr.com
 0.0.0.0 propellerclick.com
 0.0.0.0 push-notifications.top
@@ -4764,6 +4775,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static.operachina.com
+0.0.0.0 s5.flashget.com
+0.0.0.0 searchads.apple.com
+0.0.0.0 source.youxiaoad.com
 0.0.0.0 surveysampling.com
 0.0.0.0 sp1.jssearch.net
 0.0.0.0 sosa.semanticrep.com
@@ -5401,6 +5416,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 us.js2.yimg.com
 0.0.0.0 updates.easycounter.com
 0.0.0.0 uk-advertising.yahoo.com
 0.0.0.0 urh.easyshoopingenligne.com
@@ -5526,6 +5542,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 witbe.net
+0.0.0.0 witbe.app
 0.0.0.0 webonflex.com
 0.0.0.0 webeatyouradblocker.com
 0.0.0.0 webrevolutionfactory.com
@@ -5682,6 +5700,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 youxiaoad.com
 0.0.0.0 y7mna.com
 0.0.0.0 yui-s.yahooapis.com
 0.0.0.0 yhufp.supervid.pro
@@ -5892,6 +5911,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 19tv.top
 0.0.0.0 33across.com
 0.0.0.0 7vauw8000kmqcshek.bmi.scandalousscarecrow.com
 0.0.0.0 1yqbp.com
