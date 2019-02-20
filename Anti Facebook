@@ -1,4 +1,6 @@
+# Title: Cybo's Hosts - Anti Facebook
 #File also includes domains hosted by Facebook
+
 0.0.0.0 facebook.com
 0.0.0.0 m.facebook.com
 0.0.0.0 facebook.de
