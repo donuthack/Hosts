@@ -1,4 +1,6 @@
-#This file is meant to be used on Android phones with Blokada (Breaks many features, tested on Motorola Z Droid and Google Pixel 3)
+# This file is meant to be used on Android phones with Blokada (Breaks many features, tested on Motorola Z Droid and Google Pixel 3)
+# Title: Cybo's Hosts - Anti Google
+
 0.0.0.0 google.com
 0.0.0.0 google.co
 0.0.0.0 google.ac
