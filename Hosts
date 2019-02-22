@@ -31,13 +31,7 @@ ff02::3 ip6-allhosts
 # Block ads in Pandora App for Android
 0.0.0.0 pandoramedia.sc.omtrdc.net
 
-# Testing for Games on Android
-0.0.0.0 s02.savando.de
-0.0.0.0 a.ba2121292eda2ecd41203af62a59d608.com
-0.0.0.0 52.216.137.123
-0.0.0.0 54.243.167.133
-0.0.0.0 52.174.162.167
-0.0.0.0 ananytics.kongregate.io
+# Testing for Apps on Android
 
 # Unknown IPs from Lucky Patcher
 0.0.0.0 95.183.10.176
@@ -144,6 +138,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 a23-76-131-36.deploy.static.akamaitechnologies.com
+0.0.0.0 ads.kemoge.net
+0.0.0.0 ananytics.kongregate.io
+0.0.0.0 a.ba2121292eda2ecd41203af62a59d608.com
 0.0.0.0 andlache.com
 0.0.0.0 adminer.com
 0.0.0.0 api.inwemo.com
@@ -2171,6 +2169,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 c.mystat-in.net
 0.0.0.0 candid.zone
 0.0.0.0 coinpirate.cf
 0.0.0.0 crypto-webminer.com
@@ -2830,6 +2829,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 etcodes.com
 0.0.0.0 ettoday.net
 0.0.0.0 euadsapi.manhuaren.com
+0.0.0.0 ec2-54-243-167-133.compute-1.amazonaws.com
 0.0.0.0 ec2-52-22-211-47.compute-1.amazonaws.com
 0.0.0.0 ec2-52-21-217-73.compute-1.amazonaws.com
 0.0.0.0 ec2-52-20-57-219.compute-1.amazonaws.com
@@ -3141,6 +3141,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 httpads.com
 0.0.0.0 hive.tubetitties.com
 0.0.0.0 hemnes.win
 0.0.0.0 hostingcloud.download
@@ -4799,6 +4800,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 realsecuredredirect.com
 0.0.0.0 realclick.co.kr
 0.0.0.0 review.easycounter.com
 0.0.0.0 royalacecampaign.com
@@ -4903,6 +4905,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 s02.savando.de
 0.0.0.0 sparechange.io
 0.0.0.0 static.sparechange.io
 0.0.0.0 swingpaints.com
@@ -6049,6 +6052,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 118d654612df63bc8395-aecfeaabe29a34ea9a877711ec6d8aed.r37.cf2.rackcdn.com
+0.0.0.0 52.216.137.123
+0.0.0.0 54.243.167.133
+0.0.0.0 52.174.162.167
 0.0.0.0 3waynetworks.com
 0.0.0.0 8520dd.xyz
 0.0.0.0 85058.com
@@ -6147,6 +6154,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 4yonder.net
 0.0.0.0 2parale.ro
 0.0.0.0 2performant.com
+0.0.0.0 070806142521.c.mystat-in.net
 0.0.0.0 7w.ro
 0.0.0.0 52.204.7.150
 0.0.0.0 205.186.175.154
@@ -6188,6 +6196,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 7offers.ru
 0.0.0.0 6a9c7d514c81589.com
 0.0.0.0 100.admin5.com
+0.0.0.0 092706152958.c.mystat-in.net
+0.0.0.0 090906042103.c.mystat-in.net
 0.0.0.0 189.cn
 0.0.0.0 1.hao123.com
 0.0.0.0 062616.com
