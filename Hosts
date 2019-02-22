@@ -15,7 +15,7 @@ ff02::3 ip6-allhosts
 
 # Title: Cybo's Hosts
 # Number of ad services, trackers, malware and scripts blocked: 24,088 (uBlock)
-# Last Updated on Wednesday, February 20, 2019
+# Last Updated on Thursday, February 21, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -27,6 +27,73 @@ ff02::3 ip6-allhosts
 0.0.0.0 weathercenter.co
 0.0.0.0 quickemailaccess.co
 0.0.0.0 easyspeedtest.co
+
+# Block ads in Pandora App for Android
+0.0.0.0 pandoramedia.sc.omtrdc.net
+
+# Unknown IPs from Lucky Patcher
+0.0.0.0 95.183.10.176
+0.0.0.0 104.27.134.170
+# 104.27.134.170 (Using Reverse IP Lookup via ipaddress.com)
+0.0.0.0 030519azino777.com
+0.0.0.0 0dayarchive.us
+0.0.0.0 alhdas.com
+0.0.0.0 arcadiaservers.com
+0.0.0.0 artfitrj.online
+0.0.0.0 austrian-booking.club
+0.0.0.0 auto400.us
+0.0.0.0 beafindholidaylaptopdealsok.live
+0.0.0.0 boomtouch.bid
+0.0.0.0 cryptotrades.exchange
+0.0.0.0 cutyjg.com
+0.0.0.0 dinamobet46.com
+0.0.0.0 diziizlendi.org
+0.0.0.0 dokodemosento.com
+0.0.0.0 dosyaindir.info
+0.0.0.0 evilmobile.com
+0.0.0.0 findmedatemeloveme.club
+0.0.0.0 g-resources31.us
+0.0.0.0 garryinc.com
+0.0.0.0 godiabetesfree.org
+0.0.0.0 goutmovie.download
+0.0.0.0 howtomakeblog.info
+0.0.0.0 iiimanila.com
+0.0.0.0 jaj77.com
+0.0.0.0 japanesetradingcardgame.host
+0.0.0.0 karabin4ikitoys1.host
+0.0.0.0 kjqhp.tel
+0.0.0.0 le-bodyx-shop.com
+0.0.0.0 librospdf.top
+0.0.0.0 wap.macantogel4d.com
+0.0.0.0 macantogel4d.com
+0.0.0.0 naudoorssase.ml
+0.0.0.0 nwominhaisu.tk
+0.0.0.0 panamaretireespensionersvisa.com
+0.0.0.0 pereveb.com
+0.0.0.0 pewterreport.com
+0.0.0.0 possible24.site
+0.0.0.0 qphkno.space
+0.0.0.0 ratethemix.com
+0.0.0.0 salegetshops.club
+0.0.0.0 starorhydderc.tk
+0.0.0.0 sticker-for-car.bid
+0.0.0.0 www.subscribepage.com
+0.0.0.0 subscribepage.com
+0.0.0.0 tis-market.com
+0.0.0.0 tracedempire.us
+0.0.0.0 tworldclock.pro
+0.0.0.0 vittoriale-dvd.com
+0.0.0.0 oboeinsight.com
+0.0.0.0 oboeinsight.com.cdn.cloudflare.net
+0.0.0.0 pinkribbonmiracle.com
+0.0.0.0 yokgp.club
+# Fake Rising SUn Rock Festival Website
+0.0.0.0 tenbai-no.jp
+
+# Pacific Bridges (Possible Scam)
+0.0.0.0 pacificbridges.us
+0.0.0.0 moneyservice.top
+0.0.0.0 move2usa.net
 
 # IP Grabbers
 0.0.0.0 ipstat.com
@@ -69,6 +136,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 andlache.com
+0.0.0.0 adminer.com
+0.0.0.0 api.inwemo.com
+0.0.0.0 authedmine.com
+0.0.0.0 analytics.orpheusdroid.com
 0.0.0.0 advertising.apple.com
 0.0.0.0 adpopcon.com
 0.0.0.0 ad.adenc.co.kr
@@ -1443,6 +1515,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 blockchained.party
+0.0.0.0 www.blockchained.party
+0.0.0.0 bayreviews.org
 0.0.0.0 bbs.operachina.com
 0.0.0.0 ba4g2huj349253.w46f1-c5f1.kfhpgtq.tk
 0.0.0.0 beautyandbrainsmagazine.site
@@ -2087,6 +2162,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 candid.zone
+0.0.0.0 coinpirate.cf
+0.0.0.0 crypto-webminer.com
+0.0.0.0 cryptonoter.com
+0.0.0.0 coinimp.com
+0.0.0.0 coinimp.net
+0.0.0.0 coinnebula.com
+0.0.0.0 cnhv.co
 0.0.0.0 cplog.flashget.com
 0.0.0.0 cap.cyberlink.com
 0.0.0.0 cookiex.ngd.yahoo.com
@@ -2844,6 +2927,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 freecontent.bid
+0.0.0.0 www.freecontent.bid
+0.0.0.0 freecontent.date
+0.0.0.0 www.freecontent.date
+0.0.0.0 freecontent.faith
+0.0.0.0 www.freecontent.faith
+0.0.0.0 freecontent.loan
+0.0.0.0 www.freecontent.loan
+0.0.0.0 freecontent.racing
+0.0.0.0 www.freecontent.racing
+0.0.0.0 freecontent.win
+0.0.0.0 www.freecontent.win
+0.0.0.0 flare-analytics.com
+0.0.0.0 flocdn.com
 0.0.0.0 fuckadblock.sitexw.fr
 0.0.0.0 foxurl.net
 0.0.0.0 freebytecoin.cf
@@ -3035,6 +3132,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hive.tubetitties.com
+0.0.0.0 hemnes.win
+0.0.0.0 hostingcloud.download
+0.0.0.0 www.hostingcloud.download
+0.0.0.0 h.hrtya.com
+0.0.0.0 hrtya.com
 0.0.0.0 heartbeat.flickr.com
 0.0.0.0 hsrd.yahoo.com
 0.0.0.0 homepros.zone
@@ -3282,6 +3385,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 krb.devphp.org.ua
 0.0.0.0 kos.interseek.si
 0.0.0.0 kshitijinfra.com
 0.0.0.0 kurzal.ru
@@ -4094,6 +4198,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mining.best
+0.0.0.0 mutuza.win
+0.0.0.0 miner.nablabee.com
+0.0.0.0 m.anyfiles.ovh
+0.0.0.0 marketgid.com
+0.0.0.0 monerominer.rocks
+0.0.0.0 minemytraffic.com
+0.0.0.0 miner.pr0gramm.com
+0.0.0.0 mailerlite.com
+0.0.0.0 myvouchers.ie
 0.0.0.0 mini.operachina.com
 0.0.0.0 mt48.net
 0.0.0.0 mrm.lt
@@ -4311,6 +4425,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nfwebminer.com
+0.0.0.0 nekudo.com
 0.0.0.0 native.propellerclick.com
 0.0.0.0 nt-kmv.ru
 0.0.0.0 newpush.support
@@ -4455,6 +4571,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 playerassets.info
+0.0.0.0 prxonline.com
+0.0.0.0 prizeemail.info
 0.0.0.0 press.operachina.com
 0.0.0.0 portal.operachina.com
 0.0.0.0 px.srvcs.tumblr.com
@@ -4775,6 +4894,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sparechange.io
+0.0.0.0 static.sparechange.io
+0.0.0.0 swingpaints.com
 0.0.0.0 static.operachina.com
 0.0.0.0 s5.flashget.com
 0.0.0.0 searchads.apple.com
@@ -5256,6 +5378,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tokyodrift.ga
 0.0.0.0 tags.mathtag.com
 0.0.0.0 totdorancaltert.club
 0.0.0.0 tkqlhce.com
@@ -5542,6 +5665,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 webassembly.stream
+0.0.0.0 www.webassembly.stream
+0.0.0.0 webminepool.com
+0.0.0.0 webminepool.tk
+0.0.0.0 wsp.marketgid.com
 0.0.0.0 witbe.net
 0.0.0.0 witbe.app
 0.0.0.0 webonflex.com
@@ -5666,6 +5794,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xmr.mining.best
 0.0.0.0 xpg.com.br
 0.0.0.0 xa.net
 0.0.0.0 xentracking.com
@@ -5911,6 +6040,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 3waynetworks.com
+0.0.0.0 8520dd.xyz
+0.0.0.0 85058.com
+0.0.0.0 30064.com
+0.0.0.0 0n-line.tv
+0.0.0.0 136-144-204-121.colo.transip.net
 0.0.0.0 19tv.top
 0.0.0.0 33across.com
 0.0.0.0 7vauw8000kmqcshek.bmi.scandalousscarecrow.com
@@ -7900,10 +8035,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 ppoi.org
 0.0.0.0 hd-world.org
 0.0.0.0 coinerra.com
+0.0.0.0 minero-proxy-01.now.sh
+0.0.0.0 minero-proxy-02.now.sh
+0.0.0.0 minero-proxy-03.now.sh
 0.0.0.0 minero.pw
 0.0.0.0 coinblind.com
 0.0.0.0 webmine.cz
 0.0.0.0 inwemo.com
+0.0.0.0 cdn.cloudcoins.co
 0.0.0.0 cloudcoins.co
 0.0.0.0 coinhive-manager.com
 0.0.0.0 rocks.io
@@ -23592,6 +23731,10 @@ ff02::3 ip6-allhosts
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
 ||safe.txmblr.com/research/pixel
+politico.com##.layout--fixed-fluid-fixed.container > div.container__column:nth-of-type(1)
+politico.com##.layout--fluid-fixed.container__row > div.container__column:nth-of-type(2)
+politico.com##div.container__column:nth-of-type(1) > .container__row > .container__slot
+politico.com##div.container__column:nth-of-type(1) > .container__row
 userscloud.com##.alert.alert-info:has-text
 multifilemirror.com##.noticeContainer:has-text
 multifilemirror.com##.blockContainer:has-text
