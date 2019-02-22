@@ -14,8 +14,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 # Title: Cybo's Hosts
-# Number of ad services, trackers, malware and scripts blocked: 24,224 (uBlock)
-# Last Updated on Thursday, February 21, 2019
+# Number of ad services, trackers, malware and scripts blocked: 24,230 (uBlock)
+# Last Updated on Friday, February 22, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -30,6 +30,14 @@ ff02::3 ip6-allhosts
 
 # Block ads in Pandora App for Android
 0.0.0.0 pandoramedia.sc.omtrdc.net
+
+# Testing for Games on Android
+0.0.0.0 s02.savando.de
+0.0.0.0 a.ba2121292eda2ecd41203af62a59d608.com
+0.0.0.0 52.216.137.123
+0.0.0.0 54.243.167.133
+0.0.0.0 52.174.162.167
+0.0.0.0 ananytics.kongregate.io
 
 # Unknown IPs from Lucky Patcher
 0.0.0.0 95.183.10.176
