@@ -140,6 +140,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 app.activtrak.com
+0.0.0.0 activtrak.com
+0.0.0.0 appsee.com
+0.0.0.0 apsalar.com
+0.0.0.0 askingpoint.com
 0.0.0.0 az786092.vo.msecnd.net
 0.0.0.0 a23-76-131-36.deploy.static.akamaitechnologies.com
 0.0.0.0 ads.kemoge.net
@@ -2172,6 +2177,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 clicktale.com
+0.0.0.0 compete.com
+0.0.0.0 count.ly
 0.0.0.0 c.mystat-in.net
 0.0.0.0 candid.zone
 0.0.0.0 coinpirate.cf
@@ -2615,6 +2623,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dashboard.appsee.com
 0.0.0.0 dable.io
 0.0.0.0 dynata.com
 0.0.0.0 dp25.kr
@@ -2940,6 +2949,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fabric.io
 0.0.0.0 freecontent.bid
 0.0.0.0 www.freecontent.bid
 0.0.0.0 freecontent.date
@@ -3025,6 +3035,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 get.fabric.io
+0.0.0.0 geckoboard.com
 0.0.0.0 gtosite7.com
 0.0.0.0 gaja79.com
 0.0.0.0 gamehouse.com
@@ -3399,6 +3411,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kissinsights.com
 0.0.0.0 krb.devphp.org.ua
 0.0.0.0 kos.interseek.si
 0.0.0.0 kshitijinfra.com
@@ -4212,6 +4225,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 metrica.yandex.com
+0.0.0.0 mixpanel.com
 0.0.0.0 meek-reflect.appspot.com
 0.0.0.0 mining.best
 0.0.0.0 mutuza.win
@@ -4910,6 +4925,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 safe.txmblr.com
 0.0.0.0 sascdn.com
 0.0.0.0 s02.savando.de
 0.0.0.0 sparechange.io
@@ -5396,7 +5412,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
-0.0.0.0 tweakbox.pro
+0.0.0.0 tag.researchnow.com
 0.0.0.0 tokyodrift.ga
 0.0.0.0 tags.mathtag.com
 0.0.0.0 totdorancaltert.club
@@ -5684,6 +5700,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 web.analytics.yahoo.com
 0.0.0.0 webassembly.stream
 0.0.0.0 www.webassembly.stream
 0.0.0.0 webminepool.com
@@ -23757,8 +23774,7 @@ ff02::3 ip6-allhosts
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
 ||safe.txmblr.com/research/pixel
-@@||tweakboxapp.com^$third-party,domain=googlesyndication.com|gstatic.com|tweakbox.pro
-@@||next.tweakboxapp.com^$third-party,domain=googlesyndication.com|gstatic.com|tweakbox.pro
+||1.bp.blogspot.com/-cqrCfoOS--Q/W7ec5oPYDFI/AAAAAAAAyUo/_IIMzdWpFzEbDG4iuLyzaI9eHyE0-mPrgCLcBGAs/s300-e100/cybersecurity-infographic-min.jpg
 politico.com##.layout--fixed-fluid-fixed.container > div.container__column:nth-of-type(1)
 politico.com##.layout--fluid-fixed.container__row > div.container__column:nth-of-type(2)
 politico.com##div.container__column:nth-of-type(1) > .container__row > .container__slot
