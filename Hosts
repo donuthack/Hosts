@@ -140,6 +140,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 amp.ai
 0.0.0.0 app.activtrak.com
 0.0.0.0 activtrak.com
 0.0.0.0 appsee.com
@@ -2827,6 +2828,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 evengparme.com
 0.0.0.0 eu.geo.yahoo.com
 0.0.0.0 email.teamsnap.com
 0.0.0.0 emjcd.com
@@ -4225,6 +4227,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 www.multiad.com
 0.0.0.0 www.marchex.com
 0.0.0.0 metrica.yandex.com
 0.0.0.0 mixpanel.com
@@ -4602,6 +4605,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 p0.powr-media.com
+0.0.0.0 powerbi.microsoft.com
 0.0.0.0 playerassets.info
 0.0.0.0 prxonline.com
 0.0.0.0 prizeemail.info
@@ -23775,6 +23780,8 @@ ff02::3 ip6-allhosts
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
 ||safe.txmblr.com/research/pixel
+dailywire.com##.position-static.fx-s-0.sidebar
+dailywire.com##.fx-s-0-l.sidebar
 ||1.bp.blogspot.com/-cqrCfoOS--Q/W7ec5oPYDFI/AAAAAAAAyUo/_IIMzdWpFzEbDG4iuLyzaI9eHyE0-mPrgCLcBGAs/s300-e100/cybersecurity-infographic-min.jpg
 politico.com##.layout--fixed-fluid-fixed.container > div.container__column:nth-of-type(1)
 politico.com##.layout--fluid-fixed.container__row > div.container__column:nth-of-type(2)
