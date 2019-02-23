@@ -5396,6 +5396,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tweakbox.pro
 0.0.0.0 tokyodrift.ga
 0.0.0.0 tags.mathtag.com
 0.0.0.0 totdorancaltert.club
@@ -23756,8 +23757,8 @@ ff02::3 ip6-allhosts
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
 ||safe.txmblr.com/research/pixel
-||tweakboxapp.com^$third-party
-||next.tweakboxapp.com^$third-party
+@@||tweakboxapp.com^$third-party,domain=googlesyndication.com|gstatic.com|tweakbox.pro
+@@||next.tweakboxapp.com^$third-party,domain=googlesyndication.com|gstatic.com|tweakbox.pro
 politico.com##.layout--fixed-fluid-fixed.container > div.container__column:nth-of-type(1)
 politico.com##.layout--fluid-fixed.container__row > div.container__column:nth-of-type(2)
 politico.com##div.container__column:nth-of-type(1) > .container__row > .container__slot
