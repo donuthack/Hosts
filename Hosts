@@ -138,6 +138,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 az786092.vo.msecnd.net
 0.0.0.0 a23-76-131-36.deploy.static.akamaitechnologies.com
 0.0.0.0 ads.kemoge.net
 0.0.0.0 ananytics.kongregate.io
@@ -2744,6 +2745,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d4ngwggzm3w7j.cloudfront.net
 0.0.0.0 dkm6b5q0h53z4.cloudfront.net
 0.0.0.0 ds02gfqy6io6i.cloudfront.net
+0.0.0.0 d2zfqthxsdq309.cloudfront.net
 0.0.0.0 d32wqyuo10o653.cloudfront.net
 0.0.0.0 d32z5ni8t5127x.cloudfront.net
 0.0.0.0 d1zkodo2u3p4pe.cloudfront.net
@@ -4208,6 +4210,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 meek-reflect.appspot.com
 0.0.0.0 mining.best
 0.0.0.0 mutuza.win
 0.0.0.0 miner.nablabee.com
