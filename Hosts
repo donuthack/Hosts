@@ -140,6 +140,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 api.districtm.ca
+0.0.0.0 adx.districtm.ca
+0.0.0.0 an.districtm.ca
+0.0.0.0 am.sec.neustar.biz
+0.0.0.0 alert.wpm.neustar.biz
+0.0.0.0 admin.wpm.neustar.biz
+0.0.0.0 api.freshaddress.biz
 0.0.0.0 addictinggames.net
 0.0.0.0 amp.ai
 0.0.0.0 app.activtrak.com
@@ -1531,6 +1538,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 b3.staging.districtm.ca
+0.0.0.0 b3.districtm.ca
+0.0.0.0 boost-qa2.districtm.ca
+0.0.0.0 beacon.tru.am
 0.0.0.0 butcalve.com
 0.0.0.0 blockchained.party
 0.0.0.0 www.blockchained.party
@@ -2179,6 +2190,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 ch.districtm.ca
+0.0.0.0 cdnsandbox.districtm.ca
+0.0.0.0 cdn.districtm.ca
+0.0.0.0 cdn.wpm.neustar.biz
 0.0.0.0 crypto.csgocpu.com
 0.0.0.0 www.cbsistatic.com
 0.0.0.0 clicktale.com
@@ -2627,6 +2642,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dmx-dev.districtm.ca
+0.0.0.0 dmx-staging.districtm.ca
+0.0.0.0 dmx.districtm.ca
+0.0.0.0 dev.districtm.ca
+0.0.0.0 dev-cdn.districtm.ca
+0.0.0.0 demo.districtm.ca
+0.0.0.0 districtm.net
+0.0.0.0 districtm.com
+0.0.0.0 districtm.ca
+0.0.0.0 www.districtm.ca
+0.0.0.0 decisioncloud.marketshare.com
+0.0.0.0 dashboard.p1.neustar.biz
 0.0.0.0 doublemax.net
 0.0.0.0 doubleclickbygoogle.com
 0.0.0.0 dev.cryptobara.com
@@ -2836,6 +2863,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 e1.neustar.biz
 0.0.0.0 editmysite.com
 0.0.0.0 evengparme.com
 0.0.0.0 eu.geo.yahoo.com
@@ -2960,6 +2988,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fr.districtm.ca
+0.0.0.0 fslt.wpm.neustar.biz
 0.0.0.0 www.forter.com
 0.0.0.0 forter.com
 0.0.0.0 fabric.io
@@ -3171,6 +3201,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hi.districtm.ca
+0.0.0.0 home.wpm.neustar.biz
+0.0.0.0 www.home.neustar
+0.0.0.0 home.neustar
 0.0.0.0 host.d-ns.ga
 0.0.0.0 hatcalter.com
 0.0.0.0 httpads.com
@@ -3261,6 +3295,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 idsync.districtm.ca
+0.0.0.0 iu.districtm.ca
+0.0.0.0 ipintelligence.neustar.biz
 0.0.0.0 ifcard.com
 0.0.0.0 ie8eamus.com
 0.0.0.0 idigito.net
@@ -4166,6 +4203,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 load.wpm.neustar.biz
 0.0.0.0 ledinund.com
 0.0.0.0 livere.co.kr
 0.0.0.0 labterpadu.ulm.ac.id
@@ -4242,6 +4280,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 www.marketing.neustar
+0.0.0.0 marketing.neustar
+0.0.0.0 monitor.wpm.neustar.biz
+0.0.0.0 metrics.wpm.neustar.biz
+0.0.0.0 metrics.hsbc.com.au
+0.0.0.0 metrics.mozilla.com
 0.0.0.0 marketingplatform.google.com
 0.0.0.0 mine.torrent.pw
 0.0.0.0 miner.cryptobara.com
@@ -4477,6 +4521,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 npm.districtm.ca
+0.0.0.0 www.neustarlocaleze.biz
+0.0.0.0 neustarlocaleze.biz
+0.0.0.0 numbering.neustar.biz
+0.0.0.0 neustar.biz
+0.0.0.0 ns-cdn.neustar.biz
 0.0.0.0 nathetsof.com
 0.0.0.0 nfwebminer.com
 0.0.0.0 nekudo.com
@@ -4624,6 +4674,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 prebid.districtm.ca
+0.0.0.0 passbacks.districtm.ca
+0.0.0.0 platform.districtm.ca
+0.0.0.0 p1.neustar.biz
+0.0.0.0 platformone.neustar.biz
+0.0.0.0 proserve.wpm.neustar.biz
 0.0.0.0 p0.powr-media.com
 0.0.0.0 powerbi.microsoft.com
 0.0.0.0 playerassets.info
@@ -4845,6 +4901,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 reveal.districtm.ca
+0.0.0.0 registry.neustar.biz
+0.0.0.0 rum.wpm.neustar.biz
+0.0.0.0 rum-collector.wpm.neustar.biz
 0.0.0.0 realsecuredredirect.com
 0.0.0.0 realclick.co.kr
 0.0.0.0 review.easycounter.com
@@ -4950,6 +5010,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 steve.districtm.ca
+0.0.0.0 static.districtm.ca
+0.0.0.0 staging.districtm.ca
+0.0.0.0 st.districtm.ca
+0.0.0.0 sf14g.com
+0.0.0.0 www.support.neustar
+0.0.0.0 support.neustar
+0.0.0.0 script.wpm.neustar.biz
+0.0.0.0 static.wpm.neustar.biz
+0.0.0.0 www.security.neustar
+0.0.0.0 security.neustar
 0.0.0.0 safe.txmblr.com
 0.0.0.0 sascdn.com
 0.0.0.0 s02.savando.de
@@ -5570,6 +5641,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tag.mtrcs.samba.tv
 0.0.0.0 toolbar.complex.com
 0.0.0.0 tru.am
+0.0.0.0 www.tru.am
 0.0.0.0 textads.adultadworld.com
 0.0.0.0 tag.onscroll.com
 0.0.0.0 tt.omtrdc.net
@@ -5725,6 +5797,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 webapp2.targusinfo.com
+0.0.0.0 www2.webmetrics.com
+0.0.0.0 wpm.neustar.biz
 0.0.0.0 witthethim.com
 0.0.0.0 web.analytics.yahoo.com
 0.0.0.0 webassembly.stream
@@ -6102,6 +6177,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 161118.engine.mobileapptracking.com
 0.0.0.0 3gl.net
 0.0.0.0 118d654612df63bc8395-aecfeaabe29a34ea9a877711ec6d8aed.r37.cf2.rackcdn.com
 0.0.0.0 52.216.137.123
