@@ -2624,6 +2624,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dxomark.disqus.com
 0.0.0.0 dashboard.appsee.com
 0.0.0.0 dable.io
 0.0.0.0 dynata.com
@@ -2951,6 +2952,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 www.forter.com
+0.0.0.0 forter.com
 0.0.0.0 fabric.io
 0.0.0.0 freecontent.bid
 0.0.0.0 www.freecontent.bid
@@ -3037,6 +3040,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go-mpulse.net
 0.0.0.0 get.fabric.io
 0.0.0.0 geckoboard.com
 0.0.0.0 gtosite7.com
@@ -6082,6 +6086,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 3gl.net
 0.0.0.0 118d654612df63bc8395-aecfeaabe29a34ea9a877711ec6d8aed.r37.cf2.rackcdn.com
 0.0.0.0 52.216.137.123
 0.0.0.0 54.243.167.133
