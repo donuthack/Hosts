@@ -24061,10 +24061,6 @@ videofun.me###flowplayer > div[class][style]:first-child
 abc-fonts.me###galepro-core-adb-enabled
 findretros.com##.fuck-adblock
 
-# Block lots of malware sites with only two filter
-0.0.0.0 0-*.*
-0.0.0.0 00-*.*
-
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
 utm_source
