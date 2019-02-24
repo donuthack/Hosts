@@ -140,6 +140,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 addictinggames.net
 0.0.0.0 amp.ai
 0.0.0.0 app.activtrak.com
 0.0.0.0 activtrak.com
@@ -2178,6 +2179,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 crypto.csgocpu.com
+0.0.0.0 www.cbsistatic.com
 0.0.0.0 clicktale.com
 0.0.0.0 compete.com
 0.0.0.0 count.ly
@@ -2624,6 +2627,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 doublemax.net
+0.0.0.0 doubleclickbygoogle.com
+0.0.0.0 dev.cryptobara.com
+0.0.0.0 digger.cryptobara.com
 0.0.0.0 dxomark.disqus.com
 0.0.0.0 dashboard.appsee.com
 0.0.0.0 dable.io
@@ -2829,6 +2836,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 editmysite.com
 0.0.0.0 evengparme.com
 0.0.0.0 eu.geo.yahoo.com
 0.0.0.0 email.teamsnap.com
@@ -3163,6 +3171,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 host.d-ns.ga
+0.0.0.0 hatcalter.com
 0.0.0.0 httpads.com
 0.0.0.0 hive.tubetitties.com
 0.0.0.0 hemnes.win
@@ -4156,6 +4166,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 ledinund.com
 0.0.0.0 livere.co.kr
 0.0.0.0 labterpadu.ulm.ac.id
 0.0.0.0 leptokurtosis.com
@@ -4231,6 +4242,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 marketingplatform.google.com
+0.0.0.0 mine.torrent.pw
+0.0.0.0 miner.cryptobara.com
 0.0.0.0 www.multiad.com
 0.0.0.0 www.marchex.com
 0.0.0.0 metrica.yandex.com
@@ -4463,6 +4477,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nathetsof.com
 0.0.0.0 nfwebminer.com
 0.0.0.0 nekudo.com
 0.0.0.0 native.propellerclick.com
@@ -5710,6 +5725,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 witthethim.com
 0.0.0.0 web.analytics.yahoo.com
 0.0.0.0 webassembly.stream
 0.0.0.0 www.webassembly.stream
@@ -23785,6 +23801,8 @@ ff02::3 ip6-allhosts
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
 ||safe.txmblr.com/research/pixel
+reddit.com##div.fePAzF.ii4q9d-0:nth-of-type(2) > .faQIFi.s1tljykw-0.googad.box_ad.adsense-ad.ads-area.adbox1.adbar.ad-banner.ad-300-250.SidebarAd.LeftAd.InArticleAd.HomeAds.GoogleAd
+reddit.com##.NqIrO.nowfa1-5 > .fePAzF.ii4q9d-0 > .faQIFi.s1tljykw-0.googad.box_ad.adsense-ad.ads-area.adbox1.adbar.ad-banner.ad-300-250.SidebarAd.LeftAd.InArticleAd.HomeAds.GoogleAd
 dailywire.com##.position-static.fx-s-0.sidebar
 dailywire.com##.fx-s-0-l.sidebar
 ||1.bp.blogspot.com/-cqrCfoOS--Q/W7ec5oPYDFI/AAAAAAAAyUo/_IIMzdWpFzEbDG4iuLyzaI9eHyE0-mPrgCLcBGAs/s300-e100/cybersecurity-infographic-min.jpg
@@ -24044,6 +24062,11 @@ abc-fonts.me###galepro-core-adb-enabled
 findretros.com##.fuck-adblock
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
+_campaign=$document
+utm_source
+_Affiliate
+&traffic_id
+0-*.com
 /research/pixel
 /adnetwork.js
 /api/v1/tracking-event/creative_view
