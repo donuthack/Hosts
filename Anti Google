@@ -3,6 +3,9 @@
 # Title: Cybo's Hosts - Anti Google
 
 0.0.0.0 google.com
+0.0.0.0 youtube.com
+0.0.0.0 youtube.co
+0.0.0.0 i.youtube.com
 0.0.0.0 google.co
 0.0.0.0 google.ac
 0.0.0.0 google.ad
