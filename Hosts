@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 24,375 (uBlock)
-# Last Updated on Saturday, February 23, 2019
+# Last Updated on Monday, February 25, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -140,6 +140,54 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adinnovation.co.jp
+0.0.0.0 a1.adstore.jp
+0.0.0.0 adstore.jp
+0.0.0.0 adservice.google.com.au
+0.0.0.0 ad-cdn.technoratimedia.com
+0.0.0.0 access.adblox.net
+0.0.0.0 adblox.net
+0.0.0.0 ad6media.fr
+0.0.0.0 api.ad4push.com
+0.0.0.0 ad4push.com
+0.0.0.0 ad2iction.com
+0.0.0.0 www.ad2iction.com
+0.0.0.0 ads.ad2iction.com
+0.0.0.0 ad2games.com
+0.0.0.0 ad120m.com
+0.0.0.0 ad127m.com
+0.0.0.0 ad131m.com
+0.0.0.0 ad132m.com
+0.0.0.0 www.ad120m.com
+0.0.0.0 www.ad127m.com
+0.0.0.0 www.ad131m.com
+0.0.0.0 www.ad132m.com
+0.0.0.0 ad1.ru
+0.0.0.0 ad-sys.com
+0.0.0.0 ad-move.jp
+0.0.0.0 ad-maven.com
+0.0.0.0 ad-cloud.jp
+0.0.0.0 ad-locus.com
+0.0.0.0 api.ad-locus.com
+0.0.0.0 api.ad-brix.com
+0.0.0.0 as.ad-brix.com
+0.0.0.0 ad.gt
+0.0.0.0 www.ad.gt
+0.0.0.0 a.ad.gt
+0.0.0.0 actionteaser.ru
+0.0.0.0 actionads.ru
+0.0.0.0 actionpay.ru
+0.0.0.0 actionpay.net
+0.0.0.0 ads.midatlantic.aaa.com
+0.0.0.0 a7.org
+0.0.0.0 www.a8.net
+0.0.0.0 a8.net
+0.0.0.0 a9.com
+0.0.0.0 analytics.163.com
+0.0.0.0 adpxl.co
+0.0.0.0 www.adpxl.co
+0.0.0.0 adpxljs.adpxl.co
+0.0.0.0 adserver.traffic.club
 0.0.0.0 api.districtm.ca
 0.0.0.0 adx.districtm.ca
 0.0.0.0 an.districtm.ca
@@ -1538,6 +1586,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bo.traffic.club
 0.0.0.0 b3.staging.districtm.ca
 0.0.0.0 b3.districtm.ca
 0.0.0.0 boost-qa2.districtm.ca
@@ -2190,6 +2239,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 campaign.ad-brix.com
+0.0.0.0 config.ad-brix.com
+0.0.0.0 cvr.ad-brix.com
+0.0.0.0 crashlytics.163.com
 0.0.0.0 ch.districtm.ca
 0.0.0.0 cdnsandbox.districtm.ca
 0.0.0.0 cdn.districtm.ca
@@ -2642,6 +2695,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dashboard.evolveplatform.net
+0.0.0.0 docs.jiguang.cn
+0.0.0.0 dev.adserver.traffic.club
 0.0.0.0 dmx-dev.districtm.ca
 0.0.0.0 dmx-staging.districtm.ca
 0.0.0.0 dmx.districtm.ca
@@ -2863,6 +2919,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 evolveplatform.net
+0.0.0.0 engine.fyber.com
+0.0.0.0 euw.adserver.snapads.com
 0.0.0.0 e1.neustar.biz
 0.0.0.0 editmysite.com
 0.0.0.0 evengparme.com
@@ -2988,6 +3047,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fd-fp3.wg1.b.yahoo.com
+0.0.0.0 fl.adpxl.co
 0.0.0.0 fr.districtm.ca
 0.0.0.0 fslt.wpm.neustar.biz
 0.0.0.0 www.forter.com
@@ -3078,6 +3139,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gstaticadssl.l.google.com
+0.0.0.0 go.ad1data.com
 0.0.0.0 go-mpulse.net
 0.0.0.0 get.fabric.io
 0.0.0.0 geckoboard.com
@@ -3295,6 +3358,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 info.a7.org
+0.0.0.0 img1.126.net
+0.0.0.0 intranet.traffic.club
 0.0.0.0 idsync.districtm.ca
 0.0.0.0 iu.districtm.ca
 0.0.0.0 ipintelligence.neustar.biz
@@ -3418,6 +3484,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jpush.cn
+0.0.0.0 jiguang.cn
+0.0.0.0 www.jiguang.cn
 0.0.0.0 js2.keywordsconnect.com
 0.0.0.0 js.hnscom.com
 0.0.0.0 jiggyconnect.com
@@ -4203,6 +4272,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 login.traffic.club
 0.0.0.0 load.wpm.neustar.biz
 0.0.0.0 ledinund.com
 0.0.0.0 livere.co.kr
@@ -4280,6 +4350,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 ml.adpxl.co
+0.0.0.0 mail.traffic.club
 0.0.0.0 www.marketing.neustar
 0.0.0.0 marketing.neustar
 0.0.0.0 monitor.wpm.neustar.biz
@@ -4521,6 +4593,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nicla.traffic.club
 0.0.0.0 npm.districtm.ca
 0.0.0.0 www.neustarlocaleze.biz
 0.0.0.0 neustarlocaleze.biz
@@ -4674,6 +4747,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 production-ultimate-assets.ratecity.com.au
+0.0.0.0 pixel.adblade.com
+0.0.0.0 provider.ad360.vn
+0.0.0.0 partners.ad-brix.com
+0.0.0.0 p.ad.gt
+0.0.0.0 preroll.a4.tl
+0.0.0.0 publisher.traffic.club
 0.0.0.0 prebid.districtm.ca
 0.0.0.0 passbacks.districtm.ca
 0.0.0.0 platform.districtm.ca
@@ -4878,6 +4958,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 quantummetric.com
 0.0.0.0 qqenglish.com.cn
 0.0.0.0 qvnpt.supervid.pro
 0.0.0.0 q.tvnet.lv
@@ -4901,6 +4982,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 registrar.traffic.club
 0.0.0.0 reveal.districtm.ca
 0.0.0.0 registry.neustar.biz
 0.0.0.0 rum.wpm.neustar.biz
@@ -5010,6 +5092,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 saber.srvcs.tumblr.com
+0.0.0.0 services.adblox.net
+0.0.0.0 servs.adblox.net
+0.0.0.0 seg.ad.gt
+0.0.0.0 smetrics.midatlantic.aaa.com
+0.0.0.0 smetrics.aa.com
+0.0.0.0 sdk.a4.tl
+0.0.0.0 stat.ws.126.net
+0.0.0.0 stats.jpush.cn
+0.0.0.0 s.jpush.cn
+0.0.0.0 static.traffic.club
+0.0.0.0 sslparking.traffic.club
 0.0.0.0 steve.districtm.ca
 0.0.0.0 static.districtm.ca
 0.0.0.0 staging.districtm.ca
@@ -5508,6 +5602,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracking.ad360.vn
+0.0.0.0 tracking.ad-brix.com
+0.0.0.0 trk.adpxl.co
+0.0.0.0 track.traffic.club
+0.0.0.0 traffic.club
 0.0.0.0 tag.researchnow.com
 0.0.0.0 tokyodrift.ga
 0.0.0.0 tags.mathtag.com
@@ -5671,6 +5770,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 us.intellitxt.com
+0.0.0.0 usc.adserver.snapads.com
 0.0.0.0 us.js2.yimg.com
 0.0.0.0 updates.easycounter.com
 0.0.0.0 uk-advertising.yahoo.com
@@ -5742,6 +5843,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vdc-aws.traffic.club
 0.0.0.0 vipmember.cu.ma
 0.0.0.0 vipmember.acoxi.com
 0.0.0.0 vipmember-cpanelcheatcocc.blogspot.com
@@ -5797,6 +5899,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www-googletagmanager.l.google.com
+0.0.0.0 wpg.adpxl.co
+0.0.0.0 wifi.traffic.club
 0.0.0.0 webapp2.targusinfo.com
 0.0.0.0 www2.webmetrics.com
 0.0.0.0 wpm.neustar.biz
@@ -5931,6 +6036,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xcache.ad360.vn
 0.0.0.0 xmr.mining.best
 0.0.0.0 xpg.com.br
 0.0.0.0 xa.net
@@ -6177,6 +6283,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 163.com
 0.0.0.0 161118.engine.mobileapptracking.com
 0.0.0.0 3gl.net
 0.0.0.0 118d654612df63bc8395-aecfeaabe29a34ea9a877711ec6d8aed.r37.cf2.rackcdn.com
@@ -23877,6 +23984,17 @@ ff02::3 ip6-allhosts
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
 ||safe.txmblr.com/research/pixel
+||github.com/coldwind/jpush/blob/master/main.c
+||github.com/coldwind/jpush/blob/master/jpush.h
+||github.com/coldwind/jpush/blob/master/jpush.c
+||github.com/coldwind/jpush/blob/master/cJSON/cJSON.c
+||github.com/coldwind/jpush/blob/master/cJSON/cJSON.h
+||github.com/jpush/jmessage-phonegap-plugin/blob/master/www/JMessagePlugin.js
+||github.com/jpush/jmessage-flutter-plugin/blob/master/pubspec.yaml
+||github.com/jpush/jmessage-flutter-plugin/blob/master/jmessage_flutter_android.iml
+||github.com/jpush/jmessage-flutter-plugin/blob/master/jmessage_flutter.iml
+||github.com/jpush/jmessage-api-java-client/blob/master/pom.xml
+||github.com/jpush/jpush-api-nodejs-client/blob/master/index.js
 reddit.com##div.fePAzF.ii4q9d-0:nth-of-type(2) > .faQIFi.s1tljykw-0.googad.box_ad.adsense-ad.ads-area.adbox1.adbar.ad-banner.ad-300-250.SidebarAd.LeftAd.InArticleAd.HomeAds.GoogleAd
 reddit.com##.NqIrO.nowfa1-5 > .fePAzF.ii4q9d-0 > .faQIFi.s1tljykw-0.googad.box_ad.adsense-ad.ads-area.adbox1.adbar.ad-banner.ad-300-250.SidebarAd.LeftAd.InArticleAd.HomeAds.GoogleAd
 dailywire.com##.position-static.fx-s-0.sidebar
