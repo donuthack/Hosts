@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 24,375 (uBlock)
-# Last Updated on Monday, February 25, 2019
+# Last Updated on Tuesday, February 26, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -140,6 +140,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 api211.thefilter.com
+0.0.0.0 app.instartlogic.com
+0.0.0.0 adtrackers.net
+0.0.0.0 adtelligent.com
+0.0.0.0 acceptable.a-ads.com
+0.0.0.0 acceptableads.com
+0.0.0.0 adalyser.com
+0.0.0.0 ad.fyber.angsrvr.com
+0.0.0.0 account.feature.fm
+0.0.0.0 adrev.net
+0.0.0.0 adrev.com
 0.0.0.0 adinnovation.co.jp
 0.0.0.0 a1.adstore.jp
 0.0.0.0 adstore.jp
@@ -1586,6 +1597,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bannertrack.net
 0.0.0.0 bo.traffic.club
 0.0.0.0 b3.staging.districtm.ca
 0.0.0.0 b3.districtm.ca
@@ -2239,6 +2251,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cws.conviva.com
+0.0.0.0 collector.abc-host.net.au
+0.0.0.0 community.instartlogic.com
+0.0.0.0 c0.adalyser.com
+0.0.0.0 c1.adalyser.com
+0.0.0.0 c2.adalyser.com
+0.0.0.0 c3.adalyser.com
+0.0.0.0 c5.adalyser.com
+0.0.0.0 console.feature.fm
+0.0.0.0 cid.adrev.net
 0.0.0.0 campaign.ad-brix.com
 0.0.0.0 config.ad-brix.com
 0.0.0.0 cvr.ad-brix.com
@@ -2695,6 +2717,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 deliver.oztam.com.au
+0.0.0.0 dashboard.janrain.com
 0.0.0.0 dashboard.evolveplatform.net
 0.0.0.0 docs.jiguang.cn
 0.0.0.0 dev.adserver.traffic.club
@@ -2848,6 +2872,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 d4ngwggzm3w7j.cloudfront.net
 0.0.0.0 dkm6b5q0h53z4.cloudfront.net
 0.0.0.0 ds02gfqy6io6i.cloudfront.net
+0.0.0.0 ds6y5vhqiduvy.cloudfront.net
+0.0.0.0 dlrgul5p0v0ut.cloudfront.net
+0.0.0.0 docj27ko03fnu.cloudfront.net
+0.0.0.0 d1y2wi6psz2t9a.cloudfront.net
+0.0.0.0 d3hmp0045zy3cs.cloudfront.net
+0.0.0.0 d29usylhdk1xyu.cloudfront.net
+0.0.0.0 d20i5e3rqc90ne.cloudfront.net
+0.0.0.0 d16s8pqtk4uodx.cloudfront.net
+0.0.0.0 d2ol1xxy6u64sa.cloudfront.net
 0.0.0.0 d2zfqthxsdq309.cloudfront.net
 0.0.0.0 d32wqyuo10o653.cloudfront.net
 0.0.0.0 d32z5ni8t5127x.cloudfront.net
@@ -2919,6 +2952,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 educationcenter.janrain.com
+0.0.0.0 e5019.e2.akamaiedge.net
 0.0.0.0 evolveplatform.net
 0.0.0.0 engine.fyber.com
 0.0.0.0 euw.adserver.snapads.com
@@ -3047,6 +3082,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 feature.fm
 0.0.0.0 fd-fp3.wg1.b.yahoo.com
 0.0.0.0 fl.adpxl.co
 0.0.0.0 fr.districtm.ca
@@ -3139,6 +3175,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.instart.com
 0.0.0.0 gstaticadssl.l.google.com
 0.0.0.0 go.ad1data.com
 0.0.0.0 go-mpulse.net
@@ -3264,6 +3301,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hb.adtelligent.com
+0.0.0.0 hbopenbid.pubmatic.com
+0.0.0.0 hb.nexage.com
+0.0.0.0 help.feature.fm
 0.0.0.0 hi.districtm.ca
 0.0.0.0 home.wpm.neustar.biz
 0.0.0.0 www.home.neustar
@@ -3358,6 +3399,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 insnw.net
+0.0.0.0 www.insnw.net
+0.0.0.0 instartlogic.com
+0.0.0.0 www.instartlogic.com
+0.0.0.0 i0.wp.com
 0.0.0.0 info.a7.org
 0.0.0.0 img1.126.net
 0.0.0.0 intranet.traffic.club
@@ -3484,6 +3530,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 janrain.com
 0.0.0.0 jpush.cn
 0.0.0.0 jiguang.cn
 0.0.0.0 www.jiguang.cn
@@ -4272,6 +4319,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 ls.srvcs.tumblr.com
 0.0.0.0 login.traffic.club
 0.0.0.0 load.wpm.neustar.biz
 0.0.0.0 ledinund.com
@@ -4350,6 +4398,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 moatads.com.edgekey.net
 0.0.0.0 ml.adpxl.co
 0.0.0.0 mail.traffic.club
 0.0.0.0 www.marketing.neustar
@@ -4593,6 +4642,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nexage.com
 0.0.0.0 nicla.traffic.club
 0.0.0.0 npm.districtm.ca
 0.0.0.0 www.neustarlocaleze.biz
@@ -4667,6 +4717,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 oztam.com.au
+0.0.0.0 opencache.com
+0.0.0.0 www.opencache.com
 0.0.0.0 oupeng.com
 0.0.0.0 operachina.com
 0.0.0.0 outbanner.hu.co.kr
@@ -4747,6 +4800,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 player.adtelligent.com
+0.0.0.0 prg.smartadserver.com
 0.0.0.0 production-ultimate-assets.ratecity.com.au
 0.0.0.0 pixel.adblade.com
 0.0.0.0 provider.ad360.vn
@@ -4982,6 +5037,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rpxnow.com
+0.0.0.0 rules.noadblock.org
+0.0.0.0 rumblefish.com
 0.0.0.0 registrar.traffic.club
 0.0.0.0 reveal.districtm.ca
 0.0.0.0 registry.neustar.biz
@@ -5092,6 +5150,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 summerhamster.com
+0.0.0.0 www.summerhamster.com
+0.0.0.0 serve.adtrackers.net
+0.0.0.0 serve.bannertrack.net
+0.0.0.0 sdk.appsflyer.com
 0.0.0.0 saber.srvcs.tumblr.com
 0.0.0.0 services.adblox.net
 0.0.0.0 servs.adblox.net
@@ -5602,6 +5665,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 trust.janrain.com
+0.0.0.0 thefilter.com
+0.0.0.0 www.thefilter.com
+0.0.0.0 talent.adrev.net
 0.0.0.0 tracking.ad360.vn
 0.0.0.0 tracking.ad-brix.com
 0.0.0.0 trk.adpxl.co
@@ -5770,6 +5837,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 ud-staging.janrain.com
 0.0.0.0 us.intellitxt.com
 0.0.0.0 usc.adserver.snapads.com
 0.0.0.0 us.js2.yimg.com
@@ -5843,6 +5911,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 volantix.com
+0.0.0.0 www.volantix.com
+0.0.0.0 www.vungle.com
+0.0.0.0 vungle.com
 0.0.0.0 vdc-aws.traffic.club
 0.0.0.0 vipmember.cu.ma
 0.0.0.0 vipmember.acoxi.com
@@ -5899,6 +5971,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wildcard.moatads.com.edgekey.net
 0.0.0.0 www-googletagmanager.l.google.com
 0.0.0.0 wpg.adpxl.co
 0.0.0.0 wifi.traffic.club
@@ -6072,6 +6145,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yasni.bannertrack.net
 0.0.0.0 youxiaoad.com
 0.0.0.0 y7mna.com
 0.0.0.0 yui-s.yahooapis.com
@@ -6182,6 +6256,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zoover.adtrackers.net
 0.0.0.0 zone5.adpopcon.com
 0.0.0.0 zerbinipersonalizzabili.it
 0.0.0.0 zonatorrent.es
@@ -23995,6 +24070,13 @@ ff02::3 ip6-allhosts
 ||github.com/jpush/jmessage-flutter-plugin/blob/master/jmessage_flutter.iml
 ||github.com/jpush/jmessage-api-java-client/blob/master/pom.xml
 ||github.com/jpush/jpush-api-nodejs-client/blob/master/index.js
+||i0.wp.com/passivepromotion.com/wp-content/uploads/2016/02/feature_fm-side-banner.png
+||i0.wp.com/passivepromotion.com/wp-content/uploads/2016/02/feature_fm-side-banner.png?resize=300%2C656
+||i0.wp.com/passivepromotion.com/wp-content/uploads/2016/07/Radio-Airplay-banner-tall.png?w=1080
+||i0.wp.com/passivepromotion.com/wp-content*
+www.pathfactory.com###pf-website-app > div > div > div:nth-of-type(1)
+www.pathfactory.com###pf-website-app > div > div > div:nth-of-type(2)
+www.pathfactory.com##.fa-close.fa
 reddit.com##div.fePAzF.ii4q9d-0:nth-of-type(2) > .faQIFi.s1tljykw-0.googad.box_ad.adsense-ad.ads-area.adbox1.adbar.ad-banner.ad-300-250.SidebarAd.LeftAd.InArticleAd.HomeAds.GoogleAd
 reddit.com##.NqIrO.nowfa1-5 > .fePAzF.ii4q9d-0 > .faQIFi.s1tljykw-0.googad.box_ad.adsense-ad.ads-area.adbox1.adbar.ad-banner.ad-300-250.SidebarAd.LeftAd.InArticleAd.HomeAds.GoogleAd
 dailywire.com##.position-static.fx-s-0.sidebar
