@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 25,068 (uBlock)
-# Last Updated on Thursday, February 28, 2019
+# Last Updated on Friday, March 1, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -6290,6 +6290,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 www.uservoice.com
+0.0.0.0 uservoice.com
 0.0.0.0 unarmedindustry.com
 0.0.0.0 unknowntray.com
 0.0.0.0 untidyquestion.com
@@ -24541,6 +24543,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ya-in-f500.1e100.net
 
 # Blocking specific things on domains
+freerice.com###bottom-banner > .container_12
 ||facebook.com^$third-party
 ||converto.io^$popup,third-party
 ||linkshrink.net^$popup,third-party
