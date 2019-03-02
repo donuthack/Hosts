@@ -140,6 +140,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 appness.com
+0.0.0.0 app.appness.com
+0.0.0.0 adpushup.com
+0.0.0.0 www.adpushup.com
 0.0.0.0 ad-unicorn.net
 0.0.0.0 abandonedclover.com
 0.0.0.0 abruptroad.com
@@ -3258,6 +3262,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 www.fibonad.com
+0.0.0.0 fibonad.com
+0.0.0.0 fun-hits.de
+0.0.0.0 fun-pages.net
+0.0.0.0 fullqurandownload.com
 0.0.0.0 futuristicfifth.com
 0.0.0.0 facilitategrandfather.com
 0.0.0.0 fanaticalfly.com
@@ -3374,6 +3383,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gimbal.com
 0.0.0.0 ga87z2o.com
 0.0.0.0 gammamaximum.com
 0.0.0.0 giddycoat.com
@@ -4669,6 +4679,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 monetizemore.com
+0.0.0.0 www.monetizemore.com
 0.0.0.0 markedcrayon.com
 0.0.0.0 matchcows.com
 0.0.0.0 medusasailor.com
@@ -5103,6 +5115,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 personaclick.com
+0.0.0.0 www.personaclick.com
 0.0.0.0 parchedangle.com
 0.0.0.0 parsimoniouspolice.com
 0.0.0.0 peacepowder.com
@@ -5500,6 +5514,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 safety.apple.com.*.download
+0.0.0.0 safety.apple.com.*.trade
+0.0.0.0 safety.apple.com.*.review
+0.0.0.0 safety.apple.com.*.stream
+0.0.0.0 safety.apple.com.*.science
+0.0.0.0 safety.apple.com.*.bid
+0.0.0.0 safety.microsoft.com.*.download
+0.0.0.0 safety.microsoft.com.*.trade
+0.0.0.0 safety.microsoft.com.*.review
+0.0.0.0 safety.microsoft.com.*.stream
+0.0.0.0 safety.microsoft.com.*.science
+0.0.0.0 safety.microsoft.com.*.bid
 0.0.0.0 savorystructure.com
 0.0.0.0 saysidewalk.com
 0.0.0.0 scarcesign.com
@@ -6439,6 +6465,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 ww17.01daa.luytr.com
 0.0.0.0 waryfog.com
 0.0.0.0 wateryvan.com
 0.0.0.0 wellgroomedbat.com
@@ -6843,6 +6870,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 01daa.luytr.com
+0.0.0.0 0.up.qingdaonews.com
 0.0.0.0 2znp09oa.com
 0.0.0.0 4jnzhl0d0.com
 0.0.0.0 5mcwl.pw
@@ -8534,7 +8563,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 022sy.com
 0.0.0.0 023-ezk-120.mktoresp.com
 0.0.0.0 023qiangzhi.com
-0.0.0.0 0245acc00unt-info001.000webhostapp.com
 0.0.0.0 024f-c409-1d64-9c88.reporo.net
 0.0.0.0 024xuyisheng.com
 0.0.0.0 026-yoz-259.mktoresp.com
