@@ -140,6 +140,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 aniview.com
+0.0.0.0 adsense.woso.cn
+0.0.0.0 www.adops.com
+0.0.0.0 adops.com
+0.0.0.0 adasiaholdings.com
+0.0.0.0 addsuite.com
+0.0.0.0 adzouk.com
+0.0.0.0 www.adthrive.com
+0.0.0.0 adthrive.com
+0.0.0.0 www.acquamedia.com.hk
+0.0.0.0 acquamedia.com.hk
+0.0.0.0 www.acceleration.biz
+0.0.0.0 acceleration.biz
 0.0.0.0 appness.com
 0.0.0.0 app.appness.com
 0.0.0.0 adpushup.com
@@ -2340,6 +2353,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cockpit.traffective.com
+0.0.0.0 corp.fluct.jp
+0.0.0.0 www.cybermediaservices.net
+0.0.0.0 cybermediaservices.net
+0.0.0.0 cybermedia.co.in
 0.0.0.0 calculatingcircle.com
 0.0.0.0 calculatorcamera.com
 0.0.0.0 calmfoot.com
@@ -2851,6 +2869,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dqna.com
 0.0.0.0 dashingdirt.com
 0.0.0.0 dashingsweater.com
 0.0.0.0 deadpantruck.com
@@ -3117,6 +3136,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 e.woso.cn
+0.0.0.0 en.sales-frontier.com
+0.0.0.0 en.geniee.co.jp
+0.0.0.0 emxdigital.com
+0.0.0.0 ezoic.com
+0.0.0.0 ezoic-top-images.s3.amazonaws.com
 0.0.0.0 earthquakescarf.com
 0.0.0.0 economicpizzas.com
 0.0.0.0 efficaciouscactus.com
@@ -3262,6 +3287,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fenfa.woso.cn
+0.0.0.0 fluct.jp
+0.0.0.0 www.fourm.jp
+0.0.0.0 franklyinc.com
 0.0.0.0 www.fibonad.com
 0.0.0.0 fibonad.com
 0.0.0.0 fun-hits.de
@@ -3383,6 +3412,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 geniee.co.jp
+0.0.0.0 geoip-db.com
 0.0.0.0 gimbal.com
 0.0.0.0 ga87z2o.com
 0.0.0.0 gammamaximum.com
@@ -3638,6 +3669,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 www.isearch-net.com
+0.0.0.0 isearch-net.com
+0.0.0.0 iadops.com
+0.0.0.0 ir.franklyinc.com
 0.0.0.0 illustriousoatmeal.com
 0.0.0.0 importedincrease.com
 0.0.0.0 incrediblesugar.com
@@ -4679,6 +4714,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mssp.woso.cn
+0.0.0.0 my.shemedia.com
+0.0.0.0 www.mso-digital.de
+0.0.0.0 mso-digital.de
+0.0.0.0 www.marfeel.com
+0.0.0.0 marfeel.com
 0.0.0.0 monetizemore.com
 0.0.0.0 www.monetizemore.com
 0.0.0.0 markedcrayon.com
@@ -4945,6 +4986,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 www.netlink.vn
+0.0.0.0 netlink.vn
 0.0.0.0 necessarywax.com
 0.0.0.0 neighborlywatch.com
 0.0.0.0 nervoussummer.com
@@ -5025,6 +5068,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 oko.uk
 0.0.0.0 optimallimit.com
 0.0.0.0 orangeoperation.com
 0.0.0.0 ovalpigs.com
@@ -5115,6 +5159,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 panel.yieldbird.com
+0.0.0.0 publift.com
 0.0.0.0 personaclick.com
 0.0.0.0 www.personaclick.com
 0.0.0.0 parchedangle.com
@@ -5380,6 +5426,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 www.rwadx.com
+0.0.0.0 rwadx.com
 0.0.0.0 rapidkittens.com
 0.0.0.0 raresummer.com
 0.0.0.0 readgoldfish.com
@@ -5514,6 +5562,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 ssp.woso.cn
+0.0.0.0 www.sortable.com
+0.0.0.0 sortable.com
+0.0.0.0 sales-frontier.com
+0.0.0.0 www.semseoymas.com
+0.0.0.0 semseoymas.com
+0.0.0.0 shemedia.com
+0.0.0.0 support.acceleration.biz
+0.0.0.0 svc.ezoic.com
 0.0.0.0 safety.apple.com.*.download
 0.0.0.0 safety.apple.com.*.trade
 0.0.0.0 safety.apple.com.*.review
@@ -6106,6 +6163,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 www.totalmediasolutions.com
+0.0.0.0 totalmediasolutions.com
+0.0.0.0 traffective.com
 0.0.0.0 talentedsteel.com
 0.0.0.0 tangibleteam.com
 0.0.0.0 tarttendency.com
@@ -6317,6 +6377,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 union.woso.cn
 0.0.0.0 www.uservoice.com
 0.0.0.0 uservoice.com
 0.0.0.0 unarmedindustry.com
@@ -6401,6 +6462,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 video.totalmediasolutions.com
 0.0.0.0 vanfireworks.com
 0.0.0.0 voicevegetable.com
 0.0.0.0 v7event.stats.avast.com
@@ -6465,6 +6527,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www.woso.cn
+0.0.0.0 woso.cn
 0.0.0.0 ww17.01daa.luytr.com
 0.0.0.0 waryfog.com
 0.0.0.0 wateryvan.com
@@ -6653,6 +6717,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yieldbird.com
+0.0.0.0 www.yourbow.com
+0.0.0.0 yourbow.com
 0.0.0.0 youngmarble.com
 0.0.0.0 yasni.bannertrack.net
 0.0.0.0 youxiaoad.com
