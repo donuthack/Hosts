@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 25,169 (uBlock)
-# Last Updated on Saturday, March 2, 2019
+# Last Updated on Sunday, March 3, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -2355,6 +2355,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 www.clickmeter.com
+0.0.0.0 clickmeter.com
 0.0.0.0 cockpit.traffective.com
 0.0.0.0 corp.fluct.jp
 0.0.0.0 www.cybermediaservices.net
@@ -4988,6 +4990,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 numberly.com
 0.0.0.0 www.netlink.vn
 0.0.0.0 netlink.vn
 0.0.0.0 necessarywax.com
@@ -5564,6 +5567,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 solistic.co
 0.0.0.0 ssp.woso.cn
 0.0.0.0 www.sortable.com
 0.0.0.0 sortable.com
@@ -6529,6 +6533,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www2.1010data.com
 0.0.0.0 www.woso.cn
 0.0.0.0 woso.cn
 0.0.0.0 ww17.01daa.luytr.com
@@ -6939,6 +6944,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 34.gs
+0.0.0.0 304br.net
+0.0.0.0 305br.net
+0.0.0.0 306br.net
+0.0.0.0 307br.net
+0.0.0.0 308br.net
+0.0.0.0 309br.net
+0.0.0.0 2cobrowse.com
+0.0.0.0 258ydh.com
+0.0.0.0 247realmedia.org
+0.0.0.0 247realmedia.com
+0.0.0.0 www.247.ai
+0.0.0.0 247.ai
+0.0.0.0 247-inc.com
+0.0.0.0 206ads.com
+0.0.0.0 www.200summit.com
+0.0.0.0 200summit.com
+0.0.0.0 1orange-u.com
+0.0.0.0 103bees.com
+0.0.0.0 1010data.com
+0.0.0.0 1000mercis.com
+0.0.0.0 1-cl0ud.com
+0.0.0.0 1-creative-1.com
 0.0.0.0 01daa.luytr.com
 0.0.0.0 0.up.qingdaonews.com
 0.0.0.0 2znp09oa.com
