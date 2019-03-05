@@ -142,6 +142,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 a8bt.com
+0.0.0.0 a8bt.co
+0.0.0.0 a2dfp.net
+0.0.0.0 a.applvn.com
+0.0.0.0 applvn.com
+0.0.0.0 ascrmdinet101-ns-rdd-w.verizonwireless.com
 0.0.0.0 aniview.com
 0.0.0.0 adsense.woso.cn
 0.0.0.0 www.adops.com
@@ -1674,6 +1680,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bn7v3w.8m5sew59gr.bid
 0.0.0.0 balancebreath.com
 0.0.0.0 balloontexture.com
 0.0.0.0 barbarousnerve.com
@@ -3416,6 +3423,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.trafficrouter.io
+0.0.0.0 givemeofferlnk.com
 0.0.0.0 geniee.co.jp
 0.0.0.0 geoip-db.com
 0.0.0.0 gimbal.com
@@ -3563,6 +3572,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 henanfs.com
+0.0.0.0 hivps.xyz
 0.0.0.0 h78xb.pw
 0.0.0.0 handleteeth.com
 0.0.0.0 handyfield.com
@@ -4718,6 +4729,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 www.mswindows1.com
 0.0.0.0 mssp.woso.cn
 0.0.0.0 my.shemedia.com
 0.0.0.0 www.mso-digital.de
@@ -4990,6 +5002,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 np176.com
+0.0.0.0 nyorbgdinet101-ns-rdd-e.verizonwireless.com
 0.0.0.0 numberly.com
 0.0.0.0 www.netlink.vn
 0.0.0.0 netlink.vn
@@ -5404,6 +5418,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qiqivv.com
 0.0.0.0 quaintcan.com
 0.0.0.0 quarterbean.com
 0.0.0.0 quicksandear.com
@@ -5431,6 +5446,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 re.givemeofferlnk.com
 0.0.0.0 www.rwadx.com
 0.0.0.0 rwadx.com
 0.0.0.0 rapidkittens.com
@@ -6724,6 +6740,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yttz113.com
 0.0.0.0 yieldbird.com
 0.0.0.0 www.yourbow.com
 0.0.0.0 yourbow.com
@@ -6944,7 +6961,56 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 4006825178.com
+0.0.0.0 9nl.us
+0.0.0.0 9nl.org
+0.0.0.0 9nl.com
+0.0.0.0 95095.com
+0.0.0.0 950958.com
+0.0.0.0 8m5sew59gr.bid
+0.0.0.0 www.8885js.com
+0.0.0.0 8885js.com
+0.0.0.0 7pud.com
+0.0.0.0 628e7ae68a3357896.com
+0.0.0.0 778669.com
+0.0.0.0 7eer.net
+0.0.0.0 6000088.com
+0.0.0.0 6000788.com
+0.0.0.0 6001888.com
+0.0.0.0 6002888.com
+0.0.0.0 6003388.com
+0.0.0.0 6003888.com
+0.0.0.0 6004888.com
+0.0.0.0 6005888.com
+0.0.0.0 6006999.com
+0.0.0.0 6007788.com
+0.0.0.0 6007799.com
+0.0.0.0 6007888.com
+0.0.0.0 6008999.com
+0.0.0.0 6009888.com
+0.0.0.0 6009988.com
+0.0.0.0 8000818.com
+0.0.0.0 8006688.com
+0.0.0.0 8010888.com
+0.0.0.0 8022888.com
+0.0.0.0 8030888.com
+0.0.0.0 8050888.com
+0.0.0.0 8067888.com
+0.0.0.0 8070888.com
+0.0.0.0 8082888.com
+0.0.0.0 8083888.com
+0.0.0.0 8087888.com
+0.0.0.0 809002.com
+0.0.0.0 8096888.com
+0.0.0.0 8099888.com
+0.0.0.0 8866786.com
+0.0.0.0 52zfu.com
+0.0.0.0 5293.com
+0.0.0.0 4nabs.com
+0.0.0.0 108.177.122.94
+0.0.0.0 360yieldplatform.com
 0.0.0.0 34.gs
+0.0.0.0 45.gs
 0.0.0.0 304br.net
 0.0.0.0 305br.net
 0.0.0.0 306br.net
