@@ -15,7 +15,7 @@ ff02::3 ip6-allhosts
 
 # Title: Cybo's Hosts
 # Expires: 1 day
-# Number of ad services, trackers, malware and scripts blocked: 25,333 (uBlock)
+# Number of ad services, trackers, malware and scripts blocked: 23,174 (uBlock)
 # Last Updated on Wednesday, March 6, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
@@ -4697,6 +4697,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 layer-ads.com
+0.0.0.0 layer-ads.de
 0.0.0.0 laughcloth.com
 0.0.0.0 leaplunchroom.com
 0.0.0.0 limpingline.com
@@ -6260,6 +6262,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tribalfusion.com
+0.0.0.0 trafficmp.com
+0.0.0.0 tacoda.net
 0.0.0.0 traffic.adxprtz.com
 0.0.0.0 tr.de.adlink.net
 0.0.0.0 www.totalmediasolutions.com
