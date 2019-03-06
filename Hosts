@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 25,264 (uBlock)
-# Last Updated on Monday, March 4, 2019
+# Last Updated on Tuesday, March 5, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -142,6 +142,32 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 appcache.admission.net
+0.0.0.0 apps.admission.net
+0.0.0.0 admission.net
+0.0.0.0 ads3.adman.gr
+0.0.0.0 adlead.com
+0.0.0.0 adlink.net
+0.0.0.0 www.adgroups.com
+0.0.0.0 adgroups.com
+0.0.0.0 www.ad-groups.com
+0.0.0.0 www.adglare.com
+0.0.0.0 adglare.com
+0.0.0.0 adglare.net
+0.0.0.0 www.adgitize.com
+0.0.0.0 www.adfrontiers.com
+0.0.0.0 adfrontiers.com
+0.0.0.0 adframesrc.com
+0.0.0.0 adfox.ru
+0.0.0.0 adcombination.com
+0.0.0.0 adclicks.io
+0.0.0.0 www.adclick.lv
+0.0.0.0 adclick.lv
+0.0.0.0 adbox.hu
+0.0.0.0 www.abcstats.com
+0.0.0.0 abcstats.com
+0.0.0.0 asy.a8ww.net
+0.0.0.0 a8ww.net
 0.0.0.0 a8bt.com
 0.0.0.0 a8bt.co
 0.0.0.0 a2dfp.net
@@ -1680,6 +1706,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 www.browser-statistik.de
+0.0.0.0 browser-statistik.de
+0.0.0.0 www.brightcove.com
+0.0.0.0 brightcove.com
+0.0.0.0 banners.adnetmedia.lt
+0.0.0.0 bridge.ame.admarketplace.net
+0.0.0.0 bridge.lga1.admarketplace.net
+0.0.0.0 bridge.sf.admarketplace.net
+0.0.0.0 b.adbox.lv
 0.0.0.0 bn7v3w.8m5sew59gr.bid
 0.0.0.0 balancebreath.com
 0.0.0.0 balloontexture.com
@@ -2362,6 +2397,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 consent.theneweuropean.co.uk
+0.0.0.0 cookie.oup.com
+0.0.0.0 clickserve.dartsearch.net
 0.0.0.0 www.clickmeter.com
 0.0.0.0 clickmeter.com
 0.0.0.0 cockpit.traffective.com
@@ -2880,6 +2918,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dt.admission.net
 0.0.0.0 dqna.com
 0.0.0.0 dashingdirt.com
 0.0.0.0 dashingsweater.com
@@ -3147,6 +3186,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 engine.adclick.lv
+0.0.0.0 www.emerse.com
+0.0.0.0 emerse.com
 0.0.0.0 e.woso.cn
 0.0.0.0 en.sales-frontier.com
 0.0.0.0 en.geniee.co.jp
@@ -3298,6 +3340,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fr.a2dfp.net
 0.0.0.0 fenfa.woso.cn
 0.0.0.0 fluct.jp
 0.0.0.0 www.fourm.jp
@@ -3423,6 +3466,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gazeta.adfox.ru
+0.0.0.0 gdpr.internetbrands.com
+0.0.0.0 gdpr.prisa.com
 0.0.0.0 go.trafficrouter.io
 0.0.0.0 givemeofferlnk.com
 0.0.0.0 geniee.co.jp
@@ -4729,6 +4775,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 media.adfrontiers.com
+0.0.0.0 mfr.a2dfp.net
+0.0.0.0 m.fr.a2dfp.net
 0.0.0.0 www.mswindows1.com
 0.0.0.0 mssp.woso.cn
 0.0.0.0 my.shemedia.com
@@ -5002,6 +5051,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 n.admagnet.net
 0.0.0.0 np176.com
 0.0.0.0 nyorbgdinet101-ns-rdd-e.verizonwireless.com
 0.0.0.0 numberly.com
@@ -5178,6 +5228,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 publicidad.adlead.com
 0.0.0.0 panel.yieldbird.com
 0.0.0.0 publift.com
 0.0.0.0 personaclick.com
@@ -5446,6 +5497,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rc.de.adlink.net
 0.0.0.0 re.givemeofferlnk.com
 0.0.0.0 www.rwadx.com
 0.0.0.0 rwadx.com
@@ -5583,6 +5635,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 signin.brightcove.com
+0.0.0.0 s.adframesrc.com
+0.0.0.0 servedby.adcombination.com
+0.0.0.0 specificmedia.co.uk
+0.0.0.0 static.adclick.lv
+0.0.0.0 show.adclick.lv
+0.0.0.0 static.adclick.lt
+0.0.0.0 static.a-ads.com
+0.0.0.0 start.bz
 0.0.0.0 solistic.co
 0.0.0.0 ssp.woso.cn
 0.0.0.0 www.sortable.com
@@ -6185,6 +6246,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tr.de.adlink.net
 0.0.0.0 www.totalmediasolutions.com
 0.0.0.0 totalmediasolutions.com
 0.0.0.0 traffective.com
@@ -6484,6 +6546,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 view.admission.net
 0.0.0.0 video.totalmediasolutions.com
 0.0.0.0 vanfireworks.com
 0.0.0.0 voicevegetable.com
@@ -6549,6 +6612,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wad.adbasket.net
 0.0.0.0 www2.1010data.com
 0.0.0.0 www.woso.cn
 0.0.0.0 woso.cn
@@ -6961,6 +7025,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 1-9-90.com
+0.0.0.0 www.1-2-free.com
+0.0.0.0 06works-plus.com
+0.0.0.0 0.start.bz
 0.0.0.0 192.81.215.162
 0.0.0.0 4006825178.com
 0.0.0.0 9nl.us
@@ -25216,6 +25284,7 @@ _Affiliate
 /adblockbait.js$script
 /adblockchecker.js$script
 /kill-adblock/js/function.js$script
+/cookie.js
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
