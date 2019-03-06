@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 25,333 (uBlock)
-# Last Updated on Tuesday, March 5, 2019
+# Last Updated on Wednesday, March 6, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -142,6 +142,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 ads.arto.dk
+0.0.0.0 adxprtz.com
+0.0.0.0 atwola.com
+0.0.0.0 apmebf.com
+0.0.0.0 adtech.de
+0.0.0.0 about.com
 0.0.0.0 appcache.admission.net
 0.0.0.0 apps.admission.net
 0.0.0.0 admission.net
@@ -1706,6 +1712,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bluestreak.com
+0.0.0.0 bfast.com
 0.0.0.0 www.browser-statistik.de
 0.0.0.0 browser-statistik.de
 0.0.0.0 www.brightcove.com
@@ -2397,6 +2405,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 www.cj.com
+0.0.0.0 cj.com
 0.0.0.0 consent.theneweuropean.co.uk
 0.0.0.0 cookie.oup.com
 0.0.0.0 clickserve.dartsearch.net
@@ -4775,6 +4785,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mg.mgid.com
 0.0.0.0 media.adfrontiers.com
 0.0.0.0 mfr.a2dfp.net
 0.0.0.0 m.fr.a2dfp.net
@@ -5137,6 +5148,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 openx.gamereactor.dk
 0.0.0.0 oko.uk
 0.0.0.0 optimallimit.com
 0.0.0.0 orangeoperation.com
@@ -5635,6 +5647,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 statsweb.proxad.net
+0.0.0.0 seskeu3zk7.com
 0.0.0.0 signin.brightcove.com
 0.0.0.0 s.adframesrc.com
 0.0.0.0 servedby.adcombination.com
@@ -6246,6 +6260,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 traffic.adxprtz.com
 0.0.0.0 tr.de.adlink.net
 0.0.0.0 www.totalmediasolutions.com
 0.0.0.0 totalmediasolutions.com
@@ -7025,6 +7040,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 #Misc
+0.0.0.0 2o7.net
 0.0.0.0 1-9-90.com
 0.0.0.0 www.1-2-free.com
 0.0.0.0 06works-plus.com
@@ -24812,6 +24828,10 @@ www.bigmir.net##div.pb20.row:nth-of-type(2) > .col-24 > .side-block > .header-ou
 www.bigmir.net##div.pb20.col-lg-24.col-sm-12.col-24:nth-of-type(1)
 www.bigmir.net##div.pb20.col-lg-24.col-sm-12.col-24:nth-of-type(2)
 www.bigmir.net##.hidden-md.hidden-sm.hidden-xs.fix310
+mail.yahoo.com###theAd
+facebook.com##.ego_section
+facebook.com##.ego_unit_container
+www.facebook.com##div[data-xt]
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
 ||safe.txmblr.com/research/pixel
@@ -25442,3 +25462,7 @@ _Affiliate
 ##.svg-adblock-full
 ##.svg-adblock-full--box
 ##[class][data-sitename][data-header-version] > div[id^="detection-block"]
+##.reviewblock.adblock
+##.ad.ad-wide
+##.ad.ad-topbanner
+##.ad.ad-rectangle
