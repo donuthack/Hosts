@@ -22941,6 +22941,8 @@ abc-fonts.me###galepro-core-adb-enabled
 findretros.com##.fuck-adblock
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
+/d_ads-common
+/d_audio-ads
 _campaign=$document
 utm_source
 _Affiliate
