@@ -21,8 +21,19 @@ ff02::3 ip6-allhosts
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
 0.0.0.0 holaspark.com
+0.0.0.0 client.hola.org
 0.0.0.0 h-cdn.com
 0.0.0.0 luminati.io
+0.0.0.0 ec2-54-243-128-120.compute-1.mazonaws.com
+0.0.0.0 ec2-107-22-193-119.compute-1.amazonaws.com
+0.0.0.0 184.164.147.6
+0.0.0.0 66.85.185.75
+0.0.0.0 107.170.77.122
+0.0.0.0 54.243.128.120
+0.0.0.0 184.164.146.26
+0.0.0.0 162.243.24.21
+0.0.0.0 107.22.193.119
+0.0.0.0 107.22.60.33
 
 # Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
 0.0.0.0 weathercenter.co
@@ -2403,6 +2414,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cpanel-dc1.proxpn.com
 0.0.0.0 www.cj.com
 0.0.0.0 cj.com
 0.0.0.0 consent.theneweuropean.co.uk
@@ -3194,6 +3206,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ec2-34-225-90-238.compute-1.amazonaws.com
+0.0.0.0 ec2-54-235-216-141.compute-1.amazonaws.com
 0.0.0.0 ec2-52-25-6-122.us-west-2.compute.amazonaws.com
 0.0.0.0 ec2-107-22-171-143.compute-1.amazonaws.com
 0.0.0.0 engine.adclick.lv
@@ -3476,6 +3490,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gumgum.com
 0.0.0.0 gazeta.adfox.ru
 0.0.0.0 gdpr.internetbrands.com
 0.0.0.0 gdpr.prisa.com
@@ -3623,6 +3638,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 geobytes.com
 0.0.0.0 geoiplookup.io
 0.0.0.0 www.geoplugin.net
+0.0.0.0 geoplugin.net
 0.0.0.0 geoip.nekudo.com
 0.0.0.0 gurgle.zdbb.net
 0.0.0.0 gannett.hb.omtrdc.net
@@ -5150,6 +5166,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 ofpoison.com
 0.0.0.0 openx.gamereactor.dk
 0.0.0.0 oko.uk
 0.0.0.0 optimallimit.com
@@ -5242,6 +5259,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 proxpn.postaffiliatepro.com
+0.0.0.0 www.postaffiliatepro.com
+0.0.0.0 postaffiliatepro.com
 0.0.0.0 publicidad.adlead.com
 0.0.0.0 panel.yieldbird.com
 0.0.0.0 publift.com
@@ -5649,6 +5669,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static.36.82.99.88.clients.your-server.de
+0.0.0.0 s25.host-food.ru
 0.0.0.0 statsweb.proxad.net
 0.0.0.0 seskeu3zk7.com
 0.0.0.0 signin.brightcove.com
@@ -7045,6 +7067,49 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 27.102.118.27
+0.0.0.0 151.101.0.133
+0.0.0.0 192.3.51.94
+0.0.0.0 38.106.22.190
+0.0.0.0 115.28.93.44
+0.0.0.0 206.189.19.155
+0.0.0.0 146.185.139.158
+0.0.0.0 138.68.79.41
+0.0.0.0 159.89.7.184
+0.0.0.0 159.89.11.148
+0.0.0.0 146.185.138.109
+0.0.0.0 139.59.33.81
+0.0.0.0 142.93.209.111
+0.0.0.0 67.205.136.91
+0.0.0.0 142.93.29.82
+0.0.0.0 104.248.177.86
+0.0.0.0 159.89.197.247
+0.0.0.0 142.93.35.74
+0.0.0.0 165.227.123.91
+0.0.0.0 146.185.135.243
+0.0.0.0 104.248.7.126
+0.0.0.0 159.89.125.158
+0.0.0.0 178.128.216.204
+0.0.0.0 192.241.154.234
+0.0.0.0 209.97.141.224
+0.0.0.0 178.128.212.112
+0.0.0.0 146.185.138.227
+0.0.0.0 107.170.227.233
+0.0.0.0 142.93.217.32
+0.0.0.0 138.197.136.186
+0.0.0.0 54.169.248.20
+0.0.0.0 142.93.148.72
+0.0.0.0 198.251.89.109
+0.0.0.0 162.210.197.245
+0.0.0.0 18.215.169.150
+0.0.0.0 162.210.197.242
+0.0.0.0 162.210.197.247
+0.0.0.0 209.126.103.45
+0.0.0.0 54.189.163.43
+0.0.0.0 209.126.109.116
+0.0.0.0 40.76.47.124
+0.0.0.0 104.27.159.21
+0.0.0.0 91.227.16.125
 0.0.0.0 95.183.10.176
 0.0.0.0 104.27.134.170
 0.0.0.0 64.233.177.94
@@ -7193,6 +7258,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 176.122.130.225.16clouds.com
+0.0.0.0 97.64.36.222.16clouds.com
+0.0.0.0 193.198.186.35.bc.googleusercontent.com
 0.0.0.0 2o7.net
 0.0.0.0 1-9-90.com
 0.0.0.0 www.1-2-free.com
