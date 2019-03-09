@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 23,174 (uBlock)
-# Last Updated on Thursday, March 7, 2019
+# Last Updated on Saturday, March 9, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -151,6 +151,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adssettings.google.com
+0.0.0.0 www.aboutads.info
+0.0.0.0 aboutads.info
 0.0.0.0 ads.arto.dk
 0.0.0.0 adxprtz.com
 0.0.0.0 atwola.com
@@ -2414,6 +2417,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 counter.snackly.co
+0.0.0.0 csi.gstatic.com
+0.0.0.0 cello.client-channel.google.com
 0.0.0.0 cpanel-dc1.proxpn.com
 0.0.0.0 www.cj.com
 0.0.0.0 cj.com
@@ -2938,6 +2944,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 drive-thirdparty.googleusercontent.com
 0.0.0.0 dt.admission.net
 0.0.0.0 dqna.com
 0.0.0.0 dashingdirt.com
@@ -3206,6 +3213,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 www.experclick.com
+0.0.0.0 experclick.com
 0.0.0.0 ec2-34-225-90-238.compute-1.amazonaws.com
 0.0.0.0 ec2-54-235-216-141.compute-1.amazonaws.com
 0.0.0.0 ec2-52-25-6-122.us-west-2.compute.amazonaws.com
@@ -3364,6 +3373,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fashion-tube.be
 0.0.0.0 fr.a2dfp.net
 0.0.0.0 fenfa.woso.cn
 0.0.0.0 fluct.jp
@@ -4713,6 +4723,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lh3.google.com
+0.0.0.0 lh3.googleusercontent.com
 0.0.0.0 layer-ads.com
 0.0.0.0 layer-ads.de
 0.0.0.0 laughcloth.com
@@ -5166,6 +5178,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 ogs.google.com
 0.0.0.0 ofpoison.com
 0.0.0.0 openx.gamereactor.dk
 0.0.0.0 oko.uk
@@ -5669,6 +5682,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 www.snackly.co
+0.0.0.0 snackly.co
 0.0.0.0 static.36.82.99.88.clients.your-server.de
 0.0.0.0 s25.host-food.ru
 0.0.0.0 statsweb.proxad.net
@@ -6284,6 +6299,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 track.did-it.com
 0.0.0.0 tribalfusion.com
 0.0.0.0 trafficmp.com
 0.0.0.0 tacoda.net
@@ -7067,6 +7083,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 52.79.65.152
+0.0.0.0 54.241.184.179
+0.0.0.0 184.27.220.170
+0.0.0.0 104.16.206.165
+0.0.0.0 35.186.229.7
 0.0.0.0 27.102.118.27
 0.0.0.0 151.101.0.133
 0.0.0.0 192.3.51.94
@@ -7258,6 +7279,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 a184-27-220-170.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-44-168-124.deploy.static.akamaitechnologies.com
+0.0.0.0 a184-29-92-171.deploy.static.akamaitechnologies.com
+0.0.0.0 7.229.186.35.bc.googleusercontent.com
 0.0.0.0 176.122.130.225.16clouds.com
 0.0.0.0 97.64.36.222.16clouds.com
 0.0.0.0 193.198.186.35.bc.googleusercontent.com
