@@ -151,6 +151,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 a23-65-1-22.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-60-78-197.deploy.static.akamaitechnologies.com
 0.0.0.0 adssettings.google.com
 0.0.0.0 www.aboutads.info
 0.0.0.0 aboutads.info
@@ -3654,6 +3656,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 https-208-111-178-186.ord.llnw.net
 0.0.0.0 henanfs.com
 0.0.0.0 hivps.xyz
 0.0.0.0 h78xb.pw
@@ -7083,6 +7086,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 218.213.150.47
+0.0.0.0 62.255.35.91
+0.0.0.0 52.119.165.138
+0.0.0.0 65.255.35.125
+0.0.0.0 218.213.248.174
+0.0.0.0 65.255.35.71
 0.0.0.0 52.79.65.152
 0.0.0.0 54.241.184.179
 0.0.0.0 184.27.220.170
