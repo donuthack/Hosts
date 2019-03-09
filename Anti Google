@@ -16102,6 +16102,22 @@
 0.0.0.0 gstaticadssl.l.google.com
 0.0.0.0 l.google.com
 0.0.0.0 translate.googleapis.com
+0.0.0.0 88.131.198.104.bc.googleusercontent.com
+0.0.0.0 110.156.199.104.bc.googleusercontent.com
+0.0.0.0 127.83.155.104.bc.googleusercontent.com
+0.0.0.0 57.19.196.104.bc.googleusercontent.com
+0.0.0.0 55.14.155.104.bc.googleusercontent.com
+0.0.0.0 186.43.197.104.bc.googleusercontent.com
+0.0.0.0 119.9.94.191
+0.0.0.0 101.200.185.27
+0.0.0.0 104.27.166.137
+0.0.0.0 104.27.142.241
+0.0.0.0 104.24.110.15
+0.0.0.0 104.31.78.132
+0.0.0.0 104.27.187.90
+0.0.0.0 104.24.111.15
+0.0.0.0 104.24.123.195
+
 #Google.com IPS
 0.0.0.0 108.177.122.94
 0.0.0.0 64.233.177.94
