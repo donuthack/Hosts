@@ -238,6 +238,8 @@
 0.0.0.0 bonus2u.ru
 0.0.0.0 pixel.google.com
 0.0.0.0 play.google.com
+0.0.0.0 ogs.google.com
+0.0.0.0 lh3.google.com
 0.0.0.0 googleadapis.com
 0.0.0.0 googleadsserving.cn
 0.0.0.0 googleapis.cn
@@ -532,6 +534,7 @@
 0.0.0.0 earth.google.com
 0.0.0.0 events.google.com
 0.0.0.0 explorer.apis.google.com
+0.0.0.0 apis.google.com
 0.0.0.0 encrypted.google.com
 0.0.0.0 encrypted-tbn0.google.com
 0.0.0.0 encrypted-tbn1.google.com
@@ -687,6 +690,9 @@
 0.0.0.0 checkout.google.com
 0.0.0.0 drive.google.com
 0.0.0.0 ipv4.google.com
+0.0.0.0 csi.gstatic.com
+0.0.0.0 lh3.googleusercontent.com
+0.0.0.0 drive-thirdparty.googleusercontent.com
 0.0.0.0 0.client-channel.google.com
 0.0.0.0 1.client-channel.google.com
 0.0.0.0 2.client-channel.google.com
