@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 23,174 (uBlock)
-# Last Updated on Saturday, March 9, 2019
+# Last Updated on Monday, March 11, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -151,9 +151,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 active-trk7.com
+0.0.0.0 active-agent.net
+0.0.0.0 www.active-agent.com
+0.0.0.0 active-agent.com
+0.0.0.0 acexedge.com
+0.0.0.0 acekhor.com
+0.0.0.0 acceptableserver.com
+0.0.0.0 app.abtasty.com
+0.0.0.0 www.abtasty.com
+0.0.0.0 abtasty.com
+0.0.0.0 abmr.net
+0.0.0.0 abetterweb.org
+0.0.0.0 abetterweb.mobi
+0.0.0.0 abetterweb.us
+0.0.0.0 aakn.com
 0.0.0.0 a23-65-1-22.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-60-78-197.deploy.static.akamaitechnologies.com
-0.0.0.0 adssettings.google.com
 0.0.0.0 www.aboutads.info
 0.0.0.0 aboutads.info
 0.0.0.0 ads.arto.dk
@@ -5275,6 +5289,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 parked-content.godaddy.com
 0.0.0.0 proxpn.postaffiliatepro.com
 0.0.0.0 www.postaffiliatepro.com
 0.0.0.0 postaffiliatepro.com
