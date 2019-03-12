@@ -151,6 +151,51 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 www.admedo.com
+0.0.0.0 admedo.com
+0.0.0.0 admaym.com
+0.0.0.0 admatic.com.tr
+0.0.0.0 admathhd.com
+0.0.0.0 adlucent.net
+0.0.0.0 adlabsnetworks.com
+0.0.0.0 adkontekst.pl
+0.0.0.0 adkernel.com
+0.0.0.0 adixo.com
+0.0.0.0 adinfo.aol.com
+0.0.0.0 adgrx.com
+0.0.0.0 adgibbon.com
+0.0.0.0 adgiant.io
+0.0.0.0 www.adformdsp.com
+0.0.0.0 adformdsp.com
+0.0.0.0 adfast.net
+0.0.0.0 addnow.com
+0.0.0.0 adcolony.com
+0.0.0.0 adclk.com
+0.0.0.0 adclk.co
+0.0.0.0 adclick.stuff.co.nz
+0.0.0.0 ad-c.media
+0.0.0.0 adcmedia.de
+0.0.0.0 adc-srv.net
+0.0.0.0 adbutter.net
+0.0.0.0 adbutler-tachyon.com
+0.0.0.0 adbrain.com
+0.0.0.0 adality.com
+0.0.0.0 adality.de
+0.0.0.0 adagencyonlineautomotiveadvertising.com
+0.0.0.0 adagencyonline.biz
+0.0.0.0 adagencyonline.net
+0.0.0.0 www.adaction.mobi
+0.0.0.0 adaction.mobi
+0.0.0.0 www.adacado.com
+0.0.0.0 adacado.com
+0.0.0.0 ad.groupon.co.uk
+0.0.0.0 ad.12dt.com
+0.0.0.0 ad-dev.globalnoticias.pt
+0.0.0.0 acxiom-online.com
+0.0.0.0 acuityplatform.com
+0.0.0.0 www.activeconversion.com
+0.0.0.0 activeconversion.com
+0.0.0.0 www.active-trk7.com
 0.0.0.0 active-trk7.com
 0.0.0.0 active-agent.net
 0.0.0.0 www.active-agent.com
@@ -1740,6 +1785,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bidr.trellian.com
 0.0.0.0 bluestreak.com
 0.0.0.0 bfast.com
 0.0.0.0 www.browser-statistik.de
@@ -3516,6 +3562,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 www.globalmediagroup.pt
+0.0.0.0 globalmediagroup.pt
 0.0.0.0 gumgum.com
 0.0.0.0 gazeta.adfox.ru
 0.0.0.0 gdpr.internetbrands.com
@@ -4740,8 +4788,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
-0.0.0.0 lh3.google.com
-0.0.0.0 lh3.googleusercontent.com
+0.0.0.0 live.activeconversion.com
+#0.0.0.0 lh3.google.com   #Google Contacts (Keeps Gmail From Loading)
+#0.0.0.0 lh3.googleusercontent.com   #Google Contacts (Keeps Gmail From Loading)
 0.0.0.0 layer-ads.com
 0.0.0.0 layer-ads.de
 0.0.0.0 laughcloth.com
@@ -5109,6 +5158,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 netsprint.eu
 0.0.0.0 n.admagnet.net
 0.0.0.0 np176.com
 0.0.0.0 nyorbgdinet101-ns-rdd-e.verizonwireless.com
@@ -5289,6 +5339,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 piwik.adfinis-sygroup.ch
 0.0.0.0 parked-content.godaddy.com
 0.0.0.0 proxpn.postaffiliatepro.com
 0.0.0.0 www.postaffiliatepro.com
@@ -5700,6 +5751,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 snap.adsrvr.org
 0.0.0.0 www.snackly.co
 0.0.0.0 snackly.co
 0.0.0.0 static.36.82.99.88.clients.your-server.de
@@ -6225,6 +6277,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 script.crazyegg.com
 0.0.0.0 script.ioam.de
 0.0.0.0 secure.insightexpressai.com
+0.0.0.0 adexpert.cz
 0.0.0.0 s.adexpert.cz
 0.0.0.0 siteintercept.qualtrics.com
 0.0.0.0 static.doubleclick.net
@@ -6317,6 +6370,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracking.tidalhifi.com
 0.0.0.0 track.did-it.com
 0.0.0.0 tribalfusion.com
 0.0.0.0 trafficmp.com
