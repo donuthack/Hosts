@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 23,174 (uBlock)
-# Last Updated on Monday, March 11, 2019
+# Last Updated on Tuesday, March 12, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -151,6 +151,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 adnetwork.vn
+0.0.0.0 autocounter.idealmedia.com
+0.0.0.0 adzs.nl
+0.0.0.0 a3.adzs.nl
+0.0.0.0 a580.casalemedia.com
+0.0.0.0 a.yallboen.com
+0.0.0.0 www.aerserv.com
+0.0.0.0 aerserv.com
+0.0.0.0 aud11000.pubmatic.com
+0.0.0.0 ads.wineenthusiast.com
+0.0.0.0 anthill.vn
 0.0.0.0 www.admedo.com
 0.0.0.0 admedo.com
 0.0.0.0 admaym.com
@@ -1785,6 +1796,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bridgestone.inq.com
+0.0.0.0 binarce.com
+0.0.0.0 b.siftscience.com
 0.0.0.0 bidr.trellian.com
 0.0.0.0 bluestreak.com
 0.0.0.0 bfast.com
@@ -2479,6 +2493,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 community.openx.com
+0.0.0.0 cv-ph.rdtcdn.com
+0.0.0.0 cdn-cf-hc-banners.hgonline.net
 0.0.0.0 counter.snackly.co
 0.0.0.0 csi.gstatic.com
 0.0.0.0 cello.client-channel.google.com
@@ -3006,7 +3023,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
-0.0.0.0 drive-thirdparty.googleusercontent.com
+0.0.0.0 dk-sbs.cdn.videoplaza.tv
+0.0.0.0 domdex.com
+0.0.0.0 diff3.smartadserver.com
 0.0.0.0 dt.admission.net
 0.0.0.0 dqna.com
 0.0.0.0 dashingdirt.com
@@ -3197,6 +3216,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ds6y5vhqiduvy.cloudfront.net
 0.0.0.0 dlrgul5p0v0ut.cloudfront.net
 0.0.0.0 docj27ko03fnu.cloudfront.net
+0.0.0.0 dff7tx5c2qbxc.cloudfront.net
 0.0.0.0 d35fgcharv2shj.cloudfront.net
 0.0.0.0 d1y2wi6psz2t9a.cloudfront.net
 0.0.0.0 d3hmp0045zy3cs.cloudfront.net
@@ -3275,6 +3295,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 eu.metrics.adswizz.com
+0.0.0.0 www.engagio.com
+0.0.0.0 engagio.com
 0.0.0.0 www.experclick.com
 0.0.0.0 experclick.com
 0.0.0.0 ec2-34-225-90-238.compute-1.amazonaws.com
@@ -3831,6 +3854,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 inq.com
 0.0.0.0 www.isearch-net.com
 0.0.0.0 isearch-net.com
 0.0.0.0 iadops.com
@@ -4881,6 +4905,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mibet.mobi
+0.0.0.0 mcdonough.az1.qualtrics.com
 0.0.0.0 mg.mgid.com
 0.0.0.0 media.adfrontiers.com
 0.0.0.0 mfr.a2dfp.net
@@ -5158,6 +5184,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nesekretno-net.mirtesen.ru
 0.0.0.0 netsprint.eu
 0.0.0.0 n.admagnet.net
 0.0.0.0 np176.com
@@ -5245,6 +5272,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 www.openx.com
+0.0.0.0 openx.com
+0.0.0.0 origin-e.anthill.vn
 0.0.0.0 ogs.google.com
 0.0.0.0 ofpoison.com
 0.0.0.0 openx.gamereactor.dk
@@ -5339,6 +5369,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 production.cdn.aerserv.com
+0.0.0.0 pushdataapi.zc.uae.uc.cn
+0.0.0.0 pix.tagcdn.com
+0.0.0.0 pageranktop.com
+0.0.0.0 p256304.clksite.com
 0.0.0.0 piwik.adfinis-sygroup.ch
 0.0.0.0 parked-content.godaddy.com
 0.0.0.0 proxpn.postaffiliatepro.com
@@ -5428,6 +5463,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p-behacdn.ksmobile.net
 0.0.0.0 paypop.org
 0.0.0.0 p30rank.ir
+0.0.0.0 porntrack.com
 0.0.0.0 pwa.grgs.ro
 0.0.0.0 projectagora.s3.amazonaws.com
 0.0.0.0 profiling.avandor.com
@@ -5613,6 +5649,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 realtor-d.openx.net
+0.0.0.0 rdtcdn.com
 0.0.0.0 rc.de.adlink.net
 0.0.0.0 re.givemeofferlnk.com
 0.0.0.0 www.rwadx.com
@@ -5751,6 +5789,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 s-cm.send.adnetwork.vn
+0.0.0.0 srv-2014-11-15-10.config.parsely.com
+0.0.0.0 screechingfurniture.com
+0.0.0.0 stats1.porntrack.com
 0.0.0.0 snap.adsrvr.org
 0.0.0.0 www.snackly.co
 0.0.0.0 snackly.co
@@ -6370,6 +6412,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 theexaminer-fooddrink.t.domdex.com
+0.0.0.0 techtracker.com
 0.0.0.0 tracking.tidalhifi.com
 0.0.0.0 track.did-it.com
 0.0.0.0 tribalfusion.com
@@ -6591,6 +6635,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 usercentrics.eu
+0.0.0.0 www.ucweb.com
+0.0.0.0 ucweb.com
+0.0.0.0 uc.cn
 0.0.0.0 union.woso.cn
 0.0.0.0 www.uservoice.com
 0.0.0.0 uservoice.com
@@ -6676,6 +6724,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 visit.urbanairship.com
+0.0.0.0 view.adsrvr.org
+0.0.0.0 videoplaza.tv
+0.0.0.0 vidassets.terminus.services
 0.0.0.0 view.admission.net
 0.0.0.0 video.totalmediasolutions.com
 0.0.0.0 vanfireworks.com
@@ -6742,6 +6794,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 web-analytics.engagio.com
 0.0.0.0 wad.adbasket.net
 0.0.0.0 www2.1010data.com
 0.0.0.0 www.woso.cn
@@ -6853,6 +6906,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 w.usabilla.com
 0.0.0.0 widgets.outbrain.com
 0.0.0.0 webengage.co
+0.0.0.0 webengage.com
 0.0.0.0 wcs.naver.net
 0.0.0.0 wurfl.io
 0.0.0.0 wms.assoc-amazon.com
@@ -6934,6 +6988,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yallboen.com
 0.0.0.0 yttz113.com
 0.0.0.0 yieldbird.com
 0.0.0.0 www.yourbow.com
@@ -7358,6 +7413,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 131-rno-480.mktoresp.com
+0.0.0.0 58adc773.webengage.co
 0.0.0.0 a184-27-220-170.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-44-168-124.deploy.static.akamaitechnologies.com
 0.0.0.0 a184-29-92-171.deploy.static.akamaitechnologies.com
