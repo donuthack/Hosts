@@ -16,7 +16,13 @@ ff02::3 ip6-allhosts
 # Title: Cybo's Hosts
 # Expires: 1 day
 # Number of ad services, trackers, malware and scripts blocked: 23,174 (uBlock)
-# Last Updated on Tuesday, March 12, 2019
+# Last Updated on Wednesday, March 13, 2019
+
+# Testing Periscope
+0.0.0.0 www.periscopedata.com
+0.0.0.0 periscopedata.com
+0.0.0.0 app.periscopedata.com
+0.0.0.0 lp.periscopedata.com
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -151,6 +157,27 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 www.act-on.com
+0.0.0.0 act-on.com
+0.0.0.0 www.actonsoftware.com
+0.0.0.0 actonsoftware.com
+0.0.0.0 africawin.com
+0.0.0.0 adserver.trafficsyndicate.com
+0.0.0.0 a552.casalemedia.com
+0.0.0.0 axislogger.appspot.com
+0.0.0.0 addthiscdn.com
+0.0.0.0 adserve.viaarena.com
+0.0.0.0 af-web.advertica-cdn.com
+0.0.0.0 www.adsensecustomsearchads.com
+0.0.0.0 adsensecustomsearchads.com
+0.0.0.0 asia-notify.bidswitch.rtb.quantserve.com
+0.0.0.0 americapixel.com
+0.0.0.0 ad-sj2.mediaplex.com
+0.0.0.0 app.shoptarget.com.br
+0.0.0.0 analytics.clickdimensions.com
+0.0.0.0 a23-219-93-208.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-50-52-58.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-219-93-200.deploy.static.akamaitechnologies.com
 0.0.0.0 adnetwork.vn
 0.0.0.0 autocounter.idealmedia.com
 0.0.0.0 adzs.nl
@@ -1796,6 +1823,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 blastro.us.intellitxt.com
+0.0.0.0 www.burtcorp.com
+0.0.0.0 burtcorp.com
+0.0.0.0 bomcl.richmetrics.com
 0.0.0.0 bridgestone.inq.com
 0.0.0.0 binarce.com
 0.0.0.0 b.siftscience.com
@@ -2493,6 +2524,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdnpark.com
+0.0.0.0 ci201.actonsoftware.com
+0.0.0.0 cc2558.dotomi.com
+0.0.0.0 consumergenepool.com
+0.0.0.0 console.turn.com
+0.0.0.0 consumeragentportal.d1.sc.omtrdc.net
+0.0.0.0 corsa-d.de.intellitxt.com
+0.0.0.0 clickzzs.nl
+0.0.0.0 cookielaw.org
+0.0.0.0 cache.addthiscdn.com
+0.0.0.0 captive-web.t.domdex.com
+0.0.0.0 cpe.netcabo.pt
+0.0.0.0 clickdimensions.com
+0.0.0.0 cloudapi.imrworldwide.com
 0.0.0.0 community.openx.com
 0.0.0.0 cv-ph.rdtcdn.com
 0.0.0.0 cdn-cf-hc-banners.hgonline.net
@@ -3023,6 +3068,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dev.clickability.com
+0.0.0.0 d-cache.microadinc.com
 0.0.0.0 dk-sbs.cdn.videoplaza.tv
 0.0.0.0 domdex.com
 0.0.0.0 diff3.smartadserver.com
@@ -3217,6 +3264,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dlrgul5p0v0ut.cloudfront.net
 0.0.0.0 docj27ko03fnu.cloudfront.net
 0.0.0.0 dff7tx5c2qbxc.cloudfront.net
+0.0.0.0 daks2k3a4ib2z.cloudfront.net
+0.0.0.0 d1tdp7z6w94jbb.cloudfront.net
 0.0.0.0 d35fgcharv2shj.cloudfront.net
 0.0.0.0 d1y2wi6psz2t9a.cloudfront.net
 0.0.0.0 d3hmp0045zy3cs.cloudfront.net
@@ -3295,6 +3344,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ewpqmptpavn.com
+0.0.0.0 e-ssl.apsalar.com
 0.0.0.0 eu.metrics.adswizz.com
 0.0.0.0 www.engagio.com
 0.0.0.0 engagio.com
@@ -3458,6 +3509,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 feedback.adrecover.com
+0.0.0.0 fromru.su
+0.0.0.0 fordscene.de.intellitxt.com
+0.0.0.0 fast.morningstar.demdex.net
+0.0.0.0 fitness-foren.de.intellitxt.com
 0.0.0.0 fashion-tube.be
 0.0.0.0 fr.a2dfp.net
 0.0.0.0 fenfa.woso.cn
@@ -3585,6 +3641,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.americapixel.com
+0.0.0.0 gvt.net.br
 0.0.0.0 www.globalmediagroup.pt
 0.0.0.0 globalmediagroup.pt
 0.0.0.0 gumgum.com
@@ -3741,6 +3799,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hrpa.co1.qualtrics.com
 0.0.0.0 https-208-111-178-186.ord.llnw.net
 0.0.0.0 henanfs.com
 0.0.0.0 hivps.xyz
@@ -3854,6 +3913,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 i.cdnpark.com
+0.0.0.0 interstitial-ads-prod-fusepowered.netdna-ssl.com
+0.0.0.0 infra44.smartadserver.com
+0.0.0.0 itim.vn
+0.0.0.0 inter.net.il
 0.0.0.0 inq.com
 0.0.0.0 www.isearch-net.com
 0.0.0.0 isearch-net.com
@@ -4013,6 +4077,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js11.clickzzs.nl
+0.0.0.0 jpdk.nuggad.net
 0.0.0.0 j93557g.com
 0.0.0.0 jadeitite.com
 0.0.0.0 jamexistence.com
@@ -4812,9 +4878,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lintv.122.2o7.net
 0.0.0.0 live.activeconversion.com
-#0.0.0.0 lh3.google.com   #Google Contacts (Keeps Gmail From Loading)
-#0.0.0.0 lh3.googleusercontent.com   #Google Contacts (Keeps Gmail From Loading)
+#0.0.0.0 lh3.google.com   # Google Contacts (Keeps Gmail From Loading)
+#0.0.0.0 lh3.googleusercontent.com   # Google Contacts (Keeps Gmail From Loading)
 0.0.0.0 layer-ads.com
 0.0.0.0 layer-ads.de
 0.0.0.0 laughcloth.com
@@ -4905,6 +4972,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 media.contextweb.com
+0.0.0.0 mob.s.360safe.com
+0.0.0.0 mongostats.mopub.com
+0.0.0.0 mgemi.btttag.com
+0.0.0.0 microadinc.com
+0.0.0.0 morningstar.demdex.net
+0.0.0.0 mco-1.go.sonobi.com
+0.0.0.0 www.mediaplex.com
+0.0.0.0 mediaplex.com
+0.0.0.0 meapk.com
+0.0.0.0 med.heyzap.com
 0.0.0.0 mibet.mobi
 0.0.0.0 mcdonough.az1.qualtrics.com
 0.0.0.0 mg.mgid.com
@@ -5184,6 +5262,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 www.news-subscribe.com
+0.0.0.0 news-subscribe.com
+0.0.0.0 netdna-ssl.com
+0.0.0.0 nova.adswizz.com
 0.0.0.0 nesekretno-net.mirtesen.ru
 0.0.0.0 netsprint.eu
 0.0.0.0 n.admagnet.net
@@ -5272,6 +5354,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 operamini-sub.osp.opera.software
 0.0.0.0 www.openx.com
 0.0.0.0 openx.com
 0.0.0.0 origin-e.anthill.vn
@@ -5369,6 +5452,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 presentation-hkg1.turn.com
+0.0.0.0 pass.qip.ru
+0.0.0.0 proext.com
+0.0.0.0 pl14316412.puserving.com
+0.0.0.0 px.steelhousemedia.com
+0.0.0.0 plala.or.jp
+0.0.0.0 priority-static-api.nkstatic.com
 0.0.0.0 production.cdn.aerserv.com
 0.0.0.0 pushdataapi.zc.uae.uc.cn
 0.0.0.0 pix.tagcdn.com
@@ -5621,6 +5711,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qip.ru
+0.0.0.0 www.qenklbb.com
+0.0.0.0 qenklbb.com
+0.0.0.0 ww1.qenklbb.com
+0.0.0.0 ww2.qenklbb.com
+0.0.0.0 ww3.qenklbb.com
+0.0.0.0 ww4.qenklbb.com
+0.0.0.0 ww5.qenklbb.com
+0.0.0.0 ww6.qenklbb.com
+0.0.0.0 ww7.qenklbb.com
+0.0.0.0 ww8.qenklbb.com
+0.0.0.0 ww9.qenklbb.com
+0.0.0.0 ww10.qenklbb.com
+0.0.0.0 ww11.qenklbb.com
+0.0.0.0 ww12.qenklbb.com
 0.0.0.0 qiqivv.com
 0.0.0.0 quaintcan.com
 0.0.0.0 quarterbean.com
@@ -5649,6 +5754,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 read.mongostats.mopub.com
+0.0.0.0 ru.theswiftones.com
+0.0.0.0 richmetrics.com
 0.0.0.0 realtor-d.openx.net
 0.0.0.0 rdtcdn.com
 0.0.0.0 rc.de.adlink.net
@@ -5789,6 +5897,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 success.act-on.com
+0.0.0.0 skip-ads.net
+0.0.0.0 search.qip.ru
+0.0.0.0 s.360safe.com
+0.0.0.0 screensavers.us.intellitxt.com
+0.0.0.0 spider.ad
+0.0.0.0 spell.itim.vn
+0.0.0.0 supernet.com.bo
 0.0.0.0 s-cm.send.adnetwork.vn
 0.0.0.0 srv-2014-11-15-10.config.parsely.com
 0.0.0.0 screechingfurniture.com
@@ -6412,6 +6528,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 theswiftones.com
+0.0.0.0 top.proext.com
+0.0.0.0 trv.upperbooking.com
+0.0.0.0 trl.upperbooking.com
+0.0.0.0 tracking.lqm.io
 0.0.0.0 theexaminer-fooddrink.t.domdex.com
 0.0.0.0 techtracker.com
 0.0.0.0 tracking.tidalhifi.com
@@ -6724,6 +6845,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vinbet.biz
+0.0.0.0 voxel.read.mongostats.mopub.com
+0.0.0.0 vip.clickzzs.nl
+0.0.0.0 viaarena.com
 0.0.0.0 visit.urbanairship.com
 0.0.0.0 view.adsrvr.org
 0.0.0.0 videoplaza.tv
@@ -6794,6 +6919,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www.wwwal.com
+0.0.0.0 wwwal.com
+0.0.0.0 web-frontend-dot-sc-analytics.appspot.com
 0.0.0.0 web-analytics.engagio.com
 0.0.0.0 wad.adbasket.net
 0.0.0.0 www2.1010data.com
@@ -6951,6 +7079,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xslt.mediaplex.com
 0.0.0.0 xovq5nemr.com
 0.0.0.0 xcache.ad360.vn
 0.0.0.0 xmr.mining.best
@@ -6988,6 +7117,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 www.yourhitstats.com
+0.0.0.0 yourhitstats.com
 0.0.0.0 yallboen.com
 0.0.0.0 yttz113.com
 0.0.0.0 yieldbird.com
@@ -7210,6 +7341,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 5.45.58.61
 0.0.0.0 161.117.97.67
 0.0.0.0 218.213.150.47
 0.0.0.0 62.255.35.91
@@ -7413,6 +7545,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 3d.news-subscribe.com
+0.0.0.0 4.whereinlazio.com
+0.0.0.0 99a9339abed56.com
 0.0.0.0 131-rno-480.mktoresp.com
 0.0.0.0 58adc773.webengage.co
 0.0.0.0 a184-27-220-170.deploy.static.akamaitechnologies.com
