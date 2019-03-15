@@ -15,9 +15,9 @@ ff02::3 ip6-allhosts
 
 # Title: Cybo's Hosts
 # Expires: 1 day
-# Number of ad services, trackers, malware and scripts blocked: 24,347 (uBlock)
-# Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662
-# Last Updated on Thursday, March 14, 2019
+# Number Of Ad Services, Trackers, And Malware Blocked: 24,347 (uBlock)
+# Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
+# Last Updated on Friday, March 15, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -158,6 +158,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 avatars.github.exacttarget.com
+0.0.0.0 airbrake.io
+0.0.0.0 assets.github.exacttarget.com
+0.0.0.0 airbrake-github.airbrake.io
+0.0.0.0 airbrake-gitlab.airbrake.io
+0.0.0.0 assets.omaze.com
+0.0.0.0 audio2.spotify.com
+0.0.0.0 analytics.spotify.com
+0.0.0.0 atdmt.com.60416.9342.302br.net
+0.0.0.0 atdmt.com.60413.9342.302br.net
+0.0.0.0 atdmt.com.24492.9179.302br.net
+0.0.0.0 atdmt.com.319.6000.302br.net
+0.0.0.0 atdmt.com.1.6000.302br.net
+0.0.0.0 accounts.clickbank.com
 0.0.0.0 apps.bdimg.com
 0.0.0.0 anglo-chinese.google-feed.net
 0.0.0.0 ads-icl.googleusercontent.com
@@ -1864,6 +1878,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 brightcove.net
+0.0.0.0 bot.percept.ai
 0.0.0.0 bdimg.com
 0.0.0.0 badad.googleplex.com
 0.0.0.0 blaaaa12.googlecode.com
@@ -2576,6 +2592,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 collector-cdn.github.com
+0.0.0.0 codeload.github.exacttarget.com
+0.0.0.0 campaign.adobe.com
+0.0.0.0 cdnprism.pandora.tv
+0.0.0.0 crashdump.spotify.com
+0.0.0.0 core.insightexpressai.com
+0.0.0.0 content.bitsontherun.com
+0.0.0.0 www.clickbank.net
+0.0.0.0 clickbank.net
+0.0.0.0 console.percept.ai
 0.0.0.0 contributor.google.com
 0.0.0.0 cr-tools.clients.google.com
 0.0.0.0 click.google-analytics.com
@@ -3131,6 +3157,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 ds.serving-sys.com
+0.0.0.0 desktop.spotify.com
 0.0.0.0 doubleclick.cn.com 
 0.0.0.0 desktop.google.com
 0.0.0.0 dev.clickability.com
@@ -3330,6 +3358,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 docj27ko03fnu.cloudfront.net
 0.0.0.0 dff7tx5c2qbxc.cloudfront.net
 0.0.0.0 daks2k3a4ib2z.cloudfront.net
+0.0.0.0 d3rt1990lpmkn.cloudfront.net
+0.0.0.0 d2gi7ultltnc2u.cloudfront.net
 0.0.0.0 d1tdp7z6w94jbb.cloudfront.net
 0.0.0.0 d35fgcharv2shj.cloudfront.net
 0.0.0.0 d1y2wi6psz2t9a.cloudfront.net
@@ -3578,6 +3608,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 free-counter.co.uk
 0.0.0.0 filegoogle.com
 0.0.0.0 ftp.google-feed.net
 0.0.0.0 fundingchoices.google.com
@@ -3715,6 +3746,24 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 guc3-accesspoint-b-cb59.ap.spotify.com
+0.0.0.0 guc3-accesspoint-c-dmnl.ap.spotify.com
+0.0.0.0 guc3-accesspoint-b-xss8.ap.spotify.com
+0.0.0.0 guc3-accesspoint-b-xnt9.ap.spotify.com
+0.0.0.0 guc3-accesspoint-b-dd4b.ap.spotify.com
+0.0.0.0 gae2-accesspoint-b-qfwz.ap.spotify.com
+0.0.0.0 gae2-accesspoint-b-1r3q.ap.spotify.com
+0.0.0.0 gae2-accesspoint-b-hcv5.ap.spotify.com
+0.0.0.0 guc3-accesspoint-b-cc4c.ap.spotify.com
+0.0.0.0 github.umeng.com
+0.0.0.0 gist-assets.github.exacttarget.com
+0.0.0.0 gist.github.exacttarget.com
+0.0.0.0 gist-raw.github.exacttarget.com
+0.0.0.0 github.exacttarget.com
+0.0.0.0 github.tinypass.com
+0.0.0.0 github.algolia.com
+0.0.0.0 gvt1.com
+0.0.0.0 gtssl2-ocsp.geotrust.com
 0.0.0.0 www.groovinads.com
 0.0.0.0 groovinads.com
 0.0.0.0 www.groovingads.com
@@ -4009,6 +4058,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 images.omaze.com
 0.0.0.0 img001.groovinads.com
 0.0.0.0 img002.groovinads.com
 0.0.0.0 img003.groovinads.com
@@ -5280,6 +5330,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 log.spotify.com
+0.0.0.0 *.log.optimizely.com
+0.0.0.0 log.optimizely.com
 0.0.0.0 login.groovinads.com
 0.0.0.0 liveinternet.ru
 0.0.0.0 lintv.122.2o7.net
@@ -5379,6 +5432,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 media-match.com
 0.0.0.0 myap.liveperson.com
 0.0.0.0 m-pathy.com
 0.0.0.0 media.contextweb.com
@@ -5763,6 +5817,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 www.omaze.com
+0.0.0.0 omaze.com
+0.0.0.0 www.omniture.com
+0.0.0.0 omniture.com
 0.0.0.0 www.owox.com
 0.0.0.0 owox.com
 0.0.0.0 operamini-sub.osp.opera.software
@@ -5863,6 +5921,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pivotal.github.com
+0.0.0.0 pandora.qualtrics.com
+0.0.0.0 pandoramedia.sc.omtrdc.net
+0.0.0.0 pandoramedia-mkt-prod1-t.campaign.adobe.com
+0.0.0.0 pandoramedia-mkt-prod1-lb.campaign.adobe.com
+0.0.0.0 pandoramedia.demdex.net
+0.0.0.0 pandoramedia.campaign.adobe.com
+0.0.0.0 pandora-d.openx.net
+0.0.0.0 pandora.deliveryengine.adswizz.com
+0.0.0.0 pandora.d1.sc.omtrdc.net
+0.0.0.0 percept.ai
 0.0.0.0 photoshopcs6.com-promotions.us
 0.0.0.0 prospecteye.com
 0.0.0.0 paol.chartbeat.net
@@ -6169,6 +6238,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 redirector.gvt1.com
+0.0.0.0 r.msn.com
+0.0.0.0 revenuedirect.com
 0.0.0.0 removalmalware.servecounterstrike.com
 0.0.0.0 reklama.neg.bg
 0.0.0.0 rankmytattoos.us.intellitxt.com
@@ -6316,6 +6388,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 spclient.wg.spotify.com
+0.0.0.0 www.sharedsourcepa.org
 0.0.0.0 sponsorpay.com
 0.0.0.0 www.studads.com
 0.0.0.0 studads.com
@@ -6958,6 +7032,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tinypass.com
+0.0.0.0 t.ac.pandora.com.cname.campaign.adobe.com
 0.0.0.0 tr.prospecteye.com
 0.0.0.0 taggify.net
 0.0.0.0 tags.liveperson.net
@@ -7278,6 +7354,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 www.voodoo.com
+0.0.0.0 voodoo.com
 0.0.0.0 *.video-ak.cdn.spotify.com
 0.0.0.0 va.v.liveperson.net
 0.0.0.0 vinbet.biz
@@ -7354,6 +7432,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 widget.percept.ai
 0.0.0.0 wpa.qq.com
 0.0.0.0 watchdog.energized.pro
 0.0.0.0 windstream.d2.sc.omtrdc.net
@@ -7986,6 +8065,40 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 *.302br.net
+0.0.0.0 *.blueseek.com
+0.0.0.0 3151.77152.blueseek.com
+0.0.0.0 77152.blueseek.com
+0.0.0.0 2fview.atdmt.com.60416.9342.302br.net
+0.0.0.0 60416.9342.302br.net
+0.0.0.0 2fview.atdmt.com.60413.9342.302br.net
+0.0.0.0 60413.9342.302br.net
+0.0.0.0 9342.302br.net
+0.0.0.0 2fview.atdmt.com.24492.9179.302br.net
+0.0.0.0 24492.9179.302br.net
+0.0.0.0 9179.302br.net
+0.0.0.0 29193.9215.302br.net
+0.0.0.0 9215.302br.net
+0.0.0.0 24293.9170.302br.net
+0.0.0.0 24290.9170.302br.net
+0.0.0.0 9170.302br.net
+0.0.0.0 22774.9133.302br.net
+0.0.0.0 9133.302br.net
+0.0.0.0 15view.atdmt.com
+0.0.0.0 15view.atdmt.com.319.6000.302br.net
+0.0.0.0 324.6000.302br.net
+0.0.0.0 319.6000.302br.net
+0.0.0.0 6000.302br.net
+0.0.0.0 9005.302br.net
+0.0.0.0 1239.9014.302br.net
+0.0.0.0 9014.302br.net
+0.0.0.0 1017680.109mview.atdmt.com
+0.0.0.0 1017680.109mview.atdmt.com.1.6000.302br.net
+0.0.0.0 109mview.atdmt.com
+0.0.0.0 109mview.atdmt.com.1.6000.302br.net
+0.0.0.0 050005.voodoo.com
+0.0.0.0 050003.voodoo.com
+0.0.0.0 0.r.msn.com
 0.0.0.0 4.afs.googleadservices.com
 0.0.0.0 101.sub-75-199-205.myvzw.com
 0.0.0.0 103.sub-70-222-213.myvzw.com
@@ -8363,6 +8476,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 176.122.130.225.16clouds.com
 0.0.0.0 97.64.36.222.16clouds.com
 0.0.0.0 193.198.186.35.bc.googleusercontent.com
+0.0.0.0 *.2o7.net
 0.0.0.0 2o7.net
 0.0.0.0 1-9-90.com
 0.0.0.0 www.1-2-free.com
@@ -10143,6 +10257,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 20576983p.rfihub.com
 0.0.0.0 20576991p.rfihub.com
 0.0.0.0 20591617p.rfihub.com
+0.0.0.0 6000.302br.net
 0.0.0.0 2vie.catdmt.omc.324.6000.302br.net
 0.0.0.0 2wiz6.voluumtrk.com
 0.0.0.0 2xkft.voluumtrk.com
