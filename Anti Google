@@ -329,6 +329,7 @@
 0.0.0.0 appspot.com
 0.0.0.0 ajax.googleapis.com
 0.0.0.0 googleapis.com
+0.0.0.0 www.googleapis.com
 0.0.0.0 android.googleapis.com
 0.0.0.0 appinvite-pa.googleapis.com
 0.0.0.0 appinvite-ipv4-pa.googleapis.com
