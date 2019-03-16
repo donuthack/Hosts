@@ -6388,7 +6388,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
-0.0.0.0 spclient.wg.spotify.com
+#0.0.0.0 spclient.wg.spotify.com (Breaks Spotify)
 0.0.0.0 www.sharedsourcepa.org
 0.0.0.0 sponsorpay.com
 0.0.0.0 www.studads.com
