@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 24,462 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Friday, March 15, 2019
+# Last Updated on Sunday, March 17, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -158,6 +158,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 app-ab01.marketo.com
+0.0.0.0 app-lon06.marketo.com
+0.0.0.0 adname.ru
+0.0.0.0 analytiall.com
+0.0.0.0 adspirit.de
 0.0.0.0 avatars.github.exacttarget.com
 0.0.0.0 airbrake.io
 0.0.0.0 assets.github.exacttarget.com
@@ -1878,6 +1883,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 www.braze.com
+0.0.0.0 braze.com
 0.0.0.0 brightcove.net
 0.0.0.0 bot.percept.ai
 0.0.0.0 bdimg.com
@@ -2592,6 +2599,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.adspirit.de
+0.0.0.0 collect13650lmrck.deltadna.net
+0.0.0.0 collect9999rsstn.deltadna.net
+0.0.0.0 collect7364wdfrm.deltadna.net
+0.0.0.0 collect11364vpblt.deltadna.net
+0.0.0.0 collect12186skywh.deltadna.net
+0.0.0.0 collect13245rnrnd.deltadna.net
+0.0.0.0 collect12765vrbrn.deltadna.net
+0.0.0.0 collect10083vpblt.deltadna.net
+0.0.0.0 collect12411mwylw.deltadna.net
+0.0.0.0 collect11580chtfc.deltadna.net
+0.0.0.0 collect13914mtch3.deltadna.net
+0.0.0.0 collect10632snprh.deltadna.net
+0.0.0.0 collect*.deltadna.net
 0.0.0.0 collector-cdn.github.com
 0.0.0.0 codeload.github.exacttarget.com
 0.0.0.0 campaign.adobe.com
@@ -3157,6 +3178,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 *.deltadna.net
+0.0.0.0 deltadna.net
 0.0.0.0 ds.serving-sys.com
 0.0.0.0 desktop.spotify.com
 0.0.0.0 doubleclick.cn.com 
@@ -3439,6 +3462,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 engage13914mtch3.deltadna.net
+0.0.0.0 engage8130ftbll.deltadna.net
+0.0.0.0 engage2034hrsnd.deltadna.net
+0.0.0.0 engage9306klmvt.deltadna.net
 0.0.0.0 eu-google-rtb.quantserve.com
 0.0.0.0 exchange.liveperson.net
 0.0.0.0 ehg-liveperson.hitbox.com
@@ -3608,6 +3635,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 forecast.analytiall.com
 0.0.0.0 free-counter.co.uk
 0.0.0.0 filegoogle.com
 0.0.0.0 ftp.google-feed.net
@@ -3746,6 +3774,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gaspra.iad-03.braze.com
+0.0.0.0 gfxa.sheetmusicplus.com
 0.0.0.0 guc3-accesspoint-b-cb59.ap.spotify.com
 0.0.0.0 guc3-accesspoint-c-dmnl.ap.spotify.com
 0.0.0.0 guc3-accesspoint-b-xss8.ap.spotify.com
@@ -4058,6 +4088,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 iad-03.braze.com
 0.0.0.0 images.omaze.com
 0.0.0.0 img001.groovinads.com
 0.0.0.0 img002.groovinads.com
@@ -5432,6 +5463,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 m.amobee.com
 0.0.0.0 media-match.com
 0.0.0.0 myap.liveperson.com
 0.0.0.0 m-pathy.com
@@ -5725,6 +5757,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 newgam.es   # Bit.ly
 0.0.0.0 www.news-subscribe.com
 0.0.0.0 news-subscribe.com
 0.0.0.0 netdna-ssl.com
@@ -6388,6 +6421,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 spinbox.techtracker.com
+0.0.0.0 siftscience.com
+0.0.0.0 s.qualtrics.com
+0.0.0.0 sdk.analytiall.com
+0.0.0.0 stat.analytiall.com
 #0.0.0.0 spclient.wg.spotify.com (Breaks Spotify)
 0.0.0.0 www.sharedsourcepa.org
 0.0.0.0 sponsorpay.com
@@ -7032,6 +7070,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 track.voluum.bid
 0.0.0.0 tinypass.com
 0.0.0.0 t.ac.pandora.com.cname.campaign.adobe.com
 0.0.0.0 tr.prospecteye.com
@@ -7354,6 +7393,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vpaid.mathtag.com
 0.0.0.0 www.voodoo.com
 0.0.0.0 voodoo.com
 0.0.0.0 *.video-ak.cdn.spotify.com
@@ -7756,6 +7796,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zncd4wtx73pulm4k1-audiotechnica.siteintercept.qualtrics.com
+0.0.0.0 zn37vecqsvfmo7awf-hpdigital.siteintercept.qualtrics.com
 0.0.0.0 zbwp6ghm.com
 0.0.0.0 zealousfield.com
 0.0.0.0 zotabox.com
