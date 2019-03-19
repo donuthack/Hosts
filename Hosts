@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 24,462 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Sunday, March 17, 2019
+# Last Updated on Monday, March 18, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -2599,6 +2599,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.lmiutil.com
+0.0.0.0 cdn.omniconvert.com
 0.0.0.0 cdn.adspirit.de
 0.0.0.0 collect13650lmrck.deltadna.net
 0.0.0.0 collect9999rsstn.deltadna.net
@@ -4618,6 +4620,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kck3hlb9.dashlane.com
 0.0.0.0 k54nw.pw
 0.0.0.0 karisimbi.net
 0.0.0.0 kontagent.net
@@ -5361,6 +5364,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lmiutil.com
 0.0.0.0 log.spotify.com
 0.0.0.0 *.log.optimizely.com
 0.0.0.0 log.optimizely.com
@@ -5463,6 +5467,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 msecnd.net
 0.0.0.0 m.amobee.com
 0.0.0.0 media-match.com
 0.0.0.0 myap.liveperson.com
@@ -6421,6 +6426,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 softserve.8ch.net
 0.0.0.0 spinbox.techtracker.com
 0.0.0.0 siftscience.com
 0.0.0.0 s.qualtrics.com
@@ -7393,6 +7399,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 *.vo.msecnd.net
 0.0.0.0 vpaid.mathtag.com
 0.0.0.0 www.voodoo.com
 0.0.0.0 voodoo.com
