@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 24,462 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Monday, March 18, 2019
+# Last Updated on Thursday, March 21, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -158,6 +158,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 analytics.kiwifarms.net
 0.0.0.0 app-ab01.marketo.com
 0.0.0.0 app-lon06.marketo.com
 0.0.0.0 adname.ru
@@ -3180,6 +3181,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 decide.mixpanel.com
 0.0.0.0 *.deltadna.net
 0.0.0.0 deltadna.net
 0.0.0.0 ds.serving-sys.com
@@ -3311,7 +3313,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 dc.applicationinsights.microsoft.com
 0.0.0.0 diagnostics.support.microsoft.com
 0.0.0.0 displaycatalog.mp.microsoft.com
-0.0.0.0 dmd.metaservices.microsoft.com
 0.0.0.0 delivery.platform.switchads.com
 0.0.0.0 delivery.swid.switchads.com
 0.0.0.0 delivery.a.switchadhub.com
@@ -23989,10 +23990,36 @@ ff02::3 ip6-allhosts
 0.0.0.0 ya-in-f500.1e100.net
 
 # Blocking specific things on domains
+8ch.net##section.col-12.col.box.description:nth-of-type(3)
+voat.co##div.spacer:nth-of-type(1) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(2) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(3) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(4) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(5) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(6) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(7) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(8) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(9) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(10) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(11) > .sidecontentbox
+voat.co##div.spacer:nth-of-type(12) > .sidecontentbox
 freerice.com###bottom-banner > .container_12
 ||facebook.com^$third-party
 ||converto.io^$popup,third-party
 ||linkshrink.net^$popup,third-party
+||ioshack.vip/img/navimg/png2.png
+ioshack.vip###toMenu
+ioshack.vip##[href="javascript:window.location.replace('#')"]
+ioshack.vip##.menu_05 > [href="#"]
+ioshack.vip##.menu_05
+ioshack.vip##.menu_04 > [href="#"]
+ioshack.vip##.menu_04
+ioshack.vip##.menu_03 > [href="#"]
+ioshack.vip##.menu_03
+ioshack.vip##.menu_02 > [href="#"]
+ioshack.vip##.menu_02
+ioshack.vip##.menu_01 > [href="#"]
+ioshack.vip##.menu_01
 www.bigmir.net##div.pb20.row:nth-of-type(2) > .col-24 > .side-block > .header-outer
 www.bigmir.net##div.pb20.col-lg-24.col-sm-12.col-24:nth-of-type(1)
 www.bigmir.net##div.pb20.col-lg-24.col-sm-12.col-24:nth-of-type(2)
@@ -24623,3 +24650,4 @@ _Affiliate
 ##.ad.ad-wide
 ##.ad.ad-topbanner
 ##.ad.ad-rectangle
+###new-bottom-ads
