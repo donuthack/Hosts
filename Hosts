@@ -158,6 +158,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 app.sourceknowledge.com
+0.0.0.0 admonkey.dapper.net
+0.0.0.0 adunit.chango.com
+0.0.0.0 ads.chango.com
+0.0.0.0 askads.ask.com
+0.0.0.0 api-v2.alive5.com
+0.0.0.0 anapixel.marca.com
+0.0.0.0 anapixel.elmundo.es
+0.0.0.0 adcrowd.com
+0.0.0.0 actiondesk.com
+0.0.0.0 ad20.net
+0.0.0.0 app-sj08.marketo.com
 0.0.0.0 analytics.kiwifarms.net
 0.0.0.0 app-ab01.marketo.com
 0.0.0.0 app-lon06.marketo.com
@@ -1884,6 +1896,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 b.wishabi.com
+0.0.0.0 *.beaconpush.com
+0.0.0.0 beaconpush.com
 0.0.0.0 www.braze.com
 0.0.0.0 braze.com
 0.0.0.0 brightcove.net
@@ -2600,6 +2615,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 clicks.izea.com
+0.0.0.0 chango.com
+0.0.0.0 cpex.cz
+0.0.0.0 csh.actiondesk.com
+0.0.0.0 core.ad20.net
+0.0.0.0 *.cdn77.org
+0.0.0.0 cdn77.org
+0.0.0.0 cfgchat.fortifi.io
+0.0.0.0 chat.fortifi.io
 0.0.0.0 cdn.lmiutil.com
 0.0.0.0 cdn.omniconvert.com
 0.0.0.0 cdn.adspirit.de
@@ -3181,6 +3205,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 display.provenpixel.com
+0.0.0.0 dapper.net
+0.0.0.0 dot.wp.pl
 0.0.0.0 decide.mixpanel.com
 0.0.0.0 *.deltadna.net
 0.0.0.0 deltadna.net
@@ -3385,6 +3412,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dff7tx5c2qbxc.cloudfront.net
 0.0.0.0 daks2k3a4ib2z.cloudfront.net
 0.0.0.0 d3rt1990lpmkn.cloudfront.net
+0.0.0.0 d2mp27yxsbbpwj.cloudfront.net
+0.0.0.0 d3alqb8vzo7fun.cloudfront.net
 0.0.0.0 d2gi7ultltnc2u.cloudfront.net
 0.0.0.0 d1tdp7z6w94jbb.cloudfront.net
 0.0.0.0 d35fgcharv2shj.cloudfront.net
@@ -3465,6 +3494,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 engine.4chan-ads.org
+0.0.0.0 everesttech.net
 0.0.0.0 engage13914mtch3.deltadna.net
 0.0.0.0 engage8130ftbll.deltadna.net
 0.0.0.0 engage2034hrsnd.deltadna.net
@@ -3638,6 +3669,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fortifi.io
 0.0.0.0 forecast.analytiall.com
 0.0.0.0 free-counter.co.uk
 0.0.0.0 filegoogle.com
@@ -4091,6 +4123,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 izea.com
+0.0.0.0 impes.tradedoubler.com
+0.0.0.0 www.indiaantivirus.com    # Fake AV
+0.0.0.0 indiaantivirus.com    # Fake AV
 0.0.0.0 iad-03.braze.com
 0.0.0.0 images.omaze.com
 0.0.0.0 img001.groovinads.com
@@ -5468,6 +5504,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 matchyip.com
 0.0.0.0 msecnd.net
 0.0.0.0 m.amobee.com
 0.0.0.0 media-match.com
@@ -5763,6 +5800,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 www.netprotector.co.in    # Fake AV
+0.0.0.0 netprotector.co.in    # Fake AV
+0.0.0.0 www.npav.net    # Fake AV
+0.0.0.0 npav.net    # Fake AV
 0.0.0.0 newgam.es   # Bit.ly
 0.0.0.0 www.news-subscribe.com
 0.0.0.0 news-subscribe.com
@@ -5856,6 +5897,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 ots.optimize.webtrends.com
 0.0.0.0 www.omaze.com
 0.0.0.0 omaze.com
 0.0.0.0 www.omniture.com
@@ -5960,6 +6002,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 p1.tcr21.tynt.com
+0.0.0.0 provenpixel.com
+0.0.0.0 percentmobile.com
+0.0.0.0 pixel.invitemedia.com
+0.0.0.0 pixel.yabidos.com
+0.0.0.0 pixel.33across.com
+0.0.0.0 pixelbox.uimserv.net
+0.0.0.0 pixel.theagency.com
+0.0.0.0 pixel.mathtag.com
+0.0.0.0 pixelcounter.marca.com
+0.0.0.0 pixels.livingsocial.com
+0.0.0.0 pixel-user-1039.everesttech.net
+0.0.0.0 pixel.everesttech.net
+0.0.0.0 pixelcounter.elmundo.es
+0.0.0.0 pixel.cpex.cz
+0.0.0.0 pixel.adcrowd.com
 0.0.0.0 pivotal.github.com
 0.0.0.0 pandora.qualtrics.com
 0.0.0.0 pandoramedia.sc.omtrdc.net
@@ -6173,6 +6231,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 push.services.mozilla.com
 0.0.0.0 phish-error.mozilla.com
 0.0.0.0 pixel.rubiconproject.com
+0.0.0.0 pixel-us-east.rubiconproject.com
 0.0.0.0 pixel.adsafeprotected.com
 0.0.0.0 pixel.quantserve.com
 0.0.0.0 popunder.adsrevenue.net
@@ -6277,6 +6336,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 req.tidaltv.com
+0.0.0.0 rsc.cdn77.org
 0.0.0.0 redirector.gvt1.com
 0.0.0.0 r.msn.com
 0.0.0.0 revenuedirect.com
@@ -6427,6 +6488,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 stats.zmags.com
+0.0.0.0 static.tracking202.com
+0.0.0.0 socialspark.com
+0.0.0.0 www.sourceknowledge.com
+0.0.0.0 sourceknowledge.com
+0.0.0.0 static.brsrvr.com
+0.0.0.0 server1.beaconpush.com
+0.0.0.0 static.trackedweb.net
+0.0.0.0 shield.sitelock.com
+0.0.0.0 seal-houston.bbb.org
+0.0.0.0 swrap.tradedoubler.com
+0.0.0.0 stats.scanguard.com
+0.0.0.0 stats.totalav.com
 0.0.0.0 softserve.8ch.net
 0.0.0.0 spinbox.techtracker.com
 0.0.0.0 siftscience.com
@@ -7077,6 +7151,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 track.yieldsoftware.com
+0.0.0.0 tracking202.com
+0.0.0.0 tidaltv.com
+0.0.0.0 tracking.percentmobile.com
+0.0.0.0 trackedweb.net
+0.0.0.0 tracking.websitealive.com
+0.0.0.0 theagency.com
+0.0.0.0 tradedoubler.com
+0.0.0.0 track.scanguard.com
+0.0.0.0 track.totalav.com
 0.0.0.0 track.voluum.bid
 0.0.0.0 tinypass.com
 0.0.0.0 t.ac.pandora.com.cname.campaign.adobe.com
@@ -7311,6 +7395,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 ui-dev0-john.alive5.com
 0.0.0.0 usercentrics.eu
 0.0.0.0 www.ucweb.com
 0.0.0.0 ucweb.com
@@ -7480,6 +7565,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wishabi.com
+0.0.0.0 www.w3counter.com
+0.0.0.0 w3counter.com
+0.0.0.0 www.websitealive.com
+0.0.0.0 websitealive3.com   # Tracker for websitealive.com
+0.0.0.0 websitealive.com
 0.0.0.0 widget.percept.ai
 0.0.0.0 wpa.qq.com
 0.0.0.0 watchdog.energized.pro
@@ -7684,6 +7775,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yieldsoftware.com
+0.0.0.0 www.yabidos.com
 0.0.0.0 yardbarker.tags.crwdcntrl.net
 0.0.0.0 www.yourhitstats.com
 0.0.0.0 yourhitstats.com
@@ -8115,6 +8208,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 4chan-ads.org
+0.0.0.0 1992444518.rsc.cdn77.org
 0.0.0.0 *.302br.net
 0.0.0.0 *.blueseek.com
 0.0.0.0 3151.77152.blueseek.com
@@ -24020,6 +24115,45 @@ ioshack.vip##.menu_02 > [href="#"]
 ioshack.vip##.menu_02
 ioshack.vip##.menu_01 > [href="#"]
 ioshack.vip##.menu_01
+www.marca.com###banda_suscripcion
+www.marca.com##section.row-layout:nth-of-type(2) > .container > .js_fixed_container.flex--4.flex-h > .flex__item-right
+www.marca.com##section.row-layout:nth-of-type(5) > .container > .b3AdButtom.flex-b.content-items > li.content-item:nth-of-type(2) > .mod-item
+www.marca.com##section.row-layout:nth-of-type(6) > .container > .flex-b.content-items > li.content-item:nth-of-type(3)
+www.marca.com##section.row-layout:nth-of-type(7) > .container > .flex-b.content-items > li.content-item:nth-of-type(2)
+www.marca.com##section.row-layout:nth-of-type(10) > .container > .js_fixed_container.flex--4.flex-h > .flex__item--4-4.flex__item
+www.marca.com##section.row-layout:nth-of-type(1) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(2) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(3) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(4) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(5) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(6) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(7) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(8) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(9) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(10) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(11) > .container > .b3AdButtom.flex-b.content-items
+www.marca.com##section.row-layout:nth-of-type(12) > .container > .b3AdButtom.flex-b.content-items
+www.elmundo.es##div.ue-l-cover-grid:nth-of-type(10) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row--no-wrap.ue-l-cover-grid__row > .ue-l-cover-grid__unit--align-center.ue-l-cover-grid__unit--min-300.size4of12.ue-l-cover-grid__unit
+www.elmundo.es##div.ue-l-cover-grid:nth-of-type(11) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row--no-wrap.ue-l-cover-grid__row > .ue-l-cover-grid__unit--align-center.ue-l-cover-grid__unit--min-300.size4of12.ue-l-cover-grid__unit
+www.elmundo.es##div.ue-l-cover-grid__block:nth-of-type(3) > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es##div.ue-l-cover-grid__block:nth-of-type(4) > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_526684c061fd3df14c8b4571 > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_525c44336843417a018b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_526a4ff00ab740d72d8b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es##div.ue-l-cover-grid__block:nth-of-type(2) > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es##.flex__item-right
+www.elmundo.es###js_526f6ded63fd3d08308b4572 > section.row-layout:nth-of-type(2) > .container > .js_fixed_container.flex--4.flex-h > .flex__item-right
+www.elmundo.es###js_526ee60263fd3dc62f8b457a > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_587372d8268e3e62038b45ca > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_526eebc363fd3dd32f8b456f > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_525c3c760ab74099758b457a > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_52729c2461fd3d65798b4583 > section.row-layout:nth-of-type(2) > .container > .js_fixed_container.flex--4.flex-h > .flex__item-right
+www.elmundo.es###js_526a4ff00ab740d72d8b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_525c44336843417a018b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_526684c061fd3df14c8b4571 > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es##div.ue-l-cover-grid__block:nth-of-type(4) > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es##div.ue-l-cover-grid__block:nth-of-type(3) > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
+www.elmundo.es###js_526545e961fd3d1e4d8b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
 www.bigmir.net##div.pb20.row:nth-of-type(2) > .col-24 > .side-block > .header-outer
 www.bigmir.net##div.pb20.col-lg-24.col-sm-12.col-24:nth-of-type(1)
 www.bigmir.net##div.pb20.col-lg-24.col-sm-12.col-24:nth-of-type(2)
@@ -24308,6 +24442,8 @@ rtlxl.nl##.adblock
 spele.nl##.adblocker
 videofun.me###flowplayer > div[class][style]:first-child
 abc-fonts.me###galepro-core-adb-enabled
+www.livingsocial.com###spotlight
+www.livingsocial.com###ls-in-app-messages
 findretros.com##.fuck-adblock
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
