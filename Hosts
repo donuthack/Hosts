@@ -158,6 +158,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 analytics.newscred.com
+0.0.0.0 www.appoptics.com
+0.0.0.0 appoptics.com
+0.0.0.0 a.company-target.com
+0.0.0.0 analytics.bleacherreport.com
 0.0.0.0 www.adtaily.com
 0.0.0.0 adtaily.com
 0.0.0.0 ads.adhub.co.nz
@@ -1337,6 +1342,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad-serverparc.nl
 0.0.0.0 alexametrics.com
 0.0.0.0 adservices.com
+0.0.0.0 *.analytics.edgekey.net
 0.0.0.0 analytics.edgekey.net
 0.0.0.0 ad-souk.com
 0.0.0.0 ad-space.net
@@ -2633,6 +2639,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 click.sellmeyourtraffic.com
+0.0.0.0 create.leadid.com
 0.0.0.0 cdnstatic.optimonk.com
 0.0.0.0 chuknu.sokrati.com
 0.0.0.0 cdn.adbooth.net
@@ -2759,6 +2767,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ctoid.net
 0.0.0.0 c.bigmir.net
 0.0.0.0 click.hotlog.ru
+0.0.0.0 conviva.com
 0.0.0.0 cws.conviva.com
 0.0.0.0 collector.abc-host.net.au
 0.0.0.0 community.instartlogic.com
@@ -3226,6 +3235,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 delivery.optimatic.com
+0.0.0.0 demo.innovid.com
 0.0.0.0 dm.demdex.net
 0.0.0.0 dni.agcdn.com
 0.0.0.0 display.provenpixel.com
@@ -3435,6 +3446,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dff7tx5c2qbxc.cloudfront.net
 0.0.0.0 daks2k3a4ib2z.cloudfront.net
 0.0.0.0 d3rt1990lpmkn.cloudfront.net
+0.0.0.0 d2uw8atheo4gqj.cloudfront.net
 0.0.0.0 d2mp27yxsbbpwj.cloudfront.net
 0.0.0.0 d3alqb8vzo7fun.cloudfront.net
 0.0.0.0 d2gi7ultltnc2u.cloudfront.net
@@ -3517,6 +3529,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 epochstats.com
 0.0.0.0 econda-monitor.de
 0.0.0.0 exchange.adswizz.com
 0.0.0.0 engine.4chan-ads.org
@@ -3836,6 +3849,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 *.geoads.com
+0.0.0.0 geoads.com
 0.0.0.0 gaspra.iad-03.braze.com
 0.0.0.0 gfxa.sheetmusicplus.com
 0.0.0.0 guc3-accesspoint-b-cb59.ap.spotify.com
@@ -4029,6 +4044,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 howler.shareaholic.com
+0.0.0.0 hits.epochstats.com
 0.0.0.0 h1d8fvw9-android.mobile-sdk-api.intercom.io
 0.0.0.0 h65.98.96.216.static.ip.windstream.net
 0.0.0.0 h80.97.22.98.ip.windstream.net
@@ -4150,6 +4167,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 insights.newscred.com
+0.0.0.0 inviziads.com
+0.0.0.0 www.intellisuggest.com
+0.0.0.0 intellisuggest.com
+0.0.0.0 www.innovid.com
+0.0.0.0 innovid.com
 0.0.0.0 ir-de.amazon-adsystem.com
 0.0.0.0 ir-uk.amazon-adsystem.com
 0.0.0.0 intelliad.de
@@ -4629,6 +4652,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 www.jornaya.com
+0.0.0.0 jornaya.com
+0.0.0.0 js.geoads.com
 0.0.0.0 js11.clickzzs.nl
 0.0.0.0 jpdk.nuggad.net
 0.0.0.0 j93557g.com
@@ -5431,6 +5457,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 www.librato.com
+0.0.0.0 librato.com
+0.0.0.0 leadid.com
 0.0.0.0 www.leadteq.com
 0.0.0.0 leadteq.com
 0.0.0.0 www.leadenhancer.com
@@ -5538,6 +5567,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 my.spectate.com
+0.0.0.0 my.appoptics.com
+0.0.0.0 metrics-api.librato.com
+0.0.0.0 marthastewart.demdex.net
 0.0.0.0 morehitserver.com   # History Readout
 0.0.0.0 matchyip.com
 0.0.0.0 msecnd.net
@@ -5835,6 +5868,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 newscgp.com
+0.0.0.0 www.newscred.com
+0.0.0.0 newscred.com
 0.0.0.0 nj-com.c.richmetrics.com
 0.0.0.0 nationalpost-com.c.richmetrics.com
 0.0.0.0 www.netprotector.co.in    # Fake AV
@@ -5934,6 +5970,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 optimatic.com
+0.0.0.0 o1.inviziads.com
 0.0.0.0 www.optimonk.com
 0.0.0.0 optimonk.com
 0.0.0.0 ots.optimize.webtrends.com
@@ -6041,6 +6079,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pixel.redditmedia.com
+0.0.0.0 pixel.realtor.com
+0.0.0.0 pixel.newscred.com
 0.0.0.0 popmog.com
 0.0.0.0 pixelservice.apphb.com
 0.0.0.0 p1.tcr21.tynt.com
@@ -6377,6 +6418,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 r.openx.net
 0.0.0.0 r.yieldkit.com
 0.0.0.0 rcm-eu.amazon-adsystem.com
 0.0.0.0 rcm.amazon.com
@@ -6534,6 +6576,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 www.stathat.com
+0.0.0.0 stathat.com
+0.0.0.0 www.securedvisit.com
+0.0.0.0 securedvisit.com
+0.0.0.0 www.spectate.com
+0.0.0.0 spectate.com
+0.0.0.0 seg.sharethis.com
+0.0.0.0 sharethis.com
+0.0.0.0 www.shareaholic.com
+0.0.0.0 shareaholic.com
+0.0.0.0 www.sellmeyourtraffic.com
+0.0.0.0 sellmeyourtraffic.com
+0.0.0.0 s23832.pcdn.co
+0.0.0.0 s16002.pcdn.co
+0.0.0.0 s.innovid.com
+0.0.0.0 sx.innovid.com
 0.0.0.0 seewhy.com
 0.0.0.0 saas.seewhy.com
 0.0.0.0 srv.uk.znaptag.com
@@ -7207,6 +7265,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 track.securedvisit.com
+0.0.0.0 tags.newscgp.com
+0.0.0.0 twc.demdex.net
 0.0.0.0 tracker.vinsight.de
 0.0.0.0 track.shop2market.com
 0.0.0.0 track.popmog.com
@@ -7458,6 +7519,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 us.tags.newscgp.com
 0.0.0.0 ui-dev0-john.alive5.com
 0.0.0.0 usercentrics.eu
 0.0.0.0 www.ucweb.com
@@ -8277,6 +8339,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 4292932.fls.doubleclick.net
+0.0.0.0 79423.analytics.edgekey.net
 0.0.0.0 4chan-ads.org
 0.0.0.0 1992444518.rsc.cdn77.org
 0.0.0.0 *.302br.net
