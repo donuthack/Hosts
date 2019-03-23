@@ -15,7 +15,7 @@ ff02::3 ip6-allhosts
 
 # Title: Cybo's Hosts
 # Expires: 1 day
-# Number Of Ad Services, Trackers, And Malware Blocked: 24,821 (uBlock)
+# Number Of Ad Services, Trackers, And Malware Blocked: 24,822 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
 # Last Updated on Thursday, March 21, 2019
 
@@ -158,6 +158,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 www.augustash.com
+0.0.0.0 augustash.com
+0.0.0.0 affiliates.getresponse.com
+0.0.0.0 assetscdn.pushengage.com
+0.0.0.0 affiliates.a2hosting.com
+0.0.0.0 www.afsanalytics.com
+0.0.0.0 afsanalytics.com
+0.0.0.0 api.autopilothq.com
+0.0.0.0 www.autopilothq.com
+0.0.0.0 autopilothq.com
+0.0.0.0 apenterprise.io
+0.0.0.0 assetscdn-wchat.freshchat.com
+0.0.0.0 a.plerdy.com
+0.0.0.0 app.mockingfish.com
+0.0.0.0 antiblock.org
+0.0.0.0 app.clickfunnels.com
 0.0.0.0 analytics.newscred.com
 0.0.0.0 www.appoptics.com
 0.0.0.0 appoptics.com
@@ -2639,6 +2655,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 clixtrac.com
+0.0.0.0 clientcdn.pushengage.com
+0.0.0.0 cdn.seevolution.com
+0.0.0.0 chat.ispsystem.net
+0.0.0.0 cdn.zarget.com
+0.0.0.0 cdn.vwo-analytics.com
+0.0.0.0 cdn.innocraft.cloud
+0.0.0.0 control.mockingfish.com
+0.0.0.0 con.tent.network
+0.0.0.0 clicky.com
+0.0.0.0 www.clickfunnels.com
+0.0.0.0 clickfunnels.com
+0.0.0.0 clik.cc
 0.0.0.0 click.sellmeyourtraffic.com
 0.0.0.0 create.leadid.com
 0.0.0.0 cdnstatic.optimonk.com
@@ -2788,6 +2817,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.wpm.neustar.biz
 0.0.0.0 crypto.csgocpu.com
 0.0.0.0 www.cbsistatic.com
+0.0.0.0 www.clicktale.com
 0.0.0.0 clicktale.com
 0.0.0.0 compete.com
 0.0.0.0 count.ly
@@ -3228,13 +3258,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 clickkingdom.net
 0.0.0.0 cdnssl.clicktale.net
 0.0.0.0 cdn.krxd.net
-#0.0.0.0 cdn.pushcrew.com (Blocks notifications for many apps)
+0.0.0.0 cdn.pushcrew.com
 0.0.0.0 cdn.flashtalking.com
 0.0.0.0 cdn01.basis.net
 0.0.0.0 connect.facebook.net
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 downloads.openwebanalytics.com
+0.0.0.0 demo-web.matomo.org
+0.0.0.0 developers.autopilothq.com
 0.0.0.0 delivery.optimatic.com
 0.0.0.0 demo.innovid.com
 0.0.0.0 dm.demdex.net
@@ -3446,6 +3479,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dff7tx5c2qbxc.cloudfront.net
 0.0.0.0 daks2k3a4ib2z.cloudfront.net
 0.0.0.0 d3rt1990lpmkn.cloudfront.net
+0.0.0.0 d5bygqdtbohob.cloudfront.net
+0.0.0.0 d17ojfgbuzqkhr.cloudfront.net
 0.0.0.0 d2uw8atheo4gqj.cloudfront.net
 0.0.0.0 d2mp27yxsbbpwj.cloudfront.net
 0.0.0.0 d3alqb8vzo7fun.cloudfront.net
@@ -3529,6 +3564,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 www.eyequant.com
+0.0.0.0 eyequant.com
 0.0.0.0 epochstats.com
 0.0.0.0 econda-monitor.de
 0.0.0.0 exchange.adswizz.com
@@ -3707,6 +3744,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 flyspy.co
+0.0.0.0 fc-use1-00-pics-bkt-00.s3.amazonaws.com
+0.0.0.0 www.freshworks.com
+0.0.0.0 freshworks.com
+0.0.0.0 freshdesk.freshsales.io
+0.0.0.0 freshsales.io
+0.0.0.0 freshchat.com
 0.0.0.0 front.optimonk.com
 0.0.0.0 fls-na.amazon-adsystem.com
 0.0.0.0 fortifi.io
@@ -3849,6 +3893,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 *.gr-cdn.com
+0.0.0.0 gr-cdn.com
+0.0.0.0 www.getresponse.com
+0.0.0.0 getresponse.com
+0.0.0.0 grammarly.go2cloud.org
 0.0.0.0 *.geoads.com
 0.0.0.0 geoads.com
 0.0.0.0 gaspra.iad-03.braze.com
@@ -4044,6 +4093,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 https-www-namanmodi-com.disqus.com
+0.0.0.0 hellobar.com
+0.0.0.0 www.heatmap-analytics.com
+0.0.0.0 heatmap-analytics.com
+0.0.0.0 heatmaptracker.com
+0.0.0.0 heatmap.com
 0.0.0.0 howler.shareaholic.com
 0.0.0.0 hits.epochstats.com
 0.0.0.0 h1d8fvw9-android.mobile-sdk-api.intercom.io
@@ -4167,6 +4222,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 www.innocraft.cloud
+0.0.0.0 innocraft.cloud
 0.0.0.0 insights.newscred.com
 0.0.0.0 inviziads.com
 0.0.0.0 www.intellisuggest.com
@@ -4713,6 +4770,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 koi-3qndw5fgbw.marketingautomation.services
 0.0.0.0 kck3hlb9.dashlane.com
 0.0.0.0 k54nw.pw
 0.0.0.0 karisimbi.net
@@ -5457,6 +5515,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 ls.getresponse.com
+0.0.0.0 lurtz.a2hosting.com
+0.0.0.0 www.luckyorange.com
+0.0.0.0 luckyorange.com
 0.0.0.0 www.librato.com
 0.0.0.0 librato.com
 0.0.0.0 leadid.com
@@ -5567,6 +5629,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 marketingautomation.services
+0.0.0.0 media.go2speed.org
+0.0.0.0 matomo.org
+0.0.0.0 my.hellobar.com
+0.0.0.0 www.mockingfish.com
+0.0.0.0 mockingfish.com
+0.0.0.0 mouseflow.com
+0.0.0.0 www.mousestats.com
+0.0.0.0 mousestats.com
 0.0.0.0 my.spectate.com
 0.0.0.0 my.appoptics.com
 0.0.0.0 metrics-api.librato.com
@@ -5970,6 +6041,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 www.openwebanalytics.com
+0.0.0.0 openwebanalytics.com
+0.0.0.0 optanon.blob.core.windows.net
 0.0.0.0 optimatic.com
 0.0.0.0 o1.inviziads.com
 0.0.0.0 www.optimonk.com
@@ -6079,6 +6153,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 www.pushengage.com
+0.0.0.0 pushengage.com
+0.0.0.0 pushcrew.com
+0.0.0.0 www.plerdy.com
+0.0.0.0 plerdy.com
 0.0.0.0 pixel.redditmedia.com
 0.0.0.0 pixel.realtor.com
 0.0.0.0 pixel.newscred.com
@@ -6418,6 +6497,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 research.vwo.com
 0.0.0.0 r.openx.net
 0.0.0.0 r.yieldkit.com
 0.0.0.0 rcm-eu.amazon-adsystem.com
@@ -6576,6 +6656,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 www.seevolution.com
+0.0.0.0 seevolution.com
+0.0.0.0 static.matomo.org
+0.0.0.0 static.wingify.com
+0.0.0.0 static.clickfunnels.com
+0.0.0.0 www.smartlook.com
+0.0.0.0 smartlook.com
 0.0.0.0 www.stathat.com
 0.0.0.0 stathat.com
 0.0.0.0 www.securedvisit.com
@@ -7265,6 +7352,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracker.plerdy.com
+0.0.0.0 www.tent.network
+0.0.0.0 tent.network
 0.0.0.0 track.securedvisit.com
 0.0.0.0 tags.newscgp.com
 0.0.0.0 twc.demdex.net
@@ -7519,6 +7609,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 us-ws.gr-cdn.com
 0.0.0.0 us.tags.newscgp.com
 0.0.0.0 ui-dev0-john.alive5.com
 0.0.0.0 usercentrics.eu
@@ -7610,6 +7701,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vwo-analytics.com
+0.0.0.0 vwo.com
 0.0.0.0 *.vo.msecnd.net
 0.0.0.0 vpaid.mathtag.com
 0.0.0.0 www.voodoo.com
@@ -7690,6 +7783,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wchat.freshchat.com
+0.0.0.0 website-assets-fw.freshworks.com
+0.0.0.0 wingify.com
+0.0.0.0 web.innocraft.cloud
 0.0.0.0 ws-eu.amazon-adsystem.com
 0.0.0.0 ws-na.amazon-adsystem.com
 0.0.0.0 wms-eu.amazon-adsystem.com
@@ -8027,6 +8124,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zarget.com
 0.0.0.0 znaptag.com
 0.0.0.0 zncd4wtx73pulm4k1-audiotechnica.siteintercept.qualtrics.com
 0.0.0.0 zn37vecqsvfmo7awf-hpdigital.siteintercept.qualtrics.com
@@ -8339,6 +8437,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 1355028186.rsc.cdn77.org
 0.0.0.0 4292932.fls.doubleclick.net
 0.0.0.0 79423.analytics.edgekey.net
 0.0.0.0 4chan-ads.org
@@ -24768,7 +24867,8 @@ _Affiliate
 /adblockbait.js$script
 /adblockchecker.js$script
 /kill-adblock/js/function.js$script
-/binfgkxpxaizujgk.js
+/binfgkxpxaizujgk.js/
+/heatmap.js
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
