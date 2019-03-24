@@ -162,6 +162,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 androidauthority.disqus.com
 0.0.0.0 www.augustash.com
 0.0.0.0 augustash.com
 0.0.0.0 affiliates.getresponse.com
@@ -1940,6 +1941,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 beacon-v2.helpscout.net
+0.0.0.0 bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com
 0.0.0.0 booter.com
 0.0.0.0 b.wishabi.com
 0.0.0.0 *.beaconpush.com
@@ -2660,6 +2663,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 consent.cookiebot.com
+0.0.0.0 www.cookiebot.com
+0.0.0.0 cookiebot.com
 0.0.0.0 cdn.fpjs.io
 0.0.0.0 clixtrac.com
 0.0.0.0 clientcdn.pushengage.com
@@ -3271,6 +3277,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.drip.com
+0.0.0.0 drip.com
 0.0.0.0 discordresolver.c99.nl
 0.0.0.0 downloads.openwebanalytics.com
 0.0.0.0 demo-web.matomo.org
@@ -3487,6 +3495,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 daks2k3a4ib2z.cloudfront.net
 0.0.0.0 d3rt1990lpmkn.cloudfront.net
 0.0.0.0 d5bygqdtbohob.cloudfront.net
+0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 d17ojfgbuzqkhr.cloudfront.net
 0.0.0.0 d2uw8atheo4gqj.cloudfront.net
 0.0.0.0 d2mp27yxsbbpwj.cloudfront.net
@@ -3902,6 +3911,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 getdrip.com
+0.0.0.0 gleam.io
 0.0.0.0 *.gr-cdn.com
 0.0.0.0 gr-cdn.com
 0.0.0.0 www.getresponse.com
@@ -4102,6 +4113,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 www.helpscout.com
+0.0.0.0 helpscout.com
 0.0.0.0 heat-map.co
 0.0.0.0 https-www-namanmodi-com.disqus.com
 0.0.0.0 hellobar.com
@@ -4720,6 +4733,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js.out.sh
+0.0.0.0 js.gleam.io
 0.0.0.0 www.jornaya.com
 0.0.0.0 jornaya.com
 0.0.0.0 js.geoads.com
@@ -5526,6 +5541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 locator-svc.subway.com
 0.0.0.0 ls.getresponse.com
 0.0.0.0 lurtz.a2hosting.com
 0.0.0.0 www.luckyorange.com
@@ -6054,6 +6070,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 out.sh
 0.0.0.0 www.openwebanalytics.com
 0.0.0.0 openwebanalytics.com
 0.0.0.0 optanon.blob.core.windows.net
@@ -6669,6 +6686,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 s.206ads.com
+0.0.0.0 syndication.twitter.com
 0.0.0.0 www.seevolution.com
 0.0.0.0 seevolution.com
 0.0.0.0 static.matomo.org
@@ -7365,6 +7384,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tag.getdrip.com
 0.0.0.0 tracker.plerdy.com
 0.0.0.0 www.tent.network
 0.0.0.0 tent.network
@@ -8138,6 +8158,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 z-na.amazon-adsystem.com
 0.0.0.0 zarget.com
 0.0.0.0 znaptag.com
 0.0.0.0 zncd4wtx73pulm4k1-audiotechnica.siteintercept.qualtrics.com
@@ -24344,7 +24365,17 @@ voat.co##div.spacer:nth-of-type(9) > .sidecontentbox
 voat.co##div.spacer:nth-of-type(10) > .sidecontentbox
 voat.co##div.spacer:nth-of-type(11) > .sidecontentbox
 voat.co##div.spacer:nth-of-type(12) > .sidecontentbox
+voiceofeurope.com##.goog-te-gadget.skiptranslate
+voiceofeurope.com###custom_html-8 > .widgettitle
 freerice.com###bottom-banner > .container_12
+thetinhat.com##.socicon-rss.soctag
+thetinhat.com##.socicon-mail.soctag
+thetinhat.com##div.container > div.row:nth-of-type(1) > .row-header.columns.twelve
+thetinhat.com##div.half.subbox:nth-of-type(3) > .follow
+thetinhat.com##div.half.subbox:nth-of-type(4) > .follow
+||thetinhat.com/images/nord1.png
+||thetinhat.com/images/nordvpn.png
+||thetinhat.com/images/spideroak-code.png
 ||facebook.com^$third-party
 ||converto.io^$popup,third-party
 ||linkshrink.net^$popup,third-party
