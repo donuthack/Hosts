@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 24,822 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Thursday, March 21, 2019
+# Last Updated on Saturday, March 23, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -118,8 +118,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 move2usa.net
 
 # IP Grabbers
+0.0.0.0 www.spylink.net
+0.0.0.0 spylink.net
 0.0.0.0 ipstat.com
 0.0.0.0 ipstatp.com
+0.0.0.0 api.grabify.link
 0.0.0.0 grabify.link
 0.0.0.0 bmwforum.co
 0.0.0.0 leancoding.co
@@ -149,6 +152,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 youramonkey.com
 0.0.0.0 whatstheirip.com
 0.0.0.0 IP-Grabber.com
+0.0.0.0 ip-grabber.com
 0.0.0.0 blasze.tk
 0.0.0.0 ps3cfw.com
 0.0.0.0 freegeoip.net
@@ -1936,6 +1940,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 booter.com
 0.0.0.0 b.wishabi.com
 0.0.0.0 *.beaconpush.com
 0.0.0.0 beaconpush.com
@@ -3265,6 +3270,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 discordresolver.c99.nl
 0.0.0.0 downloads.openwebanalytics.com
 0.0.0.0 demo-web.matomo.org
 0.0.0.0 developers.autopilothq.com
@@ -4093,6 +4099,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 heat-map.co
 0.0.0.0 https-www-namanmodi-com.disqus.com
 0.0.0.0 hellobar.com
 0.0.0.0 www.heatmap-analytics.com
@@ -4222,6 +4229,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 iplogger.blog
 0.0.0.0 www.innocraft.cloud
 0.0.0.0 innocraft.cloud
 0.0.0.0 insights.newscred.com
@@ -5629,6 +5637,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mostwantedhf.info
 0.0.0.0 marketingautomation.services
 0.0.0.0 media.go2speed.org
 0.0.0.0 matomo.org
@@ -5939,6 +5948,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 ngxd-tv.de
 0.0.0.0 newscgp.com
 0.0.0.0 www.newscred.com
 0.0.0.0 newscred.com
@@ -7609,6 +7619,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 us.iplogger.blog
 0.0.0.0 us-ws.gr-cdn.com
 0.0.0.0 us.tags.newscgp.com
 0.0.0.0 ui-dev0-john.alive5.com
