@@ -25048,3 +25048,4 @@ _Affiliate
 ##.twitter
 ##.facebook
 ##.google
+##div:nth-of-type(1) > .in-article-ad
