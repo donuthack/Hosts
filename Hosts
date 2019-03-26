@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 24,822 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Sunday, March 24, 2019
+# Last Updated on Tuesday, March 26, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -162,6 +162,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 www.ah-tech.net
+0.0.0.0 ah-tech.net
 0.0.0.0 androidauthority.disqus.com
 0.0.0.0 www.augustash.com
 0.0.0.0 augustash.com
@@ -1329,6 +1331,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adadapted.com
 0.0.0.0 adtracker.inmobi.com
 0.0.0.0 analytics.admob.com
+0.0.0.0 admob.google.com
 0.0.0.0 appads.com
 0.0.0.0 adwhirl.com
 0.0.0.0 ads.mdotm.com
@@ -1904,7 +1907,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 ad.applead.co.kr
 0.0.0.0 ad.crwdcntrl.net
 0.0.0.0 ad.daum.net
-0.0.0.0 ad.doubleclick.net
 0.0.0.0 ad.dt.co.kr
 0.0.0.0 ad.hankooki.com
 0.0.0.0 ad-balancer.net
@@ -2663,6 +2665,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 client-analytics.braintreegateway.com
 0.0.0.0 consent.cookiebot.com
 0.0.0.0 www.cookiebot.com
 0.0.0.0 cookiebot.com
@@ -3072,8 +3075,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn.trafficstars.com
 0.0.0.0 counter.mgid.com
 0.0.0.0 clients1.google.com
-0.0.0.0 clients2.google.com
-0.0.0.0 clients3.google.com
 0.0.0.0 cn.adserver.yahoo.com
 0.0.0.0 crash-stats.mozilla.com
 0.0.0.0 crash-stats.mozilla.org
