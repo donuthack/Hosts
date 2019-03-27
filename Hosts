@@ -2665,6 +2665,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cloud.typography.com
 0.0.0.0 client-analytics.braintreegateway.com
 0.0.0.0 consent.cookiebot.com
 0.0.0.0 www.cookiebot.com
@@ -6687,6 +6688,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 streams.ghost.org
 0.0.0.0 s.206ads.com
 0.0.0.0 syndication.twitter.com
 0.0.0.0 www.seevolution.com
@@ -7385,6 +7387,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tk.politico.com
+0.0.0.0 typography.com
 0.0.0.0 tag.getdrip.com
 0.0.0.0 tracker.plerdy.com
 0.0.0.0 www.tent.network
@@ -7736,6 +7740,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 v1.77tracking.com
 0.0.0.0 vwo-analytics.com
 0.0.0.0 vwo.com
 0.0.0.0 *.vo.msecnd.net
@@ -8473,6 +8478,70 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 育毛シャンプー.tk
+0.0.0.0 www.7bpeople.com
+0.0.0.0 7bpeople.com
+0.0.0.0 77tracking.com
+0.0.0.0 4affiliate.net
+0.0.0.0 ww1.24pm-affiliation.com
+0.0.0.0 ww2.24pm-affiliation.com
+0.0.0.0 ww3.24pm-affiliation.com
+0.0.0.0 ww4.24pm-affiliation.com
+0.0.0.0 ww5.24pm-affiliation.com
+0.0.0.0 ww6.24pm-affiliation.com
+0.0.0.0 ww7.24pm-affiliation.com
+0.0.0.0 ww8.24pm-affiliation.com
+0.0.0.0 ww9.24pm-affiliation.com
+0.0.0.0 ww10.24pm-affiliation.com
+0.0.0.0 ww11.24pm-affiliation.com
+0.0.0.0 ww12.24pm-affiliation.com
+0.0.0.0 ww13.24pm-affiliation.com
+0.0.0.0 ww14.24pm-affiliation.com
+0.0.0.0 ww15.24pm-affiliation.com
+0.0.0.0 ww16.24pm-affiliation.com
+0.0.0.0 ww17.24pm-affiliation.com
+0.0.0.0 ww18.24pm-affiliation.com
+0.0.0.0 ww19.24pm-affiliation.com
+0.0.0.0 ww20.24pm-affiliation.com
+0.0.0.0 ww21.24pm-affiliation.com
+0.0.0.0 ww22.24pm-affiliation.com
+0.0.0.0 ww23.24pm-affiliation.com
+0.0.0.0 ww24.24pm-affiliation.com
+0.0.0.0 ww25.24pm-affiliation.com
+0.0.0.0 ww26.24pm-affiliation.com
+0.0.0.0 ww27.24pm-affiliation.com
+0.0.0.0 ww28.24pm-affiliation.com
+0.0.0.0 ww29.24pm-affiliation.com
+0.0.0.0 ww30.24pm-affiliation.com
+0.0.0.0 ww31.24pm-affiliation.com
+0.0.0.0 ww32.24pm-affiliation.com
+0.0.0.0 ww33.24pm-affiliation.com
+0.0.0.0 ww34.24pm-affiliation.com
+0.0.0.0 ww35.24pm-affiliation.com
+0.0.0.0 ww36.24pm-affiliation.com
+0.0.0.0 ww37.24pm-affiliation.com
+0.0.0.0 ww38.24pm-affiliation.com
+0.0.0.0 ww39.24pm-affiliation.com
+0.0.0.0 ww40.24pm-affiliation.com
+0.0.0.0 ww41.24pm-affiliation.com
+0.0.0.0 ww42.24pm-affiliation.com
+0.0.0.0 ww43.24pm-affiliation.com
+0.0.0.0 ww44.24pm-affiliation.com
+0.0.0.0 ww45.24pm-affiliation.com
+0.0.0.0 ww46.24pm-affiliation.com
+0.0.0.0 ww47.24pm-affiliation.com
+0.0.0.0 ww48.24pm-affiliation.com
+0.0.0.0 ww49.24pm-affiliation.com
+0.0.0.0 ww50.24pm-affiliation.com
+0.0.0.0 ww51.24pm-affiliation.com
+0.0.0.0 ww52.24pm-affiliation.com
+0.0.0.0 ww53.24pm-affiliation.com
+0.0.0.0 ww54.24pm-affiliation.com
+0.0.0.0 ww55.24pm-affiliation.com
+0.0.0.0 24pm-affiliation.com
+0.0.0.0 180searchassistant.com
+0.0.0.0 180hits.de
+0.0.0.0 123found.com
 0.0.0.0 1355028186.rsc.cdn77.org
 0.0.0.0 4292932.fls.doubleclick.net
 0.0.0.0 79423.analytics.edgekey.net
