@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 24,822 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Tuesday, March 26, 2019
+# Last Updated on Thursday, March 28, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -24984,6 +24984,8 @@ _Affiliate
 /kill-adblock/js/function.js$script
 /binfgkxpxaizujgk.js/
 /heatmap.js
+/ajax/mercury/change_read_status.php
+/ajax/messaging/typ.php
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
