@@ -162,6 +162,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 automatad.com
+0.0.0.0 abeagle-public.buzzfeed.com
+0.0.0.0 adtng.com
+0.0.0.0 a.adtng.com
 0.0.0.0 www.ah-tech.net
 0.0.0.0 ah-tech.net
 0.0.0.0 androidauthority.disqus.com
@@ -2665,6 +2669,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.unid.go.com
+0.0.0.0 www.chubao.cn
+0.0.0.0 chubao.cn
+0.0.0.0 www.cootek.com
+0.0.0.0 cootek.com
 0.0.0.0 cloud.typography.com
 0.0.0.0 client-analytics.braintreegateway.com
 0.0.0.0 consent.cookiebot.com
@@ -3279,6 +3288,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.dratio.com
+0.0.0.0 dratio.com
 0.0.0.0 www.drip.com
 0.0.0.0 drip.com
 0.0.0.0 discordresolver.c99.nl
@@ -3913,6 +3924,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.automatad.com
 0.0.0.0 getdrip.com
 0.0.0.0 gleam.io
 0.0.0.0 *.gr-cdn.com
@@ -4115,6 +4127,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hashing.win
 0.0.0.0 www.helpscout.com
 0.0.0.0 helpscout.com
 0.0.0.0 heat-map.co
@@ -4247,6 +4260,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 *.ime.cootek.com
+0.0.0.0 ime.cootek.com
+0.0.0.0 ifeng.wrating.com
 0.0.0.0 iplogger.blog
 0.0.0.0 www.innocraft.cloud
 0.0.0.0 innocraft.cloud
@@ -5658,6 +5674,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mkt.justouch.com.cn
+0.0.0.0 mkt.chubao.cn
+0.0.0.0 marketing3.cootek.com
+0.0.0.0 marketing3.chubao.cn
 0.0.0.0 mostwantedhf.info
 0.0.0.0 marketingautomation.services
 0.0.0.0 media.go2speed.org
@@ -6185,6 +6205,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pixiedust.buzzfeed.com
+0.0.0.0 p3.ifengimg.com
 0.0.0.0 www.pushengage.com
 0.0.0.0 pushengage.com
 0.0.0.0 pushcrew.com
@@ -6529,6 +6551,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 recsys-api.buzzfeed.com
 0.0.0.0 research.vwo.com
 0.0.0.0 r.openx.net
 0.0.0.0 r.yieldkit.com
@@ -6688,6 +6711,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static.vilynx.com
+0.0.0.0 sitestats.com
+0.0.0.0 stadig.ifeng.com
 0.0.0.0 streams.ghost.org
 0.0.0.0 s.206ads.com
 0.0.0.0 syndication.twitter.com
@@ -7647,6 +7673,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 unid.go.com
+0.0.0.0 usa-usage.ime.cootek.com
+0.0.0.0 usa.ime.cootek.com
 0.0.0.0 us.iplogger.blog
 0.0.0.0 us-ws.gr-cdn.com
 0.0.0.0 us.tags.newscgp.com
@@ -7823,6 +7852,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wrating.com
 0.0.0.0 wchat.freshchat.com
 0.0.0.0 website-assets-fw.freshworks.com
 0.0.0.0 wingify.com
@@ -8164,6 +8194,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zh-cn.ime.cootek.com
 0.0.0.0 z-na.amazon-adsystem.com
 0.0.0.0 zarget.com
 0.0.0.0 znaptag.com
@@ -8478,6 +8509,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 www.163nvren.com
+0.0.0.0 163nvren.com
 0.0.0.0 育毛シャンプー.tk
 0.0.0.0 www.7bpeople.com
 0.0.0.0 7bpeople.com
@@ -24443,6 +24476,7 @@ thetinhat.com##.socicon-mail.soctag
 thetinhat.com##div.container > div.row:nth-of-type(1) > .row-header.columns.twelve
 thetinhat.com##div.half.subbox:nth-of-type(3) > .follow
 thetinhat.com##div.half.subbox:nth-of-type(4) > .follow
+||duckduckgo.com/atb.js
 ||thetinhat.com/images/nord1.png
 ||thetinhat.com/images/nordvpn.png
 ||thetinhat.com/images/spideroak-code.png
