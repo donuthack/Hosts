@@ -1636,3 +1636,5 @@
 0.0.0.0 109mview.atdmt.com
 0.0.0.0 1017680.109mview.atdmt.com
 0.0.0.0 facebook.mail.com
+/ajax/mercury/change_read_status.php
+/ajax/messaging/typ.php
