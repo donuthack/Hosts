@@ -162,6 +162,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 accounts.zoho.eu
+0.0.0.0 accounts.zoho.in
+0.0.0.0 accounts.zoho.com
+0.0.0.0 a.mailmunch.co
+0.0.0.0 app.mailmunch.co
+0.0.0.0 addictivetips.disqus.com
+0.0.0.0 a.du1k.com
+0.0.0.0 addonhq-com.disqus.com
+0.0.0.0 a23-211-102-195.deploy.static.akamaitechnologies.com
 0.0.0.0 automatad.com
 0.0.0.0 abeagle-public.buzzfeed.com
 0.0.0.0 adtng.com
@@ -2669,6 +2678,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cookieclickerhacked.com
 0.0.0.0 cdn.unid.go.com
 0.0.0.0 www.chubao.cn
 0.0.0.0 chubao.cn
@@ -3288,6 +3298,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 du1k.com
 0.0.0.0 www.dratio.com
 0.0.0.0 dratio.com
 0.0.0.0 www.drip.com
@@ -3509,6 +3520,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d3rt1990lpmkn.cloudfront.net
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
+0.0.0.0 ddfnmo6ev4fd.cloudfront.net
 0.0.0.0 d17ojfgbuzqkhr.cloudfront.net
 0.0.0.0 d2uw8atheo4gqj.cloudfront.net
 0.0.0.0 d2mp27yxsbbpwj.cloudfront.net
@@ -3593,6 +3605,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ekr.zdassets.com
+0.0.0.0 edge-star-shv-02-dfw5.facebook.com
+0.0.0.0 ec2-23-21-89-91.compute-1.amazonaws.com
+0.0.0.0 ec2-35-167-250-241.us-west-2.compute.amazonaws.com
 0.0.0.0 www.eyequant.com
 0.0.0.0 eyequant.com
 0.0.0.0 epochstats.com
@@ -3773,6 +3789,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fonts.zohowebstatic.com
 0.0.0.0 fingerprintjs.com
 0.0.0.0 fpjs.io
 0.0.0.0 flyspy.co
@@ -3924,6 +3941,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 games.mochiads.com
 0.0.0.0 go.automatad.com
 0.0.0.0 getdrip.com
 0.0.0.0 gleam.io
@@ -4127,6 +4145,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hwcdn.net
+0.0.0.0 www.hupso.com
+0.0.0.0 hupso.com
 0.0.0.0 hashing.win
 0.0.0.0 www.helpscout.com
 0.0.0.0 helpscout.com
@@ -4260,6 +4281,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 iplocation.zoho.com
 0.0.0.0 *.ime.cootek.com
 0.0.0.0 ime.cootek.com
 0.0.0.0 ifeng.wrating.com
@@ -4751,6 +4773,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js.zohostatic.com
 0.0.0.0 js.out.sh
 0.0.0.0 js.gleam.io
 0.0.0.0 www.jornaya.com
@@ -5674,6 +5697,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 www.mailmunch.com
+0.0.0.0 mailmunch.com
+0.0.0.0 mailmunch.co
+0.0.0.0 mochiads.com
 0.0.0.0 mkt.justouch.com.cn
 0.0.0.0 mkt.chubao.cn
 0.0.0.0 marketing3.cootek.com
@@ -5989,6 +6016,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 netdna-cdn.com
 0.0.0.0 ngxd-tv.de
 0.0.0.0 newscgp.com
 0.0.0.0 www.newscred.com
@@ -6711,6 +6739,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 salesiq.zoho.com
+0.0.0.0 www.surfbouncer.com
+0.0.0.0 surfbouncer.com
+0.0.0.0 static.zdassets.com
+0.0.0.0 server-99-84-168-95.ord52.r.cloudfront.net
+0.0.0.0 static.hupso.com
 0.0.0.0 static.vilynx.com
 0.0.0.0 sitestats.com
 0.0.0.0 stadig.ifeng.com
@@ -7413,6 +7447,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tlstest.zoho.com
 0.0.0.0 tk.politico.com
 0.0.0.0 typography.com
 0.0.0.0 tag.getdrip.com
@@ -7769,6 +7804,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vts.zohopublic.com
 0.0.0.0 v1.77tracking.com
 0.0.0.0 vwo-analytics.com
 0.0.0.0 vwo.com
@@ -7852,6 +7888,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 widgets.zohosalesiq.com
+0.0.0.0 webfonts.zohowebstatic.com
 0.0.0.0 wrating.com
 0.0.0.0 wchat.freshchat.com
 0.0.0.0 website-assets-fw.freshworks.com
@@ -8033,6 +8071,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 x.du1k.com
+0.0.0.0 xs.mochiads.com
 0.0.0.0 xslt.mediaplex.com
 0.0.0.0 xovq5nemr.com
 0.0.0.0 xcache.ad360.vn
@@ -8194,6 +8234,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zohosalesiq.com
+0.0.0.0 www.zoho.com
+0.0.0.0 zoho.com
+0.0.0.0 www.zoho.eu
+0.0.0.0 zoho.eu
+0.0.0.0 www.zoho.in
+0.0.0.0 zoho.in
+0.0.0.0 zohopublic.com
+0.0.0.0 zohostatic.com
+0.0.0.0 www.zohowebstatic.com
+0.0.0.0 zohowebstatic.com
 0.0.0.0 zh-cn.ime.cootek.com
 0.0.0.0 z-na.amazon-adsystem.com
 0.0.0.0 zarget.com
@@ -8305,6 +8356,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 99.84.168.95
+0.0.0.0 69.16.175.42
+0.0.0.0 35.201.109.103
+0.0.0.0 35.238.16.122
+0.0.0.0 35.201.103.6
+0.0.0.0 35.241.2.140
+0.0.0.0 120.55.89.27
 0.0.0.0 5.45.58.61
 0.0.0.0 161.117.97.67
 0.0.0.0 218.213.150.47
@@ -8509,6 +8567,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 3n8u4a2kr6qf2tyhur24ejeq.wpengine.netdna-cdn.com
+0.0.0.0 103.109.201.35.bc.googleusercontent.com
+0.0.0.0 140.2.241.35.bc.googleusercontent.com
 0.0.0.0 www.163nvren.com
 0.0.0.0 163nvren.com
 0.0.0.0 育毛シャンプー.tk
@@ -24837,6 +24898,12 @@ www.livingsocial.com###ls-in-app-messages
 findretros.com##.fuck-adblock
 experis.dk##.hidden-print.mp-teaser-well.mp-teaser
 www.visma.com##.gray.content-section.social-bar-block.container
+www.bestvpn.co##.fa-arrow-up.fa
+www.bestvpn.co###top
+www.bestvpn.co##.ftr-wrap
+www.bestvpn.co##.text-center.gdpr-msg-main
+||blog.yoocare.com/wp-content/themes/ycv/images/yoocare-topbanner-2.png
+blog.yoocare.com##.toppromo.container > small
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
