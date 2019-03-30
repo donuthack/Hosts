@@ -15,7 +15,7 @@ ff02::3 ip6-allhosts
 
 # Title: Cybo's Hosts
 # Expires: 1 day
-# Number Of Ad Services, Trackers, And Malware Blocked: 25,141 (uBlock)
+# Number Of Ad Services, Trackers, And Malware Blocked: 25,144 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
 # Last Updated on Thursday, March 28, 2019
 
@@ -24904,6 +24904,9 @@ www.bestvpn.co##.ftr-wrap
 www.bestvpn.co##.text-center.gdpr-msg-main
 ||blog.yoocare.com/wp-content/themes/ycv/images/yoocare-topbanner-2.png
 blog.yoocare.com##.toppromo.container > small
+slightlyoffensive.com##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-227b603.elementor-element
+slightlyoffensive.com##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-31a03f7.elementor-element
+||maps.google.com/maps?q=Whittier%2C%20CA%2090601%E2%80%8B&t=m&z=9&output=embed&iwloc=near
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
