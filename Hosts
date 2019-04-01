@@ -162,6 +162,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 aam.cz
+0.0.0.0 acz.cz
 0.0.0.0 antivermins.winsite.com
 0.0.0.0 adbutcher.download3000.com
 0.0.0.0 ad-protection.winsite.com
@@ -2686,6 +2688,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cb.amazingcounters.com
 0.0.0.0 caideation.secure.force.com
 0.0.0.0 c.la4-c2-dfw.salesforceliveagent.com
 0.0.0.0 cybop.net
@@ -3961,6 +3964,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 www.gfwkj.com
+0.0.0.0 gfwkj.com
 0.0.0.0 games.mochiads.com
 0.0.0.0 go.automatad.com
 0.0.0.0 getdrip.com
@@ -5613,6 +5618,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 livechatvalue.com
 0.0.0.0 load.sumome.com
 0.0.0.0 locator-svc.subway.com
 0.0.0.0 ls.getresponse.com
@@ -5729,6 +5735,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 me.com
 0.0.0.0 modulepush.com
 0.0.0.0 www.mailmunch.com
 0.0.0.0 mailmunch.com
@@ -6779,6 +6786,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 szzero.livechatvalue.com
+0.0.0.0 south32.com   # Cyber Squatting
 0.0.0.0 sponsored-ad-blocker.jaleco.com   # Application.DealAlpha.1.Gen (Trojan)
 0.0.0.0 scanwith.us.intellitxt.com
 0.0.0.0 www.spywareonline.org
@@ -7758,6 +7767,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 upload.iheima.com
 0.0.0.0 unid.go.com
 0.0.0.0 usa-usage.ime.cootek.com
 0.0.0.0 usa.ime.cootek.com
@@ -8629,6 +8639,108 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 www.36022222.com
+0.0.0.0 36022222.com
+0.0.0.0 www.222222999999.com
+0.0.0.0 222222999999.com
+0.0.0.0 www.xpj29977.com
+0.0.0.0 xpj29977.com
+0.0.0.0 www.601703.com
+0.0.0.0 601703.com
+0.0.0.0 www.29977xpj.com
+0.0.0.0 29977xpj.com
+0.0.0.0 www-0012.com
+0.0.0.0 0012.com
+0.0.0.0 www.2567389.com
+0.0.0.0 2567389.com
+0.0.0.0 0-courier.push.apple.com
+0.0.0.0 0.courier-push-apple.com.akadns.net
+0.0.0.0 1-courier.push.apple.com
+0.0.0.0 1-courier.sandbox.push.apple.com
+0.0.0.0 1.courier-push-apple.com.akadns.net
+0.0.0.0 1.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 10-courier.push.apple.com
+0.0.0.0 10-courier.sandbox.push.apple.com
+0.0.0.0 10.courier-push-apple.com.akadns.net
+0.0.0.0 10.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 11-courier.push.apple.com
+0.0.0.0 12-courier.push.apple.com
+0.0.0.0 12.courier-push-apple.com.akadns.net
+0.0.0.0 13-courier.push.apple.com
+0.0.0.0 14-courier.push.apple.com
+0.0.0.0 15-courier.push.apple.com
+0.0.0.0 16-courier.push.apple.com
+0.0.0.0 17-courier.push.apple.com
+0.0.0.0 18-courier.push.apple.com
+0.0.0.0 19-courier.push.apple.com
+0.0.0.0 2-courier.push.apple.com
+0.0.0.0 2-courier.sandbox.push.apple.com
+0.0.0.0 2.courier-push-apple.com.akadns.net
+0.0.0.0 2.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 20-courier.push.apple.com
+0.0.0.0 20.courier-push-apple.com.akadns.net
+0.0.0.0 21-courier.push.apple.com
+0.0.0.0 22-courier.push.apple.com
+0.0.0.0 23-courier.push.apple.com
+0.0.0.0 24-courier.push.apple.com
+0.0.0.0 25-courier.push.apple.com
+0.0.0.0 26-courier.push.apple.com
+0.0.0.0 27-courier.push.apple.com
+0.0.0.0 28-courier.push.apple.com
+0.0.0.0 28.courier-push-apple.com.akadns.net
+0.0.0.0 29-courier.push.apple.com
+0.0.0.0 3-courier.push.apple.com
+0.0.0.0 3-courier.sandbox.push.apple.com
+0.0.0.0 3.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 30-courier.push.apple.com
+0.0.0.0 31-courier.push.apple.com
+0.0.0.0 31.courier-push-apple.com.akadns.net
+0.0.0.0 32-courier.push.apple.com
+0.0.0.0 33-courier.push.apple.com
+0.0.0.0 34-courier.push.apple.com
+0.0.0.0 35-courier.push.apple.com
+0.0.0.0 36-courier.push.apple.com
+0.0.0.0 37-courier.push.apple.com
+0.0.0.0 37.courier-push-apple.com.akadns.net
+0.0.0.0 38-courier.push.apple.com
+0.0.0.0 39-courier.push.apple.com
+0.0.0.0 39.courier-push-apple.com.akadns.net
+0.0.0.0 4-courier.push.apple.com
+0.0.0.0 4-courier.sandbox.push.apple.com
+0.0.0.0 4.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 40-courier.push.apple.com
+0.0.0.0 40.courier-push-apple.com.akadns.net
+0.0.0.0 41-courier.push.apple.com
+0.0.0.0 42-courier.push.apple.com
+0.0.0.0 43-courier.push.apple.com
+0.0.0.0 43.courier-push-apple.com.akadns.net
+0.0.0.0 44-courier.push.apple.com
+0.0.0.0 44.courier-push-apple.com.akadns.net
+0.0.0.0 45-courier.push.apple.com
+0.0.0.0 45.courier-push-apple.com.akadns.net
+0.0.0.0 46-courier.push.apple.com
+0.0.0.0 46.courier-push-apple.com.akadns.net
+0.0.0.0 47-courier.push.apple.com
+0.0.0.0 47.courier-push-apple.com.akadns.net
+0.0.0.0 48-courier.push.apple.com
+0.0.0.0 48.courier-push-apple.com.akadns.net
+0.0.0.0 49-courier.push.apple.com
+0.0.0.0 5-courier.push.apple.com
+0.0.0.0 5-courier.sandbox.push.apple.com
+0.0.0.0 5.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 50-courier.push.apple.com
+0.0.0.0 6-courier.push.apple.com
+0.0.0.0 6-courier.sandbox.push.apple.com
+0.0.0.0 6.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 7-courier.push.apple.com
+0.0.0.0 7-courier.sandbox.push.apple.com
+0.0.0.0 7.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 8-courier.push.apple.com
+0.0.0.0 8-courier.sandbox.push.apple.com
+0.0.0.0 8.courier-sandbox-push-apple.com.akadns.net
+0.0.0.0 9-courier.push.apple.com
+0.0.0.0 9-courier.sandbox.push.apple.com
+0.0.0.0 9.courier-sandbox-push-apple.com.akadns.net
 0.0.0.0 www.2-spyware.com   # Promotes ReImage Ad-Ware
 0.0.0.0 2-spyware.com   # Promotes ReImage Ad-Ware
 0.0.0.0 19vg6.la4-c2-dfw.salesforceliveagent.com
