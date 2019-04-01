@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 25,144 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Thursday, March 28, 2019
+# Last Updated on Sunday, March 31, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -162,6 +162,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.tracemyip.org
 
 #A
+0.0.0.0 antivermins.winsite.com
+0.0.0.0 adbutcher.download3000.com
+0.0.0.0 ad-protection.winsite.com
+0.0.0.0 www.adaware.com
+0.0.0.0 adaware.com
+0.0.0.0 app.cdn.lookbookhq.com
 0.0.0.0 accounts.zoho.eu
 0.0.0.0 accounts.zoho.in
 0.0.0.0 accounts.zoho.com
@@ -1956,6 +1962,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bulletproofsoft.com
+0.0.0.0 bnserving.com
 0.0.0.0 beacon-v2.helpscout.net
 0.0.0.0 bucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com
 0.0.0.0 booter.com
@@ -2678,6 +2686,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 caideation.secure.force.com
+0.0.0.0 c.la4-c2-dfw.salesforceliveagent.com
+0.0.0.0 cybop.net
+0.0.0.0 cdn.lookbookhq.com
+0.0.0.0 crushus-2.crushus.com   # Application.CoinMiner.AY
 0.0.0.0 cookieclickerhacked.com
 0.0.0.0 cdn.unid.go.com
 0.0.0.0 www.chubao.cn
@@ -3298,6 +3311,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.download3000.com    # Hosts Some Malware
+0.0.0.0 download3000.com    # Hosts Some Malware
+0.0.0.0 d.la4-c2-dfw.salesforceliveagent.com
 0.0.0.0 du1k.com
 0.0.0.0 www.dratio.com
 0.0.0.0 dratio.com
@@ -3521,6 +3537,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 d3g06ond37uyun.cloudfront.net
 0.0.0.0 d17ojfgbuzqkhr.cloudfront.net
 0.0.0.0 d2uw8atheo4gqj.cloudfront.net
 0.0.0.0 d2mp27yxsbbpwj.cloudfront.net
@@ -3605,6 +3622,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ext-irs.extfans.com
+0.0.0.0 extension.extfans.com   # Application.DealAlpha.1.Gen (Trojan)
+0.0.0.0 extfans.com   # Application.DealAlpha.1.Gen (Trojan)
 0.0.0.0 ekr.zdassets.com
 0.0.0.0 edge-star-shv-02-dfw5.facebook.com
 0.0.0.0 ec2-23-21-89-91.compute-1.amazonaws.com
@@ -4145,6 +4165,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 www.hey.lt
+0.0.0.0 hey.lt
+0.0.0.0 hits.informer.com
 0.0.0.0 hwcdn.net
 0.0.0.0 www.hupso.com
 0.0.0.0 hupso.com
@@ -4281,6 +4304,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 images-pw.secureserver.net
+0.0.0.0 www.informer.com
+0.0.0.0 informer.com
+0.0.0.0 id.maxis.com.my
+0.0.0.0 www.infoarmor.net
+0.0.0.0 infoarmor.net
+0.0.0.0 instructions.winsysdev.com   # Links To ReImage Ad-Ware
 0.0.0.0 iplocation.zoho.com
 0.0.0.0 *.ime.cootek.com
 0.0.0.0 ime.cootek.com
@@ -4773,6 +4803,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jaleco.com    # Huge Malware Distribution Site
 0.0.0.0 js.zohostatic.com
 0.0.0.0 js.out.sh
 0.0.0.0 js.gleam.io
@@ -5582,6 +5613,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 load.sumome.com
 0.0.0.0 locator-svc.subway.com
 0.0.0.0 ls.getresponse.com
 0.0.0.0 lurtz.a2hosting.com
@@ -5697,6 +5729,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 modulepush.com
 0.0.0.0 www.mailmunch.com
 0.0.0.0 mailmunch.com
 0.0.0.0 mailmunch.co
@@ -6233,6 +6266,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pdf-download-firefox.jaleco.com   # Application.DealAlpha.1.Gen (Trojan)
+0.0.0.0 www.panicware.com
+0.0.0.0 panicware.com
+0.0.0.0 www.popupsentry.com
+0.0.0.0 popupsentry.com
+0.0.0.0 www.pestpatrol.com
+0.0.0.0 pestpatrol.com
 0.0.0.0 pixiedust.buzzfeed.com
 0.0.0.0 p3.ifengimg.com
 0.0.0.0 www.pushengage.com
@@ -6645,17 +6685,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 rembi.lv
 0.0.0.0 roimarketplace.com
 0.0.0.0 r.inbox.lv
-0.0.0.0 reimage-pc-repair.com
-0.0.0.0 reimage-app-manager.en.aptoide.com
-0.0.0.0 reimage-cleaner.en.9apps.com
-0.0.0.0 reimage-app-manager.en.9apps.com
-0.0.0.0 reimage-cleaner.droidinformer.org
-0.0.0.0 reimagemac.com
-0.0.0.0 reimage.us.com
-0.0.0.0 reimage.org
-0.0.0.0 reimage-plus.com
-0.0.0.0 reimageplus.com
-0.0.0.0 reimage-pc-repair.en.uptodown.com
+0.0.0.0 reimage-pc-repair.com   # Reimage Ad-Ware
+0.0.0.0 reimage-app-manager.en.aptoide.com   # Reimage Ad-Ware
+0.0.0.0 reimage-cleaner.en.9apps.com   # Reimage Ad-Ware
+0.0.0.0 reimage-app-manager.en.9apps.com   # Reimage Ad-Ware
+0.0.0.0 reimage-cleaner.droidinformer.org   # Reimage Ad-Ware
+0.0.0.0 reimagemac.com   # Reimage Ad-Ware
+0.0.0.0 reimage.us.com   # Reimage Ad-Ware
+0.0.0.0 reimage.org   # Reimage Ad-Ware
+0.0.0.0 reimage-plus.com   # Reimage Ad-Ware
+0.0.0.0 reimageplus.com   # Reimage Ad-Ware
+0.0.0.0 reimage-pc-repair.en.uptodown.com   # Reimage Ad-Ware
 0.0.0.0 rtb.kds.media
 0.0.0.0 rtapi.abbi.io
 0.0.0.0 rtb.appbid.com
@@ -6739,6 +6779,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sponsored-ad-blocker.jaleco.com   # Application.DealAlpha.1.Gen (Trojan)
+0.0.0.0 scanwith.us.intellitxt.com
+0.0.0.0 www.spywareonline.org
+0.0.0.0 spywareonline.org
+0.0.0.0 www.systemexplorer.net    # Server Software Outdated And Vulnerable
+0.0.0.0 systemexplorer.net    # Server Software Outdated And Vulnerable
+0.0.0.0 store.adaware.com
+0.0.0.0 salesforceliveagent.com
 0.0.0.0 salesiq.zoho.com
 0.0.0.0 www.surfbouncer.com
 0.0.0.0 surfbouncer.com
@@ -7447,6 +7495,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 track.lt
+0.0.0.0 t.sf14g.com
 0.0.0.0 tlstest.zoho.com
 0.0.0.0 tk.politico.com
 0.0.0.0 typography.com
@@ -7888,6 +7938,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www.winsite.com   # Abuses Ads
+0.0.0.0 winsite.com   # Abuses Ads
+0.0.0.0 www.webcompanion.com    MSIL/WebCompanion.C potentially unwanted
+0.0.0.0 webcompanion.com    MSIL/WebCompanion.C potentially unwanted
+0.0.0.0 winsysdev.com   # Links To ReImage Ad-Ware
 0.0.0.0 widgets.zohosalesiq.com
 0.0.0.0 webfonts.zohowebstatic.com
 0.0.0.0 wrating.com
@@ -8111,6 +8166,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yahu99.vip
+0.0.0.0 yvzgazds6d.com
 0.0.0.0 yieldkit.com
 0.0.0.0 yieldsoftware.com
 0.0.0.0 www.yabidos.com
@@ -8234,6 +8291,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zoneprotect.com   # Fake AV
+0.0.0.0 zoneprotect-antispyware.updatestar.com    # Fake AV
+0.0.0.0 zoneprotect-antispyware.soft32.com    # Fake AV
+0.0.0.0 zoneprotect-antispyware.updatestar.com    # Fake AV
+0.0.0.0 zoneprotect-antispyware.download3000.com    # Fake AV
 0.0.0.0 zohosalesiq.com
 0.0.0.0 www.zoho.com
 0.0.0.0 zoho.com
@@ -8567,6 +8629,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 www.2-spyware.com   # Promotes ReImage Ad-Ware
+0.0.0.0 2-spyware.com   # Promotes ReImage Ad-Ware
+0.0.0.0 19vg6.la4-c2-dfw.salesforceliveagent.com
 0.0.0.0 3n8u4a2kr6qf2tyhur24ejeq.wpengine.netdna-cdn.com
 0.0.0.0 103.109.201.35.bc.googleusercontent.com
 0.0.0.0 140.2.241.35.bc.googleusercontent.com
@@ -24529,6 +24594,10 @@ voat.co##div.spacer:nth-of-type(9) > .sidecontentbox
 voat.co##div.spacer:nth-of-type(10) > .sidecontentbox
 voat.co##div.spacer:nth-of-type(11) > .sidecontentbox
 voat.co##div.spacer:nth-of-type(12) > .sidecontentbox
+||download.bitdefender.com/resources/themes/draco/images/suits3.png
+www.bitdefender.com##.start-chat
+www.bitdefender.com###startChat
+www.bitdefender.com###startChat > .container
 voiceofeurope.com##.goog-te-gadget.skiptranslate
 voiceofeurope.com###custom_html-8 > .widgettitle
 freerice.com###bottom-banner > .container_12
@@ -24604,6 +24673,9 @@ mail.yahoo.com###theAd
 facebook.com##.ego_section
 facebook.com##.ego_unit_container
 www.facebook.com##div[data-xt]
+www.2-spyware.com##.attention-button-box-v2.attention-button-box
+www.2-spyware.com##.win.attention-button-box-note
+www.2-spyware.com##.attention-button-header
 ||allgames.io^$third-party
 ||cloudvideo.tv/static/img/ads/cloudvideoads.jpg
 ||safe.txmblr.com/research/pixel
@@ -24792,6 +24864,7 @@ imgrock.*##+js(window.open-defuser.js)
 uptobox.com###adblocktrap
 uptobox.com##.ad-leader
 uptobox.com##.ad-leader > div[id]
+www.ca.com##.showButton.contact__button
 wordgames.com###ad-gamepage-leaderboard
 wordgames.com###skyscrapper-container
 wordgames.com###skyscraper-container
@@ -24907,6 +24980,11 @@ blog.yoocare.com##.toppromo.container > small
 slightlyoffensive.com##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-227b603.elementor-element
 slightlyoffensive.com##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-31a03f7.elementor-element
 ||maps.google.com/maps?q=Whittier%2C%20CA%2090601%E2%80%8B&t=m&z=9&output=embed&iwloc=near
+||www.iobit.com/tpl/images/diagnosis-call.png
+www.iobit.com##.call-bubble > h2
+www.iobit.com##.tel
+www.iobit.com##.device
+www.iobit.com##.call-bubble
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
