@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 25,862 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Monday, April 1, 2019
+# Last Updated on Tuesday, April 2, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -244,6 +244,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 redcarpet.apple.com
 0.0.0.0 speedtracer.apple.com
 0.0.0.0 tracerx-radars.apple.com
+0.0.0.0 init-p01st.push.apple.com
 0.0.0.0 internalcheck.apple.com
 0.0.0.0 depot.info.apple.com
 0.0.0.0 time-ios.apple.com
@@ -784,8 +785,22 @@ ff02::3 ip6-allhosts
 0.0.0.0 xp.itunes-apple.com.akadns.net
 0.0.0.0 zeusmedia.apple.com
 0.0.0.0 zeusmedia.g.aaplimg.com
+0.0.0.0 uklon5-vip-bx-007.aaplimg.com
+0.0.0.0 defra1-vip-bx-009.aaplimg.com
+0.0.0.0 usmes1-vip-bx-002.aaplimg.com
+0.0.0.0 usnyc3-vip-bx-001.aaplimg.com
+0.0.0.0 defra1-vip-bx-005.aaplimg.com
+0.0.0.0 sgsin3-vip-bx-005.aaplimg.com
+0.0.0.0 usnyc3-vip-bx-005.aaplimg.com
+0.0.0.0 tungsten.aaplimg.com
+0.0.0.0 sesto4-vip-bx-007.aaplimg.com
+0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 analytics.localytics.com
+0.0.0.0 app.hubspot.com
+0.0.0.0 assets.casualportals.com
+0.0.0.0 assets.orangegames.com
 0.0.0.0 aam.cz
 0.0.0.0 acz.cz
 0.0.0.0 antivermins.winsite.com
@@ -3310,6 +3325,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cs9.wac.phicdn.net
+0.0.0.0 contra-virus.com
+0.0.0.0 cdn2.hubspot.net
 0.0.0.0 cb.amazingcounters.com
 0.0.0.0 caideation.secure.force.com
 0.0.0.0 c.la4-c2-dfw.salesforceliveagent.com
@@ -3936,6 +3954,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.downloads.info    # Hosts a lot of malware (Mostly Trojan.InstallCore and ad-ware)
+0.0.0.0 downloads.info    # Hosts a lot of malware (Mostly Trojan.InstallCore and ad-ware)
+0.0.0.0 downloadmanager.xyz
+0.0.0.0 data-cash.net
+0.0.0.0 dfcki.info
 0.0.0.0 www.download3000.com    # Hosts Some Malware
 0.0.0.0 download3000.com    # Hosts Some Malware
 0.0.0.0 d.la4-c2-dfw.salesforceliveagent.com
@@ -4162,6 +4185,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 d1zkz3k4cclnv6.cloudfront.net
 0.0.0.0 d3g06ond37uyun.cloudfront.net
 0.0.0.0 d17ojfgbuzqkhr.cloudfront.net
 0.0.0.0 d2uw8atheo4gqj.cloudfront.net
@@ -4247,6 +4271,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 e6987.e9.akamaiedge.net
+0.0.0.0 e6987.a.akamaiedge.net
+0.0.0.0 e673.dsce9.akamaiedge.net
+0.0.0.0 errorexpert.com   # Rogue
+0.0.0.0 errorsafe.com   # Rogue
 0.0.0.0 ext-irs.extfans.com
 0.0.0.0 extension.extfans.com   # Application.DealAlpha.1.Gen (Trojan)
 0.0.0.0 extfans.com   # Application.DealAlpha.1.Gen (Trojan)
@@ -4434,6 +4463,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 www.freevirusprotection.org   # Why does this redirect to sentryapplications.com/privacy.php?
+0.0.0.0 freevirusprotection.org   # Why does this redirect to sentryapplications.com/privacy.php?
 0.0.0.0 fonts.zohowebstatic.com
 0.0.0.0 fingerprintjs.com
 0.0.0.0 fpjs.io
@@ -4529,6 +4560,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 fastcpm.ru
 0.0.0.0 falobo.ru
 0.0.0.0 fouoh.com
+0.0.0.0 freexxxdownload.net
 0.0.0.0 forum.globusevent.ru
 0.0.0.0 faktty.com
 0.0.0.0 fafc5ra5.ru
@@ -4792,6 +4824,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 www.hsappstatic.net
+0.0.0.0 hsappstatic.net
+0.0.0.0 www.hubspot.net
+0.0.0.0 hubspot.net
 0.0.0.0 www.hey.lt
 0.0.0.0 hey.lt
 0.0.0.0 hits.informer.com
@@ -6677,6 +6713,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 new.data-cash.net
+0.0.0.0 nr-data.net
 0.0.0.0 netdna-cdn.com
 0.0.0.0 ngxd-tv.de
 0.0.0.0 newscgp.com
@@ -7407,6 +7445,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sjremetrics.java.com
+0.0.0.0 ww1.sharebitstower.com
+0.0.0.0 ww2.sharebitstower.com
+0.0.0.0 ww3.sharebitstower.com
+0.0.0.0 ww4.sharebitstower.com
+0.0.0.0 ww5.sharebitstower.com
+0.0.0.0 ww6.sharebitstower.com
+0.0.0.0 ww7.sharebitstower.com
+0.0.0.0 ww8.sharebitstower.com
+0.0.0.0 ww9.sharebitstower.com
+0.0.0.0 ww10.sharebitstower.com
+0.0.0.0 ww11.sharebitstower.com
+0.0.0.0 ww12.sharebitstower.com
+0.0.0.0 *.sharebitstower.com
+0.0.0.0 spysherrif-anti-spyware.apponic.com   # FileRepMalware [PUP] (AVG),  Artemis!Trojan (McAfee-GW-Edition)
+0.0.0.0 sqxqz.dfcki.info
+0.0.0.0 static.hsappstatic.net
 0.0.0.0 szzero.livechatvalue.com
 0.0.0.0 south32.com   # Cyber Squatting
 0.0.0.0 sponsored-ad-blocker.jaleco.com   # Application.DealAlpha.1.Gen (Trojan)
@@ -8123,6 +8178,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 time-osx.g.aaplimg.com
+0.0.0.0 tradownload.uk
+0.0.0.0 tradownload.ws
+0.0.0.0 tokaripupsi.com
 0.0.0.0 track.lt
 0.0.0.0 t.sf14g.com
 0.0.0.0 tlstest.zoho.com
@@ -8386,6 +8445,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 www.updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
+0.0.0.0 updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
 0.0.0.0 upload.iheima.com
 0.0.0.0 unid.go.com
 0.0.0.0 usa-usage.ime.cootek.com
@@ -8483,6 +8544,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vipadsnet.info
 0.0.0.0 vts.zohopublic.com
 0.0.0.0 v1.77tracking.com
 0.0.0.0 vwo-analytics.com
@@ -8567,6 +8629,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 world-gen.g.aaplimg.com
+0.0.0.0 www.winfixer.com    # Scareware
+0.0.0.0 winfixer.com    # Scareware
 0.0.0.0 www.winsite.com   # Abuses Ads
 0.0.0.0 winsite.com   # Abuses Ads
 0.0.0.0 www.webcompanion.com    MSIL/WebCompanion.C potentially unwanted
@@ -9258,6 +9323,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 7wuvias.website   # data-cash.net
 0.0.0.0 www.36022222.com
 0.0.0.0 36022222.com
 0.0.0.0 www.222222999999.com
