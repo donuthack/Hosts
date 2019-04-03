@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 25,862 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Tuesday, April 2, 2019
+# Last Updated on Wednesday, April 3, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 adservex.media.net
 0.0.0.0 analytics.localytics.com
 0.0.0.0 app.hubspot.com
 0.0.0.0 assets.casualportals.com
@@ -2636,8 +2637,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 bfast.com
 0.0.0.0 www.browser-statistik.de
 0.0.0.0 browser-statistik.de
-0.0.0.0 www.brightcove.com
-0.0.0.0 brightcove.com
 0.0.0.0 banners.adnetmedia.lt
 0.0.0.0 bridge.ame.admarketplace.net
 0.0.0.0 bridge.lga1.admarketplace.net
@@ -3325,6 +3324,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 contextual.media.net
 0.0.0.0 cs9.wac.phicdn.net
 0.0.0.0 contra-virus.com
 0.0.0.0 cdn2.hubspot.net
@@ -7242,6 +7242,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qsearch-a.akamaihd.net
 0.0.0.0 qip.ru
 0.0.0.0 www.qenklbb.com
 0.0.0.0 qenklbb.com
@@ -25290,6 +25291,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 ya-in-f500.1e100.net
 
 # Blocking specific things on domains
+iprvl.co###pref-label
+iprvl.co##.footer > span
+||iprvl.co/_static/images/smarturl-retina.png
 8ch.net##section.col-12.col.box.description:nth-of-type(3)
 voat.co##div.spacer:nth-of-type(1) > .sidecontentbox
 voat.co##div.spacer:nth-of-type(2) > .sidecontentbox
