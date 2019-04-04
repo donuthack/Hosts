@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 25,862 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Wednesday, April 3, 2019
+# Last Updated on Thursday, April 4, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 atmosphereoutside.com
 0.0.0.0 adservex.media.net
 0.0.0.0 analytics.localytics.com
 0.0.0.0 app.hubspot.com
@@ -2602,6 +2603,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 betterdetails.net
 0.0.0.0 bulletproofsoft.com
 0.0.0.0 bnserving.com
 0.0.0.0 beacon-v2.helpscout.net
@@ -3324,6 +3326,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 computingcompetitions.com
+0.0.0.0 click.e.wmg.com
+0.0.0.0 canalsubscrib.com
+0.0.0.0 choppywaves.com
 0.0.0.0 contextual.media.net
 0.0.0.0 cs9.wac.phicdn.net
 0.0.0.0 contra-virus.com
@@ -3954,6 +3960,29 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dtj2lavc.gq
+0.0.0.0 ww1.digitaltelemarketinghub.com
+0.0.0.0 ww2.digitaltelemarketinghub.com
+0.0.0.0 ww3.digitaltelemarketinghub.com
+0.0.0.0 ww4.digitaltelemarketinghub.com
+0.0.0.0 ww5.digitaltelemarketinghub.com
+0.0.0.0 ww6.digitaltelemarketinghub.com
+0.0.0.0 ww7.digitaltelemarketinghub.com
+0.0.0.0 ww8.digitaltelemarketinghub.com
+0.0.0.0 ww9.digitaltelemarketinghub.com
+0.0.0.0 ww10.digitaltelemarketinghub.com
+0.0.0.0 ww11.digitaltelemarketinghub.com
+0.0.0.0 ww1.decadecompany.com
+0.0.0.0 ww2.decadecompany.com
+0.0.0.0 ww3.decadecompany.com
+0.0.0.0 ww4.decadecompany.com
+0.0.0.0 ww5.decadecompany.com
+0.0.0.0 ww6.decadecompany.com
+0.0.0.0 ww7.decadecompany.com
+0.0.0.0 ww8.decadecompany.com
+0.0.0.0 ww9.decadecompany.com
+0.0.0.0 ww10.decadecompany.com
+0.0.0.0 ww11.decadecompany.com
 0.0.0.0 www.downloads.info    # Hosts a lot of malware (Mostly Trojan.InstallCore and ad-ware)
 0.0.0.0 downloads.info    # Hosts a lot of malware (Mostly Trojan.InstallCore and ad-ware)
 0.0.0.0 downloadmanager.xyz
@@ -4271,6 +4300,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ec2-18-136-157-220.ap-southeast-1.compute.amazonaws.com
+0.0.0.0 ec2-54-64-149-136.ap-northeast-1.compute.amazonaws.com
 0.0.0.0 e6987.e9.akamaiedge.net
 0.0.0.0 e6987.a.akamaiedge.net
 0.0.0.0 e673.dsce9.akamaiedge.net
@@ -4824,6 +4855,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 ht4m3jc8f47out.wa4-1.aoakb3e.ml
 0.0.0.0 www.hsappstatic.net
 0.0.0.0 hsappstatic.net
 0.0.0.0 www.hubspot.net
@@ -5466,6 +5498,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jh41doseb4dca3.wfc6-6224.dpvmeuqd.ga
 0.0.0.0 jaleco.com    # Huge Malware Distribution Site
 0.0.0.0 js.zohostatic.com
 0.0.0.0 js.out.sh
@@ -6393,6 +6426,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mail34.atl231.mcsv.net
 0.0.0.0 modulepush.com
 0.0.0.0 www.mailmunch.com
 0.0.0.0 mailmunch.com
@@ -6932,6 +6966,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 plum.computingcompetitions.com
+0.0.0.0 prolongedweb.com
 0.0.0.0 pdf-download-firefox.jaleco.com   # Application.DealAlpha.1.Gen (Trojan)
 0.0.0.0 www.panicware.com
 0.0.0.0 panicware.com
@@ -7286,6 +7322,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 ruddle.org
+0.0.0.0 reallyconfide.com
+0.0.0.0 ridesonbits.com
 0.0.0.0 recsys-api.buzzfeed.com
 0.0.0.0 research.vwo.com
 0.0.0.0 r.openx.net
@@ -7446,6 +7485,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sendgrid.info
+0.0.0.0 simpleopptys.com
 0.0.0.0 sjremetrics.java.com
 0.0.0.0 ww1.sharebitstower.com
 0.0.0.0 ww2.sharebitstower.com
@@ -8179,6 +8220,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 track.bqumo.com
+0.0.0.0 trustybulletins.com
 0.0.0.0 time-osx.g.aaplimg.com
 0.0.0.0 tradownload.uk
 0.0.0.0 tradownload.ws
@@ -8861,6 +8904,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 y5342kc6h4a0bu.wdcb-1.dtj2lavc.gq
 0.0.0.0 yahu99.vip
 0.0.0.0 yvzgazds6d.com
 0.0.0.0 yieldkit.com
@@ -9113,6 +9157,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 192.35.235.2
 0.0.0.0 99.84.168.95
 0.0.0.0 69.16.175.42
 0.0.0.0 35.201.109.103
