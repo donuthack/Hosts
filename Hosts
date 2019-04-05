@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 25,862 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Thursday, April 4, 2019
+# Last Updated on Friday, April 5, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 anonymous.com
+0.0.0.0 ads.everquote.com
+0.0.0.0 apuja.siencesratify.com
 0.0.0.0 atmosphereoutside.com
 0.0.0.0 adservex.media.net
 0.0.0.0 analytics.localytics.com
@@ -2603,6 +2606,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bestroomservices.com    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 beliefworktoday.com   # Site used by scammer
+0.0.0.0 bww.beliefworktoday.com   # Site used by scammer
 0.0.0.0 betterdetails.net
 0.0.0.0 bulletproofsoft.com
 0.0.0.0 bnserving.com
@@ -4300,8 +4306,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
-0.0.0.0 ec2-18-136-157-220.ap-southeast-1.compute.amazonaws.com
-0.0.0.0 ec2-54-64-149-136.ap-northeast-1.compute.amazonaws.com
+0.0.0.0 exnrcvcamcoj.net
+0.0.0.0 ec2-13-114-189-119.ap-northeast-1.compute.amazonaws.com   # Digital Marketing 
+0.0.0.0 ec2-54-250-169-183.ap-northeast-1.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ec2-52-14-97-179.us-east-2.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ec2-18-136-157-220.ap-southeast-1.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ec2-54-64-149-136.ap-northeast-1.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 e6987.e9.akamaiedge.net
 0.0.0.0 e6987.a.akamaiedge.net
 0.0.0.0 e673.dsce9.akamaiedge.net
@@ -4650,6 +4660,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 generator.bestroomservices.com    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 gsmcollection.net
+0.0.0.0 generalfinancedeal.com
 0.0.0.0 www.gfwkj.com
 0.0.0.0 gfwkj.com
 0.0.0.0 games.mochiads.com
@@ -4856,6 +4869,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hisimply.com
 0.0.0.0 ht4m3jc8f47out.wa4-1.aoakb3e.ml
 0.0.0.0 www.hsappstatic.net
 0.0.0.0 hsappstatic.net
@@ -5000,6 +5014,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 if41n1rlta4el8.wdac-309b.rofevlfk.ga    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 images-pw.secureserver.net
 0.0.0.0 www.informer.com
 0.0.0.0 informer.com
@@ -5499,6 +5514,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 jh41doseb4dca3.wfc6-6224.dpvmeuqd.ga
 0.0.0.0 jaleco.com    # Huge Malware Distribution Site
 0.0.0.0 js.zohostatic.com
@@ -6310,6 +6326,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lm41g5hqt4jkh1.w0.rnml5fbt.ga   # Sends spam emails pretending to be ADT
 0.0.0.0 livechatvalue.com
 0.0.0.0 load.sumome.com
 0.0.0.0 locator-svc.subway.com
@@ -6967,6 +6984,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 px.powerlinks.com
+0.0.0.0 www.powerlinks.com
+0.0.0.0 powerlinks.com
 0.0.0.0 plum.computingcompetitions.com
 0.0.0.0 prolongedweb.com
 0.0.0.0 pdf-download-firefox.jaleco.com   # Application.DealAlpha.1.Gen (Trojan)
@@ -7279,6 +7299,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qd415nvph4f8gm.w115a-4194.jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 qsearch-a.akamaihd.net
 0.0.0.0 qip.ru
 0.0.0.0 www.qenklbb.com
@@ -7323,6 +7344,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rofevlfk.ga    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 rudy.adsnative.com
+0.0.0.0 rnml5fbt.ga   # Sends spam emails pretending to be ADT
+0.0.0.0 richeropportunity.com
+0.0.0.0 raik.hisimply.com
 0.0.0.0 ruddle.org
 0.0.0.0 reallyconfide.com
 0.0.0.0 ridesonbits.com
@@ -7486,6 +7512,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static.248.118.203.116.clients.your-server.de
+0.0.0.0 smartrcdn.s3.amazonaws.com
+0.0.0.0 subscrib.
+0.0.0.0 www.sastrk.com
+0.0.0.0 sastrk.com
+0.0.0.0 siencesratify.com
 0.0.0.0 skimlinks.com
 0.0.0.0 sendgrid.info
 0.0.0.0 simpleopptys.com
@@ -8222,6 +8254,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 thescopeto.*    # Email Marketing
+0.0.0.0 *.thescopeto.*    # Email Marketing
+0.0.0.0 *.thescopeto.com    # Email Marketing
+0.0.0.0 thescopeto.com    # Email Marketing
+0.0.0.0 tpx.everquote.com
+0.0.0.0 trc.taboola.com
+0.0.0.0 takersgains.com
+0.0.0.0 travel.richeropportunity.com
 0.0.0.0 track.bqumo.com
 0.0.0.0 trustybulletins.com
 0.0.0.0 time-osx.g.aaplimg.com
@@ -8491,6 +8531,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 ultrawave.everquote.com
 0.0.0.0 www.updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
 0.0.0.0 updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
 0.0.0.0 upload.iheima.com
@@ -8590,6 +8631,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 verifyability.com
 0.0.0.0 vipadsnet.info
 0.0.0.0 vts.zohopublic.com
 0.0.0.0 v1.77tracking.com
@@ -8675,6 +8717,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 w0.ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ws405018g4ng1g.w0.ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 w0.rnml5fbt.ga   # Sends spam emails pretending to be ADT
+0.0.0.0 wn8i8o.exnrcvcamcoj.net
 0.0.0.0 world-gen.g.aaplimg.com
 0.0.0.0 www.winfixer.com    # Scareware
 0.0.0.0 winfixer.com    # Scareware
@@ -8906,6 +8953,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yciuyrlw.ml
 0.0.0.0 y5342kc6h4a0bu.wdcb-1.dtj2lavc.gq
 0.0.0.0 yahu99.vip
 0.0.0.0 yvzgazds6d.com
@@ -9371,6 +9419,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 9p41uvlef4ikrt.wffc-e635.yciuyrlw.ml
+0.0.0.0 www.1800freshtax.com    # Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK#oc#)
+0.0.0.0 1800freshtax.com    # Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK#oc#)
 0.0.0.0 7wuvias.website   # data-cash.net
 0.0.0.0 www.36022222.com
 0.0.0.0 36022222.com
