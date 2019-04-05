@@ -2606,6 +2606,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bing-toolbar.updatestar.com
 0.0.0.0 bestroomservices.com    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 beliefworktoday.com   # Site used by scammer
 0.0.0.0 bww.beliefworktoday.com   # Site used by scammer
@@ -3966,6 +3967,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dinthiningonred.info
 0.0.0.0 dtj2lavc.gq
 0.0.0.0 ww1.digitaltelemarketinghub.com
 0.0.0.0 ww2.digitaltelemarketinghub.com
@@ -4306,6 +4308,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 www.easypcoptimizer.com   # a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
+0.0.0.0 easypcoptimizer.com   # a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
 0.0.0.0 exnrcvcamcoj.net
 0.0.0.0 ec2-13-114-189-119.ap-northeast-1.compute.amazonaws.com   # Digital Marketing 
 0.0.0.0 ec2-54-250-169-183.ap-northeast-1.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
@@ -5014,6 +5018,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 img.afreecodec.com
 0.0.0.0 if41n1rlta4el8.wdac-309b.rofevlfk.ga    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 images-pw.secureserver.net
 0.0.0.0 www.informer.com
@@ -5581,6 +5586,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 www.kontera.com
+0.0.0.0 kontera.com
+0.0.0.0 kona.kontera.com
 0.0.0.0 koi-3qndw5fgbw.marketingautomation.services
 0.0.0.0 kck3hlb9.dashlane.com
 0.0.0.0 k54nw.pw
@@ -6765,6 +6773,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 www.nomanatif.net   # Downloads mainly lead to deciptive websites
+0.0.0.0 nomanatif.net   # Downloads mainly lead to deciptive websites
 0.0.0.0 new.data-cash.net
 0.0.0.0 nr-data.net
 0.0.0.0 netdna-cdn.com
