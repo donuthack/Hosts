@@ -4552,6 +4552,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fontawesome.com
 0.0.0.0 fave.co
 0.0.0.0 www.freevirusprotection.org   # Why does this redirect to sentryapplications.com/privacy.php?
 0.0.0.0 freevirusprotection.org   # Why does this redirect to sentryapplications.com/privacy.php?
@@ -8311,9 +8312,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
-0.0.0.0 thescopeto.*    # Email Marketing
-0.0.0.0 *.thescopeto.*    # Email Marketing
-0.0.0.0 *.thescopeto.com    # Email Marketing
+0.0.0.0 tag.brandcdn.com
 0.0.0.0 thescopeto.com    # Email Marketing
 0.0.0.0 tpx.everquote.com
 0.0.0.0 trc.taboola.com
