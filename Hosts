@@ -4377,6 +4377,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 extfans.com   # Application.DealAlpha.1.Gen (Trojan)
 0.0.0.0 ekr.zdassets.com
 0.0.0.0 edge-star-shv-02-dfw5.facebook.com
+0.0.0.0 ec2-23-21-114-151.compute-1.amazonaws.com
 0.0.0.0 ec2-23-21-89-91.compute-1.amazonaws.com
 0.0.0.0 ec2-35-167-250-241.us-west-2.compute.amazonaws.com
 0.0.0.0 www.eyequant.com
@@ -9280,6 +9281,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 151.101.185.208
+0.0.0.0 23.21.114.151
+0.0.0.0 54.243.33.91
+0.0.0.0 151.101.129.130
+0.0.0.0 35.190.0.14
 0.0.0.0 192.35.235.2
 0.0.0.0 99.84.168.95
 0.0.0.0 69.16.175.42
@@ -9492,6 +9498,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 14.0.190.35.bc.googleusercontent.com
 0.0.0.0 1.65.on.180613.msn.com
 0.0.0.0 9p41uvlef4ikrt.wffc-e635.yciuyrlw.ml
 0.0.0.0 www.1800freshtax.com    # Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK#oc#)
