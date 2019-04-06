@@ -797,6 +797,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 account.mapbox.com
+0.0.0.0 api.mapbox.com
 0.0.0.0 ads.clivfnw5sdhbronn.onion
 0.0.0.0 ads.wise3dvxlxtd7hvy.onion
 0.0.0.0 ads.zliban6brffsahaa.onion
@@ -6494,6 +6496,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 www.mapbox.com
+0.0.0.0 mapbox.com
 0.0.0.0 mail34.atl231.mcsv.net
 0.0.0.0 modulepush.com
 0.0.0.0 www.mailmunch.com
