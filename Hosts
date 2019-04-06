@@ -7568,6 +7568,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 subscrib.com
 0.0.0.0 static.248.118.203.116.clients.your-server.de
 0.0.0.0 smartrcdn.s3.amazonaws.com
 0.0.0.0 subscrib.
