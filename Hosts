@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 25,862 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Friday, April 5, 2019
+# Last Updated on Saturday, April 6, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,47 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 ads.clivfnw5sdhbronn.onion
+0.0.0.0 ads.wise3dvxlxtd7hvy.onion
+0.0.0.0 ads.zliban6brffsahaa.onion
+0.0.0.0 ads.v4gnh5vg5uxsr5qd.onion
+0.0.0.0 ads.3kylcvehxgci2yuo.onion
+0.0.0.0 ads.7rma7duymct34cv6.onion
+0.0.0.0 ads.jpfovtommbqbesog.onion
+0.0.0.0 ads.awsyw4ghf3da7btb.onion
+0.0.0.0 ads.wallslbw6m5dnu3t.onion
+0.0.0.0 ads.wallbu3ztcirawxs.onion
+0.0.0.0 ads.blacfwvvkes3epxg.onion
+0.0.0.0 ads.w363ucprbosdzk2j.onion
+0.0.0.0 ads.undep675qbxvkgqf.onion
+0.0.0.0 ads.onio37kdd67zagmp.onion
+0.0.0.0 ads.answg72ikfap7s6d.onion
+0.0.0.0 ads.tordblitpldzlr4t.onion
+0.0.0.0 ads.3bbabe3gdqmpfjrh.onion
+0.0.0.0 ads.yq6mf2f7s7vdvrew.onion
+0.0.0.0 ads.zdpsq63ou6fmb5do.onion
+0.0.0.0 ads.777oo7yrp633bfkq.onion
+0.0.0.0 ads.tj2djbhoxoakgekb.onion
+0.0.0.0 ads.netazxfiskznrfoq.onion
+0.0.0.0 ads.deepid4dqvrfjqjv.onion
+0.0.0.0 ads.xmh5a2zhboupk56y.onion
+0.0.0.0 ads.rospu6tjaorxrx7d.onion
+0.0.0.0 ads.prope2hj4fy43oi5.onion
+0.0.0.0 ads.nql7baksohshwqbm.onion
+0.0.0.0 ads.j5eh3rskjkijdcue.onion
+0.0.0.0 ads.3kylcvehxgci2yuo.onion
+0.0.0.0 ads.v4gnh5vg5uxsr5qd.onion
+0.0.0.0 ads.undekriyfqqnh3hh.onion
+0.0.0.0 ads.vane6gpnh5ukk75g.onion
+0.0.0.0 ads.tinhqcktrmvfsuzx.onion
+0.0.0.0 ads.32av32jeltug4ycp.onion
+0.0.0.0 ads.starvzwaa5e2j75v.onion
+0.0.0.0 ads.dnex27tfdncqfjxt.onion
+0.0.0.0 ads.evilelohr7ofmo4b.onion
+0.0.0.0 ads.dmruscbkpelhdvbg.onion
+0.0.0.0 ads.psiihfa3dtcsousd.onion
+0.0.0.0 ads.torbqqbrr7kwuexs.onion
+0.0.0.0 ads.protxmj2bo56r5z2.onion
 0.0.0.0 anonymous.com
 0.0.0.0 ads.everquote.com
 0.0.0.0 apuja.siencesratify.com
@@ -3333,6 +3374,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.siftscience.com
 0.0.0.0 computingcompetitions.com
 0.0.0.0 click.e.wmg.com
 0.0.0.0 canalsubscrib.com
