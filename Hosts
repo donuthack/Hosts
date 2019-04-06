@@ -797,6 +797,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 az725175.vo.msecnd.net
+0.0.0.0 ajax.aspnetcdn.com
+0.0.0.0 api.lever.co
+0.0.0.0 arcgisonline.com
+0.0.0.0 www.arcgis.com
+0.0.0.0 arcgis.com
 0.0.0.0 account.mapbox.com
 0.0.0.0 api.mapbox.com
 0.0.0.0 ads.clivfnw5sdhbronn.onion
@@ -3376,6 +3382,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn-a.arcgis.com
 0.0.0.0 cdn.siftscience.com
 0.0.0.0 computingcompetitions.com
 0.0.0.0 click.e.wmg.com
@@ -4552,6 +4559,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 f1-na.readspeaker.com
 0.0.0.0 fontawesome.com
 0.0.0.0 fave.co
 0.0.0.0 www.freevirusprotection.org   # Why does this redirect to sentryapplications.com/privacy.php?
@@ -5564,6 +5572,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js.arcgis.com
 0.0.0.0 jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 jh41doseb4dca3.wfc6-6224.dpvmeuqd.ga
 0.0.0.0 jaleco.com    # Huge Malware Distribution Site
@@ -6379,6 +6388,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lever.co
 0.0.0.0 lm41g5hqt4jkh1.w0.rnml5fbt.ga   # Sends spam emails pretending to be ADT
 0.0.0.0 livechatvalue.com
 0.0.0.0 load.sumome.com
@@ -6820,6 +6830,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nifc.maps.arcgis.com
 0.0.0.0 www.nomanatif.net   # Downloads mainly lead to deciptive websites
 0.0.0.0 nomanatif.net   # Downloads mainly lead to deciptive websites
 0.0.0.0 new.data-cash.net
@@ -7569,6 +7580,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 server.arcgisonline.com
+0.0.0.0 static.arcgis.com
+0.0.0.0 services.arcgisonline.com
+0.0.0.0 services3.arcgis.com
 0.0.0.0 subscrib.com
 0.0.0.0 static.248.118.203.116.clients.your-server.de
 0.0.0.0 smartrcdn.s3.amazonaws.com
@@ -8587,6 +8602,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 utility.arcgisonline.com
 0.0.0.0 ultrawave.everquote.com
 0.0.0.0 www.updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
 0.0.0.0 updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
@@ -8687,6 +8703,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 v.printfriendly.com
 0.0.0.0 verifyability.com
 0.0.0.0 vipadsnet.info
 0.0.0.0 vts.zohopublic.com
@@ -9475,6 +9492,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 1.65.on.180613.msn.com
 0.0.0.0 9p41uvlef4ikrt.wffc-e635.yciuyrlw.ml
 0.0.0.0 www.1800freshtax.com    # Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK#oc#)
 0.0.0.0 1800freshtax.com    # Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK#oc#)
