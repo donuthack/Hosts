@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,105 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Saturday, April 6, 2019
+# Last Updated on Sunday, April 7, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,53 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 analytics-tracker.thescore.com
+0.0.0.0 axa.cloud.ca.com
+0.0.0.0 analytics-events.inshorts.com
+0.0.0.0 aftonbladetnya.sc.omtrdc.net
+0.0.0.0 astat.bugly.qq.com
+0.0.0.0 aotter.net
+0.0.0.0 allnews.uodoo.com
+0.0.0.0 api.instabug.com
+0.0.0.0 api.ad.intl.xiaomi.com
+0.0.0.0 alooma.com
+0.0.0.0 analytics.any.do
+0.0.0.0 an.batmobi.net
+0.0.0.0 a.appbaqend.com
+0.0.0.0 appbaqend.com
+0.0.0.0 act.cmcmcdn.com
+0.0.0.0 abbi.io
+0.0.0.0 adj.st
+0.0.0.0 appmetr.com
+0.0.0.0 api.ipstack.com
+0.0.0.0 azalead.com
+0.0.0.0 api.statistics.tobii.com
+0.0.0.0 amg-cdn.novelty.media
+0.0.0.0 amg.novelty.media
+0.0.0.0 www.applied-statistics.at
+0.0.0.0 applied-statistics.at
+0.0.0.0 api-sandbox.yext.com
+0.0.0.0 api.sandbox53.localytics.com
+0.0.0.0 api.samplicio.us
+0.0.0.0 api.saltarsmart.biz
+0.0.0.0 api.salmonads.com
+0.0.0.0 api.salesrep.ai
+0.0.0.0 app.salesrep.ai
+0.0.0.0 api.salesmachine.io
+0.0.0.0 api.salesloft.com
+0.0.0.0 activehosted.com
+0.0.0.0 app-ab12.marketo.com
+0.0.0.0 api.saleshandy.com
+0.0.0.0 api.salesflare.com
+0.0.0.0 api88.salesfeed.com
+0.0.0.0 api.salesfeed.com
+0.0.0.0 api.beta.salemove.com
+0.0.0.0 api.salemove.com
+0.0.0.0 api.sailthru.com
+0.0.0.0 api.sail-personalize.com
+0.0.0.0 apis.adsymptotic.com
+0.0.0.0 adsymptotic.com
+0.0.0.0 api.safedk.com
 0.0.0.0 a23-4-119-50.deploy.static.akamaitechnologies.com
 0.0.0.0 a23-211-100-64.deploy.static.akamaitechnologies.com
 0.0.0.0 a184-24-98-128.deploy.static.akamaitechnologies.com
@@ -1950,6 +1997,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.uber.com
 0.0.0.0 ads.nexage.com
 0.0.0.0 alog.umeng.com
+0.0.0.0 alog.umeng.co
 0.0.0.0 apptimize.com
 0.0.0.0 analytics.mobile.yandex.net
 0.0.0.0 appmetrica.yandex.com
@@ -2659,6 +2707,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bugsnag.com
+0.0.0.0 bugly.qq.com
+0.0.0.0 batmobi.net
+0.0.0.0 batsavcdn.ksmobile.net
+0.0.0.0 b2btagmgr.azalead.com
+0.0.0.0 brightfunnel.com
+0.0.0.0 blog.safedk.com
 0.0.0.0 bing-toolbar.updatestar.com
 0.0.0.0 bestroomservices.com    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 beliefworktoday.com   # Site used by scammer
@@ -3386,6 +3441,32 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.atomex.net
+0.0.0.0 cloudmobi.net
+0.0.0.0 cloud.ca.com
+0.0.0.0 collector-axa.cloud.ca.com
+0.0.0.0 cd002.www.duba.net
+0.0.0.0 cmplay.did.ijinshan.com
+0.0.0.0 cfg.cml.ksmobile.com
+0.0.0.0 cdnl.tblsft.com
+0.0.0.0 cdns.tblsft.com
+0.0.0.0 cdnv.tblsft.com
+0.0.0.0 cashspace.com
+0.0.0.0 cashstatistics.com
+0.0.0.0 www.content-ad.com
+0.0.0.0 content-ad.com
+0.0.0.0 www.content.ad
+0.0.0.0 content.ad
+0.0.0.0 convertinsights.activehosted.com
+0.0.0.0 www.convert.com
+0.0.0.0 convert.com
+0.0.0.0 cdn-3.convertexperiments.com
+0.0.0.0 convertexperiments.com
+0.0.0.0 cdn.callrail.com
+0.0.0.0 www.callrail.com
+0.0.0.0 callrail.com
+0.0.0.0 cdn.trackjs.com
+0.0.0.0 config.safedk.com
 0.0.0.0 cdn-a.arcgis.com
 0.0.0.0 cdn.siftscience.com
 0.0.0.0 computingcompetitions.com
@@ -4002,7 +4083,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 cdn3.doubleverify.com
 0.0.0.0 counter.yadro.ru
 0.0.0.0 cdn.optimizely.com
-0.0.0.0 cdn.segment.com
 0.0.0.0 cdn.mouseflow.com
 0.0.0.0 chartboost.com
 0.0.0.0 cherryhi.app.ur.gcion.com
@@ -4022,6 +4102,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dc.webtrends.com
+0.0.0.0 dmx.sync.yume.com
+0.0.0.0 sdk.stats-locations.com
+0.0.0.0 duba.net
+0.0.0.0 dh1.cmcmcdn.com
+0.0.0.0 did.ijinshan.com
+0.0.0.0 dl.episerver.net
 0.0.0.0 dinthiningonred.info
 0.0.0.0 dtj2lavc.gq
 0.0.0.0 ww1.digitaltelemarketinghub.com
@@ -4277,6 +4364,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 d3ukzap5f2wa8d.cloudfront.net
 0.0.0.0 d1zkz3k4cclnv6.cloudfront.net
 0.0.0.0 d3g06ond37uyun.cloudfront.net
 0.0.0.0 d17ojfgbuzqkhr.cloudfront.net
@@ -4363,6 +4451,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 event.allnews.uodoo.com
+0.0.0.0 elephantdata.net
+0.0.0.0 episerver.net
 0.0.0.0 ec2-34-237-207-190.compute-1.amazonaws.com
 0.0.0.0 ec2-54-210-199-150.compute-1.amazonaws.com
 0.0.0.0 www.easypcoptimizer.com   # a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
@@ -4566,6 +4657,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fdplttrk.com
+0.0.0.0 free-website-traffic.com
+0.0.0.0 free-website-statistics.com
+0.0.0.0 free-website-hit-counters.com
+0.0.0.0 freewebsites.com
+0.0.0.0 freewebsite.biz
+0.0.0.0 files.upscore.com
+0.0.0.0 freeweb.siol.net
+0.0.0.0 freewebs.getclicky.com
+0.0.0.0 feedback.saberfeedback.com
 0.0.0.0 www.footprint.net
 0.0.0.0 footprint.net
 0.0.0.0 f1-na.readspeaker.com
@@ -4726,6 +4827,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 global.cmcs.service.amazonsilk.com
+0.0.0.0 gcm.ksmobile.com
+0.0.0.0 geoinfo.i2w.io
+0.0.0.0 geo.go2s.co
+0.0.0.0 go2s.co
+0.0.0.0 go.pardot.com
+0.0.0.0 www.glia.com
+0.0.0.0 glia.com
 0.0.0.0 generator.bestroomservices.com    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 gsmcollection.net
 0.0.0.0 generalfinancedeal.com
@@ -4935,6 +5044,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 www.herokucdn.com
+0.0.0.0 herokucdn.com
 0.0.0.0 hisimply.com
 0.0.0.0 ht4m3jc8f47out.wa4-1.aoakb3e.ml
 0.0.0.0 www.hsappstatic.net
@@ -5080,6 +5191,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ios.bugly.qq.com
+0.0.0.0 instabug.com
+0.0.0.0 inputs.alooma.com
+0.0.0.0 imp.startappservice.com
+0.0.0.0 ilyonanalytics.herokuapp.com
+0.0.0.0 www.ijinshan.com    # a variant of Win32/KingSoft.B potentially unwanted (ESET-NOD32)
+0.0.0.0 ijinshan.com    # a variant of Win32/KingSoft.B potentially unwanted (ESET-NOD32)
+0.0.0.0 img.saleshandy.com
+0.0.0.0 io.innertrends.com
+0.0.0.0 innertrends.innertrends.com
+0.0.0.0 innertrends.com
 0.0.0.0 img.afreecodec.com
 0.0.0.0 if41n1rlta4el8.wdac-309b.rofevlfk.ga    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 images-pw.secureserver.net
@@ -5581,6 +5703,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 www.jabmo.com
+0.0.0.0 jabmo.com
+0.0.0.0 jquerystatistics.org
+0.0.0.0 j.6sc.co
 0.0.0.0 js.arcgis.com
 0.0.0.0 jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 jh41doseb4dca3.wfc6-6224.dpvmeuqd.ga
@@ -5649,6 +5775,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 ksmobile.com
+0.0.0.0 ksmobile.net
 0.0.0.0 www.kontera.com
 0.0.0.0 kontera.com
 0.0.0.0 kona.kontera.com
@@ -6397,6 +6525,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 logger.cloudmobi.net
+0.0.0.0 log.go2s.co
+0.0.0.0 login.jabmo.com
+0.0.0.0 local-analytics.uberinternal.com
+0.0.0.0 localads-statistics.maps.me
+0.0.0.0 liveinternetstatistics.ws
+0.0.0.0 lib.salesflare.com
 0.0.0.0 lever.co
 0.0.0.0 lm41g5hqt4jkh1.w0.rnml5fbt.ga   # Sends spam emails pretending to be ADT
 0.0.0.0 livechatvalue.com
@@ -6516,6 +6651,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 measuread.com
+0.0.0.0 metok.sys.miui.com
+0.0.0.0 m.vpadn.com
+0.0.0.0 mobile.bigfishgames.com
+0.0.0.0 mobile.walkme.com
+0.0.0.0 master.ulv.statistics.aatkit.com
+0.0.0.0 master.statistics.aatkit.com
+0.0.0.0 munchkin.brightfunnel.com
+0.0.0.0 mp.safedk.com
+0.0.0.0 mobile-sdk-data-trends.safedk.com
 0.0.0.0 www.mapbox.com
 0.0.0.0 mapbox.com
 0.0.0.0 mail34.atl231.mcsv.net
@@ -6839,6 +6984,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 npario-inc.net
+0.0.0.0 ninja.onap.io
+0.0.0.0 ns7.statisticsmanager.com
+0.0.0.0 novelty-media-us-d.openx.net
+0.0.0.0 npmcdn.com
 0.0.0.0 nifc.maps.arcgis.com
 0.0.0.0 www.nomanatif.net   # Downloads mainly lead to deciptive websites
 0.0.0.0 nomanatif.net   # Downloads mainly lead to deciptive websites
@@ -6948,6 +7098,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 omni-ads.omni.news
+0.0.0.0 opt.vpadn.com
 0.0.0.0 out.sh
 0.0.0.0 www.openwebanalytics.com
 0.0.0.0 openwebanalytics.com
@@ -7055,12 +7207,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.ojrq.net
 0.0.0.0 ojrq.net
 0.0.0.0 oc.umeng.com
+0.0.0.0 oc.umeng.co
 0.0.0.0 ow-gateway.supersonicads.com
 0.0.0.0 outcome.supersonicads.com
 0.0.0.0 oclasrv.com
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pps-log.op-mobile.opera.com
+0.0.0.0 parse-ppom-prod.herokuapp.com
+0.0.0.0 ploy.batmobi.net
+0.0.0.0 www.pardot.com
+0.0.0.0 pardot.com
+0.0.0.0 public.tableau.com
+0.0.0.0 publisher.salmonads.com
+0.0.0.0 pr.safedk.com
 0.0.0.0 px.powerlinks.com
 0.0.0.0 www.powerlinks.com
 0.0.0.0 powerlinks.com
@@ -7376,6 +7537,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 queue.statistics.aatkit.com
 0.0.0.0 qd415nvph4f8gm.w115a-4194.jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 qsearch-a.akamaihd.net
 0.0.0.0 qip.ru
@@ -7421,6 +7583,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rich-content.thescore.com
+0.0.0.0 www.rhythmone.com
+0.0.0.0 rhythmone.com
+0.0.0.0 rts.mobula.sdk.duapps.com
+0.0.0.0 return.uk.uniregistry.com
 0.0.0.0 rofevlfk.ga    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 rudy.adsnative.com
 0.0.0.0 rnml5fbt.ga   # Sends spam emails pretending to be ADT
@@ -7589,6 +7756,69 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sessions.bugsnag.com
+0.0.0.0 sync.yume.com
+0.0.0.0 sync.adotmob.com
+0.0.0.0 sts.batmobi.net
+0.0.0.0 sdkconfig.ad.intl.xiaomi.com
+0.0.0.0 storeconfig.mistat.intl.xiaomi.com
+0.0.0.0 sdks.stats-locations.com
+0.0.0.0 www.stats-locations.com
+0.0.0.0 stats-locations.com
+0.0.0.0 sdk.api.kaffnet.com
+0.0.0.0 support.walkme.com
+0.0.0.0 stats.abbi.io
+0.0.0.0 statistics.005.free-counters.co.uk
+0.0.0.0 statistics.006.free-counters.co.uk
+0.0.0.0 statistics.007.free-counters.co.uk
+0.0.0.0 statistics.008.free-counters.co.uk
+0.0.0.0 statistics.11880.com
+0.0.0.0 statistics.2miners.com
+0.0.0.0 statistics.afasonline.com
+0.0.0.0 statistics.aldi-international.com
+0.0.0.0 statisticsapi.prod.vidible.tv
+0.0.0.0 statisticsapi-stage.vidible.tv
+0.0.0.0 statisticsapi.stage.vidible.tv
+0.0.0.0 statisticsapi.vidible.tv
+0.0.0.0 statistics.appjop.com
+0.0.0.0 statistics.crowdynews.com
+0.0.0.0 statistics-cyberpank.co.cc
+0.0.0.0 statistics.dev.aatkit.com
+0.0.0.0 statistics.elsevier.nl
+0.0.0.0 statistics.flurrydata.com
+0.0.0.0 statistics.klicktel.de
+0.0.0.0 statistics.krone.mindtake.com
+0.0.0.0 statistics.liusha.info
+0.0.0.0 statistics.mailerlite.com
+0.0.0.0 statisticsmaster.aatkit.com
+0.0.0.0 statistics.piwik.pro
+0.0.0.0 statistics.q42.nl
+0.0.0.0 statistics.raiffeisen.ch
+0.0.0.0 statistics.rbi-nl.com
+0.0.0.0 statistics.riskommunal.net
+0.0.0.0 statistics.tattermedia.com
+0.0.0.0 statistics.theonion.com
+0.0.0.0 statisticsv2.yinyuetai.com
+0.0.0.0 statistics.wibiya.com
+0.0.0.0 statistics.ziegeler-medien.de
+0.0.0.0 sa.unionstatistics.com
+0.0.0.0 sandstorm-statistics-player-api.newworldinteractive.com
+0.0.0.0 statisticsmanager.com
+0.0.0.0 statistics.maps.me
+0.0.0.0 samplicio.us
+0.0.0.0 saltarsmart.biz
+0.0.0.0 salmonads.com
+0.0.0.0 salesrep.ai
+0.0.0.0 salesmachine.io
+0.0.0.0 scout-cdn.salesloft.com
+0.0.0.0 salesloft.com
+0.0.0.0 www.saleshandy.com
+0.0.0.0 saleshandy.com
+0.0.0.0 salesflare.com
+0.0.0.0 salemove.com
+0.0.0.0 saberfeedback.com
+0.0.0.0 www.safedk.com
+0.0.0.0 safedk.com
 0.0.0.0 server-99-84-168-106.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-168-40.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-168-22.ord52.r.cloudfront.net
@@ -8339,6 +8569,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tracker.adotmob.com
+0.0.0.0 trnox.com
+0.0.0.0 tracking.trnox.com
+0.0.0.0 tkrecorder.aotter.net
+0.0.0.0 tktracker.aotter.net
+0.0.0.0 tw-img.vpon.com
+0.0.0.0 tracking.intl.miui.com
+0.0.0.0 tracking.i2w.io
+0.0.0.0 tealand.cmcm.com
+0.0.0.0 tr.snapchat.com
+0.0.0.0 track.tenjin.io
+0.0.0.0 tag.demandbase.com
+0.0.0.0 tblsft.com
+0.0.0.0 www.tableau.com
+0.0.0.0 tableau.com
+0.0.0.0 test-statistics.2miners.com
+0.0.0.0 tag.unionstatistics.com
+0.0.0.0 terminus.com
+0.0.0.0 terminus.services
+0.0.0.0 tribl.io
+0.0.0.0 track.salesflare.com
+0.0.0.0 trackjs.com
 0.0.0.0 tag.brandcdn.com
 0.0.0.0 thescopeto.com    # Email Marketing
 0.0.0.0 tpx.everquote.com
@@ -8614,6 +8866,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 uodoo.com
+0.0.0.0 ustat.batmobi.net
+0.0.0.0 ue.flipboard.com
+0.0.0.0 unionstatistics.com
 0.0.0.0 utility.arcgisonline.com
 0.0.0.0 ultrawave.everquote.com
 0.0.0.0 www.updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
@@ -8715,6 +8971,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vjs.zencdn.net
+0.0.0.0 www.verytraffic.com
+0.0.0.0 verytraffic.com
 0.0.0.0 v.printfriendly.com
 0.0.0.0 verifyability.com
 0.0.0.0 vipadsnet.info
@@ -8802,6 +9061,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 web-analytics-collector.thescore.com
+0.0.0.0 wzrkt.com
+0.0.0.0 walkme.com
+0.0.0.0 www2.pardot.com
+0.0.0.0 www.website.ws
+0.0.0.0 website.ws
+0.0.0.0 wwwsaltarsmartbi-a.akamaihd.net
 0.0.0.0 ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 w0.ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 ws405018g4ng1g.w0.ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
@@ -9038,6 +9304,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yume.com
+0.0.0.0 yext.com
 0.0.0.0 yciuyrlw.ml
 0.0.0.0 y5342kc6h4a0bu.wdcb-1.dtj2lavc.gq
 0.0.0.0 yahu99.vip
@@ -9165,6 +9433,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zencdn.net
+0.0.0.0 zeus.ad.intl.xiaomi.com
 0.0.0.0 zoneprotect.com   # Fake AV
 0.0.0.0 zoneprotect-antispyware.updatestar.com    # Fake AV
 0.0.0.0 zoneprotect-antispyware.soft32.com    # Fake AV
@@ -9514,6 +9784,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 52211b02c9874cb5b3c1108e8cf66aa0.js.ubembed.com
+0.0.0.0 4953649.fls.doubleclick.net
+0.0.0.0 2miners.com
+0.0.0.0 6sc.co
+0.0.0.0 1d9jx8pre4-flywheel.netdna-ssl.com
 0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 14.0.190.35.bc.googleusercontent.com
@@ -25583,6 +25858,7 @@ mail.yahoo.com###theAd
 facebook.com##.ego_section
 facebook.com##.ego_unit_container
 www.facebook.com##div[data-xt]
+||api.facebook.com/method/logging.clientevent
 www.2-spyware.com##.attention-button-box-v2.attention-button-box
 www.2-spyware.com##.win.attention-button-box-note
 www.2-spyware.com##.attention-button-header
