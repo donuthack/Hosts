@@ -797,6 +797,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 a23-4-119-50.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-211-100-64.deploy.static.akamaitechnologies.com
+0.0.0.0 a184-24-98-128.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-211-100-93.deploy.static.akamaitechnologies.com
 0.0.0.0 az725175.vo.msecnd.net
 0.0.0.0 ajax.aspnetcdn.com
 0.0.0.0 api.lever.co
@@ -4359,6 +4363,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ec2-34-237-207-190.compute-1.amazonaws.com
+0.0.0.0 ec2-54-210-199-150.compute-1.amazonaws.com
 0.0.0.0 www.easypcoptimizer.com   # a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
 0.0.0.0 easypcoptimizer.com   # a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
 0.0.0.0 exnrcvcamcoj.net
@@ -4560,6 +4566,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 www.footprint.net
+0.0.0.0 footprint.net
 0.0.0.0 f1-na.readspeaker.com
 0.0.0.0 fontawesome.com
 0.0.0.0 fave.co
@@ -7581,6 +7589,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 server-99-84-168-106.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-40.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-22.ord52.r.cloudfront.net
 0.0.0.0 server.arcgisonline.com
 0.0.0.0 static.arcgis.com
 0.0.0.0 services.arcgisonline.com
@@ -9281,6 +9292,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 8.253.197.116
+0.0.0.0 8.252.21.252
+0.0.0.0 23.211.102.56
+0.0.0.0 34.196.185.141
+0.0.0.0 192.48.236.11
 0.0.0.0 151.101.185.208
 0.0.0.0 23.21.114.151
 0.0.0.0 54.243.33.91
@@ -9498,6 +9514,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 14.0.190.35.bc.googleusercontent.com
 0.0.0.0 1.65.on.180613.msn.com
 0.0.0.0 9p41uvlef4ikrt.wffc-e635.yciuyrlw.ml
