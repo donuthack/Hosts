@@ -797,6 +797,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 at.alicdn.com
 0.0.0.0 analytics-tracker.thescore.com
 0.0.0.0 axa.cloud.ca.com
 0.0.0.0 analytics-events.inshorts.com
@@ -3441,6 +3442,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 count.taobao.com
 0.0.0.0 cdn.atomex.net
 0.0.0.0 cloudmobi.net
 0.0.0.0 cloud.ca.com
@@ -4102,6 +4104,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dn-growing.qbox.me
 0.0.0.0 dc.webtrends.com
 0.0.0.0 dmx.sync.yume.com
 0.0.0.0 sdk.stats-locations.com
@@ -4451,6 +4454,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ec2-52-52-20-190.us-west-1.compute.amazonaws.com
+0.0.0.0 ec2-52-8-36-75.us-west-1.compute.amazonaws.com
+0.0.0.0 ec2-54-70-167-173.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-191-171-252.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-186-107-166.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-187-40-214.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-214-190-141.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-54-149-182-239.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-50-16-201-196.compute-1.amazonaws.com
+0.0.0.0 ec2-54-200-118-139.us-west-2.compute.amazonaws.com
+0.0.0.0 ec2-52-204-242-179.compute-1.amazonaws.com
+0.0.0.0 ec2-54-243-81-33.compute-1.amazonaws.com
+0.0.0.0 ec2-52-209-211-18.eu-west-1.compute.amazonaws.com
+0.0.0.0 ec2-13-115-224-40.ap-northeast-1.compute.amazonaws.com
+0.0.0.0 ec2-52-49-94-193.eu-west-1.compute.amazonaws.com
 0.0.0.0 ec2-52-201-36-191.compute-1.amazonaws.com
 0.0.0.0 event.allnews.uodoo.com
 0.0.0.0 elephantdata.net
@@ -4828,6 +4846,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gm.mmstat.com
+0.0.0.0 gw.alicdn.com
 0.0.0.0 global.cmcs.service.amazonsilk.com
 0.0.0.0 gcm.ksmobile.com
 0.0.0.0 geoinfo.i2w.io
@@ -5045,6 +5065,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 https-68-142-75-6.ord.llnw.net
 0.0.0.0 www.herokucdn.com
 0.0.0.0 herokucdn.com
 0.0.0.0 hisimply.com
@@ -5192,6 +5213,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 img.alicdn.com
 0.0.0.0 ios.bugly.qq.com
 0.0.0.0 instabug.com
 0.0.0.0 inputs.alooma.com
@@ -6526,6 +6548,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 log.mmstat.com
+0.0.0.0 localhost.wwbizsrv.alibaba.com
 0.0.0.0 logger.cloudmobi.net
 0.0.0.0 log.go2s.co
 0.0.0.0 login.jabmo.com
@@ -6652,6 +6676,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mmstat.com
 0.0.0.0 measuread.com
 0.0.0.0 metok.sys.miui.com
 0.0.0.0 m.vpadn.com
@@ -7538,6 +7563,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 qbox.me
 0.0.0.0 queue.statistics.aatkit.com
 0.0.0.0 qd415nvph4f8gm.w115a-4194.jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 qsearch-a.akamaihd.net
@@ -7757,6 +7783,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 server-99-84-170-208.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-78.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-168-68.ord52.r.cloudfront.net
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 sync.yume.com
@@ -8571,6 +8599,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 taobao.com
+0.0.0.0 tce.alicdn.com
 0.0.0.0 tracker.adotmob.com
 0.0.0.0 trnox.com
 0.0.0.0 tracking.trnox.com
@@ -9063,6 +9093,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 ws.mmstat.com
+0.0.0.0 world.taobao.com
 0.0.0.0 web-analytics-collector.thescore.com
 0.0.0.0 wzrkt.com
 0.0.0.0 walkme.com
@@ -9564,6 +9596,19 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 203.119.244.124
+0.0.0.0 74.125.138.156
+0.0.0.0 64.233.177.156
+0.0.0.0 64.233.177.149
+0.0.0.0 52.52.20.190
+0.0.0.0 52.8.36.75
+0.0.0.0 68.142.75.6
+0.0.0.0 47.88.65.115
+0.0.0.0 54.70.167.173
+0.0.0.0 106.75.98.168
+0.0.0.0 103.114.177.32
+0.0.0.0 52.204.242.179
+0.0.0.0 104.244.42.195
 0.0.0.0 99.84.168.68
 0.0.0.0 216.58.195.1
 0.0.0.0 31.13.93.19
