@@ -4451,6 +4451,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ec2-52-201-36-191.compute-1.amazonaws.com
 0.0.0.0 event.allnews.uodoo.com
 0.0.0.0 elephantdata.net
 0.0.0.0 episerver.net
@@ -7756,6 +7757,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 server-99-84-168-68.ord52.r.cloudfront.net
 0.0.0.0 sessions.bugsnag.com
 0.0.0.0 sync.yume.com
 0.0.0.0 sync.adotmob.com
@@ -9562,6 +9564,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 99.84.168.68
+0.0.0.0 216.58.195.1
+0.0.0.0 31.13.93.19
 0.0.0.0 74.125.21.95
 0.0.0.0 8.253.197.116
 0.0.0.0 8.252.21.252
