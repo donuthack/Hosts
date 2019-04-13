@@ -797,6 +797,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 app-ab33.marketo.com
 0.0.0.0 at.alicdn.com
 0.0.0.0 analytics-tracker.thescore.com
 0.0.0.0 axa.cloud.ca.com
@@ -2708,6 +2709,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 branding.revenuestripe.com
 0.0.0.0 bugsnag.com
 0.0.0.0 bugly.qq.com
 0.0.0.0 batmobi.net
@@ -3442,6 +3444,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.engine.addroplet.com
 0.0.0.0 count.taobao.com
 0.0.0.0 cdn.atomex.net
 0.0.0.0 cloudmobi.net
@@ -3942,6 +3945,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 connectivitycheck.android.com
 0.0.0.0 concertads-configs.vox-cdn.com
 0.0.0.0 clicksor.net
+0.0.0.0 www.connatix.com
 0.0.0.0 connatix.com
 0.0.0.0 cdn.districtm.io
 0.0.0.0 clients.google.com
@@ -4104,6 +4108,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.digitalprivacyalert.org    # Not privacy friendly as advertised
+0.0.0.0 digitalprivacyalert.org    # Not privacy friendly as advertised
+0.0.0.0 digitaloptout.com
+0.0.0.0 digitaldsp.com
+0.0.0.0 diamondmedia.click
+0.0.0.0 diamondeal.click
+0.0.0.0 www.df-srv.de
+0.0.0.0 df-srv.de
+0.0.0.0 www.deployads.com
+0.0.0.0 deployads.com
+0.0.0.0 departapp.com
 0.0.0.0 dn-growing.qbox.me
 0.0.0.0 dc.webtrends.com
 0.0.0.0 dmx.sync.yume.com
@@ -4454,6 +4469,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 embed.tempestpremium.com
 0.0.0.0 ec2-52-52-20-190.us-west-1.compute.amazonaws.com
 0.0.0.0 ec2-52-8-36-75.us-west-1.compute.amazonaws.com
 0.0.0.0 ec2-54-70-167-173.us-west-2.compute.amazonaws.com
@@ -4846,6 +4862,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gateway.peer5.com
+0.0.0.0 graphigo.prd.dlive.tv
 0.0.0.0 gm.mmstat.com
 0.0.0.0 gw.alicdn.com
 0.0.0.0 global.cmcs.service.amazonsilk.com
@@ -7010,6 +7028,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 newsmaxfeednetwork.com
 0.0.0.0 npario-inc.net
 0.0.0.0 ninja.onap.io
 0.0.0.0 ns7.statisticsmanager.com
@@ -7240,6 +7259,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 powerinbox.com
 0.0.0.0 pps-log.op-mobile.opera.com
 0.0.0.0 parse-ppom-prod.herokuapp.com
 0.0.0.0 ploy.batmobi.net
@@ -7610,6 +7630,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 recorder-assets-staging.getjaco.com
+0.0.0.0 rapi-staging.getjaco.com
+0.0.0.0 rapi.getjaco.com
+0.0.0.0 revenuestripe.com
+0.0.0.0 rs-stripe.com
+0.0.0.0 rddywd.com
+0.0.0.0 resize.rbl.ms
+0.0.0.0 rbl.ms
 0.0.0.0 rich-content.thescore.com
 0.0.0.0 www.rhythmone.com
 0.0.0.0 rhythmone.com
@@ -7783,6 +7811,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 www.searchlock.com    # Not privacy friendly as advertised
+0.0.0.0 searchlock.com    # Not privacy friendly as advertised
+0.0.0.0 www.saymedia.com
+0.0.0.0 saymedia.com
+0.0.0.0 static-42andpark-com.s3.amazonaws.com
+0.0.0.0 streamstats.prd.dlive.tv
+0.0.0.0 stripe.rs-stripe.com
 0.0.0.0 server-99-84-170-208.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-168-78.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-168-68.ord52.r.cloudfront.net
@@ -8599,6 +8634,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tempestpremium.com
+0.0.0.0 tsyndicate.com
 0.0.0.0 taobao.com
 0.0.0.0 tce.alicdn.com
 0.0.0.0 tracker.adotmob.com
@@ -9835,6 +9872,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 40nuggets.com
 0.0.0.0 52211b02c9874cb5b3c1108e8cf66aa0.js.ubembed.com
 0.0.0.0 4953649.fls.doubleclick.net
 0.0.0.0 2miners.com
@@ -26222,6 +26260,25 @@ www.iobit.com##.call-bubble > h2
 www.iobit.com##.tel
 www.iobit.com##.device
 www.iobit.com##.call-bubble
+bigleaguepolitics.com##.powerinbox.pi_117376
+bigleaguepolitics.com###mvp-content-main > h2
+bigleaguepolitics.com##.mvp-cont-read-wrap
+bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list
+bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list > .nolightbox.essb_link_linkedin.essb_item
+bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list > .nolightbox.essb_link_flipboard.essb_item
+bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list > .nolightbox.essb_link_twitter.essb_item
+bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list > .nolightbox.essb_link_facebook.essb_item
+bigleaguepolitics.com##.essbasc-popup-content
+bigleaguepolitics.com##.ifklicked-subscribe-form-below
+bigleaguepolitics.com###enhancedtextwidget-15 > .widget-text.textwidget
+bigleaguepolitics.com##.powerinbox.pi_117377
+bigleaguepolitics.com###revere-report-widget
+bigleaguepolitics.com###enhancedtextwidget-13
+bigleaguepolitics.com##.fb-xfbml-parse-ignore
+bigleaguepolitics.com###enhancedtextwidget-30
+bigleaguepolitics.com##.if-signup-sidebar.ifklicked-subscribe-form
+bigleaguepolitics.com###enhancedtextwidget-24 > .widget-text.textwidget
+||bigleaguepolitics.com/wp-content/uploads/2018/11/Whatfinger250x250.jpg
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
@@ -26406,6 +26463,8 @@ _Affiliate
 /ajax/mercury/change_read_status.php
 /ajax/messaging/typ.php
 /mtiFontTrackingCode.js
+/__utm.gif
+/_utm.gif
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
