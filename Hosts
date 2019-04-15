@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,516 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Saturday, April 13, 2019
+# Last Updated on Monday, April 15, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,42 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 airpr.disqus.com
+0.0.0.0 airpr.com
+0.0.0.0 analytics.maxgetmore.com
+0.0.0.0 affiliates.genealogybank.com
+0.0.0.0 allbanks.live
+0.0.0.0 ads.td.com
+0.0.0.0 adserver.gamesvillage.it
+0.0.0.0 adsvids.com
+0.0.0.0 associatedbank.d1.sc.omtrdc.net
+0.0.0.0 ads.mybanktracker.com
+0.0.0.0 accstandardbank.d1.sc.omtrdc.net
+0.0.0.0 ads8.bangkokpost.co.th
+0.0.0.0 www.adspeed.com
+0.0.0.0 adspeed.com
+0.0.0.0 adtech.fr
+0.0.0.0 ads.veoh.com
+0.0.0.0 api.applifier.com
+0.0.0.0 applifier.com
+0.0.0.0 adserver.myownemail.com
+0.0.0.0 advertorial.uat.imdserve.com
+0.0.0.0 appload.ingest.eu.crittercism.com
+0.0.0.0 achievement.crittercism.com
+0.0.0.0 app.crittercism.com
+0.0.0.0 api.eu.crittercism.com
+0.0.0.0 apps.crittercism.com
+0.0.0.0 apm.eu.crittercism.com
+0.0.0.0 apm.crittercism.com
+0.0.0.0 ams.crittercism.com
+0.0.0.0 app.eu.crittercism.com
+0.0.0.0 android.userflows.ingest.crittercism.com
+0.0.0.0 api.crittercism.com
+0.0.0.0 *-android.appload.ingest.crittercism.com
+0.0.0.0 android.appload.ingest.crittercism.com
+0.0.0.0 appload.ingest.crittercism.com
+0.0.0.0 www.apteligent.com
+0.0.0.0 apteligent.com
 0.0.0.0 app-ab33.marketo.com
 0.0.0.0 at.alicdn.com
 0.0.0.0 analytics-tracker.thescore.com
@@ -2709,6 +2745,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 banners.loylty.com
+0.0.0.0 banki.mirtesen.ru
+0.0.0.0 bank-12.ads.mp.mydas.mobi
+0.0.0.0 bannerbank.ru
+0.0.0.0 b1img.com
+0.0.0.0 backups.crittercism.com
 0.0.0.0 branding.revenuestripe.com
 0.0.0.0 bugsnag.com
 0.0.0.0 bugly.qq.com
@@ -3444,6 +3486,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 coldwellbanker.net
+0.0.0.0 canadaeastr-notifyp.svc.ms
+0.0.0.0 www.centro.net
+0.0.0.0 centro.net
+0.0.0.0 class-to-sdk-mapper.crittercism.com
+0.0.0.0 crittercism.com
 0.0.0.0 cdn.engine.addroplet.com
 0.0.0.0 count.taobao.com
 0.0.0.0 cdn.atomex.net
@@ -4108,6 +4156,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 databank.actonsoftware.com
+0.0.0.0 data.fctablesmedia.com
+0.0.0.0 data.crittercism.com
+0.0.0.0 datatracker.crittercism.com
 0.0.0.0 www.digitalprivacyalert.org    # Not privacy friendly as advertised
 0.0.0.0 digitalprivacyalert.org    # Not privacy friendly as advertised
 0.0.0.0 digitaloptout.com
@@ -4469,6 +4521,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 europebanks.live
+0.0.0.0 *.event.ingest.crittercism.com
+0.0.0.0 event.ingest.crittercism.com
+0.0.0.0 error.crittercism.com
 0.0.0.0 embed.tempestpremium.com
 0.0.0.0 ec2-52-52-20-190.us-west-1.compute.amazonaws.com
 0.0.0.0 ec2-52-8-36-75.us-west-1.compute.amazonaws.com
@@ -4692,6 +4748,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 flychatbot.fatergroup.com
+0.0.0.0 fast.hsbcbankcmb.demdex.net
+0.0.0.0 follow.maribacaberita.com
+0.0.0.0 fctablesmedia.com
+0.0.0.0 files.crittercism.com
 0.0.0.0 fdplttrk.com
 0.0.0.0 free-website-traffic.com
 0.0.0.0 free-website-statistics.com
@@ -4862,6 +4923,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.crittercism.com
 0.0.0.0 gateway.peer5.com
 0.0.0.0 graphigo.prd.dlive.tv
 0.0.0.0 gm.mmstat.com
@@ -5083,6 +5145,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hittail.com
 0.0.0.0 https-68-142-75-6.ord.llnw.net
 0.0.0.0 www.herokucdn.com
 0.0.0.0 herokucdn.com
@@ -5231,6 +5294,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 www.iperceptions.com
+0.0.0.0 iperceptions.com
+0.0.0.0 ios.network.ingest.crittercism.com
+0.0.0.0 invite.crittercism.com
+0.0.0.0 integrations.crittercism.com
+0.0.0.0 ios.userflows.ingest.crittercism.com
+0.0.0.0 *-.ios.appload.ingest.crittercism.com
+0.0.0.0 ios.appload.ingest.crittercism.com
+0.0.0.0 ingest.crittercism.com
 0.0.0.0 img.alicdn.com
 0.0.0.0 ios.bugly.qq.com
 0.0.0.0 instabug.com
@@ -5744,6 +5816,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 j.pioneeringad.com
 0.0.0.0 www.jabmo.com
 0.0.0.0 jabmo.com
 0.0.0.0 jquerystatistics.org
@@ -5816,6 +5889,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 kano.is
 0.0.0.0 ksmobile.com
 0.0.0.0 ksmobile.net
 0.0.0.0 www.kontera.com
@@ -6566,6 +6640,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 1.tl813.com
+0.0.0.0 www.loylty.com
+0.0.0.0 loylty.com
+0.0.0.0 lp.news-subscribe.com
+0.0.0.0 www.lppolice.com
+0.0.0.0 lppolice.com
+0.0.0.0 lucky1.marketo.com
 0.0.0.0 log.mmstat.com
 0.0.0.0 localhost.wwbizsrv.alibaba.com
 0.0.0.0 logger.cloudmobi.net
@@ -6694,6 +6775,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 media.loylty.com
+0.0.0.0 www.maxgetmore.com
+0.0.0.0 maxgetmore.com
+0.0.0.0 mirtesen.ru
+0.0.0.0 www.medialink.mobi
+0.0.0.0 medialink.mobi
+0.0.0.0 media.inq.com
+0.0.0.0 mcdn.adspeed.com
+0.0.0.0 matchflow56-government.t.domdex.com
+0.0.0.0 maps.gstatic.com
+0.0.0.0 maribacaberita.com
+0.0.0.0 myownemail.com
+0.0.0.0 mtree.com
+0.0.0.0 mybuys-homeandgarden.t.domdex.com
+0.0.0.0 marketing.crittercism.com
 0.0.0.0 mmstat.com
 0.0.0.0 measuread.com
 0.0.0.0 metok.sys.miui.com
@@ -7028,6 +7124,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 notification.crittercism.com
+0.0.0.0 network.ingest.crittercism.com
 0.0.0.0 newsmaxfeednetwork.com
 0.0.0.0 npario-inc.net
 0.0.0.0 ninja.onap.io
@@ -7143,6 +7241,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 onclusive.com
+0.0.0.0 oascentral.medbroadcast.com
 0.0.0.0 omni-ads.omni.news
 0.0.0.0 opt.vpadn.com
 0.0.0.0 out.sh
@@ -7259,6 +7359,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 px.airpr.com
+0.0.0.0 paypal.112.2o7.net
+0.0.0.0 protection.lspolice.com
+0.0.0.0 pioneeringad.com
+0.0.0.0 pixel-sync.sitescout.com
+0.0.0.0 pages.crittercism.com
 0.0.0.0 powerinbox.com
 0.0.0.0 pps-log.op-mobile.opera.com
 0.0.0.0 parse-ppom-prod.herokuapp.com
@@ -7630,6 +7736,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 www.rewardz.sbi
+0.0.0.0 rewardz.sbi
+0.0.0.0 reporter001.adtech.fr
+0.0.0.0 rtb.sitescout.com
+0.0.0.0 reports.crittercism.com
 0.0.0.0 recorder-assets-staging.getjaco.com
 0.0.0.0 rapi-staging.getjaco.com
 0.0.0.0 rapi.getjaco.com
@@ -7811,6 +7922,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 statebankrewardz.com
+0.0.0.0 solocpm.com
+0.0.0.0 stat.discogs.com
+0.0.0.0 www.svc.ms
+0.0.0.0 svc.ms
+0.0.0.0 www.sitescout.com
+0.0.0.0 sitescout.com
+0.0.0.0 smartlinksv2.mediresource.com
+0.0.0.0 static.fctablesmedia.com
+0.0.0.0 status.crittercism.com
 0.0.0.0 www.searchlock.com    # Not privacy friendly as advertised
 0.0.0.0 searchlock.com    # Not privacy friendly as advertised
 0.0.0.0 www.saymedia.com
@@ -8634,6 +8755,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tl813.com
+0.0.0.0 t.solocpm.com
+0.0.0.0 track.saygames.io
+0.0.0.0 track.mobi-haterz.com
+0.0.0.0 treassurebank.org
+0.0.0.0 track.legalbaitpass.com
+0.0.0.0 t2-1.p-cdn.us
+0.0.0.0 txn-report.crittercism.com
+0.0.0.0 txn.ingest.eu.crittercism.com
+0.0.0.0 txn-service.crittercism.com
+0.0.0.0 test_pages.crittercism.com
+0.0.0.0 txn.ingest.crittercism.com
 0.0.0.0 tempestpremium.com
 0.0.0.0 tsyndicate.com
 0.0.0.0 taobao.com
@@ -8935,6 +9068,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 unitedoverseasbanklimited.demdex.net
+0.0.0.0 usbankmetrics.insight.omtrdc.net
+0.0.0.0 userflows.ingest.crittercism.com
 0.0.0.0 uodoo.com
 0.0.0.0 ustat.batmobi.net
 0.0.0.0 ue.flipboard.com
@@ -9130,6 +9266,18 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www1.crittercism.com
+0.0.0.0 www2.crittercism.com
+0.0.0.0 www3.crittercism.com
+0.0.0.0 www4.crittercism.com
+0.0.0.0 www5.crittercism.com
+0.0.0.0 www6.crittercism.com
+0.0.0.0 www7.crittercism.com
+0.0.0.0 www8.crittercism.com
+0.0.0.0 www9.crittercism.com
+0.0.0.0 www10.crittercism.com
+0.0.0.0 www11.crittercism.com
+0.0.0.0 www12.crittercism.com
 0.0.0.0 ws.mmstat.com
 0.0.0.0 world.taobao.com
 0.0.0.0 web-analytics-collector.thescore.com
@@ -9335,6 +9483,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xand.mixhits.com
+0.0.0.0 xbs.mtree.com
 0.0.0.0 x.du1k.com
 0.0.0.0 xs.mochiads.com
 0.0.0.0 xslt.mediaplex.com
@@ -9375,6 +9525,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yorkstatebank.com.102.112.2o7.net
 0.0.0.0 yume.com
 0.0.0.0 yext.com
 0.0.0.0 yciuyrlw.ml
@@ -9872,6 +10023,70 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 105627.hittail.com
+0.0.0.0 5-7-2-ios.error.ingest.crittercism.com
+0.0.0.0 5-9-1-android.error.ingest.crittercism.com
+0.0.0.0 5-8-2-ios.appload.ingest.crittercism.com
+0.0.0.0 5-8-1-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-8-0-ios.event.ingest.crittercism.com
+0.0.0.0 5-8-2-ios.event.ingest.crittercism.com
+0.0.0.0 5-8-0-ios.network.ingest.crittercism.com
+0.0.0.0 5-7-0-rc-1-ios.error.ingest.crittercism.com
+0.0.0.0 5-7-1-ios.network.ingest.crittercism.com
+0.0.0.0 5-8-1-ios.event.ingest.crittercism.com
+0.0.0.0 5-8-10-android.userflows.ingest.crittercism.com
+0.0.0.0 5-6-6-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-6-7-ios.appload.ingest.crittercism.com
+0.0.0.0 5-7-2-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-9-0-ios.network.ingest.crittercism.com
+0.0.0.0 5-8-11-rc3-android.appload.ingest.crittercism.com
+0.0.0.0 5-8-10-android.appload.ingest.crittercism.com
+0.0.0.0 5-6-8-ios.network.ingest.crittercism.com
+0.0.0.0 5-8-10-android.error.ingest.crittercism.com
+0.0.0.0 5-6-7-ios.error.ingest.crittercism.com
+0.0.0.0 5-9-0-ios.appload.ingest.crittercism.com
+0.0.0.0 5-6-6-ios.error.ingest.crittercism.com
+0.0.0.0 5-6-8-ios.error.ingest.crittercism.com
+0.0.0.0 5-9-1-ios.network.ingest.crittercism.com
+0.0.0.0 5-6-8-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-8-0-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-8-2-ios.network.ingest.crittercism.com
+0.0.0.0 5-8-11-rc3-android.error.ingest.crittercism.com
+0.0.0.0 5-9-1-android.network.ingest.crittercism.com
+0.0.0.0 5-8-1-ios.appload.ingest.crittercism.com
+0.0.0.0 5-7-3-ios.network.ingest.crittercism.com
+0.0.0.0 5-7-2-ios.appload.ingest.crittercism.com
+0.0.0.0 5-9-2-android.appload.ingest.crittercism.com
+0.0.0.0 5-9-1-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-6-7-ios.network.ingest.crittercism.com
+0.0.0.0 5-8-11-rc3-android.userflows.ingest.crittercism.com
+0.0.0.0 5-7-1-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-6-6-ios.appload.ingest.crittercism.com
+0.0.0.0 5-8-10-android.network.ingest.crittercism.com
+0.0.0.0 5-8-10-android.event.ingest.crittercism.com
+0.0.0.0 5-8-2-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-9-0-ios.event.ingest.crittercism.com
+0.0.0.0 5-8-11-rc2-android.appload.ingest.crittercism.com
+0.0.0.0 5-8-1-ios.network.ingest.crittercism.com
+0.0.0.0 5-6-7-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-8-0-ios.appload.ingest.crittercism.com
+0.0.0.0 5-7-2-ios.network.ingest.crittercism.com
+0.0.0.0 5-9-1-ios.event.ingest.crittercism.com
+0.0.0.0 5-7-1-ios.appload.ingest.crittercism.com
+0.0.0.0 5-7-3-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-6-8-ios.appload.ingest.crittercism.com
+0.0.0.0 5-9-1-android.userflows.ingest.crittercism.com
+0.0.0.0 5-8-11-rc3-android.event.ingest.crittercism.com
+0.0.0.0 5-9-0-ios.userflows.ingest.crittercism.com
+0.0.0.0 5-6-6-ios.network.ingest.crittercism.com
+0.0.0.0 5-7-0-rc-1-ios.appload.ingest.crittercism.com
+0.0.0.0 5-7-0-rc-1-ios.network.ingest.crittercism.com
+0.0.0.0 5-7-1-ios.error.ingest.crittercism.com
+0.0.0.0 5-7-3-ios.error.ingest.crittercism.com
+0.0.0.0 5-9-1-android.appload.ingest.crittercism.com
+0.0.0.0 5-9-1-ios.appload.ingest.crittercism.com
+0.0.0.0 5-7-3-ios.appload.ingest.crittercism.com
+0.0.0.0 5-8-10.android.appload.ingest.crittercism.com
 0.0.0.0 40nuggets.com
 0.0.0.0 52211b02c9874cb5b3c1108e8cf66aa0.js.ubembed.com
 0.0.0.0 4953649.fls.doubleclick.net
@@ -26467,6 +26682,8 @@ _Affiliate
 /_utm.gif
 /get_video_info/
 /generate_204/
+/images/public/devicead/t/r/a/m/daartpralbumart_500W_500H.jpg
+/util/mediaserverPublicRedirect.jsp
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
