@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,516 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Monday, April 15, 2019
+# Last Updated on Tuesday, April 16, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 app.vidyard.test
+0.0.0.0 app-staging-audit.vidyard.com
+0.0.0.0 app-staging.vidyard.com
+0.0.0.0 app.vidyard.com
+0.0.0.0 app-ab18.marketo.com
+0.0.0.0 api.vidyard.com
+0.0.0.0 www.awinfosys.com
+0.0.0.0 awinfosys.com
+0.0.0.0 appsqa.texthelp.com
+0.0.0.0 app-ab21.marketo.com
+0.0.0.0 app.elev.io
 0.0.0.0 airpr.disqus.com
 0.0.0.0 airpr.com
 0.0.0.0 analytics.maxgetmore.com
@@ -2745,6 +2756,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 blockbuster.vidyard.test
+0.0.0.0 www.browsealoud.com
+0.0.0.0 browsealoud.com
 0.0.0.0 banners.loylty.com
 0.0.0.0 banki.mirtesen.ru
 0.0.0.0 bank-12.ads.mp.mydas.mobi
@@ -2957,6 +2971,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 banners.mobile.yandex.net
 0.0.0.0 brahe.apptimize.com
 0.0.0.0 www.bugherd.com
+0.0.0.0 bugherd.com
 0.0.0.0 btstatic.com
 0.0.0.0 bathyliticlkjwh.download
 0.0.0.0 buysellads.com
@@ -3486,6 +3501,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn-www.oktopost.com
+0.0.0.0 cdn.elev.io
+0.0.0.0 cdn.userreport.com
 0.0.0.0 coldwellbanker.net
 0.0.0.0 canadaeastr-notifyp.svc.ms
 0.0.0.0 www.centro.net
@@ -4156,6 +4174,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.diigo.cn
+0.0.0.0 diigo.cn
+0.0.0.0 dj4s2jtd2j0x.statuspage.io
+0.0.0.0 dc.ads.linkedin.com
 0.0.0.0 databank.actonsoftware.com
 0.0.0.0 data.fctablesmedia.com
 0.0.0.0 data.crittercism.com
@@ -4434,6 +4456,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 dl6fh5ptkejqa.cloudfront.net
 0.0.0.0 d3ukzap5f2wa8d.cloudfront.net
 0.0.0.0 d1zkz3k4cclnv6.cloudfront.net
 0.0.0.0 d3g06ond37uyun.cloudfront.net
@@ -4521,6 +4544,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 elev.io
 0.0.0.0 europebanks.live
 0.0.0.0 *.event.ingest.crittercism.com
 0.0.0.0 event.ingest.crittercism.com
@@ -4748,6 +4772,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 farm2.zynga.com
 0.0.0.0 flychatbot.fatergroup.com
 0.0.0.0 fast.hsbcbankcmb.demdex.net
 0.0.0.0 follow.maribacaberita.com
@@ -4923,6 +4948,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gmnail.com
 0.0.0.0 go.crittercism.com
 0.0.0.0 gateway.peer5.com
 0.0.0.0 graphigo.prd.dlive.tv
@@ -5145,6 +5171,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hubs.vidyard.com
 0.0.0.0 hittail.com
 0.0.0.0 https-68-142-75-6.ord.llnw.net
 0.0.0.0 www.herokucdn.com
@@ -6775,6 +6802,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mtusvideo.hubs.vidyard.com
+0.0.0.0 m.stripe.network
+0.0.0.0 www.mergeagency.com
+0.0.0.0 mergeagency.com
 0.0.0.0 media.loylty.com
 0.0.0.0 www.maxgetmore.com
 0.0.0.0 maxgetmore.com
@@ -7124,6 +7155,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 ngineered.co.uk
 0.0.0.0 notification.crittercism.com
 0.0.0.0 network.ingest.crittercism.com
 0.0.0.0 newsmaxfeednetwork.com
@@ -7241,6 +7273,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 www.oktopost.com
+0.0.0.0 oktopost.com
 0.0.0.0 onclusive.com
 0.0.0.0 oascentral.medbroadcast.com
 0.0.0.0 omni-ads.omni.news
@@ -7359,6 +7393,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 preview.diigo.com
 0.0.0.0 px.airpr.com
 0.0.0.0 paypal.112.2o7.net
 0.0.0.0 protection.lspolice.com
@@ -7922,6 +7957,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 share-staging.viewedit.com
+0.0.0.0 share.viewedit.test
+0.0.0.0 static.oktopost.com
+0.0.0.0 stripe.network
 0.0.0.0 statebankrewardz.com
 0.0.0.0 solocpm.com
 0.0.0.0 stat.discogs.com
@@ -8755,6 +8794,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 toolbar3.diigo.cn
+0.0.0.0 texthelpkentico.blob.core.windows.net
 0.0.0.0 tl813.com
 0.0.0.0 t.solocpm.com
 0.0.0.0 track.saygames.io
@@ -9068,6 +9109,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 www.upandup.agency
+0.0.0.0 upandup.agency
+0.0.0.0 userreport.com
 0.0.0.0 unitedoverseasbanklimited.demdex.net
 0.0.0.0 usbankmetrics.insight.omtrdc.net
 0.0.0.0 userflows.ingest.crittercism.com
@@ -9176,6 +9220,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 viewedit.com
+0.0.0.0 viewedit.test
 0.0.0.0 vjs.zencdn.net
 0.0.0.0 www.verytraffic.com
 0.0.0.0 verytraffic.com
@@ -9655,6 +9701,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zoom.zynga.com
 0.0.0.0 zencdn.net
 0.0.0.0 zeus.ad.intl.xiaomi.com
 0.0.0.0 zoneprotect.com   # Fake AV
@@ -26850,3 +26897,4 @@ _Affiliate
 ##.facebook
 ##.google
 ##div:nth-of-type(1) > .in-article-ad
+##.unsupported-browser
