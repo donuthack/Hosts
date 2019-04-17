@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,781 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Tuesday, April 16, 2019
+# Last Updated on Wednesday, April 16, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 ads.deliverimp.com
+0.0.0.0 aorta.clickagy.com
 0.0.0.0 app.vidyard.test
 0.0.0.0 app-staging-audit.vidyard.com
 0.0.0.0 app-staging.vidyard.com
@@ -2756,6 +2758,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bmstu-iu9.github.io
+0.0.0.0 blue-js.github.io
+0.0.0.0 black-js.github.io
 0.0.0.0 blockbuster.vidyard.test
 0.0.0.0 www.browsealoud.com
 0.0.0.0 browsealoud.com
@@ -2955,7 +2960,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 b.ads1.msn.com
 0.0.0.0 browser-update.org
 0.0.0.0 bestfwdservice.com
-0.0.0.0 bh.contextweb.com
 0.0.0.0 b.6sc.co
 0.0.0.0 b.ads2.msads.net
 0.0.0.0 banner.casinotropez.com
@@ -3501,6 +3505,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cryweb.github.io
+0.0.0.0 cmp-cdn.ghostery.com
+0.0.0.0 cdn.petametrics.com
+0.0.0.0 cootlogix.com
+0.0.0.0 www.clickagy.com
+0.0.0.0 clickagy.com
+0.0.0.0 c.deployads.com
 0.0.0.0 cdn-www.oktopost.com
 0.0.0.0 cdn.elev.io
 0.0.0.0 cdn.userreport.com
@@ -4174,6 +4185,28 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dynya-may.github.io
+0.0.0.0 www.dropbox.com.login.energycenterri.com
+0.0.0.0 www.dropbox.com-ogin.butterandwhiskey.com
+0.0.0.0 www.dropbox.com.secure.gok-fen.net
+0.0.0.0 www.dropbox.com.verify.ifmn.org
+0.0.0.0 www.dropboxinci.yolasite.com
+0.0.0.0 www.dropboxs.us
+0.0.0.0 dropboxx51.tk
+0.0.0.0 dropbox.com.login.energycenterri.com
+0.0.0.0 dropbox.com-ogin.butterandwhiskey.com
+0.0.0.0 dropbox.com.secure.gok-fen.net
+0.0.0.0 dropbox.com.verify.ifmn.org
+0.0.0.0 dropbox.eu.qualtrics.com
+0.0.0.0 dropboxinci.yolasite.com
+0.0.0.0 dropbox.royalgrace.co.za
+0.0.0.0 dropbox.scarabresearch.com
+0.0.0.0 dropboxs.us
+0.0.0.0 dropboxupload.com
+0.0.0.0 dl-debug.dropbox.comdsp.videostat.com
+0.0.0.0 dl-debug.dropbox.com
+0.0.0.0 d.ghostery.com
+0.0.0.0 deliverimp.com
 0.0.0.0 www.diigo.cn
 0.0.0.0 diigo.cn
 0.0.0.0 dj4s2jtd2j0x.statuspage.io
@@ -4544,6 +4577,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 eightmedia.github.io
 0.0.0.0 elev.io
 0.0.0.0 europebanks.live
 0.0.0.0 *.event.ingest.crittercism.com
@@ -4772,6 +4806,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fe.sitedataprocessing.com
 0.0.0.0 farm2.zynga.com
 0.0.0.0 flychatbot.fatergroup.com
 0.0.0.0 fast.hsbcbankcmb.demdex.net
@@ -4948,6 +4983,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.sonobi.com
+0.0.0.0 global.ib-ibi.com
 0.0.0.0 gmnail.com
 0.0.0.0 go.crittercism.com
 0.0.0.0 gateway.peer5.com
@@ -5321,6 +5358,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ib.mookie1.com
+0.0.0.0 ib-ibi.com
 0.0.0.0 www.iperceptions.com
 0.0.0.0 iperceptions.com
 0.0.0.0 ios.network.ingest.crittercism.com
@@ -6667,6 +6706,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 log.getdropbox.com
+0.0.0.0 lijit.com
 0.0.0.0 1.tl813.com
 0.0.0.0 www.loylty.com
 0.0.0.0 loylty.com
@@ -6802,6 +6843,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 marketing.dropbox.com
+0.0.0.0 mxptint.net
+0.0.0.0 mavencoalition.io
 0.0.0.0 mtusvideo.hubs.vidyard.com
 0.0.0.0 m.stripe.network
 0.0.0.0 www.mergeagency.com
@@ -7155,6 +7199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nui.media
 0.0.0.0 ngineered.co.uk
 0.0.0.0 notification.crittercism.com
 0.0.0.0 network.ingest.crittercism.com
@@ -7273,6 +7318,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 online.dropbox.com.reload.access.check.now.latrobevillage.com.au
+0.0.0.0 www.owneriq.net
+0.0.0.0 owneriq.net
 0.0.0.0 www.oktopost.com
 0.0.0.0 oktopost.com
 0.0.0.0 onclusive.com
@@ -7393,6 +7441,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 petametrics.com
+0.0.0.0 px.owneriq.net
 0.0.0.0 preview.diigo.com
 0.0.0.0 px.airpr.com
 0.0.0.0 paypal.112.2o7.net
@@ -7771,6 +7821,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rtclx.com
+0.0.0.0 rtb.nui.media
 0.0.0.0 www.rewardz.sbi
 0.0.0.0 rewardz.sbi
 0.0.0.0 reporter001.adtech.fr
@@ -7957,6 +8009,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 servebom.com
+0.0.0.0 www.s3xified.com
+0.0.0.0 s3xified.com
+0.0.0.0 slowplay.tv
+0.0.0.0 sitedataprocessing.com
+0.0.0.0 www.sovrn.com
+0.0.0.0 sovrn.com
+0.0.0.0 ssc.33across.com
 0.0.0.0 share-staging.viewedit.com
 0.0.0.0 share.viewedit.test
 0.0.0.0 static.oktopost.com
@@ -9109,6 +9169,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 uid.mavencoalition.io
 0.0.0.0 www.upandup.agency
 0.0.0.0 upandup.agency
 0.0.0.0 userreport.com
@@ -9220,6 +9281,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 videostat.com
+0.0.0.0 videohub.tv
 0.0.0.0 viewedit.com
 0.0.0.0 viewedit.test
 0.0.0.0 vjs.zencdn.net
@@ -9701,6 +9764,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 www.zorosrv.com
+0.0.0.0 zorosrv.com
 0.0.0.0 zoom.zynga.com
 0.0.0.0 zencdn.net
 0.0.0.0 zeus.ad.intl.xiaomi.com
@@ -10070,6 +10135,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 360yeild.com
+0.0.0.0 1rx.io
 0.0.0.0 105627.hittail.com
 0.0.0.0 5-7-2-ios.error.ingest.crittercism.com
 0.0.0.0 5-9-1-android.error.ingest.crittercism.com
