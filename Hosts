@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,781 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Wednesday, April 16, 2019
+# Last Updated on Thursday, April 18, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 www.adtextonline.org
+0.0.0.0 adtextonline.org
+0.0.0.0 adsvert.com
+0.0.0.0 adespresso.com
+0.0.0.0 a4.mylivechat.com
+0.0.0.0 adtrafficpro.info
+0.0.0.0 www.addurl.nu
+0.0.0.0 addurl.nu
 0.0.0.0 ads.deliverimp.com
 0.0.0.0 aorta.clickagy.com
 0.0.0.0 app.vidyard.test
@@ -3505,6 +3513,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 www.clixmarketing.com
+0.0.0.0 clixmarketing.com
+0.0.0.0 createsend.com
+0.0.0.0 css.createsend1.com
+0.0.0.0 createsend1.com
+0.0.0.0 cqcounter.com
 0.0.0.0 cryweb.github.io
 0.0.0.0 cmp-cdn.ghostery.com
 0.0.0.0 cdn.petametrics.com
@@ -4185,6 +4199,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 drumrollsolos.com
+0.0.0.0 dlcache.com
 0.0.0.0 dynya-may.github.io
 0.0.0.0 www.dropbox.com.login.energycenterri.com
 0.0.0.0 www.dropbox.com-ogin.butterandwhiskey.com
@@ -4490,6 +4506,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
 0.0.0.0 dl6fh5ptkejqa.cloudfront.net
+0.0.0.0 d10lpsik1i8c69.cloudfront.net
+0.0.0.0 d1hi41nc56pmug.cloudfront.net
 0.0.0.0 d3ukzap5f2wa8d.cloudfront.net
 0.0.0.0 d1zkz3k4cclnv6.cloudfront.net
 0.0.0.0 d3g06ond37uyun.cloudfront.net
@@ -4577,6 +4595,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 extremeleadprogram.com
+0.0.0.0 www.eztexting.com
+0.0.0.0 eztexting.com
 0.0.0.0 eightmedia.github.io
 0.0.0.0 elev.io
 0.0.0.0 europebanks.live
@@ -4806,6 +4827,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 www.fastleadads.com
+0.0.0.0 fastleadads.com
 0.0.0.0 fe.sitedataprocessing.com
 0.0.0.0 farm2.zynga.com
 0.0.0.0 flychatbot.fatergroup.com
@@ -5208,6 +5231,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 www.homebiz2020.com
+0.0.0.0 homebiz2020.com
+0.0.0.0 homebusinessourway.com
 0.0.0.0 hubs.vidyard.com
 0.0.0.0 hittail.com
 0.0.0.0 https-68-142-75-6.ord.llnw.net
@@ -5358,6 +5384,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 img.createsend1.com
 0.0.0.0 ib.mookie1.com
 0.0.0.0 ib-ibi.com
 0.0.0.0 www.iperceptions.com
@@ -5882,6 +5909,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 jammarketinginc.com
+0.0.0.0 js.createsend1.com
 0.0.0.0 j.pioneeringad.com
 0.0.0.0 www.jabmo.com
 0.0.0.0 jabmo.com
@@ -5955,6 +5984,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 www.kahuna.com
+0.0.0.0 kahuna.com
 0.0.0.0 kano.is
 0.0.0.0 ksmobile.com
 0.0.0.0 ksmobile.net
@@ -6706,6 +6737,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 ldynamicspublicapi.leadforensics.com
+0.0.0.0 leaddynamics.s3.amazonaws.com
+0.0.0.0 www.leadforensics.com
+0.0.0.0 leadforensics.com
 0.0.0.0 log.getdropbox.com
 0.0.0.0 lijit.com
 0.0.0.0 1.tl813.com
@@ -6843,6 +6878,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 www.mylivechat.com
+0.0.0.0 mylivechat.com
+0.0.0.0 www.marketing-mojo.com
+0.0.0.0 marketing-mojo.com
 0.0.0.0 marketing.dropbox.com
 0.0.0.0 mxptint.net
 0.0.0.0 mavencoalition.io
@@ -7199,6 +7238,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 newsinc.com
+0.0.0.0 nanohexstudio.com
+0.0.0.0 nextyourcontent.com
 0.0.0.0 nui.media
 0.0.0.0 ngineered.co.uk
 0.0.0.0 notification.crittercism.com
@@ -7441,6 +7483,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 www.profitfromfreeads.com
+0.0.0.0 profitfromfreeads.com
+0.0.0.0 pa.tool.domains
+0.0.0.0 p.jwpcdn.com
+0.0.0.0 plusone.google.com
+0.0.0.0 pulse.w3counter.com
+0.0.0.0 pingmyurl.com
+0.0.0.0 projectfreetextads.com
+0.0.0.0 www.pgmcdn.com
+0.0.0.0 pgmcdn.com
+0.0.0.0 popads-trustguard.cdn77-ssl.net
 0.0.0.0 petametrics.com
 0.0.0.0 px.owneriq.net
 0.0.0.0 preview.diigo.com
@@ -7691,6 +7744,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 pingdom.net
 0.0.0.0 popads.media
 0.0.0.0 parkingcrew.net
+0.0.0.0 www.popads.net
 0.0.0.0 popads.net
 0.0.0.0 px.adhigh.net
 0.0.0.0 pstatp.com
@@ -7821,6 +7875,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 realtextads.com
+0.0.0.0 rejectclick.com
 0.0.0.0 rtclx.com
 0.0.0.0 rtb.nui.media
 0.0.0.0 www.rewardz.sbi
@@ -8009,6 +8065,17 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 www.simpletextadz.com
+0.0.0.0 simpletextadz.com
+0.0.0.0 snapengage2018.wpengine.com
+0.0.0.0 www.snapengage.com
+0.0.0.0 snapengage.com
+0.0.0.0 s3.mylivechat.com
+0.0.0.0 secure.leadforensics.com
+0.0.0.0 www.solounion.com
+0.0.0.0 solounion.com
+0.0.0.0 ssl.cqcounter.com
+0.0.0.0 static.popads.net
 0.0.0.0 servebom.com
 0.0.0.0 www.s3xified.com
 0.0.0.0 s3xified.com
@@ -8854,6 +8921,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 trafficg.com
+0.0.0.0 tctm.co
+0.0.0.0 www.txt180.com
+0.0.0.0 txt180.com
+0.0.0.0 www.textlinksads.com
+0.0.0.0 textlinksads.com
+0.0.0.0 textadsgoldmine.com
+0.0.0.0 www.trustlogo.com
+0.0.0.0 trustlogo.com
+0.0.0.0 trafficmaxnow.com
+0.0.0.0 www.traffictunes.com
+0.0.0.0 traffictunes.com
+0.0.0.0 twitter-badges.s3.amazonaws.com
+0.0.0.0 tap-nexus.appspot.com
 0.0.0.0 toolbar3.diigo.cn
 0.0.0.0 texthelpkentico.blob.core.windows.net
 0.0.0.0 tl813.com
@@ -9281,6 +9362,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 v3track.leadforensics.com
+0.0.0.0 www.videopal.io
+0.0.0.0 videopal.io
+0.0.0.0 videopal.me
+0.0.0.0 www.voodooparking.com
+0.0.0.0 voodooparking.com
 0.0.0.0 videostat.com
 0.0.0.0 videohub.tv
 0.0.0.0 viewedit.com
@@ -9375,6 +9462,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www.worldprofit.com
+0.0.0.0 worldprofit.com
+0.0.0.0 worldprofittube.com
+0.0.0.0 worldprofitadvertising.com
+0.0.0.0 www.wordstream.com
+0.0.0.0 wordstream.com
+0.0.0.0 weblogtracker.net
+0.0.0.0 www.webhostingcounter.com
+0.0.0.0 webhostingcounter.com
 0.0.0.0 www1.crittercism.com
 0.0.0.0 www2.crittercism.com
 0.0.0.0 www3.crittercism.com
@@ -9764,6 +9860,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zz.cqcounter.com
+0.0.0.0 www.ztrf.net
+0.0.0.0 ztrf.net
+0.0.0.0 ztrack.net
+0.0.0.0 zt.zeroredirect1.com
+0.0.0.0 www.zeroredirect.com
+0.0.0.0 zeroredirect.com
+0.0.0.0 zeroredirect1.com
+0.0.0.0 zt.1rx.io
+0.0.0.0 zorbikala.com
 0.0.0.0 www.zorosrv.com
 0.0.0.0 zorosrv.com
 0.0.0.0 zoom.zynga.com
@@ -10135,6 +10241,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 73477.tctm.co
+0.0.0.0 42skyfiregce-vimeo.akamaized.net
+0.0.0.0 1zz.cqcounter.com
+0.0.0.0 1us.cqcounter.com
+0.0.0.0 0.nextyourcontent.com
 0.0.0.0 360yeild.com
 0.0.0.0 1rx.io
 0.0.0.0 105627.hittail.com
@@ -26608,6 +26719,11 @@ bigleaguepolitics.com###enhancedtextwidget-30
 bigleaguepolitics.com##.if-signup-sidebar.ifklicked-subscribe-form
 bigleaguepolitics.com###enhancedtextwidget-24 > .widget-text.textwidget
 ||bigleaguepolitics.com/wp-content/uploads/2018/11/Whatfinger250x250.jpg
+||videopal.me/embed/SDreNtpKSsEb?referer=
+||trafficg.com/images/BottomCol2Back2.gif
+trafficg.com##.Center.Back2 > tbody > tr > td:nth-of-type(3)
+||trafficg.com/images/BottomCol1Back.gif
+trafficg.com##.Center.Back2 > tbody > tr > td:nth-of-type(1)
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
@@ -26798,6 +26914,9 @@ _Affiliate
 /generate_204/
 /images/public/devicead/t/r/a/m/daartpralbumart_500W_500H.jpg
 /util/mediaserverPublicRedirect.jsp
+/images/BottomCol2Back2.gif
+/aboutadtextonline.php.html
+/getadpack.html
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
@@ -26965,3 +27084,5 @@ _Affiliate
 ##.google
 ##div:nth-of-type(1) > .in-article-ad
 ##.unsupported-browser
+##.mylivechat_main
+##.mylivechat_expanded
