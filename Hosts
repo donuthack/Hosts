@@ -797,6 +797,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 app-us1.com
+0.0.0.0 ads.adthrive.com
+0.0.0.0 a.optnmstr.com
+0.0.0.0 app-sj04.marketo.com
+0.0.0.0 app-ab14.marketo.com
+0.0.0.0 www.avmws.com
+0.0.0.0 avmws.com
+0.0.0.0 app-sj21.marketo.com
+0.0.0.0 ans0.t-online.hu
+0.0.0.0 ans1.t-online.hu
+0.0.0.0 ans1.tiscali.nl
+0.0.0.0 ans2.tiscali.nl
+0.0.0.0 ans3.tiscali.nl
+0.0.0.0 ads.vidz4fun.com
 0.0.0.0 ads.scifi.com
 0.0.0.0 audienceinsights.net
 0.0.0.0 adsrv.ea.com
@@ -2769,6 +2783,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 bugsnag.8x8.com
+0.0.0.0 bangaltech.blogspot.com
 0.0.0.0 bmstu-iu9.github.io
 0.0.0.0 blue-js.github.io
 0.0.0.0 black-js.github.io
@@ -3516,6 +3532,23 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 ct.pinterest.com
+0.0.0.0 cdn.honey.io
+0.0.0.0 conversations.app-us1.com
+0.0.0.0 cdn.ttgtmedia.com
+0.0.0.0 cdn.avmws.com
+0.0.0.0 cloud.maptiler.com
+0.0.0.0 cdn0.forter.com
+0.0.0.0 cdn1.forter.com
+0.0.0.0 cdn2.forter.com
+0.0.0.0 cdn3.forter.com
+0.0.0.0 cdn4.forter.com
+0.0.0.0 cdn1.f-cdn.com
+0.0.0.0 www.contentstack.com
+0.0.0.0 www.contentstack.io
+0.0.0.0 contentstack.com
+0.0.0.0 contentstack.io
+0.0.0.0 coolchura.blogspot.com   # Web RTC Tracking
 0.0.0.0 www.clixmarketing.com
 0.0.0.0 clixmarketing.com
 0.0.0.0 createsend.com
@@ -4202,6 +4235,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 d35u1vg1q28b3w.cloudfront.net
+0.0.0.0 discuz.gtimg.cn
+0.0.0.0 www.danchimviet.info   # Web RTC Tracking
+0.0.0.0 danchimviet.info   # Web RTC Tracking
+0.0.0.0 darkness.su
 0.0.0.0 drumrollsolos.com
 0.0.0.0 dlcache.com
 0.0.0.0 dynya-may.github.io
@@ -4598,6 +4636,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 edge-oculus-shv-01-frt3.fbcdn.net
+0.0.0.0 edge-mqtt-shv-01-frt3.facebook.com
+0.0.0.0 edge-star-shv-01-frt3.facebook.com
 0.0.0.0 extremeleadprogram.com
 0.0.0.0 www.eztexting.com
 0.0.0.0 eztexting.com
@@ -4830,6 +4871,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 freegeoip.klokantech.com
 0.0.0.0 www.fastleadads.com
 0.0.0.0 fastleadads.com
 0.0.0.0 fe.sitedataprocessing.com
@@ -5009,6 +5051,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 go.techtarget.com
+0.0.0.0 www.googlecommerce.com
+0.0.0.0 googlecommerce.com
+0.0.0.0 gtimg.cn    # Numbers 2252646423 / Do They Mean Something?
 0.0.0.0 graphigostream.prd.dlive.tv
 0.0.0.0 gosredirector.ea.com
 0.0.0.0 geoip.tnt-ea.com
@@ -5389,6 +5435,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 images.contentstack.io
 0.0.0.0 ingest.machinify.com
 0.0.0.0 img.createsend1.com
 0.0.0.0 ib.mookie1.com
@@ -6743,6 +6790,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 liadm.com
+0.0.0.0 linksprotection.com
+0.0.0.0 listrakbi.com
 0.0.0.0 ldynamicspublicapi.leadforensics.com
 0.0.0.0 leaddynamics.s3.amazonaws.com
 0.0.0.0 www.leadforensics.com
@@ -6884,6 +6934,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 media.ttgtmedia.com
+0.0.0.0 www.maptiler.com
+0.0.0.0 maptiler.com
 0.0.0.0 www.machinify.com
 0.0.0.0 machinify.com
 0.0.0.0 mangler1.generals.ea.com
@@ -7250,6 +7303,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 netzathleten-media.de
 0.0.0.0 newsharecounts.com
 0.0.0.0 nds-network-nav.ea.com
 0.0.0.0 www.nordicpartner-ea.com
@@ -7376,6 +7430,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 optnmstr.com
 0.0.0.0 online.dropbox.com.reload.access.check.now.latrobevillage.com.au
 0.0.0.0 www.owneriq.net
 0.0.0.0 owneriq.net
@@ -7499,6 +7554,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 prism.app-us1.com
+0.0.0.0 www.powerreviews.com
+0.0.0.0 powerreviews.com
 0.0.0.0 public.newsharecounts.com
 0.0.0.0 prod.trendemon.com
 0.0.0.0 www.profitfromfreeads.com
@@ -7893,6 +7951,13 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rp.liadm.com
+0.0.0.0 www.reactful.com
+0.0.0.0 reactful.com
+0.0.0.0 www.rondom.ir
+0.0.0.0 rondom.ir
+0.0.0.0 www.rootech.ir
+0.0.0.0 rootech.ir
 0.0.0.0 realtextads.com
 0.0.0.0 rejectclick.com
 0.0.0.0 rtclx.com
@@ -8083,6 +8148,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 s.adadapter.netzathleten-media.de
+0.0.0.0 sp-js-releases.s3.amazonaws.com
+0.0.0.0 seal.digicert.com
+0.0.0.0 s.joinhoney.com
 0.0.0.0 sourcepoint.mgr.consensu.org
 0.0.0.0 static.audienceinsights.net
 0.0.0.0 servserv.generals.ea.com
@@ -8942,6 +9011,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 trackcmp.net
+0.0.0.0 totschooling.activehosted.com
+0.0.0.0 trk.techtarget.com
+0.0.0.0 www.techtarget.com
+0.0.0.0 techtarget.com
+0.0.0.0 ttgtmedia.com
+0.0.0.0 t.freelancer.com
+0.0.0.0 t-online.hu
 0.0.0.0 trendemon.com
 0.0.0.0 theme.zdassets.com
 0.0.0.0 trafficg.com
@@ -9273,6 +9350,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 ui.powerreviews.com
 0.0.0.0 uid.mavencoalition.io
 0.0.0.0 www.upandup.agency
 0.0.0.0 upandup.agency
@@ -9385,6 +9463,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 visitor.reactful.com
+0.0.0.0 vcc-na7b.8x8.com
 0.0.0.0 v3track.leadforensics.com
 0.0.0.0 www.videopal.io
 0.0.0.0 videopal.io
@@ -9485,6 +9565,48 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 ww0.linksprotection.com
+0.0.0.0 ww1.linksprotection.com
+0.0.0.0 ww2.linksprotection.com
+0.0.0.0 ww3.linksprotection.com
+0.0.0.0 ww4.linksprotection.com
+0.0.0.0 ww5.linksprotection.com
+0.0.0.0 ww6.linksprotection.com
+0.0.0.0 ww7.linksprotection.com
+0.0.0.0 ww8.linksprotection.com
+0.0.0.0 ww9.linksprotection.com
+0.0.0.0 ww10.linksprotection.com
+0.0.0.0 ww11.linksprotection.com
+0.0.0.0 ww12.linksprotection.com
+0.0.0.0 ww13.linksprotection.com
+0.0.0.0 ww14.linksprotection.com
+0.0.0.0 ww15.linksprotection.com
+0.0.0.0 ww16.linksprotection.com
+0.0.0.0 ww17.linksprotection.com
+0.0.0.0 ww18.linksprotection.com
+0.0.0.0 ww19.linksprotection.com
+0.0.0.0 ww20.linksprotection.com
+0.0.0.0 ww21.linksprotection.com
+0.0.0.0 ww22.linksprotection.com
+0.0.0.0 ww23.linksprotection.com
+0.0.0.0 ww24.linksprotection.com
+0.0.0.0 ww25.linksprotection.com
+0.0.0.0 ww26.linksprotection.com
+0.0.0.0 ww27.linksprotection.com
+0.0.0.0 ww28.linksprotection.com
+0.0.0.0 ww29.linksprotection.com
+0.0.0.0 ww30.linksprotection.com
+0.0.0.0 ww31.linksprotection.com
+0.0.0.0 ww32.linksprotection.com
+0.0.0.0 ww33.linksprotection.com
+0.0.0.0 ww34.linksprotection.com
+0.0.0.0 ww35.linksprotection.com
+0.0.0.0 ww36.linksprotection.com
+0.0.0.0 ww37.linksprotection.com
+0.0.0.0 ww38.linksprotection.com
+0.0.0.0 webglearth.com
+0.0.0.0 wfpscripts.homeunix.com
+0.0.0.0 webconversiononline.com   # Web RTC Tracking
 0.0.0.0 w.soundcloud.com
 0.0.0.0 www.worldprofit.com
 0.0.0.0 worldprofit.com
@@ -9754,6 +9876,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 yaspsd.ir   # Web RTC Tracking
 0.0.0.0 yorkstatebank.com.102.112.2o7.net
 0.0.0.0 yume.com
 0.0.0.0 yext.com
@@ -10026,6 +10149,101 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 94.245.121.253
+0.0.0.0 65.55.44.108
+0.0.0.0 192.168.1.1
+0.0.0.0 192.168.1.255
+0.0.0.0 65.52.108.92
+0.0.0.0 64.4.54.254
+0.0.0.0 65.55.252.43
+0.0.0.0 65.52.108.29
+0.0.0.0 207.46.101.29
+0.0.0.0 207.46.7.252
+0.0.0.0 64.4.54.253
+0.0.0.0 204.79.197.200
+0.0.0.0 23.74.8.99
+0.0.0.0 23.74.8.80
+0.0.0.0 65.52.108.103
+0.0.0.0 134.170.165.251
+0.0.0.0 23.67.60.73
+0.0.0.0 65.52.108.27
+0.0.0.0 157.56.96.58
+0.0.0.0 134.170.51.247
+0.0.0.0 23.67.60.97
+0.0.0.0 134.170.165.253
+0.0.0.0 65.55.138.126
+0.0.0.0 131.253.40.53
+0.0.0.0 134.170.58.118
+0.0.0.0 131.253.61.100
+0.0.0.0 104.73.92.149
+0.0.0.0 157.56.96.123
+0.0.0.0 157.56.77.139
+0.0.0.0 65.55.138.111 	
+0.0.0.0 40.117.145.132 	
+0.0.0.0 131.253.40.59
+0.0.0.0 23.210.63.75
+0.0.0.0 65.55.113.13
+0.0.0.0 134.170.51.246
+0.0.0.0 134.170.58.190
+0.0.0.0 191.232.80.58
+0.0.0.0 207.46.114.58
+0.0.0.0 23.193.225.197
+0.0.0.0 134.170.115.62
+0.0.0.0 104.73.160.51
+0.0.0.0 104.73.160.16
+0.0.0.0 23.210.5.16
+0.0.0.0 157.56.77.138
+0.0.0.0 131.253.61.84
+0.0.0.0 23.217.138.11
+0.0.0.0 23.193.230.88
+0.0.0.0 198.41.214.183
+0.0.0.0 13.107.3.128
+0.0.0.0 198.41.215.186
+0.0.0.0 198.41.214.186
+0.0.0.0 198.41.214.184
+0.0.0.0 104.73.143.160
+0.0.0.0 157.55.240.220
+0.0.0.0 198.41.215.185
+0.0.0.0 72.21.81.200
+0.0.0.0 23.193.251.132
+0.0.0.0 23.193.236.70
+0.0.0.0 72.21.91.8
+0.0.0.0 23.217.138.25
+0.0.0.0 131.253.61.96
+0.0.0.0 131.253.61.82
+0.0.0.0 23.102.17.214
+0.0.0.0 23.101.156.198
+0.0.0.0 23.74.9.198
+0.0.0.0 104.73.153.9
+0.0.0.0 23.74.9.217
+0.0.0.0 23.9.123.27
+0.0.0.0 94.245.121.254
+0.0.0.0 23.101.187.68
+0.0.0.0 104.91.188.21
+0.0.0.0 131.253.61.66
+0.0.0.0 23.217.138.122
+0.0.0.0 23.101.115.193
+0.0.0.0 198.41.215.182
+0.0.0.0 198.41.214.187
+0.0.0.0 23.210.48.42
+0.0.0.0 104.208.28.54
+0.0.0.0 23.217.138.18
+0.0.0.0 23.193.238.90
+0.0.0.0 23.217.138.90
+0.0.0.0 23.217.138.43
+0.0.0.0 23.67.60.65
+0.0.0.0 65.52.236.160
+0.0.0.0 157.56.144.215
+0.0.0.0 23.96.212.225
+0.0.0.0 157.56.144.216
+0.0.0.0 65.52.108.252
+0.0.0.0 65.52.108.94
+0.0.0.0 134.170.179.87
+0.0.0.0 104.73.138.217
+0.0.0.0 104.91.166.82
+0.0.0.0 104.73.160.58
+0.0.0.0 23.217.138.97
+0.0.0.0 137.116.74.190
 0.0.0.0 203.119.244.124
 0.0.0.0 74.125.138.156
 0.0.0.0 64.233.177.156
@@ -10265,6 +10483,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 6ce7249d60697cecb233-c2e8d057e491f208ac0828a45bc359e1.ssl.cf1.rackcdn.com
+0.0.0.0 286c5cf3b035.cdn4.forter.com
+0.0.0.0 52blackberry.com
+0.0.0.0 8x8.inbenta.com
 0.0.0.0 73477.tctm.co
 0.0.0.0 42skyfiregce-vimeo.akamaized.net
 0.0.0.0 1zz.cqcounter.com
