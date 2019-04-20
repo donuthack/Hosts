@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,781 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Thursday, April 18, 2019
+# Last Updated on Saturday, April 20, 2019
 
 # Testing Periscope
 0.0.0.0 www.periscopedata.com
@@ -797,6 +797,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 ads.scifi.com
+0.0.0.0 audienceinsights.net
+0.0.0.0 adsrv.ea.com
 0.0.0.0 www.adtextonline.org
 0.0.0.0 adtextonline.org
 0.0.0.0 adsvert.com
@@ -5006,12 +5009,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 graphigostream.prd.dlive.tv
+0.0.0.0 gosredirector.ea.com
+0.0.0.0 geoip.tnt-ea.com
 0.0.0.0 go.sonobi.com
 0.0.0.0 global.ib-ibi.com
 0.0.0.0 gmnail.com
 0.0.0.0 go.crittercism.com
 0.0.0.0 gateway.peer5.com
-0.0.0.0 graphigo.prd.dlive.tv
 0.0.0.0 gm.mmstat.com
 0.0.0.0 gw.alicdn.com
 0.0.0.0 global.cmcs.service.amazonsilk.com
@@ -5384,6 +5389,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ingest.machinify.com
 0.0.0.0 img.createsend1.com
 0.0.0.0 ib.mookie1.com
 0.0.0.0 ib-ibi.com
@@ -6878,6 +6884,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 www.machinify.com
+0.0.0.0 machinify.com
+0.0.0.0 mangler1.generals.ea.com
+0.0.0.0 mangler2.generals.ea.com
+0.0.0.0 mangler3.generals.ea.com
+0.0.0.0 mangler4.generals.ea.com
 0.0.0.0 www.mylivechat.com
 0.0.0.0 mylivechat.com
 0.0.0.0 www.marketing-mojo.com
@@ -7238,6 +7250,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 newsharecounts.com
+0.0.0.0 nds-network-nav.ea.com
+0.0.0.0 www.nordicpartner-ea.com
+0.0.0.0 nordicpartner-ea.com
 0.0.0.0 newsinc.com
 0.0.0.0 nanohexstudio.com
 0.0.0.0 nextyourcontent.com
@@ -7483,6 +7499,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 public.newsharecounts.com
+0.0.0.0 prod.trendemon.com
 0.0.0.0 www.profitfromfreeads.com
 0.0.0.0 profitfromfreeads.com
 0.0.0.0 pa.tool.domains
@@ -8065,6 +8083,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sourcepoint.mgr.consensu.org
+0.0.0.0 static.audienceinsights.net
+0.0.0.0 servserv.generals.ea.com
 0.0.0.0 www.simpletextadz.com
 0.0.0.0 simpletextadz.com
 0.0.0.0 snapengage2018.wpengine.com
@@ -8921,6 +8942,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 trendemon.com
+0.0.0.0 theme.zdassets.com
 0.0.0.0 trafficg.com
 0.0.0.0 tctm.co
 0.0.0.0 www.txt180.com
@@ -9462,6 +9485,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 w.soundcloud.com
 0.0.0.0 www.worldprofit.com
 0.0.0.0 worldprofit.com
 0.0.0.0 worldprofittube.com
