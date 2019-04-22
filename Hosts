@@ -797,6 +797,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 www.allfacebook.com
+0.0.0.0 allfacebook.com
+0.0.0.0 aspmx.googlemail.com
+0.0.0.0 aspmx1.googlemail.com
+0.0.0.0 aspmx2.googlemail.com
+0.0.0.0 aspmx3.googlemail.com
+0.0.0.0 api.rhinosupport.com
+0.0.0.0 autobinarysignals.com
 0.0.0.0 app-us1.com
 0.0.0.0 ads.adthrive.com
 0.0.0.0 a.optnmstr.com
@@ -2783,6 +2791,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 btx.dtag.de
 0.0.0.0 bugsnag.8x8.com
 0.0.0.0 bangaltech.blogspot.com
 0.0.0.0 bmstu-iu9.github.io
@@ -3532,6 +3541,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cbtb.clickbank.net
 0.0.0.0 ct.pinterest.com
 0.0.0.0 cdn.honey.io
 0.0.0.0 conversations.app-us1.com
@@ -4235,6 +4245,82 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dw.com.com
+0.0.0.0 dns.btx.dtag.de
+0.0.0.0 dns*.btx.dtag.de
+0.0.0.0 dns00.btx.dtag.de
+0.0.0.0 dns01.btx.dtag.de
+0.0.0.0 dns02.btx.dtag.de
+0.0.0.0 dns03.btx.dtag.de
+0.0.0.0 dns04.btx.dtag.de
+0.0.0.0 dn*.t-ipnet.de
+0.0.0.0 dns.t-ipnet.de
+0.0.0.0 dns1.t-ipnet.de
+0.0.0.0 dns2.t-ipnet.de
+0.0.0.0 dns3.t-ipnet.de
+0.0.0.0 dns4.t-ipnet.de
+0.0.0.0 dns5.t-ipnet.de
+0.0.0.0 dns6.t-ipnet.de
+0.0.0.0 dns7.t-ipnet.de
+0.0.0.0 dns8.t-ipnet.de
+0.0.0.0 dns9.t-ipnet.de
+0.0.0.0 dns10.t-ipnet.de
+0.0.0.0 dns11.t-ipnet.de
+0.0.0.0 dns12.t-ipnet.de
+0.0.0.0 dns13.t-ipnet.de
+0.0.0.0 dns14.t-ipnet.de
+0.0.0.0 dns15.t-ipnet.de
+0.0.0.0 dns16.t-ipnet.de
+0.0.0.0 dns17.t-ipnet.de
+0.0.0.0 dns18.t-ipnet.de
+0.0.0.0 dns19.t-ipnet.de
+0.0.0.0 dns20.t-ipnet.de
+0.0.0.0 dns21.t-ipnet.de
+0.0.0.0 dns22.t-ipnet.de
+0.0.0.0 dns23.t-ipnet.de
+0.0.0.0 dns24.t-ipnet.de
+0.0.0.0 dns25.t-ipnet.de
+0.0.0.0 dns26.t-ipnet.de
+0.0.0.0 dns27.t-ipnet.de
+0.0.0.0 dns28.t-ipnet.de
+0.0.0.0 dns29.t-ipnet.de
+0.0.0.0 dns30.t-ipnet.de
+0.0.0.0 dns31.t-ipnet.de
+0.0.0.0 dns32.t-ipnet.de
+0.0.0.0 dns33.t-ipnet.de
+0.0.0.0 dns34.t-ipnet.de
+0.0.0.0 dns35.t-ipnet.de
+0.0.0.0 dns36.t-ipnet.de
+0.0.0.0 dns37.t-ipnet.de
+0.0.0.0 dns38.t-ipnet.de
+0.0.0.0 dns39.t-ipnet.de
+0.0.0.0 dns40.t-ipnet.de
+0.0.0.0 dns41.t-ipnet.de
+0.0.0.0 dns42.t-ipnet.de
+0.0.0.0 dns43.t-ipnet.de
+0.0.0.0 dns44.t-ipnet.de
+0.0.0.0 dns45.t-ipnet.de
+0.0.0.0 dns46.t-ipnet.de
+0.0.0.0 dns47.t-ipnet.de
+0.0.0.0 dns48.t-ipnet.de
+0.0.0.0 dns49.t-ipnet.de
+0.0.0.0 dns50.t-ipnet.de
+0.0.0.0 dns51.t-ipnet.de
+0.0.0.0 dns52.t-ipnet.de
+0.0.0.0 dns53.t-ipnet.de
+0.0.0.0 dns54.t-ipnet.de
+0.0.0.0 dns55.t-ipnet.de
+0.0.0.0 dtag.de
+0.0.0.0 dtag.net
+0.0.0.0 dns1.telekom.de
+0.0.0.0 dns2.telekom.de
+0.0.0.0 dns-06.ns.aol.com
+0.0.0.0 dns-07.ns.aol.com
+0.0.0.0 daha-07.ns.aol.com
+0.0.0.0 daha-02.ns.aol.com
+0.0.0.0 daha-01.ns.aol.com
+0.0.0.0 dns-02.ns.aol.com
+0.0.0.0 dns-01.ns.aol.com
 0.0.0.0 d35u1vg1q28b3w.cloudfront.net
 0.0.0.0 discuz.gtimg.cn
 0.0.0.0 www.danchimviet.info   # Web RTC Tracking
@@ -4547,6 +4633,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
 0.0.0.0 dl6fh5ptkejqa.cloudfront.net
+0.0.0.0 dw26xg4lubooo.cloudfront.net
 0.0.0.0 d10lpsik1i8c69.cloudfront.net
 0.0.0.0 d1hi41nc56pmug.cloudfront.net
 0.0.0.0 d3ukzap5f2wa8d.cloudfront.net
@@ -4636,6 +4723,21 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 ebs*.telekom.de
+0.0.0.0 ebs01.telekom.de
+0.0.0.0 ebs02.telekom.de
+0.0.0.0 ebs03.telekom.de
+0.0.0.0 ebs04.telekom.de
+0.0.0.0 ebs05.telekom.de
+0.0.0.0 ebs06.telekom.de
+0.0.0.0 ebs07.telekom.de
+0.0.0.0 ebs08.telekom.de
+0.0.0.0 ebs09.telekom.de
+0.0.0.0 ebs10.telekom.de
+0.0.0.0 ebs11.telekom.de
+0.0.0.0 ebs12.telekom.de
+0.0.0.0 ebs13.telekom.de
+0.0.0.0 ebs14.telekom.de
 0.0.0.0 edge-oculus-shv-01-frt3.fbcdn.net
 0.0.0.0 edge-mqtt-shv-01-frt3.facebook.com
 0.0.0.0 edge-star-shv-01-frt3.facebook.com
@@ -4871,6 +4973,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 forms.aweber.com
 0.0.0.0 freegeoip.klokantech.com
 0.0.0.0 www.fastleadads.com
 0.0.0.0 fastleadads.com
@@ -5435,6 +5538,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 ipnet.de
 0.0.0.0 images.contentstack.io
 0.0.0.0 ingest.machinify.com
 0.0.0.0 img.createsend1.com
@@ -6934,6 +7038,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 maxymiser.net
 0.0.0.0 media.ttgtmedia.com
 0.0.0.0 www.maptiler.com
 0.0.0.0 maptiler.com
@@ -7303,6 +7408,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 ns2.yipes.com
+0.0.0.0 ns1.google.com
+0.0.0.0 ns2.google.com
+0.0.0.0 ns3.google.com
+0.0.0.0 ns4.google.com
 0.0.0.0 netzathleten-media.de
 0.0.0.0 newsharecounts.com
 0.0.0.0 nds-network-nav.ea.com
@@ -7554,6 +7664,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pns.dtag.de
 0.0.0.0 prism.app-us1.com
 0.0.0.0 www.powerreviews.com
 0.0.0.0 powerreviews.com
@@ -7951,6 +8062,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 www.rhinosupport.com
+0.0.0.0 rhinosupport.com
 0.0.0.0 rp.liadm.com
 0.0.0.0 www.reactful.com
 0.0.0.0 reactful.com
@@ -8148,6 +8261,15 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 service.maxymiser.net
+0.0.0.0 secondary*.dtag.net
+0.0.0.0 secondary001.dtag.net
+0.0.0.0 secondary002.dtag.net
+0.0.0.0 secondary003.dtag.net
+0.0.0.0 secondary004.dtag.net
+0.0.0.0 secondary005.dtag.net
+0.0.0.0 secondary006.dtag.net
+0.0.0.0 secondary007.dtag.net
 0.0.0.0 s.adadapter.netzathleten-media.de
 0.0.0.0 sp-js-releases.s3.amazonaws.com
 0.0.0.0 seal.digicert.com
@@ -9011,6 +9133,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 *.t-ipnet.de
+0.0.0.0 t-ipnet.de
 0.0.0.0 trackcmp.net
 0.0.0.0 totschooling.activehosted.com
 0.0.0.0 trk.techtarget.com
@@ -9540,7 +9664,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
 0.0.0.0 visitor-track.com
-0.0.0.0 visit.webhosting.yahoo.com
+0.0.0.0 visit.webhosting.yahoo.com    # Pixel Tracing
 0.0.0.0 visitbox.de
 0.0.0.0 visitpath.com
 0.0.0.0 visual-pagerank.fr
@@ -9565,6 +9689,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 widgets.trustedshops.com
+0.0.0.0 walt.ns.cloudflare.com
 0.0.0.0 ww0.linksprotection.com
 0.0.0.0 ww1.linksprotection.com
 0.0.0.0 ww2.linksprotection.com
@@ -9876,6 +10002,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 www.yipes.com
+0.0.0.0 yipes.com
 0.0.0.0 yaspsd.ir   # Web RTC Tracking
 0.0.0.0 yorkstatebank.com.102.112.2o7.net
 0.0.0.0 yume.com
