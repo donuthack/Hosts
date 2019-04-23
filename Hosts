@@ -17,13 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,781 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Saturday, April 20, 2019
-
-# Testing Periscope
-0.0.0.0 www.periscopedata.com
-0.0.0.0 periscopedata.com
-0.0.0.0 app.periscopedata.com
-0.0.0.0 lp.periscopedata.com
+# Last Updated on Tuesday, April 23, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -797,6 +791,20 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 a1-22.akam.net
+0.0.0.0 a16-67.akam.net
+0.0.0.0 a12-65.akam.net
+0.0.0.0 a13-65.akam.net
+0.0.0.0 a3-64.akam.net
+0.0.0.0 a22-66.akam.net
+0.0.0.0 a1.fbi.gov
+0.0.0.0 a2.fbi.gov
+0.0.0.0 a3.fbi.gov
+0.0.0.0 a.in-addr-servers.arpa
+0.0.0.0 a23-218-212-69.deploy.static.akamaitechnologies.com
+0.0.0.0 a104-72-70-88.deploy.static.akamaitechnologies.com
+0.0.0.0 asn20940.cust.bdr04.syd03.nsw.vocus.net.au
+0.0.0.0 ash1.he.net
 0.0.0.0 www.allfacebook.com
 0.0.0.0 allfacebook.com
 0.0.0.0 aspmx.googlemail.com
@@ -1053,6 +1061,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.realify.net
 0.0.0.0 analytics.socialblade.com
 0.0.0.0 a248.e.akamai.net
+0.0.0.0 a1961.g.akamai.net
+0.0.0.0 a1856.g2.akamai.net
+0.0.0.0 a1621.g.akamai.net
 0.0.0.0 app.sourceknowledge.com
 0.0.0.0 admonkey.dapper.net
 0.0.0.0 adunit.chango.com
@@ -1568,7 +1579,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 adv-ettoday.cdn.hinet.net
 0.0.0.0 ad-ettoday.cdn.hinet.net
 0.0.0.0 adv.ettoday.net
-0.0.0.0 a0.awsstatic.com
+#0.0.0.0 a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
 0.0.0.0 adsapi.manhuaren.com
 0.0.0.0 adplex.co.kr
 0.0.0.0 adplex.com
@@ -2791,6 +2802,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 b.in-addr-servers.arpa
+0.0.0.0 bundle-101.bdr05.syd03.nsw.vocus.net.au
+0.0.0.0 bundle-101.cor02.lax01.ca.vocus.net
+0.0.0.0 bundle-100.cor01.lax01.ca.vocus.net
+0.0.0.0 bundle-102.cor01.sjc01.ca.vocus.net
+0.0.0.0 bundle-100.cor02.sjc01.ca.vocus.net
 0.0.0.0 btx.dtag.de
 0.0.0.0 bugsnag.8x8.com
 0.0.0.0 bangaltech.blogspot.com
@@ -3541,6 +3558,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cds21281.lon.llnw.net
+0.0.0.0 cds20424.lcy.llnw.net
+0.0.0.0 cds1269.lon.llnw.net
+0.0.0.0 cds1143.lon.llnw.net
+0.0.0.0 cds339.lcy.llnw.net
+0.0.0.0 clancy.spiceworks.com
+0.0.0.0 c.in-addr-servers.arpa
+0.0.0.0 ce.akamaiedge.net
 0.0.0.0 cbtb.clickbank.net
 0.0.0.0 ct.pinterest.com
 0.0.0.0 cdn.honey.io
@@ -4245,6 +4270,26 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.digimedia.com
+0.0.0.0 digimedia.com
+0.0.0.0 dsdn-gh1-uea01.nsa.gov
+0.0.0.0 dsdn-gh1-uea02.nsa.gov
+0.0.0.0 dsdn-gh1-uea03.nsa.gov
+0.0.0.0 dsdn-gh1-uea04.nsa.gov
+0.0.0.0 dsdn-gh1-uea05.nsa.gov
+0.0.0.0 dsdn-gh1-uea06.nsa.gov
+0.0.0.0 dsdn-gh1-uea07.nsa.gov
+0.0.0.0 dsdn-gh1-uea08.nsa.gov
+0.0.0.0 dsdn-gh1-uea09.nsa.gov
+0.0.0.0 dsdn-gh1-uea10.nsa.gov
+0.0.0.0 d.in-addr-servers.arpa
+0.0.0.0 dns2.vodafone.de
+0.0.0.0 dns1.vodafone.de
+0.0.0.0 dns2.vodafone.uk
+0.0.0.0 dns1.vodafone.uk
+0.0.0.0 dns2.vodafone.com
+0.0.0.0 dns1.vodafone.com
+0.0.0.0 dspb.akamaiedge.net
 0.0.0.0 dw.com.com
 0.0.0.0 dns.btx.dtag.de
 0.0.0.0 dns*.btx.dtag.de
@@ -4723,6 +4768,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 www.evi.com
+0.0.0.0 evi.com
+0.0.0.0 edge.spiceworksstatic.com
+0.0.0.0 emvm-gh1-uea01.nsa.gov
+0.0.0.0 emvm-gh1-uea02.nsa.gov
+0.0.0.0 emvm-gh1-uea03.nsa.gov
+0.0.0.0 emvm-gh1-uea04.nsa.gov
+0.0.0.0 emvm-gh1-uea05.nsa.gov
+0.0.0.0 emvm-gh1-uea06.nsa.gov
+0.0.0.0 emvm-gh1-uea07.nsa.gov
+0.0.0.0 emvm-gh1-uea08.nsa.gov
+0.0.0.0 emvm-gh1-uea09.nsa.gov
+0.0.0.0 emvm-gh1-uea10.nsa.gov
+0.0.0.0 e.in-addr-servers.arpa
+0.0.0.0 etracker.com
+0.0.0.0 e7502.ce.akamaiedge.net
+0.0.0.0 e7341.g.akamaiedge.net
+0.0.0.0 e8218.ce.akamaiedge.net
+0.0.0.0 e2835.dspb.akamaiedge.net
 0.0.0.0 ebs*.telekom.de
 0.0.0.0 ebs01.telekom.de
 0.0.0.0 ebs02.telekom.de
@@ -4973,6 +5037,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 f.in-addr-servers.arpa
+0.0.0.0 fra1.he.net
 0.0.0.0 forms.aweber.com
 0.0.0.0 freegeoip.klokantech.com
 0.0.0.0 www.fastleadads.com
@@ -5154,6 +5220,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 gala.spiceworks.com
+0.0.0.0 gekko.spiceworks.com
+0.0.0.0 g.akamai.net
 0.0.0.0 go.techtarget.com
 0.0.0.0 www.googlecommerce.com
 0.0.0.0 googlecommerce.com
@@ -5385,6 +5454,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 herald.spiceworks.com
+0.0.0.0 hti.pl
 0.0.0.0 www.homebiz2020.com
 0.0.0.0 homebiz2020.com
 0.0.0.0 homebusinessourway.com
@@ -5538,6 +5609,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 www.infonline.de
+0.0.0.0 infonline.de
 0.0.0.0 ipnet.de
 0.0.0.0 images.contentstack.io
 0.0.0.0 ingest.machinify.com
@@ -6894,6 +6967,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 lax1.he.net
+0.0.0.0 lax2.he.net
 0.0.0.0 liadm.com
 0.0.0.0 linksprotection.com
 0.0.0.0 listrakbi.com
@@ -7408,6 +7483,25 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 ns1.p31.dynect.net
+0.0.0.0 ns2.p31.dynect.net
+0.0.0.0 ns3.p31.dynect.net
+0.0.0.0 ns4.p31.dynect.net
+0.0.0.0 ns.infonline.de
+0.0.0.0 ns2.infonline.de
+0.0.0.0 ns3.infonline.de
+0.0.0.0 ns4.infonline.de
+0.0.0.0 ns1.digitalocean.com
+0.0.0.0 ns2.digitalocean.com
+0.0.0.0 ns3.digitalocean.com
+0.0.0.0 ns1.digimedia.com
+0.0.0.0 ns2.digimedia.com
+0.0.0.0 ns1.bankofamerica.com
+0.0.0.0 ns2.bankofamerica.com
+0.0.0.0 ns3.bankofamerica.com
+0.0.0.0 ns4.bankofamerica.com
+0.0.0.0 ns2.dc-ratingen.de
+0.0.0.0 ns2.vodafone.com
 0.0.0.0 ns2.yipes.com
 0.0.0.0 ns1.google.com
 0.0.0.0 ns2.google.com
@@ -7540,6 +7634,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 own-sh.disqus.com
 0.0.0.0 optnmstr.com
 0.0.0.0 online.dropbox.com.reload.access.check.now.latrobevillage.com.au
 0.0.0.0 www.owneriq.net
@@ -7664,6 +7759,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 privacy.digimedia.com
+0.0.0.0 plavxml.com
+0.0.0.0 par2.he.net
 0.0.0.0 pns.dtag.de
 0.0.0.0 prism.app-us1.com
 0.0.0.0 www.powerreviews.com
@@ -8261,6 +8359,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 static-artifact.heg-cp.com
+0.0.0.0 www.stadtverwaltung-ratingen.de
+0.0.0.0 stadtverwaltung-ratingen.de
+0.0.0.0 static.etracker.com
 0.0.0.0 service.maxymiser.net
 0.0.0.0 secondary*.dtag.net
 0.0.0.0 secondary001.dtag.net
@@ -9133,6 +9235,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 telemetry.appex.bing.com
+0.0.0.0 ten-0-2-0-2.cor01.syd04.nsw.vocus.net.au
 0.0.0.0 *.t-ipnet.de
 0.0.0.0 t-ipnet.de
 0.0.0.0 trackcmp.net
@@ -9474,6 +9578,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 useragentstring.com
+0.0.0.0 UltraDNS.org
+0.0.0.0 ultradns.org
 0.0.0.0 ui.powerreviews.com
 0.0.0.0 uid.mavencoalition.io
 0.0.0.0 www.upandup.agency
@@ -9587,6 +9694,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 vxml4.plavxml.com
 0.0.0.0 visitor.reactful.com
 0.0.0.0 vcc-na7b.8x8.com
 0.0.0.0 v3track.leadforensics.com
@@ -9689,6 +9797,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 www.webcam-ratingen.de
+0.0.0.0 webcam-ratingen.de
 0.0.0.0 widgets.trustedshops.com
 0.0.0.0 walt.ns.cloudflare.com
 0.0.0.0 ww0.linksprotection.com
@@ -10277,6 +10387,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 zyqlfplqdgxu.com
 
 # IPs
+0.0.0.0 184.105.213.93
+0.0.0.0 72.52.92.13
+0.0.0.0 80.81.192.172
+0.0.0.0 184.105.80.202
+0.0.0.0 72.52.92.122
 0.0.0.0 94.245.121.253
 0.0.0.0 65.55.44.108
 0.0.0.0 192.168.1.1
@@ -10611,6 +10726,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 112-tzm-766.mktoresp.com
+0.0.0.0 100ge7-2.core1.fra1.he.net
+0.0.0.0 100ge5-2.core1.par2.he.net
+0.0.0.0 10ge15-1.core1.ash1.he.net
+0.0.0.0 100ge13-1.core1.lax1.he.net
+0.0.0.0 100ge11-1.core1.lax2.he.net
 0.0.0.0 6ce7249d60697cecb233-c2e8d057e491f208ac0828a45bc359e1.ssl.cf1.rackcdn.com
 0.0.0.0 286c5cf3b035.cdn4.forter.com
 0.0.0.0 52blackberry.com
@@ -27098,6 +27219,7 @@ bigleaguepolitics.com###enhancedtextwidget-24 > .widget-text.textwidget
 trafficg.com##.Center.Back2 > tbody > tr > td:nth-of-type(3)
 ||trafficg.com/images/BottomCol1Back.gif
 trafficg.com##.Center.Back2 > tbody > tr > td:nth-of-type(1)
+spiceworks.com##.community-content-banner
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
