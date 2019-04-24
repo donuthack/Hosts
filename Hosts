@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,781 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Tuesday, April 23, 2019
+# Last Updated on Wednesday, April 24, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -791,6 +791,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 appfocus.go2cloud.org
+0.0.0.0 api.tiles.mapbox.com
+0.0.0.0 api.navigateto.net
 0.0.0.0 a1-22.akam.net
 0.0.0.0 a16-67.akam.net
 0.0.0.0 a12-65.akam.net
@@ -1874,6 +1877,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 analytics.androidandme.com
 0.0.0.0 app-usa-modeast-prod-a01239f.s3.amazonaws.com
 0.0.0.0 addthis.com
+0.0.0.0 www.awltovhc.com
 0.0.0.0 awltovhc.com
 0.0.0.0 analytics.ghostery.com
 0.0.0.0 atlassolutions.com
@@ -2802,6 +2806,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 botcrawler.disqus.com
 0.0.0.0 b.in-addr-servers.arpa
 0.0.0.0 bundle-101.bdr05.syd03.nsw.vocus.net.au
 0.0.0.0 bundle-101.cor02.lax01.ca.vocus.net
@@ -3558,6 +3563,12 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn1.bablic.com
+0.0.0.0 cdn2.bablic.com
+0.0.0.0 c.bablic.com
+0.0.0.0 config.hquickmapsanddirections.com
+0.0.0.0 cdn.45tu1c0.com
+0.0.0.0 cdn.exmarketplace.com
 0.0.0.0 cds21281.lon.llnw.net
 0.0.0.0 cds20424.lcy.llnw.net
 0.0.0.0 cds1269.lon.llnw.net
@@ -4270,6 +4281,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 d.bablic.com
+0.0.0.0 downloadmyinboxhelper.com
 0.0.0.0 www.digimedia.com
 0.0.0.0 digimedia.com
 0.0.0.0 dsdn-gh1-uea01.nsa.gov
@@ -4677,6 +4690,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 d3ff8olul1r3ot.cloudfront.net
+0.0.0.0 dap2y8k6nefku.cloudfront.net
 0.0.0.0 dl6fh5ptkejqa.cloudfront.net
 0.0.0.0 dw26xg4lubooo.cloudfront.net
 0.0.0.0 d10lpsik1i8c69.cloudfront.net
@@ -4768,6 +4783,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 e2.bablic.com
+0.0.0.0 www.extensionsnewtab.com
+0.0.0.0 extensionsnewtab.com
+0.0.0.0 exmarketplace.com
 0.0.0.0 www.evi.com
 0.0.0.0 evi.com
 0.0.0.0 edge.spiceworksstatic.com
@@ -5220,6 +5239,16 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 ground1.wipersoft.revenuewire.net
+0.0.0.0 ground2.wipersoft.revenuewire.net
+0.0.0.0 ground3.wipersoft.revenuewire.net
+0.0.0.0 ground4.wipersoft.revenuewire.net
+0.0.0.0 ground5.wipersoft.revenuewire.net
+0.0.0.0 ground6.wipersoft.revenuewire.net
+0.0.0.0 ground7.wipersoft.revenuewire.net
+0.0.0.0 ground8.wipersoft.revenuewire.net
+0.0.0.0 ground9.wipersoft.revenuewire.net
+0.0.0.0 ground10.wipersoft.revenuewire.net
 0.0.0.0 gala.spiceworks.com
 0.0.0.0 gekko.spiceworks.com
 0.0.0.0 g.akamai.net
@@ -5454,6 +5483,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hquickmapsanddirections.com
+0.0.0.0 hdownloadmyinboxhelper.com
 0.0.0.0 herald.spiceworks.com
 0.0.0.0 hti.pl
 0.0.0.0 www.homebiz2020.com
@@ -5609,6 +5640,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 imp.hquickmapsanddirections.com
+0.0.0.0 imp.onesearch.org
+0.0.0.0 imp.mt48.net
 0.0.0.0 www.infonline.de
 0.0.0.0 infonline.de
 0.0.0.0 ipnet.de
@@ -6967,6 +7001,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 link.safecart.com
 0.0.0.0 lax1.he.net
 0.0.0.0 lax2.he.net
 0.0.0.0 liadm.com
@@ -7113,6 +7148,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 myemailsimplified.com
 0.0.0.0 maxymiser.net
 0.0.0.0 media.ttgtmedia.com
 0.0.0.0 www.maptiler.com
@@ -7483,6 +7519,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 navigateto.net
 0.0.0.0 ns1.p31.dynect.net
 0.0.0.0 ns2.p31.dynect.net
 0.0.0.0 ns3.p31.dynect.net
@@ -7634,6 +7671,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 onesearch.org
 0.0.0.0 own-sh.disqus.com
 0.0.0.0 optnmstr.com
 0.0.0.0 online.dropbox.com.reload.access.check.now.latrobevillage.com.au
@@ -8113,6 +8151,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 p.typekit.net
 
 #Q
+0.0.0.0 quickmapsanddirections.com
 0.0.0.0 qbox.me
 0.0.0.0 queue.statistics.aatkit.com
 0.0.0.0 qd415nvph4f8gm.w115a-4194.jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
@@ -8160,6 +8199,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 revenuewire.net
 0.0.0.0 www.rhinosupport.com
 0.0.0.0 rhinosupport.com
 0.0.0.0 rp.liadm.com
@@ -8359,6 +8399,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 search.hdownloadmyinboxhelper.com
+0.0.0.0 summit-news.disqus.com
 0.0.0.0 static-artifact.heg-cp.com
 0.0.0.0 www.stadtverwaltung-ratingen.de
 0.0.0.0 stadtverwaltung-ratingen.de
@@ -9797,6 +9839,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wiper.wipersoft.com
+0.0.0.0 wipersoft.revenuewire.net
 0.0.0.0 www.webcam-ratingen.de
 0.0.0.0 webcam-ratingen.de
 0.0.0.0 widgets.trustedshops.com
@@ -10726,6 +10770,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 45tu1c0.com
 0.0.0.0 112-tzm-766.mktoresp.com
 0.0.0.0 100ge7-2.core1.fra1.he.net
 0.0.0.0 100ge5-2.core1.par2.he.net
@@ -27112,6 +27157,7 @@ uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
 ||2giga.link/sw.js$script,1p
 2giga.link##+js(abort-on-property-write.js, Fingerprint2)
 2giga.link##+js(addEventListener-defuser.js, click)
+||www.fixmypcfree.com/wp-content/uploads/2018/09/1-3.jpg
 link.tl##.adblockBox
 link.tl##.adblockOverlay
 filez.tv###adblockinfo
