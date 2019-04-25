@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 26,781 (uBlock)
 # Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
-# Last Updated on Wednesday, April 24, 2019
+# Last Updated on Thursday, April 25, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -5239,6 +5239,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 guce.yahoo.com
 0.0.0.0 ground1.wipersoft.revenuewire.net
 0.0.0.0 ground2.wipersoft.revenuewire.net
 0.0.0.0 ground3.wipersoft.revenuewire.net
