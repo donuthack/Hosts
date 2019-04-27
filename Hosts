@@ -4,7 +4,7 @@
 
 # Title: Cybo's Hosts
 # Expires: 1 day
-# Number Of Ad Services, Trackers, And Malware Blocked: 14,044 (uBlock)
+# Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
 # Removed the 1e100 section from main hosts but will remain in Anti Google
 # Last Updated on Thursday, April 25, 2019
 
@@ -9779,6 +9779,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 v.fwmrm.net
 0.0.0.0 v2.listenloop.com
 0.0.0.0 vxml4.plavxml.com
 0.0.0.0 visitor.reactful.com
