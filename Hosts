@@ -22,21 +22,13 @@
 0.0.0.0 54.243.128.120
 0.0.0.0 184.164.146.26
 0.0.0.0 162.243.24.21
-0.0.0.0 107.22.193.119
+0.0.0.0 107.22.193.119#p
 0.0.0.0 107.22.60.33
 
 # Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
 0.0.0.0 weathercenter.co
 0.0.0.0 quickemailaccess.co
 0.0.0.0 easyspeedtest.co
-
-# Block ads in Pandora App for Android
-0.0.0.0 pandoramedia.sc.omtrdc.net
-0.0.0.0 cont-sv5-3-v4.pandora.com
-0.0.0.0 mediaserver-sv5-ti-2-v4.pandora.com
-0.0.0.0 mediaserver-dc6-t1-2-v4.pandora.com
-0.0.0.0 mediaserver-cont-dc6-1-v4.pandora.com
-0.0.0.0 mediaserver-ch-t1-2-v4.pandora.com
 
 # Unknown Domains From Lucky Patcher
 # 104.27.134.170 (Using Reverse IP Lookup via ipaddress.com)
@@ -94,11 +86,6 @@
 0.0.0.0 yokgp.club
 # Fake Rising SUn Rock Festival Website
 0.0.0.0 tenbai-no.jp
-
-# Pacific Bridges (Possible Scam)
-0.0.0.0 pacificbridges.us
-0.0.0.0 moneyservice.top
-0.0.0.0 move2usa.net
 
 # IP Grabbers
 0.0.0.0 www.spylink.net
@@ -780,6 +767,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 ads-blocker.ru
 0.0.0.0 accounts.sap.com
 0.0.0.0 app.satismeter.com
 0.0.0.0 www.arcpublishing.com
@@ -3557,6 +3545,7 @@
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cont-sv5-3-v4.pandora.com
 0.0.0.0 cdn.clearbit.com
 0.0.0.0 customer.io
 0.0.0.0 ce6dc509e27b404fb6a59c83db881214.js.ubembed.com
@@ -7167,6 +7156,12 @@
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 moneyservice.top
+0.0.0.0 move2usa.net
+0.0.0.0 mediaserver-sv5-ti-2-v4.pandora.com
+0.0.0.0 mediaserver-dc6-t1-2-v4.pandora.com
+0.0.0.0 mediaserver-cont-dc6-1-v4.pandora.com
+0.0.0.0 mediaserver-ch-t1-2-v4.pandora.com
 0.0.0.0 myemailsimplified.com
 0.0.0.0 maxymiser.net
 0.0.0.0 media.ttgtmedia.com
@@ -7538,6 +7533,8 @@
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 node.ads-blocker.ru
+0.0.0.0 newspush.xyz
 0.0.0.0 nile.works
 0.0.0.0 navigateto.net
 0.0.0.0 ns1.p31.dynect.net
@@ -7822,6 +7819,13 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pushforce.co
+0.0.0.0 pushflow.co
+0.0.0.0 pushjet.co
+0.0.0.0 pushstack.co
+0.0.0.0 pacificbridges.us
+0.0.0.0 pandoramedia.sc.omtrdc.net
+0.0.0.0 pushcloud.xyz
 0.0.0.0 peomulogj7.execute-api.us-east-1.amazonaws.com
 0.0.0.0 p.ziffdavisb2b.com
 0.0.0.0 pupscanarc.submissionplatform.com
@@ -8227,6 +8231,7 @@
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rich.worldpush.co
 0.0.0.0 rtb.adp3.net
 0.0.0.0 reveal.clearbit.com
 0.0.0.0 risk.clearbit.com
@@ -9885,6 +9890,7 @@
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 worldpush.co
 0.0.0.0 wiper.wipersoft.com
 0.0.0.0 wipersoft.revenuewire.net
 0.0.0.0 www.webcam-ratingen.de
