@@ -8227,6 +8227,7 @@
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rtb.adp3.net
 0.0.0.0 reveal.clearbit.com
 0.0.0.0 risk.clearbit.com
 0.0.0.0 resources.arcpublishing.com
@@ -13979,6 +13980,7 @@ _Affiliate
 /images/BottomCol2Back2.gif
 /aboutadtextonline.php.html
 /getadpack.html
+/pixels/storage/main/pixel.gif
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
