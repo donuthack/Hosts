@@ -13,11 +13,14 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
+[Adblock Plus 2.0]
+! Title: School Hosts
+! Expires: 1 day
+
 # Title: Cybo's Hosts
 # Expires: 1 day
-# Number Of Ad Services, Trackers, And Malware Blocked: 26,781 (uBlock)
-# Removed the 1e100 sectiion and will only remain in Anti Google
-# Found A Domain That Shouldn't Be Here? Contact Me On Discord - Cybo1927#1662 Or Twitter @Cybo19272
+# Number Of Ad Services, Trackers, And Malware Blocked: 13,988 (uBlock)
+# Removed the 1e100 section from main hosts but will remain in Anti Google
 # Last Updated on Thursday, April 25, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
@@ -792,6 +795,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 accounts.sap.com
+0.0.0.0 app.satismeter.com
+0.0.0.0 www.arcpublishing.com
+0.0.0.0 arcpublishing.com
 0.0.0.0 appfocus.go2cloud.org
 0.0.0.0 api.tiles.mapbox.com
 0.0.0.0 api.navigateto.net
@@ -2807,6 +2814,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 a.ads2.msads.net
 
 #B
+0.0.0.0 blog.listenloop.com
 0.0.0.0 botcrawler.disqus.com
 0.0.0.0 b.in-addr-servers.arpa
 0.0.0.0 bundle-101.bdr05.syd03.nsw.vocus.net.au
@@ -3564,6 +3572,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.clearbit.com
+0.0.0.0 customer.io
+0.0.0.0 ce6dc509e27b404fb6a59c83db881214.js.ubembed.com
+0.0.0.0 www.clearbit.com
+0.0.0.0 clearbit.com
+0.0.0.0 clouderrorreporting.googleapis.com
+0.0.0.0 c.evidon.com
+0.0.0.0 cdn-api.arcpublishing.com
 0.0.0.0 cdn1.bablic.com
 0.0.0.0 cdn2.bablic.com
 0.0.0.0 c.bablic.com
@@ -4691,6 +4707,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 dgkxwewtzsnml.cloudfront.net
 0.0.0.0 d3ff8olul1r3ot.cloudfront.net
 0.0.0.0 dap2y8k6nefku.cloudfront.net
 0.0.0.0 dl6fh5ptkejqa.cloudfront.net
@@ -4784,6 +4801,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 www.evidon.com
+0.0.0.0 evidon.com
 0.0.0.0 e2.bablic.com
 0.0.0.0 www.extensionsnewtab.com
 0.0.0.0 extensionsnewtab.com
@@ -5240,6 +5259,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 www.gigya.com
+0.0.0.0 gigya.com
+0.0.0.0 ga.clearbit.com
+0.0.0.0 geolocation.onetrust.com
 0.0.0.0 guce.yahoo.com
 0.0.0.0 ground1.wipersoft.revenuewire.net
 0.0.0.0 ground2.wipersoft.revenuewire.net
@@ -5642,6 +5665,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 images.ctfassets.net
+0.0.0.0 www.influ2.com
+0.0.0.0 influ2.com
 0.0.0.0 imp.hquickmapsanddirections.com
 0.0.0.0 imp.onesearch.org
 0.0.0.0 imp.mt48.net
@@ -6175,6 +6201,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 init.supersonicads.com
 
 #J
+0.0.0.0 js.ubembed.com
+0.0.0.0 js.chargebee.com
 0.0.0.0 jammarketinginc.com
 0.0.0.0 js.createsend1.com
 0.0.0.0 j.pioneeringad.com
@@ -7003,6 +7031,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 logo.clearbit.com
+0.0.0.0 www.listenloop.com
+0.0.0.0 listenloop.com
+0.0.0.0 loxodo-ct.ext.nile.works
 0.0.0.0 link.safecart.com
 0.0.0.0 lax1.he.net
 0.0.0.0 lax2.he.net
@@ -7521,6 +7553,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nile.works
 0.0.0.0 navigateto.net
 0.0.0.0 ns1.p31.dynect.net
 0.0.0.0 ns2.p31.dynect.net
@@ -7673,6 +7706,11 @@ ff02::3 ip6-allhosts
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 www.olark.com
+0.0.0.0 olark.com
+0.0.0.0 onetrust.chargebee.com
+0.0.0.0 onetrust.chargebeestatic.com
+0.0.0.0 onetrust.com
 0.0.0.0 onesearch.org
 0.0.0.0 own-sh.disqus.com
 0.0.0.0 optnmstr.com
@@ -7799,6 +7837,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 peomulogj7.execute-api.us-east-1.amazonaws.com
+0.0.0.0 p.ziffdavisb2b.com
+0.0.0.0 pupscanarc.submissionplatform.com
 0.0.0.0 privacy.digimedia.com
 0.0.0.0 plavxml.com
 0.0.0.0 par2.he.net
@@ -8201,6 +8242,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 reveal.clearbit.com
+0.0.0.0 risk.clearbit.com
+0.0.0.0 resources.arcpublishing.com
 0.0.0.0 revenuewire.net
 0.0.0.0 www.rhinosupport.com
 0.0.0.0 rhinosupport.com
@@ -8401,6 +8445,14 @@ ff02::3 ip6-allhosts
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 www.sap.com
+0.0.0.0 sap.com
+0.0.0.0 satismeter.com
+0.0.0.0 srv.stackadapt.com
+0.0.0.0 www.submissionplatform.com
+0.0.0.0 submissionplatform.com
+0.0.0.0 sub-cdn.washingtonpost.com
+0.0.0.0 sub.washingtonpost.com
 0.0.0.0 search.hdownloadmyinboxhelper.com
 0.0.0.0 summit-news.disqus.com
 0.0.0.0 static-artifact.heg-cp.com
@@ -9279,6 +9331,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tags.srv.stackadapt.com
+0.0.0.0 tagcontrol-cdn.evidon.com
 0.0.0.0 telemetry.appex.bing.com
 0.0.0.0 ten-0-2-0-2.cor01.syd04.nsw.vocus.net.au
 0.0.0.0 *.t-ipnet.de
@@ -9622,6 +9676,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 ubembed.com
+0.0.0.0 usabilla.com
 0.0.0.0 useragentstring.com
 0.0.0.0 UltraDNS.org
 0.0.0.0 ultradns.org
@@ -9738,6 +9794,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 v2.listenloop.com
 0.0.0.0 vxml4.plavxml.com
 0.0.0.0 visitor.reactful.com
 0.0.0.0 vcc-na7b.8x8.com
@@ -10291,6 +10348,8 @@ ff02::3 ip6-allhosts
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 ziffdavisb2b.com
+0.0.0.0 ziffstatic.com
 0.0.0.0 zz.cqcounter.com
 0.0.0.0 www.ztrf.net
 0.0.0.0 ztrf.net
