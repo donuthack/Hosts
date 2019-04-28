@@ -6,7 +6,7 @@
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
 # Removed the 1e100 section from main hosts but will remain in Anti Google
-# Last Updated on Thursday, April 25, 2019
+# Last Updated on Saturday, April 28, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -767,6 +767,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 amgload.net
 0.0.0.0 ads-blocker.ru
 0.0.0.0 accounts.sap.com
 0.0.0.0 app.satismeter.com
@@ -3545,6 +3546,7 @@
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 canlongcom.com
 0.0.0.0 cont-sv5-3-v4.pandora.com
 0.0.0.0 cdn.clearbit.com
 0.0.0.0 customer.io
@@ -4272,6 +4274,7 @@
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dsn-fishki.ru
 0.0.0.0 d.bablic.com
 0.0.0.0 downloadmyinboxhelper.com
 0.0.0.0 www.digimedia.com
@@ -7156,6 +7159,7 @@
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 mariusbalaj.com
 0.0.0.0 moneyservice.top
 0.0.0.0 move2usa.net
 0.0.0.0 mediaserver-sv5-ti-2-v4.pandora.com
@@ -7819,6 +7823,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 piguiqproxy.com
 0.0.0.0 pushforce.co
 0.0.0.0 pushflow.co
 0.0.0.0 pushjet.co
@@ -8231,6 +8236,7 @@
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 rcdn.pro
 0.0.0.0 rich.worldpush.co
 0.0.0.0 rtb.adp3.net
 0.0.0.0 reveal.clearbit.com
@@ -8436,6 +8442,14 @@
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 ww1.safariadblock.com
+0.0.0.0 ww2.safariadblock.com
+0.0.0.0 ww3.safariadblock.com
+0.0.0.0 ww4.safariadblock.com
+0.0.0.0 ww5.safariadblock.com
+0.0.0.0 ww6.safariadblock.com
+0.0.0.0 www.safariadblock.com
+0.0.0.0 safariadblock.com
 0.0.0.0 www.sap.com
 0.0.0.0 sap.com
 0.0.0.0 satismeter.com
@@ -10341,6 +10355,7 @@
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zmctrack.net
 0.0.0.0 ziffdavisb2b.com
 0.0.0.0 ziffstatic.com
 0.0.0.0 zz.cqcounter.com
@@ -10824,6 +10839,7 @@
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 568cai.top
 0.0.0.0 45tu1c0.com
 0.0.0.0 112-tzm-766.mktoresp.com
 0.0.0.0 100ge7-2.core1.fra1.he.net
