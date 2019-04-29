@@ -6,7 +6,7 @@
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
 # Removed the 1e100 section from main hosts but will remain in Anti Google
-# Last Updated on Saturday, April 28, 2019
+# Last Updated on Monday, April 29, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -767,6 +767,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 www.angryshark.cn
+0.0.0.0 angryshark.cn
 0.0.0.0 amgload.net
 0.0.0.0 ads-blocker.ru
 0.0.0.0 accounts.sap.com
@@ -3546,6 +3548,11 @@
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 cdn.sajari.com
+0.0.0.0 collector.cloudmosa.net
+0.0.0.0 cloudmosa.net
+0.0.0.0 code.jivosite.com
+0.0.0.0 coin.scribol.com
 0.0.0.0 canlongcom.com
 0.0.0.0 cont-sv5-3-v4.pandora.com
 0.0.0.0 cdn.clearbit.com
@@ -4274,6 +4281,10 @@
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dododuo.com
+0.0.0.0 dododu.com
+0.0.0.0 ddoo.com
+0.0.0.0 datacollector.coin.scribol.com
 0.0.0.0 dsn-fishki.ru
 0.0.0.0 d.bablic.com
 0.0.0.0 downloadmyinboxhelper.com
@@ -5053,6 +5064,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 footprintpredict.com
+0.0.0.0 ftth.swbr.surewest.net
 0.0.0.0 f.in-addr-servers.arpa
 0.0.0.0 fra1.he.net
 0.0.0.0 forms.aweber.com
@@ -5642,6 +5655,8 @@
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 iwanttodeliver.com
+0.0.0.0 invocacdn.com
 0.0.0.0 images.ctfassets.net
 0.0.0.0 www.influ2.com
 0.0.0.0 influ2.com
@@ -7008,6 +7023,8 @@
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 link.iwanttodeliver.com
+0.0.0.0 libs.baidu.com
 0.0.0.0 logo.clearbit.com
 0.0.0.0 www.listenloop.com
 0.0.0.0 listenloop.com
@@ -7159,6 +7176,8 @@
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 myconsolidated.net
+0.0.0.0 mycci.net
 0.0.0.0 mariusbalaj.com
 0.0.0.0 moneyservice.top
 0.0.0.0 move2usa.net
@@ -7823,6 +7842,9 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 pre.footprintpredict.com
+0.0.0.0 phone.ddoo.com
+0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 piguiqproxy.com
 0.0.0.0 pushforce.co
 0.0.0.0 pushflow.co
@@ -8442,6 +8464,16 @@
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 swbr.surewest.net
+0.0.0.0 sso.myconsolidated.net
+0.0.0.0 surewest.net
+0.0.0.0 solutions.invocacdn.com
+0.0.0.0 sajari.com
+0.0.0.0 stats.sa-as.com
+0.0.0.0 sa-as.com
+0.0.0.0 swiftypecdn.com
+0.0.0.0 s.swiftypecdn.com
+0.0.0.0 scribol.com
 0.0.0.0 ww1.safariadblock.com
 0.0.0.0 ww2.safariadblock.com
 0.0.0.0 ww3.safariadblock.com
@@ -9336,6 +9368,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 tqn.com
 0.0.0.0 tags.srv.stackadapt.com
 0.0.0.0 tagcontrol-cdn.evidon.com
 0.0.0.0 telemetry.appex.bing.com
@@ -10355,6 +10388,49 @@
 0.0.0.0 y-track.com
 
 #Z
+0.0.0.0 zapto.org
+0.0.0.0 zl.ai
+0.0.0.0 zk.ai
+0.0.0.0 zj.ai
+0.0.0.0 zizhu.ai
+0.0.0.0 zircon.ai
+0.0.0.0 zhuo.ai
+0.0.0.0 zhuanhai.cn
+0.0.0.0 zhuang.ai
+0.0.0.0 zhuan.ai
+0.0.0.0 zhu.ai
+0.0.0.0 zhongnen.cn
+0.0.0.0 zhong.ai
+0.0.0.0 zhi.cm
+0.0.0.0 zhi.ai
+0.0.0.0 zhenzhi.ai
+0.0.0.0 zhao.ai
+0.0.0.0 zhang.ai 
+0.0.0.0 zhan.ai
+0.0.0.0 zhai.ai
+0.0.0.0 zh.ai
+0.0.0.0 zg.gg
+0.0.0.0 zg.ai
+0.0.0.0 zf.ai
+0.0.0.0 zengqiang.ai
+0.0.0.0 zd.ai
+0.0.0.0 zc.ai
+0.0.0.0 zbj.biz
+0.0.0.0 zb.ai
+0.0.0.0 zao.ai
+0.0.0.0 zangqu.cn
+0.0.0.0 z.gl
+0.0.0.0 zn.ai
+0.0.0.0 zq.ai
+0.0.0.0 zr.ai
+0.0.0.0 zr.biz
+0.0.0.0 zs.cm
+0.0.0.0 zt.ai
+0.0.0.0 zui.ai
+0.0.0.0 zw.ai
+0.0.0.0 zx.ai
+0.0.0.0 zz.ai
+0.0.0.0 zhanzhang.baidu.com
 0.0.0.0 zmctrack.net
 0.0.0.0 ziffdavisb2b.com
 0.0.0.0 ziffstatic.com
@@ -10839,6 +10915,25 @@
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 10223-270125.link.iwanttodeliver.com
+0.0.0.0 10223-287981.link.iwanttodeliver.com
+0.0.0.0 10223-296315.link.iwanttodeliver.com
+0.0.0.0 10223-304697.link.iwanttodeliver.com
+0.0.0.0 10223-332635.link.iwanttodeliver.com
+0.0.0.0 10223-354247.link.iwanttodeliver.com
+0.0.0.0 10223-355017.link.iwanttodeliver.com
+0.0.0.0 10223-366823.link.iwanttodeliver.com
+0.0.0.0 029b32a8bc75680e1d2c007c66323948.pre.footprintpredict.com
+0.0.0.0 025.101-113-64.ftth.swbr.surewest.net
+0.0.0.0 101-113-64.ftth.swbr.surewest.net
+0.0.0.0 003793.parkingcrew.net
+0.0.0.0 00002009.zapto.org
+0.0.0.0 000000000jhkjkjhkjhkjh.nl.ai
+0.0.0.0 000.angryshark.cn
+0.0.0.0 0.tqn.com
+0.0.0.0 0.moikrug.ru
+0.0.0.0 0.disquscdn.com
+0.0.0.0 0.datacollector.coin.scribol.com
 0.0.0.0 568cai.top
 0.0.0.0 45tu1c0.com
 0.0.0.0 112-tzm-766.mktoresp.com
@@ -14003,6 +14098,7 @@ _Affiliate
 /aboutadtextonline.php.html
 /getadpack.html
 /pixels/storage/main/pixel.gif
+/removeAB.php
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
