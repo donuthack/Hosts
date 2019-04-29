@@ -767,6 +767,15 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 api.webdata.ledu.com
+0.0.0.0 activity.alibaba.com
+0.0.0.0 aeis.alicdn.com
+0.0.0.0 assets.alicdn.com
+0.0.0.0 atmgateway-client.alibaba.com
+0.0.0.0 acjs.aliyun.com
+0.0.0.0 aliyuncs.com
+0.0.0.0 analyze.wywy.com
+0.0.0.0 affiliate.com
 0.0.0.0 www.angryshark.cn
 0.0.0.0 angryshark.cn
 0.0.0.0 amgload.net
@@ -3548,6 +3557,10 @@
 0.0.0.0 bam.nr-data.net
 
 #C
+0.0.0.0 compass.alibaba.com
+0.0.0.0 cobrowse.liveperson.net
+0.0.0.0 cdntt.bidvertiser.com
+0.0.0.0 chat50.realperson.de
 0.0.0.0 cdn.sajari.com
 0.0.0.0 collector.cloudmosa.net
 0.0.0.0 cloudmosa.net
@@ -4281,6 +4294,10 @@
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 www.domainzaar.com
+0.0.0.0 domainzaar.com
+0.0.0.0 www.domainparking.com
+0.0.0.0 domainparking.com
 0.0.0.0 dododuo.com
 0.0.0.0 dododu.com
 0.0.0.0 ddoo.com
@@ -4789,6 +4806,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 err.taobao.com
 0.0.0.0 www.evidon.com
 0.0.0.0 evidon.com
 0.0.0.0 e2.bablic.com
@@ -5064,6 +5082,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 #F
+0.0.0.0 fourier.alibaba.com
 0.0.0.0 footprintpredict.com
 0.0.0.0 ftth.swbr.surewest.net
 0.0.0.0 f.in-addr-servers.arpa
@@ -5249,6 +5268,9 @@
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 good.alibaba.com
+0.0.0.0 g.alicdn.com
+0.0.0.0 gj.mmstat.com
 0.0.0.0 www.gigya.com
 0.0.0.0 gigya.com
 0.0.0.0 ga.clearbit.com
@@ -5280,7 +5302,6 @@
 0.0.0.0 go.crittercism.com
 0.0.0.0 gateway.peer5.com
 0.0.0.0 gm.mmstat.com
-0.0.0.0 gw.alicdn.com
 0.0.0.0 global.cmcs.service.amazonsilk.com
 0.0.0.0 gcm.ksmobile.com
 0.0.0.0 geoinfo.i2w.io
@@ -5655,6 +5676,9 @@
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 image.ledu.cfile
+0.0.0.0 i.alicdn.com
+0.0.0.0 installw.com
 0.0.0.0 iwanttodeliver.com
 0.0.0.0 invocacdn.com
 0.0.0.0 images.ctfassets.net
@@ -5680,7 +5704,6 @@
 0.0.0.0 *-.ios.appload.ingest.crittercism.com
 0.0.0.0 ios.appload.ingest.crittercism.com
 0.0.0.0 ingest.crittercism.com
-0.0.0.0 img.alicdn.com
 0.0.0.0 ios.bugly.qq.com
 0.0.0.0 instabug.com
 0.0.0.0 inputs.alooma.com
@@ -6270,6 +6293,8 @@
 0.0.0.0 js.users.51.la
 
 #K
+0.0.0.0 *.kickme.to
+0.0.0.0 kickme.to
 0.0.0.0 www.kahuna.com
 0.0.0.0 kahuna.com
 0.0.0.0 kano.is
@@ -7023,6 +7048,8 @@
 0.0.0.0 krxd.net
 
 #L
+0.0.0.0 ledu.cfile
+0.0.0.0 loading-delivery2.com
 0.0.0.0 link.iwanttodeliver.com
 0.0.0.0 libs.baidu.com
 0.0.0.0 logo.clearbit.com
@@ -7176,6 +7203,12 @@
 0.0.0.0 location.silverpush.com
 
 #M
+0.0.0.0 marketing.alibaba.com
+0.0.0.0 message.alibaba.com
+0.0.0.0 messagebeach.alibaba.com
+0.0.0.0 mktplatform.alibaba.com
+0.0.0.0 www.mnwan.com
+0.0.0.0 mnwan.com
 0.0.0.0 myconsolidated.net
 0.0.0.0 mycci.net
 0.0.0.0 mariusbalaj.com
@@ -7556,6 +7589,8 @@
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 notification.alibaba.com
+0.0.0.0 netflixbuynowdiscount.com
 0.0.0.0 node.ads-blocker.ru
 0.0.0.0 newspush.xyz
 0.0.0.0 nile.works
@@ -7711,6 +7746,11 @@
 0.0.0.0 n149adserv.com
 
 #O
+0.0.0.0 offer.alibaba.com
+0.0.0.0 open-s.alibaba.com
+0.0.0.0 oa-panther.data.aliyun.com
+0.0.0.0 www.onlinechatcenters.com
+0.0.0.0 onlinechatcenters.com
 0.0.0.0 www.olark.com
 0.0.0.0 olark.com
 0.0.0.0 onetrust.chargebee.com
@@ -7842,6 +7882,9 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 #P
+0.0.0.0 promotion.aliyun.com
+0.0.0.0 popunder.loading-delivery2.com
+0.0.0.0 pixel.1und1.de
 0.0.0.0 pre.footprintpredict.com
 0.0.0.0 phone.ddoo.com
 0.0.0.0 push.zhanzhang.baidu.com
@@ -8258,6 +8301,9 @@
 0.0.0.0 qnsr.com
 
 #R
+0.0.0.0 retcode.taobao.com
+0.0.0.0 realperson.de
+0.0.0.0 redirect.com
 0.0.0.0 rcdn.pro
 0.0.0.0 rich.worldpush.co
 0.0.0.0 rtb.adp3.net
@@ -9368,6 +9414,8 @@
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 www.theparkingplace.com
+0.0.0.0 theparkingplace.com
 0.0.0.0 tqn.com
 0.0.0.0 tags.srv.stackadapt.com
 0.0.0.0 tagcontrol-cdn.evidon.com
@@ -9714,6 +9762,11 @@
 0.0.0.0 tt.omtrdc.net
 
 #U
+0.0.0.0 us.ynuf.aliapp.org
+0.0.0.0 u.alicdn.com
+0.0.0.0 united.tt.omtrdc.net
+0.0.0.0 uir.uimserv.net
+0.0.0.0 uimserv.net
 0.0.0.0 ubembed.com
 0.0.0.0 usabilla.com
 0.0.0.0 useragentstring.com
@@ -9832,6 +9885,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 #V
+0.0.0.0 va.cobrowse.liveperson.net
 0.0.0.0 v.fwmrm.net
 0.0.0.0 v2.listenloop.com
 0.0.0.0 vxml4.plavxml.com
@@ -9937,6 +9991,8 @@
 0.0.0.0 v.admaster.com.cn
 
 #W
+0.0.0.0 wwatmserver.alibaba.com
+0.0.0.0 wywy.com
 0.0.0.0 worldpush.co
 0.0.0.0 wiper.wipersoft.com
 0.0.0.0 wipersoft.revenuewire.net
@@ -10213,6 +10269,7 @@
 0.0.0.0 wv.inner-active.mobi
 
 #X
+0.0.0.0 xdwan.cn
 0.0.0.0 xand.mixhits.com
 0.0.0.0 xbs.mtree.com
 0.0.0.0 x.du1k.com
@@ -10255,6 +10312,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 #Y
+0.0.0.0 ynuf.aliapp.org
 0.0.0.0 www.yipes.com
 0.0.0.0 yipes.com
 0.0.0.0 yaspsd.ir   # Web RTC Tracking
@@ -10915,6 +10973,24 @@
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 164d.joypush.cn
+0.0.0.0 164c.mnwan.com
+0.0.0.0 164553-14573.popunder.loading-delivery2.com
+0.0.0.0 165209-14573.popunder.loading-delivery2.com
+0.0.0.0 165257-14573.popunder.loading-delivery2.com
+0.0.0.0 163915-14573.popunder.loading-delivery2.com
+0.0.0.0 163919-14573.popunder.loading-delivery2.com
+0.0.0.0 1618811.cdntt.bidvertiser.com
+0.0.0.0 1618812.cdntt.bidvertiser.com
+0.0.0.0 16119202.va.cobrowse.liveperson.net
+0.0.0.0 1611179.cdntt.bidvertiser.com
+0.0.0.0 161.xdwan.cn
+0.0.0.0 161.adsina.allyes.com
+0.0.0.0 1.www.s81c.com
+0.0.0.0 102346.parkingcrew.net
+0.0.0.0 1und1internetag.d3.sc.omtrdc.net
+0.0.0.0 10221.kickme.to
+0.0.0.0 102291.kickme.to
 0.0.0.0 10223-270125.link.iwanttodeliver.com
 0.0.0.0 10223-287981.link.iwanttodeliver.com
 0.0.0.0 10223-296315.link.iwanttodeliver.com
@@ -13357,7 +13433,6 @@
 0.0.0.0 36.6.87.194.dynamic.dol.ru
 0.0.0.0 360ads.go2cloud.org
 0.0.0.0 360popunder.com
-0.0.0.0 360redirect.com
 0.0.0.0 360switch.net
 0.0.0.0 360training.go2cloud.org
 0.0.0.0 360unitedmedia.go2cloud.org
@@ -13904,6 +13979,7 @@ trafficg.com##.Center.Back2 > tbody > tr > td:nth-of-type(1)
 spiceworks.com##.community-content-banner
 ||freerice.com/sites/default/files/imagecache/banner_549x90/Freerice%20Rubicon%20Ad.jpg.jpeg
 ||freerice.com/sites/default/files/imagecache/banner_219x89/Freerice%20Banner%20for%20IG.png
+www.alibaba.com###J-ali-sidebar
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
