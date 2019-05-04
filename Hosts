@@ -6,7 +6,7 @@
 # Expires: 1 day
 # Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
 # Removed the 1e100 section from main hosts but will remain in Anti Google
-# Last Updated on Monday, April 29, 2019
+# Last Updated on Saturday, May 4, 2019
 
 # Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -22,7 +22,7 @@
 0.0.0.0 54.243.128.120
 0.0.0.0 184.164.146.26
 0.0.0.0 162.243.24.21
-0.0.0.0 107.22.193.119#p
+0.0.0.0 107.22.193.119
 0.0.0.0 107.22.60.33
 
 # Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
@@ -8499,6 +8499,15 @@
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 www1.securybrowse.com
+0.0.0.0 www2.securybrowse.com
+0.0.0.0 www3.securybrowse.com
+0.0.0.0 www4.securybrowse.com
+0.0.0.0 www5.securybrowse.com
+0.0.0.0 www6.securybrowse.com
+0.0.0.0 www7.securybrowse.com
+0.0.0.0 securybrowse.com
+0.0.0.0 search.xyz
 0.0.0.0 sc-static.net
 0.0.0.0 swbr.surewest.net
 0.0.0.0 sso.myconsolidated.net
@@ -13536,6 +13545,8 @@
 0.0.0.0 1e100.net
 
 # Blocking specific things on domains
+duckduckgo.com#@#.has-ad
+@@||duckduckgo.com^$document
 iprvl.co###pref-label
 iprvl.co##.footer > span
 ||iprvl.co/_static/images/smarturl-retina.png
