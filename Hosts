@@ -2,13 +2,13 @@
 ! Title: Cybo's Hosts
 ! Expires: 1 day
 
-# Title: Cybo's Hosts
-# Expires: 1 day
-# Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
-# Removed the 1e100 section from main hosts but will remain in Anti Google
-# Last Updated on Saturday, May 4, 2019
+! Title: Cybo's Hosts
+! Expires: 1 day
+! Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
+! Removed the 1e100 section from main hosts but will remain in Anti Google
+! Last Updated on Saturday, May 4, 2019
 
-# Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
+! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
 0.0.0.0 holaspark.com
 0.0.0.0 client.hola.org
@@ -25,13 +25,13 @@
 0.0.0.0 107.22.193.119
 0.0.0.0 107.22.60.33
 
-# Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
+! Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
 0.0.0.0 weathercenter.co
 0.0.0.0 quickemailaccess.co
 0.0.0.0 easyspeedtest.co
 
-# Unknown Domains From Lucky Patcher
-# 104.27.134.170 (Using Reverse IP Lookup via ipaddress.com)
+! Unknown Domains From Lucky Patcher
+! 104.27.134.170 (Using Reverse IP Lookup via ipaddress.com)
 0.0.0.0 030519azino777.com
 0.0.0.0 0dayarchive.us
 0.0.0.0 alhdas.com
@@ -84,10 +84,10 @@
 0.0.0.0 oboeinsight.com.cdn.cloudflare.net
 0.0.0.0 pinkribbonmiracle.com
 0.0.0.0 yokgp.club
-# Fake Rising SUn Rock Festival Website
+! Fake Rising SUn Rock Festival Website
 0.0.0.0 tenbai-no.jp
 
-# IP Grabbers
+! IP Grabbers
 0.0.0.0 www.spylink.net
 0.0.0.0 spylink.net
 0.0.0.0 ipstat.com
@@ -131,7 +131,7 @@
 0.0.0.0 tracemyip.org
 0.0.0.0 www.tracemyip.org
 
-# Apple
+! Apple
 0.0.0.0 advertising.apple.com
 0.0.0.0 autolinkmaker.itunes.apple.com
 0.0.0.0 searchads.apple.com
@@ -766,7 +766,7 @@
 0.0.0.0 sesto4-vip-bx-007.aaplimg.com
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
-#A
+!A
 0.0.0.0 www.adinplay.com
 0.0.0.0 adinplay.com
 0.0.0.0 api.webdata.ledu.com
@@ -1577,7 +1577,7 @@
 0.0.0.0 adv-ettoday.cdn.hinet.net
 0.0.0.0 ad-ettoday.cdn.hinet.net
 0.0.0.0 adv.ettoday.net
-#0.0.0.0 a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
+!0.0.0.0 a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
 0.0.0.0 adsapi.manhuaren.com
 0.0.0.0 adplex.co.kr
 0.0.0.0 adplex.com
@@ -2109,7 +2109,7 @@
 0.0.0.0 ad.a-ads.com
 0.0.0.0 adhitzads.com
 0.0.0.0 www.bitcoadz.io
-#0.0.0.0 android.clients.google.com
+!0.0.0.0 android.clients.google.com
 0.0.0.0 ads.ac.uk
 0.0.0.0 a.teads.tv
 0.0.0.0 a.optmstr.com
@@ -2244,7 +2244,7 @@
 0.0.0.0 aws.predictiveresponse.net
 0.0.0.0 ad.a8.net
 0.0.0.0 ad.abcnews.com
-#0.0.0.0 akamaihd.net (Breaks some sites)
+!0.0.0.0 akamaihd.net (Breaks some sites)
 0.0.0.0 ad.abctv.com
 0.0.0.0 ads.admarvel.com
 0.0.0.0 ad.aboutwebservices.com
@@ -2697,7 +2697,7 @@
 0.0.0.0 admaster.com.cn
 0.0.0.0 adocean.pl
 0.0.0.0 advertising.com
-#admarvel.s3.amazonaws.com
+!admarvel.s3.amazonaws.com
 0.0.0.0 adforce.ru
 0.0.0.0 adcycle.com
 0.0.0.0 adcycle.everyone.net
@@ -2800,7 +2800,7 @@
 0.0.0.0 app.scanscout.com
 0.0.0.0 a.ads2.msads.net
 
-#B
+!B
 0.0.0.0 blog.listenloop.com
 0.0.0.0 botcrawler.disqus.com
 0.0.0.0 b.in-addr-servers.arpa
@@ -2833,9 +2833,9 @@
 0.0.0.0 brightfunnel.com
 0.0.0.0 blog.safedk.com
 0.0.0.0 bing-toolbar.updatestar.com
-0.0.0.0 bestroomservices.com    # Doesn't actually unsubscribe from emails, just sells your email
-0.0.0.0 beliefworktoday.com   # Site used by scammer
-0.0.0.0 bww.beliefworktoday.com   # Site used by scammer
+0.0.0.0 bestroomservices.com    ! Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 beliefworktoday.com   ! Site used by scammer
+0.0.0.0 bww.beliefworktoday.com   ! Site used by scammer
 0.0.0.0 betterdetails.net
 0.0.0.0 bulletproofsoft.com
 0.0.0.0 bnserving.com
@@ -3558,7 +3558,7 @@
 0.0.0.0 burbledchxtg.download
 0.0.0.0 bam.nr-data.net
 
-#C
+!C
 0.0.0.0 compass.alibaba.com
 0.0.0.0 cobrowse.liveperson.net
 0.0.0.0 cdntt.bidvertiser.com
@@ -3609,7 +3609,7 @@
 0.0.0.0 www.contentstack.io
 0.0.0.0 contentstack.com
 0.0.0.0 contentstack.io
-0.0.0.0 coolchura.blogspot.com   # Web RTC Tracking
+0.0.0.0 coolchura.blogspot.com   ! Web RTC Tracking
 0.0.0.0 www.clixmarketing.com
 0.0.0.0 clixmarketing.com
 0.0.0.0 createsend.com
@@ -3675,7 +3675,7 @@
 0.0.0.0 c.la4-c2-dfw.salesforceliveagent.com
 0.0.0.0 cybop.net
 0.0.0.0 cdn.lookbookhq.com
-0.0.0.0 crushus-2.crushus.com   # Application.CoinMiner.AY
+0.0.0.0 crushus-2.crushus.com   ! Application.CoinMiner.AY
 0.0.0.0 cookieclickerhacked.com
 0.0.0.0 cdn.unid.go.com
 0.0.0.0 www.chubao.cn
@@ -4274,7 +4274,7 @@
 0.0.0.0 connect.facebook.net
 0.0.0.0 creative.medialytics.com
 
-#D
+!D
 0.0.0.0 dragonparking.com
 0.0.0.0 dragonstatic.com
 0.0.0.0 www.domainzaar.com
@@ -4386,8 +4386,8 @@
 0.0.0.0 dns-01.ns.aol.com
 0.0.0.0 d35u1vg1q28b3w.cloudfront.net
 0.0.0.0 discuz.gtimg.cn
-0.0.0.0 www.danchimviet.info   # Web RTC Tracking
-0.0.0.0 danchimviet.info   # Web RTC Tracking
+0.0.0.0 www.danchimviet.info   ! Web RTC Tracking
+0.0.0.0 danchimviet.info   ! Web RTC Tracking
 0.0.0.0 darkness.su
 0.0.0.0 drumrollsolos.com
 0.0.0.0 dlcache.com
@@ -4421,8 +4421,8 @@
 0.0.0.0 data.fctablesmedia.com
 0.0.0.0 data.crittercism.com
 0.0.0.0 datatracker.crittercism.com
-0.0.0.0 www.digitalprivacyalert.org    # Not privacy friendly as advertised
-0.0.0.0 digitalprivacyalert.org    # Not privacy friendly as advertised
+0.0.0.0 www.digitalprivacyalert.org    ! Not privacy friendly as advertised
+0.0.0.0 digitalprivacyalert.org    ! Not privacy friendly as advertised
 0.0.0.0 digitaloptout.com
 0.0.0.0 digitaldsp.com
 0.0.0.0 diamondmedia.click
@@ -4464,13 +4464,13 @@
 0.0.0.0 ww9.decadecompany.com
 0.0.0.0 ww10.decadecompany.com
 0.0.0.0 ww11.decadecompany.com
-0.0.0.0 www.downloads.info    # Hosts a lot of malware (Mostly Trojan.InstallCore and ad-ware)
-0.0.0.0 downloads.info    # Hosts a lot of malware (Mostly Trojan.InstallCore and ad-ware)
+0.0.0.0 www.downloads.info    ! Hosts a lot of malware (Mostly Trojan.InstallCore and ad-ware)
+0.0.0.0 downloads.info    ! Hosts a lot of malware (Mostly Trojan.InstallCore and ad-ware)
 0.0.0.0 downloadmanager.xyz
 0.0.0.0 data-cash.net
 0.0.0.0 dfcki.info
-0.0.0.0 www.download3000.com    # Hosts Some Malware
-0.0.0.0 download3000.com    # Hosts Some Malware
+0.0.0.0 www.download3000.com    ! Hosts Some Malware
+0.0.0.0 download3000.com    ! Hosts Some Malware
 0.0.0.0 d.la4-c2-dfw.salesforceliveagent.com
 0.0.0.0 du1k.com
 0.0.0.0 www.dratio.com
@@ -4788,7 +4788,7 @@
 0.0.0.0 dynamicyield.com
 0.0.0.0 downloads.mailchimp.com
 
-#E
+!E
 0.0.0.0 everyaction.com
 0.0.0.0 err.taobao.com
 0.0.0.0 www.evidon.com
@@ -4865,22 +4865,22 @@
 0.0.0.0 episerver.net
 0.0.0.0 ec2-34-237-207-190.compute-1.amazonaws.com
 0.0.0.0 ec2-54-210-199-150.compute-1.amazonaws.com
-0.0.0.0 www.easypcoptimizer.com   # a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
-0.0.0.0 easypcoptimizer.com   # a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
+0.0.0.0 www.easypcoptimizer.com   ! a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
+0.0.0.0 easypcoptimizer.com   ! a variant of Win32/RegistryWizard.C potentially unwanted (ESET-NOD32)
 0.0.0.0 exnrcvcamcoj.net
-0.0.0.0 ec2-13-114-189-119.ap-northeast-1.compute.amazonaws.com   # Digital Marketing 
-0.0.0.0 ec2-54-250-169-183.ap-northeast-1.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
-0.0.0.0 ec2-52-14-97-179.us-east-2.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
-0.0.0.0 ec2-18-136-157-220.ap-southeast-1.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
-0.0.0.0 ec2-54-64-149-136.ap-northeast-1.compute.amazonaws.com    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ec2-13-114-189-119.ap-northeast-1.compute.amazonaws.com   ! Digital Marketing 
+0.0.0.0 ec2-54-250-169-183.ap-northeast-1.compute.amazonaws.com    ! Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ec2-52-14-97-179.us-east-2.compute.amazonaws.com    ! Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ec2-18-136-157-220.ap-southeast-1.compute.amazonaws.com    ! Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ec2-54-64-149-136.ap-northeast-1.compute.amazonaws.com    ! Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 e6987.e9.akamaiedge.net
 0.0.0.0 e6987.a.akamaiedge.net
 0.0.0.0 e673.dsce9.akamaiedge.net
-0.0.0.0 errorexpert.com   # Rogue
-0.0.0.0 errorsafe.com   # Rogue
+0.0.0.0 errorexpert.com    ! Rogue
+0.0.0.0 errorsafe.com   ! Rogue
 0.0.0.0 ext-irs.extfans.com
-0.0.0.0 extension.extfans.com   # Application.DealAlpha.1.Gen (Trojan)
-0.0.0.0 extfans.com   # Application.DealAlpha.1.Gen (Trojan)
+0.0.0.0 extension.extfans.com   ! Application.DealAlpha.1.Gen (Trojan)
+0.0.0.0 extfans.com   ! Application.DealAlpha.1.Gen (Trojan)
 0.0.0.0 ekr.zdassets.com
 0.0.0.0 edge-star-shv-02-dfw5.facebook.com
 0.0.0.0 ec2-23-21-114-151.compute-1.amazonaws.com
@@ -4934,7 +4934,7 @@
 0.0.0.0 errortablet.com
 0.0.0.0 exclusivebrass.com
 0.0.0.0 experienceeggs.com
-#0.0.0.0 events.gfe.nvidia.com (Interferes with GeForce Experience driver updates)
+!0.0.0.0 events.gfe.nvidia.com (Interferes with GeForce Experience driver updates)
 0.0.0.0 edge-dl.andomedia.com
 0.0.0.0 educationcenter.janrain.com
 0.0.0.0 e5019.e2.akamaiedge.net
@@ -5065,7 +5065,7 @@
 0.0.0.0 ec2-35-163-238-255.us-west-2.compute.amazonaws.com
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
-#F
+!F
 0.0.0.0 fourier.alibaba.com
 0.0.0.0 footprintpredict.com
 0.0.0.0 ftth.swbr.surewest.net
@@ -5097,8 +5097,8 @@
 0.0.0.0 f1-na.readspeaker.com
 0.0.0.0 fontawesome.com
 0.0.0.0 fave.co
-0.0.0.0 www.freevirusprotection.org   # Why does this redirect to sentryapplications.com/privacy.php?
-0.0.0.0 freevirusprotection.org   # Why does this redirect to sentryapplications.com/privacy.php?
+0.0.0.0 www.freevirusprotection.org   ! Why does this redirect to sentryapplications.com/privacy.php?
+0.0.0.0 freevirusprotection.org   ! Why does this redirect to sentryapplications.com/privacy.php?
 0.0.0.0 fonts.zohowebstatic.com
 0.0.0.0 fingerprintjs.com
 0.0.0.0 fpjs.io
@@ -5251,7 +5251,7 @@
 0.0.0.0 fyc.heyzap.com
 0.0.0.0 freshmarketer.com
 
-#G
+!G
 0.0.0.0 www.goguardian.com
 0.0.0.0 goguardian.com
 0.0.0.0 good.alibaba.com
@@ -5278,7 +5278,7 @@
 0.0.0.0 go.techtarget.com
 0.0.0.0 www.googlecommerce.com
 0.0.0.0 googlecommerce.com
-0.0.0.0 gtimg.cn    # Numbers 2252646423 / Do They Mean Something?
+0.0.0.0 gtimg.cn    ! Numbers 2252646423 / Do They Mean Something?
 0.0.0.0 graphigostream.prd.dlive.tv
 0.0.0.0 gosredirector.ea.com
 0.0.0.0 geoip.tnt-ea.com
@@ -5296,7 +5296,7 @@
 0.0.0.0 go.pardot.com
 0.0.0.0 www.glia.com
 0.0.0.0 glia.com
-0.0.0.0 generator.bestroomservices.com    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 generator.bestroomservices.com    ! Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 gsmcollection.net
 0.0.0.0 generalfinancedeal.com
 0.0.0.0 www.gfwkj.com
@@ -5504,7 +5504,7 @@
 0.0.0.0 gurgle.zdbb.net
 0.0.0.0 gannett.hb.omtrdc.net
 
-#H
+!H
 0.0.0.0 hhopenbid.pubmatic.com
 0.0.0.0 hquickmapsanddirections.com
 0.0.0.0 hdownloadmyinboxhelper.com
@@ -5662,7 +5662,7 @@
 0.0.0.0 hockeyapp.net
 0.0.0.0 helpshift.com
 
-#I
+!I
 0.0.0.0 imarketsmart.com
 0.0.0.0 image.ledu.cfile
 0.0.0.0 i.alicdn.com
@@ -5697,21 +5697,21 @@
 0.0.0.0 inputs.alooma.com
 0.0.0.0 imp.startappservice.com
 0.0.0.0 ilyonanalytics.herokuapp.com
-0.0.0.0 www.ijinshan.com    # a variant of Win32/KingSoft.B potentially unwanted (ESET-NOD32)
-0.0.0.0 ijinshan.com    # a variant of Win32/KingSoft.B potentially unwanted (ESET-NOD32)
+0.0.0.0 www.ijinshan.com    ! a variant of Win32/KingSoft.B potentially unwanted (ESET-NOD32)
+0.0.0.0 ijinshan.com    ! a variant of Win32/KingSoft.B potentially unwanted (ESET-NOD32)
 0.0.0.0 img.saleshandy.com
 0.0.0.0 io.innertrends.com
 0.0.0.0 innertrends.innertrends.com
 0.0.0.0 innertrends.com
 0.0.0.0 img.afreecodec.com
-0.0.0.0 if41n1rlta4el8.wdac-309b.rofevlfk.ga    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 if41n1rlta4el8.wdac-309b.rofevlfk.ga    ! Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 images-pw.secureserver.net
 0.0.0.0 www.informer.com
 0.0.0.0 informer.com
 0.0.0.0 id.maxis.com.my
 0.0.0.0 www.infoarmor.net
 0.0.0.0 infoarmor.net
-0.0.0.0 instructions.winsysdev.com   # Links To ReImage Ad-Ware
+0.0.0.0 instructions.winsysdev.com   ! Links To ReImage Ad-Ware
 0.0.0.0 iplocation.zoho.com
 0.0.0.0 *.ime.cootek.com
 0.0.0.0 ime.cootek.com
@@ -5730,8 +5730,8 @@
 0.0.0.0 intelliad.de
 0.0.0.0 izea.com
 0.0.0.0 impes.tradedoubler.com
-0.0.0.0 www.indiaantivirus.com    # Fake AV
-0.0.0.0 indiaantivirus.com    # Fake AV
+0.0.0.0 www.indiaantivirus.com    ! Fake AV
+0.0.0.0 indiaantivirus.com    ! Fake AV
 0.0.0.0 iad-03.braze.com
 0.0.0.0 images.omaze.com
 0.0.0.0 img001.groovinads.com
@@ -5811,7 +5811,7 @@
 0.0.0.0 iframe.fyber.com
 0.0.0.0 iframe2.adxxx.com
 0.0.0.0 idp.adsrvr.org
-0.0.0.0 idox.it   # Blocked By Bitdefender
+0.0.0.0 idox.it   ! Blocked By Bitdefender
 0.0.0.0 idm.bce.baidu.com
 0.0.0.0 idmatch.adform.net
 0.0.0.0 id.localsearch.ch
@@ -6203,7 +6203,7 @@
 0.0.0.0 ionicframework.com
 0.0.0.0 init.supersonicads.com
 
-#J
+!J
 0.0.0.0 js.ubembed.com
 0.0.0.0 js.chargebee.com
 0.0.0.0 jammarketinginc.com
@@ -6214,9 +6214,9 @@
 0.0.0.0 jquerystatistics.org
 0.0.0.0 j.6sc.co
 0.0.0.0 js.arcgis.com
-0.0.0.0 jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 jclk0voo.cf    ! Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 jh41doseb4dca3.wfc6-6224.dpvmeuqd.ga
-0.0.0.0 jaleco.com    # Huge Malware Distribution Site
+0.0.0.0 jaleco.com    ! Huge Malware Distribution Site
 0.0.0.0 js.zohostatic.com
 0.0.0.0 js.out.sh
 0.0.0.0 js.gleam.io
@@ -6280,7 +6280,7 @@
 0.0.0.0 js.driftt.com
 0.0.0.0 js.users.51.la
 
-#K
+!K
 0.0.0.0 *.kickme.to
 0.0.0.0 kickme.to
 0.0.0.0 www.kahuna.com
@@ -7035,7 +7035,7 @@
 0.0.0.0 k1.midasplayer.com
 0.0.0.0 krxd.net
 
-#L
+!L
 0.0.0.0 ledu.cfile
 0.0.0.0 loading-delivery2.com
 0.0.0.0 link.iwanttodeliver.com
@@ -7073,7 +7073,7 @@
 0.0.0.0 liveinternetstatistics.ws
 0.0.0.0 lib.salesflare.com
 0.0.0.0 lever.co
-0.0.0.0 lm41g5hqt4jkh1.w0.rnml5fbt.ga   # Sends spam emails pretending to be ADT
+0.0.0.0 lm41g5hqt4jkh1.w0.rnml5fbt.ga   ! Sends spam emails pretending to be ADT
 0.0.0.0 livechatvalue.com
 0.0.0.0 load.sumome.com
 0.0.0.0 locator-svc.subway.com
@@ -7096,8 +7096,8 @@
 0.0.0.0 liveinternet.ru
 0.0.0.0 lintv.122.2o7.net
 0.0.0.0 live.activeconversion.com
-#0.0.0.0 lh3.google.com   # Google Contacts (Keeps Gmail From Loading)
-#0.0.0.0 lh3.googleusercontent.com   # Google Contacts (Keeps Gmail From Loading)
+!0.0.0.0 lh3.google.com   ! Google Contacts (Keeps Gmail From Loading)
+!0.0.0.0 lh3.googleusercontent.com   ! Google Contacts (Keeps Gmail From Loading)
 0.0.0.0 layer-ads.com
 0.0.0.0 layer-ads.de
 0.0.0.0 laughcloth.com
@@ -7190,7 +7190,7 @@
 0.0.0.0 ligatus.com
 0.0.0.0 location.silverpush.com
 
-#M
+!M
 0.0.0.0 marketing.alibaba.com
 0.0.0.0 message.alibaba.com
 0.0.0.0 messagebeach.alibaba.com
@@ -7280,7 +7280,7 @@
 0.0.0.0 my.appoptics.com
 0.0.0.0 metrics-api.librato.com
 0.0.0.0 marthastewart.demdex.net
-0.0.0.0 morehitserver.com   # History Readout
+0.0.0.0 morehitserver.com   ! History Readout
 0.0.0.0 matchyip.com
 0.0.0.0 msecnd.net
 0.0.0.0 m.amobee.com
@@ -7576,7 +7576,7 @@
 0.0.0.0 maxmind.com
 0.0.0.0 memo2.nl
 
-#N
+!N
 0.0.0.0 nieveni.com
 0.0.0.0 notification.alibaba.com
 0.0.0.0 netflixbuynowdiscount.com
@@ -7627,8 +7627,8 @@
 0.0.0.0 novelty-media-us-d.openx.net
 0.0.0.0 npmcdn.com
 0.0.0.0 nifc.maps.arcgis.com
-0.0.0.0 www.nomanatif.net   # Downloads mainly lead to deciptive websites
-0.0.0.0 nomanatif.net   # Downloads mainly lead to deciptive websites
+0.0.0.0 www.nomanatif.net   ! Downloads mainly lead to deciptive websites
+0.0.0.0 nomanatif.net   ! Downloads mainly lead to deciptive websites
 0.0.0.0 new.data-cash.net
 0.0.0.0 nr-data.net
 0.0.0.0 netdna-cdn.com
@@ -7638,11 +7638,11 @@
 0.0.0.0 newscred.com
 0.0.0.0 nj-com.c.richmetrics.com
 0.0.0.0 nationalpost-com.c.richmetrics.com
-0.0.0.0 www.netprotector.co.in    # Fake AV
-0.0.0.0 netprotector.co.in    # Fake AV
-0.0.0.0 www.npav.net    # Fake AV
-0.0.0.0 npav.net    # Fake AV
-0.0.0.0 newgam.es   # Bit.ly
+0.0.0.0 www.netprotector.co.in    ! Fake AV
+0.0.0.0 netprotector.co.in    ! Fake AV
+0.0.0.0 www.npav.net    ! Fake AV
+0.0.0.0 npav.net    ! Fake AV
+0.0.0.0 newgam.es   ! Bit.ly
 0.0.0.0 www.news-subscribe.com
 0.0.0.0 news-subscribe.com
 0.0.0.0 netdna-ssl.com
@@ -7734,7 +7734,7 @@
 0.0.0.0 newrelic.com
 0.0.0.0 n149adserv.com
 
-#O
+!O
 0.0.0.0 offer.alibaba.com
 0.0.0.0 open-s.alibaba.com
 0.0.0.0 oa-panther.data.aliyun.com
@@ -7870,7 +7870,7 @@
 0.0.0.0 oclasrv.com
 0.0.0.0 open.ad.yieldmanager.net
 
-#P
+!P
 0.0.0.0 promotion.aliyun.com
 0.0.0.0 popunder.loading-delivery2.com
 0.0.0.0 pixel.1und1.de
@@ -7931,7 +7931,7 @@
 0.0.0.0 powerlinks.com
 0.0.0.0 plum.computingcompetitions.com
 0.0.0.0 prolongedweb.com
-0.0.0.0 pdf-download-firefox.jaleco.com   # Application.DealAlpha.1.Gen (Trojan)
+0.0.0.0 pdf-download-firefox.jaleco.com   ! Application.DealAlpha.1.Gen (Trojan)
 0.0.0.0 www.panicware.com
 0.0.0.0 panicware.com
 0.0.0.0 www.popupsentry.com
@@ -8204,7 +8204,7 @@
 0.0.0.0 partner.ads.placeiq.com
 0.0.0.0 presage.io
 0.0.0.0 park.above.com
-#0.0.0.0 pushwoosh.com (Blocks many notifications)
+!0.0.0.0 pushwoosh.com (Blocks many notifications)
 0.0.0.0 petiteumbrella.com
 0.0.0.0 p.cpx.to
 0.0.0.0 pixel-tracker.com
@@ -8241,11 +8241,11 @@
 0.0.0.0 pixel.condenastdigital.com
 0.0.0.0 p.typekit.net
 
-#Q
+!Q
 0.0.0.0 quickmapsanddirections.com
 0.0.0.0 qbox.me
 0.0.0.0 queue.statistics.aatkit.com
-0.0.0.0 qd415nvph4f8gm.w115a-4194.jclk0voo.cf    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 qd415nvph4f8gm.w115a-4194.jclk0voo.cf    ! Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 qsearch-a.akamaihd.net
 0.0.0.0 qip.ru
 0.0.0.0 www.qenklbb.com
@@ -8289,7 +8289,7 @@
 0.0.0.0 qubit.com
 0.0.0.0 qnsr.com
 
-#R
+!R
 0.0.0.0 retcode.taobao.com
 0.0.0.0 realperson.de
 0.0.0.0 redirect.com
@@ -8331,9 +8331,9 @@
 0.0.0.0 rhythmone.com
 0.0.0.0 rts.mobula.sdk.duapps.com
 0.0.0.0 return.uk.uniregistry.com
-0.0.0.0 rofevlfk.ga    # Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 rofevlfk.ga    ! Doesn't actually unsubscribe from emails, just sells your email
 0.0.0.0 rudy.adsnative.com
-0.0.0.0 rnml5fbt.ga   # Sends spam emails pretending to be ADT
+0.0.0.0 rnml5fbt.ga   ! Sends spam emails pretending to be ADT
 0.0.0.0 richeropportunity.com
 0.0.0.0 raik.hisimply.com
 0.0.0.0 ruddle.org
@@ -8346,7 +8346,7 @@
 0.0.0.0 rcm-eu.amazon-adsystem.com
 0.0.0.0 rcm.amazon.com
 0.0.0.0 rb-typeahead.appspot.com
-0.0.0.0 realify.com   # Tries A History Readout
+0.0.0.0 realify.com   ! Tries A History Readout
 0.0.0.0 req.tidaltv.com
 0.0.0.0 rsc.cdn77.org
 0.0.0.0 redirector.gvt1.com
@@ -8405,17 +8405,17 @@
 0.0.0.0 rembi.lv
 0.0.0.0 roimarketplace.com
 0.0.0.0 r.inbox.lv
-0.0.0.0 reimage-pc-repair.com   # Reimage Ad-Ware
-0.0.0.0 reimage-app-manager.en.aptoide.com   # Reimage Ad-Ware
-0.0.0.0 reimage-cleaner.en.9apps.com   # Reimage Ad-Ware
-0.0.0.0 reimage-app-manager.en.9apps.com   # Reimage Ad-Ware
-0.0.0.0 reimage-cleaner.droidinformer.org   # Reimage Ad-Ware
-0.0.0.0 reimagemac.com   # Reimage Ad-Ware
-0.0.0.0 reimage.us.com   # Reimage Ad-Ware
-0.0.0.0 reimage.org   # Reimage Ad-Ware
-0.0.0.0 reimage-plus.com   # Reimage Ad-Ware
-0.0.0.0 reimageplus.com   # Reimage Ad-Ware
-0.0.0.0 reimage-pc-repair.en.uptodown.com   # Reimage Ad-Ware
+0.0.0.0 reimage-pc-repair.com   ! Reimage Ad-Ware
+0.0.0.0 reimage-app-manager.en.aptoide.com   ! Reimage Ad-Ware
+0.0.0.0 reimage-cleaner.en.9apps.com   ! Reimage Ad-Ware
+0.0.0.0 reimage-app-manager.en.9apps.com   ! Reimage Ad-Ware
+0.0.0.0 reimage-cleaner.droidinformer.org   ! Reimage Ad-Ware
+0.0.0.0 reimagemac.com   ! Reimage Ad-Ware
+0.0.0.0 reimage.us.com   ! Reimage Ad-Ware
+0.0.0.0 reimage.org   ! Reimage Ad-Ware
+0.0.0.0 reimage-plus.com   ! Reimage Ad-Ware
+0.0.0.0 reimageplus.com   ! Reimage Ad-Ware
+0.0.0.0 reimage-pc-repair.en.uptodown.com   ! Reimage Ad-Ware
 0.0.0.0 rtb.kds.media
 0.0.0.0 rtapi.abbi.io
 0.0.0.0 rtb.appbid.com
@@ -8498,7 +8498,7 @@
 0.0.0.0 rt.udmserve.net
 0.0.0.0 r.skimresources.com
 
-#S
+!S
 0.0.0.0 www1.securybrowse.com
 0.0.0.0 www2.securybrowse.com
 0.0.0.0 www3.securybrowse.com
@@ -8590,8 +8590,8 @@
 0.0.0.0 smartlinksv2.mediresource.com
 0.0.0.0 static.fctablesmedia.com
 0.0.0.0 status.crittercism.com
-0.0.0.0 www.searchlock.com    # Not privacy friendly as advertised
-0.0.0.0 searchlock.com    # Not privacy friendly as advertised
+0.0.0.0 www.searchlock.com    ! Not privacy friendly as advertised
+0.0.0.0 searchlock.com    ! Not privacy friendly as advertised
 0.0.0.0 www.saymedia.com
 0.0.0.0 saymedia.com
 0.0.0.0 static-42andpark-com.s3.amazonaws.com
@@ -8694,17 +8694,17 @@
 0.0.0.0 ww11.sharebitstower.com
 0.0.0.0 ww12.sharebitstower.com
 0.0.0.0 *.sharebitstower.com
-0.0.0.0 spysherrif-anti-spyware.apponic.com   # FileRepMalware [PUP] (AVG),  Artemis!Trojan (McAfee-GW-Edition)
+0.0.0.0 spysherrif-anti-spyware.apponic.com   ! FileRepMalware [PUP] (AVG),  Artemis!Trojan (McAfee-GW-Edition)
 0.0.0.0 sqxqz.dfcki.info
 0.0.0.0 static.hsappstatic.net
 0.0.0.0 szzero.livechatvalue.com
-0.0.0.0 south32.com   # Cyber Squatting
-0.0.0.0 sponsored-ad-blocker.jaleco.com   # Application.DealAlpha.1.Gen (Trojan)
+0.0.0.0 south32.com   ! Cyber Squatting
+0.0.0.0 sponsored-ad-blocker.jaleco.com   ! Application.DealAlpha.1.Gen (Trojan)
 0.0.0.0 scanwith.us.intellitxt.com
 0.0.0.0 www.spywareonline.org
 0.0.0.0 spywareonline.org
-0.0.0.0 www.systemexplorer.net    # Server Software Outdated And Vulnerable
-0.0.0.0 systemexplorer.net    # Server Software Outdated And Vulnerable
+0.0.0.0 www.systemexplorer.net    ! Server Software Outdated And Vulnerable
+0.0.0.0 systemexplorer.net    ! Server Software Outdated And Vulnerable
 0.0.0.0 store.adaware.com
 0.0.0.0 salesforceliveagent.com
 0.0.0.0 salesiq.zoho.com
@@ -8771,7 +8771,7 @@
 0.0.0.0 s.qualtrics.com
 0.0.0.0 sdk.analytiall.com
 0.0.0.0 stat.analytiall.com
-#0.0.0.0 spclient.wg.spotify.com (Breaks Spotify)
+!0.0.0.0 spclient.wg.spotify.com (Breaks Spotify)
 0.0.0.0 www.sharedsourcepa.org
 0.0.0.0 sponsorpay.com
 0.0.0.0 www.studads.com
@@ -9412,7 +9412,7 @@
 0.0.0.0 sejs.moatads.com
 0.0.0.0 scripts.kissmetrics.com
 
-#T
+!T
 0.0.0.0 taiwhups.net
 0.0.0.0 tailwhups.net
 0.0.0.0 www.theparkingplace.com
@@ -9489,7 +9489,7 @@
 0.0.0.0 track.salesflare.com
 0.0.0.0 trackjs.com
 0.0.0.0 tag.brandcdn.com
-0.0.0.0 thescopeto.com    # Email Marketing
+0.0.0.0 thescopeto.com    ! Email Marketing
 0.0.0.0 tpx.everquote.com
 0.0.0.0 trc.taboola.com
 0.0.0.0 takersgains.com
@@ -9762,7 +9762,7 @@
 0.0.0.0 telize.com
 0.0.0.0 tt.omtrdc.net
 
-#U
+!U
 0.0.0.0 us.ynuf.aliapp.org
 0.0.0.0 u.alicdn.com
 0.0.0.0 united.tt.omtrdc.net
@@ -9787,8 +9787,8 @@
 0.0.0.0 unionstatistics.com
 0.0.0.0 utility.arcgisonline.com
 0.0.0.0 ultrawave.everquote.com
-0.0.0.0 www.updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
-0.0.0.0 updownload.com    # Hosts a lot of malicious files (mostly ad-ware and PUPs)
+0.0.0.0 www.updownload.com    ! Hosts a lot of malicious files (mostly ad-ware and PUPs)
+0.0.0.0 updownload.com    ! Hosts a lot of malicious files (mostly ad-ware and PUPs)
 0.0.0.0 upload.iheima.com
 0.0.0.0 unid.go.com
 0.0.0.0 usa-usage.ime.cootek.com
@@ -9885,7 +9885,7 @@
 0.0.0.0 userzoom.com
 0.0.0.0 us.adserver.yahoo.com
 
-#V
+!V
 0.0.0.0 va.cobrowse.liveperson.net
 0.0.0.0 v.fwmrm.net
 0.0.0.0 v2.listenloop.com
@@ -9967,7 +9967,7 @@
 0.0.0.0 video.plista.com
 0.0.0.0 v10.xmlsearch.miva.com
 0.0.0.0 visitor-track.com
-0.0.0.0 visit.webhosting.yahoo.com    # Pixel Tracing
+0.0.0.0 visit.webhosting.yahoo.com    ! Pixel Tracing
 0.0.0.0 visitbox.de
 0.0.0.0 visitpath.com
 0.0.0.0 visual-pagerank.fr
@@ -9991,7 +9991,7 @@
 0.0.0.0 vortex.data.microsoft.com
 0.0.0.0 v.admaster.com.cn
 
-#W
+!W
 0.0.0.0 wwatmserver.alibaba.com
 0.0.0.0 wywy.com
 0.0.0.0 worldpush.co
@@ -10042,7 +10042,7 @@
 0.0.0.0 ww38.linksprotection.com
 0.0.0.0 webglearth.com
 0.0.0.0 wfpscripts.homeunix.com
-0.0.0.0 webconversiononline.com   # Web RTC Tracking
+0.0.0.0 webconversiononline.com   ! Web RTC Tracking
 0.0.0.0 w.soundcloud.com
 0.0.0.0 www.worldprofit.com
 0.0.0.0 worldprofit.com
@@ -10074,19 +10074,19 @@
 0.0.0.0 www.website.ws
 0.0.0.0 website.ws
 0.0.0.0 wwwsaltarsmartbi-a.akamaihd.net
-0.0.0.0 ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
-0.0.0.0 w0.ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
-0.0.0.0 ws405018g4ng1g.w0.ximuqfr.gq    # Doesn't actually unsubscribe from emails, just sells your email
-0.0.0.0 w0.rnml5fbt.ga   # Sends spam emails pretending to be ADT
+0.0.0.0 ximuqfr.gq    ! Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 w0.ximuqfr.gq    ! Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 ws405018g4ng1g.w0.ximuqfr.gq    ! Doesn't actually unsubscribe from emails, just sells your email
+0.0.0.0 w0.rnml5fbt.ga   ! Sends spam emails pretending to be ADT
 0.0.0.0 wn8i8o.exnrcvcamcoj.net
 0.0.0.0 world-gen.g.aaplimg.com
-0.0.0.0 www.winfixer.com    # Scareware
-0.0.0.0 winfixer.com    # Scareware
-0.0.0.0 www.winsite.com   # Abuses Ads
-0.0.0.0 winsite.com   # Abuses Ads
+0.0.0.0 www.winfixer.com    ! Scareware
+0.0.0.0 winfixer.com    ! Scareware
+0.0.0.0 www.winsite.com   ! Abuses Ads
+0.0.0.0 winsite.com   ! Abuses Ads
 0.0.0.0 www.webcompanion.com    MSIL/WebCompanion.C potentially unwanted
 0.0.0.0 webcompanion.com    MSIL/WebCompanion.C potentially unwanted
-0.0.0.0 winsysdev.com   # Links To ReImage Ad-Ware
+0.0.0.0 winsysdev.com   ! Links To ReImage Ad-Ware
 0.0.0.0 widgets.zohosalesiq.com
 0.0.0.0 webfonts.zohowebstatic.com
 0.0.0.0 wrating.com
@@ -10102,7 +10102,7 @@
 0.0.0.0 www.w3counter.com
 0.0.0.0 w3counter.com
 0.0.0.0 www.websitealive.com
-0.0.0.0 websitealive3.com   # Tracker for websitealive.com
+0.0.0.0 websitealive3.com   ! Tracker for websitealive.com
 0.0.0.0 websitealive.com
 0.0.0.0 widget.percept.ai
 0.0.0.0 wpa.qq.com
@@ -10269,7 +10269,7 @@
 0.0.0.0 webads.nl
 0.0.0.0 wv.inner-active.mobi
 
-#X
+!X
 0.0.0.0 xdwan.cn
 0.0.0.0 xand.mixhits.com
 0.0.0.0 xbs.mtree.com
@@ -10312,11 +10312,11 @@
 0.0.0.0 www.xxxwebtraffic.com
 0.0.0.0 xxxwebtraffic.com
 
-#Y
+!Y
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 www.yipes.com
 0.0.0.0 yipes.com
-0.0.0.0 yaspsd.ir   # Web RTC Tracking
+0.0.0.0 yaspsd.ir   ! Web RTC Tracking
 0.0.0.0 yorkstatebank.com.102.112.2o7.net
 0.0.0.0 yume.com
 0.0.0.0 yext.com
@@ -10446,7 +10446,7 @@
 0.0.0.0 ytqm.org
 0.0.0.0 y-track.com
 
-#Z
+!Z
 0.0.0.0 zapto.org
 0.0.0.0 zl.ai
 0.0.0.0 zk.ai
@@ -10508,11 +10508,11 @@
 0.0.0.0 zoom.zynga.com
 0.0.0.0 zencdn.net
 0.0.0.0 zeus.ad.intl.xiaomi.com
-0.0.0.0 zoneprotect.com   # Fake AV
-0.0.0.0 zoneprotect-antispyware.updatestar.com    # Fake AV
-0.0.0.0 zoneprotect-antispyware.soft32.com    # Fake AV
-0.0.0.0 zoneprotect-antispyware.updatestar.com    # Fake AV
-0.0.0.0 zoneprotect-antispyware.download3000.com    # Fake AV
+0.0.0.0 zoneprotect.com   ! Fake AV
+0.0.0.0 zoneprotect-antispyware.updatestar.com    ! Fake AV
+0.0.0.0 zoneprotect-antispyware.soft32.com    ! Fake AV
+0.0.0.0 zoneprotect-antispyware.updatestar.com    ! Fake AV
+0.0.0.0 zoneprotect-antispyware.download3000.com    ! Fake AV
 0.0.0.0 zohosalesiq.com
 0.0.0.0 www.zoho.com
 0.0.0.0 zoho.com
@@ -10634,7 +10634,7 @@
 0.0.0.0 zycvyudt.com
 0.0.0.0 zyqlfplqdgxu.com
 
-# IPs
+! IPs
 0.0.0.0 184.105.213.93
 0.0.0.0 72.52.92.13
 0.0.0.0 80.81.192.172
@@ -10973,7 +10973,7 @@
 0.0.0.0 121.43.68.40
 0.0.0.0 202.164.36.10
 
-#Misc
+!Misc
 0.0.0.0 144.dragonparking.com
 0.0.0.0 164d.joypush.cn
 0.0.0.0 164c.mnwan.com
@@ -11106,9 +11106,9 @@
 0.0.0.0 14.0.190.35.bc.googleusercontent.com
 0.0.0.0 1.65.on.180613.msn.com
 0.0.0.0 9p41uvlef4ikrt.wffc-e635.yciuyrlw.ml
-0.0.0.0 www.1800freshtax.com    # Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK#oc#)
-0.0.0.0 1800freshtax.com    # Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK#oc#)
-0.0.0.0 7wuvias.website   # data-cash.net
+0.0.0.0 www.1800freshtax.com    ! Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK!oc!)
+0.0.0.0 1800freshtax.com    ! Base domain doesn't work so most likely a scam (Working url: www.1800freshtax.com/ft/?reqid=12043367&affid=153&a=153&cpAFID=153&cpSID=10&s1=10&cpSID2=46677952&oc=&ClientGuid=8726B511-5E23-4DA7-9E46-13AB24116D1B&VendorGuid=8e8d1d8f-19e9-4dca-9ee9-77f3bf208861&LocationCode=CRSS2165-101&offer_id=84&UrlRefer=www.1800freshtax.com%252Fft%252Findex.php&PathLabel=1800-FT&aff_sub=%2B18556425696&SubmitType=TALK!oc!)
+0.0.0.0 7wuvias.website   ! data-cash.net
 0.0.0.0 www.36022222.com
 0.0.0.0 36022222.com
 0.0.0.0 www.222222999999.com
@@ -11123,8 +11123,8 @@
 0.0.0.0 0012.com
 0.0.0.0 www.2567389.com
 0.0.0.0 2567389.com
-0.0.0.0 www.2-spyware.com   # Promotes ReImage Ad-Ware
-0.0.0.0 2-spyware.com   # Promotes ReImage Ad-Ware
+0.0.0.0 www.2-spyware.com   ! Promotes ReImage Ad-Ware
+0.0.0.0 2-spyware.com   ! Promotes ReImage Ad-Ware
 0.0.0.0 19vg6.la4-c2-dfw.salesforceliveagent.com
 0.0.0.0 3n8u4a2kr6qf2tyhur24ejeq.wpengine.netdna-cdn.com
 0.0.0.0 103.109.201.35.bc.googleusercontent.com
@@ -13543,6 +13543,7 @@
 0.0.0.0 57.6.87.194.dynamic.dol.ru
 0.0.0.0 6901690.fls.doubleclick.net
 0.0.0.0 1e100.net
+
 
 # Blocking specific things on domains
 duckduckgo.com#@#.has-ad
