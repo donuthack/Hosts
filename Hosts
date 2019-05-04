@@ -8694,7 +8694,7 @@
 0.0.0.0 ww11.sharebitstower.com
 0.0.0.0 ww12.sharebitstower.com
 0.0.0.0 *.sharebitstower.com
-0.0.0.0 spysherrif-anti-spyware.apponic.com   ! FileRepMalware [PUP] (AVG),  Artemis!Trojan (McAfee-GW-Edition)
+0.0.0.0 spysherrif-anti-spyware.apponic.com   ! FileRepMalware [PUP] (AVG),  Artemis! Trojan (McAfee-GW-Edition)
 0.0.0.0 sqxqz.dfcki.info
 0.0.0.0 static.hsappstatic.net
 0.0.0.0 szzero.livechatvalue.com
@@ -9413,6 +9413,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 trymask.com
 0.0.0.0 taiwhups.net
 0.0.0.0 tailwhups.net
 0.0.0.0 www.theparkingplace.com
