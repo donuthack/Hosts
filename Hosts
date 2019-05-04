@@ -767,6 +767,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 #A
+0.0.0.0 www.adinplay.com
+0.0.0.0 adinplay.com
 0.0.0.0 api.webdata.ledu.com
 0.0.0.0 activity.alibaba.com
 0.0.0.0 aeis.alicdn.com
@@ -3958,27 +3960,6 @@
 0.0.0.0 consensu.org
 0.0.0.0 click.a-ads.com
 0.0.0.0 client-channel.google.com.au
-0.0.0.0 client1.google.com.au
-#0.0.0.0 client2.google.com.au (Blocks updates for Google products such as Chrome)
-0.0.0.0 client3.google.com.au
-0.0.0.0 client4.google.com.au
-0.0.0.0 client5.google.com.au
-0.0.0.0 client6.google.com.au
-0.0.0.0 clients2.google.com.au
-0.0.0.0 clients3.google.com.au
-0.0.0.0 clients4.google.com.au
-0.0.0.0 clients6.google.com.au
-0.0.0.0 client-channel.google.com
-0.0.0.0 client1.google.com
-#0.0.0.0 client2.google.com (Blocks updates for Google products such as Chrome)
-0.0.0.0 client3.google.com
-0.0.0.0 client4.google.com
-0.0.0.0 client5.google.com
-0.0.0.0 client6.google.com
-0.0.0.0 clients2.google.com
-0.0.0.0 clients3.google.com
-0.0.0.0 clients4.google.com
-0.0.0.0 clients6.google.com
 0.0.0.0 clientmetrics-pa.googleapis.com
 0.0.0.0 clk.verblife-3.co
 0.0.0.0 countess.twitch.tv
@@ -4294,6 +4275,8 @@
 0.0.0.0 creative.medialytics.com
 
 #D
+0.0.0.0 dragonparking.com
+0.0.0.0 dragonstatic.com
 0.0.0.0 www.domainzaar.com
 0.0.0.0 domainzaar.com
 0.0.0.0 www.domainparking.com
@@ -4806,6 +4789,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 #E
+0.0.0.0 everyaction.com
 0.0.0.0 err.taobao.com
 0.0.0.0 www.evidon.com
 0.0.0.0 evidon.com
@@ -5268,6 +5252,8 @@
 0.0.0.0 freshmarketer.com
 
 #G
+0.0.0.0 www.goguardian.com
+0.0.0.0 goguardian.com
 0.0.0.0 good.alibaba.com
 0.0.0.0 g.alicdn.com
 0.0.0.0 gj.mmstat.com
@@ -5519,6 +5505,7 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 #H
+0.0.0.0 hhopenbid.pubmatic.com
 0.0.0.0 hquickmapsanddirections.com
 0.0.0.0 hdownloadmyinboxhelper.com
 0.0.0.0 herald.spiceworks.com
@@ -5676,6 +5663,7 @@
 0.0.0.0 helpshift.com
 
 #I
+0.0.0.0 imarketsmart.com
 0.0.0.0 image.ledu.cfile
 0.0.0.0 i.alicdn.com
 0.0.0.0 installw.com
@@ -7589,6 +7577,7 @@
 0.0.0.0 memo2.nl
 
 #N
+0.0.0.0 nieveni.com
 0.0.0.0 notification.alibaba.com
 0.0.0.0 netflixbuynowdiscount.com
 0.0.0.0 node.ads-blocker.ru
@@ -8510,6 +8499,7 @@
 0.0.0.0 r.skimresources.com
 
 #S
+0.0.0.0 sc-static.net
 0.0.0.0 swbr.surewest.net
 0.0.0.0 sso.myconsolidated.net
 0.0.0.0 surewest.net
@@ -9414,6 +9404,8 @@
 0.0.0.0 scripts.kissmetrics.com
 
 #T
+0.0.0.0 taiwhups.net
+0.0.0.0 tailwhups.net
 0.0.0.0 www.theparkingplace.com
 0.0.0.0 theparkingplace.com
 0.0.0.0 tqn.com
@@ -10973,6 +10965,7 @@
 0.0.0.0 202.164.36.10
 
 #Misc
+0.0.0.0 144.dragonparking.com
 0.0.0.0 164d.joypush.cn
 0.0.0.0 164c.mnwan.com
 0.0.0.0 164553-14573.popunder.loading-delivery2.com
@@ -13575,8 +13568,7 @@ thetinhat.com##div.half.subbox:nth-of-type(4) > .follow
 ||thetinhat.com/images/nord1.png
 ||thetinhat.com/images/nordvpn.png
 ||thetinhat.com/images/spideroak-code.png
-||facebook.com^$third-party
-||converto.io^$popup,third-party
+||converto.io^$popup
 ||linkshrink.net^$popup,third-party
 ||ioshack.vip/img/navimg/png2.png
 ioshack.vip###toMenu
@@ -13980,6 +13972,26 @@ spiceworks.com##.community-content-banner
 ||freerice.com/sites/default/files/imagecache/banner_549x90/Freerice%20Rubicon%20Ad.jpg.jpeg
 ||freerice.com/sites/default/files/imagecache/banner_219x89/Freerice%20Banner%20for%20IG.png
 www.alibaba.com###J-ali-sidebar
+ww2.guidestar.org###signUpFooter
+ww2.guidestar.org##.sticky-footer.centered.gs-banner.display-none-print
+ww2.guidestar.org##.col-md-12.centered.payg
+||content.govdelivery.com/attachments/fancy_images/IACIO/2018/05/1968403/overlay-ed_original.png$image
+educateiowa.gov###prefix-overlay-step1
+educateiowa.gov###prefix-overlay-outer
+educateiowa.gov##div:nth-of-type(7)
+educateiowa.gov###prefoot_row
+www.converto.io##.native_index_page
+www.converto.io##.share-block-xl > p
+s3.converto.io##.bordered.share-block-xl
+s7.converto.io##.share-block-xl.bordered
+s3.converto.io##.lkt > div:nth-of-type(4)
+s3.converto.io##.native_dl_page
+s7.converto.io##.like-and-share-btns.d-page
+s*.converto.io##.bordered.share-block-xl
+s*.converto.io##.share-block-xl.bordered
+s*.converto.io##.lkt > div:nth-of-type(4)
+s*.converto.io##.native_dl_page
+s*.converto.io##.like-and-share-btns.d-page
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
@@ -14175,6 +14187,7 @@ _Affiliate
 /getadpack.html
 /pixels/storage/main/pixel.gif
 /removeAB.php
+/_ate.track.config_resp
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
