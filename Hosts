@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Saturday, May 4, 2019
+! Last Updated on Sunday, May 5, 2019
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -2801,6 +2801,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 basis.net
 0.0.0.0 blog.listenloop.com
 0.0.0.0 botcrawler.disqus.com
 0.0.0.0 b.in-addr-servers.arpa
@@ -7871,6 +7872,8 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 www.proper.io
+0.0.0.0 proper.io
 0.0.0.0 promotion.aliyun.com
 0.0.0.0 popunder.loading-delivery2.com
 0.0.0.0 pixel.1und1.de
@@ -8290,6 +8293,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 realclear.com
 0.0.0.0 retcode.taobao.com
 0.0.0.0 realperson.de
 0.0.0.0 redirect.com
@@ -10636,6 +10640,8 @@
 0.0.0.0 zyqlfplqdgxu.com
 
 ! IPs
+0.0.0.0 54.242.210.82
+0.0.0.0 34.224.154.26
 0.0.0.0 184.105.213.93
 0.0.0.0 72.52.92.13
 0.0.0.0 80.81.192.172
@@ -14005,6 +14011,7 @@ s*.converto.io##.share-block-xl.bordered
 s*.converto.io##.lkt > div:nth-of-type(4)
 s*.converto.io##.native_dl_page
 s*.converto.io##.like-and-share-btns.d-page
+realclearpolicy.com##.distro_spot
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
