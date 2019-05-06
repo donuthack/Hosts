@@ -14012,6 +14012,7 @@ s*.converto.io##.lkt > div:nth-of-type(4)
 s*.converto.io##.native_dl_page
 s*.converto.io##.like-and-share-btns.d-page
 realclearpolicy.com##.distro_spot
+www.realclearpolicy.com##.distro_spot
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
