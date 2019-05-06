@@ -4224,7 +4224,6 @@
 0.0.0.0 channeladvisor.com
 0.0.0.0 cdn.bizible.com
 0.0.0.0 cdn.adsafeprotected.com
-0.0.0.0 code.jquery.com
 0.0.0.0 c.betrad.com
 0.0.0.0 cdn.livefyre.com
 0.0.0.0 cdn.trackjs.com
@@ -4276,6 +4275,8 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 www1.devehab.com
+0.0.0.0 devehab.com
 0.0.0.0 dragonparking.com
 0.0.0.0 dragonstatic.com
 0.0.0.0 www.domainzaar.com
@@ -5253,6 +5254,9 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 getip.devehab.com
+0.0.0.0 gopher-buddy-dev.appspot.com
+0.0.0.0 gopher-buddy-prod.appspot.com
 0.0.0.0 www.goguardian.com
 0.0.0.0 goguardian.com
 0.0.0.0 good.alibaba.com
@@ -10640,6 +10644,7 @@
 0.0.0.0 zyqlfplqdgxu.com
 
 ! IPs
+0.0.0.0 81.161.59.130
 0.0.0.0 54.242.210.82
 0.0.0.0 34.224.154.26
 0.0.0.0 184.105.213.93
@@ -10981,6 +10986,7 @@
 0.0.0.0 202.164.36.10
 
 !Misc
+0.0.0.0 974563760330-o47cf80n1i95p1f56ovt2ghp3l64oerj.apps.googleusercontent.com
 0.0.0.0 144.dragonparking.com
 0.0.0.0 164d.joypush.cn
 0.0.0.0 164c.mnwan.com
