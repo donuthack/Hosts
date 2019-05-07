@@ -5511,6 +5511,7 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hsionlineorders.net
 0.0.0.0 hhopenbid.pubmatic.com
 0.0.0.0 hquickmapsanddirections.com
 0.0.0.0 hdownloadmyinboxhelper.com
@@ -7585,6 +7586,7 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nmhfiles.com
 0.0.0.0 nieveni.com
 0.0.0.0 notification.alibaba.com
 0.0.0.0 netflixbuynowdiscount.com
@@ -7879,6 +7881,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pro.hsionlineorders.net
 0.0.0.0 www.proper.io
 0.0.0.0 proper.io
 0.0.0.0 promotion.aliyun.com
@@ -8300,6 +8303,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 ryllae.com
 0.0.0.0 realclear.com
 0.0.0.0 retcode.taobao.com
 0.0.0.0 realperson.de
@@ -14010,16 +14014,56 @@ educateiowa.gov##div:nth-of-type(7)
 educateiowa.gov###prefoot_row
 www.converto.io##.native_index_page
 www.converto.io##.share-block-xl > p
+s1.converto.io##.bordered.share-block-xl
+s1.converto.io##.share-block-xl.bordered
+s1.converto.io##.lkt > div:nth-of-type(4)
+s1.converto.io##.native_dl_page
+s1.converto.io##.like-and-share-btns.d-page
+s2.converto.io##.bordered.share-block-xl
+s2.converto.io##.share-block-xl.bordered
+s2.converto.io##.lkt > div:nth-of-type(4)
+s2.converto.io##.native_dl_page
+s2.converto.io##.like-and-share-btns.d-page
 s3.converto.io##.bordered.share-block-xl
-s7.converto.io##.share-block-xl.bordered
+s3.converto.io##.share-block-xl.bordered
 s3.converto.io##.lkt > div:nth-of-type(4)
 s3.converto.io##.native_dl_page
+s3.converto.io##.like-and-share-btns.d-page
+s4.converto.io##.bordered.share-block-xl
+s4.converto.io##.share-block-xl.bordered
+s4.converto.io##.lkt > div:nth-of-type(4)
+s4.converto.io##.native_dl_page
+s4.converto.io##.like-and-share-btns.d-page
+s5.converto.io##.bordered.share-block-xl
+s5.converto.io##.share-block-xl.bordered
+s5.converto.io##.lkt > div:nth-of-type(4)
+s5.converto.io##.native_dl_page
+s5.converto.io##.like-and-share-btns.d-page
+s6.converto.io##.bordered.share-block-xl
+s6.converto.io##.share-block-xl.bordered
+s6.converto.io##.lkt > div:nth-of-type(4)
+s6.converto.io##.native_dl_page
+s6.converto.io##.like-and-share-btns.d-page
+s7.converto.io##.bordered.share-block-xl
+s7.converto.io##.share-block-xl.bordered
+s7.converto.io##.lkt > div:nth-of-type(4)
+s7.converto.io##.native_dl_page
 s7.converto.io##.like-and-share-btns.d-page
-s*.converto.io##.bordered.share-block-xl
-s*.converto.io##.share-block-xl.bordered
-s*.converto.io##.lkt > div:nth-of-type(4)
-s*.converto.io##.native_dl_page
-s*.converto.io##.like-and-share-btns.d-page
+s8.converto.io##.bordered.share-block-xl
+s8.converto.io##.share-block-xl.bordered
+s8.converto.io##.lkt > div:nth-of-type(4)
+s8.converto.io##.native_dl_page
+s8.converto.io##.like-and-share-btns.d-page
+s9.converto.io##.bordered.share-block-xl
+s9.converto.io##.share-block-xl.bordered
+s9.converto.io##.lkt > div:nth-of-type(4)
+s9.converto.io##.native_dl_page
+s9.converto.io##.like-and-share-btns.d-page
+s10.converto.io##.bordered.share-block-xl
+s10.converto.io##.share-block-xl.bordered
+s10.converto.io##.lkt > div:nth-of-type(4)
+s10.converto.io##.native_dl_page
+s10.converto.io##.like-and-share-btns.d-page
 realclearpolicy.com##.distro_spot
 www.realclearpolicy.com##.distro_spot
 
@@ -14218,6 +14262,11 @@ _Affiliate
 /pixels/storage/main/pixel.gif
 /removeAB.php
 /_ate.track.config_resp
+/search?vet
+/async/ecr?
+/fd/ls/lsp.aspx
+/fd/ls/ls.gif
+/common-student-lab/src/js/jsxgraphcore.js
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
