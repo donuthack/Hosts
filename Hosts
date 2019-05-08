@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Sunday, May 5, 2019
+! Last Updated on Wednesday, May 8, 2019
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -14267,6 +14267,20 @@ _Affiliate
 /fd/ls/lsp.aspx
 /fd/ls/ls.gif
 /common-student-lab/src/js/jsxgraphcore.js
+/ajax/record-impressions
+/track/track.js
+/ads_banner
+/track/ga_tracker
+/track/pixel_tracker
+/adbackground.html
+/rsrc.php
+/plugins/feedback.php
+/ajax/bz
+/game-tracking-views.ajax
+/assets.pagefair.com/adimaged/textlink-ads.jpg
+/modules/fed-newsfeed/850424a9481/bundle.js
+/wp-content/plugins/dfm-notifications/js/webpush.js?
+/ki.js/53782/bH0qoo.js
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
