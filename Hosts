@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Wednesday, May 8, 2019
+! Last Updated on Thursday, May 9, 2019
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -767,6 +767,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 adtaxi.com
+0.0.0.0 api.qualaroo.com
 0.0.0.0 www.adinplay.com
 0.0.0.0 adinplay.com
 0.0.0.0 api.webdata.ledu.com
@@ -3560,6 +3562,9 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clownplay.com
+0.0.0.0 chatpath.com
+0.0.0.0 cl.qualaroo.com
 0.0.0.0 compass.alibaba.com
 0.0.0.0 cobrowse.liveperson.net
 0.0.0.0 cdntt.bidvertiser.com
@@ -5068,6 +5073,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fun.clownplay.com
 0.0.0.0 fourier.alibaba.com
 0.0.0.0 footprintpredict.com
 0.0.0.0 ftth.swbr.surewest.net
@@ -7043,6 +7049,8 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 leaddyno.com
+0.0.0.0 log.pinterest.com
 0.0.0.0 ledu.cfile
 0.0.0.0 loading-delivery2.com
 0.0.0.0 link.iwanttodeliver.com
@@ -7586,6 +7594,7 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 ntv.io
 0.0.0.0 nmhfiles.com
 0.0.0.0 nieveni.com
 0.0.0.0 notification.alibaba.com
@@ -7881,6 +7890,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pixel.advertising.com
 0.0.0.0 pro.hsionlineorders.net
 0.0.0.0 www.proper.io
 0.0.0.0 proper.io
@@ -8255,6 +8265,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qualaroo.com
 0.0.0.0 quickmapsanddirections.com
 0.0.0.0 qbox.me
 0.0.0.0 queue.statistics.aatkit.com
@@ -9428,6 +9439,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 turbo.qualaroo.com
 0.0.0.0 trymask.com
 0.0.0.0 taiwhups.net
 0.0.0.0 tailwhups.net
@@ -14281,6 +14293,17 @@ _Affiliate
 /modules/fed-newsfeed/850424a9481/bundle.js
 /wp-content/plugins/dfm-notifications/js/webpush.js?
 /ki.js/53782/bH0qoo.js
+/charts/loader.js
+/JS/cos-chatbot-1.10.min.js
+/JS/botchat-es5-0.14.0.js
+/dcs.gif?
+/vaylihfrsojo9mOCkuqinOmchogapq
+/recImpression.html
+/serveAds.php
+/showads.v2.js
+/track.png
+/track.gif
+/tracker.php
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
