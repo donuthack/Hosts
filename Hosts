@@ -767,6 +767,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 www.analyticsmarket.com
+0.0.0.0 analyticsmarket.com
 0.0.0.0 adtaxi.com
 0.0.0.0 api.qualaroo.com
 0.0.0.0 www.adinplay.com
@@ -2803,6 +2805,8 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 boomeranggmail.com
+0.0.0.0 bananatag.com
 0.0.0.0 basis.net
 0.0.0.0 blog.listenloop.com
 0.0.0.0 botcrawler.disqus.com
@@ -3562,6 +3566,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clmbtech.com
 0.0.0.0 clownplay.com
 0.0.0.0 chatpath.com
 0.0.0.0 cl.qualaroo.com
@@ -5260,6 +5265,8 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gettally.com
+0.0.0.0 getsidekick.com
 0.0.0.0 gml.email
 0.0.0.0 getip.devehab.com
 0.0.0.0 gopher-buddy-dev.appspot.com
@@ -5517,6 +5524,8 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hubspotfeedback.com
+0.0.0.0 hubspot.com
 0.0.0.0 hsionlineorders.net
 0.0.0.0 hhopenbid.pubmatic.com
 0.0.0.0 hquickmapsanddirections.com
@@ -5676,6 +5685,8 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 infusionsoft.com
+0.0.0.0 icontact.com
 0.0.0.0 imarketsmart.com
 0.0.0.0 image.ledu.cfile
 0.0.0.0 i.alicdn.com
@@ -6294,6 +6305,7 @@
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 keap.com
 0.0.0.0 *.kickme.to
 0.0.0.0 kickme.to
 0.0.0.0 www.kahuna.com
@@ -7049,6 +7061,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 launchbit.com
 0.0.0.0 leaddyno.com
 0.0.0.0 log.pinterest.com
 0.0.0.0 ledu.cfile
@@ -7890,6 +7903,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 postmarkapp.com
 0.0.0.0 pixel.advertising.com
 0.0.0.0 pro.hsionlineorders.net
 0.0.0.0 www.proper.io
@@ -8314,6 +8328,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 relateiq.com
 0.0.0.0 ryllae.com
 0.0.0.0 realclear.com
 0.0.0.0 retcode.taobao.com
@@ -8525,6 +8540,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 streak.com
 0.0.0.0 www1.securybrowse.com
 0.0.0.0 www2.securybrowse.com
 0.0.0.0 www3.securybrowse.com
@@ -10290,6 +10306,7 @@
 0.0.0.0 window.nixnet.cz
 0.0.0.0 wintricksbanner.googlepages.com
 0.0.0.0 wisepops.com
+0.0.0.0 www.woopra.com
 0.0.0.0 woopra.com
 0.0.0.0 worldwide-cash.net
 0.0.0.0 windstream.com
@@ -10341,6 +10358,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yesware.com
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 www.yipes.com
 0.0.0.0 yipes.com
@@ -14078,6 +14096,8 @@ s10.converto.io##.native_dl_page
 s10.converto.io##.like-and-share-btns.d-page
 realclearpolicy.com##.distro_spot
 www.realclearpolicy.com##.distro_spot
+stardomplace.com##.cookie-notice-container
+stardomplace.com##.footer-widgets.first-footer-widgets.widgets-num-4
 
 # Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
 _campaign=$document
@@ -14112,7 +14132,6 @@ _Affiliate
 /fi_client.js
 /player_204
 /ptracking/
-/favicon.gif
 /yt/advertise
 /advertise
 /9_rICcQEs1i28yq2ECdx4lNAqnXY68gixcJK91aOanQ.js
@@ -14169,7 +14188,6 @@ _Affiliate
 /add_search.php
 /analytics.js
 /RightNow.Client.js
-/cookie-id.js
 /cookie-id.js?fn=eluminate2429/
 /csm/showads.v2.js
 /ibu_aidsid_online_bundle.19c3a268.js,ibu_use_cookie_online_bundle.f2f451c7.js
@@ -14293,7 +14311,6 @@ _Affiliate
 /modules/fed-newsfeed/850424a9481/bundle.js
 /wp-content/plugins/dfm-notifications/js/webpush.js?
 /ki.js/53782/bH0qoo.js
-/charts/loader.js
 /JS/cos-chatbot-1.10.min.js
 /JS/botchat-es5-0.14.0.js
 /dcs.gif?
@@ -14304,6 +14321,14 @@ _Affiliate
 /track.png
 /track.gif
 /tracker.php
+/detect-adblock.js
+/detect-adblock/
+/manageads/47191571.jsons?
+/jsAds/
+/cookie-law-info-bar
+/attachment-tracking
+/email-link-tracking
+/email-analytics-performance
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
@@ -14473,3 +14498,4 @@ _Affiliate
 ##.unsupported-browser
 ##.mylivechat_main
 ##.mylivechat_expanded
+##.cookie-notice-container
