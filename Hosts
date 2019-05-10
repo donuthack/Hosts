@@ -7219,6 +7219,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 magento.com
 0.0.0.0 mailfoogae.appspot.com
 0.0.0.0 mailtrack.io
 0.0.0.0 marketing.alibaba.com
@@ -7767,6 +7768,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 outreach.io
 0.0.0.0 offer.alibaba.com
 0.0.0.0 open-s.alibaba.com
 0.0.0.0 oa-panther.data.aliyun.com
@@ -8328,6 +8330,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rjmetrics.com
 0.0.0.0 relateiq.com
 0.0.0.0 ryllae.com
 0.0.0.0 realclear.com
@@ -8540,6 +8543,8 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 salesforce.com
+0.0.0.0 sfdcstatic.com
 0.0.0.0 streak.com
 0.0.0.0 www1.securybrowse.com
 0.0.0.0 www2.securybrowse.com
@@ -9455,6 +9460,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 toutapp.com
 0.0.0.0 turbo.qualaroo.com
 0.0.0.0 trymask.com
 0.0.0.0 taiwhups.net
@@ -14186,7 +14192,6 @@ _Affiliate
 /sponsored.php
 /js/v0Min.js
 /add_search.php
-/analytics.js
 /RightNow.Client.js
 /cookie-id.js?fn=eluminate2429/
 /csm/showads.v2.js
