@@ -8,6 +8,9 @@
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
 ! Last Updated on Thursday, May 9, 2019
 
+! Whitelist googlevideo.com so YouTube doesn't break
+@@||googlevideo.com
+
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
 0.0.0.0 holaspark.com
@@ -767,6 +770,10 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 assetsamillionads02-prod.s3.amazonaws.com
+0.0.0.0 amillionads.com
+0.0.0.0 adnexus.net
+0.0.0.0 activity.windows.com
 0.0.0.0 www.analyticsmarket.com
 0.0.0.0 analyticsmarket.com
 0.0.0.0 adtaxi.com
@@ -3566,6 +3573,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 ccp.ac
 0.0.0.0 csgo-gam.xyz
 0.0.0.0 clmbtech.com
 0.0.0.0 clownplay.com
@@ -4714,6 +4722,7 @@
 0.0.0.0 dap2y8k6nefku.cloudfront.net
 0.0.0.0 dl6fh5ptkejqa.cloudfront.net
 0.0.0.0 dw26xg4lubooo.cloudfront.net
+0.0.0.0 dalusewymm5m7.cloudfront.net
 0.0.0.0 d10lpsik1i8c69.cloudfront.net
 0.0.0.0 d1hi41nc56pmug.cloudfront.net
 0.0.0.0 d3ukzap5f2wa8d.cloudfront.net
@@ -5688,6 +5697,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ig.gmodules.com
 0.0.0.0 infusionsoft.com
 0.0.0.0 icontact.com
 0.0.0.0 imarketsmart.com
@@ -7612,6 +7622,7 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nitropay.com
 0.0.0.0 ntv.io
 0.0.0.0 nmhfiles.com
 0.0.0.0 nieveni.com
@@ -8337,7 +8348,6 @@
 0.0.0.0 rjmetrics.com
 0.0.0.0 relateiq.com
 0.0.0.0 ryllae.com
-0.0.0.0 realclear.com
 0.0.0.0 retcode.taobao.com
 0.0.0.0 realperson.de
 0.0.0.0 redirect.com
@@ -14108,8 +14118,62 @@ realclearpolicy.com##.distro_spot
 www.realclearpolicy.com##.distro_spot
 stardomplace.com##.cookie-notice-container
 stardomplace.com##.footer-widgets.first-footer-widgets.widgets-num-4
+||discord.me/img/discover_discord.png
+discord.me##[href="http://bit.ly/learn-with-discover-discord-2019"]
+discord.me##.d-lg-block.d-none.col-2
+slate.com##.top-ad
+slate.com##.masthead > .masthead__wrapper
+slate.com##.hp-bottom-shelf__promo-content.hp-bottom-shelf__item
+slate.com##div.spacer-vertical--border.spacer-vertical--lg.spacer-vertical:nth-of-type(25)
+www.ratemyprofessors.com##.reveal-modal-bg
+www.ratemyprofessors.com###adBlockModal
+www.ratemyprofessors.com##.ad.block
+www.ratemyprofessors.com##.top-header
+youbentmywookie.com##.banner1
+youbentmywookie.com##.banner_middle
+youbentmywookie.com##.banner_middle_single
+||youbentmywookie.com/wookie/banners/310x280/wookie_block_banner.jpg$image
+youbentmywookie.com##div.banner_side:nth-of-type(7)
+||youbentmywookie.com/wookie/banners/310x280/wookie_block_ad-bikesaw.jpg$image
+youbentmywookie.com##div.banner_side:nth-of-type(1)
+www.digminecraft.com###sabl
+www.digminecraft.com##.bottom_slot.slot > p
+www.digminecraft.com###third_slot
+www.digminecraft.com##.bottom_slot.slot
+||lastpass.com/m.php/analyticsjs
+temp-mail.org##.align-content-center.bottom-adver-end
+||www.roblox.com/user-sponsorship/1
+||www.roblox.com/user-sponsorship/2
+||www.roblox.com/user-sponsorship/3
+||ecsv2.roblox.com/www/e.png
+www.roblox.com##[class="profile-ad"]
+dailywire.com##.remodal-is-opened
+dailywire.com##.remodal-overlay
+democracynow.org###campaign_modal
+democracynow.org###overlay
+democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+denverpost.com##.Mg2-connext
+denverpost.com##.connext-modal-backdrop
+denverpost.com##.modal-scrollable
+mozilla.org##.donate-modal-wrapper
+nypost.com###nyp-newsletter-modal
+nypost.com###nyp-piano-flyout
+nypost.com##.modal-trigger
+nytimes.com###overlay
+nytimes.com###step-two-modal
+nytimes.com###welcome-back-modal
+nytimes.com##.ButtonModal-container--2sXp8
+nytimes.com##.bundle-payflow
+nytimes.com##.bundle-payflow-module
+nytimes.com##.nytc---modal-window---contentBase
+nytimes.com##.nytc---modal-window---windowContainer
+nytimes.com##.nytc---shared---modalContentContainer
+pewresearch.org###js-user-survey-popup
+politico.com###overlayMagazine
 
-# Block tracking scripts, ads and add cosmetic filters (ScriptBlock.txt no longer being updated)
+
+# Block tracking scripts, ads and add cosmetic filters
+/satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
 _campaign=$document
 utm_source
 _Affiliate
@@ -14338,6 +14402,8 @@ _Affiliate
 /attachment-tracking
 /email-link-tracking
 /email-analytics-performance
+/api/census/RecordHit
+/api/1/wp-rum/settings/
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
@@ -14508,3 +14574,4 @@ _Affiliate
 ##.mylivechat_main
 ##.mylivechat_expanded
 ##.cookie-notice-container
+###block-block-35
