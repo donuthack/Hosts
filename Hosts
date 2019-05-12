@@ -6,10 +6,11 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 14,045 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Thursday, May 9, 2019
+! Last Updated on Saturday, May 11, 2019
 
-! Whitelist googlevideo.com so YouTube doesn't break
+! Unbreak
 @@||googlevideo.com
+@@||encrypted.google.com/recaptcha/api/
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -133,6 +134,23 @@
 0.0.0.0 ipstack.net
 0.0.0.0 tracemyip.org
 0.0.0.0 www.tracemyip.org
+0.0.0.0 xn--yotu-1ra.be
+0.0.0.0 xn--discrd-zxa.com
+0.0.0.0 xn--srahah-bua.eu
+0.0.0.0 xn--minecrft-5za.com
+0.0.0.0 xn--disordapp-s3a.com
+0.0.0.0 xn--srahah-bua.pl
+0.0.0.0 xda-developers.us
+0.0.0.0 quickmessage.us
+0.0.0.0 fortnight.space
+0.0.0.0 fortnitechat.site
+0.0.0.0 youshouldclick.us
+0.0.0.0 joinmy.site
+0.0.0.0 watches-my.stream
+0.0.0.0 www.apple.com-fasting.live
+0.0.0.0 apple.com-fasting.live
+0.0.0.0 parentelement.tk
+0.0.0.0 com-fasting.live
 
 ! Apple
 0.0.0.0 advertising.apple.com
@@ -770,6 +788,15 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 adworldmedia.com
+0.0.0.0 adlandpro.com
+0.0.0.0 analytics.colacoweb.net
+0.0.0.0 analytics.cloudron.io
+0.0.0.0 analytics-digit-in.cdn.ampproject.org
+0.0.0.0 analysis.polarisoffice.com
+0.0.0.0 appround.biz
+0.0.0.0 aceadsys.net
+0.0.0.0 a.xfreeservice.com
 0.0.0.0 assetsamillionads02-prod.s3.amazonaws.com
 0.0.0.0 amillionads.com
 0.0.0.0 adnexus.net
@@ -2812,6 +2839,8 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 betterinstaller.com
+0.0.0.0 bisrv.com
 0.0.0.0 boomeranggmail.com
 0.0.0.0 bananatag.com
 0.0.0.0 basis.net
@@ -3573,6 +3602,15 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 content.zemanta.com
+0.0.0.0 contextlysitescripts.contextly.com
+0.0.0.0 contextly.com
+0.0.0.0 convertro.com
+0.0.0.0 com.s3.amazonaws.com
+0.0.0.0 cdn.mypcbackup.com
+0.0.0.0 cdn.msdwnld.com
+0.0.0.0 cdn.download.sweetpacks.com
+0.0.0.0 cdn.appround.biz
 0.0.0.0 ccp.ac
 0.0.0.0 csgo-gam.xyz
 0.0.0.0 clmbtech.com
@@ -4294,6 +4332,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 download.sweetpacks.com
 0.0.0.0 www1.devehab.com
 0.0.0.0 devehab.com
 0.0.0.0 dragonparking.com
@@ -4813,6 +4852,10 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 easy-web-stats.com
+0.0.0.0 esomniture.com
+0.0.0.0 ero-advertising.com
+0.0.0.0 egg.5ch.net
 0.0.0.0 everyaction.com
 0.0.0.0 err.taobao.com
 0.0.0.0 www.evidon.com
@@ -5277,6 +5320,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gap.sp1.convertro.com
 0.0.0.0 gettally.com
 0.0.0.0 getsidekick.com
 0.0.0.0 gml.email
@@ -5697,6 +5741,10 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ivwbox.de
+0.0.0.0 in-viacom18.videoplaza.tv
+0.0.0.0 installer.betterinstaller.com
+0.0.0.0 inno.bisrv.com
 0.0.0.0 ig.gmodules.com
 0.0.0.0 infusionsoft.com
 0.0.0.0 icontact.com
@@ -7074,6 +7122,8 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 likecontrol.com
+0.0.0.0 lavasoft.com
 0.0.0.0 load77.exelator.com
 0.0.0.0 launchbit.com
 0.0.0.0 leaddyno.com
@@ -7233,6 +7283,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 msdwnld.com
 0.0.0.0 magento.com
 0.0.0.0 mailfoogae.appspot.com
 0.0.0.0 mailtrack.io
@@ -7920,6 +7971,10 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 peakclick.com
+0.0.0.0 pushance.com
+0.0.0.0 premiumbros.com
+0.0.0.0 pendo.io
 0.0.0.0 postmarkapp.com
 0.0.0.0 pixel.advertising.com
 0.0.0.0 pro.hsionlineorders.net
@@ -8345,6 +8400,8 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rest.contextly.com
+0.0.0.0 rad.live.com
 0.0.0.0 rjmetrics.com
 0.0.0.0 relateiq.com
 0.0.0.0 ryllae.com
@@ -8557,6 +8614,13 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sp1.convertro.com
+0.0.0.0 www.stats.net
+0.0.0.0 stats.net
+0.0.0.0 serve.adworldmedia.com
+0.0.0.0 special-offers.online
+0.0.0.0 stats.esomniture.com
+0.0.0.0 staticset.com
 0.0.0.0 salesforce.com
 0.0.0.0 sfdcstatic.com
 0.0.0.0 streak.com
@@ -9474,6 +9538,10 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 track.special-offers.online
+0.0.0.0 te.about.com
+0.0.0.0 theannoyingsite.com
+0.0.0.0 tracking.opencandy.com.s3.amazonaws.com
 0.0.0.0 toutapp.com
 0.0.0.0 turbo.qualaroo.com
 0.0.0.0 trymask.com
@@ -9950,6 +10018,8 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 v10c.events.data.microsoft.com
+0.0.0.0 v10.events.data.microsoft.com
 0.0.0.0 va.cobrowse.liveperson.net
 0.0.0.0 v.fwmrm.net
 0.0.0.0 v2.listenloop.com
@@ -10056,6 +10126,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 wwatmserver.alibaba.com
 0.0.0.0 wywy.com
 0.0.0.0 worldpush.co
@@ -11043,6 +11114,19 @@
 0.0.0.0 202.164.36.10
 
 !Misc
+0.0.0.0 24hwebsex.com
+0.0.0.0 0latfee.ero-advertising.com
+0.0.0.0 2baners.ero-advertising.com
+0.0.0.0 2ds.ero-advertising.com
+0.0.0.0 2fbanners.ero-advertising.com
+0.0.0.0 2fflatfee.ero-advertising.com
+0.0.0.0 2fspeedclicks.ero-advertising.com
+0.0.0.0 3ds.ero-advertising.com
+0.0.0.0 4anners.ero-advertising.com
+0.0.0.0 9ata.ero-advertising.com
+0.0.0.0 74055djs.info
+0.0.0.0 5ch.net
+0.0.0.0 2ch.net
 0.0.0.0 974563760330-o47cf80n1i95p1f56ovt2ghp3l64oerj.apps.googleusercontent.com
 0.0.0.0 144.dragonparking.com
 0.0.0.0 164d.joypush.cn
@@ -14170,7 +14254,7 @@ nytimes.com##.nytc---modal-window---windowContainer
 nytimes.com##.nytc---shared---modalContentContainer
 pewresearch.org###js-user-survey-popup
 politico.com###overlayMagazine
-
+seattletimes.com###container:style(filter: none !important;)
 
 # Block tracking scripts, ads and add cosmetic filters
 /satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
@@ -14239,6 +14323,8 @@ _Affiliate
 /jwplayer-20/assets/images/favicon-72.png
 /jwplayer-20/assets/images/favicon-57.png
 /2062
+/wp-content/plugins/st-privacy-detection/js/src/ads/ad-test.js
+/wp-content/plugins/st-privacy-detection/js/dist/st-detect.min.js
 /wDq4Hx70.min.js
 /analytics-event-adapter.bundle.min.js
 /elqCfg.min.js
