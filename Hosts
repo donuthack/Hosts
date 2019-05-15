@@ -788,6 +788,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 art19.com
 0.0.0.0 api.leanplum.com
 0.0.0.0 ase.adserver.snapads.com
 0.0.0.0 ad.lgappstv.com
@@ -4353,6 +4354,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 deviantartt.ml
 0.0.0.0 ddos.city
 0.0.0.0 discordcrypt.xyz
 0.0.0.0 download.sweetpacks.com
@@ -4778,6 +4780,7 @@
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 d258j801nsw1p7.cloudfront.net
 0.0.0.0 dg21i27f0zp22.cloudfront.net
 0.0.0.0 dgkxwewtzsnml.cloudfront.net
 0.0.0.0 d3ff8olul1r3ot.cloudfront.net
@@ -5774,6 +5777,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ip.jlynx.net
 0.0.0.0 iknowwhatyoudownload.com
 0.0.0.0 ikwyd.com
 0.0.0.0 ipgraber.ru
@@ -8030,6 +8034,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p.versod.com
 0.0.0.0 paypal.sellbitcoins.com
 0.0.0.0 pxlad.io
 0.0.0.0 peakclick.com
@@ -8677,6 +8682,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 starbucks.bio
 0.0.0.0 s.googlevideo.com
 0.0.0.0 servicesupport.hicloud.com
 0.0.0.0 skypegrab.net
@@ -9607,6 +9613,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 telemetry.art19.com
 0.0.0.0 traffic.omny.fm
 0.0.0.0 thisiswaldo.com
 0.0.0.0 track.special-offers.online
@@ -10089,6 +10096,8 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vmg.nyc
+0.0.0.0 versod.com
 0.0.0.0 vibecdn.forkcdn.com
 0.0.0.0 v10c.events.data.microsoft.com
 0.0.0.0 v10.events.data.microsoft.com
@@ -14587,6 +14596,12 @@ _Affiliate
 /js/tracking.min.js
 /upscribe_sage/resources/assets/scripts/sales.js
 /_/batch
+/*&utm_*=*$document,important
+/*?utm_*=*$document,important
+/yts/jsbin/spf-vflqCgDoF/spf.js
+/api/stats/atr?
+/api/stats/watchtime?
+/api/stats/qoe?
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
@@ -14759,3 +14774,5 @@ _Affiliate
 ##.cookie-notice-container
 ###block-block-35
 ##.warnadblk
+##.css-jj611e evk9ulx0
+###css-jj611e evk9ulx0
