@@ -152,6 +152,7 @@
 0.0.0.0 com-fasting.live
 
 ! Apple
+0.0.0.0 stats.gc.apple.com
 0.0.0.0 advertising.apple.com
 0.0.0.0 autolinkmaker.itunes.apple.com
 0.0.0.0 searchads.apple.com
@@ -787,6 +788,10 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 api.leanplum.com
+0.0.0.0 ase.adserver.snapads.com
+0.0.0.0 ad.lgappstv.com
+0.0.0.0 assets.cookieconsent.silktide.com
 0.0.0.0 ad.pxlad.io
 0.0.0.0 active-tracking.de
 0.0.0.0 api.sessioncam.com
@@ -2843,6 +2848,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 booter.icu
 0.0.0.0 betterinstaller.com
 0.0.0.0 bisrv.com
 0.0.0.0 boomeranggmail.com
@@ -3607,6 +3613,14 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 callback.onlinepbx.ru
+0.0.0.0 crashlogs.whatsapp.net
+0.0.0.0 cyber-hub.net
+0.0.0.0 collect-eu-fy2015.myhomescreen.tv
+0.0.0.0 collect-us-fy2016.myhomescreen.tv
+0.0.0.0 collect-eu-fy2017.myhomescreen.tv
+0.0.0.0 collect-eu-fy2018.myhomescreen.tv
+0.0.0.0 collect-eu-fy2019.myhomescreen.tv
 0.0.0.0 certona.net
 0.0.0.0 calamos.collect.igodigital.com
 0.0.0.0 content.zemanta.com
@@ -4339,6 +4353,8 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 ddos.city
+0.0.0.0 discordcrypt.xyz
 0.0.0.0 download.sweetpacks.com
 0.0.0.0 www1.devehab.com
 0.0.0.0 devehab.com
@@ -4859,6 +4875,9 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 e.googlevideo.com
+0.0.0.0 euc.adserver.snapads.com
+0.0.0.0 ezstat.ru
 0.0.0.0 edge1.certona.net
 0.0.0.0 easy-web-stats.com
 0.0.0.0 esomniture.com
@@ -5141,6 +5160,9 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fuglekos.com
+0.0.0.0 fortnite-stats.site
+0.0.0.0 flingo.tv
 0.0.0.0 fun.clownplay.com
 0.0.0.0 fourier.alibaba.com
 0.0.0.0 footprintpredict.com
@@ -5328,6 +5350,8 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gcs.sc-cdn.net
+0.0.0.0 gyazo.nl
 0.0.0.0 gap.sp1.convertro.com
 0.0.0.0 gettally.com
 0.0.0.0 getsidekick.com
@@ -5588,6 +5612,7 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hs.vc
 0.0.0.0 hubspotfeedback.com
 0.0.0.0 hubspot.com
 0.0.0.0 hsionlineorders.net
@@ -5749,6 +5774,13 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 iknowwhatyoudownload.com
+0.0.0.0 ikwyd.com
+0.0.0.0 ipgraber.ru
+0.0.0.0 ipgrabber.ru
+0.0.0.0 iplogger.info
+0.0.0.0 iplis.ru
+0.0.0.0 iplo.ru
 0.0.0.0 ivwbox.de
 0.0.0.0 in-viacom18.videoplaza.tv
 0.0.0.0 installer.betterinstaller.com
@@ -6374,6 +6406,7 @@
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 k.googlevideo.com
 0.0.0.0 keap.com
 0.0.0.0 *.kickme.to
 0.0.0.0 kickme.to
@@ -7130,6 +7163,17 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 www.leanplum.com
+0.0.0.0 leanplum.com
+0.0.0.0 log-1.samsungacr.com
+0.0.0.0 log-2.samsungacr.com
+0.0.0.0 log-3.samsungacr.com
+0.0.0.0 log-ingestion.samsungacr.com
+0.0.0.0 log-ingestion-eu.samsungacr.com
+0.0.0.0 log.internetat.tv
+0.0.0.0 librato-collector.genius.com
+0.0.0.0 logicanalytics.io
+0.0.0.0 logrocket.io
 0.0.0.0 labs.onthe.io
 0.0.0.0 launchpoint.marketo.com
 0.0.0.0 location.l.force.com
@@ -7295,6 +7339,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 minecraft-skins.xyz
 0.0.0.0 metrics.kampyle.com
 0.0.0.0 msdwnld.com
 0.0.0.0 magento.com
@@ -7985,6 +8030,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 paypal.sellbitcoins.com
 0.0.0.0 pxlad.io
 0.0.0.0 peakclick.com
 0.0.0.0 pushance.com
@@ -8416,6 +8462,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rt.applovin.com
 0.0.0.0 rest.contextly.com
 0.0.0.0 rad.live.com
 0.0.0.0 rjmetrics.com
@@ -8630,6 +8677,10 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 s.googlevideo.com
+0.0.0.0 servicesupport.hicloud.com
+0.0.0.0 skypegrab.net
+0.0.0.0 samsungadhub.com
 0.0.0.0 sessioncam.com
 0.0.0.0 steadfastsystem.com
 0.0.0.0 sp1.convertro.com
@@ -9556,6 +9607,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 traffic.omny.fm
 0.0.0.0 thisiswaldo.com
 0.0.0.0 track.special-offers.online
 0.0.0.0 te.about.com
@@ -10146,6 +10198,8 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 webprofile.me
+0.0.0.0 webresolver.nl
 0.0.0.0 ws.sessioncam.com
 0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 wwatmserver.alibaba.com
@@ -10470,6 +10524,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yȯutube.com
 0.0.0.0 yesware.com
 0.0.0.0 ynuf.aliapp.org
 0.0.0.0 www.yipes.com
@@ -10605,6 +10660,7 @@
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 z.googlevideo.com
 0.0.0.0 zapto.org
 0.0.0.0 zl.ai
 0.0.0.0 zk.ai
@@ -11135,6 +11191,8 @@
 0.0.0.0 202.164.36.10
 
 !Misc
+0.0.0.0 7.googlevideo.com
+0.0.0.0 02ip.ru
 0.0.0.0 24hwebsex.com
 0.0.0.0 0latfee.ero-advertising.com
 0.0.0.0 2baners.ero-advertising.com
@@ -14276,6 +14334,20 @@ nytimes.com##.nytc---shared---modalContentContainer
 pewresearch.org###js-user-survey-popup
 politico.com###overlayMagazine
 seattletimes.com###container:style(filter: none !important;)
+gazeta.biz##.external_link:style(pointer-events: none; position: unset !important;)
+gazeta.pl##.external_link:style(pointer-events: none; position: unset !important;)
+gazetapraca.pl##.external_link:style(pointer-events: none; position: unset !important;)
+moto.pl##.external_link:style(pointer-events: none; position: unset !important;)
+sport.pl##.external_link:style(pointer-events: none; position: unset !important;)
+wysokieobcasy.pl##.external_link:style(pointer-events: none; position: unset !important;)
+tokfm.pl##.external_link:style(pointer-events: none; position: unset !important;)
+wyborcza.pl##.external_link:style(pointer-events: none; position: unset !important;)
+wyborcza.biz##.external_link:style(pointer-events: none; position: unset !important;)
+myiptest.com/img.php
+||$inline-script,domain=mbasic.facebook.com
+||$script,domain=mbasic.facebook.com
+||$subdocument,domain=mbasic.facebook.com
+||$websocket,domain=mbasic.facebook.com
 
 # Block tracking scripts, ads and add cosmetic filters
 /satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
@@ -14686,3 +14758,4 @@ _Affiliate
 ##.mylivechat_expanded
 ##.cookie-notice-container
 ###block-block-35
+##.warnadblk
