@@ -787,6 +787,10 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 ad.pxlad.io
+0.0.0.0 active-tracking.de
+0.0.0.0 api.sessioncam.com
+0.0.0.0 amung.us
 0.0.0.0 api2.branch.io
 0.0.0.0 adworldmedia.com
 0.0.0.0 adlandpro.com
@@ -2995,6 +2999,7 @@
 0.0.0.0 bubblesmedia.ru
 0.0.0.0 blamper-news.ru
 0.0.0.0 bridge.sfo1.admarketplace.net
+0.0.0.0 bridge2.sfo1.admarketplace.net
 0.0.0.0 baiducdn.org
 0.0.0.0 baiduccdn1.com
 0.0.0.0 baiduccdn.org
@@ -3602,6 +3607,8 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 certona.net
+0.0.0.0 calamos.collect.igodigital.com
 0.0.0.0 content.zemanta.com
 0.0.0.0 contextlysitescripts.contextly.com
 0.0.0.0 contextly.com
@@ -4852,6 +4859,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 edge1.certona.net
 0.0.0.0 easy-web-stats.com
 0.0.0.0 esomniture.com
 0.0.0.0 ero-advertising.com
@@ -7122,6 +7130,10 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 labs.onthe.io
+0.0.0.0 launchpoint.marketo.com
+0.0.0.0 location.l.force.com
+0.0.0.0 lockerdomecdn.com
 0.0.0.0 likecontrol.com
 0.0.0.0 lavasoft.com
 0.0.0.0 load77.exelator.com
@@ -7283,6 +7295,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 metrics.kampyle.com
 0.0.0.0 msdwnld.com
 0.0.0.0 magento.com
 0.0.0.0 mailfoogae.appspot.com
@@ -7673,6 +7686,7 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 na56.salesforce.com
 0.0.0.0 nitropay.com
 0.0.0.0 ntv.io
 0.0.0.0 nmhfiles.com
@@ -7971,6 +7985,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pxlad.io
 0.0.0.0 peakclick.com
 0.0.0.0 pushance.com
 0.0.0.0 premiumbros.com
@@ -8351,6 +8366,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qrzlaatf.xyz
 0.0.0.0 qualaroo.com
 0.0.0.0 quickmapsanddirections.com
 0.0.0.0 qbox.me
@@ -8614,6 +8630,8 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sessioncam.com
+0.0.0.0 steadfastsystem.com
 0.0.0.0 sp1.convertro.com
 0.0.0.0 www.stats.net
 0.0.0.0 stats.net
@@ -9538,6 +9556,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 thisiswaldo.com
 0.0.0.0 track.special-offers.online
 0.0.0.0 te.about.com
 0.0.0.0 theannoyingsite.com
@@ -10018,6 +10037,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vibecdn.forkcdn.com
 0.0.0.0 v10c.events.data.microsoft.com
 0.0.0.0 v10.events.data.microsoft.com
 0.0.0.0 va.cobrowse.liveperson.net
@@ -10126,6 +10146,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 ws.sessioncam.com
 0.0.0.0 wc-tracking.lavasoft.com
 0.0.0.0 wwatmserver.alibaba.com
 0.0.0.0 wywy.com
