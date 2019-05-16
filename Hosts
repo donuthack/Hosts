@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 14,679 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Monday, May 13, 2019
+! Last Updated on Thursday, May 16, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -7735,6 +7735,8 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 www.nanovisor.io
+0.0.0.0 nanovisor.io
 0.0.0.0 na56.salesforce.com
 0.0.0.0 nitropay.com
 0.0.0.0 ntv.io
@@ -7897,6 +7899,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 otf.msn.com
 0.0.0.0 outreach.io
 0.0.0.0 offer.alibaba.com
 0.0.0.0 open-s.alibaba.com
@@ -14360,6 +14363,16 @@ myiptest.com/img.php
 ||$script,domain=mbasic.facebook.com
 ||$subdocument,domain=mbasic.facebook.com
 ||$websocket,domain=mbasic.facebook.com
+bigleaguepolitics.com##.tpd-banner-ad-b.z-ad-powerinbox-banner
+bigleaguepolitics.com###google_ads_iframe_\/134702932\/0342-bigleaguepolitics\.com_4__container__
+bigleaguepolitics.com###google_ads_iframe_\/134702932\/0342-bigleaguepolitics\.com_3__container__
+bigleaguepolitics.com###enhancedtextwidget-28
+bigleaguepolitics.com##.mvp-side-widget.widget_text.enhanced-text-widget
+bigleaguepolitics.com###\30 \.4qzbxvhu7c3
+bigleaguepolitics.com###udm-edge-close-img-middle
+bigleaguepolitics.com##.udmIgnore
+msn.com##iframe[src="about: blank"]
+||c.msn.com/c.gif?
 
 # Block tracking scripts, ads and add cosmetic filters
 /satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
@@ -14605,6 +14618,10 @@ _Affiliate
 /api/stats/atr?
 /api/stats/watchtime?
 /api/stats/qoe?
+/silentpassport?
+/e151e5.gif
+/420046.gif?
+/c.gif?
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
