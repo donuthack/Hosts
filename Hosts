@@ -4,7 +4,7 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Number Of Ad Services, Trackers, And Malware Blocked: 14,678 (uBlock)
+! Number Of Ad Services, Trackers, And Malware Blocked: 14,679 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
 ! Last Updated on Monday, May 13, 2019
 
@@ -8034,6 +8034,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p4-auuh22vv4idts-nprsy4spnixfffkb-if-v6exp3-v4.metric.gstatic.com
 0.0.0.0 p.versod.com
 0.0.0.0 paypal.sellbitcoins.com
 0.0.0.0 pxlad.io
