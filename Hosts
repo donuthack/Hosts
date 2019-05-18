@@ -788,6 +788,9 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 acrabakasaka.com
+0.0.0.0 adgebra.com
+0.0.0.0 adgebra.co.in
 0.0.0.0 adhslx.com
 0.0.0.0 avazu.cn
 0.0.0.0 avazuinc.com
@@ -2946,7 +2949,6 @@
 0.0.0.0 beaconpush.com
 0.0.0.0 www.braze.com
 0.0.0.0 braze.com
-0.0.0.0 brightcove.net
 0.0.0.0 bot.percept.ai
 0.0.0.0 bdimg.com
 0.0.0.0 badad.googleplex.com
@@ -4420,6 +4422,11 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dfw28s04-in-x0a.1e100.net
+0.0.0.0 dfw25s13-in-x0a.1e100.net
+0.0.0.0 dfw28s01-in-x0a.1e100.net
+0.0.0.0 dfw25s27-in-x0a.1e100.net
+0.0.0.0 desipearl.com
 0.0.0.0 dynadmic.com
 0.0.0.0 duckbase.com
 0.0.0.0 deepintent.com
@@ -4953,6 +4960,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 engine.adglare.net
 0.0.0.0 e-planning.net
 0.0.0.0 en.dynadmic.com
 0.0.0.0 eu.dynadmic.com
@@ -5217,7 +5225,6 @@
 0.0.0.0 e.crashlytics.com
 0.0.0.0 enter.sexlist.com
 0.0.0.0 events.evie.com
-0.0.0.0 edge.api.brightcove.com
 0.0.0.0 eviltracker.net
 0.0.0.0 ero-advertising.com
 0.0.0.0 engine.4dsply.com
@@ -5433,7 +5440,6 @@
 0.0.0.0 force.com
 0.0.0.0 fo-api.omnitagjs.com
 0.0.0.0 fastclick.net
-0.0.0.0 f1.media.brightcove.com
 0.0.0.0 fast.detroittradingservices.demdex.net
 0.0.0.0 foxnews.com.ssl.d1.sc.omtrdc.net
 0.0.0.0 flurry.com
@@ -5879,6 +5885,16 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 io-in-f95.1e100.net
+0.0.0.0 il-in-f95.1e100.net
+0.0.0.0 ik-in-x5f.1e100.net
+0.0.0.0 is-in-f138.1e100.net
+0.0.0.0 ir-in-f100.1e100.net
+0.0.0.0 iq-in-f100.1e100.net
+0.0.0.0 ir-in-f101.1e100.net
+0.0.0.0 is-in-f101.1e100.net
+0.0.0.0 iq-in-f101.1e100.net
+0.0.0.0 iteratehq.com
 0.0.0.0 isitelab.io
 0.0.0.0 io1g.net
 0.0.0.0 infogram.com
@@ -6443,6 +6459,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 ja-in-f100.1e100.net
 0.0.0.0 js.ubembed.com
 0.0.0.0 js.chargebee.com
 0.0.0.0 jammarketinginc.com
@@ -7278,6 +7295,8 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 logs.locarta.co
+0.0.0.0 locarta.co
 0.0.0.0 locationsmart.com
 0.0.0.0 lemonpi.io
 0.0.0.0 letsrebold.com
@@ -7457,6 +7476,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 m-wlmw.com
 0.0.0.0 maximiles.com
 0.0.0.0 minecraft-skins.xyz
 0.0.0.0 metrics.kampyle.com
@@ -8014,6 +8034,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 og-in-f138.1e100.net
 0.0.0.0 ozoneproject.com
 0.0.0.0 onaudience.com
 0.0.0.0 otf.msn.com
@@ -8154,6 +8175,9 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 peerclicktrk.com
+0.0.0.0 postback.pointwise.co
+0.0.0.0 pointwise.co
 0.0.0.0 www.phunware.com
 0.0.0.0 phunware.com
 0.0.0.0 polariswireless.com
@@ -8531,7 +8555,6 @@
 0.0.0.0 pubmatic.com
 0.0.0.0 pagefair.net
 0.0.0.0 pubportal.brkmd.com
-0.0.0.0 players.brightcove.net
 0.0.0.0 plugin.mediavoice.com
 0.0.0.0 privy.com
 0.0.0.0 plugin.2easydroid.com
@@ -8595,6 +8618,8 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rebelai.com
+0.0.0.0 rebel.ai
 0.0.0.0 radar.io
 0.0.0.0 rtbmarkt.de
 0.0.0.0 rtb-cdn.net
@@ -9140,7 +9165,6 @@
 0.0.0.0 s25.host-food.ru
 0.0.0.0 statsweb.proxad.net
 0.0.0.0 seskeu3zk7.com
-0.0.0.0 signin.brightcove.com
 0.0.0.0 s.adframesrc.com
 0.0.0.0 servedby.adcombination.com
 0.0.0.0 specificmedia.co.uk
@@ -9545,6 +9569,7 @@
 0.0.0.0 s.dpmsrv.com
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 speedcurve.com
+0.0.0.0 stack-sonar.com
 0.0.0.0 www.stack-sonar.com
 0.0.0.0 stats.zotabox.com
 0.0.0.0 servedby-buysellads.com
@@ -9750,6 +9775,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tagmanager.google.com
 0.0.0.0 thinknear.com
 0.0.0.0 totaljobs.com
 0.0.0.0 tradelab.com
@@ -10124,6 +10150,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 utraffic.engine.adglare.net
 0.0.0.0 ultimedia.com
 0.0.0.0 us.ynuf.aliapp.org
 0.0.0.0 u.alicdn.com
@@ -10248,6 +10275,8 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vuukle-analytics.appspot.com
+0.0.0.0 vuukle.com
 0.0.0.0 verve.com
 0.0.0.0 vertmarkets.com
 0.0.0.0 videmob.com
@@ -10696,6 +10725,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yllix.com
 0.0.0.0 yȯutube.com
 0.0.0.0 yesware.com
 0.0.0.0 ynuf.aliapp.org
@@ -11644,7 +11674,6 @@
 0.0.0.0 109mview.atdmt.com
 0.0.0.0 109mview.atdmt.com.1.6000.302br.net
 0.0.0.0 050005.voodoo.com
-0.0.0.0 050003.voodoo.com
 0.0.0.0 0.r.msn.com
 0.0.0.0 4.afs.googleadservices.com
 0.0.0.0 101.sub-75-199-205.myvzw.com
@@ -13110,7 +13139,6 @@
 0.0.0.0 123ads.nl
 0.0.0.0 123advertising.nl
 0.0.0.0 20d625b48e.se
-0.0.0.0 050003.voodoo.com
 0.0.0.0 00.video-ak.cdn.spotify.com
 0.0.0.0 01.video-ak.cdn.spotify.com
 0.0.0.0 02.video-ak.cdn.spotify.com
@@ -14537,6 +14565,15 @@ bigleaguepolitics.com###udm-edge-close-img-middle
 bigleaguepolitics.com##.udmIgnore
 msn.com##iframe[src="about: blank"]
 ||c.msn.com/c.gif?
+mashable.com##.sidebar.box-cell
+mashable.com##div.page-container:nth-of-type(3) > .body > .article-container.flex-box > .sidebar.box-cell
+mashable.com##div.page-container:nth-of-type(4) > .body > .article-container.flex-box > .sidebar.box-cell
+www.technologyreview.com##.signup-wrapper.jsx-2623490083
+www.technologyreview.com##.meter.jsx-1767533962
+thenextweb.com##.lazy.wp-image-1207492.size-full.aligncenter
+www.digitize.ie###my-modal
+www.dictionary.com###dcom-serp-bottom-lb-728x90
+www.dictionary.com###dcom-serp-lb-728x90
 
 # Block tracking scripts, ads and add cosmetic filters
 /satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
