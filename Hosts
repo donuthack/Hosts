@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 14,679 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Thursday, May 16, 2019
+! Last Updated on Friday, May 17, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -788,6 +788,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 adhslx.com
 0.0.0.0 avazu.cn
 0.0.0.0 avazuinc.com
 0.0.0.0 azerion.com
@@ -2876,6 +2877,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 boomtrain.com
 0.0.0.0 bmndsc.com
 0.0.0.0 bmind.es
 0.0.0.0 bombora.com
@@ -3657,6 +3659,12 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.isitelab.io
+0.0.0.0 cartodb-libs.global.ssl.fastly.net
+0.0.0.0 carto.com
+0.0.0.0 cts.businesswire.com
+0.0.0.0 ch.dynadmic.com
+0.0.0.0 cybba.com
 0.0.0.0 carbondmp.com
 0.0.0.0 clipcentric.com
 0.0.0.0 colpirio.com
@@ -4412,6 +4420,12 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dynadmic.com
+0.0.0.0 duckbase.com
+0.0.0.0 deepintent.com
+0.0.0.0 definemedia.de
+0.0.0.0 densou.dk
+0.0.0.0 digitize.ie
 0.0.0.0 dtxngr.com
 0.0.0.0 deviantartt.ml
 0.0.0.0 ddos.city
@@ -4847,6 +4861,8 @@
 0.0.0.0 dl6fh5ptkejqa.cloudfront.net
 0.0.0.0 dw26xg4lubooo.cloudfront.net
 0.0.0.0 dalusewymm5m7.cloudfront.net
+0.0.0.0 do7nu6l5erzu3.cloudfront.net
+0.0.0.0 d3chm37gkupvsm.cloudfront.net
 0.0.0.0 d10lpsik1i8c69.cloudfront.net
 0.0.0.0 d1hi41nc56pmug.cloudfront.net
 0.0.0.0 d3ukzap5f2wa8d.cloudfront.net
@@ -4937,6 +4953,14 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 e-planning.net
+0.0.0.0 en.dynadmic.com
+0.0.0.0 eu.dynadmic.com
+0.0.0.0 effiliation.com
+0.0.0.0 etarget.sk
+0.0.0.0 ew3.io
+0.0.0.0 eulerian.com
+0.0.0.0 eyeota.com
 0.0.0.0 eyeota.net
 0.0.0.0 emodoinc.com
 0.0.0.0 e.googlevideo.com
@@ -5224,6 +5248,10 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 factual.com
+0.0.0.0 flexoffers.com
+0.0.0.0 fidelity-media.com
+0.0.0.0 fortvision.com
 0.0.0.0 feynmanhopeful.eu
 0.0.0.0 fuglekos.com
 0.0.0.0 fortnite-stats.site
@@ -5415,6 +5443,14 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 groundtruth.com
+0.0.0.0 gemius.com
+0.0.0.0 gamned.com
+0.0.0.0 gbucket.ch
+0.0.0.0 goldbach.com
+0.0.0.0 goldenbees.fr
+0.0.0.0 goodwaygroup.com
+0.0.0.0 groupm.com
 0.0.0.0 getblue.io
 0.0.0.0 gcs.sc-cdn.net
 0.0.0.0 gyazo.nl
@@ -5678,6 +5714,9 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hostcontrol.com
+0.0.0.0 hiro-media.com
+0.0.0.0 hybrid.ai
 0.0.0.0 hs.vc
 0.0.0.0 hubspotfeedback.com
 0.0.0.0 hubspot.com
@@ -5840,6 +5879,13 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 isitelab.io
+0.0.0.0 io1g.net
+0.0.0.0 infogram.com
+0.0.0.0 infogr.am
+0.0.0.0 ignitionone.com
+0.0.0.0 impactify.io
+0.0.0.0 innity.com
 0.0.0.0 ibillboard.com
 0.0.0.0 instytut-pollster.pl
 0.0.0.0 ip.jlynx.net
@@ -7232,6 +7278,9 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 locationsmart.com
+0.0.0.0 lemonpi.io
+0.0.0.0 letsrebold.com
 0.0.0.0 www.leanplum.com
 0.0.0.0 leanplum.com
 0.0.0.0 log-1.samsungacr.com
@@ -7801,6 +7850,7 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 ninthdecimal.com
 0.0.0.0 www.nanovisor.io
 0.0.0.0 nanovisor.io
 0.0.0.0 na56.salesforce.com
@@ -7875,7 +7925,6 @@
 0.0.0.0 newgam.es   ! Bit.ly
 0.0.0.0 www.news-subscribe.com
 0.0.0.0 news-subscribe.com
-0.0.0.0 netdna-ssl.com
 0.0.0.0 nova.adswizz.com
 0.0.0.0 nesekretno-net.mirtesen.ru
 0.0.0.0 netsprint.eu
@@ -7965,6 +8014,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 ozoneproject.com
 0.0.0.0 onaudience.com
 0.0.0.0 otf.msn.com
 0.0.0.0 outreach.io
@@ -8104,6 +8154,10 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 www.phunware.com
+0.0.0.0 phunware.com
+0.0.0.0 polariswireless.com
+0.0.0.0 polte.com
 0.0.0.0 pastor.media
 0.0.0.0 public.arcspire.io
 0.0.0.0 pollster.pl
@@ -8541,6 +8595,8 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 radar.io
+0.0.0.0 rtbmarkt.de
 0.0.0.0 rtb-cdn.net
 0.0.0.0 restaurant.teamlava.com
 0.0.0.0 rt.applovin.com
@@ -8758,6 +8814,9 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 smart-data-systems.com
+0.0.0.0 sociomantic.com
+0.0.0.0 samba.tv
 0.0.0.0 selfcampaign.com
 0.0.0.0 sc.cdnma.com
 0.0.0.0 starbucks.bio
@@ -9691,6 +9750,14 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 thinknear.com
+0.0.0.0 totaljobs.com
+0.0.0.0 tradelab.com
+0.0.0.0 travelaudience.com
+0.0.0.0 tresensa.com
+0.0.0.0 telaria.com
+0.0.0.0 telecoming.com
+0.0.0.0 theadex.com
 0.0.0.0 timeinc.net
 0.0.0.0 ti-media.com
 0.0.0.0 track.dictionary.com
@@ -10015,6 +10082,7 @@
 0.0.0.0 tencent.mm.plugin.location.com
 0.0.0.0 tencent.map.geolocation.com
 0.0.0.0 thinknear-hosted.thinknearhub.com
+0.0.0.0 teemo.co
 0.0.0.0 www.teemo.co
 0.0.0.0 tags.crwdcntrl.net
 0.0.0.0 tagcommander.com
@@ -10056,6 +10124,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 ultimedia.com
 0.0.0.0 us.ynuf.aliapp.org
 0.0.0.0 u.alicdn.com
 0.0.0.0 united.tt.omtrdc.net
@@ -10179,6 +10248,9 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 verve.com
+0.0.0.0 vertmarkets.com
+0.0.0.0 videmob.com
 0.0.0.0 voluum.com
 0.0.0.0 voluumdsp.com
 0.0.0.0 vistohub.com
@@ -10295,6 +10367,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 whiteops.com
 0.0.0.0 web.getblue.io
 0.0.0.0 we-are-adot.com
 0.0.0.0 webprofile.me
@@ -10759,6 +10832,10 @@
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zighzag.com
+0.0.0.0 ziffdavis.com
+0.0.0.0 zetaglobal.com
+0.0.0.0 zeotap.com
 0.0.0.0 z.googlevideo.com
 0.0.0.0 zapto.org
 0.0.0.0 zl.ai
