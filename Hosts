@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 14,679 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Friday, May 17, 2019
+! Last Updated on Sunday, May 19, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -788,6 +788,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 ads.adaptv.advertising.com
+0.0.0.0 ads.tremorhub.com
 0.0.0.0 acrabakasaka.com
 0.0.0.0 adgebra.com
 0.0.0.0 adgebra.co.in
@@ -3661,6 +3663,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 connatix-d.openx.net
 0.0.0.0 cdn.isitelab.io
 0.0.0.0 cartodb-libs.global.ssl.fastly.net
 0.0.0.0 carto.com
@@ -4422,6 +4425,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 delivery.vidible.tv
 0.0.0.0 dfw28s04-in-x0a.1e100.net
 0.0.0.0 dfw25s13-in-x0a.1e100.net
 0.0.0.0 dfw28s01-in-x0a.1e100.net
@@ -7295,6 +7299,9 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 logging.groupon.com
+0.0.0.0 log.go.com
+0.0.0.0 log.gns.go.com
 0.0.0.0 logs.locarta.co
 0.0.0.0 locarta.co
 0.0.0.0 locationsmart.com
@@ -8839,6 +8846,17 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 smetric.hilton.com
+0.0.0.0 smetrics.bestbuy.com
+0.0.0.0 smetrics.cnn.com
+0.0.0.0 smetrics.costco.com
+0.0.0.0 smetrics.delta.com
+0.0.0.0 smetrics.marriott.com
+0.0.0.0 smetrics.mastercard.com
+0.0.0.0 smetrics.nfl.com
+0.0.0.0 smetrics.people.com
+0.0.0.0 smetrics.redbox.com
+0.0.0.0 slckg-2p3vy.ads.tremorhub.com
 0.0.0.0 smart-data-systems.com
 0.0.0.0 sociomantic.com
 0.0.0.0 samba.tv
@@ -9775,6 +9793,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tremorhub.com
 0.0.0.0 tagmanager.google.com
 0.0.0.0 thinknear.com
 0.0.0.0 totaljobs.com
@@ -10275,6 +10294,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vidible.tv
 0.0.0.0 vuukle-analytics.appspot.com
 0.0.0.0 vuukle.com
 0.0.0.0 verve.com
