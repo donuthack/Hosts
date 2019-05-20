@@ -7343,6 +7343,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 levelaccess.net
 0.0.0.0 lepodownload.mediatek.com
 0.0.0.0 leadzu.com
 0.0.0.0 logger.foxitcloud.com
@@ -8236,6 +8237,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p-cdn.com
 0.0.0.0 predictivdisplay.com
 0.0.0.0 pomerous.info
 0.0.0.0 p7s1.io
@@ -14687,8 +14689,66 @@ thenextweb.com##.lazy.wp-image-1207492.size-full.aligncenter
 www.digitize.ie###my-modal
 www.dictionary.com###dcom-serp-bottom-lb-728x90
 www.dictionary.com###dcom-serp-lb-728x90
+www.forbes.com##.ntv-wrapper
+www.forbes.com##h2
+mathplayground.com###header_container2 > div:nth-of-type(1)
+mathplayground.com###bigadd
+mathplayground.com###header_container2
+mathplayground.com##.col-home-add-right
+www.britannica.com###marketing-INSIGHTS_SEARCHBOX_DRIVER > .mx-lg-75.text-center.md-chrome-extension-promo
+www.britannica.com##.pl-80.p-15
+britannica.com##.p-15.pl-80
+www.ably.io##.c-dialog--cookies.c-dialog
+ably.io##.c-dialog.c-dialog--cookies
+theguardian.com##.aside-slot-container.js-aside-slot-container
+theguardian.com##.site-message.js-site-message.site-message--engagement-banner.site-message--banner
+www.engadget.com##.mb-15.th-title.t-rating-small
+www.engadget.com##.full-height.relative.hide\@tp-.col-4-of-15\@d.col-4-of-12\@tl.grid\@tl\+__cell
+engadget.com##.hide\@tp-.grid\@tl\+__cell.col-4-of-12\@tl\+.right\@tl\+.flush-top.\31 .relative.z-1
+engadget.com###right-ads-rail
+history.com##.m-taboola.nocontent.m-component-stack.mm-component-stack--is-stacked
+history.com##.m-header-ad.not-size-a.not-size-b
+history.com##.m-in-content-ad-row.l-inline.not-size-a.not-size-b
+bigleaguepolitics.com##.gbqfwaabe.mdeyheeadline_4
+bigleaguepolitics.com##.kgbqfwag
+calculatorsoup.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-color-override-688238583
+www.usnews.com##div.byiZm.Box-s85n6m5-0:nth-of-type(2) > div > .kNkoGx.Box-s85n6m5-0.ioxvwV.Ad__Container-cohcnl-0.cCSjAp.Hide-s18sxv0v-0
+www.usnews.com##div.byiZm.Box-s85n6m5-0:nth-of-type(5) > div > .kNkoGx.Box-s85n6m5-0.ioxvwV.Ad__Container-cohcnl-0.cCSjAp.Hide-s18sxv0v-0
+usnews.com.Ad__Container-cohcnl-0.jaXlWV.Box-s85n6m5-0.kNkoGx
+www.nourishinteractive.com##.location_page_top.annerbay
+www.nourishinteractive.com##.location_page_right1.annerbay
+www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(1) > .title
+www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(1)
+www.nourishinteractive.com##.location_page_right4.annerbay
+www.nourishinteractive.com##.location_page_right5.annerbay
+www.nourishinteractive.com##.location_page_left2.annerbay
+www.nourishinteractive.com##.location_page_left4.annerbay
+www.nourishinteractive.com##div.ten_top.filled.center_all.box:nth-of-type(8)
+www.nourishinteractive.com##div.ten_top.filled.center_all.box:nth-of-type(7)
+www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(4)
+www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(3)
+www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(5) > .title
+www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(5)
+nourishinteractive.com##.location_page_top
+nourishinteractive.com##.location_page_right1
+nourishinteractive.com##.location_page_right4
+nourishinteractive.com##.location_page_right5
+nourishinteractive.com##.location_page_left2
+nourishinteractive.com##.location_page_left4
+www.pandora.com##.DisplayAdController__rightRail--active.DisplayAdController__rightRail
 
 # Block tracking scripts, ads and add cosmetic filters
+/MM/js/eex-canvas.js
+/sbi?mmasync
+/ipv6test/test?
+/reportActivity?
+/cc8437ad.js
+/6323ce42.js
+/AS/Suggesttions?
+/6fb5e8ee.js
+/0716c9f4.js
+/261929f9.js
+/xnTuawbjfertd/tl.gif?
 /satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
 _campaign=$document
 utm_source
@@ -14938,6 +14998,7 @@ _Affiliate
 /c.gif?
 /sl/e/i/
 /sl/e/v/
+###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
 ##div#adbay_adExpandDiv
