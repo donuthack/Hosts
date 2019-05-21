@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,073 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Monday, May 20, 2019
+! Last Updated on Tuesday, May 21, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -788,6 +788,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 acgnxtracker.com
 0.0.0.0 adsafety.net
 0.0.0.0 advmob.cn
 0.0.0.0 app3840.bigbughere81.agency
@@ -2895,6 +2896,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bt.xxx-tracker.com
 0.0.0.0 bigdata.advmob.cn
 0.0.0.0 beacons4.gvt2.com
 0.0.0.0 beacons3.gvt2.com
@@ -4455,6 +4457,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 denis.stalker.upeer.me
 0.0.0.0 disf.es
 0.0.0.0 deliver.vkcdnservice.com
 0.0.0.0 d.smopy.com
@@ -4999,6 +5002,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 explodie.org:6969
 0.0.0.0 error.facebook.com
 0.0.0.0 easygamepromo.com
 0.0.0.0 engine.adglare.net
@@ -5296,6 +5300,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fusedit.com
+0.0.0.0 fusedit.com.au
 0.0.0.0 www.fpctraffic3.com
 0.0.0.0 fpctraffic3.com
 0.0.0.0 fucktrio.info
@@ -5931,6 +5937,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ipv4.tracker.harry.lu
 0.0.0.0 io-in-f95.1e100.net
 0.0.0.0 il-in-f95.1e100.net
 0.0.0.0 ik-in-x5f.1e100.net
@@ -8095,6 +8102,9 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 open.acgnxtracker.com
+0.0.0.0 open.demonii.si
+0.0.0.0 opentrackr.org
 0.0.0.0 offersuperhub.com
 0.0.0.0 og-in-f138.1e100.net
 0.0.0.0 ozoneproject.com
@@ -8909,6 +8919,8 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 services.iamhansen.xyz
+0.0.0.0 stalker.upeer.me
 0.0.0.0 sx.leadzu.com
 0.0.0.0 spiroox.com
 0.0.0.0 script.bruceads.com
@@ -9870,6 +9882,19 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tracker.iamhansen.xyz
+0.0.0.0 tracker.supertracker.net
+0.0.0.0 tracker.trackton.ga
+0.0.0.0 tracker.harry.lu
+0.0.0.0 tracker.tiny-vps.com
+0.0.0.0 tracker.cyberia.is
+0.0.0.0 tracker.torrent.eu
+0.0.0.0 torrent.eu
+0.0.0.0 tracker.opentrackr.org
+0.0.0.0 tracker.leechers-paradise.org
+0.0.0.0 tracker.open-internet.nl
+0.0.0.0 tracker.coppersurfer.tk
+0.0.0.0 tracker.openbittorrent.com
 0.0.0.0 telemetry.api.swiftkey.com
 0.0.0.0 telemetry-in.battle.net
 0.0.0.0 tracking.epicgames.com
@@ -10254,6 +10279,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 upeer.me
 0.0.0.0 unityads.us
 0.0.0.0 unityads.com
 0.0.0.0 utraffic.engine.adglare.net
@@ -10793,6 +10819,7 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xxx-tracker.com
 0.0.0.0 xdwan.cn
 0.0.0.0 xand.mixhits.com
 0.0.0.0 xbs.mtree.com
@@ -11512,6 +11539,8 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 041234.net
+0.0.0.0 591234x.com
 0.0.0.0 4c.9oo91e.com
 0.0.0.0 15cb56ff71b8406b21.wtahsapp.com
 0.0.0.0 1plusx.com
@@ -14998,6 +15027,10 @@ _Affiliate
 /c.gif?
 /sl/e/i/
 /sl/e/v/
+/img.php?
+/domains/caf.js
+/logpstatus.php
+/kj/bm.js?
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
