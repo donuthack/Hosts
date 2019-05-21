@@ -10,6 +10,7 @@
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
+@@||media-cdn.tripadvisor.com
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -3689,6 +3690,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clicktripz.com
 0.0.0.0 concheck.adsafety.net
 0.0.0.0 count.shopping.t-online.de
 0.0.0.0 cp.abbp1.com
@@ -6513,6 +6515,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jscache.com
 0.0.0.0 justpremium.com
 0.0.0.0 ja-in-f100.1e100.net
 0.0.0.0 js.ubembed.com
@@ -8919,6 +8922,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 survata.com
 0.0.0.0 services.iamhansen.xyz
 0.0.0.0 stalker.upeer.me
 0.0.0.0 sx.leadzu.com
@@ -9882,6 +9886,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tamgrt.com
 0.0.0.0 tracker.iamhansen.xyz
 0.0.0.0 tracker.supertracker.net
 0.0.0.0 tracker.trackton.ga
@@ -10863,6 +10868,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yb-in-f95.1e100.net
 0.0.0.0 yllix.com
 0.0.0.0 yȯutube.com
 0.0.0.0 yesware.com
@@ -11194,6 +11200,9 @@
 0.0.0.0 zyqlfplqdgxu.com
 
 ! IPs
+0.0.0.0 64.233.185.95
+0.0.0.0 172.217.3.226
+0.0.0.0 108.177.122.132
 0.0.0.0 18.231.109.167
 0.0.0.0 35.202.110.173
 0.0.0.0 81.161.59.130
@@ -14765,6 +14774,7 @@ nourishinteractive.com##.location_page_right5
 nourishinteractive.com##.location_page_left2
 nourishinteractive.com##.location_page_left4
 www.pandora.com##.DisplayAdController__rightRail--active.DisplayAdController__rightRail
+google.com$domain=youtube.com
 
 # Block tracking scripts, ads and add cosmetic filters
 /MM/js/eex-canvas.js
@@ -15031,6 +15041,11 @@ _Affiliate
 /domains/caf.js
 /logpstatus.php
 /kj/bm.js?
+/GARecord
+/PageMoniker?pixelList
+/tag/js/gpt.js
+/JSErrorRecord
+/beacon.js
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
