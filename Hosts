@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,073 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Tuesday, May 21, 2019
+! Last Updated on Wednesday, May 22, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -789,6 +789,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 adxcel.com
 0.0.0.0 acgnxtracker.com
 0.0.0.0 adsafety.net
 0.0.0.0 advmob.cn
@@ -3690,6 +3691,9 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cityspark.com
+0.0.0.0 comcasttechnologysolutions.com
+0.0.0.0 cf.adxcel.com
 0.0.0.0 clicktripz.com
 0.0.0.0 concheck.adsafety.net
 0.0.0.0 count.shopping.t-online.de
@@ -4459,6 +4463,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 deseretdigital.com
 0.0.0.0 denis.stalker.upeer.me
 0.0.0.0 disf.es
 0.0.0.0 deliver.vkcdnservice.com
@@ -4904,6 +4909,7 @@
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 d1wcopahj6rhb7.cloudfront.net
 0.0.0.0 d258j801nsw1p7.cloudfront.net
 0.0.0.0 dg21i27f0zp22.cloudfront.net
 0.0.0.0 dgkxwewtzsnml.cloudfront.net
@@ -5501,6 +5507,8 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gmg.io
+0.0.0.0 geoapi.indiatimes.com
 0.0.0.0 globaloffersnow.com
 0.0.0.0 groundtruth.com
 0.0.0.0 gemius.com
@@ -6515,6 +6523,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jsso.indiatimes.com
 0.0.0.0 jscache.com
 0.0.0.0 justpremium.com
 0.0.0.0 ja-in-f100.1e100.net
@@ -7353,6 +7362,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 log.getadblock.com
 0.0.0.0 levelaccess.net
 0.0.0.0 lepodownload.mediatek.com
 0.0.0.0 leadzu.com
@@ -8649,6 +8659,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 queryly.com
 0.0.0.0 qrzlaatf.xyz
 0.0.0.0 qualaroo.com
 0.0.0.0 quickmapsanddirections.com
@@ -9886,6 +9897,8 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 theplatform.com
+0.0.0.0 tail.digital
 0.0.0.0 tamgrt.com
 0.0.0.0 tracker.iamhansen.xyz
 0.0.0.0 tracker.supertracker.net
@@ -10412,6 +10425,9 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 viafoura.co
+0.0.0.0 viafoura.com
+0.0.0.0 viafoura.net
 0.0.0.0 vkcdnservice.com
 0.0.0.0 vidible.tv
 0.0.0.0 vuukle-analytics.appspot.com
@@ -11548,6 +11564,7 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 88-f.net
 0.0.0.0 041234.net
 0.0.0.0 591234x.com
 0.0.0.0 4c.9oo91e.com
@@ -14775,6 +14792,90 @@ nourishinteractive.com##.location_page_left2
 nourishinteractive.com##.location_page_left4
 www.pandora.com##.DisplayAdController__rightRail--active.DisplayAdController__rightRail
 google.com$domain=youtube.com
+doubleclick.net$domain=youtube.com
+google.com$domain=theatlas.com
+google.com$domain=thenews.com.pk
+www.today.com##.pkg-index-8.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.mainColumn___9Tp3L.columnsWrapper___3OmzC > .adColumnRight___E1E5V.grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
+www.today.com##.pkg-index-12.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.columnsWrapper___3OmzC > .grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
+www.today.com##.pkg-index-4.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.columnsWrapper___3OmzC > .grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
+www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___14Hjt.rail > .railWrapper___OPma9 > .railContent___d7gAe
+www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___14Hjt.rail > .railWrapper___OPma9
+www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___14Hjt.rail
+www.today.com##.pkg-index-16.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.mainColumn___9Tp3L.columnsWrapper___3OmzC > .adColumnRight___E1E5V.grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
+google.com$domain=indiatimes.com
+pubmatic.com$domain=indiatimes.com
+abcnews.go.com###_outbrain
+abcnews.go.com###interest-carousel
+abcnews.go.com##.leaderboard-970
+www.click2houston.com##.hidden-xs.mod-radar.mod-wrapper > .mod-body
+www.click2houston.com###article_10154_30787_114443077_1\.0
+www.click2houston.com###article_10154_30787_114452446_1\.0
+www.dailynews.com##div.landing-three-one:nth-of-type(2) > .three-one-right
+www.dailynews.com##div.landing-item:nth-of-type(4)
+www.dailynews.com##div.landing-row.landing-three-one:nth-of-type(5) > .three-one-right
+www.dailynews.com##div.landing-row.landing-three-one:nth-of-type(6) > .three-one-right
+newsok.com##div.pgvw:nth-of-type(6) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.pgvw:nth-of-type(8) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.pgvw:nth-of-type(10) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(10) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.pgvw:nth-of-type(11) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(11) > div.container-fluid:nth-of-type(4) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(11) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(12) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.pgvw:nth-of-type(12) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(13) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(13) > div.container-fluid:nth-of-type(4) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(13) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(14) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(14) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.pgvw:nth-of-type(15) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(15) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(16) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(17) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(17) > div.container-fluid:nth-of-type(4) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(17) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(18) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(18) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.pgvw:nth-of-type(19) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(19) > div.container-fluid:nth-of-type(4) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(19) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(20) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(20) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.pgvw:nth-of-type(21) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(21) > div.container-fluid:nth-of-type(4) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(21) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(22) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(22) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.pgvw:nth-of-type(23) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(23) > div.container-fluid:nth-of-type(4) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(23) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(24) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(24) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > div.col-lg-4.col-md-6:nth-of-type(3)
+newsok.com##div.container-fluid:nth-of-type(3) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(5) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.container-fluid:nth-of-type(8) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(6) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(6) > div.px-lg-0.px-sm-5.container:nth-of-type(3) > .row > .gray.alt-card.col-lg-4.col-md-6
+newsok.com##div.pgvw:nth-of-type(7) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(7) > div.container-fluid:nth-of-type(4) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(7) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(8) > div.container-fluid:nth-of-type(2) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(9) > div.container-fluid:nth-of-type(1) > .row > .m-0.col > center > .advertisement
+newsok.com##div.pgvw:nth-of-type(9) > div.container-fluid:nth-of-type(4) > .row > .m-0.col > .advertisement
+newsok.com##div.pgvw:nth-of-type(9) > div.container-fluid:nth-of-type(6) > .row > .m-0.col > .advertisement
+www.deseretnews.com##.home-signup-email-text
+www.deseretnews.com##.left-wrapper
+www.deseretnews.com##.email-button.btn-submit
+www.deseretnews.com###react_wrapper_home_newsletter_large
+www.nydailynews.com###f0bhRaoY4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
+www.nydailynews.com##.sticky-leaderboard-front-page.sticky-leaderboard.relative.hidden-tablet.hidden-mobile.ad-320x50.pb-ad-prod.pb-ad
+www.nydailynews.com###cKpw121Y4SVerr
+www.nydailynews.com###fBKuHj1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
+www.nydailynews.com###f0PQG9DY4SVerr > .relative.ad-320x50.pb-ad-prod.pb-ad > .uppercase.align-center.ad-caption-text
+www.nydailynews.com###f0PQG9DY4SVerr > .relative.ad-320x50.pb-ad-prod.pb-ad
+www.nydailynews.com###fg5hDk1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad > .uppercase.align-center.ad-caption-text
+www.nydailynews.com###fg5hDk1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
+www.nydailynews.com###fmj28T1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
 
 # Block tracking scripts, ads and add cosmetic filters
 /MM/js/eex-canvas.js
@@ -15046,6 +15147,11 @@ _Affiliate
 /tag/js/gpt.js
 /JSErrorRecord
 /beacon.js
+/v2/record_log.php
+/js/log.js?
+/js/experiment.js?
+/js/ga.js
+/TOIBNews/breakingnews.html
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
@@ -15221,3 +15327,4 @@ _Affiliate
 ##.warnadblk
 ##.css-jj611e evk9ulx0
 ###css-jj611e evk9ulx0
+###tt-cookie-consent--advice
