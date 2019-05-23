@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,228 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Wednesday, May 22, 2019
+! Last Updated on Thursday, May 23, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -5308,6 +5308,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fastly-insights.com
 0.0.0.0 fusedit.com
 0.0.0.0 fusedit.com.au
 0.0.0.0 www.fpctraffic3.com
@@ -7551,6 +7552,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 myvisualiq.net
 0.0.0.0 m.disf.es
 0.0.0.0 mordi.fun
 0.0.0.0 media-advertising.org
@@ -8260,6 +8262,8 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pixel.spotify.com
+0.0.0.0 pixel-static.spotify.com
 0.0.0.0 p-cdn.com
 0.0.0.0 predictivdisplay.com
 0.0.0.0 pomerous.info
@@ -9897,6 +9901,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 t.myvisualiq.net
 0.0.0.0 theplatform.com
 0.0.0.0 tail.digital
 0.0.0.0 tamgrt.com
