@@ -3691,6 +3691,8 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.commento.io
+0.0.0.0 commento.io
 0.0.0.0 cityspark.com
 0.0.0.0 comcasttechnologysolutions.com
 0.0.0.0 cf.adxcel.com
@@ -5308,6 +5310,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 formstack.com
+0.0.0.0 fqtag.com
 0.0.0.0 fastly-insights.com
 0.0.0.0 fusedit.com
 0.0.0.0 fusedit.com.au
@@ -5948,6 +5952,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 instant.page
 0.0.0.0 ipv4.tracker.harry.lu
 0.0.0.0 io-in-f95.1e100.net
 0.0.0.0 il-in-f95.1e100.net
@@ -7950,6 +7955,8 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 stats.noblogs.org
+0.0.0.0 nprapps.org
 0.0.0.0 www.notifydomain.com
 0.0.0.0 notifydomain.com
 0.0.0.0 nlt.recognified.com
@@ -8937,6 +8944,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 secureserver.net
 0.0.0.0 survata.com
 0.0.0.0 services.iamhansen.xyz
 0.0.0.0 stalker.upeer.me
@@ -14800,6 +14808,7 @@ google.com$domain=youtube.com
 doubleclick.net$domain=youtube.com
 google.com$domain=theatlas.com
 google.com$domain=thenews.com.pk
+google.com$domain=techworld.com
 www.today.com##.pkg-index-8.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.mainColumn___9Tp3L.columnsWrapper___3OmzC > .adColumnRight___E1E5V.grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 www.today.com##.pkg-index-12.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.columnsWrapper___3OmzC > .grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 www.today.com##.pkg-index-4.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.columnsWrapper___3OmzC > .grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
@@ -14808,6 +14817,9 @@ www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___
 www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___14Hjt.rail
 www.today.com##.pkg-index-16.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.mainColumn___9Tp3L.columnsWrapper___3OmzC > .adColumnRight___E1E5V.grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 google.com$domain=indiatimes.com
+google.com$domain=cambiaresearch.com
+google.com$domain=ipeeworld.com
+google.com$domain=servicecare.org.uk
 pubmatic.com$domain=indiatimes.com
 abcnews.go.com###_outbrain
 abcnews.go.com###interest-carousel
@@ -15156,6 +15168,8 @@ _Affiliate
 /js/log.js?
 /js/experiment.js?
 /js/ga.js
+/cloudflare-static/email-decode.min.js
+/cse/cse.js?
 /TOIBNews/breakingnews.html
 ###right-ads-rail
 ##amp-ad
