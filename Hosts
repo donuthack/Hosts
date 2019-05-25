@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,228 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Thursday, May 23, 2019
+! Last Updated on Saturday, May 25, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -789,6 +789,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 azureedge.net
 0.0.0.0 adxcel.com
 0.0.0.0 acgnxtracker.com
 0.0.0.0 adsafety.net
@@ -5310,6 +5311,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fessoovy.com
 0.0.0.0 formstack.com
 0.0.0.0 fqtag.com
 0.0.0.0 fastly-insights.com
@@ -5512,6 +5514,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gmmail.com
 0.0.0.0 gmg.io
 0.0.0.0 geoapi.indiatimes.com
 0.0.0.0 globaloffersnow.com
@@ -7557,6 +7560,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 makemyvids.com
 0.0.0.0 myvisualiq.net
 0.0.0.0 m.disf.es
 0.0.0.0 mordi.fun
@@ -8269,6 +8273,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pushlum.com
 0.0.0.0 pixel.spotify.com
 0.0.0.0 pixel-static.spotify.com
 0.0.0.0 p-cdn.com
@@ -8670,6 +8675,19 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 ww1.quicksearch.com
+0.0.0.0 ww2.quicksearch.com
+0.0.0.0 ww3.quicksearch.com
+0.0.0.0 ww4.quicksearch.com
+0.0.0.0 ww5.quicksearch.com
+0.0.0.0 ww6.quicksearch.com
+0.0.0.0 ww7.quicksearch.com
+0.0.0.0 ww8.quicksearch.com
+0.0.0.0 ww9.quicksearch.com
+0.0.0.0 ww10.quicksearch.com
+0.0.0.0 ww11.quicksearch.com
+0.0.0.0 ww12.quicksearch.com
+0.0.0.0 quicksearch.com
 0.0.0.0 queryly.com
 0.0.0.0 qrzlaatf.xyz
 0.0.0.0 qualaroo.com
@@ -9909,6 +9927,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 turngrind.com
 0.0.0.0 t.myvisualiq.net
 0.0.0.0 theplatform.com
 0.0.0.0 tail.digital
@@ -10564,6 +10583,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wikia-services.com
 0.0.0.0 whatsyourflower.com
 0.0.0.0 wrison-subustall.com
 0.0.0.0 wlbetathome.adsrv.eacdn.com
@@ -11577,6 +11597,7 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 73g509fk9a.com
 0.0.0.0 88-f.net
 0.0.0.0 041234.net
 0.0.0.0 591234x.com
@@ -14893,6 +14914,7 @@ www.nydailynews.com###f0PQG9DY4SVerr > .relative.ad-320x50.pb-ad-prod.pb-ad
 www.nydailynews.com###fg5hDk1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad > .uppercase.align-center.ad-caption-text
 www.nydailynews.com###fg5hDk1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
 www.nydailynews.com###fmj28T1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
+solarmovie.id/user/userbox?
 
 # Block tracking scripts, ads and add cosmetic filters
 /MM/js/eex-canvas.js
@@ -15171,6 +15193,7 @@ _Affiliate
 /cloudflare-static/email-decode.min.js
 /cse/cse.js?
 /TOIBNews/breakingnews.html
+/clear1x1.gif
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
