@@ -3694,6 +3694,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 context.ly
 0.0.0.0 cdn.commento.io
 0.0.0.0 commento.io
 0.0.0.0 cityspark.com
@@ -4468,6 +4469,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 deletealltweets.com
 0.0.0.0 deliverystockpackage.com
 0.0.0.0 deseretdigital.com
 0.0.0.0 denis.stalker.upeer.me
@@ -9936,6 +9938,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 twoolbox.com
 0.0.0.0 turngrind.com
 0.0.0.0 t.myvisualiq.net
 0.0.0.0 theplatform.com
@@ -11065,6 +11068,7 @@
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zdcommerce.io
 0.0.0.0 zononi.com
 0.0.0.0 zighzag.com
 0.0.0.0 ziffdavis.com
@@ -15414,3 +15418,11 @@ _Affiliate
 ##.css-jj611e evk9ulx0
 ###css-jj611e evk9ulx0
 ###tt-cookie-consent--advice
+##[href="http://blockadblock.*"]
+##[href="http://fuckadblock.*"]
+##[href="http://noadblock.*"]
+##[href="http://facebook.*/tr"]
+##[href="https://blockadblock.*"]
+##[href="https://fuckadblock.*"]
+##[href="https://noadblock.*"]
+##[href="https://facebook.*/tr"]
