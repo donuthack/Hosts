@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,228 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Saturday, May 25, 2019
+! Last Updated on Monday, May 27, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -4468,6 +4468,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 deliverystockpackage.com
 0.0.0.0 deseretdigital.com
 0.0.0.0 denis.stalker.upeer.me
 0.0.0.0 disf.es
@@ -4914,6 +4915,7 @@
 0.0.0.0 d5bygqdtbohob.cloudfront.net
 0.0.0.0 dnn506yrbagrg.cloudfront.net
 0.0.0.0 ddfnmo6ev4fd.cloudfront.net
+0.0.0.0 d20ubqycd8ynev.cloudfront.net
 0.0.0.0 d1wcopahj6rhb7.cloudfront.net
 0.0.0.0 d258j801nsw1p7.cloudfront.net
 0.0.0.0 dg21i27f0zp22.cloudfront.net
@@ -5015,6 +5017,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 ecomm.events
 0.0.0.0 explodie.org:6969
 0.0.0.0 error.facebook.com
 0.0.0.0 easygamepromo.com
@@ -5313,6 +5316,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 filesusr.com
 0.0.0.0 fessoovy.com
 0.0.0.0 formstack.com
 0.0.0.0 fqtag.com
@@ -5500,7 +5504,6 @@
 0.0.0.0 floridat.app.ur.gcion.com
 0.0.0.0 freewarefreedownload.com
 0.0.0.0 feedads.googleadservices.com
-0.0.0.0 fonts.googleapis.com
 0.0.0.0 fast.fonts.net
 0.0.0.0 fonts.net
 0.0.0.0 fyre.co
@@ -5957,6 +5960,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ic-dc.deliverystockpackage.com
 0.0.0.0 instant.page
 0.0.0.0 ipv4.tracker.harry.lu
 0.0.0.0 io-in-f95.1e100.net
@@ -8966,6 +8970,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sitewit.com
 0.0.0.0 secureserver.net
 0.0.0.0 survata.com
 0.0.0.0 services.iamhansen.xyz
@@ -10461,6 +10466,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vod-server.wix.com
 0.0.0.0 viafoura.co
 0.0.0.0 viafoura.com
 0.0.0.0 viafoura.net
@@ -14919,6 +14925,40 @@ www.nydailynews.com###fg5hDk1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad > .
 www.nydailynews.com###fg5hDk1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
 www.nydailynews.com###fmj28T1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
 solarmovie.id/user/userbox?
+firewolfresourcepack.com/wp-admin/admin-ajax.php
+firewolfresourcepack.com/wp-content/plugins/akismet/_inc/form.js?
+firewolfresourcepack.com/wp-content/plugins/super-socializer/js/front/combined.js?
+www.infowars.com##.today-on-the-show-content
+www.prophethacker.com##.c-4-12.sidebar
+www.cambiaresearch.com##.hidden-xs
+www.cambiaresearch.com###article > a:nth-of-type(1)
+www.cambiaresearch.com###BaseBodyContent_divContent > hr
+www.cambiaresearch.com##.text-center > div:nth-of-type(2)
+www.cambiaresearch.com###Comments > a
+ipeeworld.com###text-5
+blog.knowbe4.com##p:nth-of-type(20)
+blog.knowbe4.com###hs_cos_wrapper_module_14542630135022901 > p:nth-of-type(1)
+blog.knowbe4.com##p:nth-of-type(21)
+blog.knowbe4.com##p:nth-of-type(19)
+www.tomsguide.com###responsive_ad
+www.techworld.com###rhc
+www.techworld.com##.relHead.crossHead
+www.techworld.com###articleEnd_0
+duckduckgo.com###links > .has-ad.results--ads
+||vignette.wikia.nocookie.net/spongebob/images/4/4a/SBWIKIGR_NavBoxFlowersButton.png/revision/latest?cb=20170612181511&path-prefix=el$image
+spongebob.fandom.com###WikiaBarWrapper
+www.dummies.com###\31 47606 > .ads
+www.minecraftforum.net##.ad-container-footer.ad-container > .ad-bin
+www.minecraftforum.net##.footer-ad-medRect.xt-main-med-rect-footer.xt-placement
+www.minecraftforge.net###cdm-zone-04
+www.minecraftforge.net##div:nth-of-type(3) > .promo-container-framed.promo-container
+www.minecraftforge.net###cdm-zone-02
+www.minecraftforge.net##.sidebar-right > div:nth-of-type(1) > .promo-container-framed.promo-container
+www.minecraftforge.net##li.ipsBox.ipsWidget_vertical.ipsWidget:nth-of-type(1) > .ipsPad.ipsWidget_inner
+www.minecraftforge.net###cdm-zone-01
+www.minecraftforge.net##li.ipsBox.ipsWidget_vertical.ipsWidget:nth-of-type(1)
+www.minecraftforge.net##.sidebar-wrapper-content > div:nth-of-type(1) > .promo-container-framed.promo-container
+minecraft.curseforge.com##.mce-notification-inner
 
 # Block tracking scripts, ads and add cosmetic filters
 /MM/js/eex-canvas.js
