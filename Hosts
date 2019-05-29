@@ -15030,6 +15030,9 @@ www.minecraftforge.net###cdm-zone-01
 www.minecraftforge.net##li.ipsBox.ipsWidget_vertical.ipsWidget:nth-of-type(1)
 www.minecraftforge.net##.sidebar-wrapper-content > div:nth-of-type(1) > .promo-container-framed.promo-container
 minecraft.curseforge.com##.mce-notification-inner
+api.twitter.com/1.1/promoted_content/log.json
+api.twitter.com/1.1/jot/client_event.json
+api.twitter.com/1.1/jot/error_log.json
 
 # Block tracking scripts, ads and add cosmetic filters
 /MM/js/eex-canvas.js
