@@ -9992,6 +9992,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 ton.twimg.com
 0.0.0.0 trackme.lk
 0.0.0.0 timecamp.com
 0.0.0.0 traccar.org
@@ -15312,6 +15313,9 @@ _Affiliate
 /cse/cse.js?
 /TOIBNews/breakingnews.html
 /clear1x1.gif
+/1.1/promoted_content/log.json
+/1.1/jot/client_event.json
+/1.1/jot/error_log.json
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
