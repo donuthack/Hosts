@@ -4,7 +4,7 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Number Of Ad Services, Trackers, And Malware Blocked: 15,228 (uBlock)
+! Number Of Ad Services, Trackers, And Malware Blocked: 15,399 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
 ! Last Updated on Tuesday, May 28, 2019
 
@@ -9992,7 +9992,6 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
-0.0.0.0 ton.twimg.com
 0.0.0.0 trackme.lk
 0.0.0.0 timecamp.com
 0.0.0.0 traccar.org
