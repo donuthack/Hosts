@@ -8842,6 +8842,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 raygun.io
 0.0.0.0 revealbot.com
 0.0.0.0 repixel.co
 0.0.0.0 refersion.com
@@ -15111,8 +15112,25 @@ www.tempmailaddress.com##.donate.row
 www.hoverwatch.com###acceptbar
 gopocalypse.org##.site-info > div
 gopocalypse.org###colophon
+www.g2.com##.position-relative.shadow.text-center.p-half.bg-white.page
+www.g2.com##.x-advisor-cta.row
+www.g2.com##.text-center > .callout
+www.g2.com##.text-center.py-1.px-0.paper
+www.engagebay.com##.engagebay-dialog.engagebay-gdpr-dialog
+www.iheart.com##.e1e0pqwm0.css-1f9of75
+www.iheart.com##.css-13t6g5d
+us.api.iheart.com/api/v1/bootstrap/getLiveRadioAdConfig
+us.api.iheart.com/api/v2/content/markets?zipCode
+us.api.iheart.com/api/v3/collection/user/*/collection
+leads.radioedit.iheart.com/api/cards?country
+us.api.iheart.com/api/v2/content/markets?countryCode
 
 # Block tracking scripts, ads and add cosmetic filters
+/getLiveRadioAdConfig
+/content/markets?zipCode
+/collection/user/*/collection
+/api/cards?country
+/content/markets?countryCode
 /MM/js/eex-canvas.js
 /sbi?mmasync
 /ipv6test/test?
