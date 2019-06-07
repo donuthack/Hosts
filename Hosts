@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,399 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Tuesday, May 28, 2019
+! Last Updated on Friday, June 7, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -789,6 +789,16 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 ab800ace.fanoutcdn.com
+0.0.0.0 app.engagebay.com
+0.0.0.0 adsoup.com
+0.0.0.0 adsuisse.com
+0.0.0.0 adsweetcher.com
+0.0.0.0 adsy.me
+0.0.0.0 adstage.io
+0.0.0.0 adscore.unified.com
+0.0.0.0 automateads.com
+0.0.0.0 app.contextsmith.com
 0.0.0.0 aff-online.com
 0.0.0.0 adexprts.com
 0.0.0.0 adserver-pro.net
@@ -2904,6 +2914,8 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 biz.world.waze.com
+0.0.0.0 botmatic.ai
 0.0.0.0 bflixdownload.info
 0.0.0.0 buglife.com
 0.0.0.0 bt.xxx-tracker.com
@@ -3699,6 +3711,10 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cleverslackbot.cleverppc.com
+0.0.0.0 cleverppc.com
+0.0.0.0 captaingrowth.ai
+0.0.0.0 contextsmith.com
 0.0.0.0 cocospy.com
 0.0.0.0 cdn1.adexprts.com
 0.0.0.0 cdn2.adexprts.com
@@ -4478,6 +4494,11 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 d2p078bqz5urf7.cloudfront.net
+0.0.0.0 d31g2isjy5r21f.cloudfront.net
+0.0.0.0 d3mwhxgzltpnyp.cloudfront.net
+0.0.0.0 d952cmcgwqsjf.cloudfront.net
+0.0.0.0 dart-institute.com
 0.0.0.0 devicetrackerplus.com
 0.0.0.0 deepstatenation.com
 0.0.0.0 deletealltweets.com
@@ -5038,6 +5059,9 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 emailtracker.website
+0.0.0.0 extension2.mobbo.com
+0.0.0.0 engagebay.com
 0.0.0.0 extremetracking.com
 0.0.0.0 ecomm.events
 0.0.0.0 explodie.org:6969
@@ -5338,6 +5362,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fanoutcdn.com
+0.0.0.0 flipmass.com
 0.0.0.0 free-phone-trackers.phonelookupzjq.com
 0.0.0.0 free-email-tracker.com
 0.0.0.0 freshdesk.com
@@ -5546,6 +5572,14 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 geotrack.email
+0.0.0.0 gender-decoder.katmatfield.com
+0.0.0.0 growsumo.com
+0.0.0.0 grsm.io
+0.0.0.0 gumroad.com
+0.0.0.0 gum.co
+0.0.0.0 grademyads.com
+0.0.0.0 go.onelink.me
 0.0.0.0 gpswox.com
 0.0.0.0 getgist.com
 0.0.0.0 globetoday.com
@@ -5825,6 +5859,7 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hunchads.com
 0.0.0.0 hiboox.com
 0.0.0.0 hoverwatch.com
 0.0.0.0 hostcontrol.com
@@ -5992,6 +6027,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 introbar.com
 0.0.0.0 iubenda.com
 0.0.0.0 impeachdjtnow.com
 0.0.0.0 iyfsearch.com
@@ -6574,6 +6610,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 join.octaneai.com
 0.0.0.0 jsso.indiatimes.com
 0.0.0.0 jscache.com
 0.0.0.0 justpremium.com
@@ -7413,6 +7450,8 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 landing.adstage.io
+0.0.0.0 landbot.io
 0.0.0.0 logger.mobi
 0.0.0.0 log.getadblock.com
 0.0.0.0 levelaccess.net
@@ -7603,6 +7642,8 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mailtracker.hunter.io
+0.0.0.0 madgicx.com
 0.0.0.0 mspy.com
 0.0.0.0 mobile-tracker-free.com
 0.0.0.0 mobile-tracker-free.fr
@@ -8010,6 +8051,7 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nachoanalytics.com
 0.0.0.0 stats.noblogs.org
 0.0.0.0 nprapps.org
 0.0.0.0 www.notifydomain.com
@@ -8178,6 +8220,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 octaneai.com
 0.0.0.0 omnisrc.com
 0.0.0.0 www.onclickclear.com
 0.0.0.0 onclickclear.com
@@ -8326,6 +8369,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 platform.adstage.io
 0.0.0.0 phonelookupzjq.com
 0.0.0.0 poplink.io
 0.0.0.0 praetox.com
@@ -8733,6 +8777,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qsurvey.mozilla.com
 0.0.0.0 ww1.quicksearch.com
 0.0.0.0 ww2.quicksearch.com
 0.0.0.0 ww3.quicksearch.com
@@ -8797,6 +8842,8 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 revealbot.com
+0.0.0.0 repixel.co
 0.0.0.0 refersion.com
 0.0.0.0 recurly.com
 0.0.0.0 rekovers.ru
@@ -9023,6 +9070,10 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 service.bananatag.com
+0.0.0.0 snov.io
+0.0.0.0 surveygizmo.com
+0.0.0.0 survey.sson-analytics.com
 0.0.0.0 soundest.net
 0.0.0.0 sat-gps-tracker.com
 0.0.0.0 soda.adserver-pro.net
@@ -9992,6 +10043,11 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 topvid.com
+0.0.0.0 tapfiliate.com
+0.0.0.0 tryadhawk.com
+0.0.0.0 track.g2crowd.com
+0.0.0.0 trackapp.g2.com
 0.0.0.0 trackme.lk
 0.0.0.0 timecamp.com
 0.0.0.0 traccar.org
@@ -15033,6 +15089,28 @@ minecraft.curseforge.com##.mce-notification-inner
 api.twitter.com/1.1/promoted_content/log.json
 api.twitter.com/1.1/jot/client_event.json
 api.twitter.com/1.1/jot/error_log.json
+twitwipe.com###HOoWQlVNnZNg3XGpz6jgRdUaypHCwx
+twitwipe.com###n8aICT9cd8EvEqu992VPDuTS8naw6M
+||twitwipe.com/images/bubbles.png$image
+twitwipe.com##[href="http://blockadblock.com"]
+mashable.com##.story.post.full.blueprint > .zerg-widgets
+mashable.com###pathing-banner
+mashable.com##div.page-container:nth-of-type(1) > .body > .article-container.flex-box > div.box-cell > .post-content > .post-slider > .story.post.full > .zerg-widgets
+mashable.com##.full-width-tablet.is-parent.tile
+mashable.com##.callout
+www.deleteallmytweets.com###footerBg > svg > path:nth-of-type(1)
+nerdsmagazine.com###text-13
+nerdsmagazine.com###text-12
+nerdsmagazine.com###text-11
+nerdsmagazine.com###text-15
+nerdsmagazine.com##.group.sidebar-top
+aldianews.com###block-block-67 > .clearfix.block-inner > .block-title > span
+www.cocospy.com###cookie-tip
+recurly.com##.recurly-gdpr
+www.tempmailaddress.com##.donate.row
+www.hoverwatch.com###acceptbar
+gopocalypse.org##.site-info > div
+gopocalypse.org###colophon
 
 # Block tracking scripts, ads and add cosmetic filters
 /MM/js/eex-canvas.js
@@ -15315,6 +15393,10 @@ _Affiliate
 /1.1/promoted_content/log.json
 /1.1/jot/client_event.json
 /1.1/jot/error_log.json
+/barclays-monitoring/
+/libs/adrum.js
+/visit.json
+/?ref=
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
