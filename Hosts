@@ -789,6 +789,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 aralego.com
 0.0.0.0 ab800ace.fanoutcdn.com
 0.0.0.0 app.engagebay.com
 0.0.0.0 adsoup.com
@@ -2914,6 +2915,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 blockadblock.com.s221779.gridserver.com
 0.0.0.0 biz.world.waze.com
 0.0.0.0 botmatic.ai
 0.0.0.0 bflixdownload.info
@@ -3711,6 +3713,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 collector.leaddyno.com
 0.0.0.0 cleverslackbot.cleverppc.com
 0.0.0.0 cleverppc.com
 0.0.0.0 captaingrowth.ai
@@ -4494,6 +4497,8 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dnsleak.net
+0.0.0.0 digitru.st
 0.0.0.0 d2p078bqz5urf7.cloudfront.net
 0.0.0.0 d31g2isjy5r21f.cloudfront.net
 0.0.0.0 d3mwhxgzltpnyp.cloudfront.net
@@ -5572,6 +5577,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gridserver.com
 0.0.0.0 geotrack.email
 0.0.0.0 gender-decoder.katmatfield.com
 0.0.0.0 growsumo.com
@@ -6610,6 +6616,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jwpltx.com
 0.0.0.0 join.octaneai.com
 0.0.0.0 jsso.indiatimes.com
 0.0.0.0 jscache.com
@@ -8369,6 +8376,8 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 perfdrive.com
+0.0.0.0 playwire.com
 0.0.0.0 platform.adstage.io
 0.0.0.0 phonelookupzjq.com
 0.0.0.0 poplink.io
@@ -9071,6 +9080,9 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 stun.dnsleak.net
+0.0.0.0 stats.privacytools.io
+0.0.0.0 static.leaddyno.com
 0.0.0.0 service.bananatag.com
 0.0.0.0 snov.io
 0.0.0.0 surveygizmo.com
@@ -11734,6 +11746,7 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 989612280692-ehkveuurkamcpkdhi1ecfnhke87kuau5.apps.googleusercontent.com
 0.0.0.0 6zw2rcfd.com
 0.0.0.0 73g509fk9a.com
 0.0.0.0 88-f.net
@@ -14595,6 +14608,7 @@ solarmoviex.to##+js(abort-current-inline-script.js, decodeURI, atob)
 solarmoviex.to##+js(abort-current-inline-script.js, RegExp, zfgloaded)
 ||solarmoviex.to/sw.js$script
 solarmovie.cam##+js(abort-on-property-read.js, AaDetector)
+world4.eu##script:inject(bab-defuser.js)
 solarmovie.cam##+js(window.open-defuser.js)
 mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
 bitfun.co,moonbitcoin.cash###flexContentAdFrame:style(visibility: collapse !important)
@@ -15124,8 +15138,24 @@ us.api.iheart.com/api/v2/content/markets?zipCode
 us.api.iheart.com/api/v3/collection/user/*/collection
 leads.radioedit.iheart.com/api/cards?country
 us.api.iheart.com/api/v2/content/markets?countryCode
+www.iheart.com##.growl-0.ui-on-dark.growl
+www.tomshardware.com###widgetArea4 > .space-l
+www.tomshardware.com###widgetArea4
+www.tomshardware.com###widgetArea14
+www.tomshardware.com###responsive_ad
+www.tomshardware.com##.moboff.p-u-1-4
+www.tomshardware.com###in_article
+www.tomshardware.com##p:nth-of-type(5)
+www.tomshardware.com##p:nth-of-type(4)
+zapier.com##.top-bar--subtle.top-bar--justify-end.top-bar
+music.amazon.com/NA/api/cirrus/2011-06-01/
+music.amazon.com/NA/api/muse/legacy/getSimilarityRecommendations/
+ipleak.net/dnsdetect
+ipv4.ipleak.net/?mode=ajax
+ipleak.net/iplayer
 
 # Block tracking scripts, ads and add cosmetic filters
+/dnsdetect/
 /getLiveRadioAdConfig
 /content/markets?zipCode
 /collection/user/*/collection
@@ -15415,6 +15445,7 @@ _Affiliate
 /libs/adrum.js
 /visit.json
 /?ref=
+/audiencenetwork/token/v1/
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
