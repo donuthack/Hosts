@@ -1,0 +1,19 @@
+[Adblock]
+! Title: Cybo's Hosts - Extreme Blocking
+! Expires: 1 day
+
+! Title: Cybo's Hosts
+! Expires: 1 day
+
+*.js
+*.css
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+/fonts/
+/js/
+/javascript/
+/plugin/
+/plugins/
