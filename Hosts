@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,399 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Friday, June 7, 2019
+! Last Updated on Sunday, June 9, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -16,10 +16,27 @@
 0.0.0.0 hola.org
 0.0.0.0 holaspark.com
 0.0.0.0 client.hola.org
+0.0.0.0 client-cdn1.hola.org
+0.0.0.0 client-cdn2.hola.org
+0.0.0.0 client-cdn3.hola.org
+0.0.0.0 client-cdn4.hola.org
+0.0.0.0 client-cdn5.hola.org
 0.0.0.0 h-cdn.com
+0.0.0.0 cdn4.hola.org
 0.0.0.0 luminati.io
+0.0.0.0 clientalt-holanetworksltd.netdna-ssl.com
+0.0.0.0 client1-holanetworksltd.netdna-ssl.com
+0.0.0.0 client2-holanetworksltd.netdna-ssl.com
+0.0.0.0 client3-holanetworksltd.netdna-ssl.com
+0.0.0.0 holaalt-holanetworksltd.netdna-ssl.com
 0.0.0.0 ec2-54-243-128-120.compute-1.mazonaws.com
 0.0.0.0 ec2-107-22-193-119.compute-1.amazonaws.com
+0.0.0.0 s6m9m3g5.map2.ssl.hwcdn.net
+0.0.0.0 f9t5n3y6.map2.ssl.hwcdn.net
+0.0.0.0 d6g3b3z8.map2.ssl.hwcdn.net
+0.0.0.0 p6y7c8h9.map2.ssl.hwcdn.net
+0.0.0.0 m3a2r7m3.map2.ssl.hwcdn.net
+0.0.0.0 w5t6c5u8.map2.ssl.hwcdn.net
 0.0.0.0 184.164.147.6
 0.0.0.0 66.85.185.75
 0.0.0.0 107.170.77.122
@@ -3713,6 +3730,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 converto.com
 0.0.0.0 collector.leaddyno.com
 0.0.0.0 cleverslackbot.cleverppc.com
 0.0.0.0 cleverppc.com
@@ -6033,6 +6051,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 intercomcdn.com
 0.0.0.0 introbar.com
 0.0.0.0 iubenda.com
 0.0.0.0 impeachdjtnow.com
@@ -9080,6 +9099,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 stat.adskiller.me
 0.0.0.0 stun.dnsleak.net
 0.0.0.0 stats.privacytools.io
 0.0.0.0 static.leaddyno.com
@@ -10056,6 +10076,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 twilio-catalyst.herokuapp.com
 0.0.0.0 topvid.com
 0.0.0.0 tapfiliate.com
 0.0.0.0 tryadhawk.com
@@ -11746,6 +11767,8 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 344825410658-1hrj72o88dvpau57j8sdvhi6l01a8prg.apps.googleusercontent.com
+0.0.0.0 9i7swffxzi.execute-api.eu-central-1.amazonaws.com
 0.0.0.0 989612280692-ehkveuurkamcpkdhi1ecfnhke87kuau5.apps.googleusercontent.com
 0.0.0.0 6zw2rcfd.com
 0.0.0.0 73g509fk9a.com
@@ -15153,6 +15176,7 @@ music.amazon.com/NA/api/muse/legacy/getSimilarityRecommendations/
 ipleak.net/dnsdetect
 ipv4.ipleak.net/?mode=ajax
 ipleak.net/iplayer
+www.diorama.ch/pages/intro.php
 
 # Block tracking scripts, ads and add cosmetic filters
 /dnsdetect/
@@ -15445,7 +15469,11 @@ _Affiliate
 /libs/adrum.js
 /visit.json
 /?ref=
+/img/grey.gif
 /audiencenetwork/token/v1/
+/html2canvas.min.js
+/ads/carbonads/
+/ads/carbonads/carbon-modified.js
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
