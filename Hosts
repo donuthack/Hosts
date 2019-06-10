@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,399 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Sunday, June 9, 2019
+! Last Updated on Monday, June 10, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -806,6 +806,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 analytics.brave.com
+0.0.0.0 ally.cc
 0.0.0.0 aralego.com
 0.0.0.0 ab800ace.fanoutcdn.com
 0.0.0.0 app.engagebay.com
@@ -2932,6 +2934,10 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bamboohr.com
+0.0.0.0 bitrix.info
+0.0.0.0 bitrix24.com
+0.0.0.0 bitrix.ru
 0.0.0.0 blockadblock.com.s221779.gridserver.com
 0.0.0.0 biz.world.waze.com
 0.0.0.0 botmatic.ai
@@ -3730,6 +3736,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 conrep.com
 0.0.0.0 converto.com
 0.0.0.0 collector.leaddyno.com
 0.0.0.0 cleverslackbot.cleverppc.com
@@ -5595,6 +5602,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gma8il.com
 0.0.0.0 gridserver.com
 0.0.0.0 geotrack.email
 0.0.0.0 gender-decoder.katmatfield.com
@@ -5883,6 +5891,9 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hsforms.com
+0.0.0.0 hsadspixel.net
+0.0.0.0 harmonypsa.com
 0.0.0.0 hunchads.com
 0.0.0.0 hiboox.com
 0.0.0.0 hoverwatch.com
@@ -7476,6 +7487,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 leaderapps.co
 0.0.0.0 landing.adstage.io
 0.0.0.0 landbot.io
 0.0.0.0 logger.mobi
@@ -9099,6 +9111,8 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sgwidget.leaderapps.co
+0.0.0.0 sgwidget.com
 0.0.0.0 stat.adskiller.me
 0.0.0.0 stun.dnsleak.net
 0.0.0.0 stats.privacytools.io
@@ -10076,6 +10090,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 todo.vu
 0.0.0.0 twilio-catalyst.herokuapp.com
 0.0.0.0 topvid.com
 0.0.0.0 tapfiliate.com
@@ -10493,6 +10508,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 unbouncepages.com
 0.0.0.0 upeer.me
 0.0.0.0 unityads.us
 0.0.0.0 unityads.com
@@ -15177,6 +15193,19 @@ ipleak.net/dnsdetect
 ipv4.ipleak.net/?mode=ajax
 ipleak.net/iplayer
 www.diorama.ch/pages/intro.php
+cengage.com/images/spacer_tr.gif
+fast.wistia.net/assets/images/blank.gif
+zillakgames.com##.panel-info.panel > .panel-heading
+zillakgames.com##.panel-info.panel > .panel-body
+zillakgames.com##.panel-info.panel
+zillakgames.com##.avcms-module-position > .box > .box-main
+zillakgames.com##.user-area.col-md-push-6.col-md-6
+www.thesslstore.com##.inputhitbutton
+www.thesslstore.com##.open.slide-out-div
+||www.al.com/static/bama/static/img/logos/bama-member.png$image
+brave.com##.et_pb_text_align_center.et_pb_bg_layout_light.et_hover_enabled.et_pb_text_9.et_pb_text.et_pb_module > .et_pb_text_inner > h4
+brave.com###sg_email
+brave.com###sg-submit-btn
 
 # Block tracking scripts, ads and add cosmetic filters
 /dnsdetect/
@@ -15474,6 +15503,8 @@ _Affiliate
 /html2canvas.min.js
 /ads/carbonads/
 /ads/carbonads/carbon-modified.js
+/mput?topic=metrics
+/spacer_tr.gif
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
