@@ -15209,7 +15209,6 @@ brave.com###sg-submit-btn
 gew-spclient.spotify.com/gabo-receiver-service/v2/events
 spclient.wg.spotify.com/metrics-backend/v1/metric
 gew-spclient.spotify.com/melody/v1/logging/jssdk_warning
-gew-spclient.spotify.com/track-playback/v1/devices/*/state
 gew-spclient.spotify.com/melody/v1/product_state
 gew-spclient.spotify.com/melody/v1/logging/jssdk_playback_stats
 www.bitrix24.com##.bxst-main-cookie-policy__slide-bar
@@ -15525,7 +15524,6 @@ _Affiliate
 /mput?topic=metrics
 /spacer_tr.gif
 /melody/v1/logging/jssdk_playback_stats
-/track-playback/v1/devices/*/state
 /melody/v1/logging/jssdk_warning
 /metrics-backend/v1/metric
 /melody/v1/product_state
