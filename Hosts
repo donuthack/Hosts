@@ -15206,6 +15206,12 @@ www.thesslstore.com##.open.slide-out-div
 brave.com##.et_pb_text_align_center.et_pb_bg_layout_light.et_hover_enabled.et_pb_text_9.et_pb_text.et_pb_module > .et_pb_text_inner > h4
 brave.com###sg_email
 brave.com###sg-submit-btn
+gew-spclient.spotify.com/gabo-receiver-service/v2/events
+spclient.wg.spotify.com/metrics-backend/v1/metric
+gew-spclient.spotify.com/melody/v1/logging/jssdk_warning
+gew-spclient.spotify.com/track-playback/v1/devices/*/state
+gew-spclient.spotify.com/melody/v1/product_state
+gew-spclient.spotify.com/melody/v1/logging/jssdk_playback_stats
 
 # Block tracking scripts, ads and add cosmetic filters
 /dnsdetect/
@@ -15505,6 +15511,11 @@ _Affiliate
 /ads/carbonads/carbon-modified.js
 /mput?topic=metrics
 /spacer_tr.gif
+/melody/v1/logging/jssdk_playback_stats
+/track-playback/v1/devices/*/state
+/melody/v1/logging/jssdk_warning
+/metrics-backend/v1/metric
+/melody/v1/product_state
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
