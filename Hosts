@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,613 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Wednesday, June 12, 2019
+! Last Updated on Friday, June 14, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -7489,6 +7489,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 l.ooyala.com
 0.0.0.0 leaderapps.co
 0.0.0.0 landing.adstage.io
 0.0.0.0 landbot.io
@@ -10766,6 +10767,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 webseed.com
 0.0.0.0 whizzco.com
 0.0.0.0 wordtracker.com
 0.0.0.0 web-api.getgist.com
@@ -15267,6 +15269,10 @@ www.health.news##.Video
 www.health.news##.PostComments
 www.health.news##.FGLTUSYHWDCP
 www.health.news##.UnderNavigationContainer
+www.climate.news/wp-content/themes/ScienceTheme/js/Social.js
+www.climate.news/wp-content/themes/ScienceTheme/js/Sticky.js
+www.climate.news/wp-content/themes/ScienceTheme/js/PageLoad.js
+www.climate.news/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0
 
 # Block tracking scripts, ads and add cosmetic filters
 /dnsdetect/
@@ -15571,6 +15577,8 @@ _Affiliate
 /metrics-backend/v1/metric
 /melody/v1/product_state
 /api/stats/
+/sas/analytics
+/analytics/iframe.html
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
