@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,613 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Friday, June 14, 2019
+! Last Updated on Sunday, June 16, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -806,6 +806,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 aflt.market.yandex.ru
 0.0.0.0 analytics.brave.com
 0.0.0.0 ally.cc
 0.0.0.0 aralego.com
@@ -2934,6 +2935,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 buck.facebook.com
 0.0.0.0 bamboohr.com
 0.0.0.0 bitrix.info
 0.0.0.0 bitrix24.com
@@ -3736,6 +3738,8 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cackle.me
+0.0.0.0 crsspxl.com
 0.0.0.0 conrep.com
 0.0.0.0 converto.com
 0.0.0.0 collector.leaddyno.com
@@ -4522,6 +4526,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 db1k.com
 0.0.0.0 dnsleak.net
 0.0.0.0 digitru.st
 0.0.0.0 d2p078bqz5urf7.cloudfront.net
@@ -5089,6 +5094,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 en.ipip.net
 0.0.0.0 emailtracker.website
 0.0.0.0 extension2.mobbo.com
 0.0.0.0 engagebay.com
@@ -5392,6 +5398,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fengkongcloud.com
 0.0.0.0 findminecraft.com
 0.0.0.0 freeminecrafthost.com
 0.0.0.0 fanoutcdn.com
@@ -5604,6 +5611,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gwylxzj.cn
 0.0.0.0 gma8il.com
 0.0.0.0 gridserver.com
 0.0.0.0 geotrack.email
@@ -5665,7 +5673,6 @@
 0.0.0.0 go.techtarget.com
 0.0.0.0 www.googlecommerce.com
 0.0.0.0 googlecommerce.com
-0.0.0.0 gtimg.cn
 0.0.0.0 graphigostream.prd.dlive.tv
 0.0.0.0 gosredirector.ea.com
 0.0.0.0 geoip.tnt-ea.com
@@ -5893,6 +5900,8 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 huatuospeed.weiyun.com
+0.0.0.0 hqq.tv
 0.0.0.0 hsforms.com
 0.0.0.0 hsadspixel.net
 0.0.0.0 harmonypsa.com
@@ -6064,6 +6073,8 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ipip.net
+0.0.0.0 irs01.com
 0.0.0.0 intercomcdn.com
 0.0.0.0 introbar.com
 0.0.0.0 iubenda.com
@@ -6648,6 +6659,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 js.sohu.com
 0.0.0.0 jwpltx.com
 0.0.0.0 join.octaneai.com
 0.0.0.0 jsso.indiatimes.com
@@ -6731,6 +6743,7 @@
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kvideo.io
 0.0.0.0 kdata.fr
 0.0.0.0 k.googlevideo.com
 0.0.0.0 keap.com
@@ -7489,6 +7502,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 localhost.ptlogin2.weiyun.com
 0.0.0.0 l.ooyala.com
 0.0.0.0 leaderapps.co
 0.0.0.0 landing.adstage.io
@@ -8410,6 +8424,8 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 powerad.ai
+0.0.0.0 pingfore.qq.com
 0.0.0.0 perfdrive.com
 0.0.0.0 playwire.com
 0.0.0.0 platform.adstage.io
@@ -8820,6 +8836,8 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qchannel03.cn
+0.0.0.0 qlogo.cn
 0.0.0.0 qsurvey.mozilla.com
 0.0.0.0 ww1.quicksearch.com
 0.0.0.0 ww2.quicksearch.com
@@ -9114,6 +9132,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sohu.com.cn
 0.0.0.0 sgwidget.leaderapps.co
 0.0.0.0 sgwidget.com
 0.0.0.0 stat.adskiller.me
@@ -10093,6 +10112,9 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 track.sohu.com
+0.0.0.0 ty.captcha.qq.com
+0.0.0.0 tajs.qq.com
 0.0.0.0 todo.vu
 0.0.0.0 twilio-catalyst.herokuapp.com
 0.0.0.0 topvid.com
@@ -11106,6 +11128,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 y0.cn
 0.0.0.0 ylqbiljjlyq.com
 0.0.0.0 yb-in-f95.1e100.net
 0.0.0.0 yllix.com
@@ -15273,6 +15296,16 @@ www.climate.news/wp-content/themes/ScienceTheme/js/Social.js
 www.climate.news/wp-content/themes/ScienceTheme/js/Sticky.js
 www.climate.news/wp-content/themes/ScienceTheme/js/PageLoad.js
 www.climate.news/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.0
+summit.news###custom_html-2 > .mvp-widget-home-head > .mvp-widget-home-title
+summit.news###mvp-comments-button
+www.climate.news##.NavigationContainer
+www.climate.news##.UnderNavigationContainer
+www.sohu.com##.groom-read > .title
+www.sohu.com###main-news > .clear
+www.sohu.com###main-news
+cgi.connect.qq.com/report
+ui.ptlogin2.qq.com/cgi-bin/report
+clients6.google.com/rpc
 
 # Block tracking scripts, ads and add cosmetic filters
 /dnsdetect/
@@ -15561,6 +15594,7 @@ _Affiliate
 /1.1/promoted_content/log.json
 /1.1/jot/client_event.json
 /1.1/jot/error_log.json
+/ac/qzfl/stat.js
 /barclays-monitoring/
 /libs/adrum.js
 /visit.json
