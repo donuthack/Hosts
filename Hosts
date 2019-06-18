@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,613 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Sunday, June 16, 2019
+! Last Updated on Monday, June 17, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -806,6 +806,13 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 a23-201-41-125.deploy.static.akamaitechnologies.com
+0.0.0.0 a184-29-92-214.deploy.static.akamaitechnologies.com
+0.0.0.0 a184-29-94-98.deploy.static.akamaitechnologies.com
+0.0.0.0 a96-17-118-48.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-67-253-154.deploy.static.akamaitechnologies.com
+0.0.0.0 a23-201-42-136.deploy.static.akamaitechnologies.com
+0.0.0.0 a184-29-93-231.deploy.static.akamaitecnologies.com
 0.0.0.0 aflt.market.yandex.ru
 0.0.0.0 analytics.brave.com
 0.0.0.0 ally.cc
@@ -2935,6 +2942,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bugs.dojotoolkit.org
 0.0.0.0 buck.facebook.com
 0.0.0.0 bamboohr.com
 0.0.0.0 bitrix.info
@@ -5094,6 +5102,12 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 ec2-3-208-108-107.compute-1.amazonaws.com
+0.0.0.0 ec2-52-202-107-180.compute-1.amazonaws.com
+0.0.0.0 ec2-34-201-184-44.compute-1.amazonaws.com
+0.0.0.0 ec2-52-0-160-167.compute-1.amazonaws.com
+0.0.0.0 ec2-52-20-179-223.compute-1.amazonaws.com
+0.0.0.0 ec2-34-239-204-118.compute-1.amazonaws.com
 0.0.0.0 en.ipip.net
 0.0.0.0 emailtracker.website
 0.0.0.0 extension2.mobbo.com
@@ -9111,7 +9125,8 @@
 0.0.0.0 r.nexac.com
 0.0.0.0 r1.zedo.com
 0.0.0.0 reward-video.fyber.com
-0.0.0.0 rv-gateway.supersonicads.com|pixel-tracking.sonic-us.supersonicads.com
+0.0.0.0 rv-gateway.supersonicads.com
+0.0.0.0 pixel-tracking.sonic-us.supersonicads.com
 0.0.0.0 rewarded-video.fyber.com
 0.0.0.0 res.cloudinary.com
 0.0.0.0 www.roosterfirework.com
@@ -9132,6 +9147,12 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 server-99-84-168-29.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-169-124.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-46.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-31.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-26.ord52.r.cloudfront.net
+0.0.0.0 server-99-84-168-24.ord52.r.cloudfront.net
 0.0.0.0 sohu.com.cn
 0.0.0.0 sgwidget.leaderapps.co
 0.0.0.0 sgwidget.com
@@ -10662,6 +10683,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vip052.ssl.hwcdn.net
 0.0.0.0 vod-server.wix.com
 0.0.0.0 viafoura.co
 0.0.0.0 viafoura.com
@@ -11131,6 +11153,8 @@
 0.0.0.0 y0.cn
 0.0.0.0 ylqbiljjlyq.com
 0.0.0.0 yb-in-f95.1e100.net
+0.0.0.0 yb-in-f195.1e100.net
+0.0.0.0 yb-in-f156.1e100.net
 0.0.0.0 yllix.com
 0.0.0.0 yȯutube.com
 0.0.0.0 yesware.com
@@ -11463,6 +11487,8 @@
 0.0.0.0 zyqlfplqdgxu.com
 
 ! IPs
+0.0.0.0 99.84.168.24
+0.0.0.0 23.201.42.136
 0.0.0.0 40.138.0.13
 0.0.0.0 64.233.185.95
 0.0.0.0 172.217.3.226
@@ -11812,6 +11838,13 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 211.45.190.35.bc.googleusercontent.com
+0.0.0.0 229.52.241.35.bc.googleusercontent.com
+0.0.0.0 6.103.201.35.bc.googleusercontent.com
+0.0.0.0 53.26.241.35.bc.googleusercontent.com
+0.0.0.0 100.22.241.35.bc.googleusercontent.com
+0.0.0.0 40.189.202.35.bc.googleusercontent.com
+0.0.0.0 3.205.244.35.bc.googleusercontent.com
 0.0.0.0 344825410658-1hrj72o88dvpau57j8sdvhi6l01a8prg.apps.googleusercontent.com
 0.0.0.0 9i7swffxzi.execute-api.eu-central-1.amazonaws.com
 0.0.0.0 989612280692-ehkveuurkamcpkdhi1ecfnhke87kuau5.apps.googleusercontent.com
