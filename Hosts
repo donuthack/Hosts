@@ -806,6 +806,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 appsync-api.us-east-1.amazonaws.com
 0.0.0.0 a23-201-41-125.deploy.static.akamaitechnologies.com
 0.0.0.0 a184-29-92-214.deploy.static.akamaitechnologies.com
 0.0.0.0 a184-29-94-98.deploy.static.akamaitechnologies.com
@@ -8438,6 +8439,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pzgptftyy5bh7lbnk2ee5frsqm.appsync-api.us-east-1.amazonaws.com
 0.0.0.0 powerad.ai
 0.0.0.0 pingfore.qq.com
 0.0.0.0 perfdrive.com
@@ -10133,6 +10135,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tinymce.com
 0.0.0.0 track.sohu.com
 0.0.0.0 ty.captcha.qq.com
 0.0.0.0 tajs.qq.com
@@ -10811,6 +10814,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 w8ng8gn2c5.execute-api.us-east-1.amazonaws.com
 0.0.0.0 webseed.com
 0.0.0.0 whizzco.com
 0.0.0.0 wordtracker.com
@@ -15339,6 +15343,7 @@ www.sohu.com###main-news
 cgi.connect.qq.com/report
 ui.ptlogin2.qq.com/cgi-bin/report
 clients6.google.com/rpc
+google.com$domain=1stamender.com
 
 # Block tracking scripts, ads and add cosmetic filters
 /dnsdetect/
