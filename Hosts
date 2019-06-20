@@ -2943,6 +2943,9 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bfmio.com
+0.0.0.0 braun634.com
+0.0.0.0 bats.video.yahoo.com
 0.0.0.0 bugs.dojotoolkit.org
 0.0.0.0 buck.facebook.com
 0.0.0.0 bamboohr.com
@@ -3747,6 +3750,8 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 commercialvalue.org
+0.0.0.0 csp.yahoo.com
 0.0.0.0 cackle.me
 0.0.0.0 crsspxl.com
 0.0.0.0 conrep.com
@@ -5413,6 +5418,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 floratraffic.com
+0.0.0.0 fileice.us
 0.0.0.0 fengkongcloud.com
 0.0.0.0 findminecraft.com
 0.0.0.0 freeminecrafthost.com
@@ -5915,6 +5922,9 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 html5shim.googlecode.com
+0.0.0.0 home.reckintersupwas.info
+0.0.0.0 houchosi.net
 0.0.0.0 huatuospeed.weiyun.com
 0.0.0.0 hqq.tv
 0.0.0.0 hsforms.com
@@ -8121,6 +8131,7 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 newhacks.pro
 0.0.0.0 nachoanalytics.com
 0.0.0.0 stats.noblogs.org
 0.0.0.0 nprapps.org
@@ -8290,6 +8301,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 oukrocky.com
 0.0.0.0 octaneai.com
 0.0.0.0 omnisrc.com
 0.0.0.0 www.onclickclear.com
@@ -8439,6 +8451,8 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 polldaddy.com
+0.0.0.0 pushmejs.com
 0.0.0.0 pzgptftyy5bh7lbnk2ee5frsqm.appsync-api.us-east-1.amazonaws.com
 0.0.0.0 powerad.ai
 0.0.0.0 pingfore.qq.com
@@ -8852,6 +8866,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qwyzzghouu.com
 0.0.0.0 qchannel03.cn
 0.0.0.0 qlogo.cn
 0.0.0.0 qsurvey.mozilla.com
@@ -8919,6 +8934,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 reckintersupwas.info
 0.0.0.0 raygun.io
 0.0.0.0 revealbot.com
 0.0.0.0 repixel.co
@@ -9149,6 +9165,8 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 stazumik.net
+0.0.0.0 shouxaum.net
 0.0.0.0 server-99-84-168-29.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-169-124.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-168-46.ord52.r.cloudfront.net
@@ -10135,6 +10153,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 theersoa.net
 0.0.0.0 tinymce.com
 0.0.0.0 track.sohu.com
 0.0.0.0 ty.captcha.qq.com
@@ -10557,6 +10576,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 uptimecdn.com
 0.0.0.0 unbouncepages.com
 0.0.0.0 upeer.me
 0.0.0.0 unityads.us
@@ -11154,6 +11174,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yollamedia.com
 0.0.0.0 y0.cn
 0.0.0.0 ylqbiljjlyq.com
 0.0.0.0 yb-in-f95.1e100.net
@@ -11296,6 +11317,7 @@
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zeujqjoifd.com
 0.0.0.0 zdcommerce.io
 0.0.0.0 zononi.com
 0.0.0.0 zighzag.com
@@ -11842,6 +11864,16 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 12lib.org
+0.0.0.0 e6081b73afec581f.com
+0.0.0.0 e7393e33565ce805.com
+0.0.0.0 fd9523b31ff93b5c.com
+0.0.0.0 b60228e270e363f6.com
+0.0.0.0 7667bab1751ff777.com
+0.0.0.0 47f624b2e6c6072e.com
+0.0.0.0 564d28256cddaeba.com
+0.0.0.0 3585656d9351553f.com
+0.0.0.0 2d7bd9e6eb370143.com
 0.0.0.0 211.45.190.35.bc.googleusercontent.com
 0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 6.103.201.35.bc.googleusercontent.com
@@ -15344,8 +15376,12 @@ cgi.connect.qq.com/report
 ui.ptlogin2.qq.com/cgi-bin/report
 clients6.google.com/rpc
 google.com$domain=1stamender.com
+www.yahoo.com/_td_api/beacon
+www.yahoo.com/_td_api?_appletType=viewer
 
 # Block tracking scripts, ads and add cosmetic filters
+/td-ads-model-min.js
+/advertisement_0.0.18.js
 /dnsdetect/
 /getLiveRadioAdConfig
 /content/markets?zipCode
@@ -15651,6 +15687,7 @@ _Affiliate
 /api/stats/
 /sas/analytics
 /analytics/iframe.html
+/beacon/csp?
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
