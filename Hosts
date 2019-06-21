@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,613 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Monday, June 17, 2019
+! Last Updated on Thursday, June 20, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -5633,6 +5633,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 getadmiral.com
 0.0.0.0 gwylxzj.cn
 0.0.0.0 gma8il.com
 0.0.0.0 gridserver.com
