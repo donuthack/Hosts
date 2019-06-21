@@ -1,6 +1,9 @@
 # Title: Cybo's Hosts - Anti Verizon
 # Expires: 1 day
 
+0.0.0.0 www.verizondigitalmedia.com
+0.0.0.0 verizondigitalmedia.com
+0.0.0.0 uplynk.com
 0.0.0.0 verizonwireless.com
 0.0.0.0 www.verizonwireless.com
 0.0.0.0 verizon.com
