@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,613 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Thursday, June 20, 2019
+! Last Updated on Saturday, June 22, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -807,6 +807,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 app.viewdeos.com
 0.0.0.0 anon-stats.eff.org
 0.0.0.0 appsync-api.us-east-1.amazonaws.com
 0.0.0.0 a23-201-41-125.deploy.static.akamaitechnologies.com
@@ -3752,6 +3753,10 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.thisiswaldo.com
+0.0.0.0 cdn2.lockerdomecdn.com
+0.0.0.0 cdn.gotraffic.net
+0.0.0.0 cdn.vuukle.com
 0.0.0.0 commercialvalue.org
 0.0.0.0 csp.yahoo.com
 0.0.0.0 cackle.me
@@ -4546,6 +4551,7 @@
 0.0.0.0 dnsleak.net
 0.0.0.0 digitru.st
 0.0.0.0 d2p078bqz5urf7.cloudfront.net
+0.0.0.0 d1ev1rt26nhnwq.cloudfront.net
 0.0.0.0 d31g2isjy5r21f.cloudfront.net
 0.0.0.0 d3mwhxgzltpnyp.cloudfront.net
 0.0.0.0 d952cmcgwqsjf.cloudfront.net
@@ -5110,6 +5116,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 elite.qrzlaatf.xyz
 0.0.0.0 ec2-3-208-108-107.compute-1.amazonaws.com
 0.0.0.0 ec2-52-202-107-180.compute-1.amazonaws.com
 0.0.0.0 ec2-34-201-184-44.compute-1.amazonaws.com
@@ -5635,6 +5642,8 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gotraffic.net
+0.0.0.0 go1.viewdeos.com
 0.0.0.0 getadmiral.com
 0.0.0.0 gwylxzj.cn
 0.0.0.0 gma8il.com
@@ -7530,6 +7539,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 location.bloomberg.com
 0.0.0.0 localhost.ptlogin2.weiyun.com
 0.0.0.0 l.ooyala.com
 0.0.0.0 leaderapps.co
@@ -8454,6 +8464,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 personalization.bloomberg.com
 0.0.0.0 polyfill.io
 0.0.0.0 polldaddy.com
 0.0.0.0 pushmejs.com
@@ -9169,6 +9180,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 secure.polldaddy.com
 0.0.0.0 scroll.com
 0.0.0.0 stazumik.net
 0.0.0.0 shouxaum.net
@@ -10158,6 +10170,8 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 track.viewdeos.com
+0.0.0.0 track1.viewdeos.com
 0.0.0.0 theersoa.net
 0.0.0.0 tinymce.com
 0.0.0.0 track.sohu.com
@@ -10839,6 +10853,8 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 www.weblinks247.com
+0.0.0.0 weblinks247.com
 0.0.0.0 w8ng8gn2c5.execute-api.us-east-1.amazonaws.com
 0.0.0.0 webseed.com
 0.0.0.0 whizzco.com
@@ -15412,8 +15428,13 @@ www.online-hiddenobjectgames.com###KRKL
 adserver.pandora.com/haymaker/api/v1/serve/?
 www.pandora.com/api/v1/playlist/narrative
 chrome.google.com/webstore/ajax/logreferrerchain
+pluralist.com/wp-content/cache/wpfc-minified/llyk6y6s/avge.js
+player.viewdeos.com/script/6.1/aniview.js
+api.powr.com/*/player/*/player-impression?
+www.academia.org/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?
 
 # Block tracking scripts, ads and add cosmetic filters
+/meks-easy-ads-widget/
 /td-ads-model-min.js
 /advertisement_0.0.18.js
 /dnsdetect/
