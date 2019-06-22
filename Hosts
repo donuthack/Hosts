@@ -11,6 +11,7 @@
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
 @@||media-cdn.tripadvisor.com
+@@||www.pandora.com/web-client-assets/d_adWords.215f66574016bd015665.js
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -806,6 +807,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 anon-stats.eff.org
 0.0.0.0 appsync-api.us-east-1.amazonaws.com
 0.0.0.0 a23-201-41-125.deploy.static.akamaitechnologies.com
 0.0.0.0 a184-29-92-214.deploy.static.akamaitechnologies.com
@@ -8452,6 +8454,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 polyfill.io
 0.0.0.0 polldaddy.com
 0.0.0.0 pushmejs.com
 0.0.0.0 pzgptftyy5bh7lbnk2ee5frsqm.appsync-api.us-east-1.amazonaws.com
@@ -9166,6 +9169,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 scroll.com
 0.0.0.0 stazumik.net
 0.0.0.0 shouxaum.net
 0.0.0.0 server-99-84-168-29.ord52.r.cloudfront.net
@@ -15379,6 +15383,35 @@ clients6.google.com/rpc
 google.com$domain=1stamender.com
 www.yahoo.com/_td_api/beacon
 www.yahoo.com/_td_api?_appletType=viewer
+cdn.vox-cdn.com/packs/concert_ads*
+www.vox.com/services/user_context
+api2.fox.com/v2.0/checkadobeauthn?device_id
+twitter.com/i/promoted_content/log.json
+twitter.com/manifest.json
+www.ctpost.com###comments
+www.ctpost.com##.twelve-12.twelve-9.article-footer
+odb.org##.social-item-layout
+odb.org##footer.no-print > div:nth-of-type(1) > div:nth-of-type(2)
+www.download-anymovie.com###e9 > div
+www.downloads-anymovies.com###e12 > div
+www.downloads-anymovies.com###e12
+www.iwin.com###switch-systems-modal > .modal-dialog > .modal-content
+zone.msn.com###SuperBanner_div
+zone.msn.com##.superbanner
+www.myrealgames.com##.responsive_category_top_padding.mb-3.mt-4.mobile_ad_correct.adWords-bg.container-fluid > .p-1.container
+www.myrealgames.com##.responsive_category_top_padding.mb-3.mt-4.mobile_ad_correct.adWords-bg.container-fluid
+www.myrealgames.com##.responsive_category_bottom_padding.mb-3.mt-4.mobile_ad_correct.adWords-bg.container-fluid
+toomkygames.com##.AdSmain336x280
+||toomkygames.com/themes/site_themes/default_site/images/coastal-hill-hidden-objects-promo.jpg$image
+toomkygames.com##.HOpromoBanner
+toomkygames.com###promo_block
+www.online-hiddenobjectgames.com###leftwidget
+www.online-hiddenobjectgames.com###sidebar
+www.online-hiddenobjectgames.com###RKL
+www.online-hiddenobjectgames.com###KRKL
+adserver.pandora.com/haymaker/api/v1/serve/?
+www.pandora.com/api/v1/playlist/narrative
+chrome.google.com/webstore/ajax/logreferrerchain
 
 # Block tracking scripts, ads and add cosmetic filters
 /td-ads-model-min.js
@@ -15873,3 +15906,4 @@ _Affiliate
 ##[href="https://fuckadblock.*"]
 ##[href="https://noadblock.*"]
 ##[href="https://facebook.*/tr"]
+###promo_block
