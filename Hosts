@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,613 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Saturday, June 22, 2019
+! Last Updated on Sunday, June 23, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -807,6 +807,11 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 api.content-ad.net
+0.0.0.0 www.avantlink.com
+0.0.0.0 avantlink.com
+0.0.0.0 a.publir.com
+0.0.0.0 a.opmnstr.com
 0.0.0.0 app.viewdeos.com
 0.0.0.0 anon-stats.eff.org
 0.0.0.0 appsync-api.us-east-1.amazonaws.com
@@ -3753,6 +3758,11 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 crowdskout.com
+0.0.0.0 content-ad.net
+0.0.0.0 cdn.adglare.net
+0.0.0.0 connect.ongage.net
+0.0.0.0 c.rmbl.ws
 0.0.0.0 cdn.thisiswaldo.com
 0.0.0.0 cdn2.lockerdomecdn.com
 0.0.0.0 cdn.gotraffic.net
@@ -4550,7 +4560,12 @@
 0.0.0.0 db1k.com
 0.0.0.0 dnsleak.net
 0.0.0.0 digitru.st
+0.0.0.0 d15r06k2ko210l.cloudfront.net
 0.0.0.0 d2p078bqz5urf7.cloudfront.net
+0.0.0.0 d2cy1obokpvee9.cloudfront.net
+0.0.0.0 d2zah9y47r7bi2.cloudfront.net
+0.0.0.0 djmmlc8gcwtqv.cloudfront.net
+0.0.0.0 d2otzcfu7vqzws.cloudfront.net
 0.0.0.0 d1ev1rt26nhnwq.cloudfront.net
 0.0.0.0 d31g2isjy5r21f.cloudfront.net
 0.0.0.0 d3mwhxgzltpnyp.cloudfront.net
@@ -5116,6 +5131,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 evolok.net
 0.0.0.0 elite.qrzlaatf.xyz
 0.0.0.0 ec2-3-208-108-107.compute-1.amazonaws.com
 0.0.0.0 ec2-52-202-107-180.compute-1.amazonaws.com
@@ -5642,6 +5658,8 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 giantdigitalmarketing.com
+
 0.0.0.0 gotraffic.net
 0.0.0.0 go1.viewdeos.com
 0.0.0.0 getadmiral.com
@@ -7539,6 +7557,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lopsolutions.cdn.adglare.net
 0.0.0.0 location.bloomberg.com
 0.0.0.0 localhost.ptlogin2.weiyun.com
 0.0.0.0 l.ooyala.com
@@ -7735,6 +7754,8 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 moz.imgix.net
+0.0.0.0 moz.com
 0.0.0.0 mailtracker.hunter.io
 0.0.0.0 madgicx.com
 0.0.0.0 mspy.com
@@ -8314,6 +8335,10 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 ongage.net
+0.0.0.0 www.opinionstage.com
+0.0.0.0 opinionstage.com
+0.0.0.0 opmnstr.com
 0.0.0.0 oukrocky.com
 0.0.0.0 octaneai.com
 0.0.0.0 omnisrc.com
@@ -8464,6 +8489,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 publir.com
 0.0.0.0 personalization.bloomberg.com
 0.0.0.0 polyfill.io
 0.0.0.0 polldaddy.com
@@ -8949,6 +8975,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 reson8.com
 0.0.0.0 reckintersupwas.info
 0.0.0.0 raygun.io
 0.0.0.0 revealbot.com
@@ -9180,6 +9207,8 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 s.crowdskout.com
+0.0.0.0 sptus.evolok.net
 0.0.0.0 secure.polldaddy.com
 0.0.0.0 scroll.com
 0.0.0.0 stazumik.net
@@ -11151,6 +11180,8 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 www.xverify.com
+0.0.0.0 xverify.com
 0.0.0.0 xxx-tracker.com
 0.0.0.0 xdwan.cn
 0.0.0.0 xand.mixhits.com
@@ -11885,6 +11916,8 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 71e73428c98d2e64fd6b-596a7347bb8d75314ef5b080382defe2.ssl.cf2.rackcdn.com
+0.0.0.0 7676076fde29cb34e26d-759f611b127203e9f2a0021aa1b7da05.ssl.cf2.rackcdn.com
 0.0.0.0 12lib.org
 0.0.0.0 e6081b73afec581f.com
 0.0.0.0 e7393e33565ce805.com
@@ -15432,6 +15465,27 @@ pluralist.com/wp-content/cache/wpfc-minified/llyk6y6s/avge.js
 player.viewdeos.com/script/6.1/aniview.js
 api.powr.com/*/player/*/player-impression?
 www.academia.org/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?
+www.2ndvote.com###single-sticky
+www.altnewsmedia.net##.vc_row-flex.vc_row-o-content-middle.vc_row-o-equal-height.vc_row-has-fill.vc_custom_1548327691906.vc_row-fluid.wpb_row.vc_row
+www.altnewsmedia.net##.cli-bar-popup.cli-modal-content
+aclj.org##div:nth-of-type(8) > div
+americansforprosperity.org##.state-bar
+amgreatness.com###adtoniq-msgr-bar
+||amgreatness.com/wp-content/uploads/2018/01/LibertyAMG.jpg$image
+amgreatness.com##.slideInUp.animated.modal-popup.email-popup-preview
+amgreatness.com##.email-popup-preview-box-overlay
+||connect.ongage.net/list/forms_preview/?tk=338775516_6fd0cb370c707d58dd7809bf45a625907c06aaa7c272aeeb525b17331cab188b$subdocument
+www.americanlibertyreport.com###ac_383474 > .ac_header_title
+www.americanlibertyreport.com##.custom-html-widget.textwidget > .ad-divider-hr
+www.americanlibertyreport.com##div:nth-of-type(6)
+www.americanlibertyreport.com###ac_238506 > .ac_header_title
+www.americanlibertyreport.com##hr.ad-divider-hr:nth-of-type(2)
+www.americanlibertyreport.com##.row > hr.ad-divider-hr:nth-of-type(1)
+www.americanlibertyreport.com##.footer
+www.americanlibertyreport.com###main > div:nth-of-type(2)
+www.americanlibertyreport.com###main > hr.ad-divider-hr:nth-of-type(1)
+www.americanlibertyreport.com##.mpw-inline > div
+www.americanlibertyreport.com##.mpw-inline
 
 # Block tracking scripts, ads and add cosmetic filters
 /meks-easy-ads-widget/
@@ -15728,8 +15782,10 @@ _Affiliate
 /libs/adrum.js
 /visit.json
 /?ref=
+/cookie-law-info-public.css
 /img/grey.gif
 /audiencenetwork/token/v1/
+/AC_ad_*_*-*.png
 /html2canvas.min.js
 /ads/carbonads/
 /ads/carbonads/carbon-modified.js
