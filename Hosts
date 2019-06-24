@@ -4,9 +4,9 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Number Of Ad Services, Trackers, And Malware Blocked: 15,613 (uBlock)
+! Number Of Ad Services, Trackers, And Malware Blocked: 15,985 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Sunday, June 23, 2019
+! Last Updated on Monday, June 24, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -15580,6 +15580,8 @@ bestfollowers.in/assets/scripting.min.js
 www.minecrafthackedclients.com##div.section:nth-of-type(3)
 ||trck.me/*/banner.jpg$image
 www.daolsoft.com/css/screen.php
+echotrafficclub.com###meme_cookie_consent
+||wz.8286777.com/style/img/wxa.gif$image
 
 # Block tracking scripts, ads and add cosmetic filters
 /meks-easy-ads-widget/
@@ -16083,3 +16085,4 @@ _Affiliate
 ##[href="https://noadblock.*"]
 ##[href="https://facebook.*/tr"]
 ###promo_block
+###meme_cookie_consent
