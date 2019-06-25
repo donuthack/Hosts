@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 15,985 (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Monday, June 24, 2019
+! Last Updated on Tuesday, June 25, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -807,6 +807,14 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 adblock-data.s3.brave.com
+0.0.0.0 app.saygames.io
+0.0.0.0 aplvn.com
+0.0.0.0 api-30-0-0.twitter.com
+0.0.0.0 api-35-0-0.twitter.com
+0.0.0.0 api-40-0-0.twitter.com
+0.0.0.0 api-45-0-0.twitter.com
+0.0.0.0 api-2-0-0.twitter.com
 0.0.0.0 allinoneprofits.com
 0.0.0.0 affiliate-toolbox.net
 0.0.0.0 astrology-surf.com
@@ -3777,6 +3785,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cognac-prod.appspot.com
 0.0.0.0 clixsense.com
 0.0.0.0 copynpastecash.com
 0.0.0.0 cryptopros.biz
@@ -5162,6 +5171,10 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 ec2-54-82-252-176.compute-1.amazonaws.com
+0.0.0.0 ec2-18-213-193-71.compute-1.amazonaws.com
+0.0.0.0 ec2-35-181-1-76.eu-west-3.compute-1.amazonaws.com
+0.0.0.0 ec2-13-1224-239-3.ap-northeast-2.compute.amazonaws.com
 0.0.0.0 easyleadsandcash.com
 0.0.0.0 expertsecrets.com
 0.0.0.0 echotrafficclub.com
@@ -5477,6 +5490,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 footprints-pa.googleapis.com
+0.0.0.0 federatedml-pa.googleapis.com
 0.0.0.0 freesalesleads4u.com
 0.0.0.0 forfollow.net
 0.0.0.0 freefollower.eu
@@ -5696,6 +5711,9 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gcp.api.snapchat.com
+0.0.0.0 gtq.sct.sc-prod.net
+0.0.0.0 growth-pa.googleapis.com
 0.0.0.0 gdpr500.com
 0.0.0.0 gvosupport.com
 0.0.0.0 gorillamarketingpro.com
@@ -7604,6 +7622,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 laptop-updates.brave.com
 0.0.0.0 leadsleap.com
 0.0.0.0 ladsdown.com
 0.0.0.0 lookips.com
@@ -7804,6 +7823,8 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mdh-pa.googleapis.com
+0.0.0.0 ms.aplvn.com
 0.0.0.0 manychat.com
 0.0.0.0 mzbcdn.net
 0.0.0.0 my-trafficempire.com
@@ -9038,6 +9059,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 remarketstats.com
 0.0.0.0 reson8.com
 0.0.0.0 reckintersupwas.info
@@ -9271,6 +9293,10 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 saygames.io
+0.0.0.0 saygames.sfo2.cdn.digitaloceanspaces.com
+0.0.0.0 scm.sc-jpl.com
+0.0.0.0 sc-jpl.com
 0.0.0.0 simpleautomatedmarketingsystem.com
 0.0.0.0 surftocashformula.com
 0.0.0.0 surf-to-earn.com
@@ -10271,6 +10297,11 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 telephonyspamprotect-pa.googleapis.com
+0.0.0.0 tell.yumimobi.com
+0.0.0.0 tracker1.yumimobi.com
+0.0.0.0 tracker2.yumimobi.com
+0.0.0.0 tch451940.tch.quora.com
 0.0.0.0 trafficadbar.com
 0.0.0.0 trendmails.com
 0.0.0.0 trks.us
@@ -10707,6 +10738,9 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 us-east1-aws.api.snapchat.com
+0.0.0.0 us-west1-aws.api.snapchat.com
+0.0.0.0 us-central1-aws.api.snapchat.com
 0.0.0.0 ultimatelicense.com
 0.0.0.0 uptimecdn.com
 0.0.0.0 unbouncepages.com
@@ -11313,6 +11347,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yumimobi.com
 0.0.0.0 yollamedia.com
 0.0.0.0 y0.cn
 0.0.0.0 ylqbiljjlyq.com
@@ -12004,6 +12039,7 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 *-pa.googleapis.com
 0.0.0.0 12secondcommute.com
 0.0.0.0 8286777.com
 0.0.0.0 71e73428c98d2e64fd6b-596a7347bb8d75314ef5b080382defe2.ssl.cf2.rackcdn.com
@@ -15900,6 +15936,7 @@ _Affiliate
 /freefollower/
 /freefollowers/
 /forfollow/
+/google-analytics-premium/
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
