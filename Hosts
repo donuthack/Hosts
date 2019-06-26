@@ -10297,6 +10297,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tr.rbxcdn.com
 0.0.0.0 telephonyspamprotect-pa.googleapis.com
 0.0.0.0 tell.yumimobi.com
 0.0.0.0 tracker1.yumimobi.com
@@ -15618,6 +15619,13 @@ www.minecrafthackedclients.com##div.section:nth-of-type(3)
 www.daolsoft.com/css/screen.php
 echotrafficclub.com###meme_cookie_consent
 ||wz.8286777.com/style/img/wxa.gif$image
+s3.amazonaws.com/ssl-intgr-net/prebid/74.js
+www.roblox.com/user-sponsorship/1
+www.roblox.com/user-sponsorship/2
+ecsv2.roblox.com/www/e.png?
+myownconference.com##.bg-co-ag.co-ag.container-fluid > .row
+www.roblox.com##li.sponsored-game.game-card.list-item:nth-of-type(*) > .game-card-link.game-card-container
+www.roblox.com##li.sponsored-game.game-card.list-item:nth-of-type(*)
 
 # Block tracking scripts, ads and add cosmetic filters
 /meks-easy-ads-widget/
