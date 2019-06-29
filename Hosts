@@ -4,7 +4,7 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Number Of Ad Services, Trackers, And Malware Blocked: 15,985 (uBlock)
+! Number Of Ad Services, Trackers, And Malware Blocked: 16K+ (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
 ! Last Updated on Tuesday, June 25, 2019
 
@@ -7659,6 +7659,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lgbttech.org
 0.0.0.0 listbonus.com
 0.0.0.0 listjoe.com
 0.0.0.0 legacyteamcoop.com
@@ -15745,6 +15746,7 @@ www.govtrack.us##.in.fade.modal-backdrop
 www.amny.com##div.promo.span2.mod:nth-of-type(29)
 abcnews.go.com##.abcn-alert-insert
 www.vice.com##.p-b-6--xs.p-t-6--xs.p-6--md.p-4--xs.injected-newsletter
+twitter.com/i/csp_report?
 
 # Block tracking scripts, ads and add cosmetic filters
 /storefront/track?
