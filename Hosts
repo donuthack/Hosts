@@ -11,7 +11,8 @@
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
 @@||media-cdn.tripadvisor.com
-@@||www.pandora.com/web-client-assets/d_adWords.215f66574016bd015665.js
+@@||pandora.com/web-client-assets/
+@@||pandora.com/api/
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -807,6 +808,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 au-live.inside-graph.com
+0.0.0.0 api.bluecore.com
 0.0.0.0 api.binomo.com
 0.0.0.0 affiliatefunnel.com
 0.0.0.0 api.rvere.com
@@ -2973,6 +2976,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bluecore.com
 0.0.0.0 bannergoldmine.com
 0.0.0.0 binstats.com
 0.0.0.0 binomo.com
@@ -6039,6 +6043,7 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 highspeedbackbone.net
 0.0.0.0 hit2hit.com
 0.0.0.0 happyfoxchat.com
 0.0.0.0 harmonymails.com
@@ -6218,6 +6223,8 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 invitebox.com
+0.0.0.0 inside-graph.com
 0.0.0.0 instantbannerads.com
 0.0.0.0 imloop.com
 0.0.0.0 images01.iqoption.com
@@ -7865,6 +7872,10 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 ml-attr.com
+0.0.0.0 mintigollg.appspot.com
+0.0.0.0 metadata.io
+0.0.0.0 mintigo.com
 0.0.0.0 myvipcontacts.com
 0.0.0.0 mastersafelistblaster.com
 0.0.0.0 mdh-pa.googleapis.com
@@ -8614,6 +8625,9 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 platformapi.metadata.io
+0.0.0.0 pixel.mintigo.com
+0.0.0.0 promotions.newegg.com
 0.0.0.0 perfectmoney.is
 0.0.0.0 payeer.com
 0.0.0.0 plus500.com
@@ -9042,6 +9056,8 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 quriobot.com
+0.0.0.0 qoe-1.yottaa.net
 0.0.0.0 qwyzzghouu.com
 0.0.0.0 qchannel03.cn
 0.0.0.0 qlogo.cn
@@ -9348,6 +9364,10 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 static.quriobot.com
+0.0.0.0 staples-sparx.com
+0.0.0.0 stp-tracker.inside-graph.com
+0.0.0.0 s.ml-attr.com
 0.0.0.0 soaring4traffic.com
 0.0.0.0 static1.freebitco.in
 0.0.0.0 stats.coinpayments.net
@@ -10367,6 +10387,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 triggeredmail.appspot.com
 0.0.0.0 transithits.com
 0.0.0.0 traffichogadvertising.com
 0.0.0.0 themoneylistmailer.com
@@ -10820,6 +10841,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 ui.staples-sparx.com
 0.0.0.0 us-central1-global-justice-178103.cloudfunctions.net
 0.0.0.0 us-east1-aws.api.snapchat.com
 0.0.0.0 us-west1-aws.api.snapchat.com
@@ -15747,8 +15769,13 @@ www.amny.com##div.promo.span2.mod:nth-of-type(29)
 abcnews.go.com##.abcn-alert-insert
 www.vice.com##.p-b-6--xs.p-t-6--xs.p-6--md.p-4--xs.injected-newsletter
 twitter.com/i/csp_report?
+www.newegg.com##.has-side-banner.row > .row-side
+www.newegg.com##.swiper-slide-active.swiper-slide > .category-banner-bg
+www.newegg.com###heroModule
+www.paypalobjects.com/muse/muse.js
 
 # Block tracking scripts, ads and add cosmetic filters
+/pixel-clear.gif?
 /storefront/track?
 /meks-easy-ads-widget/
 /td-ads-model-min.js
