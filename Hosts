@@ -807,6 +807,9 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 api.binomo.com
+0.0.0.0 affiliatefunnel.com
+0.0.0.0 api.rvere.com
 0.0.0.0 adblock-data.s3.brave.com
 0.0.0.0 app.saygames.io
 0.0.0.0 aplvn.com
@@ -2970,6 +2973,10 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bannergoldmine.com
+0.0.0.0 binstats.com
+0.0.0.0 binomo.com
+0.0.0.0 bcloudhost.com
 0.0.0.0 brandmetrics.com
 0.0.0.0 bannerhits.info
 0.0.0.0 brandmetool.com
@@ -3786,6 +3793,14 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 counters.freewebs.com
+0.0.0.0 cointopay.freshdesk.com
+0.0.0.0 cdn.plus500.com
+0.0.0.0 cdnpub.info
+0.0.0.0 cryptobrowser.space
+0.0.0.0 cdn.cryptobrowser.space
+0.0.0.0 csstatic.com
+0.0.0.0 c.happyfoxchat.com
 0.0.0.0 cdn.brandmetrics.com
 0.0.0.0 cognac-prod.appspot.com
 0.0.0.0 clixsense.com
@@ -4595,6 +4610,8 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 donkeymails.com
+0.0.0.0 dragonsurf.com
 0.0.0.0 directus.libertycdn.com
 0.0.0.0 dash.trck.me
 0.0.0.0 db1k.com
@@ -4605,6 +4622,7 @@
 0.0.0.0 d2cy1obokpvee9.cloudfront.net
 0.0.0.0 d2zah9y47r7bi2.cloudfront.net
 0.0.0.0 d1nmxiiewlx627.cloudfront.net
+0.0.0.0 d1l7z5ofrj6ab8.cloudfront.net
 0.0.0.0 djmmlc8gcwtqv.cloudfront.net
 0.0.0.0 dna8twue3dlxq.cloudfront.net
 0.0.0.0 d2otzcfu7vqzws.cloudfront.net
@@ -5173,6 +5191,8 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 europeansafelist.com
+0.0.0.0 ezwealth4life.com
 0.0.0.0 ec2-54-82-252-176.compute-1.amazonaws.com
 0.0.0.0 ec2-18-213-193-71.compute-1.amazonaws.com
 0.0.0.0 ec2-35-181-1-76.eu-west-3.compute-1.amazonaws.com
@@ -5492,6 +5512,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 freebitco.in
+0.0.0.0 f7daf7adjkbc777.com
 0.0.0.0 footprints-pa.googleapis.com
 0.0.0.0 federatedml-pa.googleapis.com
 0.0.0.0 freesalesleads4u.com
@@ -5713,6 +5735,9 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gsolos.com
+0.0.0.0 giganticsolos.com
+0.0.0.0 ganon.yahoo.com
 0.0.0.0 gcp.api.snapchat.com
 0.0.0.0 gtq.sct.sc-prod.net
 0.0.0.0 growth-pa.googleapis.com
@@ -6014,6 +6039,8 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hit2hit.com
+0.0.0.0 happyfoxchat.com
 0.0.0.0 harmonymails.com
 0.0.0.0 html5shim.googlecode.com
 0.0.0.0 home.reckintersupwas.info
@@ -6191,6 +6218,11 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 instantbannerads.com
+0.0.0.0 imloop.com
+0.0.0.0 images01.iqoption.com
+0.0.0.0 ilovehits.com
+0.0.0.0 is.gd
 0.0.0.0 instapage.com
 0.0.0.0 infinitytrafficboost.com
 0.0.0.0 instantleadsandincome.com
@@ -6781,6 +6813,9 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jumbosolos.com
+0.0.0.0 jollow.com
+0.0.0.0 js.passport.qihucdn.com
 0.0.0.0 js.sohu.com
 0.0.0.0 jwpltx.com
 0.0.0.0 join.octaneai.com
@@ -7624,6 +7659,10 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 listbonus.com
+0.0.0.0 listjoe.com
+0.0.0.0 legacyteamcoop.com
+0.0.0.0 legacyhits.com
 0.0.0.0 laptop-updates.brave.com
 0.0.0.0 leadsleap.com
 0.0.0.0 ladsdown.com
@@ -7825,6 +7864,8 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 myvipcontacts.com
+0.0.0.0 mastersafelistblaster.com
 0.0.0.0 mdh-pa.googleapis.com
 0.0.0.0 ms.aplvn.com
 0.0.0.0 manychat.com
@@ -8243,6 +8284,8 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 ninjasurf.net
+0.0.0.0 netease.com
 0.0.0.0 www.nowlifestyle.com
 0.0.0.0 nowlifestyle.com
 0.0.0.0 newhacks.pro
@@ -8570,6 +8613,11 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 perfectmoney.is
+0.0.0.0 payeer.com
+0.0.0.0 plus500.com
+0.0.0.0 profitclicking.com
+0.0.0.0 penetrateprofit.com
 0.0.0.0 perpetual-income-club.biz
 0.0.0.0 plstraining.com
 0.0.0.0 pricelesspossibilities.com
@@ -9061,6 +9109,10 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rocket-mailz.com
+0.0.0.0 referralfrenzy.com
+0.0.0.0 rapiddownline.com
+0.0.0.0 redstagmailer.com
 0.0.0.0 rubick.gameanalytics.com
 0.0.0.0 remarketstats.com
 0.0.0.0 reson8.com
@@ -9295,6 +9347,21 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 soaring4traffic.com
+0.0.0.0 static1.freebitco.in
+0.0.0.0 stats.coinpayments.net
+0.0.0.0 state-of-the-art-mailer.com
+0.0.0.0 stats.extsrv.com
+0.0.0.0 serv.markets.com
+0.0.0.0 static.cdnpub.info
+0.0.0.0 socialsurf4u.com
+0.0.0.0 sevendollarclick.com
+0.0.0.0 socialadsurf.com
+0.0.0.0 startxchange.com
+0.0.0.0 static.profitclicking.com
+0.0.0.0 sfippa.com
+0.0.0.0 sfimg.com
+0.0.0.0 st.top100.ru
 0.0.0.0 saygames.io
 0.0.0.0 saygames.sfo2.cdn.digitaloceanspaces.com
 0.0.0.0 scm.sc-jpl.com
@@ -10299,6 +10366,17 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 transithits.com
+0.0.0.0 traffichogadvertising.com
+0.0.0.0 themoneylistmailer.com
+0.0.0.0 trackit.link
+0.0.0.0 trafficwave.net
+0.0.0.0 truckloadofads.com
+0.0.0.0 thumbvu.com
+0.0.0.0 tezzers.com
+0.0.0.0 tas.ezwealth4life.com
+0.0.0.0 tiyu2019.com
+0.0.0.0 teprofits.com
 0.0.0.0 tr.rbxcdn.com
 0.0.0.0 telephonyspamprotect-pa.googleapis.com
 0.0.0.0 tell.yumimobi.com
@@ -10741,6 +10819,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 us-central1-global-justice-178103.cloudfunctions.net
 0.0.0.0 us-east1-aws.api.snapchat.com
 0.0.0.0 us-west1-aws.api.snapchat.com
 0.0.0.0 us-central1-aws.api.snapchat.com
@@ -10875,6 +10954,9 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vtrk.me
+0.0.0.0 vice-staging-web-statics-cdn.viceops.net
+0.0.0.0 v.happyfoxchat.com
 0.0.0.0 vip052.ssl.hwcdn.net
 0.0.0.0 vod-server.wix.com
 0.0.0.0 viafoura.co
@@ -11003,6 +11085,8 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wildhogmailer.com
+0.0.0.0 widget.happyfoxchat.com
 0.0.0.0 wz.8286777.com
 0.0.0.0 widget.supercounters.com
 0.0.0.0 www.weblinks247.com
@@ -11350,6 +11434,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yb.163yun.com
 0.0.0.0 yumimobi.com
 0.0.0.0 yollamedia.com
 0.0.0.0 y0.cn
@@ -11494,6 +11579,7 @@
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zubeezone.com
 0.0.0.0 zeekrewards.com
 0.0.0.0 zeujqjoifd.com
 0.0.0.0 zdcommerce.io
@@ -12042,6 +12128,12 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 2prosperu.webs.com
+0.0.0.0 4u2explore.com
+0.0.0.0 7dollarads.com
+0.0.0.0 163yun.com
+0.0.0.0 126.net
+0.0.0.0 127.net
 0.0.0.0 *-pa.googleapis.com
 0.0.0.0 12secondcommute.com
 0.0.0.0 8286777.com
@@ -15629,8 +15721,33 @@ myownconference.com##.bg-co-ag.co-ag.container-fluid > .row
 www.roblox.com##li.sponsored-game.game-card.list-item:nth-of-type(*) > .game-card-link.game-card-container
 www.roblox.com##li.sponsored-game.game-card.list-item:nth-of-type(*)
 dan.me.uk/torlist
+v.shopify.com/storefront/page?
+v.shopify.com/storefront/track?
+cdn.youtooz.com/social-proof.json
+cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js
+www.thedailybeast.com##section.Row:nth-of-type(6) > section.Card:nth-of-type(1)
+www.thedailybeast.com##.HomePage__two-columns-wrapper > section.Row:nth-of-type(4) > section.Card:nth-of-type(1)
+www.thedailybeast.com##section.Row:nth-of-type(10) > section.Card:nth-of-type(1)
+www.dailywire.com##.mb-4-ns.mt--4-ns.mb-3.mt--3.ta-c.py-1.bg-gray-light
+www.breitbart.com###cin_poll
+www.amny.com###big > .span2
+www.csmonitor.com###cookie-message
+www.csmonitor.com##.ezn-homepage_newsletter_block.ezc-csm_html_block > section
+www.christianitytoday.com##.u-cf.header-content
+www.cjnews.com##.open.overlay
+www1.cbn.com##.poll-cover
+www1.cbn.com###poll-block
+www.govtrack.us###fundraise_modal > .modal-lg.modal-dialog > .modal-content > .modal-body
+www.govtrack.us###fundraise_modal_title
+www.govtrack.us###fundraise_modal > .modal-lg.modal-dialog > .modal-content > .modal-header
+www.govtrack.us###fundraise_modal
+www.govtrack.us##.in.fade.modal-backdrop
+www.amny.com##div.promo.span2.mod:nth-of-type(29)
+abcnews.go.com##.abcn-alert-insert
+www.vice.com##.p-b-6--xs.p-t-6--xs.p-6--md.p-4--xs.injected-newsletter
 
 # Block tracking scripts, ads and add cosmetic filters
+/storefront/track?
 /meks-easy-ads-widget/
 /td-ads-model-min.js
 /advertisement_0.0.18.js
