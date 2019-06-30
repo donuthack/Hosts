@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 16K+ (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Tuesday, June 25, 2019
+! Last Updated on Sunday, June 30, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -808,6 +808,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 adestra.com
 0.0.0.0 au-live.inside-graph.com
 0.0.0.0 api.bluecore.com
 0.0.0.0 api.binomo.com
@@ -5516,6 +5517,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 future-publishing.msgfocus.com
 0.0.0.0 freebitco.in
 0.0.0.0 f7daf7adjkbc777.com
 0.0.0.0 footprints-pa.googleapis.com
@@ -7872,6 +7874,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 msgfocus.com
 0.0.0.0 ml-attr.com
 0.0.0.0 mintigollg.appspot.com
 0.0.0.0 metadata.io
@@ -10387,6 +10390,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 targetemsecure.blob.core.windows.net
 0.0.0.0 triggeredmail.appspot.com
 0.0.0.0 transithits.com
 0.0.0.0 traffichogadvertising.com
@@ -10977,6 +10981,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 videos-a.jwpsrv.com
 0.0.0.0 vtrk.me
 0.0.0.0 vice-staging-web-statics-cdn.viceops.net
 0.0.0.0 v.happyfoxchat.com
@@ -15773,6 +15778,9 @@ www.newegg.com##.has-side-banner.row > .row-side
 www.newegg.com##.swiper-slide-active.swiper-slide > .category-banner-bg
 www.newegg.com###heroModule
 www.paypalobjects.com/muse/muse.js
+www.staples.com##.seoControl__seoContainer
+||shortpixel.com/img/notes-sp.png$image
+shortpixel.com###shortpixel-hs-tools
 
 # Block tracking scripts, ads and add cosmetic filters
 /pixel-clear.gif?
@@ -16095,6 +16103,7 @@ _Affiliate
 /forfollow/
 /google-analytics-premium/
 /_/items/newswars_ads
+/tracker?domain
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
