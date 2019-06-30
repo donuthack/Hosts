@@ -2977,6 +2977,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bronto.com
 0.0.0.0 bluecore.com
 0.0.0.0 bannergoldmine.com
 0.0.0.0 binstats.com
@@ -3798,6 +3799,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.inspectlet.com
 0.0.0.0 counters.freewebs.com
 0.0.0.0 cointopay.freshdesk.com
 0.0.0.0 cdn.plus500.com
@@ -5741,6 +5743,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 groupdev.wufoo.com
 0.0.0.0 gsolos.com
 0.0.0.0 giganticsolos.com
 0.0.0.0 ganon.yahoo.com
@@ -6225,6 +6228,8 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 inspectlet.io
+0.0.0.0 inspectlet.com
 0.0.0.0 invitebox.com
 0.0.0.0 inside-graph.com
 0.0.0.0 instantbannerads.com
@@ -6822,6 +6827,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 js.bronto.com
 0.0.0.0 jumbosolos.com
 0.0.0.0 jollow.com
 0.0.0.0 js.passport.qihucdn.com
@@ -9367,6 +9373,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 snip.bronto.com
 0.0.0.0 static.quriobot.com
 0.0.0.0 staples-sparx.com
 0.0.0.0 stp-tracker.inside-graph.com
@@ -11113,6 +11120,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wufoo.com
 0.0.0.0 wildhogmailer.com
 0.0.0.0 widget.happyfoxchat.com
 0.0.0.0 wz.8286777.com
