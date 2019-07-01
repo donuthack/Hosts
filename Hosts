@@ -13,6 +13,7 @@
 @@||media-cdn.tripadvisor.com
 @@||pandora.com/web-client-assets/
 @@||pandora.com/api/
+@@||iheart.com
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -808,6 +809,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 adspsp.com
 0.0.0.0 adestra.com
 0.0.0.0 au-live.inside-graph.com
 0.0.0.0 api.bluecore.com
@@ -3799,6 +3801,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 c.lytics.io
 0.0.0.0 cdn.inspectlet.com
 0.0.0.0 counters.freewebs.com
 0.0.0.0 cointopay.freshdesk.com
@@ -6699,7 +6702,6 @@
 0.0.0.0 www.insnw.net
 0.0.0.0 instartlogic.com
 0.0.0.0 www.instartlogic.com
-0.0.0.0 i0.wp.com
 0.0.0.0 info.a7.org
 0.0.0.0 img1.126.net
 0.0.0.0 intranet.traffic.club
@@ -7674,6 +7676,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lytics.io
 0.0.0.0 lgbttech.org
 0.0.0.0 listbonus.com
 0.0.0.0 listjoe.com
@@ -15789,6 +15792,8 @@ www.paypalobjects.com/muse/muse.js
 www.staples.com##.seoControl__seoContainer
 ||shortpixel.com/img/notes-sp.png$image
 shortpixel.com###shortpixel-hs-tools
+healthline.com/scripts/advertising.js
+web-static.pages.iheart.com/jw-player/blank.mp4
 
 # Block tracking scripts, ads and add cosmetic filters
 /pixel-clear.gif?
