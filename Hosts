@@ -173,6 +173,7 @@
 0.0.0.0 com-fasting.live
 
 ! Apple
+0.0.0.0 se-edge.itunes.apple.com
 0.0.0.0 stats.gc.apple.com
 0.0.0.0 advertising.apple.com
 0.0.0.0 autolinkmaker.itunes.apple.com
@@ -809,6 +810,9 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 album-art-storage-us.s3.amazonaws.com
+0.0.0.0 accounts.doubleclick.net
+0.0.0.0 api.mixpanel.com
 0.0.0.0 adspsp.com
 0.0.0.0 adestra.com
 0.0.0.0 au-live.inside-graph.com
@@ -4554,6 +4558,7 @@
 0.0.0.0 collector.githubapp.com
 0.0.0.0 clickability.com
 0.0.0.0 cdn1.inner-active.mobi
+0.0.0.0 cdn2.inner-active.mobi
 0.0.0.0 cdn.mdotm.com
 0.0.0.0 coconuts.boy.jp
 0.0.0.0 cdn.ajillionmax.com
@@ -6231,6 +6236,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 inner-active.mobi
 0.0.0.0 inspectlet.io
 0.0.0.0 inspectlet.com
 0.0.0.0 invitebox.com
@@ -8637,6 +8643,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 plbslog.umeng.com
 0.0.0.0 platformapi.metadata.io
 0.0.0.0 pixel.mintigo.com
 0.0.0.0 promotions.newegg.com
@@ -10855,6 +10862,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 ulogs.umeng.com
 0.0.0.0 ui.staples-sparx.com
 0.0.0.0 us-central1-global-justice-178103.cloudfunctions.net
 0.0.0.0 us-east1-aws.api.snapchat.com
@@ -12167,6 +12175,7 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 268mhmtxhj.execute-api.us-east-1.amazonaws.com
 0.0.0.0 2prosperu.webs.com
 0.0.0.0 4u2explore.com
 0.0.0.0 7dollarads.com
