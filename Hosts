@@ -6,10 +6,11 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 16K+ (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Sunday, June 30, 2019
+! Last Updated on Thursday, July 4, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
+@@||google.com/recaptcha/api.js
 @@||media-cdn.tripadvisor.com
 @@||pandora.com/web-client-assets/
 @@||pandora.com/api/
@@ -173,6 +174,11 @@
 0.0.0.0 com-fasting.live
 
 ! Apple
+0.0.0.0 sf-api-token-service.itunes.apple.com
+0.0.0.0 tr.iadsdk.apple.com
+0.0.0.0 cs.iadsdk.apple.com
+0.0.0.0 ca.iadsdk.apple.com
+0.0.0.0 ocsp.apple.com
 0.0.0.0 se-edge.itunes.apple.com
 0.0.0.0 stats.gc.apple.com
 0.0.0.0 advertising.apple.com
@@ -810,6 +816,61 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 ads.heyzap.com
+0.0.0.0 a.blueserving.com
+0.0.0.0 app.vietad.vn
+0.0.0.0 app.adsota.com
+0.0.0.0 ads.appota.com
+0.0.0.0 adsota.com
+0.0.0.0 ads.viber.com
+0.0.0.0 ads-d.viber.com
+0.0.0.0 ads.aws.viber.com
+0.0.0.0 ads.zdn.vn
+0.0.0.0 adtima-media.zadn.vn
+0.0.0.0 adtima-media-td.zadn.vn
+0.0.0.0 adtima-static.zadn.vn
+0.0.0.0 api.sdk.zadn.vn
+0.0.0.0 ads.zaloapp.com
+0.0.0.0 ad.zing.vn
+0.0.0.0 ad.ants.vn
+0.0.0.0 ads.ants.vn
+0.0.0.0 ants.vn
+0.0.0.0 ambientplatform.vn
+0.0.0.0 ad.lavanetwork.net
+0.0.0.0 admin.lavanetwork.net
+0.0.0.0 ad1.lavanetwork.net
+0.0.0.0 ads-target.coccoc.com
+0.0.0.0 analytics.novanet.vn
+0.0.0.0 ads.novanet.vn
+0.0.0.0 admin.novanet.vn
+0.0.0.0 admicro1.vcmedia.vn
+0.0.0.0 admicro2.vcmedia.vn
+0.0.0.0 admicro6.vcmedia.vn
+0.0.0.0 ads.hosting.vcmedia.vn
+0.0.0.0 admicro.vcmedia.com
+0.0.0.0 admarket.admicro.vn
+0.0.0.0 admatic.admicro.vn
+0.0.0.0 admicro.vn
+0.0.0.0 adnetwork.admicro.vn
+0.0.0.0 adtimes.admicro.vn
+0.0.0.0 adx.admicro.vn
+0.0.0.0 afp.admicro.vn
+0.0.0.0 admail.admicro.vn
+0.0.0.0 adi.admicro.vn
+0.0.0.0 admicro.vn
+0.0.0.0 admin.iad.eclick.vn
+0.0.0.0 ads-twitter.com
+0.0.0.0 advice-ads.s3.amazonaws.com
+0.0.0.0 adzerk.s3.amazonaws.com
+0.0.0.0 adtago.s3.amazonaws.com
+0.0.0.0 adagiobanner.s3.amazonaws.com
+0.0.0.0 analytics.atdmt.com
+0.0.0.0 acs.56.com
+0.0.0.0 acs.agent.56.com
+0.0.0.0 acs.agent.v-56.com
+0.0.0.0 api.mobilepicture.com
+0.0.0.0 ac.duckduckgo.com
+0.0.0.0 a.postrelease.com
 0.0.0.0 album-art-storage-us.s3.amazonaws.com
 0.0.0.0 accounts.doubleclick.net
 0.0.0.0 api.mixpanel.com
@@ -2983,6 +3044,16 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 b.blueserving.com
+0.0.0.0 blog.adsota.com
+0.0.0.0 babe.ants.vn
+0.0.0.0 blog.ants.vn
+0.0.0.0 banners-gallery.coccoc.com
+0.0.0.0 banners.admicro.vn
+0.0.0.0 beta.admicro.vn
+0.0.0.0 boxapp.admicro.vn
+0.0.0.0 backtrace.io
+0.0.0.0 bea4.cnn.com
 0.0.0.0 bronto.com
 0.0.0.0 bluecore.com
 0.0.0.0 bannergoldmine.com
@@ -3805,6 +3876,25 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 c.blueserving.com
+0.0.0.0 crm.ants.vn
+0.0.0.0 click.m.ambientplatform.vn
+0.0.0.0 cp.polyad.net
+0.0.0.0 core.polyad.net
+0.0.0.0 catalog.qc.coccoc.com
+0.0.0.0 cdn.comedia.coccoc.com
+0.0.0.0 cdn.qc.coccoc.com
+0.0.0.0 cdn-qc.coccoc.com
+0.0.0.0 context.qc.coccoc.com
+0.0.0.0 cp.qc.coccoc.com
+0.0.0.0 cp.novanet.vn
+0.0.0.0 conv.adnetwork.vn
+0.0.0.0 c.logging.admicro.vn
+0.0.0.0 code.admicro.vn
+0.0.0.0 cdn-eb.syndication.twitter.com
+0.0.0.0 cdn.syndication.twitter.com
+0.0.0.0 cdn.installationsafe.net.s3.amazonaws.com
+0.0.0.0 campaign-tapad.s3.amazonaws.com
 0.0.0.0 c.lytics.io
 0.0.0.0 cdn.inspectlet.com
 0.0.0.0 counters.freewebs.com
@@ -4625,6 +4715,26 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dsp.blueserving.com
+0.0.0.0 d.blueserving.com
+0.0.0.0 d.ants.vn
+0.0.0.0 dsp-d.ants.vn
+0.0.0.0 delivery.m.ambientplatform.vn
+0.0.0.0 ds.polyad.net
+0.0.0.0 delivery.lavanetwork.net
+0.0.0.0 delivery1.lavanetwork.net
+0.0.0.0 data.lavanetwork.net
+0.0.0.0 display.qc.coccoc.com
+0.0.0.0 delivery.adnetwork.vn
+0.0.0.0 demo.admicro.vn
+0.0.0.0 demo-adopt.admicro.vn
+0.0.0.0 dev.email-analytics.admicro.vn
+0.0.0.0 dl.logging.admicro.vn
+0.0.0.0 dsprtb.logging.admicro.vn
+0.0.0.0 dt.eclick.vn
+0.0.0.0 dmp.eclick.vn
+0.0.0.0 digital-ads.s3.amazonaws.com
+0.0.0.0 dynamic.12306.cn
 0.0.0.0 donkeymails.com
 0.0.0.0 dragonsurf.com
 0.0.0.0 directus.libertycdn.com
@@ -5206,6 +5316,14 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 eqx.smartadserver.com
+0.0.0.0 ea.logging.admicro.vn
+0.0.0.0 e.eclick.vn
+0.0.0.0 emarketing.eclick.vn
+0.0.0.0 eclick.vn
+0.0.0.0 exitsplash.s3.amazonaws.com
+0.0.0.0 ecommstats.s3.amazonaws.com
+0.0.0.0 entrecard.s3.amazonaws.com
 0.0.0.0 europeansafelist.com
 0.0.0.0 ezwealth4life.com
 0.0.0.0 ec2-54-82-252-176.compute-1.amazonaws.com
@@ -5527,6 +5645,10 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 f.novanet.vn
+0.0.0.0 f.admicro.vn
+0.0.0.0 fingerprint.admicro.vn
+0.0.0.0 foofle.com
 0.0.0.0 future-publishing.msgfocus.com
 0.0.0.0 freebitco.in
 0.0.0.0 f7daf7adjkbc777.com
@@ -5751,6 +5873,10 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gallery.smartadserver.com
+0.0.0.0 gallery.adtima.vn
+0.0.0.0 goodsp.admicro.vn
+0.0.0.0 g.eclick.vn
 0.0.0.0 groupdev.wufoo.com
 0.0.0.0 gsolos.com
 0.0.0.0 giganticsolos.com
@@ -6056,6 +6182,10 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 html.polyad.net
+0.0.0.0 html.eclick.vn
+0.0.0.0 htmlads.s3.amazonaws.com
+0.0.0.0 html5adkit.plusmo.s3.amazonaws.com
 0.0.0.0 highspeedbackbone.net
 0.0.0.0 hit2hit.com
 0.0.0.0 happyfoxchat.com
@@ -6236,6 +6366,17 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 img.vietnamnetad.vn
+0.0.0.0 insight.ants.vn
+0.0.0.0 img.polyad.net
+0.0.0.0 images1.lavanetwork.net
+0.0.0.0 imp.adnetwork.vn
+0.0.0.0 in.admicro.vn
+0.0.0.0 ir.admicro.vn
+0.0.0.0 iad.eclick.vn
+0.0.0.0 inneractive-assets.s3.amazonaws.com
+0.0.0.0 iacpromotion.s3.amazonaws.com
+0.0.0.0 igoogle.com
 0.0.0.0 inner-active.mobi
 0.0.0.0 inspectlet.io
 0.0.0.0 inspectlet.com
@@ -7682,6 +7823,19 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 log.sdk.zadn.vn
+0.0.0.0 log.api.zaloapp.com
+0.0.0.0 log.news.zing.vn
+0.0.0.0 logv2.mp3.zing.vn
+0.0.0.0 log.vietnamnetad.vn
+0.0.0.0 libs.lavanetwork.net
+0.0.0.0 lavanetwork.net
+0.0.0.0 lab.admicro.vn
+0.0.0.0 lg.logging.admicro.vn
+0.0.0.0 lg1.logging.admicro.vn
+0.0.0.0 logging.admicro.vn
+0.0.0.0 la.eclick.vn
+0.0.0.0 load.s3.amazonaws.com
 0.0.0.0 lytics.io
 0.0.0.0 lgbttech.org
 0.0.0.0 listbonus.com
@@ -7889,6 +8043,39 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 m.ambientplatform.vn
+0.0.0.0 media.ambientplatform.vn
+0.0.0.0 media.m.ambientplatform.vn
+0.0.0.0 metrics.coccoc.com
+0.0.0.0 metrics.adnetwork.vn
+0.0.0.0 member.adnetwork.vn
+0.0.0.0 marketingauto.e-learning.admicro.vn
+0.0.0.0 media.admicro.vn
+0.0.0.0 media.e-learning.admicro.vn
+0.0.0.0 media1.admicro.vn
+0.0.0.0 media10.admicro.vn
+0.0.0.0 media2.admicro.vn
+0.0.0.0 media3.admicro.vn
+0.0.0.0 media4.admicro.vn
+0.0.0.0 media5.admicro.vn
+0.0.0.0 media6.admicro.vn
+0.0.0.0 media7.admicro.vn
+0.0.0.0 media9.admicro.vn
+0.0.0.0 min.admicro.vn
+0.0.0.0 monitor.admicro.vn
+0.0.0.0 mail.adtimaserver.vn
+0.0.0.0 media.adtimaserver.vn
+0.0.0.0 mondoads.s3.amazonaws.com
+0.0.0.0 mobileanalytics.us-east-1.amazonaws.com
+0.0.0.0 mobileanalytics.us-east-2.amazonaws.com
+0.0.0.0 mobileanalytics.us-west-1.amazonaws.com
+0.0.0.0 mobileanalytics.us-west-2.amazonaws.com
+0.0.0.0 matchbin-assets.s3.amazonaws.com
+0.0.0.0 mobilepicture.com
+0.0.0.0 mt0.google.cn
+0.0.0.0 mt.google.cn
+0.0.0.0 mt.google.com
+0.0.0.0 mt0.google.com
 0.0.0.0 msgfocus.com
 0.0.0.0 ml-attr.com
 0.0.0.0 mintigollg.appspot.com
@@ -8314,6 +8501,11 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nt-cdn.coccoc.com
+0.0.0.0 ntrb.qc.coccoc.com
+0.0.0.0 novanet.vn
+0.0.0.0 nsapi.admicro.vn
+0.0.0.0 ncads.s3.amazonaws.com
 0.0.0.0 ninjasurf.net
 0.0.0.0 netease.com
 0.0.0.0 www.nowlifestyle.com
@@ -8488,6 +8680,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 org.zaloapp.ads.zdn.vn
 0.0.0.0 onfiretoretire.net
 0.0.0.0 ongage.net
 0.0.0.0 www.opinionstage.com
@@ -8643,6 +8836,14 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 preview.smartadserver.com
+0.0.0.0 p.ants.vn
+0.0.0.0 polyad.net
+0.0.0.0 pub.lavanetwork.net
+0.0.0.0 pson.logging.admicro.vn
+0.0.0.0 publisher.admicro.vn
+0.0.0.0 pubmine.com
+0.0.0.0 postrelease.com
 0.0.0.0 plbslog.umeng.com
 0.0.0.0 platformapi.metadata.io
 0.0.0.0 pixel.mintigo.com
@@ -9075,6 +9276,10 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qccoccocmedia.vn
+0.0.0.0 qc.coccoc.vn
+0.0.0.0 qc.coccoc.com
+0.0.0.0 qc-static.coccoc.com
 0.0.0.0 quriobot.com
 0.0.0.0 qoe-1.yottaa.net
 0.0.0.0 qwyzzghouu.com
@@ -9145,6 +9350,10 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rnd.novanet.vn
+0.0.0.0 retg.adnetwork.vn
+0.0.0.0 redmine.admicro.vn
+0.0.0.0 remarketing.doubleclick.net
 0.0.0.0 rocket-mailz.com
 0.0.0.0 referralfrenzy.com
 0.0.0.0 rapiddownline.com
@@ -9383,6 +9592,42 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 smartadserver.ru
+0.0.0.0 sdk.heyzap.com
+0.0.0.0 ssp.blueserving.com
+0.0.0.0 static.adsota.com
+0.0.0.0 static-ads.zaloapp.com
+0.0.0.0 stats.zaloapp.com
+0.0.0.0 shop.zalo.me
+0.0.0.0 sp.zalo.me
+0.0.0.0 static.adtima.vn
+0.0.0.0 stc.adtima.vn
+0.0.0.0 st-au.ants.vn
+0.0.0.0 st.polyad.net
+0.0.0.0 st.html.polyad.net
+0.0.0.0 st.core.polyad.net
+0.0.0.0 slv1.lavanetwork.net
+0.0.0.0 searcher.qc.coccoc.com
+0.0.0.0 shopping.coccoc.com
+0.0.0.0 script.novanet.vn
+0.0.0.0 static.novanet.vn
+0.0.0.0 sale.test.admicro.vn
+0.0.0.0 saledev.admicro.vn
+0.0.0.0 sso.admicro.vn
+0.0.0.0 sspapi.admicro.vn
+0.0.0.0 s.eclick.vn
+0.0.0.0 static.eclick.vn
+0.0.0.0 static.adtimaserver.vn
+0.0.0.0 static2.adtimaserver.vn
+0.0.0.0 scribe.twitter.com
+0.0.0.0 s.ads-twitter.com
+0.0.0.0 sync.cmedia.s3.amazonaws.com
+0.0.0.0 strikeadcdn.s3.amazonaws.com
+0.0.0.0 springclick-ads.s3.amazonaws.com
+0.0.0.0 spyhunter-download.s3.amazonaws.com
+0.0.0.0 slate-ad-scripts.s3.amazonaws.com
+0.0.0.0 sa.edit.yahoo.com
+0.0.0.0 segapi.quantserve.com
 0.0.0.0 snip.bronto.com
 0.0.0.0 static.quriobot.com
 0.0.0.0 staples-sparx.com
@@ -10407,6 +10652,17 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tmk.smartadserver.com
+0.0.0.0 track.blueserving.com
+0.0.0.0 track.adsota.com
+0.0.0.0 tracking.playzing.g6.zing.vn
+0.0.0.0 tracking.vietnamnetad.vn
+0.0.0.0 t.ants.vn
+0.0.0.0 test.lavanetwork.net
+0.0.0.0 track.adnetwork.vn
+0.0.0.0 tech.admicro.vn
+0.0.0.0 topkid.admicro.vn
+0.0.0.0 tap.ads-twitter.com
 0.0.0.0 targetemsecure.blob.core.windows.net
 0.0.0.0 triggeredmail.appspot.com
 0.0.0.0 transithits.com
@@ -10999,6 +11255,11 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vietad.vn
+0.0.0.0 vcmedia.com
+0.0.0.0 vccrm.admicro.vn
+0.0.0.0 vml1.s3.amazonaws.com
+0.0.0.0 viewerstats.docstoc.com.s3.amazonaws.com
 0.0.0.0 videos-a.jwpsrv.com
 0.0.0.0 vtrk.me
 0.0.0.0 vice-staging-web-statics-cdn.viceops.net
@@ -11131,6 +11392,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 whatbrowser.org
 0.0.0.0 wufoo.com
 0.0.0.0 wildhogmailer.com
 0.0.0.0 widget.happyfoxchat.com
@@ -11434,6 +11696,7 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 x.heyzap.com
 0.0.0.0 xx975.com
 0.0.0.0 www.xverify.com
 0.0.0.0 xverify.com
@@ -11626,6 +11889,12 @@
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zaloapp.ads.zdn.vn
+0.0.0.0 zplayer-trk.zdn.vn
+0.0.0.0 zplayer.trk.zapps.vn
+0.0.0.0 zalo-ads-td.zadn.vn
+0.0.0.0 zminer.zaloapp.com
+0.0.0.0 znaptag-us.s3.amazonaws.com
 0.0.0.0 zubeezone.com
 0.0.0.0 zeekrewards.com
 0.0.0.0 zeujqjoifd.com
@@ -12175,6 +12444,8 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 1.allyes.com.cn
+0.0.0.0 466453.com
 0.0.0.0 268mhmtxhj.execute-api.us-east-1.amazonaws.com
 0.0.0.0 2prosperu.webs.com
 0.0.0.0 4u2explore.com
@@ -15803,6 +16074,15 @@ www.staples.com##.seoControl__seoContainer
 shortpixel.com###shortpixel-hs-tools
 healthline.com/scripts/advertising.js
 web-static.pages.iheart.com/jw-player/blank.mp4
+www.healthline.com##.css-1yw2sjg > .email.button-wrapper > .icon-hl-email.icon.button.email.css-168nsov
+www.healthline.com##.css-17jhq7w
+www.healthline.com##div.css-0:nth-of-type(3) > .css-1tdk91s
+www.healthline.com##div.css-0:nth-of-type(6) > .css-1tdk91s
+www.iheart.com##.e15u36wq0.css-1f9of75
+www.slacker.com##.additional-flat.ad2
+www.jiosaavn.com##.site-message-container
+www.cnn.com/data/ocs/section/index.html:*.json
+duckduckgo.com/t/sl_h
 
 # Block tracking scripts, ads and add cosmetic filters
 /pixel-clear.gif?
