@@ -4,7 +4,7 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Number Of Ad Services, Trackers, And Malware Blocked: 16K+ (uBlock)
+! Number Of Ad Services, Trackers, And Malware Blocked: 16.5K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
 ! Last Updated on Thursday, July 4, 2019
 
@@ -174,6 +174,7 @@
 0.0.0.0 com-fasting.live
 
 ! Apple
+0.0.0.0 search.itunes.apple.com
 0.0.0.0 sf-api-token-service.itunes.apple.com
 0.0.0.0 tr.iadsdk.apple.com
 0.0.0.0 cs.iadsdk.apple.com
@@ -816,6 +817,20 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 ads.reddollars.com
+0.0.0.0 ads.fileindexer.com
+0.0.0.0 affiliategateways.co
+0.0.0.0 affiliategateways.hasoffers.com
+0.0.0.0 admtpmp127.adsk2.co
+0.0.0.0 adright.co
+0.0.0.0 adright.com
+0.0.0.0 ad132m.adk2.co
+0.0.0.0 adv.9ccc.co
+0.0.0.0 advertise-bz.cn
+0.0.0.0 analytics-logs.club
+0.0.0.0 api.content.ad
+0.0.0.0 adlog.flurry.com
+0.0.0.0 ads.flurry.com
 0.0.0.0 ads.heyzap.com
 0.0.0.0 a.blueserving.com
 0.0.0.0 app.vietad.vn
@@ -3876,6 +3891,9 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clickvalue.com.cn
+0.0.0.0 chinawomendating.asia
+0.0.0.0 control.kochava.com
 0.0.0.0 c.blueserving.com
 0.0.0.0 crm.ants.vn
 0.0.0.0 click.m.ambientplatform.vn
@@ -4715,6 +4733,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 d.href.asia
 0.0.0.0 dsp.blueserving.com
 0.0.0.0 d.blueserving.com
 0.0.0.0 d.ants.vn
@@ -5645,6 +5664,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fetchback.com
+0.0.0.0 filter.adright.co
 0.0.0.0 f.novanet.vn
 0.0.0.0 f.admicro.vn
 0.0.0.0 fingerprint.admicro.vn
@@ -5873,6 +5894,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 goreal.at
 0.0.0.0 gallery.smartadserver.com
 0.0.0.0 gallery.adtima.vn
 0.0.0.0 goodsp.admicro.vn
@@ -6182,6 +6204,8 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hasoffers.com
+0.0.0.0 hits.blog.sina.com.cn
 0.0.0.0 html.polyad.net
 0.0.0.0 html.eclick.vn
 0.0.0.0 htmlads.s3.amazonaws.com
@@ -6366,6 +6390,9 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 industrybrains.com
+0.0.0.0 indieclick.com
+0.0.0.0 iclick.cm.admaster.com.cn
 0.0.0.0 img.vietnamnetad.vn
 0.0.0.0 insight.ants.vn
 0.0.0.0 img.polyad.net
@@ -6976,6 +7003,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 js.sportsbetaffiliates.com.au
 0.0.0.0 js.bronto.com
 0.0.0.0 jumbosolos.com
 0.0.0.0 jollow.com
@@ -7823,6 +7851,9 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 logging.trakingpixel.com
+0.0.0.0 linkcash.co
+0.0.0.0 log.analytics-logs.club
 0.0.0.0 log.sdk.zadn.vn
 0.0.0.0 log.api.zaloapp.com
 0.0.0.0 log.news.zing.vn
@@ -8043,6 +8074,10 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mtrcs.samba.tv
+0.0.0.0 madadsmedia.com
+0.0.0.0 media.sportsbetaffiliates.com.au
+0.0.0.0 media.gssp.asia
 0.0.0.0 m.ambientplatform.vn
 0.0.0.0 media.ambientplatform.vn
 0.0.0.0 media.m.ambientplatform.vn
@@ -8836,6 +8871,19 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pixel.mtrcs.samba.tv
+0.0.0.0 pixel.gelacrabuld.info
+0.0.0.0 pixel.arkinhechershedt.info
+0.0.0.0 pixel.tapad.com
+0.0.0.0 pixel.sitescout.com
+0.0.0.0 pixel-a.sitescout.com
+0.0.0.0 pixel.reddit.com
+0.0.0.0 pixellitomedia.com
+0.0.0.0 pixel.parsely.com
+0.0.0.0 pixel.madadsmedia.com
+0.0.0.0 pixel.indieclick.com
+0.0.0.0 pixel.fetchback.com
+0.0.0.0 pixel.keywee.co
 0.0.0.0 preview.smartadserver.com
 0.0.0.0 p.ants.vn
 0.0.0.0 polyad.net
@@ -9350,6 +9398,10 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 redirect2719.ws
+0.0.0.0 r.remarketingpixel.com
+0.0.0.0 reddollars.com
+0.0.0.0 record.sportsbetaffiliates.com.au
 0.0.0.0 rnd.novanet.vn
 0.0.0.0 retg.adnetwork.vn
 0.0.0.0 redmine.admicro.vn
@@ -9592,6 +9644,9 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 searchiq.co
+0.0.0.0 segment-pixel.invitemedia.com
+0.0.0.0 speednetwork14.adk2.co
 0.0.0.0 smartadserver.ru
 0.0.0.0 sdk.heyzap.com
 0.0.0.0 ssp.blueserving.com
@@ -10652,6 +10707,9 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 trakingpixel.com
+0.0.0.0 track.tap4joy.com
+0.0.0.0 tapestry.tapad.com
 0.0.0.0 tmk.smartadserver.com
 0.0.0.0 track.blueserving.com
 0.0.0.0 track.adsota.com
@@ -11255,6 +11313,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vc-mvt-pixel-80.vc-networks.com
 0.0.0.0 vietad.vn
 0.0.0.0 vcmedia.com
 0.0.0.0 vccrm.admicro.vn
@@ -11392,6 +11451,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 waust.at
 0.0.0.0 whatbrowser.org
 0.0.0.0 wufoo.com
 0.0.0.0 wildhogmailer.com
@@ -11696,6 +11756,7 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xml.adright.co
 0.0.0.0 x.heyzap.com
 0.0.0.0 xx975.com
 0.0.0.0 www.xverify.com
@@ -12444,6 +12505,7 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 11165151.searchiq.co
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 466453.com
 0.0.0.0 268mhmtxhj.execute-api.us-east-1.amazonaws.com
@@ -16083,8 +16145,15 @@ www.slacker.com##.additional-flat.ad2
 www.jiosaavn.com##.site-message-container
 www.cnn.com/data/ocs/section/index.html:*.json
 duckduckgo.com/t/sl_h
+apple.com/metrics/
+apple.com/metrics/ac-analytics/
+www.apple.com/metrics/
+www.apple.com/metrics/ac-analytics/
+www.apple.com/ac/globalnav/4/en_US/scripts/ac-globalnav.built.js
+www.cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia > .el__storyelement--standard
 
 # Block tracking scripts, ads and add cosmetic filters
+/react-dom/cjs/react-dom.production.min.js
 /pixel-clear.gif?
 /storefront/track?
 /meks-easy-ads-widget/
