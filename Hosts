@@ -4733,6 +4733,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 daily-caller-d.openx.net
 0.0.0.0 d.href.asia
 0.0.0.0 dsp.blueserving.com
 0.0.0.0 d.blueserving.com
@@ -8074,6 +8075,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 metrics.gfycat.com
 0.0.0.0 mtrcs.samba.tv
 0.0.0.0 madadsmedia.com
 0.0.0.0 media.sportsbetaffiliates.com.au
@@ -8871,6 +8873,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 px.gfycat.com
 0.0.0.0 pixel.mtrcs.samba.tv
 0.0.0.0 pixel.gelacrabuld.info
 0.0.0.0 pixel.arkinhechershedt.info
@@ -8925,7 +8928,6 @@
 0.0.0.0 pushlum.com
 0.0.0.0 pixel.spotify.com
 0.0.0.0 pixel-static.spotify.com
-0.0.0.0 p-cdn.com
 0.0.0.0 predictivdisplay.com
 0.0.0.0 pomerous.info
 0.0.0.0 p7s1.io
@@ -16152,8 +16154,28 @@ www.apple.com/metrics/ac-analytics/
 www.apple.com/ac/globalnav/4/en_US/scripts/ac-globalnav.built.js
 www.cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia > .el__storyelement--standard
 youtube.com/ptracking?
+dailycaller.com/files/images/1x1.trans.gif
+npttech.com/advertising.js
+||youtube.com$third-party,cookie
+||js.stripe.com/v3/fingerprinted/*$important
+4chan.org##.adg-rects
+4chan.org##.adg
+digg.com/api/analytics/
+||medicalnewstoday.com/structure/framework/main/article/mobile_newsletter_modal.php
+
+# Fixes
+dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
+
+# AdGuard
+$webrtc,domain=xda-developers.com,4chan.org,8ch.net,kiwifarms.net,voat.co
+8ch.net#$#body { padding-top: 0 !important; }
+digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Block tracking scripts, ads and add cosmetic filters
+/px.gif?
+/pix.gif?
+/api/analytics/
+/1x1.trans.gif
 /react-dom/cjs/react-dom.production.min.js
 /pixel-clear.gif?
 /storefront/track?
@@ -16662,3 +16684,6 @@ _Affiliate
 ##[href="https://facebook.*/tr"]
 ###promo_block
 ###meme_cookie_consent
+##.adcontainer
+##.OUTBRAIN
+##.affiliate
