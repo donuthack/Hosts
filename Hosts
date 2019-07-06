@@ -817,6 +817,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 analytics-static.ugc.bazaarvoice.com
+0.0.0.0 a.sellpoint.net
 0.0.0.0 ads.reddollars.com
 0.0.0.0 ads.fileindexer.com
 0.0.0.0 affiliategateways.co
@@ -9646,6 +9648,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sellpoint.net
 0.0.0.0 searchiq.co
 0.0.0.0 segment-pixel.invitemedia.com
 0.0.0.0 speednetwork14.adk2.co
@@ -15137,7 +15140,6 @@
 
 # Blocking specific things on domains
 duckduckgo.com#@#.has-ad
-@@||duckduckgo.com^$document
 iprvl.co###pref-label
 iprvl.co##.footer > span
 ||iprvl.co/_static/images/smarturl-retina.png
@@ -16162,16 +16164,34 @@ npttech.com/advertising.js
 4chan.org##.adg
 digg.com/api/analytics/
 ||medicalnewstoday.com/structure/framework/main/article/mobile_newsletter_modal.php
+api.github.com/_private/browser/errors
+amazon.*/empty.gif
+||api.github.com/_private/browser/errors
+||duckduckgo.com/util/u367.js$important
+||duckduckgo.com/d2643.js$important
+||producthunt.com/manifest.json
+||a.sellpoint.net/c/1/sp.js$third-party
+||amazon.com/gp/redirection/mexico.html
+||amazon.com/gp/cerberus/gv
+||amazon.com/gp/redirection/canada.html
+||completion.amazon.com/api/*$important
+||amazon.com/gp/overlay/display.html
+||amazon.com/gp/aq-feedback/*$important
+||amazon.com/gp/page/*
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 
 # AdGuard
-$webrtc,domain=xda-developers.com,4chan.org,8ch.net,kiwifarms.net,voat.co
+$webrtc,domain=xda-developers.com,4chan.org,8ch.net,kiwifarms.net,voat.co,apple.com,google.com
 8ch.net#$#body { padding-top: 0 !important; }
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
-# Block tracking scripts, ads and add cosmetic filters
+# Wildcard
+/ad_feedback_icon_*
+/transparent-pixel
+images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*_.gif
+/bv-analytics.js
 /px.gif?
 /pix.gif?
 /api/analytics/
