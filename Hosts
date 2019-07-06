@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 16.5K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Thursday, July 4, 2019
+! Last Updated on Saturday, July 6, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -15,6 +15,8 @@
 @@||pandora.com/web-client-assets/
 @@||pandora.com/api/
 @@||iheart.com
+@@||duckduckgo.com/util/u367.js$important
+@@||duckduckgo.com/d2643.js$important
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -4735,6 +4737,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dap.digitalgov.gov
 0.0.0.0 daily-caller-d.openx.net
 0.0.0.0 d.href.asia
 0.0.0.0 dsp.blueserving.com
@@ -5963,7 +5966,6 @@
 0.0.0.0 gigya.com
 0.0.0.0 ga.clearbit.com
 0.0.0.0 geolocation.onetrust.com
-0.0.0.0 guce.yahoo.com
 0.0.0.0 ground1.wipersoft.revenuewire.net
 0.0.0.0 ground2.wipersoft.revenuewire.net
 0.0.0.0 ground3.wipersoft.revenuewire.net
@@ -11181,6 +11183,7 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 udc.yahoo.com
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ui.staples-sparx.com
 0.0.0.0 us-central1-global-justice-178103.cloudfunctions.net
@@ -11955,6 +11958,7 @@
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 znbqj3egyjwfzib9r-communicatehealth.siteintercept.qualtrics.com
 0.0.0.0 zaloapp.ads.zdn.vn
 0.0.0.0 zplayer-trk.zdn.vn
 0.0.0.0 zplayer.trk.zapps.vn
@@ -16167,8 +16171,6 @@ digg.com/api/analytics/
 api.github.com/_private/browser/errors
 amazon.*/empty.gif
 ||api.github.com/_private/browser/errors
-||duckduckgo.com/util/u367.js$important
-||duckduckgo.com/d2643.js$important
 ||producthunt.com/manifest.json
 ||a.sellpoint.net/c/1/sp.js$third-party
 ||amazon.com/gp/redirection/mexico.html
@@ -16178,16 +16180,73 @@ amazon.*/empty.gif
 ||amazon.com/gp/overlay/display.html
 ||amazon.com/gp/aq-feedback/*$important
 ||amazon.com/gp/page/*
+||edgecast-vod.yimg.com/geminivideoads/*/video_output_*.mp4
+www.buzzfeed.com##.xs-pl0.xs-flex-nowrap.xs-flex-row.xs-flex.thumbstrip__content.js-thumbstrip-content
+www.buzzfeed.com##.xs-col-12.thumbstrip__items.js-thumbstrip-wrapper.xs-overflow-hidden.xs-relative
+www.buzzfeed.com###mod-recsys-thumbstrip-1
+mail.yahoo.com##.e_dRA.r_P.q_Z281SGl.p_R
+mail.yahoo.com##.Y_eTB.E_A.Q_A.W_3vVYr.C_Z1VRpVF.A_6EqO > span
+||mail.yahoo.com/d/video_api/getVideos?$important
+||mail.yahoo.com/d/log
+/iu3?d=amazon.com&
+amazon.*/gp/uedata?
+amazon.*/ah/ajax/counter?
+||irs.gov/pub/empty.js
+||usa.gov/js/modal.js$important
+||usa.gov/js/uswds.js$important
+||irs.gov/static_assets/js/leftnav/height.js$important
+||assets.cms.gov/resources/libs/fonts/adobeBlank/adobe-blank.css$important
+||digital.gov/js/external.js
+||healthfinder.gov/js/outlink.js
+||healthfinder.gov/js/ga_download_tracker.js$important
+||hikashop.com/media/com_acymailing/js/acymailing_module.js?
+||hikashop.com/media/system/js/keepalive.js?
+census.gov/main/javascript/s_code.js
+cdc.gov/JScript/metrics/adobe/analytics_cdcgov.js
+cdc.gov/JScript/metrics/topic_levels.js
+cdc.gov/JScript/foresee/foresee-trigger.js?
+||calendarwiz.com$third-party,cookie
+||census.gov/libs/granite/csrf/token.json
+||nsa.gov/js/dnn.servicesframework.js
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 
 # AdGuard
-$webrtc,domain=xda-developers.com,4chan.org,8ch.net,kiwifarms.net,voat.co,apple.com,google.com
+$webrtc,domain=xda-developers.com
+$webrtc,domain=4chan.org
+$webrtc,domain=8ch.net
+$webrtc,domain=kiwifarms.net
+$webrtc,domain=voat.co
+$webrtc,domain=apple.com
+$webrtc,domain=google.com
+$webrtc,domain=fbi.gov
+$webrtc,domain=usa.gov
+$webrtc,domain=irs.gov
+$webrtc,domain=medicare.gov
+$webrtc,domain=usajobs.gov
+$webrtc,domain=digital.gov
+$webrtc,domain=healthfinder.gov
+$webrtc,domain=fdlp.gov
+$webrtc,domain=congress.gov
+$webrtc,domain=nsa.gov
+$webrtc,domain=lifewire.com
 8ch.net#$#body { padding-top: 0 !important; }
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/metrics/adobe/
+/akam/*/pixel
+/adobe-blank.css
+/blank.css
+/utag/cmsgov/
+/Universal-Federated-Analytics-Min.js
+/federated-analytics/
+/federated-analytics.js
+/autotracker/
+/autotracker.js
+/google_tag/
+/geminivideoads/
 /ad_feedback_icon_*
 /transparent-pixel
 images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*_.gif
@@ -16518,6 +16577,7 @@ _Affiliate
 /google-analytics-premium/
 /_/items/newswars_ads
 /tracker?domain
+/fbi-gov/production/gateway.min.js
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
