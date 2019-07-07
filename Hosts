@@ -819,6 +819,8 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 analytics.businessinsider.com
+0.0.0.0 analytics.wonderanal.com
 0.0.0.0 analytics-static.ugc.bazaarvoice.com
 0.0.0.0 a.sellpoint.net
 0.0.0.0 ads.reddollars.com
@@ -3895,6 +3897,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cbs.wondershare.com
 0.0.0.0 clickvalue.com.cn
 0.0.0.0 chinawomendating.asia
 0.0.0.0 control.kochava.com
@@ -8079,6 +8082,8 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mg.steepto.com
+0.0.0.0 meezauch.net
 0.0.0.0 metrics.gfycat.com
 0.0.0.0 mtrcs.samba.tv
 0.0.0.0 madadsmedia.com
@@ -8542,6 +8547,7 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 npcdaily.disqus.com
 0.0.0.0 nt-cdn.coccoc.com
 0.0.0.0 ntrb.qc.coccoc.com
 0.0.0.0 novanet.vn
@@ -8877,6 +8883,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p.forward.com
 0.0.0.0 px.gfycat.com
 0.0.0.0 pixel.mtrcs.samba.tv
 0.0.0.0 pixel.gelacrabuld.info
@@ -9404,6 +9411,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rinsouxy.com
 0.0.0.0 redirect2719.ws
 0.0.0.0 r.remarketingpixel.com
 0.0.0.0 reddollars.com
@@ -10714,6 +10722,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 thikraik.net
 0.0.0.0 trakingpixel.com
 0.0.0.0 track.tap4joy.com
 0.0.0.0 tapestry.tapad.com
@@ -16096,24 +16105,24 @@ www.americanlibertyreport.com###main > div:nth-of-type(2)
 www.americanlibertyreport.com###main > hr.ad-divider-hr:nth-of-type(1)
 www.americanlibertyreport.com##.mpw-inline > div
 www.americanlibertyreport.com##.mpw-inline
-bestfollowers.in/assets/scripting.min.js
+||bestfollowers.in/assets/scripting.min.js
 www.minecrafthackedclients.com##div.section:nth-of-type(3)
 ||trck.me/*/banner.jpg$image
-www.daolsoft.com/css/screen.php
+||www.daolsoft.com/css/screen.php
 echotrafficclub.com###meme_cookie_consent
 ||wz.8286777.com/style/img/wxa.gif$image
-s3.amazonaws.com/ssl-intgr-net/prebid/74.js
-www.roblox.com/user-sponsorship/1
-www.roblox.com/user-sponsorship/2
-ecsv2.roblox.com/www/e.png?
+||s3.amazonaws.com/ssl-intgr-net/prebid/74.js
+||www.roblox.com/user-sponsorship/1
+||www.roblox.com/user-sponsorship/2
+||ecsv2.roblox.com/www/e.png?
 myownconference.com##.bg-co-ag.co-ag.container-fluid > .row
 www.roblox.com##li.sponsored-game.game-card.list-item:nth-of-type(*) > .game-card-link.game-card-container
 www.roblox.com##li.sponsored-game.game-card.list-item:nth-of-type(*)
-dan.me.uk/torlist
-v.shopify.com/storefront/page?
-v.shopify.com/storefront/track?
-cdn.youtooz.com/social-proof.json
-cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js
+||dan.me.uk/torlist
+||v.shopify.com/storefront/page?
+||v.shopify.com/storefront/track?
+||cdn.youtooz.com/social-proof.json
+||cdn.shopify.com/s/javascripts/tricorder/trekkie.storefront.min.js
 www.thedailybeast.com##section.Row:nth-of-type(6) > section.Card:nth-of-type(1)
 www.thedailybeast.com##.HomePage__two-columns-wrapper > section.Row:nth-of-type(4) > section.Card:nth-of-type(1)
 www.thedailybeast.com##section.Row:nth-of-type(10) > section.Card:nth-of-type(1)
@@ -16134,16 +16143,16 @@ www.govtrack.us##.in.fade.modal-backdrop
 www.amny.com##div.promo.span2.mod:nth-of-type(29)
 abcnews.go.com##.abcn-alert-insert
 www.vice.com##.p-b-6--xs.p-t-6--xs.p-6--md.p-4--xs.injected-newsletter
-twitter.com/i/csp_report?
+||twitter.com/i/csp_report?
 www.newegg.com##.has-side-banner.row > .row-side
 www.newegg.com##.swiper-slide-active.swiper-slide > .category-banner-bg
 www.newegg.com###heroModule
-www.paypalobjects.com/muse/muse.js
+||www.paypalobjects.com/muse/muse.js
 www.staples.com##.seoControl__seoContainer
 ||shortpixel.com/img/notes-sp.png$image
 shortpixel.com###shortpixel-hs-tools
-healthline.com/scripts/advertising.js
-web-static.pages.iheart.com/jw-player/blank.mp4
+||healthline.com/scripts/advertising.js
+||web-static.pages.iheart.com/jw-player/blank.mp4
 www.healthline.com##.css-1yw2sjg > .email.button-wrapper > .icon-hl-email.icon.button.email.css-168nsov
 www.healthline.com##.css-17jhq7w
 www.healthline.com##div.css-0:nth-of-type(3) > .css-1tdk91s
@@ -16151,25 +16160,25 @@ www.healthline.com##div.css-0:nth-of-type(6) > .css-1tdk91s
 www.iheart.com##.e15u36wq0.css-1f9of75
 www.slacker.com##.additional-flat.ad2
 www.jiosaavn.com##.site-message-container
-www.cnn.com/data/ocs/section/index.html:*.json
-duckduckgo.com/t/sl_h
-apple.com/metrics/
-apple.com/metrics/ac-analytics/
-www.apple.com/metrics/
-www.apple.com/metrics/ac-analytics/
-www.apple.com/ac/globalnav/4/en_US/scripts/ac-globalnav.built.js
+||www.cnn.com/data/ocs/section/index.html:*.json
+||duckduckgo.com/t/sl_h
+||apple.com/metrics/
+||apple.com/metrics/ac-analytics/
+||www.apple.com/metrics/
+||www.apple.com/metrics/ac-analytics/
+||www.apple.com/ac/globalnav/4/en_US/scripts/ac-globalnav.built.js
 www.cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia > .el__storyelement--standard
-youtube.com/ptracking?
-dailycaller.com/files/images/1x1.trans.gif
-npttech.com/advertising.js
+||youtube.com/ptracking?
+||dailycaller.com/files/images/1x1.trans.gif
+||npttech.com/advertising.js
 ||youtube.com$third-party,cookie
 ||js.stripe.com/v3/fingerprinted/*$important
 4chan.org##.adg-rects
 4chan.org##.adg
-digg.com/api/analytics/
+||digg.com/api/analytics/
 ||medicalnewstoday.com/structure/framework/main/article/mobile_newsletter_modal.php
-api.github.com/_private/browser/errors
-amazon.*/empty.gif
+||api.github.com/_private/browser/errors
+||amazon.*/empty.gif
 ||api.github.com/_private/browser/errors
 ||producthunt.com/manifest.json
 ||a.sellpoint.net/c/1/sp.js$third-party
@@ -16188,9 +16197,8 @@ mail.yahoo.com##.e_dRA.r_P.q_Z281SGl.p_R
 mail.yahoo.com##.Y_eTB.E_A.Q_A.W_3vVYr.C_Z1VRpVF.A_6EqO > span
 ||mail.yahoo.com/d/video_api/getVideos?$important
 ||mail.yahoo.com/d/log
-/iu3?d=amazon.com&
-amazon.*/gp/uedata?
-amazon.*/ah/ajax/counter?
+||amazon.*/gp/uedata?
+||amazon.*/ah/ajax/counter?
 ||irs.gov/pub/empty.js
 ||usa.gov/js/modal.js$important
 ||usa.gov/js/uswds.js$important
@@ -16201,13 +16209,27 @@ amazon.*/ah/ajax/counter?
 ||healthfinder.gov/js/ga_download_tracker.js$important
 ||hikashop.com/media/com_acymailing/js/acymailing_module.js?
 ||hikashop.com/media/system/js/keepalive.js?
-census.gov/main/javascript/s_code.js
-cdc.gov/JScript/metrics/adobe/analytics_cdcgov.js
-cdc.gov/JScript/metrics/topic_levels.js
-cdc.gov/JScript/foresee/foresee-trigger.js?
+||census.gov/main/javascript/s_code.js
+||cdc.gov/JScript/metrics/adobe/analytics_cdcgov.js
+||cdc.gov/JScript/metrics/topic_levels.js
+||cdc.gov/JScript/foresee/foresee-trigger.js?
 ||calendarwiz.com$third-party,cookie
 ||census.gov/libs/granite/csrf/token.json
 ||nsa.gov/js/dnn.servicesframework.js
+||images.wondershare.com/script/gdpr_ws.js
+||filmora.wondershare.com/tool/geoip-redirect/geoip-redirect.js
+||analytics.wonderanal.com/wsAnalytics.min.js
+||filmora.wondershare.com/tool/geoip-redirect/geoip-code.json
+||filmora.wondershare.com/tool/geoip-redirect/geoip-link.json
+||thedailybeast.com/static/advert.js$important
+||sb.scorecardresearch.com/beacon.js$important
+||graphql-prod.thedailybeast.com/graphql
+||thedailybeast.com/appnexus.js
+||thedailybeast.com/static/thirdparty~01e7b97c.9f3bfa69.js
+thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--adhesion:last-child > div.CallToAction.CallToAction--light.CallToAction--in-footer.Footer__advertise:last-child > a.TrackingLink.CallToAction__button
+||p.forward.com/paywall_js/forward_paywall.js
+||p.forward.com/uploads/json_data/Paywall_settings.JSON
+||p.forward.com/IP_Exclusion/checkExcludedIp
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16220,6 +16242,8 @@ $webrtc,domain=kiwifarms.net
 $webrtc,domain=voat.co
 $webrtc,domain=apple.com
 $webrtc,domain=google.com
+$webrtc,domain=youtube.com
+$webrtc,domain=lifewire.com
 $webrtc,domain=fbi.gov
 $webrtc,domain=usa.gov
 $webrtc,domain=irs.gov
@@ -16235,6 +16259,10 @@ $webrtc,domain=lifewire.com
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/iu3?d=amazon.com&
+/paywall_js/
+/jslibs/track.js
+/wsAnalytics.min.js
 /metrics/adobe/
 /akam/*/pixel
 /adobe-blank.css
@@ -16768,3 +16796,8 @@ _Affiliate
 ##.OUTBRAIN
 ##.affiliate
 ##.GoogleDfpAd
+##.FooterAd
+##ins.adsbygoogle
+###index-ad
+##.ad_text
+##.ad_leaderboard
