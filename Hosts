@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 16.5K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Saturday, July 6, 2019
+! Last Updated on Sunday, July 7, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -3897,6 +3897,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cstream.wi-fi.ru
 0.0.0.0 cbs.wondershare.com
 0.0.0.0 clickvalue.com.cn
 0.0.0.0 chinawomendating.asia
@@ -8082,6 +8083,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 modernizr.com
 0.0.0.0 mg.steepto.com
 0.0.0.0 meezauch.net
 0.0.0.0 metrics.gfycat.com
@@ -8883,6 +8885,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pix.ssp.otm-r.com
 0.0.0.0 p.forward.com
 0.0.0.0 px.gfycat.com
 0.0.0.0 pixel.mtrcs.samba.tv
@@ -16230,6 +16233,17 @@ thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--ad
 ||p.forward.com/paywall_js/forward_paywall.js
 ||p.forward.com/uploads/json_data/Paywall_settings.JSON
 ||p.forward.com/IP_Exclusion/checkExcludedIp
+||thikraik.net$third-party,cookie
+||rinsouxy.com$third-party,cookie
+||meezauch.net$third-party,cookie
+||dolohen.com$third-party,cookie
+||converto.io/img/favicons/manifest.json
+||rinsouxy.com/style.css
+||cstream.wi-fi.ru/divolte.js
+||sentry.develop.wi-fi.ru/api/16/store/?sentry_key=1fcc08333b5943098d057f27c17c890e&sentry_version=7
+||cdn.dmp.wi-fi.ru/tm.js?id=2cdc85b2-c791-43ee-bc12-0a42a9cb2557
+||site.yandex.net/v2.0/js/all.js$domain=wi-fi.ru,third-party
+||philipbloom.net/blog/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16259,6 +16273,8 @@ $webrtc,domain=lifewire.com
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/google-analyticator/
+/external-tracking.min.js
 /iu3?d=amazon.com&
 /paywall_js/
 /jslibs/track.js
