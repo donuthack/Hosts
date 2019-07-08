@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 16.5K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Sunday, July 7, 2019
+! Last Updated on Monday, July 8, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -16273,6 +16273,7 @@ $webrtc,domain=lifewire.com
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/csp_report?
 /google-analyticator/
 /external-tracking.min.js
 /iu3?d=amazon.com&
