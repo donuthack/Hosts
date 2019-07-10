@@ -3897,6 +3897,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.feedbackify.com
 0.0.0.0 cstream.wi-fi.ru
 0.0.0.0 cbs.wondershare.com
 0.0.0.0 clickvalue.com.cn
@@ -5673,6 +5674,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 feedbackify.com
+0.0.0.0 freegeoip-rm.herokuapp.com
 0.0.0.0 fetchback.com
 0.0.0.0 filter.adright.co
 0.0.0.0 f.novanet.vn
@@ -6398,6 +6401,8 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ip4.seeip.org
+0.0.0.0 ip.seeip.org
 0.0.0.0 industrybrains.com
 0.0.0.0 indieclick.com
 0.0.0.0 iclick.cm.admaster.com.cn
@@ -8884,6 +8889,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p.d.1emn.com
 0.0.0.0 pix.ssp.otm-r.com
 0.0.0.0 p.forward.com
 0.0.0.0 px.gfycat.com
@@ -9660,6 +9666,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 seeip.org
 0.0.0.0 sellpoint.net
 0.0.0.0 searchiq.co
 0.0.0.0 segment-pixel.invitemedia.com
@@ -10724,6 +10731,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tse1.mm.bing.net
 0.0.0.0 thikraik.net
 0.0.0.0 trakingpixel.com
 0.0.0.0 track.tap4joy.com
@@ -16243,6 +16251,19 @@ thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--ad
 ||cdn.dmp.wi-fi.ru/tm.js?id=2cdc85b2-c791-43ee-bc12-0a42a9cb2557
 ||site.yandex.net/v2.0/js/all.js$domain=wi-fi.ru,third-party
 ||philipbloom.net/blog/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js
+||twitter.com/i/users/recommendations?
+||api.twitter.com/1.1/dm/update_last_seen_event_id.json
+||s2.wp.com/_static/*
+*.mega.co.nz/3/fonts/
+||g.api.mega.co.nz/cs?id=0&domain=meganz&ut=gFfO9KsQlxQ&lang=en
+||na.static.mega.co.nz/3/css/*$domain=mega.nz,third-party
+||na.static.mega.co.nz/js/cms.js
+||na.static.mega.co.nz/html/js/start.js
+||na.static.mega.co.nz/html/js/business.js
+||s0.wp.com/wp-content/js/devicepx-jetpack.js
+||duckduckgo.com/t.js?
+||google.com/xjs/_/*
+||apis.google.com/_/scs/*
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16272,6 +16293,7 @@ $webrtc,domain=lifewire.com
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/jsonip?
 /csp_report?
 /google-analyticator/
 /external-tracking.min.js
