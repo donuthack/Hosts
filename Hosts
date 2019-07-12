@@ -4,9 +4,9 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Number Of Ad Services, Trackers, And Malware Blocked: 16.5K (uBlock)
+! Number Of Ad Services, Trackers, And Malware Blocked: 16.7K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Monday, July 8, 2019
+! Last Updated on Thursday, July 11, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -819,6 +819,7 @@
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
 
 !A
+0.0.0.0 assets.dennisnet.co.uk
 0.0.0.0 analytics.businessinsider.com
 0.0.0.0 analytics.wonderanal.com
 0.0.0.0 analytics-static.ugc.bazaarvoice.com
@@ -8087,6 +8088,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mms.expertreviews.co.uk
 0.0.0.0 modernizr.com
 0.0.0.0 mg.steepto.com
 0.0.0.0 meezauch.net
@@ -8889,6 +8891,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 photography-blog-1.disqus.com
 0.0.0.0 p.d.1emn.com
 0.0.0.0 pix.ssp.otm-r.com
 0.0.0.0 p.forward.com
@@ -9419,6 +9422,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 revjet.com
 0.0.0.0 rinsouxy.com
 0.0.0.0 redirect2719.ws
 0.0.0.0 r.remarketingpixel.com
@@ -15384,7 +15388,6 @@ telegraph.co.uk##.adblocker-message
 mp4upload.com##+js(popads-dummy.js)
 mp4upload.com###overlay
 playview.io##.ads_player
-cut-earn.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
 thepiratebay.cr##+js(abort-on-property-write.js, adcashMacros)
 thepiratebay.cr##+js(abort-on-property-write.js, Fingerprint2)
 thepiratebay.cr##+js(window.open-defuser.js)
@@ -16264,12 +16267,59 @@ thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--ad
 ||duckduckgo.com/t.js?
 ||google.com/xjs/_/*
 ||apis.google.com/_/scs/*
+# ||cdn2.expertreviews.co.uk/misc/advagg_js/msg/* # TRIGGERS ANTI-ADBLOCK
+||cdn1.expertreviews.co.uk/sites/expertreviews/modules/features/site_monetizer101/js/init-library.js
+||cdn*.expertreviews.co.uk/sites/expertreviews/files/advagg_js/
+www.expertreviews.co.uk###sp_message_panel_id*
+www.expertreviews.co.uk###sp_message_id*
+www.expertreviews.co.uk##.sp_veil*
+expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+||adorama.com/artworks2/spcr.gif$domain=kenrockwell.com
+||adorama.com/artworks2/spcr.gif
+||photographyblog.com/_js/badb.js
+||photographyblog.com/geo/country
+||4.img-dpreview.com/resources/scripts/min/UsersShared.js
+||2.img-dpreview.com/resources/scripts/min/DprSwfObject.js
+s3-us-west-1.amazonaws.com$domain=pandora.com
+adobedtm.com$domain=pandora.com
+||cont-5.p-cdn.us/images/public/int/7/1/4/2
+www.usa.gov##.usa-footer-big-secondary-section.usa-footer-secondary_section
+www.usajobs.gov##.usa-footer-return-to-top.usa-grid
+||filmora.wondershare.com/images/seasonal/win-a-trip-pairs-bottom.jpg$image
+filmora.wondershare.com##.with-hand.text-center.text-steel.bg-white.seasonal-close > .fm-close.fm
+filmora.wondershare.com##.with-hand.text-center.text-steel.bg-white.seasonal-close
+npcdaily.com###tie-block_1776 > .container-wrapper
+npcdaily.com###stream-item-widget-6
+www.dummies.com##.dummies-helped-campaign.accent.dummies-newsletter
+mega.co.nz##+js(abort-on-property-write.js, Fingerprint2)
+mega.nz##+js(abort-on-property-write.js, Fingerprint2)
+hotair.com##.salem-content-injection-wrap > .row
+beta.washingtonpost.com##section:nth-of-type(2) > .i-amphtml-layout.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.i-amphtml-element > i-amphtml-sizer
+beta.washingtonpost.com##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element > i-amphtml-sizer
+beta.washingtonpost.com##.mb-lg.btn-full.btn-white.btn.comments
+www.washingtontimes.com##.bigtext > hr:nth-of-type(2)
+www.digminecraft.com###first_slot
+www.digminecraft.com##.top_slot.slot
+www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
+www.photographyblog.com##.comment
+edigitalreviews.com##.jnews_module_639_1_5d27e95ca76d6.jeg_col_1o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_21
+www.cameralabs.com###gk-social-api
+||f.vimeocdn.com/p/external/sentry.min.js
+||player.vimeo.com/_csp
+||the-digital-picture.com/Scripts/bioep.js
+||edigitalreviews.com/?ajax-request=jnews
+||cameradecision.com/js/report.js
+www.the-digital-picture.com##.SocialFloatTop
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 
 # AdGuard
+cloudflare.com$third-party,cookie
+highcharts.com$third-party,cookie
+adorama.com$third-party,cookie
 $webrtc,domain=xda-developers.com
+$webrtc,domain=vimeo.com
 $webrtc,domain=4chan.org
 $webrtc,domain=8ch.net
 $webrtc,domain=kiwifarms.net
@@ -16293,6 +16343,14 @@ $webrtc,domain=lifewire.com
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/scr/pixel.gif
+/?callback=*.update_facebook_count
+/riveted.min.js
+/autotrack.js
+/HubspotToolsMenu/static-*/
+/hubfs/
+/case-adv.jpg
+/_hcms/forms/
 /jsonip?
 /csp_report?
 /google-analyticator/
