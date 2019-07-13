@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 16.7K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Thursday, July 11, 2019
+! Last Updated on Saturday, July 13, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -5674,6 +5674,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fera.ai
 0.0.0.0 feedbackify.com
 0.0.0.0 freegeoip-rm.herokuapp.com
 0.0.0.0 fetchback.com
@@ -9665,6 +9666,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 srepdata.azcentral.com
 0.0.0.0 seeip.org
 0.0.0.0 sellpoint.net
 0.0.0.0 searchiq.co
@@ -11201,6 +11203,9 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 usapi1.xirsys.com
+0.0.0.0 usapi2.xirsys.com
+0.0.0.0 usapi3.xirsys.com
 0.0.0.0 udc.yahoo.com
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ui.staples-sparx.com
@@ -11782,6 +11787,7 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xirsys.com
 0.0.0.0 xml.adright.co
 0.0.0.0 x.heyzap.com
 0.0.0.0 xx975.com
@@ -16303,6 +16309,23 @@ www.cameralabs.com###gk-social-api
 ||edigitalreviews.com/?ajax-request=jnews
 ||cameradecision.com/js/report.js
 www.the-digital-picture.com##.SocialFloatTop
+www.nytimes.com##div.egw6tc41.css-70rfte:nth-of-type(2)
+www.nytimes.com##div.egw6tc41.css-70rfte:nth-of-type(1)
+www.nytimes.com##.egw6tc40.css-11lb1zg
+www.nytimes.com##.vi_dock.css-10klw3m
+www.nytimes.com##.ejw0p350.css-9ghvn0
+www.nytimes.com##.e1x0szx60.css-1xz93ux.standard.shown.meter_default
+www.nytimes.com##.css-i29ckm
+||cdn.fera.ai/js/fera.js?shop=peep-case.myshopify.com
+||d1buj3lvc9ukyl.cloudfront.net/intlTelInput.js
+||godog.shopifycloud.com/v1/event.gif
+||absolutedouble.co.uk/trace/app/js/trace.js
+||getspace-52c7.kxcdn.com/wp-content/plugins/iphorm-form-builder/js/swfupload.min.js
+||get.space/assets/utm.js
+||get.space/wp-admin/admin-ajax.php
+||9p1bb7fwdf.execute-api.us-east-1.amazonaws.com/prod/get-signaling-host/TPwie5-*/host
+||api.gannett-cdn.com/universal-web-cam-messaging/api/atoms/journey/PPHX/CP/control?
+||azcentral.com/services/breaking-news/nav-bar/?
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16311,6 +16334,7 @@ dailycaller.com#@$#header { position: absolute !important; height: 155px !import
 cloudflare.com$third-party,cookie
 highcharts.com$third-party,cookie
 adorama.com$third-party,cookie
+yeps.io$third-party,cookie
 $webrtc,domain=xda-developers.com
 $webrtc,domain=vimeo.com
 $webrtc,domain=4chan.org
