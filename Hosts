@@ -176,6 +176,9 @@
 0.0.0.0 com-fasting.live
 
 ! Apple
+0.0.0.0 iad.apple.com
+0.0.0.0 chein-1.apple.com
+0.0.0.0 albert.apple.com
 0.0.0.0 search.itunes.apple.com
 0.0.0.0 sf-api-token-service.itunes.apple.com
 0.0.0.0 tr.iadsdk.apple.com
@@ -817,6 +820,10 @@
 0.0.0.0 tungsten.aaplimg.com
 0.0.0.0 sesto4-vip-bx-007.aaplimg.com
 0.0.0.0 uklon6-vip-bx-002.aaplimg.com
+0.0.0.0 appldnld.apple.com
+||albert.apple.com/deviceservices/phoneHome
+||albert.apple.com/deviceservices/activity
+||xp.apple.com/report/2/psr_ota
 
 !A
 0.0.0.0 assets.dennisnet.co.uk
@@ -3898,6 +3905,7 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 credomobile.com
 0.0.0.0 cdn.feedbackify.com
 0.0.0.0 cstream.wi-fi.ru
 0.0.0.0 cbs.wondershare.com
@@ -5346,6 +5354,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 eas3.msg.t-mobile.com
 0.0.0.0 eqx.smartadserver.com
 0.0.0.0 ea.logging.admicro.vn
 0.0.0.0 e.eclick.vn
@@ -6402,6 +6411,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ims.vz.ne
 0.0.0.0 ip4.seeip.org
 0.0.0.0 ip.seeip.org
 0.0.0.0 industrybrains.com
@@ -8393,11 +8403,9 @@
 0.0.0.0 mediad.co.jp
 0.0.0.0 mediaglacier.com
 0.0.0.0 mobile.pipe.aria.microsoft.com
-0.0.0.0 myvzweb.verizon.com
 0.0.0.0 memcache.clients6.google.com
 0.0.0.0 ml.clients6.google.com
 0.0.0.0 mobilecrashreporting.clients6.google.com
-0.0.0.0 myvzw.com
 0.0.0.0 main.exdynsrv.com
 0.0.0.0 media-rep.com
 0.0.0.0 men.mittenscissors.pw
@@ -8731,6 +8739,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 offers.t-mobile.com
 0.0.0.0 org.zaloapp.ads.zdn.vn
 0.0.0.0 onfiretoretire.net
 0.0.0.0 ongage.net
@@ -8887,6 +8896,8 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pcweb.tmobile.com
+0.0.0.0 pdn.applovin.com
 0.0.0.0 photography-blog-1.disqus.com
 0.0.0.0 p.d.1emn.com
 0.0.0.0 pix.ssp.otm-r.com
@@ -9666,6 +9677,7 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 spc.myvzw.com
 0.0.0.0 srepdata.azcentral.com
 0.0.0.0 seeip.org
 0.0.0.0 sellpoint.net
@@ -11344,6 +11356,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vzims.com
 0.0.0.0 vc-mvt-pixel-80.vc-networks.com
 0.0.0.0 vietad.vn
 0.0.0.0 vcmedia.com
@@ -16326,6 +16339,13 @@ www.nytimes.com##.css-i29ckm
 ||9p1bb7fwdf.execute-api.us-east-1.amazonaws.com/prod/get-signaling-host/TPwie5-*/host
 ||api.gannett-cdn.com/universal-web-cam-messaging/api/atoms/journey/PPHX/CP/control?
 ||azcentral.com/services/breaking-news/nav-bar/?
+||spc.myvzw.com/ium-roadrunnerinterface/servlet/iumservlet
+||google.com/dfp/
+||google.com/dfp/inapppreview
+||google.com/dfp/debugsignals
+||google.com/dfp/senddebugdata
+||google.com/dfp/linkdevice
+||api.t-mobile.com/v1/logs
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16476,7 +16496,6 @@ _Affiliate
 /framework/js/ssa.firefly.body.js
 /js/respond.js
 /js/platform.js
-/app.min.js
 /jwplayer-20/assets/images/favicon.ico
 /jwplayer-20/assets/images/favicon-152.png
 /jwplayer-20/assets/images/favicon-144.png
