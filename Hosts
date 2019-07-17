@@ -826,6 +826,7 @@
 ||xp.apple.com/report/2/psr_ota
 
 !A
+0.0.0.0 app.trialfire.com
 0.0.0.0 adunblock.com
 0.0.0.0 analytics.tout.com
 0.0.0.0 api.circularhub.com
@@ -3078,6 +3079,8 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 best.discord.media
+0.0.0.0 bidswitch.net
 0.0.0.0 bannerflow.com
 0.0.0.0 b.blueserving.com
 0.0.0.0 blog.adsota.com
@@ -3911,6 +3914,8 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.trialfire.com
+0.0.0.0 c.disquscdn.com
 0.0.0.0 circularhub.com
 0.0.0.0 cpagrip.com
 0.0.0.0 contentlockingnetworks.com
@@ -4761,6 +4766,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dealer.spotify.com
 0.0.0.0 dap.digitalgov.gov
 0.0.0.0 daily-caller-d.openx.net
 0.0.0.0 d.href.asia
@@ -5236,6 +5242,7 @@
 0.0.0.0 driftt.com
 0.0.0.0 data.logentries.com
 0.0.0.0 di.rlcdn.com
+0.0.0.0 di.phncdn.com
 0.0.0.0 dotcomsecrets.com
 0.0.0.0 dmvorg.s3.amazonaws.com
 0.0.0.0 device-api.urbanairship.com
@@ -6395,6 +6402,7 @@
 0.0.0.0 h4.analytics.126.net
 0.0.0.0 h5.analytics.126.net
 0.0.0.0 hit1.hotlog.ru
+0.0.0.0 hubt.pornhub.com
 0.0.0.0 h.zedo.com
 0.0.0.0 hk.adserver.yahoo.com
 0.0.0.0 http.edge.ru4.com
@@ -9819,6 +9827,7 @@
 0.0.0.0 sunmaker.com
 0.0.0.0 s.smopy.com
 0.0.0.0 smopy.com
+0.0.0.0 smpop.icfcdn.com
 0.0.0.0 statsfe1.ws.microsoft.com
 0.0.0.0 samsungads.com
 0.0.0.0 stats.glb.paypal.com
@@ -10773,6 +10782,8 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 trialfire.com
+0.0.0.0 thehill-v4.disqus.com
 0.0.0.0 tse1.mm.bing.net
 0.0.0.0 thikraik.net
 0.0.0.0 trakingpixel.com
@@ -11524,6 +11535,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 webchat.hammer-corp.com
 0.0.0.0 waust.at
 0.0.0.0 whatbrowser.org
 0.0.0.0 wufoo.com
@@ -11829,6 +11841,7 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 x.bidswitch.net
 0.0.0.0 xp-krapp.picooapp.com
 0.0.0.0 xirsys.com
 0.0.0.0 xml.adright.co
@@ -16296,6 +16309,9 @@ thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--ad
 ||dolohen.com$third-party,cookie
 ||converto.io/img/favicons/manifest.json
 ||rinsouxy.com/style.css
+||ci.phncdn.com/www-static/js/widgets-live-popup.js?$important
+||ci.phncdn.com/www-static/js/premium/premium-modals.js?$important
+||pornhub.com/svvt/add$important
 ||cstream.wi-fi.ru/divolte.js
 ||sentry.develop.wi-fi.ru/api/16/store/?sentry_key=1fcc08333b5943098d057f27c17c890e&sentry_version=7
 ||cdn.dmp.wi-fi.ru/tm.js?id=2cdc85b2-c791-43ee-bc12-0a42a9cb2557
@@ -16431,6 +16447,9 @@ www.record.pt##.mt-4.masthead_02.container > .masthead_pub
 www.record.pt##.mt-4.masthead_03.container > .masthead_pub
 www.record.pt##.mt-4.masthead_04.container
 www.record.pt##.mt-4.leaderboard_footer.container
+||*-static-shared.*.com/iframe-1.1.5.html
+||basicattentiontoken.org/wp-content/themes/Divi/core/admin/js/common.js?
+||discordapp.com/api/v6/science
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16440,6 +16459,7 @@ cloudflare.com$third-party,cookie
 highcharts.com$third-party,cookie
 adorama.com$third-party,cookie
 yeps.io$third-party,cookie
+trialfire.com$cookie
 $webrtc,domain=xda-developers.com
 $webrtc,domain=vimeo.com
 $webrtc,domain=4chan.org
@@ -16465,6 +16485,12 @@ $webrtc,domain=lifewire.com
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/analytics/track/
+/events?app_id=
+/mixpanel-2-latest.min.js
+/*-tracking.js?
+/events?app_id=
+/htmlPauseRoll/pb_block_controller.js?
 /google-tracking/
 /adblock-notify-by-bweb/
 /caos-analytics/
@@ -16719,7 +16745,6 @@ _Affiliate
 /mtiFontTrackingCode.js
 /__utm.gif
 /_utm.gif
-/get_video_info/
 /generate_204/
 /images/public/devicead/t/r/a/m/daartpralbumart_500W_500H.jpg
 /util/mediaserverPublicRedirect.jsp
@@ -16819,10 +16844,6 @@ _Affiliate
 /ads/carbonads/carbon-modified.js
 /mput?topic=metrics
 /spacer_tr.gif
-/melody/v1/logging/jssdk_playback_stats
-/melody/v1/logging/jssdk_warning
-/metrics-backend/v1/metric
-/melody/v1/product_state
 /api/stats/
 /sas/analytics
 /analytics/iframe.html
@@ -17030,3 +17051,9 @@ _Affiliate
 ###index-ad
 ##.ad_text
 ##.ad_leaderboard
+##.ad-link
+##.ad-src
+##.AdsStyle
+##.removeAdsStyle
+##.sponsored-text
+##.sponsor-text
