@@ -4,7 +4,7 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Number Of Ad Services, Trackers, And Malware Blocked: 16.7K (uBlock)
+! Number Of Ad Services, Trackers, And Malware Blocked: 16.88K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
 ! Last Updated on Tuesday, July 16, 2019
 
@@ -16465,6 +16465,7 @@ $webrtc,domain=lifewire.com
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/google-tracking/
 /adblock-notify-by-bweb/
 /caos-analytics/
 /mod_pagespeed_beacon?
