@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 16.7K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Saturday, July 13, 2019
+! Last Updated on Tuesday, July 16, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -826,6 +826,11 @@
 ||xp.apple.com/report/2/psr_ota
 
 !A
+0.0.0.0 adunblock.com
+0.0.0.0 analytics.tout.com
+0.0.0.0 api.circularhub.com
+0.0.0.0 a.et.nytimes.com
+0.0.0.0 adscendmedia.com
 0.0.0.0 assets.dennisnet.co.uk
 0.0.0.0 analytics.businessinsider.com
 0.0.0.0 analytics.wonderanal.com
@@ -3073,6 +3078,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bannerflow.com
 0.0.0.0 b.blueserving.com
 0.0.0.0 blog.adsota.com
 0.0.0.0 babe.ants.vn
@@ -3905,6 +3911,11 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 circularhub.com
+0.0.0.0 cpagrip.com
+0.0.0.0 contentlockingnetworks.com
+0.0.0.0 cds.*.hwcdn.net
+0.0.0.0 cds.j3z9t3p6.hwcdn.net
 0.0.0.0 credomobile.com
 0.0.0.0 cdn.feedbackify.com
 0.0.0.0 cstream.wi-fi.ru
@@ -5354,6 +5365,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 et.nytimes.com
 0.0.0.0 eas3.msg.t-mobile.com
 0.0.0.0 eqx.smartadserver.com
 0.0.0.0 ea.logging.admicro.vn
@@ -6225,6 +6237,9 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 host.bannerflow.com
+0.0.0.0 h2.twitch.map.fastly.net
+0.0.0.0 homeitmaster.com
 0.0.0.0 hasoffers.com
 0.0.0.0 hits.blog.sina.com.cn
 0.0.0.0 html.polyad.net
@@ -7875,6 +7890,8 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 localfusion.secure.ownlocal.com
+0.0.0.0 loxtk.com
 0.0.0.0 logging.trakingpixel.com
 0.0.0.0 linkcash.co
 0.0.0.0 log.analytics-logs.club
@@ -8098,6 +8115,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mas.t-mobile.com
 0.0.0.0 mms.expertreviews.co.uk
 0.0.0.0 modernizr.com
 0.0.0.0 mg.steepto.com
@@ -8739,6 +8757,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 ownlocal.com
 0.0.0.0 offers.t-mobile.com
 0.0.0.0 org.zaloapp.ads.zdn.vn
 0.0.0.0 onfiretoretire.net
@@ -8896,6 +8915,10 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 partner.sbaffiliates.com
+0.0.0.0 pymx5.com
+0.0.0.0 pki-goog.l.google.com
+0.0.0.0 photos-ugc.l.googleusercontent.com
 0.0.0.0 pcweb.tmobile.com
 0.0.0.0 pdn.applovin.com
 0.0.0.0 photography-blog-1.disqus.com
@@ -9355,6 +9378,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qtechbpo.in
 0.0.0.0 qccoccocmedia.vn
 0.0.0.0 qc.coccoc.vn
 0.0.0.0 qc.coccoc.com
@@ -9677,6 +9701,11 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sportingbet-affiliate.host.bannerflow.com
+0.0.0.0 sbaffiliates.com
+0.0.0.0 samizdat-graphql.nytimes.com
+0.0.0.0 secure.ownlocal.com
+0.0.0.0 shasta-mrs.symantec.com
 0.0.0.0 spc.myvzw.com
 0.0.0.0 srepdata.azcentral.com
 0.0.0.0 seeip.org
@@ -11800,6 +11829,7 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xp-krapp.picooapp.com
 0.0.0.0 xirsys.com
 0.0.0.0 xml.adright.co
 0.0.0.0 x.heyzap.com
@@ -11850,6 +11880,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 ytimg-edge-static.l.google.com
 0.0.0.0 yb.163yun.com
 0.0.0.0 yumimobi.com
 0.0.0.0 yollamedia.com
@@ -12200,6 +12231,8 @@
 0.0.0.0 zyqlfplqdgxu.com
 
 ! IPs
+0.0.0.0 173.194.162.104
+0.0.0.0 176.103.133.133
 0.0.0.0 99.84.168.24
 0.0.0.0 23.201.42.136
 0.0.0.0 40.138.0.13
@@ -12551,6 +12584,7 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 176-103-133-133.flops.ru
 0.0.0.0 11165151.searchiq.co
 0.0.0.0 1.allyes.com.cn
 0.0.0.0 466453.com
@@ -16346,6 +16380,57 @@ www.nytimes.com##.css-i29ckm
 ||google.com/dfp/senddebugdata
 ||google.com/dfp/linkdevice
 ||api.t-mobile.com/v1/logs
+||redditmedia.com/gtm/jail?
+||static01.nyt.com/ads/google/adsbygoogle.js$important,third-party
+||news.google.com/_/DotsSplashUi/jserror?
+||news.google.com/_/DotsSplashUi/browserinfo?
+||tinyurl.com/zl2kxmq
+www.crestonnews.com###ad-billboard-20
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(1)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(2)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(3)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(4)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(5)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(6)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(7)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(8)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(9)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(10)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(11)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(12)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(13)
+www.oxfordonlineenglish.com##.ui-dialog-buttons.oxf-login.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog > .ui-helper-clearfix.ui-widget-content.ui-dialog-buttonpane
+||www.oxfordonlineenglish.com/wp-content/plugins/ooe-login-reg-sendy/images/ui-bg_highlight-soft_100_deedf7_1x100.png$image
+www.oxfordonlineenglish.com##.ui-dialog-buttons.oxf-login.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog > .ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar
+www.oxfordonlineenglish.com##.ui-dialog-buttons.oxf-login.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
+www.oxfordonlineenglish.com##.sticky-wrapper
+www.oxfordonlineenglish.com###repuso_floating_iframe
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(14)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(15)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(16)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(17)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(18)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(19)
+www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(20)
+www.crestonnews.com##.ownlocal-widget > iframe
+www.crestonnews.com##.ownlocal-widget
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(1) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(2)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(1) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(3)
+www.crestonnews.com##.side > div.innertube:nth-of-type(4)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(1) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.crestonnews.com##.side > div.innertube:nth-of-type(5)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(2) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(3) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(4) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(5) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(6) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(7) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(8) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(9) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(1)
+www.record.pt##.mt-4.masthead_02.container > .masthead_pub
+www.record.pt##.mt-4.masthead_03.container > .masthead_pub
+www.record.pt##.mt-4.masthead_04.container
+www.record.pt##.mt-4.leaderboard_footer.container
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16380,6 +16465,17 @@ $webrtc,domain=lifewire.com
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 # Wildcard
+/adblock-notify-by-bweb/
+/caos-analytics/
+/mod_pagespeed_beacon?
+/plugins/ibd-block-adblocker/
+/plugins/noadblock-nice-message/
+/jquery.adblock-detector.js$script
+/adblock-detector.js
+/plugins/ad-blocking-advisor/
+/plugins/ad-block-defender/
+/plugins/deadblocker/
+/scripts/load_tags.js
 /scr/pixel.gif
 /?callback=*.update_facebook_count
 /riveted.min.js
