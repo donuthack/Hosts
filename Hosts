@@ -826,6 +826,8 @@
 ||xp.apple.com/report/2/psr_ota
 
 !A
+0.0.0.0 awin.com
+0.0.0.0 ailiyou1999.com
 0.0.0.0 app.trialfire.com
 0.0.0.0 adunblock.com
 0.0.0.0 analytics.tout.com
@@ -4766,6 +4768,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dwin1.com
 0.0.0.0 dealer.spotify.com
 0.0.0.0 dap.digitalgov.gov
 0.0.0.0 daily-caller-d.openx.net
@@ -5702,6 +5705,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 footprintdns.com
 0.0.0.0 fera.ai
 0.0.0.0 feedbackify.com
 0.0.0.0 freegeoip-rm.herokuapp.com
@@ -7139,6 +7143,7 @@
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kvz7327.com
 0.0.0.0 kvideo.io
 0.0.0.0 kdata.fr
 0.0.0.0 k.googlevideo.com
@@ -8123,6 +8128,26 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mobile-ad-cloud.com
+0.0.0.0 mobfox.com
+0.0.0.0 mobfactory.info
+0.0.0.0 mnetads.com
+0.0.0.0 moatpixel.com
+0.0.0.0 mmtrack72.co.uk
+0.0.0.0 mmtrack73.co.uk
+0.0.0.0 mmtrack74.co.uk
+0.0.0.0 mmtrack75.co.uk
+0.0.0.0 mmtrack76.co.uk
+0.0.0.0 mmtrack77.co.uk
+0.0.0.0 mmtrack78.co.uk
+0.0.0.0 mmtrack79.co.uk
+0.0.0.0 mmetrics.mobi
+0.0.0.0 mmetrics.net
+0.0.0.0 mmetrics.com
+0.0.0.0 mmetrics.org
+0.0.0.0 mmetrix.mobi
+0.0.0.0 mlsend2.com
+0.0.0.0 mlb.did.ijinshan.com
 0.0.0.0 mas.t-mobile.com
 0.0.0.0 mms.expertreviews.co.uk
 0.0.0.0 modernizr.com
@@ -9461,6 +9486,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rgmgocplioed.com
 0.0.0.0 revjet.com
 0.0.0.0 rinsouxy.com
 0.0.0.0 redirect2719.ws
@@ -9709,6 +9735,10 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 smaato.com
+0.0.0.0 ssw.live.com
+0.0.0.0 s2.symbc.com
+0.0.0.0 symbc.com
 0.0.0.0 sportingbet-affiliate.host.bannerflow.com
 0.0.0.0 sbaffiliates.com
 0.0.0.0 samizdat-graphql.nytimes.com
@@ -12039,6 +12069,14 @@
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zenaps.com
+0.0.0.0 zepteo.com
+0.0.0.0 zhongzifuli.com
+0.0.0.0 zhongzishenqi.com
+0.0.0.0 ziffdavisinternational.com
+0.0.0.0 zoomanalytics.co
+0.0.0.0 zzhengre.com
+0.0.0.0 zzword.com
 0.0.0.0 znbqj3egyjwfzib9r-communicatehealth.siteintercept.qualtrics.com
 0.0.0.0 zaloapp.ads.zdn.vn
 0.0.0.0 zplayer-trk.zdn.vn
@@ -12597,6 +12635,7 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 715699.com
 0.0.0.0 176-103-133-133.flops.ru
 0.0.0.0 11165151.searchiq.co
 0.0.0.0 1.allyes.com.cn
