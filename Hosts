@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 16.88K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Tuesday, July 16, 2019
+! Last Updated on Thursday, July 18, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -3916,6 +3916,9 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 crta.dailymail.co.uk
+0.0.0.0 cdn.report-uri.com
+0.0.0.0 concertads-configs.*.*
 0.0.0.0 cdn.trialfire.com
 0.0.0.0 c.disquscdn.com
 0.0.0.0 circularhub.com
@@ -4768,6 +4771,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dm3p.wns.notify.windows.com.akadns.net
 0.0.0.0 dwin1.com
 0.0.0.0 dealer.spotify.com
 0.0.0.0 dap.digitalgov.gov
@@ -5375,6 +5379,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 e13678.dspb.akamaiedge.net
 0.0.0.0 et.nytimes.com
 0.0.0.0 eas3.msg.t-mobile.com
 0.0.0.0 eqx.smartadserver.com
@@ -5705,6 +5710,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fff.dailymail.co.uk
 0.0.0.0 footprintdns.com
 0.0.0.0 fera.ai
 0.0.0.0 feedbackify.com
@@ -5939,6 +5945,8 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 github.map.fastly.net
+0.0.0.0 gs.dailymail.co.uk
 0.0.0.0 goreal.at
 0.0.0.0 gallery.smartadserver.com
 0.0.0.0 gallery.adtima.vn
@@ -6438,6 +6446,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 id5-sync.com
 0.0.0.0 ims.vz.ne
 0.0.0.0 ip4.seeip.org
 0.0.0.0 ip.seeip.org
@@ -7143,6 +7152,7 @@
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 krk.kargo.com
 0.0.0.0 kvz7327.com
 0.0.0.0 kvideo.io
 0.0.0.0 kdata.fr
@@ -8128,6 +8138,17 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 *-microsoft.siteintercept.qualtrics.com
+0.0.0.0 mkt*1.com
+0.0.0.0 mkt*2.com
+0.0.0.0 mkt*3.com
+0.0.0.0 mkt*4.com
+0.0.0.0 mkt*5.com
+0.0.0.0 mkt*6.com
+0.0.0.0 mkt*7.com
+0.0.0.0 mkt*8.com
+0.0.0.0 mkt*9.com
+0.0.0.0 mailonline-us-d.openx.net
 0.0.0.0 mobile-ad-cloud.com
 0.0.0.0 mobfox.com
 0.0.0.0 mobfactory.info
@@ -8948,6 +8969,8 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pr-bh.ybp.yahoo.com
+0.0.0.0 prebid-server.rubiconproject.com
 0.0.0.0 partner.sbaffiliates.com
 0.0.0.0 pymx5.com
 0.0.0.0 pki-goog.l.google.com
@@ -9411,6 +9434,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qualtrics.com
 0.0.0.0 qtechbpo.in
 0.0.0.0 qccoccocmedia.vn
 0.0.0.0 qc.coccoc.vn
@@ -9486,6 +9510,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 report-uri.com
 0.0.0.0 rgmgocplioed.com
 0.0.0.0 revjet.com
 0.0.0.0 rinsouxy.com
@@ -9735,6 +9760,9 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 settingsfd-geo.trafficmanager.net
+0.0.0.0 s.qualtrics.com
+0.0.0.0 swa.and.co.uk
 0.0.0.0 smaato.com
 0.0.0.0 ssw.live.com
 0.0.0.0 s2.symbc.com
@@ -10812,6 +10840,8 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 time.microsoft.akadns.net
+0.0.0.0 trafficmanager.net
 0.0.0.0 trialfire.com
 0.0.0.0 thehill-v4.disqus.com
 0.0.0.0 tse1.mm.bing.net
@@ -15265,7 +15295,7 @@
 0.0.0.0 1e100.net
 
 
-# Blocking specific things on domains
+# Advanced Blocking
 duckduckgo.com#@#.has-ad
 iprvl.co###pref-label
 iprvl.co##.footer > span
@@ -16488,7 +16518,31 @@ www.record.pt##.mt-4.masthead_04.container
 www.record.pt##.mt-4.leaderboard_footer.container
 ||*-static-shared.*.com/iframe-1.1.5.html
 ||basicattentiontoken.org/wp-content/themes/Divi/core/admin/js/common.js?
-||discordapp.com/api/v6/science
+||||discordapp.com/api/v6/experiments
+||.vox.com/services/entry_stats?
+||dailymail.co.uk/rta2/v-0.45.min.js
+||dailymail.co.uk/static/mol-adverts/
+||dailymail.co.uk/static/mol-fe/static/mol-fe-async-bundle//5.13.4/articleDefer.js
+||dailymail.co.uk/static/mol-adverts/1428/mol-adverts.js
+||i.dailymail.co.uk/i/furniture/articles/spt_socialicons_40x40eachbttn9.png
+||dailymail.co.uk/manifest.json
+||dailymail.co.uk/static/gunther/17.11.0/async_bundle--.js
+||i.dailymail.co.uk/i/furniture/facebook/DailyMail/DailyMail.png
+discordapp.com##+js(abort-on-property-write.js, Fingerprint2)
+www.dailymail.co.uk##.facebook-like-static
+www.dailymail.co.uk###infinite-list > .wocc
+www.dailymail.co.uk##.rc-content > .link-ccow.rc-header
+www.dailymail.co.uk##.comment-form.bogr1
+www.dailymail.co.uk###reader-comments > .link-ccow.rc-header
+www.dailymail.co.uk##.rc-info.wogr5.pad5.bold
+www.dailymail.co.uk##.cleared.xogr5.view-more-container-bottom.view-more-container
+www.dailymail.co.uk##.rc-content
+www.dailymail.co.uk##.mini.shallow-ac
+www.dailymail.co.uk##.cnr5.bing > .cleared
+www.dailymail.co.uk###taboola-top-carousel-thumbnails
+www.dailymail.co.uk##.beta_search_wrapper.item
+www.dailymail.co.uk###content > div:nth-of-type(2) > div:nth-of-type(2)
+www.dailymail.co.uk##.module.puff_pastel.item.tvshowbiz
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16499,6 +16553,7 @@ highcharts.com$third-party,cookie
 adorama.com$third-party,cookie
 yeps.io$third-party,cookie
 trialfire.com$cookie
+dailymail.co.uk$cookie
 $webrtc,domain=xda-developers.com
 $webrtc,domain=vimeo.com
 $webrtc,domain=4chan.org
@@ -16522,8 +16577,13 @@ $webrtc,domain=nsa.gov
 $webrtc,domain=lifewire.com
 8ch.net#$#body { padding-top: 0 !important; }
 digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 
 # Wildcard
+/mol-adverts/
+/iphone_ad_*
+/i/pix/promoboxes/
+/entry_stats?
 /analytics/track/
 /events?app_id=
 /mixpanel-2-latest.min.js
