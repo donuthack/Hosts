@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.07K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Thursday, July 18, 2019
+! Last Updated on Monday, July 22, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -826,6 +826,7 @@
 ||xp.apple.com/report/2/psr_ota
 
 !A
+0.0.0.0 adm.shinobi.jp
 0.0.0.0 an.facebook.com
 0.0.0.0 array602-prod.do.dsp.mp.microsoft.com
 0.0.0.0 api.postknight.com
@@ -16594,6 +16595,11 @@ www.dailymail.co.uk##.module.puff_pastel.item.tvshowbiz
 ||toppan.com/assets/en/img/subcopy.svg
 ||toppan.com/assets/mov/top/header.mp4
 ||cdn.registerdisney.go.com/v2/outer/DisneyID.js$domain=fivethirtyeight.com
+||static.parastorage.com/services/third-party$font
+||static.parastorage.com/cdn_detect$third-party
+||static.parastorage.com/unpkg/react@16.6.3/umd/react.production.min.js
+||static.parastorage.com/unpkg/react@16.6.3/umd/react.production.min.js
+||static.parastorage.com/unpkg/react-dom@16.6.3/umd/react-dom.production.min.js
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
