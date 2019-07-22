@@ -826,6 +826,10 @@
 ||xp.apple.com/report/2/psr_ota
 
 !A
+0.0.0.0 an.facebook.com
+0.0.0.0 array602-prod.do.dsp.mp.microsoft.com
+0.0.0.0 api.postknight.com
+0.0.0.0 aol.com
 0.0.0.0 awin.com
 0.0.0.0 ailiyou1999.com
 0.0.0.0 app.trialfire.com
@@ -3081,6 +3085,7 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bebi.com
 0.0.0.0 best.discord.media
 0.0.0.0 bidswitch.net
 0.0.0.0 bannerflow.com
@@ -3916,6 +3921,9 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 chocolateplatform.com
+0.0.0.0 clickterra.net
+0.0.0.0 click-plus.net
 0.0.0.0 crta.dailymail.co.uk
 0.0.0.0 cdn.report-uri.com
 0.0.0.0 concertads-configs.*.*
@@ -4452,7 +4460,6 @@
 0.0.0.0 china-netwave.com
 0.0.0.0 clickmedias.info
 0.0.0.0 c.nakanohito.jp
-0.0.0.0 cs.nakanohito.jp
 0.0.0.0 cognito-identity.us-east-1.amazonaws.com
 0.0.0.0 consensu.org
 0.0.0.0 click.a-ads.com
@@ -4771,6 +4778,8 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dot-metrix.com
+0.0.0.0 dfltweb1.onamae.com
 0.0.0.0 dm3p.wns.notify.windows.com.akadns.net
 0.0.0.0 dwin1.com
 0.0.0.0 dealer.spotify.com
@@ -5379,6 +5388,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 europacash.com
 0.0.0.0 e13678.dspb.akamaiedge.net
 0.0.0.0 et.nytimes.com
 0.0.0.0 eas3.msg.t-mobile.com
@@ -5945,6 +5955,7 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 global-dealer-ssl.spotify.com
 0.0.0.0 github.map.fastly.net
 0.0.0.0 gs.dailymail.co.uk
 0.0.0.0 goreal.at
@@ -6256,6 +6267,7 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hrnorth.se
 0.0.0.0 host.bannerflow.com
 0.0.0.0 h2.twitch.map.fastly.net
 0.0.0.0 homeitmaster.com
@@ -6446,6 +6458,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 isboost.co.jp
 0.0.0.0 id5-sync.com
 0.0.0.0 ims.vz.ne
 0.0.0.0 ip4.seeip.org
@@ -7063,6 +7076,7 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 js.click-plus.net
 0.0.0.0 js.sportsbetaffiliates.com.au
 0.0.0.0 js.bronto.com
 0.0.0.0 jumbosolos.com
@@ -8138,6 +8152,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 moments.youversionapi.com
 0.0.0.0 *-microsoft.siteintercept.qualtrics.com
 0.0.0.0 mkt*1.com
 0.0.0.0 mkt*2.com
@@ -8969,6 +8984,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pq-direct.revsci.net
 0.0.0.0 pr-bh.ybp.yahoo.com
 0.0.0.0 prebid-server.rubiconproject.com
 0.0.0.0 partner.sbaffiliates.com
@@ -9510,6 +9526,7 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 report-uri.cloudflare.com
 0.0.0.0 report-uri.com
 0.0.0.0 rgmgocplioed.com
 0.0.0.0 revjet.com
@@ -9728,6 +9745,7 @@
 0.0.0.0 www.realtracker.com
 0.0.0.0 reporting.cpxinteractive.com
 0.0.0.0 reports.crashlytics.com
+0.0.0.0 router.infolinks.com
 0.0.0.0 resources.infolinks.com
 0.0.0.0 rover.ebay.com
 0.0.0.0 rubiconproject.com
@@ -9760,6 +9778,25 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 spicyoffers.com
+0.0.0.0 s.send.microad.jp
+0.0.0.0 script.tailsweep.com
+0.0.0.0 serve.vdopia.com
+0.0.0.0 servedby.hrnorth.se
+0.0.0.0 srv.bebi.com
+0.0.0.0 spnet.i-mobile.co.jp
+0.0.0.0 spnet1.i-mobile.co.jp
+0.0.0.0 spnet2.i-mobile.co.jp
+0.0.0.0 spnet3.i-mobile.co.jp
+0.0.0.0 spnet4.i-mobile.co.jp
+0.0.0.0 spnet5.i-mobile.co.jp
+0.0.0.0 spdeliver.i-mobile.co.jp
+0.0.0.0 spcdnsp.i-mobile.co.jp
+0.0.0.0 snap.snapmobile.asia
+0.0.0.0 snapmobile.asia
+0.0.0.0 st-hatena.com
+0.0.0.0 statics.a8.net
+0.0.0.0 settingsfd-prod-sn2-endpoint.trafficmanager.net
 0.0.0.0 settingsfd-geo.trafficmanager.net
 0.0.0.0 s.qualtrics.com
 0.0.0.0 swa.and.co.uk
@@ -10840,6 +10877,8 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tailsweep.com
+0.0.0.0 terraclicks.com
 0.0.0.0 time.microsoft.akadns.net
 0.0.0.0 trafficmanager.net
 0.0.0.0 trialfire.com
@@ -11456,6 +11495,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vdopia.com
 0.0.0.0 vzims.com
 0.0.0.0 vc-mvt-pixel-80.vc-networks.com
 0.0.0.0 vietad.vn
@@ -11901,6 +11941,8 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xp2.zedo.com
+0.0.0.0 x.castanet.net
 0.0.0.0 x.bidswitch.net
 0.0.0.0 xp-krapp.picooapp.com
 0.0.0.0 xirsys.com
@@ -15830,7 +15872,6 @@ dailywire.com##.remodal-is-opened
 dailywire.com##.remodal-overlay
 democracynow.org###campaign_modal
 democracynow.org###overlay
-democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 denverpost.com##.Mg2-connext
 denverpost.com##.connext-modal-backdrop
 denverpost.com##.modal-scrollable
@@ -16405,7 +16446,6 @@ thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--ad
 www.expertreviews.co.uk###sp_message_panel_id*
 www.expertreviews.co.uk###sp_message_id*
 www.expertreviews.co.uk##.sp_veil*
-expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 ||adorama.com/artworks2/spcr.gif$domain=kenrockwell.com
 ||adorama.com/artworks2/spcr.gif
 ||photographyblog.com/_js/badb.js
@@ -16543,11 +16583,31 @@ www.dailymail.co.uk###taboola-top-carousel-thumbnails
 www.dailymail.co.uk##.beta_search_wrapper.item
 www.dailymail.co.uk###content > div:nth-of-type(2) > div:nth-of-type(2)
 www.dailymail.co.uk##.module.puff_pastel.item.tvshowbiz
+||report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct
+||codecademy.com/logs/*
+||codecademy.com/stats/*
+||en.wikipedia.org/w/load.php$script
+||hello.myfonts.net/count^$stylesheet,font
+||api.abcnews.go.com/apollo/news/configuration/60550765
+||onamae.com/parking.html$third-party
+||toppan.com/assets/img/common/icon_location.svg
+||toppan.com/assets/en/img/subcopy.svg
+||toppan.com/assets/mov/top/header.mp4
+||cdn.registerdisney.go.com/v2/outer/DisneyID.js$domain=fivethirtyeight.com
 
 # Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
+verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
+pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
+pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
+pandora.com#$#.Fillet { margin-bottom: 5px !important; }
+8ch.net#$#body { padding-top: 0 !important; }
+digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 
 # AdGuard
+blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com#%#//scriptlet("prevent-bab")
 cloudflare.com$third-party,cookie
 highcharts.com$third-party,cookie
 adorama.com$third-party,cookie
@@ -16575,11 +16635,11 @@ $webrtc,domain=fdlp.gov
 $webrtc,domain=congress.gov
 $webrtc,domain=nsa.gov
 $webrtc,domain=lifewire.com
-8ch.net#$#body { padding-top: 0 !important; }
-digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 
 # Wildcard
+/abc-analytics/
+/a8sales.js
 /mol-adverts/
 /iphone_ad_*
 /i/pix/promoboxes/
