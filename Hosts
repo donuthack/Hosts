@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.07K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Monday, July 22, 2019
+! Last Updated on Wednesday, July 24, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -3086,6 +3086,8 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bwbx.io
+0.0.0.0 bbthat.com
 0.0.0.0 bebi.com
 0.0.0.0 best.discord.media
 0.0.0.0 bidswitch.net
@@ -10878,6 +10880,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tempest.services.disqus.com
 0.0.0.0 tailsweep.com
 0.0.0.0 terraclicks.com
 0.0.0.0 time.microsoft.akadns.net
@@ -16600,8 +16603,14 @@ www.dailymail.co.uk##.module.puff_pastel.item.tvshowbiz
 ||static.parastorage.com/unpkg/react@16.6.3/umd/react.production.min.js
 ||static.parastorage.com/unpkg/react@16.6.3/umd/react.production.min.js
 ||static.parastorage.com/unpkg/react-dom@16.6.3/umd/react-dom.production.min.js
+||youtube.com$subdocument,websocket
+||youtube.com/feed/subscriptions?pbj=1$domain=youtube.com
+||bbthat.com/api/alerts?site
+||neonnettle.com/assets/js/nn-ck.js
+||neonnettle.com/manifest.json
+||browserleaks.github.io/all.html
 
-# Fixes
+! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
@@ -16612,7 +16621,7 @@ digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: sc
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 
-# AdGuard
+! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com#%#//scriptlet("prevent-bab")
 cloudflare.com$third-party,cookie
 highcharts.com$third-party,cookie
@@ -16643,7 +16652,16 @@ $webrtc,domain=nsa.gov
 $webrtc,domain=lifewire.com
 discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 
-# Wildcard
+! Wildcard
+/fonts.js?
+/third-party.js
+/webgl.js?
+/*.gif?
+/ads20*
+/rects.js?
+?*connect.facebook.com
+/wp-content/plugins/snow-3d/
+/ads-iframe/
 /abc-analytics/
 /a8sales.js
 /mol-adverts/
@@ -17222,3 +17240,4 @@ _Affiliate
 ##.removeAdsStyle
 ##.sponsored-text
 ##.sponsor-text
+##.advertisement-comment
