@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.07K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Monday, July 29, 2019
+! Last Updated on Thursday, August 1, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -17,6 +17,7 @@
 @@||iheart.com
 @@||duckduckgo.com/util/u367.js$important
 @@||duckduckgo.com/d2643.js$important
+@@||youtube.com/embed$third-party
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -828,6 +829,13 @@
 ||xp.apple.com/report/2/psr_ota
 
 !A
+0.0.0.0 az416426.vo.msecnd.net
+0.0.0.0 adme-net.com
+0.0.0.0 api-cdn.chatlio.com
+0.0.0.0 array610-prod.do.dsp.mp.microsoft.com
+0.0.0.0 adplugg.com
+0.0.0.0 a.klaviyo.com
+0.0.0.0 analytics.getshogun.com
 0.0.0.0 adm.shinobi.jp
 0.0.0.0 an.facebook.com
 0.0.0.0 array602-prod.do.dsp.mp.microsoft.com
@@ -3927,6 +3935,8 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 chatlio.com
+0.0.0.0 cdn.justuno.com
 0.0.0.0 cs936.wpc.chicdn.net
 0.0.0.0 chocolateplatform.com
 0.0.0.0 clickterra.net
@@ -4785,6 +4795,10 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 d0f85db8ee56f5c6.com
+0.0.0.0 dcxbbadldgkw.com
+0.0.0.0 da2uwvc3too2a.cloudfront.net
+0.0.0.0 d9etzk30b05yg.cloudfront.net
 0.0.0.0 dot-metrix.com
 0.0.0.0 dfltweb1.onamae.com
 0.0.0.0 dm3p.wns.notify.windows.com.akadns.net
@@ -5395,6 +5409,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 entitlements.jwplayer.com
 0.0.0.0 europacash.com
 0.0.0.0 e13678.dspb.akamaiedge.net
 0.0.0.0 et.nytimes.com
@@ -5962,6 +5977,8 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 getgobot.com
+0.0.0.0 getshogun.com
 0.0.0.0 *-goog.l.google.com
 0.0.0.0 go.mobtrks.com
 0.0.0.0 global-dealer-ssl.spotify.com
@@ -6276,6 +6293,7 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 https-www-campusreform-org-3.disqus.com
 0.0.0.0 hrnorth.se
 0.0.0.0 host.bannerflow.com
 0.0.0.0 h2.twitch.map.fastly.net
@@ -6467,6 +6485,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 intg.snapchat.com
 0.0.0.0 isboost.co.jp
 0.0.0.0 id5-sync.com
 0.0.0.0 ims.vz.ne
@@ -7085,6 +7104,8 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 justuno.com
+0.0.0.0 js.rating-widget.com
 0.0.0.0 js.click-plus.net
 0.0.0.0 js.sportsbetaffiliates.com.au
 0.0.0.0 js.bronto.com
@@ -7175,6 +7196,7 @@
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 klaviyo.com
 0.0.0.0 krk.kargo.com
 0.0.0.0 kvz7327.com
 0.0.0.0 kvideo.io
@@ -8161,6 +8183,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 my.wickedreports.com
 0.0.0.0 mms.cnn.com
 0.0.0.0 muw1-shasta-rrs-prod01.westus.cloudapp.azure.com
 0.0.0.0 mobtrks.com
@@ -8838,6 +8861,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 oexbdfnbentzd.com
 0.0.0.0 our.antutu.net
 0.0.0.0 ownlocal.com
 0.0.0.0 offers.t-mobile.com
@@ -8997,6 +9021,7 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p.yotpo.com
 0.0.0.0 pq-direct.revsci.net
 0.0.0.0 pr-bh.ybp.yahoo.com
 0.0.0.0 prebid-server.rubiconproject.com
@@ -9539,6 +9564,8 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 ratingwidget.com
+0.0.0.0 rating-widget.com
 0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
 0.0.0.0 report-uri.cloudflare.com
 0.0.0.0 report-uri.com
@@ -9791,6 +9818,11 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 scripttags.justuno.com
+0.0.0.0 staticw2.yotpo.com
+0.0.0.0 secure.rating-widget.com
+0.0.0.0 shermore.info
+0.0.0.0 smarteucookiebanner.upsell-apps.com
 0.0.0.0 sbc.com
 0.0.0.0 sentitlement2.mobile.att.net
 0.0.0.0 spicyoffers.com
@@ -10892,6 +10924,9 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tracking-sales-pop.carecart.io
+0.0.0.0 troyhunt.disqus.com
+0.0.0.0 track.klickly.com
 0.0.0.0 toponclick.com
 0.0.0.0 tempest.services.disqus.com
 0.0.0.0 tailsweep.com
@@ -11652,6 +11687,8 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 w.chatlio.com
+0.0.0.0 wickedreports.com
 0.0.0.0 webchat.hammer-corp.com
 0.0.0.0 waust.at
 0.0.0.0 whatbrowser.org
@@ -12012,6 +12049,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yotpo.com
 0.0.0.0 ytimg-edge-static.l.google.com
 0.0.0.0 yb.163yun.com
 0.0.0.0 yumimobi.com
@@ -16689,6 +16727,45 @@ shadowban.eu###toast-container
 ||symantec.com/libs/granite/security/currentuser.json
 ||cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js?
 ||symantec.com/bin/symantec/displaystatus?
+||cdn.cnn.com/ads/cnn/singles/cnn_*_leaf.js
+||i.cdn.cnn.com/.a/2.160.2/assets/video_buffer_square_blk.gif
+||kcdn.file.org/images/transparancy.png
+||fonts.shopifycdn.com/avenir_next/*
+||lps.innogamescdn.com/media/js/metrics-*.min.js
+||snapchat.com/static/js/autotrack.js
+||snapchat.com/cookie-settings/src/cookiePopup.js
+||snapchat.com/static/js/country.js
+||snapchat.com/static/js/google-remark.js
+||csp-*.appspot.com/report_csp
+||gcp.api.snapchat.com/web/metrics
+||cdn.transifex.com/live.js
+||bloghelpers.troyhunt.com/api/BlogData
+||disqus.com/count.js
+||disqus.com/embed.js
+||shtfplan.com/wp-content/plugins/popup-builder/public/js/Popup.js?$domain=shtfplan.com
+||shtfplan.com/wp-content/plugins/popup-builder/public/js/PopupConfig.js?$domain=shtfplan.com
+||shtfplan.com/wp-content/plugins/popup-builder/public/js/PopupBuilder.js?$domain=shtfplan.com
+||infowarsmedia.com$cookie,third-party
+||*.infowarsmedia.com/videojs-event-tracking/
+||infowars.com/wp-content/themes/infowars-sitegoals/vendor/iframetracker/jquery.iframetracker.js
+||washingtonpost.com/wp-stat/pb/features/page/pmbl.js
+||washingtonpost.com/pb/resources/img/spacer-gray.png
+||washingtonpost.com/pb/gr/p/default-article/r0KLy8O9CNVuwr/instance.js?
+||s.abcnews.com/assets/js/FBAN_v2_4.js
+||ufirst.abcnews.go.com/news/gttlt
+||g.newsweek.com/www/js/advagg_font.js?
+||gc.newsweek.com/front/js/counter.js
+||sc-static.net/scevent.min.js
+||cdn.retentionrock.com/scripts/rocket-*
+www.shtfplan.com###sgpb-popup-dialog-main-div-wrapper
+www.shtfplan.com##.sgpb-popup-overlay.sgpb-popup-overlay-70142.sgpb-theme-3-overlay
+www.shtfplan.com###left_sidebar > div:nth-of-type(3)
+www.shtfplan.com###eo_subscribe
+www.shtfplan.com###post-article
+www.infowars.com###inline-comments > h1
+variety.com##.l-reviews__panel__ad
+deadline.com##.u-hidden\@desktop-max.u-align-items-center.u-flex-direction-column.u-flex
+deadline.com##.u-flex.pmc-a-grid-item.\/\/.header__actions
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16709,6 +16786,8 @@ adorama.com$third-party,cookie
 yeps.io$third-party,cookie
 trialfire.com$cookie
 dailymail.co.uk$cookie
+abcnewsvod-f.akamaihd.net$cookie
+iheart.com$cookie,third-party
 $webrtc,domain=xda-developers.com
 $webrtc,domain=vimeo.com
 $webrtc,domain=4chan.org
@@ -16731,8 +16810,22 @@ $webrtc,domain=congress.gov
 $webrtc,domain=nsa.gov
 $webrtc,domain=lifewire.com
 discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
+semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/shopify_justuno_*
+/wp-content/ads/
+/w.chatlio-widget.js
+/assets/track.js
+/www/delivery/asyncjs.php
+/*.iframetracker.js
+/iframetracker.js
+/widgets/disqus?
+/front/js/counter.js
+/raygun.min.js
+/apusers/serve/
+/*-scevent.js?
+/storefront/track?
 /ico_facebook.gif
 /ico_twitter.gif
 /adalyser.js
@@ -17124,6 +17217,9 @@ _Affiliate
 /_/items/newswars_ads
 /tracker?domain
 /fbi-gov/production/gateway.min.js
+##a[onclick^="_gaq.push(['_trackEvent', 'Banner',"]
+###cookie-law-info-bar
+##.block-fusion-ads
 ###right-ads-rail
 ##amp-ad
 ##amp-embed.ad_cnt
