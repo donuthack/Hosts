@@ -4,8 +4,8 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Number Of Ad Services, Trackers, And Malware Blocked: 17.07K (uBlock)
-! Removed the 1e100 section from main hosts but will remain in Anti Google
+! Versiion: 1.0.0.0
+! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Updated on Thursday, August 8, 2019
 
 ! Unbreak
@@ -16845,6 +16845,14 @@ deadline.com##.u-flex.pmc-a-grid-item.\/\/.header__actions
 ||redretarget.com/pull/*.myshopify.com/hook.js
 ||buzzfeed.com/static/js/advertiser$important
 asus.com###online-service
+www.ksnt.com##.zone-container--below-supernav
+||jetpack.wordpress.com/jetpack-comment$subdocument
+www.buzzfeednews.com##.comments-facebook
+www.bestchinanews.com##dl.function:nth-of-type(1)
+www.bestchinanews.com##dl.function:nth-of-type(3)
+||www.bestchinanews.com/1ydzximg/0EaQ4C4f9v$image
+www.mediafire.com##.grecaptcha-badge
+www.mediafire.com###minSocialLinks
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
