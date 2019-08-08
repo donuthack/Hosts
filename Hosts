@@ -6,7 +6,7 @@
 ! Expires: 1 day
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.07K (uBlock)
 ! Removed the 1e100 section from main hosts but will remain in Anti Google
-! Last Updated on Thursday, August 1, 2019
+! Last Updated on Thursday, August 8, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -829,6 +829,13 @@
 ||xp.apple.com/report/2/psr_ota
 
 !A
+0.0.0.0 ahf8n.com
+0.0.0.0 amanda.trktnc.com
+0.0.0.0 ampxchange.com
+0.0.0.0 azmobilestore.co
+0.0.0.0 alter.pandanetwork.tk
+0.0.0.0 adovr.com
+0.0.0.0 api.m4adata.com
 0.0.0.0 az416426.vo.msecnd.net
 0.0.0.0 adme-net.com
 0.0.0.0 api-cdn.chatlio.com
@@ -3096,6 +3103,9 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bob.dmpxs.com
+0.0.0.0 blob.blaprdstr08a.store.core.windows.net
+0.0.0.0 bj1110.online
 0.0.0.0 bc2-tuk1.chat.steamcontent.com
 0.0.0.0 bwbx.io
 0.0.0.0 bbthat.com
@@ -3935,6 +3945,8 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cs9.wpc.v0cdn.net
+0.0.0.0 chimera.ch
 0.0.0.0 chatlio.com
 0.0.0.0 cdn.justuno.com
 0.0.0.0 cs936.wpc.chicdn.net
@@ -4795,6 +4807,11 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dmx.upc.ubisoft.com
+0.0.0.0 downloadplayer.xyz
+0.0.0.0 dianomi.com
+0.0.0.0 dqchke7alo7h0.cloudfront.net
+0.0.0.0 d8yw4927nnimu.cloudfront.net
 0.0.0.0 d0f85db8ee56f5c6.com
 0.0.0.0 dcxbbadldgkw.com
 0.0.0.0 da2uwvc3too2a.cloudfront.net
@@ -5409,6 +5426,9 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 eu2.thunderhead.com
+0.0.0.0 eawp2ra7.top
+0.0.0.0 ezz-skins.gq
 0.0.0.0 entitlements.jwplayer.com
 0.0.0.0 europacash.com
 0.0.0.0 e13678.dspb.akamaiedge.net
@@ -5742,6 +5762,7 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 focus.vuer.net
 0.0.0.0 fff.dailymail.co.uk
 0.0.0.0 footprintdns.com
 0.0.0.0 fera.ai
@@ -5977,6 +5998,8 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gamingadult.biz
+0.0.0.0 go.adovr.com
 0.0.0.0 getgobot.com
 0.0.0.0 getshogun.com
 0.0.0.0 *-goog.l.google.com
@@ -6293,6 +6316,8 @@
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 he242.infusionsoft.com
+0.0.0.0 humanpresence.io
 0.0.0.0 https-www-campusreform-org-3.disqus.com
 0.0.0.0 hrnorth.se
 0.0.0.0 host.bannerflow.com
@@ -6485,6 +6510,7 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 iyfnzgb.com
 0.0.0.0 intg.snapchat.com
 0.0.0.0 isboost.co.jp
 0.0.0.0 id5-sync.com
@@ -7958,6 +7984,7 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 look.ufinkln.com
 0.0.0.0 localfusion.secure.ownlocal.com
 0.0.0.0 loxtk.com
 0.0.0.0 logging.trakingpixel.com
@@ -8183,6 +8210,11 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mothergunship.com.herokudns.com
+0.0.0.0 mob1ledev1ces.com
+0.0.0.0 mobile-10.com
+0.0.0.0 mymediarecommendations.com
+0.0.0.0 m4adata.com
 0.0.0.0 my.wickedreports.com
 0.0.0.0 mms.cnn.com
 0.0.0.0 muw1-shasta-rrs-prod01.westus.cloudapp.azure.com
@@ -8861,6 +8893,7 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 onelouder.com
 0.0.0.0 oexbdfnbentzd.com
 0.0.0.0 our.antutu.net
 0.0.0.0 ownlocal.com
@@ -9021,6 +9054,8 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 paid.outbrain.com
+0.0.0.0 poweredbyliquidfire.mobi
 0.0.0.0 p.yotpo.com
 0.0.0.0 pq-direct.revsci.net
 0.0.0.0 pr-bh.ybp.yahoo.com
@@ -9488,6 +9523,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qwertyuiop.stream
 0.0.0.0 qualtrics.com
 0.0.0.0 qtechbpo.in
 0.0.0.0 qccoccocmedia.vn
@@ -9564,6 +9600,9 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 ryke4peep.com
+0.0.0.0 recommendedforyou.xyz
+0.0.0.0 redretarget.com
 0.0.0.0 ratingwidget.com
 0.0.0.0 rating-widget.com
 0.0.0.0 repo-04-fra1.broadcast.steamcontent.com
@@ -9818,6 +9857,9 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 smitionsory.co
+0.0.0.0 static.ampxchange.com
+0.0.0.0 splitoptimizer.com
 0.0.0.0 scripttags.justuno.com
 0.0.0.0 staticw2.yotpo.com
 0.0.0.0 secure.rating-widget.com
@@ -10027,8 +10069,6 @@
 0.0.0.0 sajari.com
 0.0.0.0 stats.sa-as.com
 0.0.0.0 sa-as.com
-0.0.0.0 swiftypecdn.com
-0.0.0.0 s.swiftypecdn.com
 0.0.0.0 scribol.com
 0.0.0.0 ww1.safariadblock.com
 0.0.0.0 ww2.safariadblock.com
@@ -10924,6 +10964,10 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 thunderhead-media.s3.eu-west-2.amazonaws.com
+0.0.0.0 thunderhead.com
+0.0.0.0 trktnc.com
+0.0.0.0 trackifyx.redretarget.com
 0.0.0.0 tracking-sales-pop.carecart.io
 0.0.0.0 troyhunt.disqus.com
 0.0.0.0 track.klickly.com
@@ -11547,6 +11591,8 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vzwdm.com
+0.0.0.0 vuer.net
 0.0.0.0 vdopia.com
 0.0.0.0 vzims.com
 0.0.0.0 vc-mvt-pixel-80.vc-networks.com
@@ -11687,6 +11733,7 @@
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 widget.privy.com
 0.0.0.0 w.chatlio.com
 0.0.0.0 wickedreports.com
 0.0.0.0 webchat.hammer-corp.com
@@ -12049,6 +12096,7 @@
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yarn.ideaeggs.press
 0.0.0.0 yotpo.com
 0.0.0.0 ytimg-edge-static.l.google.com
 0.0.0.0 yb.163yun.com
@@ -12762,6 +12810,9 @@
 0.0.0.0 45.63.127.60
 
 !Misc
+0.0.0.0 4g2.vzwdm.com
+0.0.0.0 2go7v1nes8.com
+0.0.0.0 13vm73vbmp.com
 0.0.0.0 715699.com
 0.0.0.0 176-103-133-133.flops.ru
 0.0.0.0 11165151.searchiq.co
@@ -16766,6 +16817,34 @@ www.infowars.com###inline-comments > h1
 variety.com##.l-reviews__panel__ad
 deadline.com##.u-hidden\@desktop-max.u-align-items-center.u-flex-direction-column.u-flex
 deadline.com##.u-flex.pmc-a-grid-item.\/\/.header__actions
+||icr-am.asus.com/webchat
+||asus.com/js/2015/alert-info.js
+||asus.com/css/2015/alert-info.css
+||dlcdnimgs.asus.com/css/2015/alert-info.css
+||googletagmanager.com^$important,third-party
+||google-analytics.com^$important,third-party
+||rog.asus.com/js/jquery.snsShare.js
+||asus.com/api/asus_api_data.aspx?
+||buzzfeednews.com/static-assets/js/beacons-external.*.js
+||facebook.com$domain=buzzfeed.com
+||bxcreative.com$domain=bestchinanews.com
+||bodelen.com/afu.php^
+||fireden.net$cookie,domain=cytu.be
+||discordapp.com$cookie,domain=cytu.be
+||pngpix.com.com$cookie,domain=cytu.be
+||loox.io$cookie,third-party
+||loox.app$cookie,third-party
+||nyafuu.org$cookie,domain=cytu.be
+||animatedimages.org$cookie,domain=cytu.be
+||staticflickr.com$cookie,third-party
+||swiftype.com$cookie,third-party
+||yahooapis.com$domain=codetapper.com
+||demonware.net/assets/js/twitterFetcher_min.js
+||ksnt.com/_static$script
+||mediafire.com/blank.html
+||redretarget.com/pull/*.myshopify.com/hook.js
+||buzzfeed.com/static/js/advertiser$important
+asus.com###online-service
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -17217,6 +17296,19 @@ _Affiliate
 /_/items/newswars_ads
 /tracker?domain
 /fbi-gov/production/gateway.min.js
+/prebid-$script
+/api/stats/
+/play?pub_id=
+/tr?id
+/~/st/af.js
+/js/ad-min.js
+/smartads.epl
+/images.php?
+/ga_action
+/webTracking/
+/onetag/
+=googleanalytics
+_WebBannerAd
 ##a[onclick^="_gaq.push(['_trackEvent', 'Banner',"]
 ###cookie-law-info-bar
 ##.block-fusion-ads
@@ -17422,3 +17514,9 @@ _Affiliate
 ##.sponsored-text
 ##.sponsor-text
 ##.advertisement-comment
+##.AdSense
+##.afs_ads
+###footerAd
+###interstitialAdContainer
+##.left > .ads
+##.right > .ads
