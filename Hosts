@@ -4,7 +4,7 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1054
+! Version: 1056
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Modified: Thursday, August 8, 2019
 
@@ -14,10 +14,12 @@
 @@||media-cdn.tripadvisor.com
 @@||pandora.com/web-client-assets/
 @@||pandora.com/api/
+||pandora.com/web-client-assets/ads.json?^$important
 @@||iheart.com
 @@||duckduckgo.com/util/u367.js$important
 @@||duckduckgo.com/d2643.js$important
 @@||youtube.com/embed$third-party
+@@||www.paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -175,6 +177,13 @@
 0.0.0.0 apple.com-fasting.live
 0.0.0.0 parentelement.tk
 0.0.0.0 com-fasting.live
+0.0.0.0 crabrave.pw
+0.0.0.0 särahah.eu
+0.0.0.0 särahah.pl
+0.0.0.0 mapper.info
+0.0.0.0 ezstat.ru
+0.0.0.0 blasze.com
+||myiptest.com/img.php
 
 ! Apple
 0.0.0.0 attwifi.apple.com
@@ -829,6 +838,7 @@
 ||xp.apple.com/report/2/psr_ota
 
 !A
+0.0.0.0 analytics-egain.com
 0.0.0.0 ahf8n.com
 0.0.0.0 amanda.trktnc.com
 0.0.0.0 ampxchange.com
@@ -1088,7 +1098,6 @@
 0.0.0.0 www.arcpublishing.com
 0.0.0.0 arcpublishing.com
 0.0.0.0 appfocus.go2cloud.org
-0.0.0.0 api.tiles.mapbox.com
 0.0.0.0 api.navigateto.net
 0.0.0.0 a1-22.akam.net
 0.0.0.0 a16-67.akam.net
@@ -1245,8 +1254,6 @@
 0.0.0.0 arcgisonline.com
 0.0.0.0 www.arcgis.com
 0.0.0.0 arcgis.com
-0.0.0.0 account.mapbox.com
-0.0.0.0 api.mapbox.com
 0.0.0.0 ads.clivfnw5sdhbronn.onion
 0.0.0.0 ads.wise3dvxlxtd7hvy.onion
 0.0.0.0 ads.zliban6brffsahaa.onion
@@ -4245,8 +4252,6 @@
 0.0.0.0 cpex.cz
 0.0.0.0 csh.actiondesk.com
 0.0.0.0 core.ad20.net
-0.0.0.0 *.cdn77.org
-0.0.0.0 cdn77.org
 0.0.0.0 cfgchat.fortifi.io
 0.0.0.0 chat.fortifi.io
 0.0.0.0 cdn.lmiutil.com
@@ -5426,6 +5431,7 @@
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 egain.com
 0.0.0.0 eu2.thunderhead.com
 0.0.0.0 eawp2ra7.top
 0.0.0.0 ezz-skins.gq
@@ -5481,7 +5487,6 @@
 0.0.0.0 emodoinc.com
 0.0.0.0 e.googlevideo.com
 0.0.0.0 euc.adserver.snapads.com
-0.0.0.0 ezstat.ru
 0.0.0.0 edge1.certona.net
 0.0.0.0 easy-web-stats.com
 0.0.0.0 esomniture.com
@@ -8210,6 +8215,7 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mftracking.com
 0.0.0.0 mothergunship.com.herokudns.com
 0.0.0.0 mob1ledev1ces.com
 0.0.0.0 mobile-10.com
@@ -8391,9 +8397,7 @@
 0.0.0.0 master.statistics.aatkit.com
 0.0.0.0 munchkin.brightfunnel.com
 0.0.0.0 mp.safedk.com
-0.0.0.0 mobile-sdk-data-trends.safedk.com
-0.0.0.0 www.mapbox.com
-0.0.0.0 mapbox.com
+0.0.0.0 mobile-sdk-data-trends.safedk.comm
 0.0.0.0 mail34.atl231.mcsv.net
 0.0.0.0 modulepush.com
 0.0.0.0 www.mailmunch.com
@@ -9857,6 +9861,9 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 synerise.com
+0.0.0.0 snrbox.com
+0.0.0.0 snrcdn.net
 0.0.0.0 smitionsory.co
 0.0.0.0 static.ampxchange.com
 0.0.0.0 splitoptimizer.com
@@ -16853,6 +16860,18 @@ www.bestchinanews.com##dl.function:nth-of-type(3)
 ||www.bestchinanews.com/1ydzximg/0EaQ4C4f9v$image
 www.mediafire.com##.grecaptcha-badge
 www.mediafire.com###minSocialLinks
+timeout.com##.js-header-ad-wrapper
+dailymail.co.uk##.adHolder
+||cst.innogames.de/e.gif?
+mediafire.com##a[href^=".mftracking.com/"]
+||fast.io^$third-party
+||imfast.io^$third-party
+www.myce.com###ai_widget-2
+www.foxcarolina.com###main-page-container > div.row:nth-of-type(1)
+www.foxcarolina.com###tncms-region-article_bottom
+tribunademinas.com.br##.modal-dialog
+tribunademinas.com.br###floating
+tribunademinas.com.br##.in.fade.modal-backdrop
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16861,7 +16880,7 @@ pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 8ch.net#$#body { padding-top: 0 !important; }
-digg.com,democracynow.org#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 
@@ -17195,7 +17214,6 @@ _Affiliate
 /_utm.gif
 /generate_204/
 /images/public/devicead/t/r/a/m/daartpralbumart_500W_500H.jpg
-/util/mediaserverPublicRedirect.jsp
 /images/BottomCol2Back2.gif
 /aboutadtextonline.php.html
 /getadpack.html
