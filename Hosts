@@ -1,10 +1,23 @@
 [Adblock]
-! Title: Cybo's Hosts
-! Expires: 1 day
+! Needed for Windows host
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1056
+! Version: 1057
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Modified: Thursday, August 8, 2019
 
@@ -3952,6 +3965,8 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cp.cbbp1.com
+0.0.0.0 cbbp1.com
 0.0.0.0 cs9.wpc.v0cdn.net
 0.0.0.0 chimera.ch
 0.0.0.0 chatlio.com
@@ -10971,6 +10986,7 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 track.hubspot.com
 0.0.0.0 thunderhead-media.s3.eu-west-2.amazonaws.com
 0.0.0.0 thunderhead.com
 0.0.0.0 trktnc.com
@@ -12049,6 +12065,7 @@
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 x.dlx.addthis.com
 0.0.0.0 xp2.zedo.com
 0.0.0.0 x.castanet.net
 0.0.0.0 x.bidswitch.net
@@ -16872,6 +16889,212 @@ www.foxcarolina.com###tncms-region-article_bottom
 tribunademinas.com.br##.modal-dialog
 tribunademinas.com.br###floating
 tribunademinas.com.br##.in.fade.modal-backdrop
+expressvpn.com##.snapengage-button
+expressvpn.com##.button.button-facebook
+expressvpn.com##.button.button-twitter
+expressvpn.com##.button.button-email
+foxnews.com##.alert.ad-blocker
+foxnews.com##.ad-container.desktop.ad-h-250
+foxnews.com###trc_wrapper_26351
+foxnews.com##.trc_rbox.thumbnails-a.trc-content-sponsored
+foxnews.com##.ad-container.desktop
+foxnews.com###trc_wrapper_94064
+foxnews.com##.trc_rbox.thumbnails-f.trc-content-sponsored
+huffpost.com##.elevator.elevator--center.yr-elevator
+huffpost.com###adsDiv0
+huffpost.com##.adtech-adspot.ad-leaderboard_flex
+huffpost.com###adsDiv3
+huffpost.com##.adtech-adspot.ad-right_rail_300x250_lower
+huffpost.com###trc_wrapper_88794
+huffpost.com##.trc_rbox.thumbnails-a.trc-content-sponsored
+huffpost.com##.elevator.elevator--twilight.yr-elevator
+huffpost.com##.advertisement.leaderboard_flex_middle
+huffpost.com###adsDiv1
+huffpost.com##.adtech-adspot.ad-right_rail_flex
+youtube.com##.style-scope.ytd-popup-container
+youtube.com###masthead-ad
+youtube.com###companion
+youtube.com##.style-scope.ytd-companion-slot-renderer
+google.com###tads
+cbc.ca##.privacyNotification
+npr.org###main-sidebar
+npr.org##.callout__inner
+npr.org###optimizely-extension-cta-footer-notice
+npr.org##.optimizely-extension-cta-footer-notice
+cnn.com##.optanon-alert-box-bg
+cnn.com##.optanon-alert-box-wrapper.hide-accept-button.hide-cookie-setting-button
+cnn.com##.column.zn__column--idx-2
+cnn.com##.zn-header__stripes
+cnn.com###homepage4-zone-5
+cnn.com##.zn.zn-homepage4-zone-5.zn-balanced.zn--ordinary.t-light.zn-has-one-container.zn-loaded.zn-ondemand.zn--idx-9
+rt.com##.extension-browser.extension-browser__chrome
+rt.com##.cookies__banner.js-cookies-banner.cookies-banner-shown
+rtd.rt.com##.cookie-banner.js-cookie-banner.cookie-banner_shown
+rt.com##.news-block.news-block_padding_size_normal
+historyonthenet.com##.bcToasterTemplate.bcMediumInput
+historyonthenet.com##.fb_digioh-overlay.fb_digioh-overlay-fixed
+historyonthenet.com###lightbox-iframe-var-79b0c71b-2812-490f-a5b2-363643a05de8
+historyonthenet.com###eagle_dfp_ad_0_90
+historyonthenet.com##.eagle_dfp_ad
+historyonthenet.com##.textwidget.custom-html-widget
+historyonthenet.com##.et_pb_row.et_pb_row_1
+historyonthenet.com##.large-6.columns
+historyonthenet.com##.small-2.columns
+historyonthenet.com##.small-1.columns
+battlefields.org###sliding-popup
+battlefields.org##.sliding-popup-bottom
+owlcation.com##.ad-wrapper
+owlcation.com##.m2m22.m2m24.m2m12.m2m2.m2m16.m2m20
+owlcation.com###maven_sidebar
+civilwarsaga.com###ezmobfooter
+civilwarsaga.com##.ezmob-footer.ezoic-floating-bottom.ezo_ad.ezmob-footer-desktop
+civilwarsaga.com###div-gpt-ad-civilwarsaga_com-box-1-0
+civilwarsaga.com##.ezoic-ad
+ducksters.com###rightsidebox2
+ducksters.com##.inner
+google.com###tadsb
+google.com##.C4eCVc.c
+pbs.org###pbs-confirm-station-box
+pbs.org##.arrow-box
+pbs.org###pbs-confirm-modal-overlay
+pbs.org##.ad-block.js-ad-block.open
+pbs.org##.ad-block.open.ad-side-interior
+shmoop.com##.privacy-notice
+shmoop.com##.privacy-spacer
+shmoop.com##.ad-container
+shmoop.com##.pro-player-iframe
+shmoop.com##.light-player-wrapper
+shmoop.com###my_spring1
+shmoop.com##.my-spring1.pro-player-ipm
+shmoop.com##.www-header-space
+shmoop.com##.shmoop-navbar.www-navbar.privacy-shown
+mrnussbaum.com##.sidebar-reclam
+americancivilwarstory.com##.adsbygoogle
+worldatlas.com###div-gpt-ad-1459364180249-3
+worldatlas.com##.ad300x250
+worldatlas.com###div-gpt-ad-1466711960291-0
+worldatlas.com###div-gpt-ad-1459364180249-0
+worldatlas.com###div-gpt-ad-1467228324395-0
+worldatlas.com##.ad300x600
+worldatlas.com###div-gpt-ad-1459364180249-1
+learnodo-newtonic.com##.video-label-box.trc-main-label
+learnodo-newtonic.com##.videoCube.trc_spotlight_item.origin-default.thumbnail_start.textItem.videoCube_2_child.tbl-next-up-widget-item.tbl-next-up-show-item
+learnodo-newtonic.com##.videoCube.trc_spotlight_item.origin-default.thumbnail_start.syndicatedItem.textItem.videoCube_3_child.tbl-next-up-widget-item.tbl-next-up-show-item
+learnodo-newtonic.com###tbl-next-up
+learnodo-newtonic.com##.tbl-next-up.tbl-next-up-position-right.tbl-next-up-mobile-position-bottom.in-viewport.tbl-next-up-disabled-clicks
+learnodo-newtonic.com##.td-header-rec-wrap
+learnodo-newtonic.com##.td-container.td-header-row.td-header-header
+learnodo-newtonic.com###td_social_sharing_article_top
+learnodo-newtonic.com##.td-post-sharing.td-ps-bg.td-ps-notext.td-post-sharing-style1
+learnodo-newtonic.com##.code-block.code-block-4
+learnodo-newtonic.com###trc_header_74838
+learnodo-newtonic.com##.trc_rbox_header.trc_rbox_border_elm
+learnodo-newtonic.com##.thumbBlock
+learnodo-newtonic.com##.videoCube_aspect
+learnodo-newtonic.com###trc_wrapper_74838
+learnodo-newtonic.com##.trc_rbox.thumbnails-b.trc-content-sponsored
+learnodo-newtonic.com##.td_block_wrap.td_block_15.td_block_widget.td_uid_4_5d4c29aee3f16_rand.td-pb-border-top.td_block_template_1.td-column-1.td_block_padding
+learnodo-newtonic.com##.td_block_template_1.widget.ai_widget
+learnodo-newtonic.com##.code-block.code-block-1
+learnodo-newtonic.com##.code-block.code-block-6
+learnodo-newtonic.com##.code-block.code-block-2
+sonofthesouth.net###cookieconsent\:desc
+sonofthesouth.net##.cc-message
+sonofthesouth.net##.cc-window.cc-floating.cc-type-info.cc-theme-block.cc-bottom.cc-right.cc-color-override-1014702434
+thoughtco.com###leaderboard-deferred-footer_1-0
+civilwar.mrdonn.org##.cc_banner.cc_container.cc_container--open
+thoughtco.com##.comp.has-right-label.js-lazy-ad.leaderboard-deferred-footer.leaderboard.mntl-flexible-leaderboard.mntl-flexible-ad.mntl-gpt-adunit.gpt.dynamic.is-requested
+civilwar.mrdonn.org##.cc_banner-wrapper
+civilwar.mrdonn.org##.right_column
+civilwar.mrdonn.org##.ezoic-ad.box-4.adtester-container.adtester-container-107
+civilwar.mrdonn.org###div-gpt-ad-mrdonn_org-medrectangle-3-0
+civilwar.mrdonn.org##.ezoic-ad
+civilwar.mrdonn.org##.ad_large-rectangle
+virginia.org##.travel-updates-widget
+latimes.com##.bx-slab
+latimes.com###bx-shroud-850886
+latimes.com##.bx-matte.bx-shroud.bx-shroud-850886
+latimes.com##.GoogleDfpAd-wrapper
+latimes.com###ensNotifyBanner
+latimes.com##.ensNotifyBanner
+latimes.com##.met-flyout.met-rule-2591
+latimes.com###ntv1081135-341016-21352
+latimes.com##.ntv-moap.ntv1081135-341016-21352.ntvClickOut
+latimes.com##.ArticlePage-aside
+latimes.com##.RevContent
+infoplease.com##.Campaign__bravoLayer
+infoplease.com###block-ipleaderboardad
+infoplease.com###block-sidebarvideoplayer
+infoplease.com###block-ipabovethefold
+infoplease.com###block-ipmiddlewaread
+infoplease.com###block-lockerdomeblock
+infoplease.com##.b-lazy.b-error
+quillette.com###eu-cookie-law
+quillette.com##.hide-on-button.ads-active
+quillette.com###adwidget_htmlwidget-29
+quillette.com##.widget.AdWidget_HTMLWidget
+quillette.com###custom_html-2
+quillette.com##.widget_text.widget.widget_custom_html
+quillette.com###text-3
+quillette.com##.widget.widget_text
+amgreatness.com##.publir_broadcast
+amgreatness.com##.code-block.code-block-2
+amgreatness.com###os-widget-2508383
+amgreatness.com##.os_poll
+amgreatness.com##.fusion-social-networks-wrapper
+amgreatness.com###cnxpl-overlay
+amgreatness.com##.cnxpl-overlay-slot
+amgreatness.com###div-gpt-ad-1490977881454-2
+amgreatness.com###fblbx
+amgreatness.com##.widget.widget_cardoza_fb_like
+amgreatness.com##.cnxpl-vpaid-slot
+amgreatness.com##.cnxpl-video-slot
+amgreatness.com##.cnxpl-ad-container.cnxpl-vpaid-container
+amgreatness.com##.cnxpl-content-container
+amgreatness.com##.cnx-video-content.cnxpl-size-small
+amgreatness.com##.cnx-ratio
+amgreatness.com###cnx-video-container
+amgreatness.com##.cnxpl-root-container.cnxpl-is-desktop
+amgreatness.com###cnx-autoplay-container
+amgreatness.com##.cnx-floating.cnx-floating-transition
+amgreatness.com###div-gpt-ad-1490977881454-1
+whatfinger.com##.adsbygoogle
+whatfinger.com###trc_header_44799
+whatfinger.com##.trc_rbox_header.trc_rbox_border_elm
+whatfinger.com###rbox-t2m
+whatfinger.com##.trc_rbox_div.trc_rbox_border_elm
+whatfinger.com##.vc_empty_space
+whatfinger.com###MarketGidComposite218421
+whatfinger.com##.mgbox
+amgreatness.com###div-gpt-ad-1490977881454-5
+amgreatness.com###div-gpt-ad-1490977881454-3
+||youtube.com/pagead
+||youtube.com/mac_204
+||ade.googlesyndication.com
+||mc.yandex.ru/webvisor
+||sb.scorecardresearch.com/p?
+||doubleclick.net/r/collect
+||mc.yandex.ru/clmap/
+||googleanalytics.com/*/collect
+||google-analytics.com/*/collect
+||statcounter.com/counter/counter.js
+||statcounter.com/t.php
+||yandex.ru/metrika/tag.js
+||yadro.ru/hit
+||addthis.com/e/googlegdn_sync
+||tags.bluekai.com/site/
+||doubleclick.net/pixel
+||rt.com/action/view_count
+||nps.gov/maingraphics/hpslogo.gif
+||nationalgeographic.org/ngs-commons/cookie-banner/
+||lockerdome.com/lad/
+||amgreatness.com/wp-content/uploads/2017/06/AMGreatness-Subscribe.png
+||amgreatness.com/wp-content/uploads/2018/04/AMG_Blog-Final-3.jpg
+||amgreatness.com/wp-content/uploads/2018/01/DonateButtonAmGreatness.png
+||opinionstage.com/polls/
+||facebook.com/v2.4/plugins/page.php
+||v.connatix.com/87e5d164-a9f8-4fc1-9f95-591251c518e2/1_360_1.mp4
+||v.connatix.com/87e5d164-a9f8-4fc1-9f95-591251c518e2/1_0.vtt
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -16883,6 +17106,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 digg.com,democracynow.org,tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+shmoop.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+latimes.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com#%#//scriptlet("prevent-bab")
@@ -17333,6 +17558,17 @@ _Affiliate
 /ga_action
 /webTracking/
 /onetag/
+/addthis_widget.js
+/ads/ga-audiences/
+/__ptq.gif
+/get_midroll_info?
+/activity_ext/dc_pubid=
+/sodar/*.html
+/videogoodput?
+/pagead/
+/pagead/adview?
+-page-url=
+&page-url=
 =googleanalytics
 _WebBannerAd
 ##a[onclick^="_gaq.push(['_trackEvent', 'Banner',"]
