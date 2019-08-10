@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1059
+! Version: 1060
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Modified: Saturday, August 10, 2019
 
@@ -35,6 +35,12 @@ ff02::3 ip6-allhosts
 @@||www.paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 @@||maps.gstatic.com^$image
 @@||adobedtm.com/launch-*
+@@||apis.google.com/_/scs/*
+@@||youtube.com/service_ajax
+@@||link.theplatform.com$xmlhttprequest
+@@||nbc.com/generetic/scripts/ads.js
+@@||player.theplatform.com
+@@||ssl.gstatic.com/docs/common/cleardot.gif?
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 ||hola.org
@@ -16562,15 +16568,13 @@ thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--ad
 ||api.twitter.com/1.1/dm/update_last_seen_event_id.json
 ||s2.wp.com/_static/*
 *.mega.co.nz/3/fonts/
-||g.api.mega.co.nz/cs?id=0&domain=meganz&ut=gFfO9KsQlxQ&lang=en
+||g.api.mega.co.nz/cs?id=0&domain=meganz&
 ||na.static.mega.co.nz/3/css/*$domain=mega.nz,third-party
 ||na.static.mega.co.nz/js/cms.js
 ||na.static.mega.co.nz/html/js/start.js
 ||na.static.mega.co.nz/html/js/business.js
 ||s0.wp.com/wp-content/js/devicepx-jetpack.js
 ||duckduckgo.com/t.js?
-||google.com/xjs/_/*
-||apis.google.com/_/scs/*
 # ||cdn2.expertreviews.co.uk/misc/advagg_js/msg/* # TRIGGERS ANTI-ADBLOCK
 ||cdn1.expertreviews.co.uk/sites/expertreviews/modules/features/site_monetizer101/js/init-library.js
 ||cdn*.expertreviews.co.uk/sites/expertreviews/files/advagg_js/
@@ -17126,6 +17130,27 @@ tribunademinas.com.br##.header-separator
 tribunademinas.com.br##.ad-single-container
 tribunademinas.com.br##.widget.widget-newsletter.widget-full
 tribunademinas.com.br##.sticker
+||cdn.grammarcheck.net/gly-coupon-gc.png$image
+www.grammarcheck.net###custom_html-2
+www.scribens.com###DivMarques
+www.scribens.com###cont > .light-color > .container > .row
+www.scribens.com##.main-color.pb.pt-medium
+||google.com$ping
+||shopping.google.com/logbounceevent
+||calendar.google.com$ping
+||play.google.com/log
+duckduckgo.com##.badge-link__cookie-msg
+duckduckgo.com##.results--sidebar.js-results-sidebar
+nbc4i.com##.zone-container--below-supernav
+nbc4i.com##.rich-text-cascade
+nbcwashington.com##.tve_cta_container
+nbcwashington.com###article-comments-header
+nbcwashington.com##.close_cta
+||d2sq9srn4wptod.cloudfront.net/v2/1220x200/WCMH/WCMH_1220x200_last.jpg
+||nbc4i.com/wp-content/uploads/sites/18/2019/08/1140x150web_heartbreak_in_dayton-1.jpg
+||d2sq9srn4wptod.cloudfront.net/v2/300x600/WCMH/WCMH_300x600_last.jpg
+||media.nbc4i.com/nxs-wcmhtv-media-us-east-1/weather/web_4part.jpg
+||confiant-integrations.global.ssl.fastly.net/*/*_prebid/
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
