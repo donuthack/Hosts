@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1058
+! Version: 1059
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
-! Last Modified: Friday, August 9, 2019
+! Last Modified: Saturday, August 10, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -33,6 +33,8 @@ ff02::3 ip6-allhosts
 @@||duckduckgo.com/d2643.js$important
 @@||youtube.com/embed$third-party
 @@||www.paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
+@@||maps.gstatic.com^$image
+@@||adobedtm.com/launch-*
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 ||hola.org
@@ -4823,7 +4825,6 @@ ff02::3 ip6-allhosts
 ||cdn.pushcrew.com
 ||cdn.flashtalking.com
 ||cdn01.basis.net
-||connect.facebook.net
 ||creative.medialytics.com
 
 !D
@@ -16729,8 +16730,6 @@ www.dailymail.co.uk##.module.puff_pastel.item.tvshowbiz
 ||static.parastorage.com/unpkg/react@16.6.3/umd/react.production.min.js
 ||static.parastorage.com/unpkg/react@16.6.3/umd/react.production.min.js
 ||static.parastorage.com/unpkg/react-dom@16.6.3/umd/react-dom.production.min.js
-||youtube.com$subdocument,websocket
-||youtube.com/feed/subscriptions?pbj=1$domain=youtube.com
 ||bbthat.com/api/alerts?site
 ||neonnettle.com/assets/js/nn-ck.js
 ||neonnettle.com/manifest.json
@@ -17095,6 +17094,38 @@ amgreatness.com###div-gpt-ad-1490977881454-3
 ||facebook.com/v2.4/plugins/page.php
 ||v.connatix.com/87e5d164-a9f8-4fc1-9f95-591251c518e2/1_360_1.mp4
 ||v.connatix.com/87e5d164-a9f8-4fc1-9f95-591251c518e2/1_0.vtt
+||d35foil64vbt7x.cloudfront.net/wp-content/themes/gcm/images/popup.png
+||d*.cloudfront.net^$popup,other
+||tmzaz.nossoecommerce.com/
+||cdn.tempostorm.com/js/showads.js
+||cdn.tempostorm.com/asteri/prebid.js
+||google.com/maps/vt?
+||google.com/maps/preview/vp?
+||google.com/maps/preview/log204?
+||google.com/maps/preview/lp?
+||chrome.google.com/webstore/ajax/eventlog
+||adblockplus.org/js/tracking.js
+||pandora.com/web-client-assets/displayAdFrame^
+pandora.com###ad
+pandora.com##iframe[src="/web-client-assets/displayAdFrame.*.html"]
+adblockplus.org###cookiebar
+adblockplus.org##.cookie.cookiebar
+pandora.com###ad1565371742479
+pandora.com##iframe[src="/web-client-assets/displayAdFrame.579cdfa5013ec2e4aece24f33f30166f.html?cb=15653717415453485&content=true"]
+pandora.com###DisplayAdController__adContainerTwo
+pandora.com##.region-adBanner.region-adBanner--double_wide.region-adBanner--active.adSkin-banner--20_pink
+pandora.com##.region-adSkin__primary
+pandora.com##.region-adSkin__secondary
+pandora.com##.region-adSkin.region-adSkin--double_wide.region-adSkin--20_pink.region-adSkin--active.region-adSkin--rightRail
+pandora.com##.AppBg
+davidwalsh.name##a[style="display:block;"]
+adblockplus.org###social-list
+tempostorm.com##.row.plg-long.plg-dbl.ts-ad-leaderboards
+tempostorm.com##.ad.default
+tribunademinas.com.br##.header-separator
+tribunademinas.com.br##.ad-single-container
+tribunademinas.com.br##.widget.widget-newsletter.widget-full
+tribunademinas.com.br##.sticker
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -17108,6 +17139,7 @@ democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; 
 expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 shmoop.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 latimes.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com#%#//scriptlet("prevent-bab")
@@ -17144,6 +17176,11 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/__utm.gif
+/js/cookie-prompt.js
+/vendor/bowser.js
+/vendor/bowser.min.js
+/devicead/*
 /shopify_justuno_*
 /wp-content/ads/
 /w.chatlio-widget.js
