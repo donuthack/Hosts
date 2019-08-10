@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1060
+! Version: 1061
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Modified: Saturday, August 10, 2019
 
@@ -15660,11 +15660,6 @@ allgames.io##.oglas
 freeonlinegames.com##.marginBottom0.well-blue.well
 freeonlinegames.com##.clearfix.span12
 games.aarp.org###div_blockTop_1
-youtube.com##.ad-div
-youtube.com##.ytp-ad-progress
-youtube.com###promotion-shelf
-youtube.com##.masthead-ad-control
-youtube.com##.pyv-afc-ads-container
 ||file-upload.net^$subdocument
 file-upload.net##+js(abort-on-property-write.js, Fingerprint2)
 file-upload.net##iframe
@@ -16323,10 +16318,10 @@ www.projectveritas.com###cmApp_signupContainer
 www.projectveritas.com##.right-sidebar
 www.projectveritas.com##.related-title
 www.projectveritas.com##div.col-md-4.col-lg-4:nth-of-type(2) > div.content-block.row:nth-of-type(1) > .col-lg-12
-www.youtube.com/api/stats/watchtime?
-www.youtube.com/api/stats
-www.youtube.com/manifest.json
-www.youtube.com/api/stats/playback?
+||www.youtube.com/api/stats/watchtime?
+||www.youtube.com/api/stats
+||www.youtube.com/manifest.json
+||www.youtube.com/api/stats/playback?
 ||www.naturalnews.com/images/Shungite-Safe-Sticker-June-2019-MR.jpg$image
 www.naturalnews.com##.code-block-1.code-block
 www.naturalnews.com##.post-nav-prev
@@ -16606,7 +16601,6 @@ beta.washingtonpost.com##.mb-lg.btn-full.btn-white.btn.comments
 www.washingtontimes.com##.bigtext > hr:nth-of-type(2)
 www.digminecraft.com###first_slot
 www.digminecraft.com##.top_slot.slot
-www.youtube.com###clarify-box > .ytd-watch-flexy.style-scope
 www.photographyblog.com##.comment
 edigitalreviews.com##.jnews_module_639_1_5d27e95ca76d6.jeg_col_1o3.jeg_pagination_disable.jeg_module_hook.jeg_postblock.jeg_postblock_21
 www.cameralabs.com###gk-social-api
@@ -16751,10 +16745,6 @@ www.castanet.net###frame > div:nth-of-type(5)
 www.castanet.net###sfad
 besttechinfo.com##.main-nav-wrapper
 www.websitebuilderexpert.com##.widget-area
-www.youtube.com###promo-info
-www.youtube.com###contents > .ytd-primetime-promo-renderer.style-scope
-www.youtube.com###promo-list
-www.youtube.com##ytd-item-section-renderer.ytd-section-list-renderer.style-scope:nth-of-type(2)
 firestar.ml##.p-b-30.bn-lg-sidebar.col-xs-12.col-sm-12
 firestar.ml##section.bn-p-b.bn-lg.col-xs-12.col-sm-12:nth-of-type(1)
 firestar.ml##section.bn-p-b.bn-lg.col-xs-12.col-sm-12:nth-of-type(2)
