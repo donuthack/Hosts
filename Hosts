@@ -1,4 +1,4 @@
-[Adblock]
+[Adblock Plus 2.0]
 ! Needed for Windows host
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1062
+! Version: 1063
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Modified: Sunday, August 11, 2019
 
@@ -40,6 +40,28 @@ ff02::3 ip6-allhosts
 @@||nbc.com/generetic/scripts/ads.js
 @@||player.theplatform.com
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
+@@||dailycaller.com$image
+
+! Rewrite
+||mediaserver-cont-*.pandora.com/*/*/devicead^$rewrite=abp-resource:blank-mp3,domain=pandora.com
+||mediaserver-cont-*.pandora.com/public/ads^$rewrite=abp-resource:1x1-transparent-gif,domain=pandora.com
+||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
+||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$rewrite=abp-resource:blank-mp3,domain=pandora.com
+
+! Fixes
+dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
+verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
+pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
+pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
+pandora.com#$#.Fillet { margin-bottom: 5px !important; }
+8ch.net#$#body { padding-top: 0 !important; }
+digg.com,democracynow.org,tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+shmoop.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+latimes.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 ||hola.org
@@ -858,6 +880,7 @@ ff02::3 ip6-allhosts
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||ad.8maple.ru
 ||analytics-egain.com
 ||ahf8n.com
 ||amanda.trktnc.com
@@ -1113,7 +1136,6 @@ ff02::3 ip6-allhosts
 ||angryshark.cn
 ||amgload.net
 ||ads-blocker.ru
-||accounts.sap.com
 ||app.satismeter.com
 ||www.arcpublishing.com
 ||arcpublishing.com
@@ -7247,6 +7269,7 @@ ff02::3 ip6-allhosts
 ||js.users.51.la
 
 !K
+||kansascity1.cabospeed.com
 ||klaviyo.com
 ||krk.kargo.com
 ||kvz7327.com
@@ -8235,6 +8258,7 @@ ff02::3 ip6-allhosts
 ||location.silverpush.com
 
 !M
+||mci.speedtest.sbcglobal.net
 ||mftracking.com
 ||mothergunship.com.herokudns.com
 ||mob1ledev1ces.com
@@ -9078,6 +9102,7 @@ ff02::3 ip6-allhosts
 ||open.ad.yieldmanager.net
 
 !P
+||ping.adblockprotect.com
 ||paid.outbrain.com
 ||poweredbyliquidfire.mobi
 ||p.yotpo.com
@@ -9881,6 +9906,15 @@ ff02::3 ip6-allhosts
 ||r.skimresources.com
 
 !S
+||speedtest.unitedfiber.com
+||sp1.admo.net.prod.hosts.ooklaserver.net
+||speedtest-kc.kanren.net.prod.hosts.ooklaserver.net
+||speedtest.upnfiber.com
+||stosat-indp-01.sys.comcast.net.prod.hosts.ooklaserver.net
+||speedtest.nemr.net.prod.hosts.ooklaserver.net
+||speedtest27.suddenlink.net.prod.hosts.ooklaserver.net
+||speedtest2.grm.net.prod.hosts.ooklaserver.net
+||speedtest2.habari.co.tz.prod.hosts.ooklaserver.net
 ||synerise.com
 ||snrbox.com
 ||snrcdn.net
@@ -10105,8 +10139,6 @@ ff02::3 ip6-allhosts
 ||ww6.safariadblock.com
 ||www.safariadblock.com
 ||safariadblock.com
-||www.sap.com
-||sap.com
 ||satismeter.com
 ||srv.stackadapt.com
 ||www.submissionplatform.com
@@ -10990,6 +11022,7 @@ ff02::3 ip6-allhosts
 ||scripts.kissmetrics.com
 
 !T
+||tracker.pandora.com
 ||track.hubspot.com
 ||thunderhead-media.s3.eu-west-2.amazonaws.com
 ||thunderhead.com
@@ -17125,20 +17158,29 @@ nbcwashington.com##.close_cta
 ||d2sq9srn4wptod.cloudfront.net/v2/300x600/WCMH/WCMH_300x600_last.jpg
 ||media.nbc4i.com/nxs-wcmhtv-media-us-east-1/weather/web_4part.jpg
 ||confiant-integrations.global.ssl.fastly.net/*/*_prebid/
-
-! Fixes
-dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
-verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
-pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
-pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
-pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-8ch.net#$#body { padding-top: 0 !important; }
-digg.com,democracynow.org,tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-shmoop.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-latimes.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+urlchecker.org###fixed-box
+urlchecker.org##div[style="padding-top: 120px; "]
+productivityland.com##.sticky-footer.stuck
+productivityland.com##.holler-box.hwp-bottomright.notification.has-optin.hwp-show
+productivityland.com###hwp-73140
+reddit.com##._2UMQXLQOtNVy_JO9ghou6
+reddit.com###overlay-sidebar-atf-0
+androidcentral.com##.pushwoosh-subscribe-widget__bell-button
+androidcentral.com##.page-header.clearfix.clearfixb
+dailywire.com##.section-title-sm
+dailywire.com##.section-title-sm.d-n-s.d-n-m
+shop.dailycaller.com##.modal-backdrop.in
+shop.dailycaller.com##.modal-body.clearfix
+shop.dailycaller.com##.modal-content
+habari.co.tz###chat-application-iframe
+dailycaller.com##.max-w-3xl.px-4.mx-auto.mb-6.text-center
+dailycaller.com##.ad
+||b.cdnst.net/javascript/amazon.js
+||b.cdnst.net/api/downdetector-eot?
+||youtube.com/api/stats/
+||ad.8maple.ru/yandexad.png
+||ad.8maple.ru/8ads.gif
+youtube.com###masthead-ad
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com#%#//scriptlet("prevent-bab")
@@ -17175,6 +17217,7 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/public/ads/
 /__utm.gif
 /js/cookie-prompt.js
 /vendor/bowser.js
