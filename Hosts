@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1061
+! Version: 1062
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
-! Last Modified: Saturday, August 10, 2019
+! Last Modified: Sunday, August 11, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -36,7 +36,6 @@ ff02::3 ip6-allhosts
 @@||maps.gstatic.com^$image
 @@||adobedtm.com/launch-*
 @@||apis.google.com/_/scs/*
-@@||youtube.com/service_ajax
 @@||link.theplatform.com$xmlhttprequest
 @@||nbc.com/generetic/scripts/ads.js
 @@||player.theplatform.com
@@ -3082,7 +3081,6 @@ ff02::3 ip6-allhosts
 ||ads.stickyadstv.com
 ||ads.newtentionassets.net
 ||ad-emea.doubleclick.net
-||ads.youtube.com
 ||ad.mamastar.jp
 ||aclickads.com
 ||acmeaffiliate.go2cloud.org
@@ -10678,7 +10676,6 @@ ff02::3 ip6-allhosts
 ||sigmaad.com
 ||snssdk.com
 ||siteminer.mycomputer.com
-||ssl-youtube.2cnt.net
 ||settings-win.data.microsoft.com
 ||settings-sandbox.data.microsoft.com
 ||services.wes.df.telemetry.microsoft.com
@@ -16104,8 +16101,6 @@ nourishinteractive.com##.location_page_right5
 nourishinteractive.com##.location_page_left2
 nourishinteractive.com##.location_page_left4
 www.pandora.com##.DisplayAdController__rightRail--active.DisplayAdController__rightRail
-google.com$domain=youtube.com
-doubleclick.net$domain=youtube.com
 google.com$domain=theatlas.com
 google.com$domain=thenews.com.pk
 google.com$domain=techworld.com
@@ -16318,10 +16313,6 @@ www.projectveritas.com###cmApp_signupContainer
 www.projectveritas.com##.right-sidebar
 www.projectveritas.com##.related-title
 www.projectveritas.com##div.col-md-4.col-lg-4:nth-of-type(2) > div.content-block.row:nth-of-type(1) > .col-lg-12
-||www.youtube.com/api/stats/watchtime?
-||www.youtube.com/api/stats
-||www.youtube.com/manifest.json
-||www.youtube.com/api/stats/playback?
 ||www.naturalnews.com/images/Shungite-Safe-Sticker-June-2019-MR.jpg$image
 www.naturalnews.com##.code-block-1.code-block
 www.naturalnews.com##.post-nav-prev
@@ -16483,7 +16474,6 @@ www.jiosaavn.com##.site-message-container
 ||www.apple.com/metrics/ac-analytics/
 ||www.apple.com/ac/globalnav/4/en_US/scripts/ac-globalnav.built.js
 www.cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia > .el__storyelement--standard
-||youtube.com/ptracking?
 ||dailycaller.com/files/images/1x1.trans.gif
 ||npttech.com/advertising.js
 ||youtube.com$third-party,cookie
@@ -16904,10 +16894,6 @@ huffpost.com##.elevator.elevator--twilight.yr-elevator
 huffpost.com##.advertisement.leaderboard_flex_middle
 huffpost.com###adsDiv1
 huffpost.com##.adtech-adspot.ad-right_rail_flex
-youtube.com##.style-scope.ytd-popup-container
-youtube.com###masthead-ad
-youtube.com###companion
-youtube.com##.style-scope.ytd-companion-slot-renderer
 google.com###tads
 cbc.ca##.privacyNotification
 npr.org###main-sidebar
@@ -17061,8 +17047,6 @@ whatfinger.com###MarketGidComposite218421
 whatfinger.com##.mgbox
 amgreatness.com###div-gpt-ad-1490977881454-5
 amgreatness.com###div-gpt-ad-1490977881454-3
-||youtube.com/pagead
-||youtube.com/mac_204
 ||ade.googlesyndication.com
 ||mc.yandex.ru/webvisor
 ||sb.scorecardresearch.com/p?
@@ -17355,7 +17339,6 @@ _Affiliate
 /sem_campaigns/sem_pixel_test
 /sem_pixel_test
 /csi_204/
-/youtubei/v1/log_event
 /insights/consumersurveys/async_survey
 /adsid/google/ui/
 /universal-federated-analytics-min.js
@@ -17390,7 +17373,6 @@ _Affiliate
 /log?format/
 /log?format=json/
 /complete/search?client/
-/complete/search?client=youtube/
 /sponsored.php
 /js/v0Min.js
 /add_search.php
