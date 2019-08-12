@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1063
+! Version: 1064
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Modified: Sunday, August 11, 2019
 
@@ -17533,7 +17533,6 @@ _Affiliate
 /track/ga_tracker
 /track/pixel_tracker
 /adbackground.html
-/rsrc.php
 /plugins/feedback.php
 /ajax/bz
 /widget/pandawidget/5b03409417e08-532.js
