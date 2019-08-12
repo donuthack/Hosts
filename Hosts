@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1064
+! Version: 1065
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Modified: Sunday, August 11, 2019
 
@@ -5343,7 +5343,6 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||driftt.com
 ||data.logentries.com
 ||di.rlcdn.com
-||di.phncdn.com
 ||dotcomsecrets.com
 ||dmvorg.s3.amazonaws.com
 ||device-api.urbanairship.com
