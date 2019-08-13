@@ -16,3 +16,4 @@ Hosts file for Blokada on Android and the uBlock extension for web browsers. (St
 * AdGuard AdBlocker
 * AdNauseam
 * Blokada
+* Slimjet
