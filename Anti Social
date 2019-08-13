@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 2
+! Version: 4
 
 ! Facebook
 ||facebook.com/plugins/like.php
@@ -129,3 +129,9 @@
 ! Mail
 ||gmail.com
 ||mail.ru
+||mail.yahoo.com
+||mail.163.com
+||webmail.earthlink.net
+||mail.com
+||zoho.com/mail
+||my.juno.com
