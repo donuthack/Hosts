@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1066
+! Version: 1067
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
 ! Last Modified: Tuesday, August 13, 2019
 
@@ -17361,6 +17361,12 @@ pornhub.com##.abovePlayer
 ##.abAlertShown
 jailbreak.fce365.info###content > div.wrapper:last-child > div.sidebar:nth-child(5)
 jailbreak.fce365.info###content > center:nth-child(2)
+||pinterest.com/_/_/report/
+||mineblocks.com/1/scripts/crossdomain.xml
+||mineblocks.com/1/scripts/currentProvider?
+||facebook.com/common/cavalry_endpoint.php
+||cdn.intergient.com/pageos/pageos.js
+deploys.io##.cc-window.cc-floating.cc-type-info.cc-theme-edgeless.cc-bottom.cc-left.cc-color-override-530831885
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -17747,7 +17753,6 @@ _Affiliate
 /_/batch
 /*&utm_*=*$document,important
 /*?utm_*=*$document,important
-/yts/jsbin/spf-vflqCgDoF/spf.js
 /api/stats/atr?
 /api/stats/watchtime?
 /api/stats/qoe?
