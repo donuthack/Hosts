@@ -4,19 +4,128 @@
 ! Version: 2
 
 ! Facebook
-||facebook.com/plugins/like.php^$third-party
-||static.xx.fbcdn.net/rsrc.php^$third-party
-||connect.facebook.net^$third-party
-||facebook.net^$third-party
-||connect.facebook.com^$third-party
-||facebook.com^$third-party
+||facebook.com/plugins/like.php
+||static.xx.fbcdn.net
+||connect.facebook.net
+||facebook.net
+||connect.facebook.com
+||facebook.com
+||instagram.com
 
 ! Twitter
-||platform.twitter.com/widgets/*_button^$third-party
-||platform.twitter.com/widgets^$third-party
-||twitter.com^$third-party
+||platform.twitter.com
+||twitter.com
+||t.co
+||twitter.github.io
+
+! Reddit
+||reddit.com
+||redd.it
+||redditmedia.com
+||redditstatic.com
 
 ! Discord
-||cdn.discordapp.com/attachments^$third-party
-||cdn.discordapp.com^$third-party
-||discordapp.com^$third-party
+||cdn.discordapp.com
+||discordapp.com
+
+! Flickr
+||flickr.com
+||staticflickr.com
+
+! LinkedIn
+||linkedin.com
+||licdn.com
+
+! Live
+||live.com
+||skypeassets.com
+||skype.com
+
+! WhatsApp
+||whatsapp.com
+||whatsapp.net
+
+! WeChat
+||wechat.com
+
+! QQ
+||qzone.qq.com
+
+! DeviantArt
+||deviantart.com
+||da-ads.com
+||dapxl.com
+||deviantart.net
+
+! TikTok
+||tiktok.com
+||tiktokcdn.com
+
+! Baidu
+||tieba.baidu.com
+
+! Tumblr
+||tumblr.com
+
+! Line
+||line.me
+||line-scdn.net
+
+! Viber
+||viber.com
+
+! RenRen
+||renren.com
+
+! Foursquare
+||foursquare.com
+
+! TARINGA!
+||taringa.net
+
+! Telegram
+||telegram.org
+
+! Pinterest
+||pinterest.com
+
+! VKontakte
+||vk.com
+
+! Tagged
+||tagged.com
+
+! Snapchat
+||snapchat.com
+
+! Myspace
+||myspace.com
+||myspacecdn.com
+
+! Badoo
+||badoo.com
+||badoocdn.com
+
+! We Heart It
+||weheartit.com
+||whicdn.com
+
+! Vine
+||vine.co
+
+! Douban
+||douban.com
+||doubanio.com
+
+! Meetup
+||meetup.com
+||meetupstatic.com
+
+! MeetMe
+||meetme.com
+||meetmecdna.com
+||mtmei18n.com
+
+! Mail
+||gmail.com
+||mail.ru
