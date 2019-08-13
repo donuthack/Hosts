@@ -1,0 +1,22 @@
+[Adblock Plus 2.0]
+! Title: Cybo's Anti Social
+! Expires: 1 day
+! Version: 2
+
+! Facebook
+||facebook.com/plugins/like.php^$third-party
+||static.xx.fbcdn.net/rsrc.php^$third-party
+||connect.facebook.net^$third-party
+||facebook.net^$third-party
+||connect.facebook.com^$third-party
+||facebook.com^$third-party
+
+! Twitter
+||platform.twitter.com/widgets/*_button^$third-party
+||platform.twitter.com/widgets^$third-party
+||twitter.com^$third-party
+
+! Discord
+||cdn.discordapp.com/attachments^$third-party
+||cdn.discordapp.com^$third-party
+||discordapp.com^$third-party
