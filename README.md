@@ -7,7 +7,7 @@ Hosts file for Blokada on Android and the uBlock extension for web browsers. (St
 
 * [`Anti Verizon`](https://github.com/Cybo1927/Hosts.txt/blob/master/Anti%20Verizon) - Block Verizon servers
 
-* [`Anti Social`](https://github.com/Cybo1927/Hosts.txt/blob/master/Anti%20Social) - Block social buttons to prevent them from following you around the web
+* [`Anti Social`](https://github.com/Cybo1927/Hosts.txt/blob/master/Anti%20Social) - Block social sites
 
 ## Support
 
