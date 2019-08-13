@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1065
+! Version: 1066
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
-! Last Modified: Sunday, August 11, 2019
+! Last Modified: Tuesday, August 13, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -49,6 +49,7 @@ ff02::3 ip6-allhosts
 ||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$rewrite=abp-resource:blank-mp3,domain=pandora.com
 
 ! Fixes
+com,org,net,pl,ru,io,online,eu,info,fr,vip,dk,gr,nl,co,il,rs,no##html:style(overflow: auto !important;)
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
@@ -880,6 +881,31 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||ads.cn.miaozhen.com
+||a.ads.cn.miaozhen.com
+||adwords.com
+||adsense.com
+||a1.webhancer.com
+||adbureau.net
+||ad6.bannerbank.ru
+||ad.cibleclick.com
+||adfarm.mediaplex.com
+||adfarm.mplx.akadns.net
+||ad.jp.ap.valuecommerce.com
+||ad.linksynergy.com
+||ad.linkstorms.com
+||a9840.com
+||a22.com
+||ad.nozonedata.com
+||adopt.specificclick.net
+||adq.nextag.com
+||ad.rambler.ru
+||adrevservice.com
+||ads1.tripod.com
+||ads2.jubii.dk
+||ads3.adman.gr
+||adcalls.nl
+||axept.io
 ||ad.8maple.ru
 ||analytics-egain.com
 ||ahf8n.com
@@ -3151,6 +3177,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||a.ads2.msads.net
 
 !B
+||bbelements.com
 ||bob.dmpxs.com
 ||blob.blaprdstr08a.store.core.windows.net
 ||bj1110.online
@@ -3993,6 +4020,14 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||bam.nr-data.net
 
 !C
+||c.spolecznosci.net
+||ceehimur.uk
+||cobalten.com
+||clickshield.net
+||carpediem.fr
+||connectivity-check.ubuntu.com
+||connectad.io
+||collector-hpn.ghostery.net
 ||cp.cbbp1.com
 ||cbbp1.com
 ||cs9.wpc.v0cdn.net
@@ -5808,6 +5843,11 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||findthebestoffer.com
+||fluxads.com
+||ftjcfx.com
+||f-ads.pl
+||fireads.online
 ||focus.vuer.net
 ||fff.dailymail.co.uk
 ||footprintdns.com
@@ -6044,6 +6084,9 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||freshmarketer.com
 
 !G
+||get.mysecurify.com
+||geranew.info
+||googlee.com
 ||gamingadult.biz
 ||go.adovr.com
 ||getgobot.com
@@ -6362,6 +6405,9 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||gannett.hb.omtrdc.net
 
 !H
+||html5shiv.googlecode.com
+||helpinghandinternetmarketing.com
+||humparsi.com
 ||he242.infusionsoft.com
 ||humanpresence.io
 ||https-www-campusreform-org-3.disqus.com
@@ -6556,6 +6602,11 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||helpshift.com
 
 !I
+||intl-feedback.oppomobile.com
+||i5.weather.oppomobile.com
+||ip.babybus.com
+||install.notify-service.com
+||install1.notify-service.com
 ||iyfnzgb.com
 ||intg.snapchat.com
 ||isboost.co.jp
@@ -7268,6 +7319,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||js.users.51.la
 
 !K
+||kinja-img.com
 ||kansascity1.cabospeed.com
 ||klaviyo.com
 ||krk.kargo.com
@@ -8031,6 +8083,8 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||krxd.net
 
 !L
+||l2m.net
+||lincassa.com
 ||look.ufinkln.com
 ||localfusion.secure.ownlocal.com
 ||loxtk.com
@@ -8257,6 +8311,9 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||location.silverpush.com
 
 !M
+||millionairetrader.net
+||mysaferesult.net
+||matcash.com
 ||mci.speedtest.sbcglobal.net
 ||mftracking.com
 ||mothergunship.com.herokudns.com
@@ -8760,6 +8817,11 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||memo2.nl
 
 !N
+||newtab-media.com
+||newtab-mediasearch.com
+||ngads.com
+||ngfiles.com
+||ntyamcfwxkubrdv.rambler.ru
 ||npcdaily.disqus.com
 ||nt-cdn.coccoc.com
 ||ntrb.qc.coccoc.com
@@ -8940,6 +9002,8 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||n149adserv.com
 
 !O
+||o12zs3u2n.com
+||offers-api.ghostery.net
 ||onelouder.com
 ||oexbdfnbentzd.com
 ||our.antutu.net
@@ -9101,6 +9165,12 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||open.ad.yieldmanager.net
 
 !P
+||ping1.tnt-ea.com
+||pvz2-prd.popcap.com
+||prod.spotify.map.fastlylb.net
+||primaryads.com
+||pulsembed.eu
+||pos.baidu.com
 ||ping.adblockprotect.com
 ||paid.outbrain.com
 ||poweredbyliquidfire.mobi
@@ -9163,7 +9233,6 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||powerad.ai
 ||pingfore.qq.com
 ||perfdrive.com
-||playwire.com
 ||platform.adstage.io
 ||phonelookupzjq.com
 ||poplink.io
@@ -9648,6 +9717,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||qnsr.com
 
 !R
+||runative.com
 ||ryke4peep.com
 ||recommendedforyou.xyz
 ||redretarget.com
@@ -9905,6 +9975,15 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||r.skimresources.com
 
 !S
+||smartemailing.cz
+||search.spotxchange.com
+||spotxchange.com
+||socdm.com
+||socio-1267.appspot.com
+||spolecznosci.pl
+||spolecznosci.net
+||safebrowsing.googleapis.com
+||statsfe2.update.microsoft.com
 ||speedtest.unitedfiber.com
 ||sp1.admo.net.prod.hosts.ooklaserver.net
 ||speedtest-kc.kanren.net.prod.hosts.ooklaserver.net
@@ -11021,6 +11100,9 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||scripts.kissmetrics.com
 
 !T
+||tracking.smartselling.cz
+||trafyield.com
+||tlnk.io
 ||tracker.pandora.com
 ||track.hubspot.com
 ||thunderhead-media.s3.eu-west-2.amazonaws.com
@@ -11650,6 +11732,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||us.adserver.yahoo.com
 
 !V
+||video-ad-stats.googlesyndication.com
 ||vzwdm.com
 ||vuer.net
 ||vdopia.com
@@ -11792,6 +11875,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||v.admaster.com.cn
 
 !W
+||www-a22.vip
 ||widget.privy.com
 ||w.chatlio.com
 ||wickedreports.com
@@ -12101,6 +12185,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||wv.inner-active.mobi
 
 !X
+||xmediaserve.com
 ||x.dlx.addthis.com
 ||xp2.zedo.com
 ||x.castanet.net
@@ -12870,6 +12955,18 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||45.63.127.60
 
 !Misc
+||20429.dialer.lincassa.com
+||0-act.channel.facebook.com
+||0.beta.facebook.com
+||2-dot-mod-ads-dot-house-ads-server.appspot.com
+||102.122.2o7.net
+||102.112.2o7.net
+||123.fluxads.com
+||14713804a.l2m.net
+||192.168.112.2o7.net
+||1-se.com
+||7adpower.com
+||7art-screensavers.com
 ||4g2.vzwdm.com
 ||2go7v1nes8.com
 ||13vm73vbmp.com
@@ -17180,9 +17277,93 @@ dailycaller.com##.ad
 ||ad.8maple.ru/yandexad.png
 ||ad.8maple.ru/8ads.gif
 youtube.com###masthead-ad
+smartemailing.cz##.mw_cookie_info_bar
+asahi.com###div-gpt-ad-1491727813330-1
+lite-ra.com###adA
+lite-ra.com###adHeader
+###adHeader
+###cookies_info
+avclub.com##.ynugv2-0.jtkZhZ
+avclub.com###trending_wrapper
+avclub.com##.ynugv2-0.hNDMan
+avclub.com###sidebar_wrapper
+avclub.com##.ynugv2-3.bhiZsH
+avclub.com##.ynugv2-2.fwByZL
+jubii.dk##.cookie-details
+jubii.dk##.set-cookie.hide-entire-cookie-bar
+jubii.dk###innerCookieBanner
+jubii.dk##.card-story.size-2.no-bg
+rambler.ru##.acvtuj._hvloycrp
+rambler.ru##._1I-d
+howstuffworks.com##.w-100.hsw-carousel-feature-wrap
+howstuffworks.com##.module.rail-module.mb-4.w-100
+cpvfeed.com##.sidebar.fixed
+eurosport.com###etb-watchbar
+eurosport.com##.storylist-promobox-player__promotionboxe.eurosport
+howstuffworks.com###ad-div-bannerTop
+howstuffworks.com##.ad-tag
+howstuffworks.com###rail-newsletter
+tek.no##.ad-placeholder.adunit.ad-300x250
+tek.no##.col-full-width.clearfix
+cpvfeed.com###divTags
+cpvfeed.com##.sideblock
+cpvfeed.com##.sidescroll
+tp-link.com###subscribe-us
+tp-link.com###tp-chat-now
+mycity.rs##.header_banners_top
+mycity.rs##.search_input
+open.spotify.com##.AdsContainer
+tek.no##.ad-placeholder.adunit.ad-980x150.ad-top-ad.ad-label-vertical.hide-on-mobile
+tp-link.com##.subscribe-wrapper
+info.internet.org###jam3-cookie-banner
+20il.co.il###div-gpt-ad-1514450857967-0
+||translate.googleapis.com/*/t?anno=
+||cdn.playwire.com/bolt4/adtech/
+||se-forms.cz/email-suggester/suggester.js
+||translate.google.com/gen204
+||jailbreak.fce365.info/jscripts/jquery.plugins.min.js
+||jailbreak.fce365.info/cdn-cgi/apps/head/*.js
+||phncdn.com/www-static/js/lib/ph-functions.js
+||phncdn.com/vortex-simple-
+||pornhub.com/svvt/add?
+||pornhub.com^$popup
+||id.rambler.ru/jsonrpc
+||rambler.ru/qex
+||ssp.rambler.ru/capirs_async.js
+||rambler.ru/location/autodetect
+||rambler.ru/location/current
+||rambler.ru/metrics
+||tiyu-1258748165.cos.ap-shanghai.myqcloud.com/tupian/pc.jpg
+||easytelevisionaccessnow.com/Television?adprovider
+||mycity.rs/templates/simplified/images/search_button.png
+||fonts.gstatic.com/stats/
+||facebook.com/tr^
+dailycaller.com##li.mb-6.px-4.md\:w-1\/2:nth-of-type(16)
+dailycaller.com##li.mb-6.px-4.md\:w-1\/2:nth-of-type(8)
+||dailycaller.com/files/images/1x1.trans.gif$important
+reddit.com###SHORTCUT_FOCUSABLE_DIV > div.SubredditVars-r-chrome:nth-child(4) > div._1nxEQl5D2Bx2jxDILRHemb > div._1npCwF50X2J7Wt82SZi6J0._3OGqXkiUb_0ZMlksb26boO:last-child > div._2Xq-4oyrEvHjL5U_EeMnK8._2gEUIJsfk7ZZ0euRwRyv08:last-child > div._31AVRNJbVMh2DUFRrpCQcD > div._2vEf-C2keJaBMY9qk_BxVn:nth-child(2)
+reddit.com###SHORTCUT_FOCUSABLE_DIV > div.SubredditVars-r-chrome:nth-child(4) > div._1nxEQl5D2Bx2jxDILRHemb > div._1npCwF50X2J7Wt82SZi6J0._3OGqXkiUb_0ZMlksb26boO:last-child > div._2Xq-4oyrEvHjL5U_EeMnK8._2gEUIJsfk7ZZ0euRwRyv08:last-child > div._31AVRNJbVMh2DUFRrpCQcD > div._2vEf-C2keJaBMY9qk_BxVn:nth-child(3)
+urlchecker.org##div.container:nth-child(4) > div.panel.panel-default:first-child
+duckduckgo.com###ads
+duckduckgo.com###links > div.results--ads
+tek.no###main > div.tek-frontpage.frontpage:first-child > div.col-full-width.flex:nth-child(13) > div.ad-placeholder.adunit.ad-580x400:first-child
+rambler.ru##.ccqmru, ._hvloycrp
+rambler.ru##.ejugmu, ._lqoeeax
+rambler.ru##.ulsj
+rambler.ru##.abwz
+rambler.ru##.nvjebry, .HteEt2eQh
+rambler.ru##.tipk
+rambler.ru##.zuzhe
+rambler.ru##.bzfwjjle
+rambler.ru##.mijwzc
+##.sniperModeEngaged, .alpha
+pornhub.com##.abovePlayer
+##.abAlertShown
+jailbreak.fce365.info###content > div.wrapper:last-child > div.sidebar:nth-child(5)
+jailbreak.fce365.info###content > center:nth-child(2)
 
 ! AdGuard
-blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com#%#//scriptlet("prevent-bab")
+blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
 cloudflare.com$third-party,cookie
 highcharts.com$third-party,cookie
 adorama.com$third-party,cookie
