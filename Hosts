@@ -16,9 +16,9 @@ ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
 ! Title: Cybo's Hosts
-! Expires: 1 day
-! Version: 1069
-! Number Of Ad Services, Trackers, And Malware Blocked: 17.91K (uBlock)
+! Expires: 8 hours
+! Version: 1070
+! Number Of Ad Services, Trackers, And Malware Blocked: 17.93K (uBlock)
 ! Last Modified: Thursday, August 15, 2019
 
 ! Unbreak
@@ -43,27 +43,20 @@ ff02::3 ip6-allhosts
 @@||dailycaller.com$image
 @@||accounts.google.$cookie
 
-! Rewrite (Adblock Plus)
+! Rewrite (Adblock Plus and AdGuard)
 ||mediaserver-cont-*.pandora.com/*/*/devicead^$rewrite=abp-resource:blank-mp3,domain=pandora.com
 ||mediaserver-cont-*.pandora.com/public/ads^$rewrite=abp-resource:1x1-transparent-gif,domain=pandora.com
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
 ||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$rewrite=abp-resource:blank-mp3,domain=pandora.com
 
 ! Fixes
-com,org,net,pl,ru,io,online,eu,info,fr,vip,dk,gr,nl,co,il,rs,no##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+com,org,net,pl,ru,io,online,eu,info,fr,vip,dk,gr,nl,co,il,rs,no,bid##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 8ch.net#$#body { padding-top: 0 !important; }
-digg.com,democracynow.org,tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-shmoop.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-latimes.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-tribunademinas.com.br#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
-shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 ||hola.org
@@ -17390,6 +17383,18 @@ youtube.com##.ytd-primetime-promo-renderer
 ||phncdn.com/swfobject-*.js
 ||phncdn.com/www-static/js/phub.js?
 ||shared.phncdn.com/mg_utils-*.js
+www.pornhub.com##.clear.hd
+www.engadget.com##.ta-c.pb-20.pt-20.th-reverse.border-bottom
+www.engadget.com###atwAdFrame4
+www.engadget.com##.inlineLb
+www.engadget.com##.mb-20\@s.mt-20\@s.ta-c > aside
+www.engadget.com##.mb-40.pt-40.mt-40.border-top
+www.engadget.com###atwAdFrame1EAN
+www.engadget.com##.grid-divider.hide\@tp-.col-4-of-12.grid__cell > .mb-40
+techcrunch.com###atwAdFrame7
+techcrunch.com###atwAdFrame8
+techcrunch.com###tc-ad-native2
+www.androidcentral.com###article-71745 > div.row:nth-of-type(1)
 about:blank$domain=pornhub.com
 pornhub.com###hd-leftColVideoPage > div.video-wrapper:first-child > div.bh2g051hregrk7lc1mr.bh2g051hregrk7lc1mu.hd.clear:nth-child(2)
 pornhub.com###hd-leftColVideoPage > div.video-wrapper:first-child > div.lq50qf9lwubvur.lq50qf9lwubvuu.hd.clear:nth-child(2)
@@ -17401,6 +17406,7 @@ androidcentral.com##.share__list
 theguardian.com##.js-ad-slot.ad-slot.ad-slot--inline.ad-slot--inline1
 theguardian.com###dfp-ad--inline1
 theguardian.com##.site-message.js-site-message.site-message--banner.site-message--first-pv-consent.site-message--permanent
+www.youtube.com##.vidiq-social-stats-upsell
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
