@@ -17,8 +17,8 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1068
-! Number Of Ad Services, Trackers, And Malware Blocked: 17.90K (uBlock)
+! Version: 1069
+! Number Of Ad Services, Trackers, And Malware Blocked: 17.91K (uBlock)
 ! Last Modified: Thursday, August 15, 2019
 
 ! Unbreak
@@ -43,14 +43,14 @@ ff02::3 ip6-allhosts
 @@||dailycaller.com$image
 @@||accounts.google.$cookie
 
-! Rewrite
+! Rewrite (Adblock Plus)
 ||mediaserver-cont-*.pandora.com/*/*/devicead^$rewrite=abp-resource:blank-mp3,domain=pandora.com
 ||mediaserver-cont-*.pandora.com/public/ads^$rewrite=abp-resource:1x1-transparent-gif,domain=pandora.com
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
 ||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$rewrite=abp-resource:blank-mp3,domain=pandora.com
 
 ! Fixes
-com,org,net,pl,ru,io,online,eu,info,fr,vip,dk,gr,nl,co,il,rs,no##html:style(overflow: auto !important;)
+com,org,net,pl,ru,io,online,eu,info,fr,vip,dk,gr,nl,co,il,rs,no##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
@@ -3076,7 +3076,6 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||admaster.com.cn
 ||adocean.pl
 ||advertising.com
-!admarvel.s3.amazonaws.com
 ||adforce.ru
 ||adcycle.com
 ||adcycle.everyone.net
@@ -5510,6 +5509,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||downloads.mailchimp.com
 
 !E
+||es.io
 ||egain.com
 ||eu2.thunderhead.com
 ||eawp2ra7.top
@@ -6087,6 +6087,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||freshmarketer.com
 
 !G
+||geoservice.curse.com
 ||get.mysecurify.com
 ||geranew.info
 ||googlee.com
@@ -8087,6 +8088,8 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||krxd.net
 
 !L
+||log.ncaudienceexchange.com
+||load.instinctiveads.com
 ||l2m.net
 ||lincassa.com
 ||look.ufinkln.com
@@ -8821,6 +8824,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||memo2.nl
 
 !N
+||ncaudienceexchange.com
 ||newtab-media.com
 ||newtab-mediasearch.com
 ||ngads.com
@@ -9006,6 +9010,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||n149adserv.com
 
 !O
+||ophan.theguardian.com
 ||o.ss2.us
 ||o12zs3u2n.com
 ||offers-api.ghostery.net
@@ -9142,7 +9147,6 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||oas.ad-vice.biz
 ||o.analytics.yahoo.com
 ||odb.outbrain.com
-||o.aolcdn.com
 ||opensoftwareupdate.com 
 ||odr.mookie1.com
 ||ojrq.net
@@ -9170,6 +9174,8 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||open.ad.yieldmanager.net
 
 !P
+||pixel.condenastdigital.com
+||phar.gu-web.net
 ||ping1.tnt-ea.com
 ||pvz2-prd.popcap.com
 ||prod.spotify.map.fastlylb.net
@@ -9981,6 +9987,10 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||r.skimresources.com
 
 !S
+||s.yimg.com/ss/rapid3.js
+||sexad.net
+||serverbid.com
+||stats.clutch.co
 ||smartemailing.cz
 ||search.spotxchange.com
 ||spotxchange.com
@@ -11106,6 +11116,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||scripts.kissmetrics.com
 
 !T
+||t.paypal.com
 ||tracking.smartselling.cz
 ||trafyield.com
 ||tlnk.io
@@ -17375,10 +17386,26 @@ yahoo.com##.darla
 ##.js-stream-ad
 about:blank$domain=yahoo.com
 youtube.com##.ytd-primetime-promo-renderer
+||dev.visualwebsiteoptimizer.com/c.gif
+||phncdn.com/swfobject-*.js
+||phncdn.com/www-static/js/phub.js?
+||shared.phncdn.com/mg_utils-*.js
+about:blank$domain=pornhub.com
+pornhub.com###hd-leftColVideoPage > div.video-wrapper:first-child > div.bh2g051hregrk7lc1mr.bh2g051hregrk7lc1mu.hd.clear:nth-child(2)
+pornhub.com###hd-leftColVideoPage > div.video-wrapper:first-child > div.lq50qf9lwubvur.lq50qf9lwubvuu.hd.clear:nth-child(2)
+vpnmentor.com##div.modalbg.share-blog-modal:nth-child(6)
+theguardian.com##div.site-message.js-site-message.site-message--banner.site-message--first-pv-consent.site-message--permanent:nth-child(9)
+techcrunch.com###tc-main-content > div.content-wrap:last-child > div.content:first-child > div.river.river--homepage:last-child > div:first-child > div.post-block:nth-child(11)
+androidcentral.com###article-78368 > div.row:first-child
+androidcentral.com##.share__list
+theguardian.com##.js-ad-slot.ad-slot.ad-slot--inline.ad-slot--inline1
+theguardian.com###dfp-ad--inline1
+theguardian.com##.site-message.js-site-message.site-message--banner.site-message--first-pv-consent.site-message--permanent
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
 ||google.$cookie=/1P_JAR/
+||www.pandora.com$cookie=/floodlightPixelTimer|http_referrer/
 ||twitter.com$cookie=/ads_prefs|personalization_id|guest_id/
 ||youtube.com$cookie=/GPS/
 ||yahoo.com$cookie=/apeaf|ucs|thamba|B|flash_enabled/
@@ -17432,6 +17459,7 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/geo/get
 /public/ads/
 /__utm.gif
 /js/cookie-prompt.js
@@ -17780,8 +17808,6 @@ _Affiliate
 /js/tracking.min.js
 /upscribe_sage/resources/assets/scripts/sales.js
 /_/batch
-/*&utm_*=*$document,important
-/*?utm_*=*$document,important
 /api/stats/atr?
 /api/stats/watchtime?
 /api/stats/qoe?
@@ -17804,7 +17830,6 @@ _Affiliate
 /js/log.js?
 /js/experiment.js?
 /js/ga.js
-/cloudflare-static/email-decode.min.js
 /cse/cse.js?
 /TOIBNews/breakingnews.html
 /clear1x1.gif
@@ -17861,6 +17886,10 @@ _Affiliate
 &page-url=
 =googleanalytics
 _WebBannerAd
+##.ad-unit, .ad-unit__billboard, .ad-unit--fixed
+##.banner-ad-b
+##.adunit-wrap
+##.js-ad-slot, .ad-slot, .ad-slot--inline, .ad-slot--inline1
 ##a[onclick^="_gaq.push(['_trackEvent', 'Banner',"]
 ###cookie-law-info-bar
 ##.block-fusion-ads
