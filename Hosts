@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 1 day
-! Version: 1067
-! Number Of Ad Services, Trackers, And Malware Blocked: 17.36K (uBlock)
-! Last Modified: Tuesday, August 13, 2019
+! Version: 1068
+! Number Of Ad Services, Trackers, And Malware Blocked: 17.90K (uBlock)
+! Last Modified: Thursday, August 15, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -41,6 +41,7 @@ ff02::3 ip6-allhosts
 @@||player.theplatform.com
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
 @@||dailycaller.com$image
+@@||accounts.google.$cookie
 
 ! Rewrite
 ||mediaserver-cont-*.pandora.com/*/*/devicead^$rewrite=abp-resource:blank-mp3,domain=pandora.com
@@ -881,6 +882,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||adport.io
 ||ads.cn.miaozhen.com
 ||a.ads.cn.miaozhen.com
 ||adwords.com
@@ -3177,6 +3179,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||a.ads2.msads.net
 
 !B
+||byteoversea.com
 ||bbelements.com
 ||bob.dmpxs.com
 ||blob.blaprdstr08a.store.core.windows.net
@@ -6602,6 +6605,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||helpshift.com
 
 !I
+||ibytedtos.com
 ||intl-feedback.oppomobile.com
 ||i5.weather.oppomobile.com
 ||ip.babybus.com
@@ -9002,6 +9006,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||n149adserv.com
 
 !O
+||o.ss2.us
 ||o12zs3u2n.com
 ||offers-api.ghostery.net
 ||onelouder.com
@@ -9717,6 +9722,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||qnsr.com
 
 !R
+||r.adport.io
 ||runative.com
 ||ryke4peep.com
 ||recommendedforyou.xyz
@@ -11732,6 +11738,7 @@ shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll 
 ||us.adserver.yahoo.com
 
 !V
+||vy4e3jw46l.com
 ||video-ad-stats.googlesyndication.com
 ||vzwdm.com
 ||vuer.net
@@ -16902,7 +16909,6 @@ www.breitbart.com##.notify-optin-wrap
 shadowban.eu###toast-container
 ||steam.tv/broadcast/heartbeat/
 ||video.steamstatic.com/broadcast/*/stats/playerstats/
-||store.steampowered.*$cookie,domain=steam.tv
 ||steamstore-a.akamaihd.net/public/javascript/dynamicstore.js?$domain=steam.tv,third-party
 ||steamstore-a.akamaihd.net/public/shared/images/trans.gif
 ||steamstore-a.akamaihd.net/public/images/blank.gif
@@ -16932,7 +16938,6 @@ shadowban.eu###toast-container
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/Popup.js?$domain=shtfplan.com
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/PopupConfig.js?$domain=shtfplan.com
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/PopupBuilder.js?$domain=shtfplan.com
-||infowarsmedia.com$cookie,third-party
 ||*.infowarsmedia.com/videojs-event-tracking/
 ||infowars.com/wp-content/themes/infowars-sitegoals/vendor/iframetracker/jquery.iframetracker.js
 ||washingtonpost.com/wp-stat/pb/features/page/pmbl.js
@@ -16965,15 +16970,6 @@ deadline.com##.u-flex.pmc-a-grid-item.\/\/.header__actions
 ||facebook.com$domain=buzzfeed.com
 ||bxcreative.com$domain=bestchinanews.com
 ||bodelen.com/afu.php^
-||fireden.net$cookie,domain=cytu.be
-||discordapp.com$cookie,domain=cytu.be
-||pngpix.com.com$cookie,domain=cytu.be
-||loox.io$cookie,third-party
-||loox.app$cookie,third-party
-||nyafuu.org$cookie,domain=cytu.be
-||animatedimages.org$cookie,domain=cytu.be
-||staticflickr.com$cookie,third-party
-||swiftype.com$cookie,third-party
 ||yahooapis.com$domain=codetapper.com
 ||demonware.net/assets/js/twitterFetcher_min.js
 ||ksnt.com/_static$script
@@ -17367,17 +17363,50 @@ jailbreak.fce365.info###content > center:nth-child(2)
 ||facebook.com/common/cavalry_endpoint.php
 ||cdn.intergient.com/pageos/pageos.js
 deploys.io##.cc-window.cc-floating.cc-type-info.cc-theme-edgeless.cc-bottom.cc-left.cc-color-override-530831885
+internxt.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom.cc-color-override-1212131424
+||s.yimg.com/rq/darla/*/html/r-sf.html
+||app.vidiq.com/v0/facebook/configurations/active?
+||cloudflare.com/ajax/libs/cookieconsent2/
+internxt.com##div.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom.cc-color-override-1212131424:first-child
+usatoday.com##.storybottombar-bucket, .taboola-related-module, .story-taboola-related-module
+usatoday.com##.partner-placement, .partner-overlay-top-ad, .partner-has-min-height
+yahoo.com###mega-banner
+yahoo.com##.darla
+##.js-stream-ad
+about:blank$domain=yahoo.com
+youtube.com##.ytd-primetime-promo-renderer
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
-cloudflare.com$third-party,cookie
-highcharts.com$third-party,cookie
-adorama.com$third-party,cookie
-yeps.io$third-party,cookie
-trialfire.com$cookie
-dailymail.co.uk$cookie
-abcnewsvod-f.akamaihd.net$cookie
-iheart.com$cookie,third-party
+||google.$cookie=/1P_JAR/
+||twitter.com$cookie=/ads_prefs|personalization_id|guest_id/
+||youtube.com$cookie=/GPS/
+||yahoo.com$cookie=/apeaf|ucs|thamba|B|flash_enabled/
+||facebook.com$cookie=/datr|fr|wd/
+||user.usatoday.com$cookie=/gup_clientid/
+||paypal.com$cookie=/cookie_check|_ga|_gcl_au/
+||cloudflare.com$third-party,cookie
+||highcharts.com$third-party,cookie
+||adorama.com$third-party,cookie
+||yeps.io$third-party,cookie
+||trialfire.com$cookie
+||dailymail.co.uk$cookie
+||abcnewsvod-f.akamaihd.net$cookie
+||iheart.com$cookie,third-party
+||disweb.deploys.io$cookie
+||indiedb.com$cookie,third-party
+||zanzlanz.com$cookie
+||fireden.net$cookie,domain=cytu.be
+||discordapp.com$cookie,domain=cytu.be
+||pngpix.com.com$cookie,domain=cytu.be
+||loox.io$cookie,third-party
+||loox.app$cookie,third-party
+||nyafuu.org$cookie,domain=cytu.be
+||animatedimages.org$cookie,domain=cytu.be
+||staticflickr.com$cookie,third-party
+||swiftype.com$cookie,third-party
+||infowarsmedia.com$cookie,third-party
+||store.steampowered.*$cookie,domain=steam.tv
 $webrtc,domain=xda-developers.com
 $webrtc,domain=vimeo.com
 $webrtc,domain=4chan.org
