@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1074
+! Version: 1075
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Saturday, August 17, 2019
 
@@ -5672,7 +5672,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||ec2-54-64-149-136.ap-northeast-1.compute.amazonaws.com
 ||e6987.e9.akamaiedge.net
 ||e6987.a.akamaiedge.net
-||e673.dsce9.akamaiedge.net
+! ||e673.dsce9.akamaiedge.net (Breaks Apple App store on iOS)
 ||errorexpert.com
 ||errorsafe.com
 ||ext-irs.extfans.com
