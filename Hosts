@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1071
+! Version: 1072
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.93K (uBlock)
 ! Last Modified: Friday, August 16, 2019
 
@@ -10052,7 +10052,6 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||settingsfd-prod-sn2-endpoint.trafficmanager.net
 ||settingsfd-geo.trafficmanager.net
 ||s.qualtrics.com
-||swa.and.co.uk
 ||smaato.com
 ||ssw.live.com
 ||s2.symbc.com
