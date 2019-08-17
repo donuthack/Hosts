@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1070
+! Version: 1071
 ! Number Of Ad Services, Trackers, And Malware Blocked: 17.93K (uBlock)
-! Last Modified: Thursday, August 15, 2019
+! Last Modified: Friday, August 16, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -323,7 +323,6 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||depot.info.apple.com
 ||time-ios.apple.com
 ||idmsauth-uat.corp.apple.com
-||idmsa.apple.com
 ||appleconnect-uat.apple.com
 ||appleseed-stage.apple.com
 ||iforgot-uat.apple.com
@@ -875,6 +874,9 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||async01.admantx.com
+||ads.youtube.com
+||api.infoip.io
 ||adport.io
 ||ads.cn.miaozhen.com
 ||a.ads.cn.miaozhen.com
@@ -4015,6 +4017,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||bam.nr-data.net
 
 !C
+||cdm.cursecdn.com
 ||c.spolecznosci.net
 ||ceehimur.uk
 ||cobalten.com
@@ -5839,6 +5842,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||fundingchoicesmessages.google.com
 ||findthebestoffer.com
 ||fluxads.com
 ||ftjcfx.com
@@ -6080,6 +6084,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||freshmarketer.com
 
 !G
+||grahamdigital.com
+||g1.tagtic.cn
 ||geoservice.curse.com
 ||get.mysecurify.com
 ||geranew.info
@@ -6402,6 +6408,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||gannett.hb.omtrdc.net
 
 !H
+||hello.grahamdigital.com
 ||html5shiv.googlecode.com
 ||helpinghandinternetmarketing.com
 ||humparsi.com
@@ -6599,6 +6606,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||helpshift.com
 
 !I
+||imedia.cz
+||infosniper.net
 ||ibytedtos.com
 ||intl-feedback.oppomobile.com
 ||i5.weather.oppomobile.com
@@ -7225,6 +7234,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||init.supersonicads.com
 
 !J
+||js.matheranalytics.com
 ||justuno.com
 ||js.rating-widget.com
 ||js.click-plus.net
@@ -8311,6 +8321,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||location.silverpush.com
 
 !M
+||matheranalytics.com
+||mytop-in.net
 ||millionairetrader.net
 ||mysaferesult.net
 ||matcash.com
@@ -9167,6 +9179,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||open.ad.yieldmanager.net
 
 !P
+||piwik.hidester.com
 ||pixel.condenastdigital.com
 ||phar.gu-web.net
 ||ping1.tnt-ea.com
@@ -9721,6 +9734,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||qnsr.com
 
 !R
+||rejoiner.com
 ||r.adport.io
 ||runative.com
 ||ryke4peep.com
@@ -9980,6 +9994,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||r.skimresources.com
 
 !S
+||schibsted.media
+||szn.cz
 ||s.yimg.com/ss/rapid3.js
 ||sexad.net
 ||serverbid.com
@@ -11109,6 +11125,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||scripts.kissmetrics.com
 
 !T
+||trackcmp.net
+||tagtic.cn
 ||t.paypal.com
 ||tracking.smartselling.cz
 ||trafyield.com
@@ -16691,8 +16709,6 @@ thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--ad
 ||philipbloom.net/blog/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js
 ||twitter.com/i/users/recommendations?
 ||api.twitter.com/1.1/dm/update_last_seen_event_id.json
-||s2.wp.com/_static/*
-*.mega.co.nz/3/fonts/
 ||g.api.mega.co.nz/cs?id=0&domain=meganz&
 ||na.static.mega.co.nz/3/css/*$domain=mega.nz,third-party
 ||na.static.mega.co.nz/js/cms.js
@@ -17253,7 +17269,6 @@ nbcwashington.com##.close_cta
 ||nbc4i.com/wp-content/uploads/sites/18/2019/08/1140x150web_heartbreak_in_dayton-1.jpg
 ||d2sq9srn4wptod.cloudfront.net/v2/300x600/WCMH/WCMH_300x600_last.jpg
 ||media.nbc4i.com/nxs-wcmhtv-media-us-east-1/weather/web_4part.jpg
-||confiant-integrations.global.ssl.fastly.net/*/*_prebid/
 urlchecker.org###fixed-box
 urlchecker.org##div[style="padding-top: 120px; "]
 productivityland.com##.sticky-footer.stuck
@@ -17403,10 +17418,55 @@ theguardian.com##div.site-message.js-site-message.site-message--banner.site-mess
 techcrunch.com###tc-main-content > div.content-wrap:last-child > div.content:first-child > div.river.river--homepage:last-child > div:first-child > div.post-block:nth-child(11)
 androidcentral.com###article-78368 > div.row:first-child
 androidcentral.com##.share__list
+digitaltrends.com##.fc-ab-root
 theguardian.com##.js-ad-slot.ad-slot.ad-slot--inline.ad-slot--inline1
 theguardian.com###dfp-ad--inline1
 theguardian.com##.site-message.js-site-message.site-message--banner.site-message--first-pv-consent.site-message--permanent
 www.youtube.com##.vidiq-social-stats-upsell
+desmoinesregister.com##.hydrated
+cludo.com##.swal2-popup.swal2-modal.cookie__modal.swal2-show
+||panopticlick.eff.org/static/zig.js
+||support.startpage.com/cron/index.php?
+||startpage.com/assets/js/index.js?
+||startpage.com/do/jserr
+||startpage.com/sp/jserr
+||startpage.com/english/pics/?
+||startpage.com/do/showimage?
+||startpage.com/english/web/?
+||startpage.com/do/get_map_info
+||startpage.com/assets/js/util.js?
+||startpage.com/do/smt?
+||startpage.com/js/abp.js^$rewrite=abp-resource:blank-js,domain=startpage.com
+||startpage.com/sp/tst2/english/?
+||startpage.com/do/instantanswers/iaservice
+||startpage.com/do/avtc?
+||startpage.com/elp?
+||startpage.com/sp/adsense
+||startpage.com/elt.gif
+||startpage.com/pelp?
+panopticlick.eff.org##+js(abort-on-property-write.js, Fingerprint2)
+kdsm17.com##div.sd-page-wrapper.v2:last-child > div.sd-main-wrapper.sd-page-width:first-child > div.row:last-child > div.sd-main.col-xxs-24 > div.row > div.sd-main-content.col-xxs-24.col-md-18:first-child > div.component-teaser-medium_with_inline_ddb-v1.sd-component:last-child
+desmoinesregister.com###module-position-SBd98psi8jM
+q13fox.com###acm-tag-300x250-atf
+q13fox.com##.prebid.ad-wrapper
+q13fox.com###acm-tag-300x250-btf0
+q13fox.com###acm-tag-300x250-btf3
+q13fox.com###acm-tag-300x250-mid
+q13fox.com##.prebid, .ad-wrapper
+q13fox.com##.ad, .border-bottom, .pad-top
+||szn.cz$domain=kupi.cz
+cludo.com##.swal2-popup, .swal2-modal, .cookie__modal, .swal2-show
+kupi.cz##.middle_it_bricks, .middle_leaflet, .pos_middle_leaflet
+aftenposten.no##.widgets.widget-salesposter
+||aftenposten.no/public/img/location-pin.svg
+||herokuapp.com^$domain=aftenposten.no
+||reddit.com/api/info.json?url=
+aftenposten.no###brand-studio-video-ap > iframe.premium-spot
+aftenposten.no##.no-background
+aftenposten.no##.standard-ad-container
+cludo.com##.swal2-popup, .swal2-modal, .cookie__modal, .swal2-show
+kupi.cz##.middle_it_bricks, .middle_leaflet, .pos_middle_leaflet
+uk.reuters.com###content > div:first-child
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -17440,6 +17500,7 @@ blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yaluj
 ||swiftype.com$cookie,third-party
 ||infowarsmedia.com$cookie,third-party
 ||store.steampowered.*$cookie,domain=steam.tv
+$webrtc,domain=infoip.io
 $webrtc,domain=xda-developers.com
 $webrtc,domain=vimeo.com
 $webrtc,domain=4chan.org
@@ -17465,6 +17526,7 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/cookie-prompt
 /geo/get
 /public/ads/
 /__utm.gif
@@ -17473,6 +17535,7 @@ semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 /vendor/bowser.min.js
 /devicead/*
 /shopify_justuno_*
+/ads.min@
 /wp-content/ads/
 /w.chatlio-widget.js
 /assets/track.js
@@ -17541,6 +17604,7 @@ semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 /wsAnalytics.min.js
 /metrics/adobe/
 /akam/*/pixel
+/admantx/service?
 /adobe-blank.css
 /blank.css
 /utag/cmsgov/
@@ -18107,3 +18171,4 @@ _WebBannerAd
 ###interstitialAdContainer
 ##.left > .ads
 ##.right > .ads
+###top-ads-container
