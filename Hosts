@@ -17,8 +17,8 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1072
-! Number Of Ad Services, Trackers, And Malware Blocked: 17.93K (uBlock)
+! Version: 1073
+! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Friday, August 16, 2019
 
 ! Unbreak
@@ -17370,8 +17370,8 @@ rambler.ru##.tipk
 rambler.ru##.zuzhe
 rambler.ru##.bzfwjjle
 rambler.ru##.mijwzc
-##.sniperModeEngaged, .alpha
 pornhub.com##.abovePlayer
+||dailymail.co.uk/crta/
 ##.abAlertShown
 jailbreak.fce365.info###content > div.wrapper:last-child > div.sidebar:nth-child(5)
 jailbreak.fce365.info###content > center:nth-child(2)
