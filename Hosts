@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1073
+! Version: 1074
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
-! Last Modified: Friday, August 16, 2019
+! Last Modified: Saturday, August 17, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -223,6 +223,17 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||myiptest.com/img.php
 
 ! Apple
+||userpub.itunes.apple.com
+||init-p01md.apple.com
+||cf.iadsdk.apple.com
+||basejumper.apple.com
+||cl4.apple.com
+||metrics.icloud.com
+||api-glb-msp.smoot.apple.com
+||time-ios.g.aaplimg.com
+||www-cdn.icloud.com.akadns.net
+||e17437.dscb.akamaiedge.net
+||e6858.dsce9.akamaiedge.net
 ||attwifi.apple.com
 ||parsec.apple.com
 ||iad.apple.com
@@ -874,6 +885,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||albtls-na.t.co
 ||async01.admantx.com
 ||ads.youtube.com
 ||api.infoip.io
@@ -4017,6 +4029,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||bam.nr-data.net
 
 !C
+||cdn-store-icons-highwinds-prd.unityads.unity3d.com
+||cdn-creatives-highwinds-prd.unityads.unity3d.com
 ||cdm.cursecdn.com
 ||c.spolecznosci.net
 ||ceehimur.uk
@@ -4887,6 +4901,9 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||creative.medialytics.com
 
 !D
+||det-ta-g7g.amazon.com
+||data-optout-service.uca.cloud.unity3d.com
+||device-provisioning.googleapis.com
 ||dmx.upc.ubisoft.com
 ||downloadplayer.xyz
 ||dianomi.com
@@ -5505,6 +5522,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||downloads.mailchimp.com
 
 !E
+||engagement.feedly.com
+||e-0012.e-msedge.net
 ||es.io
 ||egain.com
 ||eu2.thunderhead.com
@@ -6084,6 +6103,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||freshmarketer.com
 
 !G
+||gtcp.twitter.com
 ||grahamdigital.com
 ||g1.tagtic.cn
 ||geoservice.curse.com
@@ -9994,6 +10014,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||r.skimresources.com
 
 !S
+||star.c10r.facebook.com
 ||schibsted.media
 ||szn.cz
 ||s.yimg.com/ss/rapid3.js
@@ -11903,6 +11924,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||v.admaster.com.cn
 
 !W
+||webview.unityads.unity3d.com
 ||www-a22.vip
 ||widget.privy.com
 ||w.chatlio.com
@@ -12213,6 +12235,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||wv.inner-active.mobi
 
 !X
+||xboxab.com
 ||xmediaserve.com
 ||x.dlx.addthis.com
 ||xp2.zedo.com
