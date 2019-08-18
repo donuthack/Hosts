@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1078
+! Version: 1079
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Saturday, August 17, 2019
 
@@ -40,7 +40,6 @@ ff02::3 ip6-allhosts
 @@||nbc.com/generetic/scripts/ads.js
 @@||player.theplatform.com
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
-@@||dailycaller.com$image
 @@||accounts.google.$cookie
 
 ! Rewrite (Adblock Plus and AdGuard)
@@ -17497,6 +17496,7 @@ aftenposten.no##.standard-ad-container
 cludo.com##.swal2-popup, .swal2-modal, .cookie__modal, .swal2-show
 kupi.cz##.middle_it_bricks, .middle_leaflet, .pos_middle_leaflet
 uk.reuters.com###content > div:first-child
+dailycaller.com##.adcontainer
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -17509,6 +17509,7 @@ blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yaluj
 ||user.usatoday.com$cookie=/gup_clientid/
 ||paypal.com$cookie=/cookie_check|_ga|_gcl_au/
 ||github.com$cookie=/_device_id|has_recent_activity|tz/
+dailycaller.com#%#document.cookie = "__adblocker = false"
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
 ||adorama.com$third-party,cookie
