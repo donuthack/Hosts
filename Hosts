@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1080
+! Version: 1081
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
-! Last Modified: Saturday, August 17, 2019
+! Last Modified: Sunday, August 18, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -47,16 +47,16 @@ ff02::3 ip6-allhosts
 ||mediaserver-cont-*.pandora.com/public/ads^$rewrite=abp-resource:1x1-transparent-gif,domain=pandora.com
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
 ||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$rewrite=abp-resource:blank-mp3,domain=pandora.com
-||dailycaller.com/files/images/1x1.trans.gif^$rewrite=abp-resource:1x1-transparent-gif,domain=dailycaller.com
 
 ! Fixes
-com,org,net,pl,ru,io,online,eu,info,fr,vip,dk,gr,nl,co,il,rs,no,bid##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-8ch.net#$#body { padding-top: 0 !important; }
+democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 ||hola.org
@@ -264,8 +264,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||daypass.api-glb-sea.smoot.apple.com
 ||smoot.apple.com
 ||api.smoot.apple.com
-||gdmf.apple.com
-||gdmf.apple.com.akadns.net
+! ||gdmf.apple.com (iOS updates)
+! ||gdmf.apple.com.akadns.net (iOS updates)
 ||geo.itunes.apple.com
 ||gsp-ssl-dynamic.ls-apple.com.akadns.net
 ||gsp-ssl.ls-apple.com.akadns.net
@@ -5868,6 +5868,8 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||fbprod.flipboard.com
+||flipboard.helpshift.com
 ||firebasedynamiclinks-ipv6.googleapis.com
 ||firebasedynamiclinks-ipv4.googleapis.com
 ||fundingchoicesmessages.google.com
@@ -7266,6 +7268,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||init.supersonicads.com
 
 !J
+||jadserve.postrelease.com
 ||js.matheranalytics.com
 ||justuno.com
 ||js.rating-widget.com
@@ -10028,6 +10031,7 @@ pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 ||r.skimresources.com
 
 !S
+||s3c6.adj.st
 ||status.geotrust.com
 ||star.c10r.facebook.com
 ||schibsted.media
@@ -17504,6 +17508,8 @@ dailycaller.com###dailycaller_top
 dailycaller.com###dailycaller_top
 dailycaller.com##.ad
 dailycaller.com##.text-center.p-2.relative
+||my.foxnews.com/xd-channel.html
+fossbytes.com##.ai-adb-show, .ai-no-tracking
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -17516,6 +17522,7 @@ blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yaluj
 ||user.usatoday.com$cookie=/gup_clientid/
 ||paypal.com$cookie=/cookie_check|_ga|_gcl_au/
 ||github.com$cookie=/_device_id|has_recent_activity|tz/
+||dailycaller.com$cookie=/__gads|_chartbeat2|_ga|_parsely_visitor/
 dailycaller.com#%#document.cookie = "__adblocker = false"
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
