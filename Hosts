@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1077
+! Version: 1078
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Saturday, August 17, 2019
 
@@ -17386,7 +17386,6 @@ info.internet.org###jam3-cookie-banner
 ||mycity.rs/templates/simplified/images/search_button.png
 ||fonts.gstatic.com/stats/
 ||facebook.com/tr^
-||dailycaller.com/files/images/1x1.trans.gif$important
 reddit.com###SHORTCUT_FOCUSABLE_DIV > div.SubredditVars-r-chrome:nth-child(4) > div._1nxEQl5D2Bx2jxDILRHemb > div._1npCwF50X2J7Wt82SZi6J0._3OGqXkiUb_0ZMlksb26boO:last-child > div._2Xq-4oyrEvHjL5U_EeMnK8._2gEUIJsfk7ZZ0euRwRyv08:last-child > div._31AVRNJbVMh2DUFRrpCQcD > div._2vEf-C2keJaBMY9qk_BxVn:nth-child(2)
 reddit.com###SHORTCUT_FOCUSABLE_DIV > div.SubredditVars-r-chrome:nth-child(4) > div._1nxEQl5D2Bx2jxDILRHemb > div._1npCwF50X2J7Wt82SZi6J0._3OGqXkiUb_0ZMlksb26boO:last-child > div._2Xq-4oyrEvHjL5U_EeMnK8._2gEUIJsfk7ZZ0euRwRyv08:last-child > div._31AVRNJbVMh2DUFRrpCQcD > div._2vEf-C2keJaBMY9qk_BxVn:nth-child(3)
 urlchecker.org##div.container:nth-child(4) > div.panel.panel-default:first-child
