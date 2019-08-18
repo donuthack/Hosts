@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1079
+! Version: 1080
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Saturday, August 17, 2019
 
@@ -47,6 +47,7 @@ ff02::3 ip6-allhosts
 ||mediaserver-cont-*.pandora.com/public/ads^$rewrite=abp-resource:1x1-transparent-gif,domain=pandora.com
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
 ||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$rewrite=abp-resource:blank-mp3,domain=pandora.com
+||dailycaller.com/files/images/1x1.trans.gif^$rewrite=abp-resource:1x1-transparent-gif,domain=dailycaller.com
 
 ! Fixes
 com,org,net,pl,ru,io,online,eu,info,fr,vip,dk,gr,nl,co,il,rs,no,bid##html:style(overflow-x: hidden !important; overflow-y: scroll !important;)
@@ -17497,6 +17498,12 @@ cludo.com##.swal2-popup, .swal2-modal, .cookie__modal, .swal2-show
 kupi.cz##.middle_it_bricks, .middle_leaflet, .pos_middle_leaflet
 uk.reuters.com###content > div:first-child
 dailycaller.com##.adcontainer
+dailycaller.com##div.dc-sticky.sticky-footer.fixed.w-full.left-0.bottom-0.border-t.border-grey-light.z-10:nth-child(5) > div.text-center.p-2.relative
+dailycaller.com###dailycaller_top
+||sa.etp-prod.com/analytics.js
+dailycaller.com###dailycaller_top
+dailycaller.com##.ad
+dailycaller.com##.text-center.p-2.relative
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -17654,7 +17661,6 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /px.gif?
 /pix.gif?
 /api/analytics/
-/1x1.trans.gif
 /react-dom/cjs/react-dom.production.min.js
 /pixel-clear.gif?
 /storefront/track?
@@ -17679,10 +17685,6 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /261929f9.js
 /xnTuawbjfertd/tl.gif?
 /satelliteLib-60fd3ea258ba845f84504d35cda3c27b0dcdc5d3.js
-_campaign=$document
-utm_source
-_Affiliate
-&traffic_id
 /research/pixel/
 /adnetwork.js
 /api/v1/tracking-event/creative_view
