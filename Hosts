@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1083
+! Version: 1084
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Tuesday, August 20, 2019
 
@@ -7287,7 +7287,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||jollow.com
 ||js.passport.qihucdn.com
 ||js.sohu.com
-||jwpltx.com
 ||join.octaneai.com
 ||jsso.indiatimes.com
 ||jscache.com
@@ -7355,7 +7354,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.agkn.com
 ||js-sec.indexww.com
 ||js.honeybadger.io
-||jwpcdn.com
 ||js.hs-analytics.net
 ||js.hs-scripts.com
 ||js.hsforms.net
@@ -9224,6 +9222,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||ping-meta-prd.jwpltx.com
 ||p-n.io
 ||padsdel.com
 ||padst.com
@@ -9366,7 +9365,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||www.profitfromfreeads.com
 ||profitfromfreeads.com
 ||pa.tool.domains
-||p.jwpcdn.com
 ||plusone.google.com
 ||pulse.w3counter.com
 ||pingmyurl.com
@@ -10045,6 +10043,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||smetrics.boston.com
 ||s3c6.adj.st
 ||status.geotrust.com
 ||star.c10r.facebook.com
@@ -11037,7 +11036,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ssl.cdne.cpmstar.com
 ||smartclick.net
 ||smarticon.geotrust.com
-||ssl.p.jwpcdn.com
 ||ssl.cdn.turner.com
 ||salesforcecom.tt.omtrdc.net
 ||static.criteo.net
@@ -17537,6 +17535,18 @@ cryptoglobe.com##.g-pt-30.g-pb-30.text-center
 ||js-agent.newrelic.com/nr-spa-1130.min.js
 ||instructables.com/counter
 ||pandora.com/util/mediaserverPublicRedirect.jsp?type=file&file=ads
+||g.jwpsrv.com/g/gcid-0.1.2.html?
+||prd.jwpltx.com/v1/jwplayer*/ping.gif
+statnews.com##.teaser.sponsored
+statnews.com##.teaser-wrap
+statnews.com##.recirculation-bar-content.recirculation-trending.is-active
+statnews.com##.recirculation-bar.is-active
+statnews.com##.stat-form-inline-content
+statnews.com###div-gpt-ad-ad_lead1
+statnews.com##.dfp-ad.dfp-ad_lead1
+statnews.com##.header-ad-wrap
+statnews.com###footer-email-form
+statnews.com##.body-footer.is-active
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -17600,6 +17610,7 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/jwplayer*/ping.gif
 /cookie-prompt
 /geo/get
 /public/ads/
