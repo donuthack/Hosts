@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1082
+! Version: 1083
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
-! Last Modified: Sunday, August 18, 2019
+! Last Modified: Tuesday, August 20, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -223,6 +223,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||myiptest.com/img.php
 
 ! Apple
+||init.ess.apple.com
 ||profile.gc.apple.com
 ||uts-api.itunes.apple.com
 ||userpub.itunes.apple.com
@@ -887,6 +888,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||app.criticalmention.com
+||api.kiip.me
+||and.co.uk
 ||a.et.nytimes.com
 ||albtls-na.t.co
 ||async01.admantx.com
@@ -4032,6 +4036,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||criticalmention.com
 ||c00.adobe.com
 ||cs2-wac.apr-8315.edgecastdns.net
 ||cdn-store-icons-highwinds-prd.unityads.unity3d.com
@@ -6115,6 +6120,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||go.padst.com
+||go.padsdel.com
 ||geotrust.com
 ||grahamdigital.com
 ||g1.tagtic.cn
@@ -7363,6 +7370,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.users.51.la
 
 !K
+||kiip.me
 ||kinja-img.com
 ||kansascity1.cabospeed.com
 ||klaviyo.com
@@ -9216,6 +9224,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||p-n.io
+||padsdel.com
+||padst.com
 ||pandoramedia.home
 ||pandoramedia-mkt-prod1-t.campaign.adobe.com
 ||piwik.hidester.com
@@ -11802,6 +11813,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||valor.c.hotheadgames.com
+||valor-api-alb-1080470264.us-east-1.elb.amazonaws.com
 ||vy4e3jw46l.com
 ||video-ad-stats.googlesyndication.com
 ||vzwdm.com
@@ -12258,6 +12271,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||wv.inner-active.mobi
 
 !X
+||xpressunblock.com
 ||xboxab.com
 ||xmediaserve.com
 ||x.dlx.addthis.com
@@ -17514,6 +17528,15 @@ dailycaller.com##.text-center.p-2.relative
 ||my.foxnews.com/xd-channel.html
 fossbytes.com##.ai-adb-show, .ai-no-tracking
 ||als-svc.nytimes.com/als?
+fossbytes.com##.ai-adb-show, .ai-no-tracking
+cryptoglobe.com##.g-pt-30.g-pb-30.text-center
+||clients*.brave.com/invalidation/lcs/request?service=
+||clients*.brave.com/invalidation/lcs/client?service=
+||api.twitter.com/live_pipeline/events?topic=%2Fdm_update
+||cdn.p-n.io/pushly-sdk.min.js
+||js-agent.newrelic.com/nr-spa-1130.min.js
+||instructables.com/counter
+||pandora.com/util/mediaserverPublicRedirect.jsp?type=file&file=ads
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -17527,6 +17550,7 @@ blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yaluj
 ||paypal.com$cookie=/cookie_check|_ga|_gcl_au/
 ||github.com$cookie=/_device_id|has_recent_activity|tz/
 ||dailycaller.com$cookie=/__gads|_chartbeat2|_ga|_parsely_visitor/
+||shopfleccas.com$cookie=/_landing_page/
 dailycaller.com#%#document.cookie = "__adblocker = false"
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
