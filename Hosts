@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1084
+! Version: 1085
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Tuesday, August 20, 2019
 
@@ -56,7 +56,7 @@ pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
 expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 ||hola.org
@@ -3198,7 +3198,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||blob.blaprdstr08a.store.core.windows.net
 ||bj1110.online
 ||bc2-tuk1.chat.steamcontent.com
-||bwbx.io
 ||bbthat.com
 ||bebi.com
 ||best.discord.media
@@ -17547,6 +17546,68 @@ statnews.com##.dfp-ad.dfp-ad_lead1
 statnews.com##.header-ad-wrap
 statnews.com###footer-email-form
 statnews.com##.body-footer.is-active
+||pressgazette.co.uk/wp-content/uploads/2016/04/BJA_2019_Enter_Now_Banner_900x250px.jpg
+theguardian.com##.js-engagement-banner-site-message.site-message--engagement-banner
+theguardian.com##.js-first-pv-consent-site-message.site-message--first-pv-consent
+pressgazette.co.uk##.eupopup-container.eupopup-container-bottom.eupopup-color-default
+pressgazette.co.uk##.header-leaderboard.desktop-banner
+pressgazette.co.uk##.â€œad-blocker-messageâ€
+pressgazette.co.uk##.sidebar-item.mpu
+pressgazette.co.uk##.sidebar-item
+pressgazette.co.uk##.post-a-job
+libraryjournal.com###advertisement
+libraryjournal.com##.advertisement.adv-top.col-md-12.col-sm-12.col-xs-12.float-left.hidden-xs.hidden-print
+newsguardtech.com##.header-bar
+seekingalpha.com###DFP_1
+seekingalpha.com##.h600
+seekingalpha.com###DFP_3
+seekingalpha.com##.min-h250
+reuters.com##div[style="height: 355px;"]
+reuters.com##.stickyContainer1.module
+cnn.com###sponsored-outbrain-2
+cnn.com##.zn.zn-sponsored-outbrain-2.zn-balanced.zn--idx-1.zn--ordinary.zn-has-one-container
+cnn.com###sponsored-outbrain-1
+cnn.com##.zn.zn-sponsored-outbrain-1.zn-balanced.zn--idx-0.zn--ordinary.zn-has-two-containers
+cnn.com###sponsored-outbrain-3
+cnn.com##.zn.zn-sponsored-outbrain-3.zn-balanced.zn--idx-2.zn--ordinary.zn-has-two-containers
+cnn.com###politics-zone-7
+cnn.com##.zn.zn-politics-zone-7.zn-balanced.zn--ordinary.t-light.zn-has-multiple-containers.zn-has-3-containers.zn-loaded.zn-ondemand.zn--idx-8
+thehill.com##.blogs-social-wrp
+thehill.com##.scroll-down-with-image
+thehill.com###dfp-ad-mosad_1
+thehill.com##.dfp-tag-wrapper
+newsbusters.org###imk300xFlexTop
+newsbusters.org##.wrapper-100.nb-not-content.center-block.text-center
+newsbusters.org###block-block-2
+newsbusters.org##.block.block-block.clearfix
+abcnews.go.com##.ad-slot.ad-slot-banner.ad-wrapper
+abcnews.go.com###ad-InContent1
+abcnews.go.com##.ad-slot.ad-wrapper.ad-slot-incontent-strip.ad-slot-incontent
+abcnews.go.com##.ad-300
+independent.co.uk##.mpu
+independent.co.uk##.premium-content
+rt.com##.banners.banners_padding_top
+rt.com##.main-page-podcasts-white__content
+rt.com##.columns__column.static-33_high-100
+rt.com##.news-block
+rt.com##.social-banner__container
+rt.com##.social-banner.js-social-banner
+rt.com##.app-offer
+nypost.com##.recirc.recirc--header.recirc--outbrain
+nypost.com##.floating-share.detached.opaque
+nypost.com##.comments.outbrain-enabled
+axios.com##.SubscribeStreamCap__root--19Jj7.gtm-stream-cap-nl-promo
+nypost.com##.box.show-mobile.module.widget_nypost_social_widget
+nationalreview.com###div-gpt-ad-rec_atf
+nationalreview.com##.dfp-ad.dfp-rec_atf
+nationalreview.com##.ad-unit__inner
+forbes.com##.fbs-ad--top-wrapper.fbs-ad--top-wrapper--sticky.fbs-ad--top-wrapper--desktop
+forbes.com##.adblock-unused
+forbes.com##.ad-rail-container
+forbes.com##.top-ad-container
+csmonitor.com##.newsletter-banner-container.row
+csmonitor.com###home-subscribe-ad-a
+csmonitor.com##.layout-11-10-8n7n6.anonymous
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -18036,3 +18097,5 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 &page-url=
 =googleanalytics
 _WebBannerAd
+-sponsored-outbrain-
+##.adsbygoogle
