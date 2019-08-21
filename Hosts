@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1085
+! Version: 1086
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Tuesday, August 20, 2019
 
@@ -41,6 +41,7 @@ ff02::3 ip6-allhosts
 @@||player.theplatform.com
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
 @@||accounts.google.$cookie
+@@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 
 ! Rewrite (Adblock Plus and AdGuard)
 ||mediaserver-cont-*.pandora.com/*/*/devicead^$rewrite=abp-resource:blank-mp3,domain=pandora.com
@@ -2561,7 +2562,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ak.sail-horizon.com
 ||app-ab04.marketo.com
 ||adswizz.com
-||addtoany.com
 ||adsina.allyes.com
 ||allyes.com
 ||ads.com
@@ -4035,6 +4035,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||convertplug.com
 ||criticalmention.com
 ||c00.adobe.com
 ||cs2-wac.apr-8315.edgecastdns.net
@@ -4910,6 +4911,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||d3lvalyq6xmerg.cloudfront.net
 ||discord.co
 ||discord.gifts
 ||discord.gift
@@ -5964,7 +5966,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||www.footprint.net
 ||footprint.net
 ||f1-na.readspeaker.com
-||fontawesome.com
 ||fave.co
 ||www.freevirusprotection.org
 ||freevirusprotection.org
@@ -8132,6 +8133,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||krxd.net
 
 !L
+||lumberamount.com
 ||log.ncaudienceexchange.com
 ||load.instinctiveads.com
 ||l2m.net
@@ -10995,7 +10997,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||slate.bootstrap.fyre.co
 ||surveywall-api.survata.com
 ||steepto.com
-||static.addtoany.com
 ||secure-dcr.imrworldwide.com
 ||sa.bbc.co.uk
 ||stats.qubit.com
@@ -11175,6 +11176,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||tdtalliance.com  ! Fake Fox News 'Facebook' Page
 ||trackcmp.net
 ||tagtic.cn
 ||t.paypal.com
@@ -11766,7 +11768,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ui.userlocal.jp
 ||use.typekit.net
 ||uedata.amazon.com
-||use.fontawesome.com
 ||uk.plista.com
 ||u5761.57.spylog.com
 ||uk.adserver.yahoo.com
@@ -17608,6 +17609,107 @@ forbes.com##.top-ad-container
 csmonitor.com##.newsletter-banner-container.row
 csmonitor.com###home-subscribe-ad-a
 csmonitor.com##.layout-11-10-8n7n6.anonymous
+||facebook.com/*/plugins/customer_chat/bubble
+||grandisland.scoreyourdeal.com/widgets.php
+||bloximages.chicago2.vip.townnews.com/theindependent.com/content/tncms/assets/v3/editorial/1/1d/11db58ca-969b-11e9-9c01-3b2b436f8943/5d10f6e533ffd.image.png
+||cdn.concert.io/lib/adblock
+bloomberg.com###custombox-premium-1
+bloomberg.com##.story-package-module__story.story-ad.page-ad
+alternet.org##.container.align-left-logo.has-banner
+alternet.org##.cp-info-bar-body-overlay
+alternet.org##.cp-flex.cp-info-bar-body.ib-close-outside
+alternet.org###sticky-target
+alternet.org###sticky-container
+alternet.org##.alt_ad_block
+alternet.org##.widget-social.pc_alignleft.remove-circle
+alternet.org##.footer-widget-wrapper.footer-widget-style-10
+alternet.org###widget-area
+alternet.org##.footer-subscribe
+azcentral.com###ad-position-56
+azcentral.com##.partner-placement.partner-sidebar-ad
+azcentral.com##.sidebar-content.taboola-sidebar-content.home
+azcentral.com##.sidebar-title-wrapper.taboola-sidebar-title-wrapper
+azcentral.com###ad-position-37
+azcentral.com##.partner-placement.flm-ad-position.flm-ad-position-mediumrectangle
+azcentral.com##.flm-ad.flm-item-4.flm-ad-mediumrectangle
+azcentral.com##.flm-ad.flm-item-12.flm-ad-mediumrectangle
+azcentral.com##.nscm-container
+azcentral.com##.flm-ad.flm-item-20.flm-ad-mediumrectangle
+azcentral.com###module-position-6
+azcentral.com##.obituaries-legacy-module.obituaries-legacy-card-module.obituaries-legacy-primary.obituaries-legacy-primary-module.primary-module.primary-module-border.primary-module-front-list-sidebar-page.card-primary.dr-styling
+azcentral.com##.flm-ad.flm-item-28.flm-ad-mediumrectangle
+azcentral.com##.flm-ad
+azcentral.com###ad-position-
+azcentral.com##.partner-placement.partner-leaderboard-front
+chicagotribune.com###fwReeM1N75dJzr
+chicagotribune.com##.wrapper.clearfix.full.pb-feature.pb-layout-item.pb-f-ads-dfp
+chicagotribune.com##.met-flyout.met-rule-2947
+chicagotribune.com###f24XG52N75dJzr
+chicagotribune.com##.wrapper.clearfix.col.col-desktop-6.col-tablet-6.col-mobile-6.pb-feature.pb-layout-item.pb-f-ads-dfp
+chicagotribune.com##.card-content.align-items-start.flex-container-column.four-column
+ocregister.com###web-push-prompt
+ocregister.com##.alert-bar
+ocregister.com##.status-bar
+opensecrets.org##.Donate.l-padding.bg-chart.Donate--embeded
+realclearpolitics.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-color-override-1456576595
+realclearpolitics.com##.cc-stop-overlay
+realclearpolitics.com##.RC-AD-SHOW-NOW.RC-AD-BOX-TOP.lazyloaded
+realclearpolitics.com##.RC-AD-SHOW-NOW.RC-AD-BOX-MIDDLE.lazyloaded
+realclearpolitics.com##.RC-AD-SHOW-NOW.RC-AD-BOX-BOTTOM.lazyloaded
+slate.com###hp-leaderboard-mid-1
+slate.com##.ad.ad--desktopOnly.ad--leaderboard
+theindependent.com###fixed-leaderboard-top
+theindependent.com##.tnt-ads.dfp-ad.dfp-ad-lite
+theindependent.com###breakout_middle
+theindependent.com##.tnt-ads.dfp-ad
+vox.com##.adblock-whitelist-messaging__wrapper
+townhall.com##.ad-wrapper
+bearingarms.com###div-gpt-300x250_1
+bearingarms.com##.ad-300x250
+bearingarms.com##.newsletter-sign-up
+washingtonexaminer.com##.Page-above.content-above.pb-3.mb-3.d-flex.justify-content-center
+washingtonexaminer.com##.ThreeColumnContainer-columnThree.col-md-4
+||tulsa.scoreyourdeal.com/widgets.php?
+||bloximages.chicago2.vip.townnews.com/theindependent.com/content/tncms/assets/v3/editorial/1/1d/11db58ca-969b-11e9-9c01-3b2b436f8943/5d10f6e533ffd.image.png
+||local.tampabay.com/places/widget/widget:1/type:300x250
+firearmsnews.com##.ad-wrapper.full-width
+firearmsnews.com###consent
+firearmsnews.com##.consent-popup
+nationalinterest.org###sliding-popup
+nationalinterest.org##.sliding-popup-bottom
+tass.com###desk_vb_top2
+tass.com##.adsSlot-slot
+tass.com##.main-news__ad.d-none.d-lg-flex
+tass.com##.section-grid__col.section-grid__col-right.section-grid__col-right_banner
+tass.com##.section-grid__col.section-grid__col-right
+tass.com##.section-grid__col.section-grid__col-left.press-review__column_lg
+tass.com##.section-grid__col.section-grid__col-left
+reason.com###Reason_970x250_970x90_728x90_300x250_Top_Leaderboard_HP
+reason.com##.advertisement.ad-h-90
+realclearpolicy.com##.RC-AD.RC-AD-BOX-TOP
+tulsaworld.com###fixed-leaderboard-top
+tulsaworld.com##.tnt-ads.dfp-ad.dfp-ad-lite
+tulsaworld.com###breakout_middle
+tulsaworld.com##.tnt-ads.dfp-ad
+thecentersquare.com###ad-656098
+thecentersquare.com##.tnt-ads.dfp-ad
+tallahassee.com###ad-position-52
+tallahassee.com##.partner-placement.partner-sidebar-ad
+tallahassee.com##.sidebar-content.taboola-sidebar-content.home
+tallahassee.com##.sidebar-title-wrapper.taboola-sidebar-title-wrapper
+tallahassee.com##.flm-ad.flm-item-4.flm-ad-mediumrectangle
+tallahassee.com##.flm-ad.flm-item-12.flm-ad-mediumrectangle
+tallahassee.com##.flm-ad.flm-item-20.flm-ad-mediumrectangle
+tallahassee.com##.flm-ad.flm-item-28.flm-ad-mediumrectangle
+tallahassee.com##.flm-ad.flm-item-36.flm-ad-mediumrectangle
+tallahassee.com##.flm-ad.flm-item-44.flm-ad-mediumrectangle
+tallahassee.com##.ad-slot
+tampabay.com###advertisingHeaderAd
+tampabay.com##.advertising__header-ad.advertising__full-width.advertising__full-width--grey
+tampabay.com##.navbar.navbar-expand-lg.fixed-top.navbar-light.bg-white.clearfix
+tampabay.com##.cookie-notice
+tampabay.com##.cookie-notice-wrapper
+tampabay.com##.advertising__slug
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -17622,6 +17724,7 @@ blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yaluj
 ||github.com$cookie=/_device_id|has_recent_activity|tz/
 ||dailycaller.com$cookie=/__gads|_chartbeat2|_ga|_parsely_visitor/
 ||shopfleccas.com$cookie=/_landing_page/
+||alternet.org$cookie=/cp_id_ec364pageLoads/
 dailycaller.com#%#document.cookie = "__adblocker = false"
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
@@ -18099,3 +18202,4 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 _WebBannerAd
 -sponsored-outbrain-
 ##.adsbygoogle
+##.ad-wrapper
