@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1086
+! Version: 1087
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
-! Last Modified: Tuesday, August 20, 2019
+! Last Modified: Wednesday, August 21, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -42,12 +42,14 @@ ff02::3 ip6-allhosts
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
 @@||accounts.google.$cookie
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
+@@||totaljerkface.com/adplayer/ads.js
 
 ! Rewrite (Adblock Plus and AdGuard)
 ||mediaserver-cont-*.pandora.com/*/*/devicead^$rewrite=abp-resource:blank-mp3,domain=pandora.com
 ||mediaserver-cont-*.pandora.com/public/ads^$rewrite=abp-resource:1x1-transparent-gif,domain=pandora.com
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
 ||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$rewrite=abp-resource:blank-mp3,domain=pandora.com
+||sdk.vyrl.co/checkToken.html^$rewrite=abp-resource:blank-html,domain=swagnets.com
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -889,6 +891,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||api.goaffpro.com
+||analytics.vyrl.co
 ||app.criticalmention.com
 ||api.kiip.me
 ||and.co.uk
@@ -4911,6 +4915,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||d2badvwg0mti9p.cloudfront.net
+||dow068lag04cv.cloudfront.net
 ||d3lvalyq6xmerg.cloudfront.net
 ||discord.co
 ||discord.gifts
@@ -6120,6 +6126,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||goaffpro.com
+||gsp-binaries.s3.eu-west-1.amazonaws.com
 ||go.padst.com
 ||go.padsdel.com
 ||geotrust.com
@@ -7184,7 +7192,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||i-mobile.co.jp
 ||improvedigital.com
 ||irtya.com
-||iyfnzgb.com
 ||irqs.ioam.de
 ||ioam.de
 ||ieonlinews.microsoft.com
@@ -8133,6 +8140,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||krxd.net
 
 !L
+||live-f351468gBSWz.ws.gamesparks.net
 ||lumberamount.com
 ||log.ncaudienceexchange.com
 ||load.instinctiveads.com
@@ -9783,6 +9791,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||rg3.github.io
 ||rtmark.net
 ||rejoiner.com
 ||r.adport.io
@@ -17710,6 +17719,63 @@ tampabay.com##.navbar.navbar-expand-lg.fixed-top.navbar-light.bg-white.clearfix
 tampabay.com##.cookie-notice
 tampabay.com##.cookie-notice-wrapper
 tampabay.com##.advertising__slug
+||kit.fontawesome.com^$script
+||connect.facebook.net/en_US/sdk.js#xfbml
+||api.nextsale.io/client/ping-old?callback=
+||goaffpro.com/loader.js?shop=
+||coin.amazonpay.com/rb/checkStatus
+||sdk.vyrl.co/loader.js
+counterpsyops.com##.hide-on-button.ads-active
+aol.com###mod-notifications-banner-1
+aol.com##.m-notifications-banner.m-notifications-banner--shown.m-notifications-banner--active
+aol.com###fi_ad_leaderboard
+aol.com###atwAdFrame2
+aol.com##.uac_300x250
+aol.com###atwAdFrame2EAN
+aol.com###mod-newsletter-toaster-1
+aol.com##.m-newsletter-toaster.slideIn
+aol.com###atwAdFrame3EAN
+aol.com###fi_ad_cw_full
+americamagazine.org###js-dfp-tag-300_250
+americamagazine.org###js-dfp-tag-homepage_300_600
+almasdarnews.com##.vc_column.td_uid_32_5d5c8ce582ce2_rand.wpb_column.vc_column_container.tdc-column.td-pb-span4
+almasdarnews.com##.vc_column.td_uid_36_5d5c8ce58393d_rand.wpb_column.vc_column_container.tdc-column.td-pb-span4
+almasdarnews.com##.vc_row.vc_custom_1496822852742.td_uid_31_5d5c8ce582955_rand.wpb_row.td-pb-row
+almasdarnews.com##.wpcnt
+almasdarnews.com##.td-a-rec.td-a-rec-id-footer_top.td_uid_58_5d5c8ce640592_rand.td_block_template_1
+americanmilitarynews.com##div[style="border-top:1px solid silver;border-bottom:1px solid silver;padding-top:5px;padding-bottom:15px;"]
+americanmilitarynews.com##div[style="padding-top:5px;padding-bottom:15px;border-top:1px solid silver;border-bottom:1px solid silver;"]
+americanmilitarynews.com##.nc_wrapper.swp_floating_horizontal_wrapper.bottom
+affinitymagazine.us##.mvp-widget-latest-side
+affinitymagazine.us###mvp-side-wrap
+affinitymagazine.us##.relative.theiaStickySidebar
+birminghammail.co.uk###div-gpt-ad-top-slot
+birminghammail.co.uk##.gpt.top-slot
+birminghammail.co.uk###div-gpt-ad-rh-slot
+birminghammail.co.uk##.gpt.in-section
+birminghammail.co.uk###div-gpt-ad-bottom-slot
+birminghammail.co.uk##.gpt.bottom-ad-slot
+tucson.com###fixed-leaderboard-top
+tucson.com##.tnt-ads.dfp-ad.dfp-ad-lite
+tucson.com###ad-1620785
+tucson.com##.tnt-ads.dfp-ad
+tucson.com##.col-sm-6.col-sm-pull-6.col-lg-12.col-lg-pull-0
+yesimright.com##.rounded-corners.drop-shadow
+babylonbee.com##.sticky-footer-image.text-center
+amarillo.com###baseLeaderBillboard
+amarillo.com##.ad.ad-billboard.text-center
+allafrica.com###div-gpt-async-ad-superleaderboard-a
+allafrica.com##.ad-container.google-ad.superleaderboard-ad.superleaderboard-a.activated.fetched
+altoday.com##.td-adspot-title
+english.alarabiya.net###consent
+english.alarabiya.net##.security-msg
+afp.com###sliding-popup
+afp.com##.sliding-popup-top.clearfix
+news.abs-cbn.com##.uninav-cookie-law-container.uninav-cookie-law-container-ready
+680news.com###leaderboard
+680news.com##.text-center.top-ad.hidden-xs
+680news.com##.rdm-daac-notice-template
+pornhub.com##.removeAdLink.removeAdsStyle
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -18196,10 +18262,22 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /videogoodput?
 /pagead/
 /pagead/adview?
+/native/flowplayer.async.js
 -page-url=
 &page-url=
 =googleanalytics
 _WebBannerAd
 -sponsored-outbrain-
+-ad-powerinbox-inline-
+-ad-display.z-ad-
 ##.adsbygoogle
 ##.ad-wrapper
+##.ad-link
+###cookie-bar
+##.cookie-section
+##.cookies.print-hidden
+###catapult-cookie-bar
+##.content-cookie
+###cookie-content
+##.cookie-notice-container
+###eu-cookie-law
