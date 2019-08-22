@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1088
+! Version: 1089
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Wednesday, August 21, 2019
 
@@ -891,6 +891,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||api.stage31.net
+||applog.matrix.netease.com
+||albtls-dc.t.co
+||analytics.archive.org
+||am.mob.psafe.com
 ||ad.spreaker.com
 ||analytics.inform.com
 ||api.nextgen.guardianapps.co.uk
@@ -4043,6 +4048,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||cdn-magiclinks.trackonomics.net
+||cse.avlyun.com
+||crbug.com
 ||cdn.permutive.com
 ||cdn.concert.io
 ||convertplug.com
@@ -4921,6 +4929,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||drpf-g100na.proxima.nie.netease.com
+||dnscheck-parental.adguard.com
+||d41.co
 ||d2badvwg0mti9p.cloudfront.net
 ||dow068lag04cv.cloudfront.net
 ||d3lvalyq6xmerg.cloudfront.net
@@ -5887,6 +5898,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||frenreport.com/xmlrpc.php
+||freewestmedia.disqus.com
 ||fbprod.flipboard.com
 ||flipboard.helpshift.com
 ||firebasedynamiclinks-ipv6.googleapis.com
@@ -6132,6 +6145,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||g100na.update.netease.com
+||g100na.gph.netease.com
+||gwrtdp-tn690bfadt.tclclouds.com
 ||goaffpro.com
 ||gsp-binaries.s3.eu-west-1.amazonaws.com
 ||go.padst.com
@@ -6461,6 +6477,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||helpcmplaysdk1.ksmobile.com
+||helparrowio1.ksmobile.com
 ||hb.lifecycle.norton.com
 ||hello.grahamdigital.com
 ||html5shiv.googlecode.com
@@ -8381,6 +8399,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||mmfiles.amp.mcafee.com
+||mup.amp.mcafee.com
+||mobinsight.symantec.com
+||mediadc.brightspotcn.com
 ||my.rtmark.net
 ||matheranalytics.com
 ||mytop-in.net
@@ -9240,6 +9262,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||pro-w.1ldr.me
+||ping.yoyogames.com
+||playgateway-pa.googleapis.com
+||pokemon-scramblesp.jp
+||profile.mob.psafe.com
 ||p.bm23.com
 ||p2-kqfcwg2p2eb44-jpijqtwabgy6p5vh-if-v6exp3-v4.metric.gstatic.com
 ||permutive.com
@@ -9803,6 +9830,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||rtam-collector.snapchat.com
 ||rg3.github.io
 ||rtmark.net
 ||rejoiner.com
@@ -10065,6 +10093,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||semanticlocation-pa.googleapis.com
+||stage31.net
 ||smetrics.boston.com
 ||s3c6.adj.st
 ||status.geotrust.com
@@ -11197,6 +11227,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||trackonomics.net
+||tracking.bi.psafe.com
 ||tdtalliance.com  ! Fake Fox News 'Facebook' Page
 ||trackcmp.net
 ||tagtic.cn
@@ -11692,6 +11724,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||us-central1-gcp.api.snapchat.com
+||updatesdk.avlyun.com
+||up2date.mob.psafe.com
 ||usapi1.xirsys.com
 ||usapi2.xirsys.com
 ||usapi3.xirsys.com
@@ -11978,6 +12013,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||v.admaster.com.cn
 
 !W
+||who.nie.netease.com
 ||whatismyip.akamai.com
 ||webview.unityads.unity3d.com
 ||www-a22.vip
@@ -17799,6 +17835,11 @@ spreaker.com##.curated_list_ad.curated_list_ad_right
 spreaker.com###curated_list_ad_1
 spreaker.com##.ads.ads_mr.ads_apps.hide
 spreaker.com##.curated_list_ad.curated_list_ad_left
+||frenreport.com/wp-content/themes/Extra/core/admin/js/common.js
+||godog.shopifycloud.com/v1/event.gif
+||html5.onl/nav.php
+||scanalert.com^$third-party
+about:blank$domain=youtube.com
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
