@@ -13,6 +13,7 @@ A blocklist of ads, trackers, malware, and IP grabbers
 
 * uBlock Origin
 * Adblock Plus 2.0+
+* AdBlock
 * AdGuard AdBlocker
 * AdNauseam
 * AdLock ad blocker
