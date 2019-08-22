@@ -1,5 +1,5 @@
 # Cybo's Hosts
-Hosts file for Blokada on Android and the uBlock extension for web browsers. (Started supporting Adblock Plus in the main hosts file)
+A blocklist of ads, trackers, malware, and IP grabbers
 
 ## Lists
 
@@ -14,7 +14,6 @@ Hosts file for Blokada on Android and the uBlock extension for web browsers. (St
 * uBlock Origin
 * Adblock Plus 2.0+
 * AdGuard AdBlocker
-* AdGuard Home
 * AdNauseam
 * AdLock ad blocker
 * Blokada
