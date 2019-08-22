@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1087
+! Version: 1088
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
 ! Last Modified: Wednesday, August 21, 2019
 
@@ -891,6 +891,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||ad.spreaker.com
+||analytics.inform.com
+||api.nextgen.guardianapps.co.uk
 ||api.goaffpro.com
 ||analytics.vyrl.co
 ||app.criticalmention.com
@@ -3196,6 +3199,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||bm23.com
 ||byteoversea.com
 ||bbelements.com
 ||bob.dmpxs.com
@@ -4039,6 +4043,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||cdn.permutive.com
+||cdn.concert.io
 ||convertplug.com
 ||criticalmention.com
 ||c00.adobe.com
@@ -6654,6 +6660,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||inform.com
 ||inter1ads.com
 ||it-ando-fe-lb-145112096.us-east-1.elb.amazonaws.com
 ||imedia.cz
@@ -7283,6 +7290,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||init.supersonicads.com
 
 !J
+||j.ophan.co.uk
 ||jadserve.postrelease.com
 ||js.matheranalytics.com
 ||justuno.com
@@ -8140,6 +8148,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||krxd.net
 
 !L
+||lps.inform.com
 ||live-f351468gBSWz.ws.gamesparks.net
 ||lumberamount.com
 ||log.ncaudienceexchange.com
@@ -9231,6 +9240,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||p.bm23.com
+||p2-kqfcwg2p2eb44-jpijqtwabgy6p5vh-if-v6exp3-v4.metric.gstatic.com
+||permutive.com
 ||ping-meta-prd.jwpltx.com
 ||p-n.io
 ||padsdel.com
@@ -17776,6 +17788,17 @@ news.abs-cbn.com##.uninav-cookie-law-container.uninav-cookie-law-container-ready
 680news.com##.text-center.top-ad.hidden-xs
 680news.com##.rdm-daac-notice-template
 pornhub.com##.removeAdLink.removeAdsStyle
+twitter.com##.modal-overlay
+pastebin.com###float-box-2
+||interactive.guim.co.uk/embed/2018/02/divider/index.html
+||theverge.com/services/entry_stats
+||api.spreaker.com/receiver.html
+spreaker.com###curated_list_ad_0
+spreaker.com##.ads.ads_mr.ads_pro.hide
+spreaker.com##.curated_list_ad.curated_list_ad_right
+spreaker.com###curated_list_ad_1
+spreaker.com##.ads.ads_mr.ads_apps.hide
+spreaker.com##.curated_list_ad.curated_list_ad_left
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -18263,6 +18286,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /pagead/
 /pagead/adview?
 /native/flowplayer.async.js
+/concert_ads.js
 -page-url=
 &page-url=
 =googleanalytics
@@ -18281,3 +18305,4 @@ _WebBannerAd
 ###cookie-content
 ##.cookie-notice-container
 ###eu-cookie-law
+##.adblock-whitelist-messaging__wrapper
