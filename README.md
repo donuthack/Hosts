@@ -19,3 +19,4 @@ A blocklist of ads, trackers, malware, and IP grabbers
 * AdLock ad blocker
 * Blokada
 * Slimjet
+* AdGuard Home (only main blocklist)
