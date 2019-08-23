@@ -398,6 +398,9 @@
 0.0.0.0 static-business.verizon.net
 0.0.0.0 www.static-business.verizon.net
 0.0.0.0 151.101.186.110
+0.0.0.0 rdd.vzw.com
+0.0.0.0 mobile-exp.vzw.com
+0.0.0.0 vzw.com
 0.0.0.0 /foryourhome/ordering/checkavailabilitylq.aspx
 0.0.0.0 ascrmdinet101-ns-rdd-w.verizonwireless.com
 0.0.0.0 nyorbgdinet101-ns-rdd-e.verizonwireless.com
