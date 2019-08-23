@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1089
+! Version: 1090
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
-! Last Modified: Wednesday, August 21, 2019
+! Last Modified: Friday, August 23, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -891,6 +891,16 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||a.espncdn.com.stls.edgesuite.net
+||a.espncdn.com
+||anolysis.privacy.ghostery.net
+||api.alohabrowser.com
+||alhapi.com
+||api.bing.com
+||api-bing-com.e-0001.e-msedge.net
+||aloha.onelink.me
+||api.apptentive.com
+||apptentive.com
 ||api.stage31.net
 ||applog.matrix.netease.com
 ||albtls-dc.t.co
@@ -3204,6 +3214,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||brass.account.t-mobile.com
 ||bm23.com
 ||byteoversea.com
 ||bbelements.com
@@ -4048,6 +4059,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||cds.s5x3j6q5.hwcdn.net
+||cds.j3z9t3p6.hwcdn.net
+||chromefeedcontentsuggestions-pa.googleapis.com
 ||cdn-magiclinks.trackonomics.net
 ||cse.avlyun.com
 ||crbug.com
@@ -5559,6 +5573,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||downloads.mailchimp.com
 
 !E
+||edge.gycpi.b.yahoodns.net
+||encrypted-tbn0.gstatic.com
+||encrypted-tbn1.gstatic.com
+||encrypted-tbn2.gstatic.com
+||encrypted-tbn3.gstatic.com
 ||engagement.feedly.com
 ||e-0012.e-msedge.net
 ||es.io
@@ -6145,6 +6164,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||gsacollections-pa.googleapis.com
 ||g100na.update.netease.com
 ||g100na.gph.netease.com
 ||gwrtdp-tn690bfadt.tclclouds.com
@@ -6477,6 +6497,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||history.google.com
 ||helpcmplaysdk1.ksmobile.com
 ||helparrowio1.ksmobile.com
 ||hb.lifecycle.norton.com
@@ -6678,6 +6699,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||ir.ebaystatic.com
+||ir.ebaycdn.net
+||isrg.trustid.ocsp.identrust.com
+||ion-ma.turner.com.edgekey.net
 ||inform.com
 ||inter1ads.com
 ||it-ando-fe-lb-145112096.us-east-1.elb.amazonaws.com
@@ -8399,6 +8424,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||myoffrz.io
+||mobile-exp.vzw.com
 ||mmfiles.amp.mcafee.com
 ||mup.amp.mcafee.com
 ||mobinsight.symantec.com
@@ -9098,6 +9125,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||n149adserv.com
 
 !O
+||offers-api.myoffrz.io
+||ocsp.init-x3.letsencrypt.org
 ||ophan.theguardian.com
 ||o.ss2.us
 ||o12zs3u2n.com
@@ -9830,6 +9859,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||rdd.vzw.com
+||rdmhllq.x.incapdns.net
 ||rtam-collector.snapchat.com
 ||rg3.github.io
 ||rtmark.net
@@ -10093,6 +10124,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||serviceidcheckservice-pa.googleapis.com
 ||semanticlocation-pa.googleapis.com
 ||stage31.net
 ||smetrics.boston.com
@@ -11227,6 +11259,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||t0.gstatic.com
+||telemetry-incoming.r*-*.services.mozilla.com
+||telemetry-incoming.r53-2.services.mozilla.com
 ||trackonomics.net
 ||tracking.bi.psafe.com
 ||tdtalliance.com  ! Fake Fox News 'Facebook' Page
@@ -11724,6 +11759,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||us-east-1-a.route.herokuapp.com
 ||us-central1-gcp.api.snapchat.com
 ||updatesdk.avlyun.com
 ||up2date.mob.psafe.com
