@@ -17,8 +17,8 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1091
-! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
+! Version: 1092
+! Number Of Ad Services, Trackers, And Malware Blocked: 18.3K (uBlock)
 ! Last Modified: Saturday, August 24, 2019
 
 ! Unbreak
@@ -891,6 +891,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||audownload.windowsupdate.nsatc.net
+||adguardteam.github.io
+||api.bignox.com
 ||ad4mat.cz
 ||ad4mat.dk
 ||ad4mat.es
@@ -3235,6 +3238,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||bi.yeshen.com
 ||bidr.io
 ||brass.account.t-mobile.com
 ||bm23.com
@@ -4081,6 +4085,18 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||crlsets.brave.com
+||chrome.adtidy.org
+||cs1143.wpc.chicdn.net
+||content-images.p-cdn.com
+||ctldl.windowsupdate.com
+||crl.certum.pl
+||crl.pki.goog
+||clients4.brave.com
+||crl.comodoca4.com
+||crl.sca1b.amazontrust.com
+||checkappexec.microsoft.com
+||c.s-microsoft.com
 ||clients.l.google.com
 ||clientconfig.akamai.steamstatic.com
 ||cursecdn.com
@@ -5943,7 +5959,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
-||frenreport.com/xmlrpc.php
+||fs.microsoft.com
 ||freewestmedia.disqus.com
 ||fbprod.flipboard.com
 ||flipboard.helpshift.com
@@ -6190,6 +6206,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||go-updater.brave.com
+||googleapis.l.google.com
 ||github-cloud.s3.amazonaws.com
 ||gsacollections-pa.googleapis.com
 ||g100na.update.netease.com
@@ -6726,6 +6744,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||img-prod-cms-rt-microsoft-com.akamaized.net
 ||ir.ebaystatic.com
 ||ir.ebaycdn.net
 ||isrg.trustid.ocsp.identrust.com
@@ -7453,6 +7472,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.users.51.la
 
 !K
+||kv601-prod.do.dsp.mp.microsoft.com
 ||kiip.me
 ||kinja-img.com
 ||kansascity1.cabospeed.com
@@ -8218,6 +8238,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||krxd.net
 
 !L
+||logincdn.msauth.net
 ||lps.inform.com
 ||live-f351468gBSWz.ws.gamesparks.net
 ||lumberamount.com
@@ -8451,6 +8472,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||msftncsi.com
+||mem.gfx.ms
 ||msftncsi.com
 ||myoffrz.io
 ||mobile-exp.vzw.com
@@ -9154,6 +9177,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||n149adserv.com
 
 !O
+||ocsp.msocsp.com
+||ocsp.comodoca.com
+||ocsp.sectigo.com
+||ocsp.rootg2.amazontrust.com
+||ocsp-ds.ws.symantec.com.edgekey.net
+||ocsp.verisign.com
 ||ocsp.identrust.com
 ||offers-api.myoffrz.io
 ||ocsp.init-x3.letsencrypt.org
@@ -9321,6 +9350,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||postback.applinzi.com
+||*-prod.do.*.microsoft.com
 ||pro-w.1ldr.me
 ||ping.yoyogames.com
 ||playgateway-pa.googleapis.com
@@ -9889,6 +9920,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||res06.bignox.com
+||res11.bignox.com
+||res*.bignox.com
 ||rdd.vzw.com
 ||rdmhllq.x.incapdns.net
 ||rtam-collector.snapchat.com
@@ -10154,6 +10188,14 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||stats.qalabs.symantec.com
+||static-cdn.jtvnw.net
+||slscr.update.microsoft.com
+||slscr.update.microsoft.com.akadns.net
+||star-mini.c10r.facebook.com
+||scontent.xx.fbcdn.net
+||sf.symcd.com
+||sb.adtidy.org
 ||safebrowsing.brave.com
 ||serviceidcheckservice-pa.googleapis.com
 ||semanticlocation-pa.googleapis.com
@@ -11289,6 +11331,13 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||ton.smf1.twitter.com
+||time.windows.com
+||t-blm1gvohhj.wc.yahoodns.net
+||t-cw8hn0548u.wc.yahoodns.net
+||t-a2klyy0c.wc.yahoodns.net
+||t-a2klyy0c.wc.yahoodns.net
+||t-*.wc.yahoodns.net
 ||t0.gstatic.com
 ||telemetry-incoming.r*-*.services.mozilla.com
 ||telemetry-incoming.r53-2.services.mozilla.com
@@ -11789,6 +11838,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||urs.microsoft.com
+||update.googleapis.com
 ||us-east-1-a.route.herokuapp.com
 ||us-central1-gcp.api.snapchat.com
 ||updatesdk.avlyun.com
@@ -11933,6 +11984,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||vss.norton.com
 ||vzwwo.com
 ||valor.c.hotheadgames.com
 ||valor-api-alb-1080470264.us-east-1.elb.amazonaws.com
@@ -12080,6 +12132,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||v.admaster.com.cn
 
 !W
+||wdcp.microsoft.com
+||wdcpalt.microsoft.com
 ||wixmp.com
 ||wo.vzwwo.com
 ||who.nie.netease.com
@@ -12453,6 +12507,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xxxwebtraffic.com
 
 !Y
+||yt3.ggpht.com
+||yeshen.com
 ||ytimg.l.google.com
 ||yarn.ideaeggs.press
 ||yotpo.com
@@ -12815,6 +12871,14 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||zyqlfplqdgxu.com
 
 ! IPs
+||172.217.164.163
+||104.244.42.5
+||104.244.42.69
+||185.199.111.153
+||185.199.108.153
+||185.199.109.153
+||185.199.110.153
+||172.217.5.227
 ||173.194.162.104
 ||176.103.133.133
 ||99.84.168.24
@@ -17911,10 +17975,12 @@ spreaker.com##.curated_list_ad.curated_list_ad_left
 ||scanalert.com^$third-party
 about:blank$domain=youtube.com
 ||s.yimg.com/ss/rapid3.js
+||frenreport.com/xmlrpc.php
 
 ! AdGuard Home
 ||wpad.home
 ||*.arpa
+||*.home
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
