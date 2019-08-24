@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1090
+! Version: 1091
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18K (uBlock)
-! Last Modified: Friday, August 23, 2019
+! Last Modified: Saturday, August 24, 2019
 
 ! Unbreak
 @@||encrypted.google.com/recaptcha/api/
@@ -891,6 +891,27 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||ad4mat.cz
+||ad4mat.dk
+||ad4mat.es
+||ad4mat.fi
+||ad4mat.fr
+||ad4mat.co.uk
+||ad4mat.br
+||ad4mat.be
+||ad4mat.bg
+||ad4mat.ar
+||ad4mat.tr
+||ad4mat.se
+||ad4mat.ru
+||ad4mat.ro
+||ad4mat.pl
+||ad4mat.no
+||ad4mat.nl
+||ad4mat.mx
+||ad4mat.it
+||ad4mat.hu
+||ad4mat.gr
 ||a.espncdn.com.stls.edgesuite.net
 ||a.espncdn.com
 ||anolysis.privacy.ghostery.net
@@ -3214,6 +3235,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||bidr.io
 ||brass.account.t-mobile.com
 ||bm23.com
 ||byteoversea.com
@@ -4059,6 +4081,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||clients.l.google.com
+||clientconfig.akamai.steamstatic.com
+||cursecdn.com
+||client.wns.windows.com
 ||cds.s5x3j6q5.hwcdn.net
 ||cds.j3z9t3p6.hwcdn.net
 ||chromefeedcontentsuggestions-pa.googleapis.com
@@ -6164,6 +6190,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||github-cloud.s3.amazonaws.com
 ||gsacollections-pa.googleapis.com
 ||g100na.update.netease.com
 ||g100na.gph.netease.com
@@ -8424,6 +8451,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||msftncsi.com
 ||myoffrz.io
 ||mobile-exp.vzw.com
 ||mmfiles.amp.mcafee.com
@@ -8939,6 +8967,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||no-thanks.invalid
 ||ncaudienceexchange.com
 ||newtab-media.com
 ||newtab-mediasearch.com
@@ -9125,6 +9154,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||n149adserv.com
 
 !O
+||ocsp.identrust.com
 ||offers-api.myoffrz.io
 ||ocsp.init-x3.letsencrypt.org
 ||ophan.theguardian.com
@@ -10124,6 +10154,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||safebrowsing.brave.com
 ||serviceidcheckservice-pa.googleapis.com
 ||semanticlocation-pa.googleapis.com
 ||stage31.net
@@ -10133,7 +10164,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||star.c10r.facebook.com
 ||schibsted.media
 ||szn.cz
-||s.yimg.com/ss/rapid3.js
 ||sexad.net
 ||serverbid.com
 ||stats.clutch.co
@@ -11903,6 +11933,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||vzwwo.com
 ||valor.c.hotheadgames.com
 ||valor-api-alb-1080470264.us-east-1.elb.amazonaws.com
 ||vy4e3jw46l.com
@@ -12049,6 +12080,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||v.admaster.com.cn
 
 !W
+||wixmp.com
+||wo.vzwwo.com
 ||who.nie.netease.com
 ||whatismyip.akamai.com
 ||webview.unityads.unity3d.com
@@ -12420,6 +12453,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xxxwebtraffic.com
 
 !Y
+||ytimg.l.google.com
 ||yarn.ideaeggs.press
 ||yotpo.com
 ||ytimg-edge-static.l.google.com
@@ -17876,6 +17910,11 @@ spreaker.com##.curated_list_ad.curated_list_ad_left
 ||html5.onl/nav.php
 ||scanalert.com^$third-party
 about:blank$domain=youtube.com
+||s.yimg.com/ss/rapid3.js
+
+! AdGuard Home
+||wpad.home
+||*.arpa
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
