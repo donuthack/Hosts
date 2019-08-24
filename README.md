@@ -15,8 +15,8 @@ A blocklist of ads, trackers, malware, and IP grabbers
 * Adblock Plus 2.0+
 * AdBlock
 * AdGuard AdBlocker
+* AdGuard Home
 * AdNauseam
 * AdLock ad blocker
 * Blokada
 * Slimjet
-* AdGuard Home
