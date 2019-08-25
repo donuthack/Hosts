@@ -17,11 +17,13 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1094
+! Version: 1095
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.4K (uBlock)
 ! Last Modified: Sunday, August 25, 2019
 
 ! Unbreak
+@@||services.gfe.nvidia.com
+@@||download.gfe.nvidia.com
 @@||encrypted.google.com/recaptcha/api/
 @@||google.com/recaptcha/api.js
 @@||media-cdn.tripadvisor.com
@@ -5837,7 +5839,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||errortablet.com
 ||exclusivebrass.com
 ||experienceeggs.com
-!||events.gfe.nvidia.com (Interferes with GeForce Experience driver updates)
 ||edge-dl.andomedia.com
 ||educationcenter.janrain.com
 ||e5019.e2.akamaiedge.net
@@ -6419,8 +6420,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||guitarbelieve.com
 ||gate.datacaciques.com
 ||gate.hockeyapp.net
-||gfe.nvidia.com
-||gfe.geforce.com
 ||gfwsl.geforce.com
 ||go.instart.com
 ||gstaticadssl.l.google.com
