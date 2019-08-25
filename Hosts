@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1095
+! Version: 1096
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.4K (uBlock)
 ! Last Modified: Sunday, August 25, 2019
 
@@ -8997,6 +8997,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||noscript-csp.invalid
 ||no-thanks.invalid
 ||ncaudienceexchange.com
 ||newtab-media.com
@@ -17995,6 +17996,13 @@ about:blank$domain=youtube.com
 ||infowars.com/ads.js
 ||cdn.streamroot.io/videojs-hls-dna-plugin/1/stable/videojs-hls-dna-plugin.js
 ||api.infowarsmedia.com/scripts/embed.js
+thehill.com###block-block-3
+twitter.com##.modal-overlay
+twitter.com##.LoginDialog, .modal-container, .u-textCenter
+twitter.com###permalink-overlay
+bitskins.com##+js(abort-on-property-write.js, Fingerprint2)
+||bitskins.com/js/fingerprint2.js
+||cdn.jsdelivr.net/npm/fingerprintjs2
 
 ! AdGuard Home
 ||wpad.home
@@ -18064,6 +18072,8 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/fingerprint2.js
+/fingerprintjs2
 /jwplayer*/ping.gif
 /cookie-prompt
 /geo/get
