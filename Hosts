@@ -17,11 +17,12 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1098
+! Version: 1099
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.4K (uBlock)
-! Last Modified: Sunday, August 25, 2019
+! Last Modified: Tuesday, August 27, 2019
 
 ! Unbreak
+@@||ssl.gstatic.com/*/common/netcheck.gif?
 @@||services.gfe.nvidia.com
 @@||download.gfe.nvidia.com
 @@||encrypted.google.com/recaptcha/api/
@@ -893,6 +894,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||adobeconsumer.sc.omtrdc.net
 ||amznsale.info
 ||apahflfit2015.samsung.com
 ||adserve.io
@@ -3308,6 +3310,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||beacons.gcp.gvt2.com
 ||beacons5.gvt2.com
 ||beacons5.gvt3.com
+||beacons*.gvt*.com
 ||banner.bruceads.com
 ||bruceads.com
 ||bot.whatismyipaddress.com
@@ -4092,8 +4095,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||countvoncount.goguardian.com
 ||cm*-lax1.cm.steampowered.com
-||clients2.google.com
 ||crlsets.brave.com
 ||chrome.adtidy.org
 ||cs1143.wpc.chicdn.net
@@ -5972,6 +5975,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||f-log-extension.grammarly.io
 ||fs.microsoft.com
 ||freewestmedia.disqus.com
 ||fbprod.flipboard.com
@@ -6305,6 +6309,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gopher-buddy-prod.appspot.com
 ||www.goguardian.com
 ||goguardian.com
+||goguardian.*
 ||good.alibaba.com
 ||g.alicdn.com
 ||gj.mmstat.com
@@ -6755,6 +6760,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||inquisition.goguardian.com.home
+||ip.goguardian.com
 ||ipm.bitdefender.com
 ||img-prod-cms-rt-microsoft-com.akamaized.net
 ||ir.ebaystatic.com
@@ -9364,6 +9371,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||panther.goguardian.com
 ||postback.applinzi.com
 ||*-prod.do.*.microsoft.com
 ||pro-w.1ldr.me
@@ -10204,6 +10212,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||snat.goguardian.com
 ||services.disconnect.me.herokudns.com
 ||services.disconnect.me
 ||scontent-ort2-2.xx.fbcdn.net
@@ -11869,7 +11878,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 !U
 ||upgr-avfree-2017-p.2d8cd.cdn.bitdefender.net
 ||urs.microsoft.com
-||update.googleapis.com
 ||us-east-1-a.route.herokuapp.com
 ||us-central1-gcp.api.snapchat.com
 ||updatesdk.avlyun.com
@@ -12479,6 +12487,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||wv.inner-active.mobi
 
 !X
+||x3-policy-maker.goguardian.com
 ||xpressunblock.com
 ||xboxab.com
 ||xmediaserve.com
@@ -13260,6 +13269,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||45.63.127.60
 
 !Misc
+||2.android.pool.ntp.org
 ||20429.dialer.lincassa.com
 ||0-act.channel.facebook.com
 ||0.beta.facebook.com
