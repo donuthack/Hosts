@@ -17,11 +17,13 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1099
-! Number Of Ad Services, Trackers, And Malware Blocked: 18.4K (uBlock)
+! Version: 1100
+! Number Of Ad Services, Trackers, And Malware Blocked: 18.5K (uBlock)
 ! Last Modified: Tuesday, August 27, 2019
 
 ! Unbreak
+@@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
+@@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
 @@||ssl.gstatic.com/*/common/netcheck.gif?
 @@||services.gfe.nvidia.com
 @@||download.gfe.nvidia.com
@@ -894,6 +896,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||apple.comscoreresearch.com
 ||adobeconsumer.sc.omtrdc.net
 ||amznsale.info
 ||apahflfit2015.samsung.com
@@ -4095,6 +4098,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||comscoreresearch.com
+||captive.apple.com
 ||countvoncount.goguardian.com
 ||cm*-lax1.cm.steampowered.com
 ||crlsets.brave.com
@@ -6558,6 +6563,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||hr.client-channel.google.com
 ||history.google.com
 ||helpcmplaysdk1.ksmobile.com
 ||helparrowio1.ksmobile.com
@@ -8257,6 +8263,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||krxd.net
 
 !L
+||lockbox.clever.com
 ||logincdn.msauth.net
 ||lps.inform.com
 ||live-f351468gBSWz.ws.gamesparks.net
@@ -8491,6 +8498,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||md22shcggw6d.lekq-zi992upoz8gnj5l.com
 ||mozilla.org.cdn.cloudflare.net
 ||msftncsi.com
 ||mem.gfx.ms
@@ -9010,6 +9018,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||news-events.news.apple-dns.net
 ||noscript-csp.invalid
 ||no-thanks.invalid
 ||ncaudienceexchange.com
@@ -9371,6 +9380,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||p33-ckdevice.icloud.com
 ||panther.goguardian.com
 ||postback.applinzi.com
 ||*-prod.do.*.microsoft.com
@@ -10212,6 +10222,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||s-pijg97ih.chv6tzb9kvxhzeoj1.com
 ||snat.goguardian.com
 ||services.disconnect.me.herokudns.com
 ||services.disconnect.me
@@ -13269,6 +13280,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||45.63.127.60
 
 !Misc
+||5gdehku0feb-7lf6ve5e.t6jcbjxdxg2ohku83.com
 ||2.android.pool.ntp.org
 ||20429.dialer.lincassa.com
 ||0-act.channel.facebook.com
