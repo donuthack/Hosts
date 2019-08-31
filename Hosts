@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1100
+! Version: 1101
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.5K (uBlock)
 ! Last Modified: Tuesday, August 27, 2019
 
@@ -6228,7 +6228,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
-||go-updater.brave.com
 ||googleapis.l.google.com
 ||github-cloud.s3.amazonaws.com
 ||gsacollections-pa.googleapis.com
@@ -8498,6 +8497,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||matomo.riot.im
 ||md22shcggw6d.lekq-zi992upoz8gnj5l.com
 ||mozilla.org.cdn.cloudflare.net
 ||msftncsi.com
@@ -18533,6 +18533,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /concert_ads.js
 /internal-ad-api/
 /autotrack.carbon.js
+/matomo.php?
 -page-url=
 &page-url=
 =googleanalytics
