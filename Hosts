@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1102
+! Version: 1104
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.5K (uBlock)
 ! Last Modified: Saturday, August 31, 2019
 
@@ -48,6 +48,15 @@ ff02::3 ip6-allhosts
 @@||accounts.google.$cookie
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
+! Unbreak Fonts / Icons
+@@fonts.googleapis.com$domain=google.*
+@@||fonts.googleapis.com/css?family=Material+Icons
+@@||fonts.googleapis.com/icon?family=Material+Icons
+@@||fonts.googleapis.com/css?family=Product+Sans
+@@||fonts.googleapis.com/css?family=Google+Sans
+@@fonts.googleapis.com/css?family=*|Material+Icons
+@@fonts.googleapis.com/css?family=*|Product+Sans
+@@fonts.googleapis.com/css?family=*|Google+Sans
 
 ! Rewrite (Adblock Plus and AdGuard)
 ||mediaserver-cont-*.pandora.com/*/*/devicead^$rewrite=abp-resource:blank-mp3,domain=pandora.com
@@ -231,6 +240,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||myiptest.com/img.php
 
 ! Apple
+||apple.comscoreresearch.com
 ||init.ess.apple.com
 ||profile.gc.apple.com
 ||uts-api.itunes.apple.com
@@ -896,7 +906,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
-||apple.comscoreresearch.com
+||adtarget.me
+||ad.mox.tv
+||antennereunion.nuggad.net
+||adcode.rontar.com
+||aazs.net
 ||adobeconsumer.sc.omtrdc.net
 ||amznsale.info
 ||apahflfit2015.samsung.com
@@ -2823,7 +2837,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||adnews.maddog2000.de
 ||adnotch.com
 ||adnxs.com
-||adocean.pl
 ||adonspot.com
 ||adoperator.com
 ||adorigin.com
@@ -3146,6 +3159,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ad-clicks.com
 ||admaster.com.cn
 ||adocean.pl
+||adocean.*
 ||advertising.com
 ||adforce.ru
 ||adcycle.com
@@ -3249,6 +3263,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||b.c8.net.ua
 ||btms.samsungsemi.com
 ||bi.yeshen.com
 ||bidr.io
@@ -4098,6 +4113,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||cdn.cookielaw.org
+||content.flexlinks.com
 ||comscoreresearch.com
 ||captive.apple.com
 ||countvoncount.goguardian.com
@@ -4105,7 +4122,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||crlsets.brave.com
 ||chrome.adtidy.org
 ||cs1143.wpc.chicdn.net
-||content-images.p-cdn.com
 ||ctldl.windowsupdate.com
 ||crl.certum.pl
 ||crl.pki.goog
@@ -5002,6 +5018,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||dns.inflow.pa.bo.comcast.net
+||dns.cmc.co.denver.comcast.net
+||ddns.s3woodstock.ga.atlanta.comcast.net
 ||disconnect.me.herokudns.com
 ||dy.adserve.io
 ||dy.bild.de
@@ -5130,6 +5149,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||dsdn-gh1-uea08.nsa.gov
 ||dsdn-gh1-uea09.nsa.gov
 ||dsdn-gh1-uea10.nsa.gov
+||dsdn-gh1-uea*.nsa.gov
 ||d.in-addr-servers.arpa
 ||dns2.vodafone.de
 ||dns1.vodafone.de
@@ -5635,6 +5655,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||downloads.mailchimp.com
 
 !E
+||esputnik.com
+||ebm.native-x.io
 ||elb-*-amz.nimbus.bitdefender.net
 ||eff.map.fastly.net
 ||edge.gycpi.b.yahoodns.net
@@ -5980,6 +6002,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||fonts.googleapis.com
+||felix.data.tm-awx.com
+||flexlinks.com
 ||f-log-extension.grammarly.io
 ||fs.microsoft.com
 ||freewestmedia.disqus.com
@@ -6228,6 +6253,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||gahu.hit.gemius.pl
+||gourmetads.com
 ||googleapis.l.google.com
 ||github-cloud.s3.amazonaws.com
 ||gsacollections-pa.googleapis.com
@@ -6765,6 +6792,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||i.mediatraffic.com.ua
+||imp-adedge.i-mobile.co.jp
+||imp-adedge.*
+||indexhu.adocean.pl
 ||inquisition.goguardian.com.home
 ||ip.goguardian.com
 ||ipm.bitdefender.com
@@ -7460,7 +7491,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.mobojoy.baidu.com
 ||js.foxpush.com
 ||jsecoin.com
-||jwpsrv.com
 ||jlflzjdt.com
 ||jopd.ru
 ||jsc.idealmedia.io
@@ -7496,6 +7526,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.users.51.la
 
 !K
+||klivetv.co
 ||kv601-prod.do.dsp.mp.microsoft.com
 ||kiip.me
 ||kinja-img.com
@@ -8497,6 +8528,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||mediatraffic.com.ua
+||mytvline.ch
 ||matomo.riot.im
 ||md22shcggw6d.lekq-zi992upoz8gnj5l.com
 ||mozilla.org.cdn.cloudflare.net
@@ -9018,6 +9051,18 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||nuggad.net
+||native-x.io
+||ns1.comcastbusiness.net
+||ns2.comcastbusiness.net
+||ns3.comcastbusiness.net
+||ns4.comcastbusiness.net
+||ns*.comcastbusiness.net
+||ns1-auth.windstream.net
+||ns2-auth.windstream.net
+||ns3-auth.windstream.net
+||ns4-auth.windstream.net
+||ns*-auth.windstream.net
 ||news-events.news.apple-dns.net
 ||noscript-csp.invalid
 ||no-thanks.invalid
@@ -9190,7 +9235,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||no.adserver.yahoo.com
 ||nol.yahoo.com
 ||gwp.nuggad.net
-||nuggad.net
 ||net.softonicads.com
 ||native.sharethrough.com
 ||nsg.symantec.com
@@ -9207,6 +9251,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||n149adserv.com
 
 !O
+||olytics.cygnus.com
 ||ocsp.msocsp.com
 ||ocsp.comodoca.com
 ||ocsp.sectigo.com
@@ -9380,6 +9425,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||push.esputnik.com
+||pub-images.gourmetads.com
+||pxlgnpgecom-a.akamaihd.net
 ||p33-ckdevice.icloud.com
 ||panther.goguardian.com
 ||postback.applinzi.com
@@ -10222,6 +10270,13 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||stomy.eklablog.com
+||sdk.privacy-center.org
+||static-trackers.adtarget.me
+||s2-prod.birminghammail.co.uk
+||static.shareasale.com
+||shareasale.com
+||sb-ssl.google.com
 ||s-pijg97ih.chv6tzb9kvxhzeoj1.com
 ||snat.goguardian.com
 ||services.disconnect.me.herokudns.com
@@ -11375,6 +11430,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||telemetry.caddyserver.com
+||tm-awx.com
+||telemetry-experiment.cdn.mozilla.net
 ||tracking.trnox.com
 ||townsquareblogs.com
 ||tool-avpg.crsi.symantec.com
@@ -11887,6 +11945,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||usagoals.co
 ||upgr-avfree-2017-p.2d8cd.cdn.bitdefender.net
 ||urs.microsoft.com
 ||us-east-1-a.route.herokuapp.com
@@ -12049,7 +12108,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||vccrm.admicro.vn
 ||vml1.s3.amazonaws.com
 ||viewerstats.docstoc.com.s3.amazonaws.com
-||videos-a.jwpsrv.com
 ||vtrk.me
 ||vice-staging-web-statics-cdn.viceops.net
 ||v.happyfoxchat.com
@@ -12181,6 +12239,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||v.admaster.com.cn
 
 !W
+||walsalladvertiser.co.uk
 ||wdcp.microsoft.com
 ||wdcpalt.microsoft.com
 ||wixmp.com
@@ -16326,7 +16385,6 @@ www.bestvpn.co##.text-center.gdpr-msg-main
 blog.yoocare.com##.toppromo.container > small
 slightlyoffensive.com##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-227b603.elementor-element
 slightlyoffensive.com##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-31a03f7.elementor-element
-||maps.google.com/maps?q=Whittier%2C%20CA%2090601%E2%80%8B&t=m&z=9&output=embed&iwloc=near
 ||www.iobit.com/tpl/images/diagnosis-call.png
 www.iobit.com##.call-bubble > h2
 www.iobit.com##.tel
@@ -17519,7 +17577,6 @@ amgreatness.com###div-gpt-ad-1490977881454-3
 ||tmzaz.nossoecommerce.com/
 ||cdn.tempostorm.com/js/showads.js
 ||cdn.tempostorm.com/asteri/prebid.js
-||google.com/maps/vt?
 ||google.com/maps/preview/vp?
 ||google.com/maps/preview/log204?
 ||google.com/maps/preview/lp?
@@ -17951,7 +18008,10 @@ tampabay.com##.cookie-notice
 tampabay.com##.cookie-notice-wrapper
 tampabay.com##.advertising__slug
 ||kit.fontawesome.com^$script
-||connect.facebook.net/en_US/sdk.js#xfbml
+||connect.facebook.net/en_US/sdk.js
+||connect.facebook.net/fr_FR/sdk.js
+||connect.facebook.net/ru_RU/sdk.js
+||connect.facebook.net/*/sdk.js
 ||api.nextsale.io/client/ping-old?callback=
 ||goaffpro.com/loader.js?shop=
 ||coin.amazonpay.com/rb/checkStatus
@@ -18056,6 +18116,53 @@ codeproject.com##.msg-160x600
 codeproject.com##.msg-728x90
 codeproject.com##.msg-300x250
 codeproject.com##.cc-window.cc-banner.cc-type-opt-in.cc-theme-edgeless.cc-bottom.cc-color-override-3162233370
+||connect.facebook.net/en_US/all.js#xfbml
+||expedia.com/*/1x1.gif
+||expedia.com/*/2x2.json
+||expedia.com/userHistory/count?
+||github.com/*/used_by_count
+officer.com##main:nth-child(6) > div.container:first-child > div.inner > div.block.hr:nth-child(3) > div.bgColor.block:last-child > div.block:nth-child(2)
+mydiet.com###sidebar-home-wrapper > div.side-home:last-child > div.sidebar-widget:first-child
+facebook.com/plugins/likebox.php
+mydiet.com###sidebar-home-wrapper > div.side-home:last-child > div.sidebar-widget:nth-child(3)
+officer.com##.advertisement.super-leaderboard.variable-ad
+officer.com###adunit_id__21687441225-Officer-Officer_BS__69751737
+officer.com##.ad.leaderboard-ad.ad-970x90
+officer.com###adunit_id__21687441225-Officer-Officer_HP__835062391
+officer.com##.ad.inline-ad.ad-300x600
+officer.com##.advertisement.inline.ad-300x600
+officer.com###adunit_id__21687441225-Officer-Officer_MS__76492703
+officer.com##.ad.inline-ad.ad-300x50
+officer.com##.advertisement.inline.ad-300x50
+net-games.co.il###div-gpt-ad-1448439171064-2
+net-games.co.il###div-gpt-ad-1448439171064-3
+net-games.co.il##.main_banner_inner
+net-games.co.il###div-gpt-ad-1448439171064-1
+mydiet.com##div[style="padding:20px 0"]
+belloflostsouls.net###div-gpt-ad-1536343118046-0
+belloflostsouls.net###ad_default_sidebar_1
+belloflostsouls.net###ad_unit_index_top
+belloflostsouls.net###ad_default_sidebar_2
+belloflostsouls.net###ad_unit_index_mid
+belloflostsouls.net###ad_unit_index_bottom
+belloflostsouls.net###div-gpt-ad-1526368111242-0
+gearnuke.com###custom_html-7
+gearnuke.com##.widget_text.vlog-no-padding.widget.widget_custom_html
+totalcar.hu###_iph_cp_popup
+totalcar.hu##.eurotax
+outbreaknewstoday.com###moove_gdpr_cookie_info_bar
+outbreaknewstoday.com##.moove-gdpr-align-center.moove-gdpr-dark-scheme.gdpr_infobar_postion_bottom
+outbreaknewstoday.com###text-73
+outbreaknewstoday.com##.widget.widget_text
+birminghammail.co.uk##.pancake.duet.secondary
+birminghammail.co.uk###div-gpt-ad-section-slot-1
+birminghammail.co.uk##.gpt
+###div-gpt-ad-section-slot-1
+antennereunion.fr##.cc-window.cc-banner.cc-type-opt-in.cc-theme-block.cc-bottom.cc-color-override-688238583
+antennereunion.fr###col_droite
+antennereunion.fr##.column_right
+||freelancer.*/1px.gif
+||f-cdn.com/fp/
 
 ! AdGuard Home
 ||wpad.home
@@ -18064,18 +18171,10 @@ codeproject.com##.cc-window.cc-banner.cc-type-opt-in.cc-theme-edgeless.cc-bottom
 
 ! AdGuard
 blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
-||google.$cookie=/1P_JAR/
-||www.pandora.com$cookie=/floodlightPixelTimer|http_referrer/
-||twitter.com$cookie=/ads_prefs|personalization_id|guest_id/
-||youtube.com$cookie=/GPS/
 ||yahoo.com$cookie=/apeaf|ucs|thamba|B|flash_enabled/
 ||facebook.com$cookie=/datr|fr|wd/
-||user.usatoday.com$cookie=/gup_clientid/
-||paypal.com$cookie=/cookie_check|_ga|_gcl_au/
-||github.com$cookie=/_device_id|has_recent_activity|tz/
-||dailycaller.com$cookie=/__gads|_chartbeat2|_ga|_parsely_visitor/
-||shopfleccas.com$cookie=/_landing_page/
-||alternet.org$cookie=/cp_id_ec364pageLoads/
+||paypal.com$cookie=/cookie_check/
+||github.com$cookie=/tz/
 dailycaller.com#%#document.cookie = "__adblocker = false"
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
@@ -18125,6 +18224,13 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/userHistory/count?
+/images/ads/
+/expadsblocked.js
+/travel-pixel-js/
+/browserfp.min.js
+/sk-logabpstatus.php
+/px.js?ch=
 /fingerprint2.js
 /fingerprintjs2
 /jwplayer*/ping.gif
@@ -18465,6 +18571,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /detect-adblock/
 /manageads/47191571.jsons?
 /jsAds/
+/xgemius.js
 /cookie-law-info-bar
 /attachment-tracking
 /email-link-tracking
@@ -18555,6 +18662,11 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /autotrack.carbon.js
 /matomo.php?
 /imads.js
+/ns*-auth.
+/feedclick?
+/bk-coretag.js
+/rontar*_async.js
+/gdpr-analytics.php
 -page-url=
 &page-url=
 =googleanalytics
@@ -18581,3 +18693,6 @@ _WebBannerAd
 ###js-gdpr-consent-banner
 ###responsive_ad
 ##.AdHeading.AdHeading-
+###div-gpt-ad-
+###ad_default_sidebar_
+###ad_unit_index_
