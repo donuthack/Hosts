@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1101
+! Version: 1102
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.5K (uBlock)
-! Last Modified: Tuesday, August 27, 2019
+! Last Modified: Friday, August 30, 2019
 
 ! Unbreak
 @@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
@@ -18036,6 +18036,26 @@ bitskins.com##+js(abort-on-property-write.js, Fingerprint2)
 ||bitskins.com/js/fingerprint2.js
 ||cdn.jsdelivr.net/npm/fingerprintjs2
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
+about:blank$domain=reddit.com
+||redditstatic.com/*/renderTimingPixel.png
+||gql.reddit.com/?request_timestamp
+||reddit.com/timings/mount
+||reddit.com/api/jail/asknicely.json
+||redditstatic.com/desktop*/js/ads.js
+||gateway.reddit.com/desktopapi/v*/sidebar_ad$important
+captureone.com###cookiePolicyBar
+laptopmag.com##.leaderBoard
+bing.com##.b_ad
+bing.com##.b_
+digitalocean.com##._panel_1nv7e_1
+pixlr.com##ad-wrap
+||pixlr.com/x/img/resize-canvas.svg
+quizlet.com###dfp-SetPageEmbedDesktopMilti01-heading
+quizlet.com##.AdHeading.AdHeading--centerAlign
+codeproject.com##.msg-160x600
+codeproject.com##.msg-728x90
+codeproject.com##.msg-300x250
+codeproject.com##.cc-window.cc-banner.cc-type-opt-in.cc-theme-edgeless.cc-bottom.cc-color-override-3162233370
 
 ! AdGuard Home
 ||wpad.home
@@ -18534,6 +18554,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /internal-ad-api/
 /autotrack.carbon.js
 /matomo.php?
+/imads.js
 -page-url=
 &page-url=
 =googleanalytics
@@ -18542,6 +18563,7 @@ _WebBannerAd
 -ad-powerinbox-inline-
 -ad-display.z-ad-
 ##.adsbygoogle
+##.google-bottom-ads
 ##.ad-wrapper
 ##.ad-link
 ###cookie-bar
@@ -18553,3 +18575,9 @@ _WebBannerAd
 ##.cookie-notice-container
 ###eu-cookie-law
 ##.adblock-whitelist-messaging__wrapper
+###cookiePolicyBar
+##.cookie-popup.show
+###privacy-banner
+###js-gdpr-consent-banner
+###responsive_ad
+##.AdHeading.AdHeading-
