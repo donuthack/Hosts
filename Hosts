@@ -19,7 +19,7 @@ ff02::3 ip6-allhosts
 ! Expires: 8 hours
 ! Version: 1102
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.5K (uBlock)
-! Last Modified: Friday, August 30, 2019
+! Last Modified: Saturday, August 31, 2019
 
 ! Unbreak
 @@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
@@ -83,7 +83,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||client2-holanetworksltd.netdna-ssl.com
 ||client3-holanetworksltd.netdna-ssl.com
 ||holaalt-holanetworksltd.netdna-ssl.com
-||ec2-54-243-128-120.compute-1.mazonaws.com
+||ec2-54-243-128-120.compute-1.amazonaws.com
 ||ec2-107-22-193-119.compute-1.amazonaws.com
 ||s6m9m3g5.map2.ssl.hwcdn.net
 ||f9t5n3y6.map2.ssl.hwcdn.net
