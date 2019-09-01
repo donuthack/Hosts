@@ -17,11 +17,12 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1105
-! Number Of Ad Services, Trackers, And Malware Blocked: 18.5K (uBlock)
+! Version: 1106
+! Number Of Ad Services, Trackers, And Malware Blocked: 18.6K
 ! Last Modified: Saturday, August 31, 2019
 
 ! Unbreak
+@@||content-images.p-cdn.com/images^$image
 @@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
 @@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
 @@||ssl.gstatic.com/*/common/netcheck.gif?
@@ -906,6 +907,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||assets.purch.com
 ||adelphic.com
 ||adtarget.me
 ||ad.mox.tv
@@ -4114,6 +4116,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||cdn.gubagoo.io
+||connect.podium.com
 ||cdn.cookielaw.org
 ||content.flexlinks.com
 ||comscoreresearch.com
@@ -6254,6 +6258,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||getchipbot.com
 ||gtrk.s3.amazonaws.com
 ||gahu.hit.gemius.pl
 ||gourmetads.com
@@ -6591,6 +6596,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||help.com
 ||hr.client-channel.google.com
 ||history.google.com
 ||helpcmplaysdk1.ksmobile.com
@@ -6794,6 +6800,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||intergram.xyz
 ||ipredictive.com
 ||i.mediatraffic.com.ua
 ||imp-adedge.i-mobile.co.jp
@@ -8296,6 +8303,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||krxd.net
 
 !L
+||leadconnect.ipmaxi.se
+||leadconnect.se
 ||lockbox.clever.com
 ||logincdn.msauth.net
 ||lps.inform.com
@@ -9428,6 +9437,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||plugins.help.com
+||purch.com
 ||push.esputnik.com
 ||pub-images.gourmetads.com
 ||pxlgnpgecom-a.akamaihd.net
@@ -10273,6 +10284,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||smartsupp-widget-161959.c.cdn77.org
+||small.chat
+||static.small.chat
+||secure.livechatinc.com
+||static.getchipbot.com
 ||stomy.eklablog.com
 ||sdk.privacy-center.org
 ||static-trackers.adtarget.me
@@ -11433,6 +11449,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||tidio.com
 ||telemetry.caddyserver.com
 ||tm-awx.com
 ||telemetry-experiment.cdn.mozilla.net
@@ -11948,6 +11965,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||user.com
 ||usagoals.co
 ||upgr-avfree-2017-p.2d8cd.cdn.bitdefender.net
 ||urs.microsoft.com
@@ -18197,6 +18215,26 @@ appleinsider.com###div-gpt-ad-1510770062118-2
 appleinsider.com###sidebar-left > div.sidebar-l-mod-first.ad-wsky:first-child
 appleinsider.com###div-gpt-ad-1510770062118-3
 appleinsider.com##.ad-mrec
+||pandora.com/web-client-assets/displayAdFrame.
+||hearst.io/js/vendor/fingerprint.js
+||duckduckgo.com/post2.html
+bestproducts.com##.top-pathing-inner
+head-fi.org###dfp_ultra_leaderboard_1
+head-fi.org##.banner_flex_leaderboard_child_right
+head-fi.org##.banner_flex_leaderboard_child_left
+head-fi.org###dfp_filmstrip_1
+head-fi.org###dfp_sidekick_1
+head-fi.org###dfp_filmstrip_2
+head-fi.org###dfp_sidekick_2
+head-fi.org###dfp_wedge_1
+head-fi.org###dfp_wedge_2
+head-fi.org##div[style="clear:both;height:20px;background-color:#ffffff;"]
+head-fi.org###dfp_filmstrip_3
+head-fi.org##.iab_leaderboard_max
+head-fi.org##.breadBoxBottom
+||sdk.inbenta.io/chatbot
+||couchbase.com/webfiles/1552355627964/js/contact-popup-form.js
+||assets.producthunt.com/assets/upwigloader.js
 
 ! AdGuard Home
 ||wpad.home
@@ -18707,6 +18745,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /ads/home_sidebar_1.html
 /js/counters-informers-init.js
 /?fp=
+/client/domains/videoAds/
 -page-url=
 &page-url=
 =googleanalytics
