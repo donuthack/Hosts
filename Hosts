@@ -17,11 +17,12 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1106
+! Version: 1107
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.6K
-! Last Modified: Saturday, August 31, 2019
+! Last Modified: Sunday, September 1, 2019
 
 ! Unbreak
+@@||abs.twimg.com/responsive-web/web/*
 @@||content-images.p-cdn.com/images^$image
 @@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
 @@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
@@ -907,6 +908,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xp.apple.com/report/2/psr_ota
 
 !A
+||actionbutton.co
+||adligature.com
 ||assets.purch.com
 ||adelphic.com
 ||adtarget.me
@@ -4116,6 +4119,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||cdn.tm.shopifysvc.com
 ||cdn.gubagoo.io
 ||connect.podium.com
 ||cdn.cookielaw.org
@@ -5023,6 +5027,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||datadome.co
 ||dns.inflow.pa.bo.comcast.net
 ||dns.cmc.co.denver.comcast.net
 ||ddns.s3woodstock.ga.atlanta.comcast.net
@@ -5660,6 +5665,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||downloads.mailchimp.com
 
 !E
+||evgnet.com
 ||esputnik.com
 ||ebm.native-x.io
 ||elb-*-amz.nimbus.bitdefender.net
@@ -6800,6 +6806,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||ia.media-imdb.com
 ||intergram.xyz
 ||ipredictive.com
 ||i.mediatraffic.com.ua
@@ -9063,6 +9070,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||npttech.com
 ||nuggad.net
 ||native-x.io
 ||ns1.comcastbusiness.net
@@ -9263,6 +9271,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||n149adserv.com
 
 !O
+||oimg.nbcuni.com
 ||olytics.cygnus.com
 ||ocsp.msocsp.com
 ||ocsp.comodoca.com
@@ -9437,6 +9446,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||pagefair.com
 ||plugins.help.com
 ||purch.com
 ||push.esputnik.com
@@ -10284,6 +10294,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||seaofads.com
 ||smartsupp-widget-161959.c.cdn77.org
 ||small.chat
 ||static.small.chat
@@ -11449,6 +11460,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||truste.com
 ||tidio.com
 ||telemetry.caddyserver.com
 ||tm-awx.com
@@ -18235,6 +18247,11 @@ head-fi.org##.breadBoxBottom
 ||sdk.inbenta.io/chatbot
 ||couchbase.com/webfiles/1552355627964/js/contact-popup-form.js
 ||assets.producthunt.com/assets/upwigloader.js
+||quora.com/_/ad
+||s1.wp.com/_static/
+||static-assets.gowatchit.com/analytics.js
+||theatlantic.com/packages/adsjs
+producthunt.com##.sponsors_fb14b
 
 ! AdGuard Home
 ||wpad.home
@@ -18746,6 +18763,9 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /js/counters-informers-init.js
 /?fp=
 /client/domains/videoAds/
+/images/*/imdbads/
+/imdbads/js/
+/ad_load.js
 -page-url=
 &page-url=
 =googleanalytics
