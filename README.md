@@ -14,7 +14,7 @@ A blocklist of ads, trackers, malware, and IP grabbers
 <br>
 
 ## Contribution
-To contribute to any of the blocklists create a new [`Issue`](https://github.com/Cybo1927/Hosts/issues) and choose from an existing template or create a new one
+To contribute to any of the blocklists create a new [`Issue`](https://github.com/Cybo1927/Hosts/issues/new/choose) and choose from an existing template or create a new one
 
 <br>
 
