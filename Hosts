@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1108
+! Version: 1109
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.6K
-! Last Modified: Sunday, September 1, 2019
+! Last Modified: Monday, September 2, 2019
 
 ! Unbreak
 @@||abs.twimg.com/responsive-web/web/*
@@ -906,8 +906,13 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||albert.apple.com/deviceservices/phoneHome
 ||albert.apple.com/deviceservices/activity
 ||xp.apple.com/report/2/psr_ota
+||idmsa.apple.com/appleauth/jslog
 
 !A
+||api-async.excite.co.jp
+||analytics.ecosia.org
+||anx.tb.ask.com
+||akz.imgfarm.com
 ||accengage.net
 ||atp.io
 ||ayc0zsm69431gfebd.xyz
@@ -1050,7 +1055,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||an.facebook.com
 ||array602-prod.do.dsp.mp.microsoft.com
 ||api.postknight.com
-||aol.com
 ||awin.com
 ||ailiyou1999.com
 ||app.trialfire.com
@@ -4164,6 +4168,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||commander1.com
 ||c212.net
 ||c-ctrip.com
 ||c3tag.com
@@ -6655,6 +6660,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||hello.staticstuff.net
 ||help.com
 ||hr.client-channel.google.com
 ||history.google.com
@@ -8594,7 +8600,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||www.liveperson.com
 ||liveperson.com
 ||lptag.liveperson.net
-||login.microsoftonline.com
 ||localytics.android.com
 ||loggly.com
 ||ligatus.com
@@ -9082,7 +9087,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||mobileads.com
 ||mailchimp.com
 ||media.richrelevance.com
-||microsoftonline.com
 ||www.myfinance.com
 ||myfinance.com
 ||mybbc-analytics.files.bbci.co.uk
@@ -9124,6 +9128,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||nv.veta.naver.com
+||novelty.media
 ||native.ai
 ||npttech.com
 ||nuggad.net
@@ -9502,6 +9508,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||pb.sogou.com
 ||pagefair.com
 ||plugins.help.com
 ||purch.com
@@ -10080,6 +10087,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||rlogs.youdao.com
 ||rem-track.bild.de
 ||rosetta.prod.ps.bild.de
 ||res06.bignox.com
@@ -10350,6 +10358,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||staticstuff.net
+||stats.drivetheweb.com
+||soflopxl.com
 ||sophi.io
 ||seaofads.com
 ||smartsupp-widget-161959.c.cdn77.org
@@ -11517,6 +11528,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||tva3.sinaimg.cn
+||tracking.3ds.com
 ||tagger.opecloud.com
 ||trace.51jingying.com
 ||truste.com
@@ -12036,6 +12049,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||urswebzj.nosdn.127.net
 ||user.com
 ||usagoals.co
 ||upgr-avfree-2017-p.2d8cd.cdn.bitdefender.net
@@ -12184,6 +12198,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||veta.naver.com
 ||velti.com
 ||vss.norton.com
 ||vzwwo.com
@@ -12332,6 +12347,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||v.admaster.com.cn
 
 !W
+||win.staticstuff.net
+||wisteria-js.excite.co.jp
+||wal.wolfram.com
 ||w.o0bc.com
 ||websdk.accengage.net
 ||walsalladvertiser.co.uk
@@ -12789,7 +12807,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||you2mail.com
 ||younglingsbcjzvozva.download
 ||your.365advert.com
-||yastatic.net
 ||youradchoices.com
 ||y.ibsys.com
 ||yab-adimages.s3.amazonaws.com
@@ -18320,6 +18337,35 @@ head-fi.org##.breadBoxBottom
 ||static-assets.gowatchit.com/analytics.js
 ||theatlantic.com/packages/adsjs
 producthunt.com##.sponsors_fb14b
+||bluehost.com/static/js/ads.js
+||capture.condenastdigital.com/track
+||fonts.condenast.com/ad
+||bing.com/fd/ls/l?
+||bing.com/fd/ls/
+||bing.com$ping
+||bing.com/rewardsapp/ncheader
+||testfamilysafety.bing.com/a.gif
+||ask.com/log/browser/event
+||google.com/adsense/
+||bing.com/aclick
+||yahoo.com/_td_api/beacon/
+||yahoo.com/beacon/
+||yahoo.com$ping
+||*.ask.com/anx.gif
+||yandex.com/clck/click
+search.yahoo.com###browserExtensionPromotionBanner
+||pm.pstatic.net/js/c/jindo_v180212.js
+||yippy.com/images/rl-ad-*
+||sogou.com/web/js/taspeed.min.
+||pb.sogou.com/pv.gif
+||pb6.sogou.com/v6
+||gigablast.com/qs?
+||image.excite.co.jp/jp/ad/
+||bingapis.com/api/ping/
+qwant.com##.home__snippet__extension
+qwant.com##.warning-block--container
+swisscows.com##.donation-web-results-wrap
+fanyi.youdao.com##.rengong__guide
 
 ! AdGuard Home
 ||wpad.home
@@ -18356,7 +18402,7 @@ dailycaller.com#%#document.cookie = "__adblocker = false"
 ||infowarsmedia.com$cookie,third-party
 ||store.steampowered.*$cookie,domain=steam.tv
 ! Anti Tracking Cookies
-$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|_gcl_au|gup_clientid|floodlightPixelTimer|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|__cfduid/
+$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|ABTEST|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|__cfduid/
 $webrtc,domain=infoip.io
 $webrtc,domain=xda-developers.com
 $webrtc,domain=vimeo.com
@@ -18383,6 +18429,9 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/rlog.php?
+/RLinkPing.htm
+/async-ads.js
 /userHistory/count?
 /images/ads/
 /expadsblocked.js
@@ -18508,7 +18557,6 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /cc8437ad.js
 /6323ce42.js
 /AS/Suggesttions?
-/6fb5e8ee.js
 /0716c9f4.js
 /261929f9.js
 /xnTuawbjfertd/tl.gif?
