@@ -15,7 +15,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 0.0.0.0 0.0.0.0
 
-! Title: Cybo's Hosts
+! Title: Cybo's Hosts - 0.0.0.0
 ! Expires: 8 hours
 ! Version: 1110
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.6K
