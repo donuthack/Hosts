@@ -10,7 +10,7 @@ A blocklist of ads, trackers, malware, and IP grabbers
 * [`Anti Social`](https://github.com/Cybo1927/Hosts.txt/blob/master/Anti%20Social) - Block social sites
 
 ## Contribution
-To contribute to any of the blocklists create a new [`Issue`](https://github.com/Cybo1927/Hosts/issues)
+To contribute to any of the blocklists create a new [`Issue`](https://github.com/Cybo1927/Hosts/issues) and choose from an existing template or create a new one
 
 ## Support
 
