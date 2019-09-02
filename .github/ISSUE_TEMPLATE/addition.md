@@ -7,6 +7,6 @@ assignees: Cybo1927
 
 ---
 
-Add the domain `domain here`
+Add the domain(s) `domain(s) here`
 
 Reason:
