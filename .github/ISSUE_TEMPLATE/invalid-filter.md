@@ -1,6 +1,6 @@
 ---
 name: Invalid Filter
-about: Describe this issue template's purpose here.
+about: Something isn't right about a filter
 title: ''
 labels: invalid filter
 assignees: Cybo1927
