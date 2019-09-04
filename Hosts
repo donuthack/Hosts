@@ -17,8 +17,8 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1111
-! Number Of Ad Services, Trackers, And Malware Blocked: 18.6K
+! Version: 1112
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.4K
 ! Last Modified: Tuesday, September 3, 2019
 
 ! Unbreak
@@ -19045,6 +19045,33 @@ hackintosh.computer###loader-wrapper
 hackintosh.computer##.sidebar-col.col-xs-8
 hackintosh.computer##.bs-gdpr-law
 ||orteil.dashnet.org/*/showads.js
+wyborcza.pl##.rodoBg_small
+wyborcza.pl##.notifyWrapperBackground
+wyborcza.pl###rodoNotificationWrapper > div.notifyWrapper:nth-child(2) > div.notify.big.active > div.contentWrapper:nth-child(3)
+wyborcza.pl###rodoNotificationWrapper > div.notifyWrapper:nth-child(2) > div.notify.big.active
+neowin.net##.widget-ad, .widget-ad-sidebar-top
+twojcel.to##div#iaa_avatarPreviewContainer.iaa_avatarContainer.iaa_genderF.iaa_right
+||roksa.pl/null.gif
+||twojcel.to/modules/gdpr/assets/js/gdpr-public.js
+||wyborcza.pl/aliasy/
+cholera.fora.pl##.t-a-c__overlay
+cholera.fora.pl##.t-a-c__box-bottom
+cholera.fora.pl##.t-a-c__box-content
+cholera.fora.pl##.t-a-c__box-header
+cholera.fora.pl##.pp-t-a-c.js-pp-t-a-c
+cholera.fora.pl##div[style="position:relative;display:block;margin:0 auto;visibility:visible;overflow:hidden;font-size:0.8em;color:#232000;background-color:#fcfc9a;-moz-box-shadow:0 2px 4px #bbb;-webkit-box-shadow:0 2px 4px #bbb;-khtml-box-shadow:0 2px 4px #bbb;box-shadow:0 2px 4px #bbb;filter:progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=4);"]
+southpark.cc.com###geoblockmsg
+abtshield.com###cookies-message-bottom
+neowin.net##div[style="background-color:#fff; padding 5px 0 5px 0;"]
+twojcel.to##.gdpr-wrapper
+samequizy.pl###cookie-alert
+samequizy.pl##.navbar.cookie-alert
+sciaga.pl##.sth-bill
+anime-odcinki.pl###moove_gdpr_cookie_info_bar
+anime-odcinki.pl##.moove-gdpr-align-center.moove-gdpr-dark-scheme.gdpr_infobar_postion_bottom
+player.pl##.modal-overlay
+player.pl##.modal-dialog
+player.pl##.cookie-notice
 
 ! AdGuard Home
 ||wpad.home
@@ -19129,6 +19156,7 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/reklamy/
 /ad-choices.png
 /rlog.php?
 /RLinkPing.htm
