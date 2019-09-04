@@ -7,9 +7,7 @@ A blocklist of ads, trackers, malware, and IP grabbers
 
 * [`Hosts`](https://github.com/Cybo1927/Hosts.txt/blob/master/Hosts) - The main blocklist for trackers, ads, and malware
 
-* [`Anti Verizon`](https://github.com/Cybo1927/Hosts.txt/blob/master/Anti%20Verizon) - Block Verizon servers
-
-* [`Anti Social`](https://github.com/Cybo1927/Hosts.txt/blob/master/Anti%20Social) - Block social sites
+* [`Anti`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - This is a collection of lists to block all servers from the specified apps/companies/domains
 
 <br>
 
