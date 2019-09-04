@@ -5,9 +5,9 @@ A blocklist of ads, trackers, malware, and IP grabbers
 
 ## Lists
 
-* [`Hosts`](https://github.com/Cybo1927/Hosts.txt/blob/master/Hosts) - The main blocklist for trackers, ads, and malware
+* [`Hosts`](https://github.com/Cybo1927/Hosts.txt/blob/master/Hosts) - The main blocklist for trackers, ads, malware, and IP grabbers
 
-* [`Anti`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - This is a collection of lists to block all servers from the specified apps/companies/domains
+* [`/Anti/`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - This is a collection of lists to block all servers from the specified apps/companies/domains
 
 <br>
 
