@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1110
+! Version: 1111
 ! Number Of Ad Services, Trackers, And Malware Blocked: 18.6K
-! Last Modified: Monday, September 2, 2019
+! Last Modified: Tuesday, September 3, 2019
 
 ! Unbreak
 @@||abs.twimg.com/responsive-web/web/*
@@ -69,6 +69,7 @@ ff02::3 ip6-allhosts
 ||sdk.vyrl.co/checkToken.html^$rewrite=abp-resource:blank-html,domain=swagnets.com
 
 ! Fixes
+com,co,net,org,io,pl,ru,info,site,eu,gov,edu,cn,jp##html:style(overflow: auto !important;)
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
@@ -910,6 +911,13 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||arsdev.net
+||ads.1mobile.com
+||ads.adadapted.com
+||adadapted.com
+||ads.admoda.com
+||admoda.com
+||ad.leadboltapps.net
 ||adsnavigator.mobi
 ||anx.hubxt.com
 ||a.bestcontentfare.top
@@ -1642,7 +1650,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a184-24-98-128.deploy.static.akamaitechnologies.com
 ||a23-211-100-93.deploy.static.akamaitechnologies.com
 ||az725175.vo.msecnd.net
-||ajax.aspnetcdn.com
 ||api.lever.co
 ||arcgisonline.com
 ||www.arcgis.com
@@ -3500,6 +3507,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||bbcdn.go.eu.bbelements.com
+||bloximages.
+||brand-display.com
 ||bestcontentfare.top
 ||browser.events.data.microsoft.com
 ||brightedge.com
@@ -4368,6 +4378,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||cdn.snippet.abtshield.com
 ||cdn.protecttechietopapplication.pw
 ||click.trk-indexmobi.com
 ||cbdaffiliate.club
@@ -4400,7 +4411,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||crl.comodoca4.com
 ||crl.sca1b.amazontrust.com
 ||checkappexec.microsoft.com
-||c.s-microsoft.com
 ||clients.l.google.com
 ||clientconfig.akamai.steamstatic.com
 ||cursecdn.com
@@ -5167,7 +5177,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||cdn.roiq-vice.ranker.com
 ||cdn.georiot.com
 ||code.ionicframework.com
-||cdn.accelerator.arsdev.net
 ||coolmath.tt.omtrdc.net
 ||cpanel.nativeads.com
 ||www.condenastdigital.com
@@ -5289,6 +5298,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||d.impactradius-event.com
 ||dpmsrv.com
 ||datadome.co
 ||dns.inflow.pa.bo.comcast.net
@@ -6528,6 +6538,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||get.optad360.io
+||gazeta.hit.gemius.pl
 ||get.popplunder.com
 ||getchipbot.com
 ||gtrk.s3.amazonaws.com
@@ -6867,6 +6879,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||hscta.net
 ||hello.staticstuff.net
 ||help.com
 ||hr.client-channel.google.com
@@ -7072,6 +7085,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||impactradius-event.com
+||integralads.com
 ||indexmobi.com
 ||i.bestcontentfare.top
 ||insights-collector.gog.com
@@ -7086,7 +7101,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||inquisition.goguardian.com.home
 ||ip.goguardian.com
 ||ipm.bitdefender.com
-||img-prod-cms-rt-microsoft-com.akamaized.net
 ||ir.ebaystatic.com
 ||ir.ebaycdn.net
 ||isrg.trustid.ocsp.identrust.com
@@ -7721,6 +7735,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||init.supersonicads.com
 
 !J
+||js.hscta.net
 ||j.ophan.co.uk
 ||jadserve.postrelease.com
 ||js.matheranalytics.com
@@ -7813,6 +7828,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.users.51.la
 
 !K
+||kt5850pjz0.com
+||knl.mntzrlt.net
+||klickthru.com
 ||klivetv.co
 ||kv601-prod.do.dsp.mp.microsoft.com
 ||kiip.me
@@ -8816,6 +8834,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||mdn.neowin.net
+||mt.analytics.163.com
 ||mediatraffic.com.ua
 ||mytvline.ch
 ||matomo.riot.im
@@ -9338,6 +9358,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||nielsen.com
 ||nv.veta.naver.com
 ||novelty.media
 ||native.ai
@@ -9718,6 +9739,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||plengistat.info
+||pl-vectra.netmng.com
 ||protecttechietopapplication.pw
 ||popplunder.com
 ||pb.sogou.com
@@ -10571,6 +10594,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||s.spolecznosci.net
 ||s.click.aliexpress.com
 ||staticstuff.net
 ||stats.drivetheweb.com
@@ -11742,6 +11766,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||tools.services.tvn.pl
+||tracking.klickthru.com
 ||trk.mobiletop2018techie.xyz
 ||trk.brother-root-rich-of.xyz
 ||trk-indexmobi.com
@@ -12270,6 +12296,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||usemaxserver.de
 ||urswebzj.nosdn.127.net
 ||user.com
 ||usagoals.co
@@ -12419,6 +12446,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||vlscppe.microsoft.com
 ||veta.naver.com
 ||velti.com
 ||vss.norton.com
@@ -12892,6 +12920,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||wv.inner-active.mobi
 
 !X
+||xxxad.net
 ||x3-policy-maker.goguardian.com
 ||xpressunblock.com
 ||xboxab.com
@@ -18969,6 +18998,53 @@ edwardsnowden.com###noscript_notice
 ||feedly.com/*/tags
 ||reddit.com/static/pixel.png
 multiup.org#?#.alert:-abp-contains(VPN)
+discordapp.com##.height36-36OHCc.weightMedium-2iZe9B.size14-3iUx6q.notice-2FJMB4.noticeDefault-362Ko2
+multiup.org##.notification.ui-pnotify-container.notification-warning
+multiup.org##.panel-body.text-center.text-dark
+multiup.org##.panel.panel-featured-top.panel-featured-primary
+technologysage.com##.mh-ad-spot
+discordapp.com##.noticeDefault-362Ko2.notice-2FJMB4.size14-3iUx6q.weightMedium-2iZe9B.height36-36OHCc
+||*.microsoft.com/fp/tags.js
+||dox.wearelegal.ru/static/js/wal.dox.js
+||шляхтен.рф$cookie
+github.com##div#js-flash-container
+github.com##html > head:first-child > meta:nth-child(44)[name="octolytics-dimension-visitor_id"]
+github.com##meta.js-octo-ga-ide
+||townnews.com/shared-content/art/stats/
+||townnews.com/shared-content/art/tncms/
+||gamejolt.com/adserver/
+||wp-content.hackintosh.computer/plugins/better-adsmanager/
+||cdn.jsdelivr.net/wp/wp-slimstat/
+||wp-content.hackintosh.computer/plugins/cleantalk-spam-protect/
+||hackintosh.computer/wp-external/sync.js
+||wp-content.hackintosh.computer/plugins/gutenberg/
+merriam-webster.com##.abl.abl-300-250-nr
+merriam-webster.com##.home-top-creative-cont.border-box
+merriam-webster.com##.underlay
+merriam-webster.com##.overlay-right
+merriam-webster.com##.overlay-box
+merriam-webster.com##.subscribe-modal
+merriam-webster.com###subscribe-overlay
+merriam-webster.com##.abl.mw-ad-slot-top.abl-m320-t728-d728
+merriam-webster.com##.mw-right-ad-slot.right-ad-slot-1
+merriam-webster.com##.mw-right-ad-slot.right-ad-slot-2
+merriam-webster.com##.mw-right-ad-slot.right-ad-slot-3
+merriam-webster.com##.right-ad-300-250
+merriam-webster.com##.mw-right-ad-slot.right-ad-slot-4
+ising.pl###as-zone-1
+ising.pl##.bazinga-desktop.bazinga.bazinga-750.ax.container.bazinga-inline
+ising.pl###cookie-alert
+ising.pl##.cookie-alert
+vectra.pl##.l-cookies
+gamejolt.com##.cookie-banner.fill-darker
+hackintosh.computer##.loader-section.section-left
+hackintosh.computer##.loader-section.section-right
+hackintosh.computer###detectadnotes
+hackintosh.computer###loader
+hackintosh.computer###loader-wrapper
+hackintosh.computer##.sidebar-col.col-xs-8
+hackintosh.computer##.bs-gdpr-law
+||orteil.dashnet.org/*/showads.js
 
 ! AdGuard Home
 ||wpad.home
@@ -18980,7 +19056,7 @@ blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yaluj
 dailycaller.com#%#document.cookie = "__adblocker = false"
 youtube.com##html > head:first-child > script:nth-child(30)[name="www-roboto"]
 ! Anti Tracking Cookies
-$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|ABTEST|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|__cfduid/
+$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|ABTEST|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|__cfduid/
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
 ||adorama.com$third-party,cookie
@@ -19053,6 +19129,7 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/ad-choices.png
 /rlog.php?
 /RLinkPing.htm
 /async-ads.js
@@ -19507,6 +19584,8 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /imdbads/js/
 /ad_load.js
 /piwik.php
+/plugins/better-adsmanager/
+/wp-slimstat/
 -page-url=
 &page-url=
 =googleanalytics
