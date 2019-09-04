@@ -17,11 +17,15 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1112
+! Version: 1113
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.4K
 ! Last Modified: Tuesday, September 3, 2019
 
 ! Unbreak
+@@||encrypted-tbn0.gstatic.com$domain=google.*,images.google.*
+@@||encrypted-tbn1.gstatic.com$domain=google.*,images.google.*
+@@||encrypted-tbn2.gstatic.com$domain=google.*,images.google.*
+@@||encrypted-tbn3.gstatic.com$domain=google.*,images.google.*
 @@||abs.twimg.com/responsive-web/web/*
 @@||content-images.p-cdn.com/images^$image
 @@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
@@ -911,6 +915,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||adlibr.com
 ||arsdev.net
 ||ads.1mobile.com
 ||ads.adadapted.com
@@ -4378,6 +4383,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||center.io
 ||cdn.snippet.abtshield.com
 ||cdn.protecttechietopapplication.pw
 ||click.trk-indexmobi.com
@@ -5298,6 +5304,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||dov-e.com
+||display.io
 ||d.impactradius-event.com
 ||dpmsrv.com
 ||datadome.co
@@ -5945,10 +5953,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||elb-*-amz.nimbus.bitdefender.net
 ||eff.map.fastly.net
 ||edge.gycpi.b.yahoodns.net
-||encrypted-tbn0.gstatic.com
-||encrypted-tbn1.gstatic.com
-||encrypted-tbn2.gstatic.com
-||encrypted-tbn3.gstatic.com
 ||engagement.feedly.com
 ||e-0012.e-msedge.net
 ||es.io
@@ -6287,6 +6291,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||fiksu.com
 ||fonts.googleapis.com
 ||felix.data.tm-awx.com
 ||flexlinks.com
@@ -6879,6 +6884,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||hyprmx.com
 ||hscta.net
 ||hello.staticstuff.net
 ||help.com
@@ -7085,6 +7091,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||inmarket.com
+||inrix.com
+||instreamatic.com
 ||impactradius-event.com
 ||integralads.com
 ||indexmobi.com
@@ -7735,6 +7744,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||init.supersonicads.com
 
 !J
+||js.center.io
 ||js.hscta.net
 ||j.ophan.co.uk
 ||jadserve.postrelease.com
@@ -7828,6 +7838,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.users.51.la
 
 !K
+||kontakt.io
 ||kt5850pjz0.com
 ||knl.mntzrlt.net
 ||klickthru.com
@@ -8834,6 +8845,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||madvertise.com
+||mintegral.com
+||moodmedia.com
 ||mdn.neowin.net
 ||mt.analytics.163.com
 ||mediatraffic.com.ua
@@ -10594,6 +10608,13 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||safegraph.com
+||shallwead.com
+||signal360.com
+||sizmek.com
+||salesmanago.pl
+||startapp.com
+||soomla.com
 ||s.spolecznosci.net
 ||s.click.aliexpress.com
 ||staticstuff.net
@@ -11766,6 +11787,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||target.my.com
+||taplytics.com
 ||tools.services.tvn.pl
 ||tracking.klickthru.com
 ||trk.mobiletop2018techie.xyz
@@ -19072,6 +19095,16 @@ anime-odcinki.pl##.moove-gdpr-align-center.moove-gdpr-dark-scheme.gdpr_infobar_p
 player.pl##.modal-overlay
 player.pl##.modal-dialog
 player.pl##.cookie-notice
+||encrypted-tbn0.gstatic.com$third-party
+||encrypted-tbn1.gstatic.com$third-party
+||encrypted-tbn2.gstatic.com$third-party
+||encrypted-tbn3.gstatic.com$third-party
+||google.com/imgevent?
+||google.com/gen_204
+||google.com/async/irc
+google.com###taw
+||t.co/i/adsct
+||t1.daumcdn.net/adfit/static/ad.min.js
 
 ! AdGuard Home
 ||wpad.home
@@ -19156,6 +19189,7 @@ discordapp.com#%#//scriptlet("ubo-abort-on-property-write.js", "Fingerprint2")
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/adfit/static/
 /reklamy/
 /ad-choices.png
 /rlog.php?
