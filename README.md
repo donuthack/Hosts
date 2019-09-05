@@ -20,10 +20,11 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 * uBlock Origin
 * Adblock Plus 2.0+
-* AdBlock
 * AdGuard AdBlocker
 * AdGuard Home
+* Blokada
+* Diversion
+* Slimjet
+* AdBlock
 * AdNauseam
 * AdLock ad blocker
-* Blokada
-* Slimjet
