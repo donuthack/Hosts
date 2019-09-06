@@ -17,8 +17,8 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1114
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.4K
+! Version: 1115
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.5K
 ! Last Modified: Thursday, September 5, 2019
 
 ! Unbreak
@@ -61,7 +61,7 @@ ff02::3 ip6-allhosts
 ||sdk.vyrl.co/checkToken.html^$rewrite=abp-resource:blank-html,domain=swagnets.com
 
 ! Fixes
-com,co,net,org,io,pl,ru,info,site,eu,gov,edu,cn,jp##html:style(overflow: auto !important;)
+! com,co,net,org,io,pl,ru,info,site,eu,gov,edu,cn,jp##html:style(overflow: auto !important;) !Adds annoying scroll bars to fullscreen content
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
@@ -903,6 +903,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 aws.api.snapchat.com
+0.0.0.0 adguardian.net
 0.0.0.0 a.ria.ru
 0.0.0.0 adblockmetrics.ru
 0.0.0.0 analytics-ingress-global.bitmovin.com
@@ -3503,6 +3505,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bolt-gcdn.sc-cdn.net
 0.0.0.0 bbcdn.go.eu.bbelements.com
 0.0.0.0 bloximages.
 0.0.0.0 brand-display.com
@@ -4374,6 +4377,16 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cadreon.com
+0.0.0.0 collector-*.perimeterx.net
+0.0.0.0 castle.io
+0.0.0.0 cdnwidget.com
+0.0.0.0 cfzu.net
+0.0.0.0 choozle.com
+0.0.0.0 clearbrain.com
+0.0.0.0 clickability.com
+0.0.0.0 cluep.com
+0.0.0.0 const.website
 0.0.0.0 cdn.rutarget.ru
 0.0.0.0 c.index.ru
 0.0.0.0 code.giraff.io
@@ -5940,6 +5953,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 e.adguardian.net
 0.0.0.0 expresvpn-private-analytics.net
 0.0.0.0 evgnet.com
 0.0.0.0 esputnik.com
@@ -10608,6 +10622,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 snapchat-proxy.appspot.com
 0.0.0.0 servt.playbuzz.co
 0.0.0.0 smi2.net
 0.0.0.0 segmento.ru
