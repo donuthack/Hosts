@@ -18,7 +18,7 @@ ff02::3 ip6-allhosts
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
 ! Version: 1116
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.5K
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.6K
 ! Last Modified: Friday, September 6, 2019
 
 ! Unbreak
@@ -61,7 +61,6 @@ ff02::3 ip6-allhosts
 ||sdk.vyrl.co/checkToken.html^$rewrite=abp-resource:blank-html,domain=swagnets.com
 
 ! Fixes
-! com,co,net,org,io,pl,ru,info,site,eu,gov,edu,cn,jp##html:style(overflow: auto !important;) !Adds annoying scroll bars to fullscreen content
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
 verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
@@ -902,6 +901,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 azclk.com
+0.0.0.0 adspyglass.com
 0.0.0.0 analytics.global.sky.com
 0.0.0.0 analytics.faw.sky.com
 0.0.0.0 alleyezonme-collection.buzzfeed.com
@@ -19192,6 +19193,16 @@ vice.com##.article-right-rail-recirculation__content.article-right-rail-recircul
 sky.com##.s-masthead.mast-c-banners.mast-c-banners-cookie.mast-js-banners-cookie.is-open
 ||amazon.*/gp/uedata
 ||facebook.com/react_composer/sprouts/promotions
+||facebook.com/ajax/mercury/mark_seen.php
+||facebook.com/bluebar/create_menu/?button_id=
+||facebook.com/security/hsts-pixel.gif
+||facebook.com/security/*-pixel.gif
+||facebook.com/games/video/bookmark_nux
+||facebook.com/sketch_results
+||facebook.com/ajax/mercury/tabs_presence.php
+||facebook.com/ascend_mr_no
+||apps.facebook.com/gamer-graph/
+||apps.facebook.com/ajax/apps/heartbeat.php
 
 ! AdGuard Home
 ||wpad.home
@@ -19264,6 +19275,7 @@ $webrtc,domain=nsa.gov
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/opentab_tracking.php
 /*-tags-without-adobe.min.js
 /usersync?
 /msn-adblocker-*/
