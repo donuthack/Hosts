@@ -17,11 +17,12 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1117
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.6K
+! Version: 1118
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.7K
 ! Last Modified: Saturday, September 7, 2019
 
 ! Unbreak
+@@||static-global-s-msn-com.akamaized.net/hp-eus/sc/9b/e151e5.gif$domain=msn.com
 @@||*-dnsotls-ds.metric.gstatic.com
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.*,gmail.*
 @@||abs.twimg.com/responsive-web/web/*
@@ -6932,6 +6933,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hvtd.s3.amazonaws.com
 0.0.0.0 hpde.peerius.episerver.net
 0.0.0.0 hyprmx.com
 0.0.0.0 hscta.net
@@ -10681,6 +10683,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 s.aolcdn.com
 0.0.0.0 s-img.adskeeper.co.uk
 0.0.0.0 s.dolphincdn.xyz
 0.0.0.0 stats.wwitv.com
@@ -19283,6 +19286,18 @@ dade68.com###myCarousela2
 dade68.com##.carousel.slide
 calcsbox.com###noticeWindow
 123movies.tf###main > div.container > script:nth-child(15)[type="text/javascript"]
+msn.com##.todayshowcasead
+msn.com##.nativead
+||msn.com/en-us/homepage/irisbannerajax
+msn.com###main > div.todaystripe.grid.layout-large.popnow.popnow3.edpicks:nth-child(5) > ul:last-child > li.pos4.smalla:nth-child(5)
+msn.com###main > div.stripecontainer:nth-child(7)
+msn.com###main > div.stripecontainer:nth-child(19)
+msn.com###fbcount
+msn.com###twcount > iframe
+msn.com###social-plugins
+msn.com##.filmstripouter, .light
+msn.com##.dynamicRRWrapper
+msn.com##.widead
 
 ! AdGuard Home
 ||wpad.home
@@ -19730,9 +19745,6 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /api/stats/watchtime?
 /api/stats/qoe?
 /silentpassport?
-/e151e5.gif
-/420046.gif?
-/c.gif?
 /sl/e/i/
 /sl/e/v/
 /img.php?
