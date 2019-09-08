@@ -19,7 +19,7 @@ ff02::3 ip6-allhosts
 ! Expires: 8 hours
 ! Version: 1118
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.7K
-! Last Modified: Saturday, September 7, 2019
+! Last Modified: Sunday, September 8, 2019
 
 ! Unbreak
 @@||static-global-s-msn-com.akamaized.net/hp-eus/sc/9b/e151e5.gif$domain=msn.com
@@ -903,6 +903,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 api.ghostery.net
+0.0.0.0 ahalogy.com
 0.0.0.0 anfopucol.info
 0.0.0.0 adserver.reklamstore.com
 0.0.0.0 adtrue.com
@@ -3522,6 +3524,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 buzzador.com
 0.0.0.0 bidgear.com
 0.0.0.0 bpmonline.com
 0.0.0.0 beacon.groceries.asda.com
@@ -4398,6 +4401,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn2.ghostery.com
+0.0.0.0 cookieq.eu
+0.0.0.0 contaxe.com
+0.0.0.0 cision.com
+0.0.0.0 crowdgather.com
+0.0.0.0 collector-medium.lightstep.com
 0.0.0.0 checkadblock.ru
 0.0.0.0 content.mql5.com
 0.0.0.0 cdn.wootric.com
@@ -5342,6 +5351,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 datalicious.com
 0.0.0.0 dolphincdn.xyz
 0.0.0.0 device-metrics-*.amazon.*
 0.0.0.0 device-metrics-us.amazon.com
@@ -6335,6 +6345,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 feedify.net
+0.0.0.0 freexmedia.de
 0.0.0.0 forcedolphin.com
 0.0.0.0 fpn.flipboard.com
 0.0.0.0 fs.ypncdn.com
@@ -6589,6 +6601,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 garry.windscribe.com
 0.0.0.0 ga.kvideo.io
 0.0.0.0 graviton-news-gateway.media.yahoo.com
 0.0.0.0 giraff.io
@@ -6933,6 +6946,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hootsuite.com
+0.0.0.0 hellobar.com
 0.0.0.0 hvtd.s3.amazonaws.com
 0.0.0.0 hpde.peerius.episerver.net
 0.0.0.0 hyprmx.com
@@ -7142,6 +7157,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 icerocket.com
+0.0.0.0 internetaudioads.com
+0.0.0.0 impactradius.com
 0.0.0.0 informer.yandex.ru
 0.0.0.0 img.fam-ad.com
 0.0.0.0 i5.wal.co
@@ -8664,6 +8682,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lightstep.com
 0.0.0.0 lp.searchdimension.com
 0.0.0.0 log.prezi.com
 0.0.0.0 log.china.cn
@@ -8903,6 +8922,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 meltwater.com
+0.0.0.0 motigo.com
+0.0.0.0 mystat.hu
 0.0.0.0 m13619a.slotsforluck.com
 0.0.0.0 metrics0.com
 0.0.0.0 mcd270n310.karere.mega.nz
@@ -9640,6 +9662,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 optimisemedia.com
 0.0.0.0 opentracker.net
 0.0.0.0 oimg.nbcuni.com
 0.0.0.0 olytics.cygnus.com
@@ -9816,6 +9839,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 packet-clearing-house.github.io
+0.0.0.0 propelad.com
+0.0.0.0 po.st
+0.0.0.0 popin.cc
 0.0.0.0 pushclect.info
 0.0.0.0 platform.bidgear.com
 0.0.0.0 pixel.metrics0.com
@@ -10331,6 +10358,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 quantcast.com
 0.0.0.0 qwertyuiop.stream
 0.0.0.0 qualtrics.com
 0.0.0.0 qtechbpo.in
@@ -10408,6 +10436,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 relay42.com
+0.0.0.0 radiumone.com
 0.0.0.0 rutarget.ru
 0.0.0.0 r3.mail.ru
 0.0.0.0 rs.mail.ru
@@ -10683,6 +10713,14 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 safe-browsing.ghostery.net
+0.0.0.0 safe-browsing-quorum.privacy.ghostery.net
+0.0.0.0 sb-ssl.brave.com
+0.0.0.0 stats.windscribe.com
+0.0.0.0 signal.co
+0.0.0.0 seesmic.com
+0.0.0.0 socialminer.com
+0.0.0.0 socialinterface.com
 0.0.0.0 s.aolcdn.com
 0.0.0.0 s-img.adskeeper.co.uk
 0.0.0.0 s.dolphincdn.xyz
@@ -11875,6 +11913,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tracker.icerocket.com
+0.0.0.0 tagman.com
+0.0.0.0 tealium.com
 0.0.0.0 t.9gag.com
 0.0.0.0 tracker.yougov.com
 0.0.0.0 ted.dailymail.co.uk
@@ -12412,6 +12453,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 ubertags.com
 0.0.0.0 usercollection.chinadaily.com.cn
 0.0.0.0 usemaxserver.de
 0.0.0.0 urswebzj.nosdn.127.net
@@ -12563,6 +12605,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 viralmint.com
 0.0.0.0 vlscppe.microsoft.com
 0.0.0.0 veta.naver.com
 0.0.0.0 velti.com
@@ -18003,7 +18046,6 @@ www.nytimes.com##.css-i29ckm
 ||google.com/dfp/senddebugdata
 ||google.com/dfp/linkdevice
 ||api.t-mobile.com/v1/logs
-||redditmedia.com/gtm/jail?
 ||static01.nyt.com/ads/google/adsbygoogle.js$important,third-party
 ||news.google.com/_/DotsSplashUi/jserror?
 ||news.google.com/_/DotsSplashUi/browserinfo?
@@ -19298,6 +19340,10 @@ msn.com###social-plugins
 msn.com##.filmstripouter, .light
 msn.com##.dynamicRRWrapper
 msn.com##.widead
+forge.medium.com###root > div.a.b.c > div.m.oy.ab.oz.pa.pb.pc:nth-child(2)
+||redditmedia.com/gtm
+arcdigital.media##.nu.nv.jp.ab.l.en.gj.nw.nx.ny
+medium.com##.js-directEmailSignupContainer
 
 ! AdGuard Home
 ||wpad.home
@@ -19370,6 +19416,7 @@ $webrtc,domain=nsa.gov
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/caos-analytics/
 /detectmobilebrowser.js
 /__fpn.gif
 /adfox
