@@ -17,8 +17,8 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1118
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.7K
+! Version: 1119
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.8K
 ! Last Modified: Sunday, September 8, 2019
 
 ! Unbreak
@@ -903,6 +903,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 ape-asset-tag.timeinc.com
 0.0.0.0 api.ghostery.net
 0.0.0.0 ahalogy.com
 0.0.0.0 anfopucol.info
@@ -4401,6 +4402,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.zidedge.com
+0.0.0.0 chartbeat.com
 0.0.0.0 cdn2.ghostery.com
 0.0.0.0 cookieq.eu
 0.0.0.0 contaxe.com
@@ -5312,7 +5315,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 cdn.flipboard.com
 0.0.0.0 cbsi.demdex.net
 0.0.0.0 c.amazon-adsystem.com
-0.0.0.0 cdn.krxd.net
 0.0.0.0 cdn-s-optional.optimizely.com
 0.0.0.0 c-7npsfqifvt34x24ax2enpbubetx2edpn.g00.cnet.com
 0.0.0.0 cdn.segment.com
@@ -5351,6 +5353,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dataxpand.com
 0.0.0.0 datalicious.com
 0.0.0.0 dolphincdn.xyz
 0.0.0.0 device-metrics-*.amazon.*
@@ -5370,9 +5373,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 drpf-g100na.proxima.nie.netease.com
 0.0.0.0 dnscheck-parental.adguard.com
 0.0.0.0 d41.co
+0.0.0.0 d3n6i6eorggdxk.cloudfront.net
 0.0.0.0 d2badvwg0mti9p.cloudfront.net
+0.0.0.0 d2yh8t8mdj4l9x.cloudfront.net
 0.0.0.0 dow068lag04cv.cloudfront.net
 0.0.0.0 d3lvalyq6xmerg.cloudfront.net
+0.0.0.0 detwzgl8cvciv.cloudfront.net
 0.0.0.0 discord.co
 0.0.0.0 discord.gifts
 0.0.0.0 discord.gift
@@ -8922,6 +8928,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 metrics.time.com
+0.0.0.0 metro-prod-79ec8.appspot.com
 0.0.0.0 meltwater.com
 0.0.0.0 motigo.com
 0.0.0.0 mystat.hu
@@ -10713,6 +10721,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 simple-cdn.s3.amazonaws.com
 0.0.0.0 safe-browsing.ghostery.net
 0.0.0.0 safe-browsing-quorum.privacy.ghostery.net
 0.0.0.0 sb-ssl.brave.com
@@ -11913,6 +11922,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tagan.adlightning.com
+0.0.0.0 tiads.timeinc.net
 0.0.0.0 tracker.icerocket.com
 0.0.0.0 tagman.com
 0.0.0.0 tealium.com
@@ -12605,6 +12616,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vendorlist.consensu.org
 0.0.0.0 viralmint.com
 0.0.0.0 vlscppe.microsoft.com
 0.0.0.0 veta.naver.com
@@ -13293,6 +13305,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zidedge.com
 0.0.0.0 zenaps.com
 0.0.0.0 zepteo.com
 0.0.0.0 zhongzifuli.com
@@ -18555,8 +18568,6 @@ smartemailing.cz##.mw_cookie_info_bar
 asahi.com###div-gpt-ad-1491727813330-1
 lite-ra.com###adA
 lite-ra.com###adHeader
-###adHeader
-###cookies_info
 avclub.com##.ynugv2-0.jtkZhZ
 avclub.com###trending_wrapper
 avclub.com##.ynugv2-0.hNDMan
@@ -18629,7 +18640,6 @@ rambler.ru##.bzfwjjle
 rambler.ru##.mijwzc
 pornhub.com##.abovePlayer
 ||dailymail.co.uk/crta/
-##.abAlertShown
 jailbreak.fce365.info###content > div.wrapper:last-child > div.sidebar:nth-child(5)
 jailbreak.fce365.info###content > center:nth-child(2)
 ||pinterest.com/_/_/report/
@@ -18647,7 +18657,6 @@ usatoday.com##.storybottombar-bucket, .taboola-related-module, .story-taboola-re
 usatoday.com##.partner-placement, .partner-overlay-top-ad, .partner-has-min-height
 yahoo.com###mega-banner
 yahoo.com##.darla
-##.js-stream-ad
 about:blank$domain=yahoo.com
 youtube.com##.ytd-primetime-promo-renderer
 ||dev.visualwebsiteoptimizer.com/c.gif
@@ -19122,7 +19131,6 @@ head-fi.org##.breadBoxBottom
 ||couchbase.com/webfiles/1552355627964/js/contact-popup-form.js
 ||assets.producthunt.com/assets/upwigloader.js
 ||quora.com/_/ad
-||s1.wp.com/_static/
 ||static-assets.gowatchit.com/analytics.js
 ||theatlantic.com/packages/adsjs
 producthunt.com##.sponsors_fb14b
@@ -19344,6 +19352,12 @@ forge.medium.com###root > div.a.b.c > div.m.oy.ab.oz.pa.pb.pc:nth-child(2)
 ||redditmedia.com/gtm
 arcdigital.media##.nu.nv.jp.ab.l.en.gj.nw.nx.ny
 medium.com##.js-directEmailSignupContainer
+||static3.politico.com/resource/assets/js.min/video-tracking.*.
+politico.com##.cookie-modal__inner
+rumble.com/l/
+snopes.com##.smg-zone-widget-ads-freestar
+||paypalobjects.com/en_AU/i/scr/pixel.gif
+||paypalobjects.com/*/i/scr/pixel.gif
 
 ! AdGuard Home
 ||wpad.home
@@ -19351,7 +19365,7 @@ medium.com##.js-directEmailSignupContainer
 ||*.home
 
 ! AdGuard
-blockadblock.*,fuckadblock.*,noadblock.*,stopadblock.*,nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
+nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
 dailycaller.com#%#document.cookie = "__adblocker = false"
 youtube.com##html > head:first-child > script:nth-child(30)[name="www-roboto"]
 ! Anti Tracking Cookies
@@ -19416,6 +19430,7 @@ $webrtc,domain=nsa.gov
 semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/video-tracking.
 /caos-analytics/
 /detectmobilebrowser.js
 /__fpn.gif
@@ -19486,6 +19501,7 @@ semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
 /events?app_id=
 /mixpanel-2-latest.min.js
 /*-tracking.js?
+*-tracking.js
 /events?app_id=
 /htmlPauseRoll/pb_block_controller.js?
 /google-tracking/
@@ -19892,21 +19908,12 @@ _WebBannerAd
 -sponsored-outbrain-
 -ad-powerinbox-inline-
 -ad-display.z-ad-
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
 ##.ad-link
-###cookie-bar
-##.cookie-section
-##.cookies.print-hidden
-###catapult-cookie-bar
-##.content-cookie
-###cookie-content
-##.cookie-notice-container
-###eu-cookie-law
 ##.adblock-whitelist-messaging__wrapper
-###cookiePolicyBar
-##.cookie-popup.show
 ###privacy-banner
 ###js-gdpr-consent-banner
 ###responsive_ad
@@ -19914,4 +19921,6 @@ _WebBannerAd
 ###div-gpt-ad-
 ###ad_default_sidebar_
 ###ad_unit_index_
-###cookie-law-info-bar
+##.js-stream-ad
+##.abAlertShown
+###adHeader
