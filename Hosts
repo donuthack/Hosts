@@ -903,6 +903,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 assoc-na.associates-amazon.com
 0.0.0.0 ape-asset-tag.timeinc.com
 0.0.0.0 api.ghostery.net
 0.0.0.0 ahalogy.com
@@ -4402,6 +4403,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cnetcontentsolutions.com
+0.0.0.0 content.webcollage.net
 0.0.0.0 cdn.zidedge.com
 0.0.0.0 chartbeat.com
 0.0.0.0 cdn2.ghostery.com
@@ -4678,7 +4681,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ce.akamaiedge.net
 0.0.0.0 cbtb.clickbank.net
 0.0.0.0 ct.pinterest.com
-0.0.0.0 cdn.honey.io
 0.0.0.0 conversations.app-us1.com
 0.0.0.0 cdn.ttgtmedia.com
 0.0.0.0 cdn.avmws.com
@@ -6351,6 +6353,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 flixfacts.com
 0.0.0.0 feedify.net
 0.0.0.0 freexmedia.de
 0.0.0.0 forcedolphin.com
@@ -6607,6 +6610,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 geni.us
 0.0.0.0 garry.windscribe.com
 0.0.0.0 ga.kvideo.io
 0.0.0.0 graviton-news-gateway.media.yahoo.com
@@ -8928,6 +8932,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 media.flixfacts.com
 0.0.0.0 metrics.time.com
 0.0.0.0 metro-prod-79ec8.appspot.com
 0.0.0.0 meltwater.com
@@ -12768,6 +12773,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 webcollage.net
 0.0.0.0 webstats.*
 0.0.0.0 webstats.thesoul-publishing.com
 0.0.0.0 wootric.com
@@ -19358,6 +19364,8 @@ rumble.com/l/
 snopes.com##.smg-zone-widget-ads-freestar
 ||paypalobjects.com/en_AU/i/scr/pixel.gif
 ||paypalobjects.com/*/i/scr/pixel.gif
+9to5google.com##.inlinead
+||mythinformed.org/api/census/RecordHit
 
 ! AdGuard Home
 ||wpad.home
