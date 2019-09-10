@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1120
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.8K
-! Last Modified: Monday, September 9, 2019
+! Version: 1121
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.9K
+! Last Modified: Tuesday, September 10, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -904,6 +904,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 areyouabot.net
+0.0.0.0 ada.support
+0.0.0.0 adtlgc.com
 0.0.0.0 adzerk.net
 0.0.0.0 apis.kostprice.com
 0.0.0.0 assoc-na.associates-amazon.com
@@ -4406,6 +4409,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 core.zontera.com
+0.0.0.0 code3.adtlgc.com
 0.0.0.0 cnetcontentsolutions.com
 0.0.0.0 content.webcollage.net
 0.0.0.0 cdn.zidedge.com
@@ -5384,6 +5389,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 d2yh8t8mdj4l9x.cloudfront.net
 0.0.0.0 dow068lag04cv.cloudfront.net
 0.0.0.0 d3lvalyq6xmerg.cloudfront.net
+0.0.0.0 d3aiy6aqoa3ykz.cloudfront.net
 0.0.0.0 detwzgl8cvciv.cloudfront.net
 0.0.0.0 discord.co
 0.0.0.0 discord.gifts
@@ -6358,6 +6364,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 from.flipboard.com
 0.0.0.0 flixfacts.com
 0.0.0.0 feedify.net
 0.0.0.0 freexmedia.de
@@ -6615,6 +6622,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 geoscripts.meredith.services
 0.0.0.0 geni.us
 0.0.0.0 garry.windscribe.com
 0.0.0.0 ga.kvideo.io
@@ -7172,6 +7180,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 inside.flipboard.com
+0.0.0.0 inside-brazil.flipboard.com
+0.0.0.0 inside-espanol.flipboard.com
+0.0.0.0 inside-*.flipboard.com
 0.0.0.0 icerocket.com
 0.0.0.0 internetaudioads.com
 0.0.0.0 impactradius.com
@@ -7926,6 +7938,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 k.intellitxt.com
 0.0.0.0 kostprice.com
 0.0.0.0 kontakt.io
 0.0.0.0 kt5850pjz0.com
@@ -8698,6 +8711,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 live.demand.supply
 0.0.0.0 lightstep.com
 0.0.0.0 lp.searchdimension.com
 0.0.0.0 log.prezi.com
@@ -9681,6 +9695,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 osservice.vmos.com
 0.0.0.0 optimisemedia.com
 0.0.0.0 opentracker.net
 0.0.0.0 oimg.nbcuni.com
@@ -9858,6 +9873,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pc3ads.com
 0.0.0.0 packet-clearing-house.github.io
 0.0.0.0 propelad.com
 0.0.0.0 po.st
@@ -10377,6 +10393,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qryuumwmiupy.com
 0.0.0.0 quantcast.com
 0.0.0.0 qwertyuiop.stream
 0.0.0.0 qualtrics.com
@@ -10735,6 +10752,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 st-n.pc3ads.com
 0.0.0.0 simple-cdn.s3.amazonaws.com
 0.0.0.0 safe-browsing.ghostery.net
 0.0.0.0 safe-browsing-quorum.privacy.ghostery.net
@@ -11936,6 +11954,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tampermonkey.freetls.fastly.net
+0.0.0.0 tr-vidyoda.videoplaza.tv
+0.0.0.0 tracking.synthasite.net
 0.0.0.0 tag.rmp.rakuten.com
 0.0.0.0 tercept.com
 0.0.0.0 tagan.adlightning.com
@@ -12480,6 +12501,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 us-chi-anx-r001.teamviewer.com
+0.0.0.0 udp.ping.teamviewer.com
 0.0.0.0 ubertags.com
 0.0.0.0 usercollection.chinadaily.com.cn
 0.0.0.0 usemaxserver.de
@@ -13322,6 +13345,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zontera.com
 0.0.0.0 zidedge.com
 0.0.0.0 zenaps.com
 0.0.0.0 zepteo.com
@@ -19093,7 +19117,6 @@ outbreaknewstoday.com##.widget.widget_text
 birminghammail.co.uk##.pancake.duet.secondary
 birminghammail.co.uk###div-gpt-ad-section-slot-1
 birminghammail.co.uk##.gpt
-###div-gpt-ad-section-slot-1
 antennereunion.fr##.cc-window.cc-banner.cc-type-opt-in.cc-theme-block.cc-bottom.cc-color-override-688238583
 antennereunion.fr###col_droite
 antennereunion.fr##.column_right
@@ -19404,6 +19427,33 @@ anandtech.com###header_ad
 anandtech.com##.header_ad
 medicalnewstoday.com##.css_h1ksn
 medicalnewstoday.com##html.webkit.chrome.win.js > head:first-child > noscript:nth-child(86)
+ubergizmo.com##.mediumbox_container_inarticle_left
+allthatsinteresting.com###root > div.css-1dbjc4n.r-lyu6sc.r-1p0dtai.r-zh076v.r-1d2f490.r-97e31f.r-bv2aro.r-hxflta.r-10xqauy.r-u8s1d.r-zchlnj.r-ipm5af.r-13qz1uu > div.css-1dbjc4n.r-13awgt0.r-1mnahxq > div.css-1dbjc4n.r-150rngu.r-13awgt0.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-1sncvnh.r-13qz1uu:last-child > div.css-1dbjc4n.r-1awozwy.r-16y2uox.r-13qz1uu > div.css-1dbjc4n.r-1awozwy.r-13qz1uu:nth-child(3) > div.css-1dbjc4n.r-13qz1uu > div.css-1dbjc4n.r-13qz1uu:last-child > div.css-1dbjc4n.r-13qz1uu:last-child > div.css-1dbjc4n.r-bnwqim > div.css-1dbjc4n:last-child > div.css-1dbjc4n.r-14lw9ot.r-1do4pyk.r-dnmrzs.r-1sv84sj.r-1yt7n81.r-ry3cjt.r-1s6pnzw.r-13qz1uu > div.css-1dbjc4n.r-bnwqim > div.css-1dbjc4n.r-18u37iz.r-1w6e6rj > div.css-1dbjc4n.r-1e8hiny.r-1oqcu8e:last-child
+everymac.com###topitemwrapper
+allthatsinteresting.com###root > div.css-1dbjc4n.r-lyu6sc.r-1p0dtai.r-zh076v.r-1d2f490.r-97e31f.r-bv2aro.r-hxflta.r-10xqauy.r-u8s1d.r-zchlnj.r-ipm5af.r-13qz1uu > div.css-1dbjc4n.r-13awgt0.r-1mnahxq > div.css-1dbjc4n.r-150rngu.r-13awgt0.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-1sncvnh.r-13qz1uu:last-child > div.css-1dbjc4n.r-1awozwy.r-16y2uox.r-13qz1uu > div.css-1dbjc4n.r-1awozwy.r-13qz1uu:nth-child(6) > div.css-1dbjc4n.r-13qz1uu > div.css-1dbjc4n.r-13qz1uu:last-child > div.css-1dbjc4n.r-13qz1uu:last-child > div.css-1dbjc4n.r-bnwqim > div.css-1dbjc4n:last-child > div.css-1dbjc4n.r-14lw9ot.r-1do4pyk.r-dnmrzs.r-1sv84sj.r-1yt7n81.r-ry3cjt.r-1s6pnzw.r-13qz1uu > div.css-1dbjc4n.r-bnwqim > div.css-1dbjc4n.r-18u37iz.r-1w6e6rj > div.css-1dbjc4n.r-1e8hiny.r-1oqcu8e:last-child
+||x.kinja-static.com/assets/images/commerce-pop.svg
+||gizmodo.com/x-kinja-static/assets/new-client/ads.*.js
+||gizmodo.com/x-kinja-static/assets/new-client/runtime~ads.*.js
+||gizmodo.com/x-kinja-static/assets/new-client/vendors~ads.*.js
+||gizmodo.com/x-kinja-static/assets/new-client/runtime~trackers.*.js
+||gizmodo.com/x-kinja-static/assets/new-client/
+||bigleaguepolitics.com/?spu_action=
+bigleaguepolitics.com##.z-lockerdome-inline
+bigleaguepolitics.com##.tpd-box-ad-d
+bigleaguepolitics.com##.klicked-poll-continues
+bigleaguepolitics.com###klicked-poll-box
+bigleaguepolitics.com###klicked-poll-box
+||brat.ro/check-terms-popup
+||brat.ro/libraries/javascript/cookies_warning.js
+adevarul.ro##.optanon-alert-box-bg
+adevarul.ro###optanon-popup-bg
+brat.ro###using_cookies
+brat.ro###fancybox-overlay
+brat.ro###fancybox-content
+allthatsinteresting.com##.css-1dbjc4n.r-1awozwy.r-p1pxzi.r-13qz1uu
+gizmodo.com##.ad-container.dfp.dfp-slot-PROMOTION_NATIVE.ad-promotion-native
+click.ro###sliding-popup
+click.ro##.sliding-popup-bottom
 
 ! AdGuard Home
 ||wpad.home
@@ -19415,7 +19465,7 @@ nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitw
 dailycaller.com#%#document.cookie = "__adblocker = false"
 youtube.com##html > head:first-child > script:nth-child(30)[name="www-roboto"]
 ! Anti Tracking Cookies
-$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|ABTEST|ip|country|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|__cfduid/
+$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|__cfduid/
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
 ||adorama.com$third-party,cookie
@@ -19948,12 +19998,14 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /wp-content/plugins/ad-inserter-pro/
 -page-url=
 &page-url=
+?adname=
 =googleanalytics
 =adunit&
 _WebBannerAd
 -sponsored-outbrain-
 -ad-powerinbox-inline-
 -ad-display.z-ad-
+videoiq-*
 ##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar
 ##.adsbygoogle
 ##.google-bottom-ads
@@ -19964,10 +20016,10 @@ _WebBannerAd
 ###js-gdpr-consent-banner
 ###responsive_ad
 ##.AdHeading.AdHeading-
-###div-gpt-ad-
 ###ad_default_sidebar_
 ###ad_unit_index_
 ##.js-stream-ad
 ##.abAlertShown
 ###adHeader
 ##.promotedlink
+##div[id^="div-gpt-ad-"]
