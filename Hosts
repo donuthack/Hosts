@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1121
+! Version: 1122
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.9K
-! Last Modified: Tuesday, September 10, 2019
+! Last Modified: Wednesday, September 11, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -904,6 +904,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 a-afdentry.net.trafficmanager.net
+0.0.0.0 a-0001.a-afdentry.net.trafficmanager.net
+0.0.0.0 a.applovin.com
+0.0.0.0 apiv2.bricknet.com
 0.0.0.0 areyouabot.net
 0.0.0.0 ada.support
 0.0.0.0 adtlgc.com
@@ -4409,6 +4413,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdin.me
 0.0.0.0 core.zontera.com
 0.0.0.0 code3.adtlgc.com
 0.0.0.0 cnetcontentsolutions.com
@@ -5363,6 +5368,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 draper.popcap.com
 0.0.0.0 diacordapp.com
 0.0.0.0 dataxpand.com
 0.0.0.0 datalicious.com
@@ -6016,6 +6022,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 emmx.microsoftedgeinsider.com
+0.0.0.0 ec-tpm-404-6948.ac.bcon.ecdns.net
 0.0.0.0 engine.adzerk.net
 0.0.0.0 ext.goguardian.com
 0.0.0.0 e.adguardian.net
@@ -6364,6 +6372,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fruitninjagame.page.link
 0.0.0.0 from.flipboard.com
 0.0.0.0 flixfacts.com
 0.0.0.0 feedify.net
@@ -7180,6 +7189,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 in-prod-east-us2-23fa330.trafficmanager.net
+0.0.0.0 iad-01.braze.com
 0.0.0.0 inside.flipboard.com
 0.0.0.0 inside-brazil.flipboard.com
 0.0.0.0 inside-espanol.flipboard.com
@@ -7938,6 +7949,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kez2nehzbc-ljnpcwrqzrre18.m4l91jrqmk.com
 0.0.0.0 k.intellitxt.com
 0.0.0.0 kostprice.com
 0.0.0.0 kontakt.io
@@ -8711,6 +8723,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lets.cdin.me
 0.0.0.0 live.demand.supply
 0.0.0.0 lightstep.com
 0.0.0.0 lp.searchdimension.com
@@ -8951,6 +8964,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 ms.applvn.com
+0.0.0.0 mars.tnt-ea.com
 0.0.0.0 media.flixfacts.com
 0.0.0.0 metrics.time.com
 0.0.0.0 metro-prod-79ec8.appspot.com
@@ -9488,6 +9503,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 net.trafficmanager.net
 0.0.0.0 notify.medicalnewstoday.com
 0.0.0.0 nc-4tvylwolbz88x24zahapj-nsvihs-z-tzu-jvtx2ehrhthpglkx2eula.g01.msn.com
 0.0.0.0 nielsen.com
@@ -9695,6 +9711,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 onesettings-windowsservices-tas.msedge.net
 0.0.0.0 osservice.vmos.com
 0.0.0.0 optimisemedia.com
 0.0.0.0 opentracker.net
@@ -9873,6 +9890,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p9rgmbswqztwmfa3457.b--6td8rd-eo703cru5sdaim.com
+0.0.0.0 pn.tnt-ea.com
 0.0.0.0 pc3ads.com
 0.0.0.0 packet-clearing-house.github.io
 0.0.0.0 propelad.com
@@ -10472,6 +10491,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 river-mobile.data.ea.com
 0.0.0.0 rmp.rakuten.com
 0.0.0.0 rakuten.com
 0.0.0.0 rukminim1.flixcart.com
@@ -10752,6 +10772,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 static-spartan-wus-s-msn-com.akamaized.net
+0.0.0.0 s.w-x.co
+0.0.0.0 sdk.iad-01.braze.com
+0.0.0.0 statics-marketingsites-wcus-ms-com.akamaized.net
 0.0.0.0 st-n.pc3ads.com
 0.0.0.0 simple-cdn.s3.amazonaws.com
 0.0.0.0 safe-browsing.ghostery.net
@@ -11954,6 +11978,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 t.rainide.com
 0.0.0.0 tampermonkey.freetls.fastly.net
 0.0.0.0 tr-vidyoda.videoplaza.tv
 0.0.0.0 tracking.synthasite.net
@@ -19996,6 +20021,9 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /webdig_test.js
 /webdig.js
 /wp-content/plugins/ad-inserter-pro/
+/activityloggingapi/
+/evercookie-master/
+/evercookie.js
 -page-url=
 &page-url=
 ?adname=
