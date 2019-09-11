@@ -1,3 +1,25 @@
+[Adblock Plus 2.0]
+! Needed for Windows host
+127.0.0.1 localhost
+127.0.0.1 localhost.localdomain
+127.0.0.1 local
+255.255.255.255 broadcasthost
+::1 localhost
+::1 ip6-localhost
+::1 ip6-loopback
+fe80::1%lo0 localhost
+ff00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+ff02::3 ip6-allhosts
+0.0.0.0 0.0.0.0
+
+! Title: Cybo's Anti Alphabet
+! Expires: 1 day
+! Version: 1
+! Last Modified: Wednesday, September 11, 2019
+
 0.0.0.0 google.com
 0.0.0.0 google.*
 0.0.0.0 doubleclick.net
@@ -12,6 +34,7 @@
 0.0.0.0 clients5.google.com
 0.0.0.0 clients6.google.com
 0.0.0.0 remotedesktop-pa.googleapis.com
+0.0.0.0 googlevideo.com
 0.0.0.0 *-pa.google.*
 0.0.0.0 admob.com
 0.0.0.0 youtube.com
