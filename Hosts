@@ -19,10 +19,11 @@ ff02::3 ip6-allhosts
 ! Expires: 8 hours
 ! Version: 1124
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
-! Last Modified: Wednesday, September 11, 2019
+! Last Modified: Thursday, September 12, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||i.kinja-img.com$image,domain=gizmodo.com
 @@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
 @@||moatads.com/*.js$domain=hulu.com
 @@||static-global-s-msn-com.akamaized.net/hp-eus/sc/9b/e151e5.gif$domain=msn.com
@@ -7212,7 +7213,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 impactradius.com
 0.0.0.0 informer.yandex.ru
 0.0.0.0 img.fam-ad.com
-0.0.0.0 i5.wal.co
 0.0.0.0 inmarket.com
 0.0.0.0 inrix.com
 0.0.0.0 instreamatic.com
@@ -7961,6 +7961,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kayako.com
+0.0.0.0 kayako.net
+0.0.0.0 kayakocdn.com
 0.0.0.0 kez2nehzbc-ljnpcwrqzrre18.m4l91jrqmk.com
 0.0.0.0 k.intellitxt.com
 0.0.0.0 kostprice.com
@@ -8976,6 +8979,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 moatads.com
 0.0.0.0 mon.m6web.fr
 0.0.0.0 ms.applvn.com
 0.0.0.0 mars.tnt-ea.com
@@ -9724,6 +9728,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 osimg.nbcuni.com
 0.0.0.0 oascentral.honoluluadvertiser.com
 0.0.0.0 onesettings-windowsservices-tas.msedge.net
 0.0.0.0 osservice.vmos.com
@@ -10789,6 +10794,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 spoor-api.ft.com
 0.0.0.0 static-spartan-wus-s-msn-com.akamaized.net
 0.0.0.0 s.w-x.co
 0.0.0.0 sdk.iad-01.braze.com
@@ -13366,7 +13372,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ystat.biz
 0.0.0.0 yt.mmstat.com
 0.0.0.0 yt.moatads.com
-0.0.0.0 yt.moatads.comyt.moatads.com
+0.0.0.0 t.moatads.com
 0.0.0.0 yt-adblocker.com
 0.0.0.0 yt-adp.nosdn.127.net
 0.0.0.0 ytafer.site90.net
@@ -19552,6 +19558,22 @@ ukutabs.com##div.adbox:nth-of-type(5)
 ukutabs.com##.navigation
 www.discogs.com###ad_top
 www.discogs.com###ad_bottom
+||cdn.cnn.com/analytics
+||urldefense.proofpoint.com/v2/url
+||fm.cnbc.com/applications/cnbc.com/resources/files/2018/04/13/AppMeasurement.js
+||www.nothingprivate.ml/client.min.js
+www.ft.com##body > .n-messaging-slot
+www.ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
+www.ft.com##.n-feedback__survey-trigger > span
+www.ft.com##.n-feedback__survey-trigger
+gizmodo.com##.dYUnSk.sc-101yw2y-2.js_sticky-top-ad
+gizmodo.com##.cGjes.ynugv2-1
+www.tryggehandel.no##.coi-consent-banner__summary
+www.tryggehandel.no###coiConsentBannerBase
+www.tryggehandel.no##div.row-fluid:nth-of-type(3)
+account.arena.net##.index_cookieNotification__wm-ro
+apynews.pl###cookies-message
+www.select.no##.cookiepopin
 
 ! AdGuard Home
 ||wpad.home
@@ -19624,6 +19646,7 @@ $webrtc,domain=nsa.gov
 semantic-ui.com,gizmodo.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
+/client.min.js
 /video-tracking.
 /caos-analytics/
 /detectmobilebrowser.js
@@ -20105,6 +20128,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 -page-url=
 &page-url=
 ?adname=
+?ga_action
 =googleanalytics
 =adunit&
 _WebBannerAd
