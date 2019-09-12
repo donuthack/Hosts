@@ -17,12 +17,13 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1123
+! Version: 1124
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
 ! Last Modified: Wednesday, September 11, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
 @@||moatads.com/*.js$domain=hulu.com
 @@||static-global-s-msn-com.akamaized.net/hp-eus/sc/9b/e151e5.gif$domain=msn.com
 @@||*-dnsotls-ds.metric.gstatic.com
@@ -19620,7 +19621,7 @@ $webrtc,domain=nsa.gov
 ||172.217.0.14$network
 ||172.217.1.46$network
 ||172.217.4.46$network
-semantic-ui.com#%#//scriptlet("prevent-fab-3.2.0")
+semantic-ui.com,gizmodo.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
 /video-tracking.
