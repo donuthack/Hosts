@@ -17,12 +17,13 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1122
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.9K
+! Version: 1123
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
 ! Last Modified: Wednesday, September 11, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||moatads.com/*.js$domain=hulu.com
 @@||static-global-s-msn-com.akamaized.net/hp-eus/sc/9b/e151e5.gif$domain=msn.com
 @@||*-dnsotls-ds.metric.gstatic.com
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.*,gmail.*
@@ -69,9 +70,7 @@ verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-democracynow.org##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-expertreviews.co.uk##.not_scroll.body_wrapper:style(overflow-x: hidden !important; overflow-y: scroll !important;)
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -3535,6 +3534,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 brealtime.com
 0.0.0.0 b-s.tercept.com
 0.0.0.0 buzzador.com
 0.0.0.0 bidgear.com
@@ -4413,6 +4413,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.ustatik.com
+0.0.0.0 cbsig.net
+0.0.0.0 confiant-integrations.global.ssl.fastly.net
+0.0.0.0 cdn.query.prod.cms.msn.com
 0.0.0.0 cdin.me
 0.0.0.0 core.zontera.com
 0.0.0.0 code3.adtlgc.com
@@ -5368,6 +5372,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 demorgen.be
 0.0.0.0 draper.popcap.com
 0.0.0.0 diacordapp.com
 0.0.0.0 dataxpand.com
@@ -6022,6 +6027,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 emfbroadcasting.com
+0.0.0.0 edba.brealtime.com
 0.0.0.0 emmx.microsoftedgeinsider.com
 0.0.0.0 ec-tpm-404-6948.ac.bcon.ecdns.net
 0.0.0.0 engine.adzerk.net
@@ -6631,6 +6638,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 grv.media
+0.0.0.0 grvmedia.com
 0.0.0.0 geoscripts.meredith.services
 0.0.0.0 geni.us
 0.0.0.0 garry.windscribe.com
@@ -6978,6 +6987,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 honoluluadvertiser.com
 0.0.0.0 hootsuite.com
 0.0.0.0 hellobar.com
 0.0.0.0 hvtd.s3.amazonaws.com
@@ -7189,6 +7199,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 in.appcenter.ms
 0.0.0.0 in-prod-east-us2-23fa330.trafficmanager.net
 0.0.0.0 iad-01.braze.com
 0.0.0.0 inside.flipboard.com
@@ -8964,6 +8975,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mon.m6web.fr
 0.0.0.0 ms.applvn.com
 0.0.0.0 mars.tnt-ea.com
 0.0.0.0 media.flixfacts.com
@@ -9711,6 +9723,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 oascentral.honoluluadvertiser.com
 0.0.0.0 onesettings-windowsservices-tas.msedge.net
 0.0.0.0 osservice.vmos.com
 0.0.0.0 optimisemedia.com
@@ -9890,6 +9903,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p.jango.com
+0.0.0.0 prof.estat.com
+0.0.0.0 persephone.blob.core.windows.net
 0.0.0.0 p9rgmbswqztwmfa3457.b--6td8rd-eo703cru5sdaim.com
 0.0.0.0 pn.tnt-ea.com
 0.0.0.0 pc3ads.com
@@ -11978,6 +11994,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 the.honoluluadvertiser.com
+0.0.0.0 tps30.doubleverify.com
 0.0.0.0 t.rainide.com
 0.0.0.0 tampermonkey.freetls.fastly.net
 0.0.0.0 tr-vidyoda.videoplaza.tv
@@ -12526,6 +12544,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 ustatik.com
 0.0.0.0 us-chi-anx-r001.teamviewer.com
 0.0.0.0 udp.ping.teamviewer.com
 0.0.0.0 ubertags.com
@@ -19091,7 +19110,8 @@ about:blank$domain=reddit.com
 captureone.com###cookiePolicyBar
 laptopmag.com##.leaderBoard
 bing.com##.b_ad
-bing.com##.b_
+bing.com##.b_*
+bing.com##.b_poleContent
 digitalocean.com##._panel_1nv7e_1
 pixlr.com##ad-wrap
 ||pixlr.com/x/img/resize-canvas.svg
@@ -19479,6 +19499,58 @@ allthatsinteresting.com##.css-1dbjc4n.r-1awozwy.r-p1pxzi.r-13qz1uu
 gizmodo.com##.ad-container.dfp.dfp-slot-PROMOTION_NATIVE.ad-promotion-native
 click.ro###sliding-popup
 click.ro##.sliding-popup-bottom
+www.demorgen.be##.tm-paywall
+www.demorgen.be##.paywall-overlay
+www.demorgen.be##.tm-subscribe
+||open.spotify.com/log/analytics
+www.photopea.com##.photopea.flexrow > div:nth-of-type(2)
+www.higgypop.com###comments > .section_title
+www.higgypop.com##.top_footer_banner
+www.higgypop.com###cookie-policy
+www.axs.com###sticky-right-rail
+www.klove.com###first-modal
+www.klove.com##.in.fade.modal-backdrop
+||e.snmc.io/2.5/js/min/modal.js
+||e.snmc.io/2.5/js/web_ads/advertisement.js
+||metrolyrics.com/g00/
+||hxyzhas.g00.metrolyrics.com/g00/
+||metrolyrics.com/mod_pagespeed_beacon
+www.metrolyrics.com##.top-sponsor.js-top-sponsor
+www.metrolyrics.com##div.ad-box.expanding-ad:nth-of-type(1)
+www.metrolyrics.com##div.ad-box.expanding-ad:nth-of-type(3)
+www.azlyrics.com##div.noprint.lboard-wrap:nth-of-type(3)
+www.azlyrics.com##div.noprint.lboard-wrap:nth-of-type(5)
+www.azlyrics.com##div.noprint:nth-of-type(6)
+www.azlyrics.com##div.noprint:nth-of-type(9)
+www.azlyrics.com##.ringtone
+||songmeanings.com/*/imp.gif
+||songmeanings.com/porpoiseant/jellyfish.webp
+songmeanings.com###div-gpt-ad-songmeanings_com-box-1-0
+songmeanings.com##.adtester-container-123.adtester-container.box-1.ezoic-ad
+songmeanings.com##.adtester-container-140.adtester-container.large-billboard-2.ezoic-ad
+songmeanings.com###comments-section > .heading
+songmeanings.com###div-gpt-ad-songmeanings_com-banner-2-0
+songmeanings.com##.adtester-container-122.adtester-container.banner-2.ezoic-ad
+songmeanings.com##.adtester-container-117.adtester-container.leader-1.ezoic-ad
+themighty.com##.tm-modal-backdrop.logreg-modal-backdrop
+themighty.com##.all-buttons.tm-modal-body-inner.signup-form-wrap
+themighty.com##.modal-body
+themighty.com##.tm-modal.logreg-modal
+themighty.com##.tm-modal-wrap.logreg-modal-wrap
+themighty.com##.\33 00x600.tm-ads
+themighty.com##.right-ads
+themighty.com##.bg-condition.community-card
+www.allmusic.com##.header-leaderboard.stripe-container > .leaderboard.advertising
+||fast.fonts.net/t/trackingCode.js
+us.napster.com###spacer
+the.honoluluadvertiser.com##.article-sidebar
+the.honoluluadvertiser.com##.horizontalrule > tbody > tr > td:nth-of-type(3)
+ukutabs.com###main > div.adbox:nth-of-type(1)
+ukutabs.com##.recent-posts > .adbox
+ukutabs.com##div.adbox:nth-of-type(5)
+ukutabs.com##.navigation
+www.discogs.com###ad_top
+www.discogs.com###ad_bottom
 
 ! AdGuard Home
 ||wpad.home
@@ -20024,6 +20096,11 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /activityloggingapi/
 /evercookie-master/
 /evercookie.js
+/mod_pagespeed_beacon
+/fi_client.js
+/visit.jpg
+/pub_lyricsmode.gif
+/adstream
 -page-url=
 &page-url=
 ?adname=
