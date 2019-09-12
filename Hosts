@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1124
+! Version: 1125
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
 ! Last Modified: Thursday, September 12, 2019
 
@@ -19574,6 +19574,14 @@ www.tryggehandel.no##div.row-fluid:nth-of-type(3)
 account.arena.net##.index_cookieNotification__wm-ro
 apynews.pl###cookies-message
 www.select.no##.cookiepopin
+enumizmatyczny.pl###cookies-message
+www.4kdownload.com##.footer__col--community.footer__col
+sourceforge.net##.small-collapse.row.banner-sterling > .column
+sourceforge.net###newsletter-floating
+||sourceforge.net/cdn/con/img/ad.gif
+||starcoins.ws/verify/adblock/
+||starcoins.ws/static/ads/
+||starcoins.ws/adblock.html
 
 ! AdGuard Home
 ||wpad.home
@@ -20136,7 +20144,7 @@ _WebBannerAd
 -ad-powerinbox-inline-
 -ad-display.z-ad-
 videoiq-*
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
