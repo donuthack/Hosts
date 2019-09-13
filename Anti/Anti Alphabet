@@ -17,8 +17,8 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 1
-! Last Modified: Wednesday, September 11, 2019
+! Version: 2
+! Last Modified: Friday, September 13, 2019
 
 0.0.0.0 google.com
 0.0.0.0 google.*
@@ -63,3 +63,4 @@ ff02::3 ip6-allhosts
 0.0.0.0 googlemail.com
 0.0.0.0 firebase.google.com
 0.0.0.0 fruitninjagame.page.link
+0.0.0.0 ytimg.com
