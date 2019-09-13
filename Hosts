@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1126
+! Version: 1126-1
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
 ! Last Modified: Thursday, September 12, 2019
 
@@ -18306,8 +18306,8 @@ shadowban.eu###toast-container
 ||cdn.transifex.com/live.js
 ||bloghelpers.troyhunt.com/api/BlogData
 ||disqus.com/count.js
-||disqus.com/embed.js$script,redirect=disqus.com/embed.js
-||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
+||disqus.com/embed.js$redirect=disqus.com/embed.js
+||disqus.com/forums/*/embed.js$redirect=disqus.com/forums/*/embed.js
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/Popup.js?$domain=shtfplan.com
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/PopupConfig.js?$domain=shtfplan.com
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/PopupBuilder.js?$domain=shtfplan.com
