@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1125
+! Version: 1126
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
 ! Last Modified: Thursday, September 12, 2019
 
@@ -1589,7 +1589,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 appsqa.texthelp.com
 0.0.0.0 app-ab21.marketo.com
 0.0.0.0 app.elev.io
-0.0.0.0 airpr.disqus.com
 0.0.0.0 airpr.com
 0.0.0.0 analytics.maxgetmore.com
 0.0.0.0 affiliates.genealogybank.com
@@ -1746,9 +1745,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 accounts.zoho.com
 0.0.0.0 a.mailmunch.co
 0.0.0.0 app.mailmunch.co
-0.0.0.0 addictivetips.disqus.com
 0.0.0.0 a.du1k.com
-0.0.0.0 addonhq-com.disqus.com
 0.0.0.0 a23-211-102-195.deploy.static.akamaitechnologies.com
 0.0.0.0 automatad.com
 0.0.0.0 abeagle-public.buzzfeed.com
@@ -1756,7 +1753,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 a.adtng.com
 0.0.0.0 www.ah-tech.net
 0.0.0.0 ah-tech.net
-0.0.0.0 androidauthority.disqus.com
 0.0.0.0 www.augustash.com
 0.0.0.0 augustash.com
 0.0.0.0 affiliates.getresponse.com
@@ -3658,7 +3654,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bananatag.com
 0.0.0.0 basis.net
 0.0.0.0 blog.listenloop.com
-0.0.0.0 botcrawler.disqus.com
 0.0.0.0 b.in-addr-servers.arpa
 0.0.0.0 bundle-101.bdr05.syd03.nsw.vocus.net.au
 0.0.0.0 bundle-101.cor02.lax01.ca.vocus.net
@@ -3900,7 +3895,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bbca.channelfinder.net
 0.0.0.0 bskyb.demdex.net
 0.0.0.0 bounceads.net
-0.0.0.0 bgr.disqus.com
 0.0.0.0 bbcandroid.2cnt.net
 0.0.0.0 bbcandroidtest.2cnt.net
 0.0.0.0 bbcdotcom.2cnt.net
@@ -4529,7 +4523,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 cdn.report-uri.com
 0.0.0.0 concertads-configs.*.*
 0.0.0.0 cdn.trialfire.com
-0.0.0.0 c.disquscdn.com
 0.0.0.0 circularhub.com
 0.0.0.0 cpagrip.com
 0.0.0.0 contentlockingnetworks.com
@@ -5403,6 +5396,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 dow068lag04cv.cloudfront.net
 0.0.0.0 d3lvalyq6xmerg.cloudfront.net
 0.0.0.0 d3aiy6aqoa3ykz.cloudfront.net
+0.0.0.0 d3cv4a9a9wh0bt.cloudfront.net
 0.0.0.0 detwzgl8cvciv.cloudfront.net
 0.0.0.0 discord.co
 0.0.0.0 discord.gifts
@@ -5777,7 +5771,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 doubleclickbygoogle.com
 0.0.0.0 dev.cryptobara.com
 0.0.0.0 digger.cryptobara.com
-0.0.0.0 dxomark.disqus.com
 0.0.0.0 dashboard.appsee.com
 0.0.0.0 dable.io
 0.0.0.0 dynata.com
@@ -5857,8 +5850,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 directads.mcafee.com
 0.0.0.0 delivery.ipvertising.com
 0.0.0.0 dianomi.com
-0.0.0.0 disqusads.com
-0.0.0.0 disquscdn.com
 0.0.0.0 dps.bing.com
 0.0.0.0 www.destinationurl.com
 0.0.0.0 dts.podtrac.com
@@ -6021,7 +6012,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 datanyze.com
 0.0.0.0 demandbase.com
 0.0.0.0 di-dtaectolog-us-prod-1.appspot.com
-0.0.0.0 disqus.com
 0.0.0.0 do-not-tracker.org
 0.0.0.0 dispatch.admixer.co.kr
 0.0.0.0 data.mobclix.com
@@ -6394,7 +6384,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 flexlinks.com
 0.0.0.0 f-log-extension.grammarly.io
 0.0.0.0 fs.microsoft.com
-0.0.0.0 freewestmedia.disqus.com
 0.0.0.0 fbprod.flipboard.com
 0.0.0.0 flipboard.helpshift.com
 0.0.0.0 firebasedynamiclinks-ipv6.googleapis.com
@@ -7009,7 +6998,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 humparsi.com
 0.0.0.0 he242.infusionsoft.com
 0.0.0.0 humanpresence.io
-0.0.0.0 https-www-campusreform-org-3.disqus.com
 0.0.0.0 hrnorth.se
 0.0.0.0 host.bannerflow.com
 0.0.0.0 h2.twitch.map.fastly.net
@@ -7071,7 +7059,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 www.helpscout.com
 0.0.0.0 helpscout.com
 0.0.0.0 heat-map.co
-0.0.0.0 https-www-namanmodi-com.disqus.com
 0.0.0.0 hellobar.com
 0.0.0.0 www.heatmap-analytics.com
 0.0.0.0 heatmap-analytics.com
@@ -9549,7 +9536,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ngads.com
 0.0.0.0 ngfiles.com
 0.0.0.0 ntyamcfwxkubrdv.rambler.ru
-0.0.0.0 npcdaily.disqus.com
 0.0.0.0 nt-cdn.coccoc.com
 0.0.0.0 ntrb.qc.coccoc.com
 0.0.0.0 novanet.vn
@@ -9785,7 +9771,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 onetrust.chargebeestatic.com
 0.0.0.0 onetrust.com
 0.0.0.0 onesearch.org
-0.0.0.0 own-sh.disqus.com
 0.0.0.0 optnmstr.com
 0.0.0.0 online.dropbox.com.reload.access.check.now.latrobevillage.com.au
 0.0.0.0 www.owneriq.net
@@ -9979,7 +9964,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 photos-ugc.l.googleusercontent.com
 0.0.0.0 pcweb.tmobile.com
 0.0.0.0 pdn.applovin.com
-0.0.0.0 photography-blog-1.disqus.com
 0.0.0.0 p.d.1emn.com
 0.0.0.0 pix.ssp.otm-r.com
 0.0.0.0 p.forward.com
@@ -10743,7 +10727,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 recreativ.ru
 0.0.0.0 responsetap.com
 0.0.0.0 rs.gwallet.com
-0.0.0.0 realtime.services.disqus.com
 0.0.0.0 rcm-images.amazon.com
 0.0.0.0 www.revenuehits.com
 0.0.0.0 revenuehits.com
@@ -10794,6 +10777,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sakura.goguardian.com
+0.0.0.0 stats.ibtimes.co.uk
 0.0.0.0 spoor-api.ft.com
 0.0.0.0 static-spartan-wus-s-msn-com.akamaized.net
 0.0.0.0 s.w-x.co
@@ -11126,7 +11111,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 sub-cdn.washingtonpost.com
 0.0.0.0 sub.washingtonpost.com
 0.0.0.0 search.hdownloadmyinboxhelper.com
-0.0.0.0 summit-news.disqus.com
 0.0.0.0 static-artifact.heg-cp.com
 0.0.0.0 www.stadtverwaltung-ratingen.de
 0.0.0.0 stadtverwaltung-ratingen.de
@@ -12001,6 +11985,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 timeline55-clientstats1.pusher.com
+0.0.0.0 timeline*-clientstats*.pusher.com
 0.0.0.0 the.honoluluadvertiser.com
 0.0.0.0 tps30.doubleverify.com
 0.0.0.0 t.rainide.com
@@ -12070,16 +12056,13 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 trktnc.com
 0.0.0.0 trackifyx.redretarget.com
 0.0.0.0 tracking-sales-pop.carecart.io
-0.0.0.0 troyhunt.disqus.com
 0.0.0.0 track.klickly.com
 0.0.0.0 toponclick.com
-0.0.0.0 tempest.services.disqus.com
 0.0.0.0 tailsweep.com
 0.0.0.0 terraclicks.com
 0.0.0.0 time.microsoft.akadns.net
 0.0.0.0 trafficmanager.net
 0.0.0.0 trialfire.com
-0.0.0.0 thehill-v4.disqus.com
 0.0.0.0 tse1.mm.bing.net
 0.0.0.0 thikraik.net
 0.0.0.0 trakingpixel.com
@@ -12456,7 +12439,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 tag.perfectaudience.com
 0.0.0.0 tags.us.onscroll.com
 0.0.0.0 top-fwz1.mail.ru
-0.0.0.0 thedailywire.disqus.com
 0.0.0.0 teracent.net
 0.0.0.0 tune.com
 0.0.0.0 tenjin.io
@@ -12858,6 +12840,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 webql-redesign.cnbcfm.com
 0.0.0.0 webcollage.net
 0.0.0.0 webstats.*
 0.0.0.0 webstats.thesoul-publishing.com
@@ -14470,7 +14453,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 000.angryshark.cn
 0.0.0.0 0.tqn.com
 0.0.0.0 0.moikrug.ru
-0.0.0.0 0.disquscdn.com
 0.0.0.0 0.datacollector.coin.scribol.com
 0.0.0.0 568cai.top
 0.0.0.0 45tu1c0.com
@@ -17239,7 +17221,7 @@ fbdown.net##script:inject(set-constant.js,harshblock,false)
 twitch.tv##+js(twitch-videoad.js)
 foxsports.com##+js(set-constant.js, cxStartDetectionProcess, noopFunc)
 foxsports.com.au##+js(set-constant.js, cxStartDetectionProcess, noopFunc)
-e-mailscamalerts.*##+js(bab-defuser.js)
+e-mailscamalerts.*##+js(nobab.js)
 loadvid.online##+js(abort-current-inline-script.js, fileID, adblock)
 loadvid.online##+js(abort-on-property-read.js, BetterJsPop)
 loadvid.online##+js(set-constant.js, adBlockNotDetected, true)
@@ -17263,7 +17245,7 @@ solarmoviex.to##+js(abort-current-inline-script.js, decodeURI, atob)
 solarmoviex.to##+js(abort-current-inline-script.js, RegExp, zfgloaded)
 ||solarmoviex.to/sw.js$script
 solarmovie.cam##+js(abort-on-property-read.js, AaDetector)
-world4.eu##script:inject(bab-defuser.js)
+world4.eu##script:inject(nobab.js)
 solarmovie.cam##+js(window.open-defuser.js)
 mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
 bitfun.co,moonbitcoin.cash###flexContentAdFrame:style(visibility: collapse !important)
@@ -17273,7 +17255,7 @@ igg-games.com##+js(abort-current-inline-script.js, RegExp, zfgloaded)
 igg-games.com##a[href$=".jpg"]
 paidshort.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
 paidshort.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
-xda-developers-forum.*##+js(bab-defuser.js)
+xda-developers-forum.*##+js(nobab.js)
 wallpapersmania.com##.js_disabled
 wallpapersmania.com###cpa_wrap
 imgrock.*##+js(abort-current-inline-script.js, CustomEvent, window[_0x)
@@ -18324,7 +18306,8 @@ shadowban.eu###toast-container
 ||cdn.transifex.com/live.js
 ||bloghelpers.troyhunt.com/api/BlogData
 ||disqus.com/count.js
-||disqus.com/embed.js
+||disqus.com/embed.js$script,redirect=disqus.com/embed.js
+||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/Popup.js?$domain=shtfplan.com
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/PopupConfig.js?$domain=shtfplan.com
 ||shtfplan.com/wp-content/plugins/popup-builder/public/js/PopupBuilder.js?$domain=shtfplan.com
@@ -19582,6 +19565,7 @@ sourceforge.net###newsletter-floating
 ||starcoins.ws/verify/adblock/
 ||starcoins.ws/static/ads/
 ||starcoins.ws/adblock.html
+||gab.com/headers/original/missing.png
 
 ! AdGuard Home
 ||wpad.home
@@ -19697,7 +19681,6 @@ semantic-ui.com,gizmodo.com#%#//scriptlet("prevent-fab-3.2.0")
 /www/delivery/asyncjs.php
 /*.iframetracker.js
 /iframetracker.js
-/widgets/disqus?
 /front/js/counter.js
 /raygun.min.js
 /apusers/serve/
