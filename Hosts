@@ -17,12 +17,13 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1126-1
+! Version: 1126-2
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
 ! Last Modified: Thursday, September 12, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||gab.com$cookie
 @@||i.kinja-img.com$image,domain=gizmodo.com
 @@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
 @@||moatads.com/*.js$domain=hulu.com
@@ -41,7 +42,6 @@ ff02::3 ip6-allhosts
 @@||media-cdn.tripadvisor.com
 @@||pandora.com/web-client-assets/
 @@||pandora.com/api/
-||pandora.com/web-client-assets/ads.json?^$important
 @@||iheart.com
 @@||duckduckgo.com/util/u367.js$important
 @@||duckduckgo.com/d2643.js$important
@@ -60,10 +60,7 @@ ff02::3 ip6-allhosts
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
 
 ! Rewrite (Adblock Plus and AdGuard)
-||mediaserver-cont-*.pandora.com/*/*/devicead^$rewrite=abp-resource:blank-mp3,domain=pandora.com
-||mediaserver-cont-*.pandora.com/public/ads^$rewrite=abp-resource:1x1-transparent-gif,domain=pandora.com
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
-||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$rewrite=abp-resource:blank-mp3,domain=pandora.com
 ||sdk.vyrl.co/checkToken.html^$rewrite=abp-resource:blank-html,domain=swagnets.com
 
 ! Fixes
@@ -8725,6 +8722,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lt*.tritondigital.com
 0.0.0.0 lets.cdin.me
 0.0.0.0 live.demand.supply
 0.0.0.0 lightstep.com
@@ -19566,6 +19564,17 @@ sourceforge.net###newsletter-floating
 ||starcoins.ws/static/ads/
 ||starcoins.ws/adblock.html
 ||gab.com/headers/original/missing.png
+||mediaserver-cont-*.pandora.com/*/*/devicead^$important
+||mediaserver-cont-*.pandora.com/public/ads^$important
+||pandora.com/util/mediaserverPublicRedirect.jsp?*type=audio^$important
+||pandora.com/web-client-assets/ads.json?^$important
+||pandora.com/api/v1/ad/registerImpression$important
+pandora.com##div.DisplayAdController.DisplayAdController--active
+pandora.com##div#adContainer
+pandora.com##div.DisplayAdController.DisplayAdController--active
+pandora.com##div#region-coachmark.region-coachmark
+pandora.com##div#googleDCMTagContainer
+pandora.com###leader_board_container
 
 ! AdGuard Home
 ||wpad.home
@@ -19574,6 +19583,7 @@ sourceforge.net###newsletter-floating
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
+semantic-ui.com,gizmodo.com#%#//scriptlet("prevent-fab-3.2.0")
 dailycaller.com#%#document.cookie = "__adblocker = false"
 youtube.com##html > head:first-child > script:nth-child(30)[name="www-roboto"]
 ! Anti Tracking Cookies
@@ -19635,7 +19645,6 @@ $webrtc,domain=nsa.gov
 ||172.217.0.14$network
 ||172.217.1.46$network
 ||172.217.4.46$network
-semantic-ui.com,gizmodo.com#%#//scriptlet("prevent-fab-3.2.0")
 
 ! Wildcard
 /client.min.js
