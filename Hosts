@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1126-2
-! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
-! Last Modified: Thursday, September 12, 2019
+! Version: 1127
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.1K
+! Last Modified: Friday, September 13, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -902,6 +902,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adsbtrack.com
+0.0.0.0 adsbtrk.com
+0.0.0.0 adblock-listefr.com
+0.0.0.0 ac-feedback.com
+0.0.0.0 admitad.com
+0.0.0.0 admitad-connect.com
 0.0.0.0 a-afdentry.net.trafficmanager.net
 0.0.0.0 a-0001.a-afdentry.net.trafficmanager.net
 0.0.0.0 a.applovin.com
@@ -3529,6 +3535,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bit-coin-trader.com
 0.0.0.0 brealtime.com
 0.0.0.0 b-s.tercept.com
 0.0.0.0 buzzador.com
@@ -5364,6 +5371,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 d3terveqlssriz.cloudfront.net
 0.0.0.0 demorgen.be
 0.0.0.0 draper.popcap.com
 0.0.0.0 diacordapp.com
@@ -6016,6 +6024,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 ever3trk.com
 0.0.0.0 emfbroadcasting.com
 0.0.0.0 edba.brealtime.com
 0.0.0.0 emmx.microsoftedgeinsider.com
@@ -6368,6 +6377,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 forwrdnow.com
+0.0.0.0 fafc5ra6.ru
+0.0.0.0 freshis.ru
 0.0.0.0 fruitninjagame.page.link
 0.0.0.0 from.flipboard.com
 0.0.0.0 flixfacts.com
@@ -6626,6 +6638,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 good-traf.ru
 0.0.0.0 grv.media
 0.0.0.0 grvmedia.com
 0.0.0.0 geoscripts.meredith.services
@@ -7945,6 +7958,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 ketobodytone.com
 0.0.0.0 kayako.com
 0.0.0.0 kayako.net
 0.0.0.0 kayakocdn.com
@@ -8722,6 +8736,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lead.network
 0.0.0.0 lt*.tritondigital.com
 0.0.0.0 lets.cdin.me
 0.0.0.0 live.demand.supply
@@ -8964,6 +8979,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mindbox.cloud
+0.0.0.0 medicineteaser.org
 0.0.0.0 moatads.com
 0.0.0.0 mon.m6web.fr
 0.0.0.0 ms.applvn.com
@@ -9505,6 +9522,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nav-it.ru
 0.0.0.0 net.trafficmanager.net
 0.0.0.0 notify.medicalnewstoday.com
 0.0.0.0 nc-4tvylwolbz88x24zahapj-nsvihs-z-tzu-jvtx2ehrhthpglkx2eula.g01.msn.com
@@ -9712,6 +9730,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 online-chat-support.com
+0.0.0.0 orjzy.com
 0.0.0.0 osimg.nbcuni.com
 0.0.0.0 oascentral.honoluluadvertiser.com
 0.0.0.0 onesettings-windowsservices-tas.msedge.net
@@ -9892,6 +9912,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 playtechone.com
 0.0.0.0 p.jango.com
 0.0.0.0 prof.estat.com
 0.0.0.0 persephone.blob.core.windows.net
@@ -10416,6 +10437,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qposhka.com
 0.0.0.0 qryuumwmiupy.com
 0.0.0.0 quantcast.com
 0.0.0.0 qwertyuiop.stream
@@ -10775,6 +10797,19 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 salesdoubler.com.ua
+0.0.0.0 saferedirrect.com
+0.0.0.0 saferedd.com
+0.0.0.0 sad2tizer.ru
+0.0.0.0 skyad.video
+0.0.0.0 skyad5.ru
+0.0.0.0 skyadsvideo1.ru
+0.0.0.0 skyadvideo.ru
+0.0.0.0 skycdnhost.com
+0.0.0.0 sape.ru
+0.0.0.0 skypromotion.ru
+0.0.0.0 sn00.net
+0.0.0.0 staticcache.org
 0.0.0.0 sakura.goguardian.com
 0.0.0.0 stats.ibtimes.co.uk
 0.0.0.0 spoor-api.ft.com
@@ -11983,6 +12018,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tapnetwork.ru
 0.0.0.0 timeline55-clientstats1.pusher.com
 0.0.0.0 timeline*-clientstats*.pusher.com
 0.0.0.0 the.honoluluadvertiser.com
@@ -12686,6 +12722,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 viphealthhelper.com
+0.0.0.0 vintage-ads-are.cool
 0.0.0.0 vendorlist.consensu.org
 0.0.0.0 viralmint.com
 0.0.0.0 vlscppe.microsoft.com
@@ -12838,6 +12876,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wyspaofert.com
+0.0.0.0 wydawca.lead.network
+0.0.0.0 widget.admitad.com
 0.0.0.0 webql-redesign.cnbcfm.com
 0.0.0.0 webcollage.net
 0.0.0.0 webstats.*
@@ -13229,6 +13270,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 y4681.6128786.com
+0.0.0.0 yourofferpro.com
 0.0.0.0 ytimg.l.google.com
 0.0.0.0 yarn.ideaeggs.press
 0.0.0.0 yotpo.com
@@ -19575,6 +19618,19 @@ pandora.com##div.DisplayAdController.DisplayAdController--active
 pandora.com##div#region-coachmark.region-coachmark
 pandora.com##div#googleDCMTagContainer
 pandora.com###leader_board_container
+www.androidcentral.com###Leaderboard_Header_ATF-wrap-5d7aed2f2b1d9
+www.androidcentral.com###visor-block--281 > .row > .col-1of3\@desktop.col-2of2\@tablet.col-3of3.sidebar > .sidebar__section
+www.androidcentral.com###visor-block--281 > .row > .col-1of3\@desktop.col-2of2\@tablet.col-3of3.sidebar
+www.androidcentral.com##.panels-flexible-region-inside-last.panels-flexible-region-inside-first.panels-flexible-region-17-full_width-inside.panels-flexible-region-inside.inside > div.col-3of3:nth-of-type(2)
+www.androidcentral.com###visor-block--282 > .row > .col-1of3\@desktop.col-2of2\@tablet.col-3of3.sidebar > .sidebar__section
+www.androidcentral.com###visor-block--282 > .row > .col-1of3\@desktop.col-2of2\@tablet.col-3of3.sidebar
+www.androidcentral.com##.article-leaderboard
+powr.com##.Cookie--base.Cookie--bottom.Cookie
+www.upi.com###div-ad-top
+www.upi.com##.news-head-offset
+www.upi.com##.ad_slot.story-offset
+www.upi.com##article > .ad_slot
+mises.org###sliding-popup > div
 
 ! AdGuard Home
 ||wpad.home
