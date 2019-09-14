@@ -17,13 +17,15 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1128-1
+! Version: 1129
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.7K
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.8K
 ! Last Modified: Saturday, September 14, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||connectivitycheck.gstatic.com
+@@||clients2.googleusercontent.com
 @@||yospace-directv.akamaized.net
 @@||yospace.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
@@ -62,6 +64,22 @@ ff02::3 ip6-allhosts
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
+
+! Don't Add Because Of Breakage
+!gdmf.apple.com (iOS updates)
+!gdmf.apple.com.akadns.net (iOS updates)
+!e673.dsce9.akamaiedge.net (Breaks Apple App store on iOS)
+!yospace-directv.akamaized.net (This breaks AT&T TV)
+!yospace.com (This breaks AT&T TV)
+!a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
+!android.clients.google.com (Breaks some things on mobile)
+!akamaihd.net (Breaks some sites)
+!connectivitycheck.gstatic.com (Breaks Google Play downloads-Makes them think you have no wifi/data connection)
+!clients2.googleusercontent.com (Breaks extensions downloads for Chrome based browsers)
+!lh3.google.com (Breaks some websites)
+!lh3.googleusercontent.com (Breaks some websites)
+!pushwoosh.com (Blocks many notifications)
+!spclient.wg.spotify.com (Breaks Spotify)
 
 ! Rewrite (Adblock Plus and AdGuard)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
@@ -283,8 +301,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 daypass.api-glb-sea.smoot.apple.com
 0.0.0.0 smoot.apple.com
 0.0.0.0 api.smoot.apple.com
-! 0.0.0.0 gdmf.apple.com (iOS updates)
-! 0.0.0.0 gdmf.apple.com.akadns.net (iOS updates)
 0.0.0.0 geo.itunes.apple.com
 0.0.0.0 gsp-ssl-dynamic.ls-apple.com.akadns.net
 0.0.0.0 gsp-ssl.ls-apple.com.akadns.net
@@ -906,6 +922,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 advertising.amazon.com
+0.0.0.0 att.hb.omtrdc.net
 0.0.0.0 aeg-ov-client-prod.secure.footprint.net
 0.0.0.0 ads.roblox.com
 0.0.0.0 advrts.onelouder.com
@@ -2321,7 +2339,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 adv-ettoday.cdn.hinet.net
 0.0.0.0 ad-ettoday.cdn.hinet.net
 0.0.0.0 adv.ettoday.net
-!0.0.0.0 a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
 0.0.0.0 adsapi.manhuaren.com
 0.0.0.0 adplex.co.kr
 0.0.0.0 adplex.com
@@ -2853,7 +2870,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ad.a-ads.com
 0.0.0.0 adhitzads.com
 0.0.0.0 www.bitcoadz.io
-!0.0.0.0 android.clients.google.com
 0.0.0.0 ads.ac.uk
 0.0.0.0 a.teads.tv
 0.0.0.0 a.optmstr.com
@@ -2987,7 +3003,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 aws.predictiveresponse.net
 0.0.0.0 ad.a8.net
 0.0.0.0 ad.abcnews.com
-!0.0.0.0 akamaihd.net (Breaks some sites)
 0.0.0.0 ad.abctv.com
 0.0.0.0 ads.admarvel.com
 0.0.0.0 ad.aboutwebservices.com
@@ -4423,8 +4438,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 !C
 0.0.0.0 csm-e-cedtuswxaws204j8-7in78inll629.tls1.yospace.com
 0.0.0.0 csm-e-dfwprd.tls1.yospace.com
-0.0.0.0 connectivitycheck.gstatic.com
-0.0.0.0 clients2.googleusercontent.com
 0.0.0.0 client.teamviewer.com
 0.0.0.0 client-teamviewer-com.trafficmanager.com
 0.0.0.0 cdn.ustatik.com
@@ -6205,7 +6218,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ec2-54-64-149-136.ap-northeast-1.compute.amazonaws.com
 0.0.0.0 e6987.e9.akamaiedge.net
 0.0.0.0 e6987.a.akamaiedge.net
-! 0.0.0.0 e673.dsce9.akamaiedge.net (Breaks Apple App store on iOS)
 0.0.0.0 errorexpert.com
 0.0.0.0 errorsafe.com
 0.0.0.0 ext-irs.extfans.com
@@ -6654,6 +6666,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 games.wimi5.com
 0.0.0.0 good-traf.ru
 0.0.0.0 grv.media
 0.0.0.0 grvmedia.com
@@ -7004,6 +7017,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hexagon-analytics.com
 0.0.0.0 honoluluadvertiser.com
 0.0.0.0 hootsuite.com
 0.0.0.0 hellobar.com
@@ -8903,8 +8917,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 liveinternet.ru
 0.0.0.0 lintv.122.2o7.net
 0.0.0.0 live.activeconversion.com
-!0.0.0.0 lh3.google.com
-!0.0.0.0 lh3.googleusercontent.com
 0.0.0.0 layer-ads.com
 0.0.0.0 layer-ads.de
 0.0.0.0 laughcloth.com
@@ -8997,6 +9009,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 metrics.roblox.com
 0.0.0.0 msh.amazon.com
 0.0.0.0 mobilcrashreporting.googleapis.com
 0.0.0.0 ms.applovin.com
@@ -9544,6 +9557,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 notify.bugsnag.com
 0.0.0.0 nav-it.ru
 0.0.0.0 net.trafficmanager.net
 0.0.0.0 notify.medicalnewstoday.com
@@ -9935,6 +9949,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pippio.com
 0.0.0.0 presence.roblox.com
 0.0.0.0 prophet.heise.de
 0.0.0.0 playtechone.com
@@ -10425,7 +10440,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 partner.ads.placeiq.com
 0.0.0.0 presage.io
 0.0.0.0 park.above.com
-!0.0.0.0 pushwoosh.com (Blocks many notifications)
 0.0.0.0 petiteumbrella.com
 0.0.0.0 p.cpx.to
 0.0.0.0 pixel-tracker.com
@@ -10810,7 +10824,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 roosterfirework.com
 0.0.0.0 report.appmetrica.yandex.net
 0.0.0.0 relap.io
-0.0.0.0 rackcdn.com
 0.0.0.0 rtstats.com
 0.0.0.0 *.reporo.net
 0.0.0.0 reporo.net
@@ -10824,6 +10837,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 stream192.forexpros.com
 0.0.0.0 smetrics.att.com
 0.0.0.0 server-52-85-115-127.ind6.r.cloudfront.net
 0.0.0.0 server-52-85-115-234.ind6.r.cloudfront.net
@@ -11408,7 +11422,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 s.qualtrics.com
 0.0.0.0 sdk.analytiall.com
 0.0.0.0 stat.analytiall.com
-!0.0.0.0 spclient.wg.spotify.com (Breaks Spotify)
 0.0.0.0 www.sharedsourcepa.org
 0.0.0.0 sponsorpay.com
 0.0.0.0 www.studads.com
@@ -12906,6 +12919,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wimi5.com
 0.0.0.0 wyspaofert.com
 0.0.0.0 wydawca.lead.network
 0.0.0.0 widget.admitad.com
@@ -13300,8 +13314,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 xxxwebtraffic.com
 
 !Y
-!0.0.0.0 yospace-directv.akamaized.net (This breaks AT&T TV)
-!0.0.0.0 yospace.com (This breaks AT&T TV)
 0.0.0.0 yxsu5ufd2m.kameleoon.eu
 0.0.0.0 y4681.6128786.com
 0.0.0.0 yourofferpro.com
