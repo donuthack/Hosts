@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1130-2
+! Version: 1130-3
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.8K
 ! Last Modified: Sunday, September 15, 2019
@@ -922,6 +922,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 a0.nic.payu
 0.0.0.0 ag.innovid.com
 0.0.0.0 aax-us-iad.amazon.com
 0.0.0.0 api.trakt.tv
@@ -9574,6 +9575,23 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 ns*.p16.dynect.net
+0.0.0.0 ns1.p16.dynect.net
+0.0.0.0 ns2.p16.dynect.net
+0.0.0.0 ns3.p16.dynect.net
+0.0.0.0 ns4.p16.dynect.net
+0.0.0.0 ns5.p16.dynect.net
+0.0.0.0 ns6.p16.dynect.net
+0.0.0.0 ns7.p16.dynect.net
+0.0.0.0 ns8.p16.dynect.net
+0.0.0.0 ns9.p16.dynect.net
+0.0.0.0 ns10.p16.dynect.net
+0.0.0.0 ns11.p16.dynect.net
+0.0.0.0 ns12.p16.dynect.net
+0.0.0.0 ns13.p16.dynect.net
+0.0.0.0 ns14.p16.dynect.net
+0.0.0.0 ns15.p16.dynect.net
+0.0.0.0 ns16.p16.dynect.net
 0.0.0.0 nist.gov
 0.0.0.0 ntp1.glb.nist.gov
 0.0.0.0 notify.bugsnag.com
@@ -13711,6 +13729,32 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 2.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa
 0.0.0.0 3.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpat
 0.0.0.0 *.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa
+0.0.0.0 1.56.19.199.in-addr.arpa
+0.0.0.0 136.70.78.208.in-addr.arpa
+0.0.0.0 146.59.245.173.in-addr.arpa
+0.0.0.0 126.58.245.173.in-addr.arpa
+0.0.0.0 21.61.88.162.in-addr.arpa
+0.0.0.0 136.251.13.204.in-addr.arpa
+0.0.0.0 21.60.88.162.in-addr.arpa
+0.0.0.0 32.36.235.23.in-addr.arpa
+0.0.0.0 32.84.156.104.in-addr.arpa
+0.0.0.0 32.80.156.104.in-addr.arpa
+0.0.0.0 16.251.13.204.in-addr.arpa
+0.0.0.0 30.79.48.192.in-addr.arpa
+0.0.0.0 30.83.55.192.in-addr.arpa
+0.0.0.0 136.71.78.208.in-addr.arpa
+0.0.0.0 153.109.199.185.in-addr.arpa
+0.0.0.0 1.165.59.108.in-addr.arpa
+0.0.0.0 180.194.251.205.in-addr.arpa
+0.0.0.0 59.197.251.205.in-addr.arpa
+0.0.0.0 136.250.13.204.in-addr.arpa
+0.0.0.0 16.70.78.208.in-addr.arpa
+0.0.0.0 16.250.13.204.in-addr.arpa
+0.0.0.0 17.162.22.65.in-addr.arpa
+0.0.0.0 17.160.22.65.in-addr.arpa
+0.0.0.0 252.0.0.224.in-addr.arpa
+0.0.0.0 254.254.168.192.in-addr.arpa
+0.0.0.0 150.32.234.18.in-addr.arpa
 0.0.0.0 3p.ampproject.net
 0.0.0.0 1.f.ix.de
 0.0.0.0 00bloggers.ru
@@ -19358,8 +19402,8 @@ www.heise.de##.akwa-ad-container__us-ad.akwa-ad-container.us_ad
 ||customer.homedepot.com/fp
 
 ! AdGuard Home
-0.0.0.0 wpad.home
-0.0.0.0 *.in-addr.arpa
+||wpad.home
+||.arpa
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
