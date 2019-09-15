@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1130
+! Version: 1130-1
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.8K
 ! Last Modified: Sunday, September 15, 2019
@@ -19350,8 +19350,7 @@ www.heise.de##.akwa-ad-container__us-ad.akwa-ad-container.us_ad
 
 ! AdGuard Home
 ||wpad.home
-||*.arpa
-||*.home
+||*-addr.arpa
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
