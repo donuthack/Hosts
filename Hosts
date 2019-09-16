@@ -17,7 +17,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1130-4
+! Version: 1130-5
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.8K
 ! Last Modified: Sunday, September 15, 2019
@@ -5411,6 +5411,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dataplusmath.com
 0.0.0.0 doubleverify.com.home
 0.0.0.0 d-3475266105211008611.ampproject.net
 0.0.0.0 d3terveqlssriz.cloudfront.net
@@ -7912,6 +7913,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 journal.blokada.org
 0.0.0.0 js.center.io
 0.0.0.0 js.hscta.net
 0.0.0.0 j.ophan.co.uk
@@ -12099,6 +12101,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tvadsync.com
+0.0.0.0 tvpixel.com
 0.0.0.0 time.nist.gov
 0.0.0.0 trakt.tv
 0.0.0.0 t2.hulu.com
@@ -12108,7 +12112,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 the.honoluluadvertiser.com
 0.0.0.0 tps30.doubleverify.com
 0.0.0.0 t.rainide.com
-0.0.0.0 tampermonkey.freetls.fastly.net
 0.0.0.0 tr-vidyoda.videoplaza.tv
 0.0.0.0 tracking.synthasite.net
 0.0.0.0 tag.rmp.rakuten.com
@@ -12961,6 +12964,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 w55c.net
 0.0.0.0 walter.trakt.tv
 0.0.0.0 wimi5.com
 0.0.0.0 wyspaofert.com
@@ -13510,6 +13514,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zap.buzz
 0.0.0.0 zontera.com
 0.0.0.0 zidedge.com
 0.0.0.0 zenaps.com
@@ -19372,8 +19377,8 @@ www.heise.de##.akwa-ad-container__us-ad.akwa-ad-container.us_ad
 ||customer.homedepot.com/fp
 
 ! AdGuard Home
-||wpad.home
-||.arpa
+wpad.home
+*.arpa
 ||1.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa
 ||2.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpa
 ||3.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.f.f.ip6.arpat
@@ -19404,6 +19409,33 @@ www.heise.de##.akwa-ad-container__us-ad.akwa-ad-container.us_ad
 ||252.0.0.224.in-addr.arpa
 ||254.254.168.192.in-addr.arpa
 ||150.32.234.18.in-addr.arpa
+||tr.snapchat.com.home
+||sc-analytics.appspot.com.home
+||adserver.snapads.com.home
+||adsafeprotected.com.home
+||serving-sys.com.home
+||doubleclick.net.home
+||android.bugly.qq.com.home
+||google-analytics.com.home
+||googlesyndication.com.home
+||innovid.com.home
+||device-metrics-us-2.amazon.com.home
+||res-x.com.home
+||presage.io.home
+||taboola.com.home
+||doubleverify.com.home
+||bluekai.com.home
+||adsrvr.org.home
+||rlcdn.com.home
+||adap.tv.home
+||demdex.net.home
+||krxd.net.home
+||tidaltv.com.home
+||stickyadstv.com.home
+||everesttech.net.home
+||spotxchange.com.home
+||t2.hulu.com.home
+||w55c.net.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
