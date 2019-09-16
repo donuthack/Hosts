@@ -17,9 +17,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1130-5
+! Version: 1130-6
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.8K
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.7K
 ! Last Modified: Sunday, September 15, 2019
 
 ! Unbreak
@@ -922,6 +922,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adbooks.ru
 0.0.0.0 a0.nic.payu
 0.0.0.0 ag.innovid.com
 0.0.0.0 aax-us-iad.amazon.com
@@ -6067,6 +6068,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 *.engine.mobileapptracking.com
 0.0.0.0 events.brightline.tv
 0.0.0.0 ephemeralcounters.api.roblox.com
 0.0.0.0 ecc4091c0db0f4da8da2ec50fac7234c230207ef.cws.conviva.com
@@ -19205,6 +19207,27 @@ www.heise.de##div.teaser_hbs:nth-of-type(2)
 www.heise.de###wtma_teaser_ho_vertrieb_mini_1 > .stage-advertising.stage--aside
 www.heise.de##.akwa-ad-container__us-ad.akwa-ad-container.us_ad
 ||customer.homedepot.com/fp
+www.scribens.com##.cookiebanner
+www.lastpass.com##.lp-boldchat
+1password.com###liveChatToggle
+www.wired.com##.paywall-bar__expanded
+www.wired.com##.paywall-bar--expanded.paywall-bar-failsafe
+||www.wired.com/images/cm/failsafe-images/cm-failsafe-box*.png$image
+www.wired.com##div.full-bleed-ad.row:nth-of-type(2) > .ad--mid-content.ad
+www.wired.com##div.full-bleed-ad.row:nth-of-type(4) > .ad--mid-content.ad
+www.wired.com##div.narrow.grid-layout--adrail.grid-items-2.grid-margins.grid:nth-of-type(5) > .grid-layout__aside.grid--item > .sticky-box > .sticky-box__primary > .ad--rail.ad
+www.wired.com##div.full-bleed-ad.row:nth-of-type(6) > .ad--mid-content.ad
+www.digitaltrends.com##.solid.callout.dtads-desktop.dtads-slot-hub.dtads-slot
+www.digitaltrends.com##div.solid.callout.dtads-slot-leaderboard.dtads-tablet.dtads-desktop.dtads-slot:nth-of-type(2)
+www.digitaltrends.com##div.solid.callout.dtads-slot-leaderboard.dtads-tablet.dtads-desktop.dtads-slot:nth-of-type(3)
+www.digitaltrends.com##div.solid.callout.dtads-slot-leaderboard.dtads-tablet.dtads-desktop.dtads-slot:nth-of-type(4)
+www.digitaltrends.com##div.solid.callout.dtads-slot-leaderboard.dtads-tablet.dtads-desktop.dtads-slot:nth-of-type(5)
+www.stickypassword.com##.eu-cookies
+www.digitaltrends.com##div.solid.callout.dtads-slot-leaderboard.dtads-tablet.dtads-desktop.dtads-slot:nth-of-type(6)
+www.roboform.com##.cookies-notification
+thewirecutter.com##._0121e291
+||neonnettle.com/assets/img/Whatfinger*.jpg$image
+||neonnettle.com/assets/img/sep-c-2.jpg$image
 
 ! AdGuard Home
 wpad.home
