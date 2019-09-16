@@ -32,3 +32,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * AdBlock
 * AdNauseam
 * AdLock ad blocker
+
+## Useful Resources
+
+* [`Redundant Rule Checker`](https://abpvn.com/ruleChecker/redundantRuleChecker.html) - Helps to remove  redundant cosmetic filters
