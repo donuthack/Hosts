@@ -16782,7 +16782,6 @@ voat.co##div.spacer:nth-of-type(12) > .sidecontentbox
 ||download.bitdefender.com/resources/themes/draco/images/suits3.png
 www.bitdefender.com##.start-chat
 www.bitdefender.com###startChat
-www.bitdefender.com###startChat > .container
 voiceofeurope.com##.goog-te-gadget.skiptranslate
 voiceofeurope.com###custom_html-8 > .widgettitle
 freerice.com###bottom-banner > .container_12
@@ -16800,19 +16799,13 @@ thetinhat.com##div.half.subbox:nth-of-type(4) > .follow
 ||ioshack.vip/img/navimg/png2.png
 ioshack.vip###toMenu
 ioshack.vip##[href="javascript:window.location.replace('#')"]
-ioshack.vip##.menu_05 > [href="#"]
 ioshack.vip##.menu_05
-ioshack.vip##.menu_04 > [href="#"]
 ioshack.vip##.menu_04
-ioshack.vip##.menu_03 > [href="#"]
 ioshack.vip##.menu_03
-ioshack.vip##.menu_02 > [href="#"]
 ioshack.vip##.menu_02
-ioshack.vip##.menu_01 > [href="#"]
 ioshack.vip##.menu_01
 www.marca.com###banda_suscripcion
 www.marca.com##section.row-layout:nth-of-type(2) > .container > .js_fixed_container.flex--4.flex-h > .flex__item-right
-www.marca.com##section.row-layout:nth-of-type(5) > .container > .b3AdButtom.flex-b.content-items > li.content-item:nth-of-type(2) > .mod-item
 www.marca.com##section.row-layout:nth-of-type(6) > .container > .flex-b.content-items > li.content-item:nth-of-type(3)
 www.marca.com##section.row-layout:nth-of-type(7) > .container > .flex-b.content-items > li.content-item:nth-of-type(2)
 www.marca.com##section.row-layout:nth-of-type(10) > .container > .js_fixed_container.flex--4.flex-h > .flex__item--4-4.flex__item
@@ -16837,17 +16830,10 @@ www.elmundo.es###js_525c44336843417a018b456c > div.ue-l-cover-grid:nth-of-type(5
 www.elmundo.es###js_526a4ff00ab740d72d8b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
 www.elmundo.es##div.ue-l-cover-grid__block:nth-of-type(2) > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
 www.elmundo.es##.flex__item-right
-www.elmundo.es###js_526f6ded63fd3d08308b4572 > section.row-layout:nth-of-type(2) > .container > .js_fixed_container.flex--4.flex-h > .flex__item-right
 www.elmundo.es###js_526ee60263fd3dc62f8b457a > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
 www.elmundo.es###js_587372d8268e3e62038b45ca > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
 www.elmundo.es###js_526eebc363fd3dd32f8b456f > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
 www.elmundo.es###js_525c3c760ab74099758b457a > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
-www.elmundo.es###js_52729c2461fd3d65798b4583 > section.row-layout:nth-of-type(2) > .container > .js_fixed_container.flex--4.flex-h > .flex__item-right
-www.elmundo.es###js_526a4ff00ab740d72d8b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
-www.elmundo.es###js_525c44336843417a018b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
-www.elmundo.es###js_526684c061fd3df14c8b4571 > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
-www.elmundo.es##div.ue-l-cover-grid__block:nth-of-type(4) > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
-www.elmundo.es##div.ue-l-cover-grid__block:nth-of-type(3) > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
 www.elmundo.es###js_526545e961fd3d1e4d8b456c > div.ue-l-cover-grid:nth-of-type(5) > .ue-l-cover-grid__inner > .ue-l-cover-grid__body > .ue-l-cover-grid__block > .ue-l-cover-grid__row > .size6of12.ue-l-cover-grid__column--center-aligned.ue-l-cover-grid__column--h600.ue-l-cover-grid__column
 www.bigmir.net##div.pb20.row:nth-of-type(2) > .col-24 > .side-block > .header-outer
 www.bigmir.net##div.pb20.col-lg-24.col-sm-12.col-24:nth-of-type(1)
@@ -16875,18 +16861,11 @@ www.2-spyware.com##.attention-button-header
 ||github.com/jpush/jmessage-flutter-plugin/blob/master/jmessage_flutter.iml
 ||github.com/jpush/jmessage-api-java-client/blob/master/pom.xml
 ||github.com/jpush/jpush-api-nodejs-client/blob/master/index.js
-||i0.wp.com/passivepromotion.com/wp-content/uploads/2016/02/feature_fm-side-banner.png
-||i0.wp.com/passivepromotion.com/wp-content/uploads/2016/02/feature_fm-side-banner.png?resize=300%2C656
-||i0.wp.com/passivepromotion.com/wp-content/uploads/2016/07/Radio-Airplay-banner-tall.png?w=1080
 ||i0.wp.com/passivepromotion.com/wp-content*
 ||file1.engineering.com/images/projects/728x90C4CGames-01.jpg
 www.pathfactory.com###pf-website-app > div > div > div:nth-of-type(1)
 www.pathfactory.com###pf-website-app > div > div > div:nth-of-type(2)
 www.pathfactory.com##.fa-close.fa
-www.hbo.com##.modules\/FollowHbo--top.modules\/FollowHbo--container > .modules\/FollowHbo--socialMediaLinks > li:nth-of-type(1)
-www.hbo.com##.modules\/FollowHbo--top.modules\/FollowHbo--container > .modules\/FollowHbo--socialMediaLinks > li:nth-of-type(2)
-www.hbo.com##.modules\/FollowHbo--top.modules\/FollowHbo--container > .modules\/FollowHbo--socialMediaLinks > li:nth-of-type(3)
-www.hbo.com##.modules\/FollowHbo--top.modules\/FollowHbo--container > .modules\/FollowHbo--socialMediaLinks > li:nth-of-type(4)
 www.hbo.com##.modules\/FollowHbo--topTitle.modules\/FollowHbo--light.modules\/FollowHbo--title
 www.hbo.com##.modules\/FollowHbo--top.modules\/FollowHbo--container
 reddit.com##div.fePAzF.ii4q9d-0:nth-of-type(2) > .faQIFi.s1tljykw-0.googad.box_ad.adsense-ad.ads-area.adbox1.adbar.ad-banner.ad-300-250.SidebarAd.LeftAd.InArticleAd.HomeAds.GoogleAd
@@ -16896,7 +16875,6 @@ dailywire.com##.fx-s-0-l.sidebar
 ||1.bp.blogspot.com/-cqrCfoOS--Q/W7ec5oPYDFI/AAAAAAAAyUo/_IIMzdWpFzEbDG4iuLyzaI9eHyE0-mPrgCLcBGAs/s300-e100/cybersecurity-infographic-min.jpg
 politico.com##.layout--fixed-fluid-fixed.container > div.container__column:nth-of-type(1)
 politico.com##.layout--fluid-fixed.container__row > div.container__column:nth-of-type(2)
-politico.com##div.container__column:nth-of-type(1) > .container__row > .container__slot
 politico.com##div.container__column:nth-of-type(1) > .container__row
 userscloud.com##.alert.alert-info:has-text
 multifilemirror.com##.noticeContainer:has-text
@@ -16916,7 +16894,6 @@ www.shockwave.com###ympb_slot__desktop-sticky-template-0
 www.shockwave.com###ympb_slot__desktop-medrec-template-2
 www.shockwave.com##.newPodContent.dsContainer > h2
 www.shockwave.com##.topDownGamePod
-www.shockwave.com###podDownloadGames > .newPodContent.podContent
 www.shockwave.com###podDownloadGames
 www.shockwave.com##.js-stickybit-parent.colLast.col4.col.Sidebar
 www.shockwave.com###wrapper > div:nth-of-type(1)
@@ -16924,7 +16901,6 @@ www.shockwave.com##.topGamesPodNoBkg.podContent > div.clearfix:nth-of-type(2)
 girlsgogames.com##.MrHp1.mpu.fancy.advert.col-l-1-3.col-m-1-2.grid-col
 girlsgogames.com##.MrHp2.mpu.fancy.advert.col-l-1-3.col-m-1-2.grid-col
 girlsgogames.com##.SsHp1.skyscraper.fancy.advert.col-l-1-3.col-m-1-2.grid-col
-akshatmittal.com##div.row:nth-of-type(7) > .col-sm-12 > .card > .card-block
 akshatmittal.com##.col-sm-12 > .p-t-0.text-center.card-block
 akshatmittal.com##div.row:nth-of-type(7) > .col-sm-12
 freegames.net^$popup
@@ -16932,7 +16908,6 @@ freegames.net##div#content-box:nth-of-type(6) > div:nth-of-type(1)
 freegames.net##div:nth-of-type(2) > div.underdogmedia-inpage:nth-of-type(2)
 freegames.net##div:nth-of-type(2) > div.underdogmedia-inpage:nth-of-type(1)
 freegames.net##div:nth-of-type(13) > .underdogmedia-inpage
-freegames.net##div#content-box:nth-of-type(10) > .underdogmedia-inpage
 freegames.net##div#content-box:nth-of-type(10)
 freegames.net###content > div:nth-of-type(13)
 freegames.net##div#content-box:nth-of-type(4)
@@ -17039,7 +17014,6 @@ imgrock.*##+js(popads.net.js)
 imgrock.*##+js(window.open-defuser.js)
 uptobox.com###adblocktrap
 uptobox.com##.ad-leader
-uptobox.com##.ad-leader > div[id]
 www.ca.com##.showButton.contact__button
 wordgames.com###ad-gamepage-leaderboard
 wordgames.com###skyscrapper-container
@@ -17133,7 +17107,6 @@ hdmovie14.net##.text_ad
 hdmovie14.net##.text_ads
 hdmovie14.net##.text-ads
 hdmovie14.net##.text-ad-links
-ria.ru##.antiblock
 ria.ru##div.section:nth-of-type(1) > .section__cell > .section__banner-column
 ria.ru##div.section:nth-of-type(2) > .section__cell > .section__banner-column
 ria.ru##div.section:nth-of-type(3) > .section__cell > .section__banner-column
@@ -17157,7 +17130,6 @@ blog.yoocare.com##.toppromo.container > small
 slightlyoffensive.com##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-227b603.elementor-element
 slightlyoffensive.com##.elementor-top-column.elementor-col-50.elementor-column.elementor-element-31a03f7.elementor-element
 ||www.iobit.com/tpl/images/diagnosis-call.png
-www.iobit.com##.call-bubble > h2
 www.iobit.com##.tel
 www.iobit.com##.device
 www.iobit.com##.call-bubble
@@ -17165,10 +17137,6 @@ bigleaguepolitics.com##.powerinbox.pi_117376
 bigleaguepolitics.com###mvp-content-main > h2
 bigleaguepolitics.com##.mvp-cont-read-wrap
 bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list
-bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list > .nolightbox.essb_link_linkedin.essb_item
-bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list > .nolightbox.essb_link_flipboard.essb_item
-bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list > .nolightbox.essb_link_twitter.essb_item
-bigleaguepolitics.com###essb_displayed_shortcode_77749864 > .essb_links_list > .nolightbox.essb_link_facebook.essb_item
 bigleaguepolitics.com##.essbasc-popup-content
 bigleaguepolitics.com##.ifklicked-subscribe-form-below
 bigleaguepolitics.com###enhancedtextwidget-15 > .widget-text.textwidget
@@ -17200,57 +17168,46 @@ educateiowa.gov###prefoot_row
 www.converto.io##.native_index_page
 www.converto.io##.share-block-xl > p
 s1.converto.io##.bordered.share-block-xl
-s1.converto.io##.share-block-xl.bordered
 s1.converto.io##.lkt > div:nth-of-type(4)
 s1.converto.io##.native_dl_page
 s1.converto.io##.like-and-share-btns.d-page
 s2.converto.io##.bordered.share-block-xl
-s2.converto.io##.share-block-xl.bordered
 s2.converto.io##.lkt > div:nth-of-type(4)
 s2.converto.io##.native_dl_page
 s2.converto.io##.like-and-share-btns.d-page
 s3.converto.io##.bordered.share-block-xl
-s3.converto.io##.share-block-xl.bordered
 s3.converto.io##.lkt > div:nth-of-type(4)
 s3.converto.io##.native_dl_page
 s3.converto.io##.like-and-share-btns.d-page
 s4.converto.io##.bordered.share-block-xl
-s4.converto.io##.share-block-xl.bordered
 s4.converto.io##.lkt > div:nth-of-type(4)
 s4.converto.io##.native_dl_page
 s4.converto.io##.like-and-share-btns.d-page
 s5.converto.io##.bordered.share-block-xl
-s5.converto.io##.share-block-xl.bordered
 s5.converto.io##.lkt > div:nth-of-type(4)
 s5.converto.io##.native_dl_page
 s5.converto.io##.like-and-share-btns.d-page
 s6.converto.io##.bordered.share-block-xl
-s6.converto.io##.share-block-xl.bordered
 s6.converto.io##.lkt > div:nth-of-type(4)
 s6.converto.io##.native_dl_page
 s6.converto.io##.like-and-share-btns.d-page
 s7.converto.io##.bordered.share-block-xl
-s7.converto.io##.share-block-xl.bordered
 s7.converto.io##.lkt > div:nth-of-type(4)
 s7.converto.io##.native_dl_page
 s7.converto.io##.like-and-share-btns.d-page
 s8.converto.io##.bordered.share-block-xl
-s8.converto.io##.share-block-xl.bordered
 s8.converto.io##.lkt > div:nth-of-type(4)
 s8.converto.io##.native_dl_page
 s8.converto.io##.like-and-share-btns.d-page
 s9.converto.io##.bordered.share-block-xl
-s9.converto.io##.share-block-xl.bordered
 s9.converto.io##.lkt > div:nth-of-type(4)
 s9.converto.io##.native_dl_page
 s9.converto.io##.like-and-share-btns.d-page
 s10.converto.io##.bordered.share-block-xl
-s10.converto.io##.share-block-xl.bordered
 s10.converto.io##.lkt > div:nth-of-type(4)
 s10.converto.io##.native_dl_page
 s10.converto.io##.like-and-share-btns.d-page
 realclearpolicy.com##.distro_spot
-www.realclearpolicy.com##.distro_spot
 stardomplace.com##.cookie-notice-container
 stardomplace.com##.footer-widgets.first-footer-widgets.widgets-num-4
 ||discord.me/img/discover_discord.png
@@ -17272,7 +17229,6 @@ youbentmywookie.com##div.banner_side:nth-of-type(7)
 ||youbentmywookie.com/wookie/banners/310x280/wookie_block_ad-bikesaw.jpg$image
 youbentmywookie.com##div.banner_side:nth-of-type(1)
 www.digminecraft.com###sabl
-www.digminecraft.com##.bottom_slot.slot > p
 www.digminecraft.com###third_slot
 www.digminecraft.com##.bottom_slot.slot
 ||lastpass.com/m.php/analyticsjs
@@ -17331,8 +17287,6 @@ bigleaguepolitics.com##.udmIgnore
 msn.com##iframe[src="about: blank"]
 ||c.msn.com/c.gif?
 mashable.com##.sidebar.box-cell
-mashable.com##div.page-container:nth-of-type(3) > .body > .article-container.flex-box > .sidebar.box-cell
-mashable.com##div.page-container:nth-of-type(4) > .body > .article-container.flex-box > .sidebar.box-cell
 www.technologyreview.com##.signup-wrapper.jsx-2623490083
 www.technologyreview.com##.meter.jsx-1767533962
 thenextweb.com##.lazy.wp-image-1207492.size-full.aligncenter
@@ -17341,14 +17295,11 @@ www.dictionary.com###dcom-serp-bottom-lb-728x90
 www.dictionary.com###dcom-serp-lb-728x90
 www.forbes.com##.ntv-wrapper
 www.forbes.com##h2
-mathplayground.com###header_container2 > div:nth-of-type(1)
 mathplayground.com###bigadd
 mathplayground.com###header_container2
 mathplayground.com##.col-home-add-right
 www.britannica.com###marketing-INSIGHTS_SEARCHBOX_DRIVER > .mx-lg-75.text-center.md-chrome-extension-promo
-www.britannica.com##.pl-80.p-15
 britannica.com##.p-15.pl-80
-www.ably.io##.c-dialog--cookies.c-dialog
 ably.io##.c-dialog.c-dialog--cookies
 theguardian.com##.aside-slot-container.js-aside-slot-container
 theguardian.com##.site-message.js-site-message.site-message--engagement-banner.site-message--banner
@@ -17365,19 +17316,11 @@ calculatorsoup.com##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.c
 www.usnews.com##div.byiZm.Box-s85n6m5-0:nth-of-type(2) > div > .kNkoGx.Box-s85n6m5-0.ioxvwV.Ad__Container-cohcnl-0.cCSjAp.Hide-s18sxv0v-0
 www.usnews.com##div.byiZm.Box-s85n6m5-0:nth-of-type(5) > div > .kNkoGx.Box-s85n6m5-0.ioxvwV.Ad__Container-cohcnl-0.cCSjAp.Hide-s18sxv0v-0
 usnews.com.Ad__Container-cohcnl-0.jaXlWV.Box-s85n6m5-0.kNkoGx
-www.nourishinteractive.com##.location_page_top.annerbay
-www.nourishinteractive.com##.location_page_right1.annerbay
-www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(1) > .title
 www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(1)
-www.nourishinteractive.com##.location_page_right4.annerbay
-www.nourishinteractive.com##.location_page_right5.annerbay
-www.nourishinteractive.com##.location_page_left2.annerbay
-www.nourishinteractive.com##.location_page_left4.annerbay
 www.nourishinteractive.com##div.ten_top.filled.center_all.box:nth-of-type(8)
 www.nourishinteractive.com##div.ten_top.filled.center_all.box:nth-of-type(7)
 www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(4)
 www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(3)
-www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(5) > .title
 www.nourishinteractive.com##div.filled.center_all.box:nth-of-type(5)
 nourishinteractive.com##.location_page_top
 nourishinteractive.com##.location_page_right1
@@ -17392,8 +17335,6 @@ google.com$domain=techworld.com
 www.today.com##.pkg-index-8.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.mainColumn___9Tp3L.columnsWrapper___3OmzC > .adColumnRight___E1E5V.grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 www.today.com##.pkg-index-12.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.columnsWrapper___3OmzC > .grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 www.today.com##.pkg-index-4.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.columnsWrapper___3OmzC > .grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
-www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___14Hjt.rail > .railWrapper___OPma9 > .railContent___d7gAe
-www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___14Hjt.rail > .railWrapper___OPma9
 www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___14Hjt.rail
 www.today.com##.pkg-index-16.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.mainColumn___9Tp3L.columnsWrapper___3OmzC > .adColumnRight___E1E5V.grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 google.com$domain=indiatimes.com
@@ -17468,9 +17409,7 @@ www.nydailynews.com###f0bhRaoY4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
 www.nydailynews.com##.sticky-leaderboard-front-page.sticky-leaderboard.relative.hidden-tablet.hidden-mobile.ad-320x50.pb-ad-prod.pb-ad
 www.nydailynews.com###cKpw121Y4SVerr
 www.nydailynews.com###fBKuHj1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
-www.nydailynews.com###f0PQG9DY4SVerr > .relative.ad-320x50.pb-ad-prod.pb-ad > .uppercase.align-center.ad-caption-text
 www.nydailynews.com###f0PQG9DY4SVerr > .relative.ad-320x50.pb-ad-prod.pb-ad
-www.nydailynews.com###fg5hDk1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad > .uppercase.align-center.ad-caption-text
 www.nydailynews.com###fg5hDk1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
 www.nydailynews.com###fmj28T1Y4SVerr > .relative.ad-300x250.pb-ad-prod.pb-ad
 solarmovie.id/user/userbox?
@@ -17503,7 +17442,6 @@ www.minecraftforge.net###cdm-zone-04
 www.minecraftforge.net##div:nth-of-type(3) > .promo-container-framed.promo-container
 www.minecraftforge.net###cdm-zone-02
 www.minecraftforge.net##.sidebar-right > div:nth-of-type(1) > .promo-container-framed.promo-container
-www.minecraftforge.net##li.ipsBox.ipsWidget_vertical.ipsWidget:nth-of-type(1) > .ipsPad.ipsWidget_inner
 www.minecraftforge.net###cdm-zone-01
 www.minecraftforge.net##li.ipsBox.ipsWidget_vertical.ipsWidget:nth-of-type(1)
 www.minecraftforge.net##.sidebar-wrapper-content > div:nth-of-type(1) > .promo-container-framed.promo-container
@@ -17546,7 +17484,6 @@ us.api.iheart.com/api/v3/collection/user/*/collection
 leads.radioedit.iheart.com/api/cards?country
 us.api.iheart.com/api/v2/content/markets?countryCode
 www.iheart.com##.growl-0.ui-on-dark.growl
-www.tomshardware.com###widgetArea4 > .space-l
 www.tomshardware.com###widgetArea4
 www.tomshardware.com###widgetArea14
 www.tomshardware.com###responsive_ad
@@ -17563,8 +17500,6 @@ ipleak.net/iplayer
 www.diorama.ch/pages/intro.php
 cengage.com/images/spacer_tr.gif
 fast.wistia.net/assets/images/blank.gif
-zillakgames.com##.panel-info.panel > .panel-heading
-zillakgames.com##.panel-info.panel > .panel-body
 zillakgames.com##.panel-info.panel
 zillakgames.com##.avcms-module-position > .box > .box-main
 zillakgames.com##.user-area.col-md-push-6.col-md-6
@@ -17578,7 +17513,6 @@ spclient.wg.spotify.com/metrics-backend/v1/metric
 gew-spclient.spotify.com/melody/v1/logging/jssdk_warning
 www.bitrix24.com##.bxst-main-cookie-policy__slide-bar
 ||www.bitrix24.com/bitrix/templates/bitrix24_2017/images/features-slider/clouds-bg.png$image
-www.bitrix24.com##.b24-widget-button-icon-animation.b24-widget-button-inner-item > .b24-crm-button-icon
 www.bitrix24.com##.b24-widget-button-icon-animation.b24-widget-button-inner-item
 www.bitrix24.com##.b24-widget-button-icon-container
 www.bitrix24.com##.b24-widget-button-inner-block
@@ -17604,21 +17538,13 @@ www.naturalnews.com##.post-nav-prev
 ||www.naturalnews.com/images/Groovy-Bee-Detox-Foot-Pads-2-UAB.jpg$image
 ||www.naturalnews.com/images/Groovy-Bee-Detox-Foot-Pads-1-UAB.jpg$image
 www.naturalnews.com##.PWTISZAOQULB
-||www.naturalnews.com/images/Groovy-Bee-Detox-Foot-Pads-1-UAB.jpg$image
-||www.naturalnews.com/images/Groovy-Bee-Detox-Foot-Pads-2-UAB.jpg$image
-www.naturalnews.com##.IFZYCBHJWQGD > div:nth-of-type(1)
 www.naturalnews.com##.IFZYCBHJWQGD
 www.naturalnews.com##[href="WBA-4230.html"]
 www.naturalnews.com##[href="WBA-4231.html"]
-www.naturalnews.com##.WHGVUJZIAOKB > div:nth-of-type(1)
 www.naturalnews.com##.WHGVUJZIAOKB
-www.naturalnews.com##.ZIMWELJQUHXG > div:nth-of-type(1)
 www.naturalnews.com##.ZIMWELJQUHXG
-www.naturalnews.com##.JAKSPXCOYFGZ > div:nth-of-type(1)
 www.naturalnews.com##.JAKSPXCOYFGZ
-www.naturalnews.com##.AYLWBMJRHOQC > div:nth-of-type(1)
 www.naturalnews.com##.AYLWBMJRHOQC
-www.naturalnews.com##.DJLMTZPRQAIB > div:nth-of-type(1)
 www.naturalnews.com##.DJLMTZPRQAIB
 www.health.news##.GTBDANZLMHRP
 ||www.brighteon.com/embed/6045859099001$subdocument
@@ -17635,7 +17561,6 @@ summit.news###mvp-comments-button
 www.climate.news##.NavigationContainer
 www.climate.news##.UnderNavigationContainer
 www.sohu.com##.groom-read > .title
-www.sohu.com###main-news > .clear
 www.sohu.com###main-news
 cgi.connect.qq.com/report
 ui.ptlogin2.qq.com/cgi-bin/report
@@ -17653,12 +17578,10 @@ www.ctpost.com##.twelve-12.twelve-9.article-footer
 odb.org##.social-item-layout
 odb.org##footer.no-print > div:nth-of-type(1) > div:nth-of-type(2)
 www.download-anymovie.com###e9 > div
-www.downloads-anymovies.com###e12 > div
 www.downloads-anymovies.com###e12
 www.iwin.com###switch-systems-modal > .modal-dialog > .modal-content
 zone.msn.com###SuperBanner_div
 zone.msn.com##.superbanner
-www.myrealgames.com##.responsive_category_top_padding.mb-3.mt-4.mobile_ad_correct.adWords-bg.container-fluid > .p-1.container
 www.myrealgames.com##.responsive_category_top_padding.mb-3.mt-4.mobile_ad_correct.adWords-bg.container-fluid
 www.myrealgames.com##.responsive_category_bottom_padding.mb-3.mt-4.mobile_ad_correct.adWords-bg.container-fluid
 toomkygames.com##.AdSmain336x280
@@ -17694,7 +17617,6 @@ www.americanlibertyreport.com##.row > hr.ad-divider-hr:nth-of-type(1)
 www.americanlibertyreport.com##.footer
 www.americanlibertyreport.com###main > div:nth-of-type(2)
 www.americanlibertyreport.com###main > hr.ad-divider-hr:nth-of-type(1)
-www.americanlibertyreport.com##.mpw-inline > div
 www.americanlibertyreport.com##.mpw-inline
 ||bestfollowers.in/assets/scripting.min.js
 www.minecrafthackedclients.com##div.section:nth-of-type(3)
@@ -17703,9 +17625,6 @@ www.minecrafthackedclients.com##div.section:nth-of-type(3)
 echotrafficclub.com###meme_cookie_consent
 ||wz.8286777.com/style/img/wxa.gif$image
 ||s3.amazonaws.com/ssl-intgr-net/prebid/74.js
-||www.roblox.com/user-sponsorship/1
-||www.roblox.com/user-sponsorship/2
-||ecsv2.roblox.com/www/e.png?
 myownconference.com##.bg-co-ag.co-ag.container-fluid > .row
 www.roblox.com##li.sponsored-game.game-card.list-item:nth-of-type(*) > .game-card-link.game-card-container
 www.roblox.com##li.sponsored-game.game-card.list-item:nth-of-type(*)
@@ -17726,9 +17645,7 @@ www.christianitytoday.com##.u-cf.header-content
 www.cjnews.com##.open.overlay
 www1.cbn.com##.poll-cover
 www1.cbn.com###poll-block
-www.govtrack.us###fundraise_modal > .modal-lg.modal-dialog > .modal-content > .modal-body
 www.govtrack.us###fundraise_modal_title
-www.govtrack.us###fundraise_modal > .modal-lg.modal-dialog > .modal-content > .modal-header
 www.govtrack.us###fundraise_modal
 www.govtrack.us##.in.fade.modal-backdrop
 www.amny.com##div.promo.span2.mod:nth-of-type(29)
@@ -17754,9 +17671,6 @@ www.jiosaavn.com##.site-message-container
 ||www.cnn.com/data/ocs/section/index.html:*.json
 ||duckduckgo.com/t/sl_h
 ||apple.com/metrics/
-||apple.com/metrics/ac-analytics/
-||www.apple.com/metrics/
-||www.apple.com/metrics/ac-analytics/
 ||www.apple.com/ac/globalnav/4/en_US/scripts/ac-globalnav.built.js
 www.cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia > .el__storyelement--standard
 ||npttech.com/advertising.js
@@ -17765,8 +17679,6 @@ www.cnn.com##.el__leafmedia--standard.el__leafmedia--factbox.el__leafmedia > .el
 4chan.org##.adg
 ||digg.com/api/analytics/
 ||medicalnewstoday.com/structure/framework/main/article/mobile_newsletter_modal.php
-||api.github.com/_private/browser/errors
-||api.github.com/_private/browser/stats
 ||api.github.com/_private/browser/
 ||amazon.*/empty.gif
 ||producthunt.com/manifest.json
@@ -17786,7 +17698,6 @@ mail.yahoo.com##.e_dRA.r_P.q_Z281SGl.p_R
 mail.yahoo.com##.Y_eTB.E_A.Q_A.W_3vVYr.C_Z1VRpVF.A_6EqO > span
 ||mail.yahoo.com/d/video_api/getVideos?$important
 ||mail.yahoo.com/d/log
-||amazon.*/gp/uedata?
 ||amazon.*/ah/ajax/counter?
 ||irs.gov/pub/empty.js
 ||usa.gov/js/modal.js$important
@@ -17848,7 +17759,6 @@ thedailybeast.com###react-mount-point > main.HomePage > footer.Footer.Footer--ad
 www.expertreviews.co.uk###sp_message_panel_id*
 www.expertreviews.co.uk###sp_message_id*
 www.expertreviews.co.uk##.sp_veil*
-||adorama.com/artworks2/spcr.gif$domain=kenrockwell.com
 ||adorama.com/artworks2/spcr.gif
 ||photographyblog.com/_js/badb.js
 ||photographyblog.com/geo/country
@@ -17859,7 +17769,6 @@ adobedtm.com$domain=pandora.com
 www.usa.gov##.usa-footer-big-secondary-section.usa-footer-secondary_section
 www.usajobs.gov##.usa-footer-return-to-top.usa-grid
 ||filmora.wondershare.com/images/seasonal/win-a-trip-pairs-bottom.jpg$image
-filmora.wondershare.com##.with-hand.text-center.text-steel.bg-white.seasonal-close > .fm-close.fm
 filmora.wondershare.com##.with-hand.text-center.text-steel.bg-white.seasonal-close
 npcdaily.com###tie-block_1776 > .container-wrapper
 npcdaily.com###stream-item-widget-6
@@ -17901,10 +17810,6 @@ www.nytimes.com##.css-i29ckm
 ||azcentral.com/services/breaking-news/nav-bar/?
 ||spc.myvzw.com/ium-roadrunnerinterface/servlet/iumservlet
 ||google.com/dfp/
-||google.com/dfp/inapppreview
-||google.com/dfp/debugsignals
-||google.com/dfp/senddebugdata
-||google.com/dfp/linkdevice
 ||api.t-mobile.com/v1/logs
 ||static01.nyt.com/ads/google/adsbygoogle.js$important,third-party
 ||news.google.com/_/DotsSplashUi/jserror?
@@ -17924,9 +17829,7 @@ www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(10)
 www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(11)
 www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(12)
 www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(13)
-www.oxfordonlineenglish.com##.ui-dialog-buttons.oxf-login.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog > .ui-helper-clearfix.ui-widget-content.ui-dialog-buttonpane
 ||www.oxfordonlineenglish.com/wp-content/plugins/ooe-login-reg-sendy/images/ui-bg_highlight-soft_100_deedf7_1x100.png$image
-www.oxfordonlineenglish.com##.ui-dialog-buttons.oxf-login.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog > .ui-helper-clearfix.ui-corner-all.ui-widget-header.ui-dialog-titlebar
 www.oxfordonlineenglish.com##.ui-dialog-buttons.oxf-login.ui-front.ui-corner-all.ui-widget-content.ui-widget.ui-dialog
 www.oxfordonlineenglish.com##.sticky-wrapper
 www.oxfordonlineenglish.com###repuso_floating_iframe
@@ -17937,7 +17840,6 @@ www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(17)
 www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(18)
 www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(19)
 www.crestonnews.com##div.center.innertube.roadblock:nth-of-type(20)
-www.crestonnews.com##.ownlocal-widget > iframe
 www.crestonnews.com##.ownlocal-widget
 www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(1) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(2)
 www.crestonnews.com##main#main.automarg.viewport.desktop.flex:nth-of-type(1) > .article > .desktop.flex.article-body > .side > div.innertube:nth-of-type(3)
@@ -17963,7 +17865,6 @@ www.record.pt##.mt-4.leaderboard_footer.container
 ||dailymail.co.uk/rta2/v-0.45.min.js
 ||dailymail.co.uk/static/mol-adverts/
 ||dailymail.co.uk/static/mol-fe/static/mol-fe-async-bundle//5.13.4/articleDefer.js
-||dailymail.co.uk/static/mol-adverts/1428/mol-adverts.js
 ||i.dailymail.co.uk/i/furniture/articles/spt_socialicons_40x40eachbttn9.png
 ||dailymail.co.uk/manifest.json
 ||dailymail.co.uk/static/gunther/17.11.0/async_bundle--.js
@@ -17971,7 +17872,6 @@ www.record.pt##.mt-4.leaderboard_footer.container
 discordapp.com##+js(abort-on-property-write.js, Fingerprint2)
 www.dailymail.co.uk##.facebook-like-static
 www.dailymail.co.uk###infinite-list > .wocc
-www.dailymail.co.uk##.rc-content > .link-ccow.rc-header
 www.dailymail.co.uk##.comment-form.bogr1
 www.dailymail.co.uk###reader-comments > .link-ccow.rc-header
 www.dailymail.co.uk##.rc-info.wogr5.pad5.bold
@@ -17997,7 +17897,6 @@ www.dailymail.co.uk##.module.puff_pastel.item.tvshowbiz
 ||static.parastorage.com/services/third-party$font
 ||static.parastorage.com/cdn_detect$third-party
 ||static.parastorage.com/unpkg/react@16.6.3/umd/react.production.min.js
-||static.parastorage.com/unpkg/react@16.6.3/umd/react.production.min.js
 ||static.parastorage.com/unpkg/react-dom@16.6.3/umd/react-dom.production.min.js
 ||bbthat.com/api/alerts?site
 ||neonnettle.com/assets/js/nn-ck.js
@@ -18009,7 +17908,6 @@ cydiageek.yourepo.com###YouRepoInfo
 www.yourepo.com###YouRepoInfo
 www.castanet.net###s3mr > .d300250
 www.castanet.net###s21 > .d300250
-www.castanet.net###s23 > div:nth-of-type(1)
 www.castanet.net###s23
 www.castanet.net##.d300100
 www.castanet.net###frame > div:nth-of-type(5)
@@ -18037,19 +17935,11 @@ developer.mozilla.org###mdn-cta-collapse
 neonnettle.com###mc_embed_signup_scroll
 ||antutu.com/html5/js/stats.min.js
 ||phaser.io/css/carbon.css
-||videopal.me/embed/SDreNtpKSsEb?referer=http%3A%2F%2Fwww.videopal.io%2Fwelcome%2F$subdocument
 www.mylivechat.com##.mylivechat_offline
 www.mylivechat.com##.mylivechat_main
 www.mylivechat.com##.mylivechat_expanded_text
 www.mylivechat.com##.mylivechat_expanded
-||trafficg.com/images/BottomCol2Back2.gif$image
-trafficg.com##.Center.Back2 > tbody > tr > td:nth-of-type(3)
-||trafficg.com/images/BottomCol1Back.gif$image
-trafficg.com##.Center.Back2 > tbody > tr > td:nth-of-type(1)
 community.spiceworks.com##.community-content-card.in-the-community
-community.spiceworks.com##.community-content-banner
-||www.fixmypcfree.com/wp-content/uploads/2018/09/1-3.jpg$image
-www.alibaba.com###J-ali-sidebar
 www.breitbart.com##.notify-optin-wrap
 shadowban.eu###toast-container
 ||steam.tv/broadcast/heartbeat/
@@ -18107,7 +17997,6 @@ deadline.com##.u-flex.pmc-a-grid-item.\/\/.header__actions
 ||icr-am.asus.com/webchat
 ||asus.com/js/2015/alert-info.js
 ||asus.com/css/2015/alert-info.css
-||dlcdnimgs.asus.com/css/2015/alert-info.css
 ||googletagmanager.com^$important,third-party
 ||google-analytics.com^$important,third-party
 ||rog.asus.com/js/jquery.snsShare.js
@@ -18148,7 +18037,6 @@ expressvpn.com##.button.button-facebook
 expressvpn.com##.button.button-twitter
 expressvpn.com##.button.button-email
 foxnews.com##.alert.ad-blocker
-foxnews.com##.ad-container.desktop.ad-h-250
 foxnews.com###trc_wrapper_26351
 foxnews.com##.trc_rbox.thumbnails-a.trc-content-sponsored
 foxnews.com##.ad-container.desktop
@@ -18180,7 +18068,6 @@ cnn.com##.zn.zn-homepage4-zone-5.zn-balanced.zn--ordinary.t-light.zn-has-one-con
 rt.com##.extension-browser.extension-browser__chrome
 rt.com##.cookies__banner.js-cookies-banner.cookies-banner-shown
 rtd.rt.com##.cookie-banner.js-cookie-banner.cookie-banner_shown
-rt.com##.news-block.news-block_padding_size_normal
 historyonthenet.com##.bcToasterTemplate.bcMediumInput
 historyonthenet.com##.fb_digioh-overlay.fb_digioh-overlay-fixed
 historyonthenet.com###lightbox-iframe-var-79b0c71b-2812-490f-a5b2-363643a05de8
@@ -18256,7 +18143,6 @@ civilwar.mrdonn.org##.cc_banner.cc_container.cc_container--open
 thoughtco.com##.comp.has-right-label.js-lazy-ad.leaderboard-deferred-footer.leaderboard.mntl-flexible-leaderboard.mntl-flexible-ad.mntl-gpt-adunit.gpt.dynamic.is-requested
 civilwar.mrdonn.org##.cc_banner-wrapper
 civilwar.mrdonn.org##.right_column
-civilwar.mrdonn.org##.ezoic-ad.box-4.adtester-container.adtester-container-107
 civilwar.mrdonn.org###div-gpt-ad-mrdonn_org-medrectangle-3-0
 civilwar.mrdonn.org##.ezoic-ad
 civilwar.mrdonn.org##.ad_large-rectangle
@@ -18284,7 +18170,6 @@ quillette.com##.hide-on-button.ads-active
 quillette.com###adwidget_htmlwidget-29
 quillette.com##.widget.AdWidget_HTMLWidget
 quillette.com###custom_html-2
-quillette.com##.widget_text.widget.widget_custom_html
 quillette.com###text-3
 quillette.com##.widget.widget_text
 amgreatness.com##.publir_broadcast
@@ -18381,7 +18266,6 @@ www.scribens.com###cont > .light-color > .container > .row
 www.scribens.com##.main-color.pb.pt-medium
 ||google.com$ping
 ||shopping.google.com/logbounceevent
-||calendar.google.com$ping
 ||play.google.com/log
 duckduckgo.com##.badge-link__cookie-msg
 duckduckgo.com##.results--sidebar.js-results-sidebar
@@ -18404,7 +18288,6 @@ reddit.com###overlay-sidebar-atf-0
 androidcentral.com##.pushwoosh-subscribe-widget__bell-button
 androidcentral.com##.page-header.clearfix.clearfixb
 dailywire.com##.section-title-sm
-dailywire.com##.section-title-sm.d-n-s.d-n-m
 habari.co.tz###chat-application-iframe
 ||b.cdnst.net/javascript/amazon.js
 ||b.cdnst.net/api/downdetector-eot?
@@ -18426,7 +18309,6 @@ jubii.dk##.cookie-details
 jubii.dk##.set-cookie.hide-entire-cookie-bar
 jubii.dk###innerCookieBanner
 jubii.dk##.card-story.size-2.no-bg
-rambler.ru##.acvtuj._hvloycrp
 rambler.ru##._1I-d
 howstuffworks.com##.w-100.hsw-carousel-feature-wrap
 howstuffworks.com##.module.rail-module.mb-4.w-100
@@ -18500,7 +18382,6 @@ internxt.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom.cc-c
 ||s.yimg.com/rq/darla/*/html/r-sf.html
 ||app.vidiq.com/v0/facebook/configurations/active?
 ||cloudflare.com/ajax/libs/cookieconsent2/
-internxt.com##div.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom.cc-color-override-1212131424:first-child
 usatoday.com##.storybottombar-bucket, .taboola-related-module, .story-taboola-related-module
 usatoday.com##.partner-placement, .partner-overlay-top-ad, .partner-has-min-height
 yahoo.com###mega-banner
@@ -18527,7 +18408,6 @@ about:blank$domain=pornhub.com
 pornhub.com###hd-leftColVideoPage > div.video-wrapper:first-child > div.bh2g051hregrk7lc1mr.bh2g051hregrk7lc1mu.hd.clear:nth-child(2)
 pornhub.com###hd-leftColVideoPage > div.video-wrapper:first-child > div.lq50qf9lwubvur.lq50qf9lwubvuu.hd.clear:nth-child(2)
 vpnmentor.com##div.modalbg.share-blog-modal:nth-child(6)
-theguardian.com##div.site-message.js-site-message.site-message--banner.site-message--first-pv-consent.site-message--permanent:nth-child(9)
 techcrunch.com###tc-main-content > div.content-wrap:last-child > div.content:first-child > div.river.river--homepage:last-child > div:first-child > div.post-block:nth-child(11)
 androidcentral.com###article-78368 > div.row:first-child
 androidcentral.com##.share__list
@@ -18537,7 +18417,6 @@ theguardian.com###dfp-ad--inline1
 theguardian.com##.site-message.js-site-message.site-message--banner.site-message--first-pv-consent.site-message--permanent
 www.youtube.com##.vidiq-social-stats-upsell
 desmoinesregister.com##.hydrated
-cludo.com##.swal2-popup.swal2-modal.cookie__modal.swal2-show
 ||panopticlick.eff.org/static/zig.js
 ||support.startpage.com/cron/index.php?
 ||startpage.com/assets/js/index.js?
@@ -18561,7 +18440,6 @@ panopticlick.eff.org##+js(abort-on-property-write.js, Fingerprint2)
 kdsm17.com##div.sd-page-wrapper.v2:last-child > div.sd-main-wrapper.sd-page-width:first-child > div.row:last-child > div.sd-main.col-xxs-24 > div.row > div.sd-main-content.col-xxs-24.col-md-18:first-child > div.component-teaser-medium_with_inline_ddb-v1.sd-component:last-child
 desmoinesregister.com###module-position-SBd98psi8jM
 q13fox.com###acm-tag-300x250-atf
-q13fox.com##.prebid.ad-wrapper
 q13fox.com###acm-tag-300x250-btf0
 q13fox.com###acm-tag-300x250-btf3
 q13fox.com###acm-tag-300x250-mid
@@ -18577,20 +18455,15 @@ aftenposten.no##.widgets.widget-salesposter
 aftenposten.no###brand-studio-video-ap > iframe.premium-spot
 aftenposten.no##.no-background
 aftenposten.no##.standard-ad-container
-cludo.com##.swal2-popup, .swal2-modal, .cookie__modal, .swal2-show
-kupi.cz##.middle_it_bricks, .middle_leaflet, .pos_middle_leaflet
 uk.reuters.com###content > div:first-child
 dailycaller.com##.adcontainer
-dailycaller.com##div.dc-sticky.sticky-footer.fixed.w-full.left-0.bottom-0.border-t.border-grey-light.z-10:nth-child(5) > div.text-center.p-2.relative
 dailycaller.com###dailycaller_top
 ||sa.etp-prod.com/analytics.js
-dailycaller.com###dailycaller_top
 dailycaller.com##.ad
 dailycaller.com##.text-center.p-2.relative
 ||my.foxnews.com/xd-channel.html
 fossbytes.com##.ai-adb-show, .ai-no-tracking
 ||als-svc.nytimes.com/als?
-fossbytes.com##.ai-adb-show, .ai-no-tracking
 cryptoglobe.com##.g-pt-30.g-pb-30.text-center
 ||clients*.brave.com/invalidation/lcs/request?service=
 ||clients*.brave.com/invalidation/lcs/client?service=
@@ -18617,7 +18490,6 @@ theguardian.com##.js-first-pv-consent-site-message.site-message--first-pv-consen
 pressgazette.co.uk##.eupopup-container.eupopup-container-bottom.eupopup-color-default
 pressgazette.co.uk##.header-leaderboard.desktop-banner
 pressgazette.co.uk##.â€œad-blocker-messageâ€
-pressgazette.co.uk##.sidebar-item.mpu
 pressgazette.co.uk##.sidebar-item
 pressgazette.co.uk##.post-a-job
 libraryjournal.com###advertisement
@@ -18695,13 +18567,9 @@ azcentral.com##.sidebar-content.taboola-sidebar-content.home
 azcentral.com##.sidebar-title-wrapper.taboola-sidebar-title-wrapper
 azcentral.com###ad-position-37
 azcentral.com##.partner-placement.flm-ad-position.flm-ad-position-mediumrectangle
-azcentral.com##.flm-ad.flm-item-4.flm-ad-mediumrectangle
-azcentral.com##.flm-ad.flm-item-12.flm-ad-mediumrectangle
 azcentral.com##.nscm-container
-azcentral.com##.flm-ad.flm-item-20.flm-ad-mediumrectangle
 azcentral.com###module-position-6
 azcentral.com##.obituaries-legacy-module.obituaries-legacy-card-module.obituaries-legacy-primary.obituaries-legacy-primary-module.primary-module.primary-module-border.primary-module-front-list-sidebar-page.card-primary.dr-styling
-azcentral.com##.flm-ad.flm-item-28.flm-ad-mediumrectangle
 azcentral.com##.flm-ad
 azcentral.com###ad-position-
 azcentral.com##.partner-placement.partner-leaderboard-front
@@ -18723,7 +18591,6 @@ realclearpolitics.com##.RC-AD-SHOW-NOW.RC-AD-BOX-BOTTOM.lazyloaded
 slate.com###hp-leaderboard-mid-1
 slate.com##.ad.ad--desktopOnly.ad--leaderboard
 theindependent.com###fixed-leaderboard-top
-theindependent.com##.tnt-ads.dfp-ad.dfp-ad-lite
 theindependent.com###breakout_middle
 theindependent.com##.tnt-ads.dfp-ad
 vox.com##.adblock-whitelist-messaging__wrapper
@@ -18734,7 +18601,6 @@ bearingarms.com##.newsletter-sign-up
 washingtonexaminer.com##.Page-above.content-above.pb-3.mb-3.d-flex.justify-content-center
 washingtonexaminer.com##.ThreeColumnContainer-columnThree.col-md-4
 ||tulsa.scoreyourdeal.com/widgets.php?
-||bloximages.chicago2.vip.townnews.com/theindependent.com/content/tncms/assets/v3/editorial/1/1d/11db58ca-969b-11e9-9c01-3b2b436f8943/5d10f6e533ffd.image.png
 ||local.tampabay.com/places/widget/widget:1/type:300x250
 firearmsnews.com##.ad-wrapper.full-width
 firearmsnews.com###consent
@@ -18744,15 +18610,12 @@ nationalinterest.org##.sliding-popup-bottom
 tass.com###desk_vb_top2
 tass.com##.adsSlot-slot
 tass.com##.main-news__ad.d-none.d-lg-flex
-tass.com##.section-grid__col.section-grid__col-right.section-grid__col-right_banner
 tass.com##.section-grid__col.section-grid__col-right
-tass.com##.section-grid__col.section-grid__col-left.press-review__column_lg
 tass.com##.section-grid__col.section-grid__col-left
 reason.com###Reason_970x250_970x90_728x90_300x250_Top_Leaderboard_HP
 reason.com##.advertisement.ad-h-90
 realclearpolicy.com##.RC-AD.RC-AD-BOX-TOP
 tulsaworld.com###fixed-leaderboard-top
-tulsaworld.com##.tnt-ads.dfp-ad.dfp-ad-lite
 tulsaworld.com###breakout_middle
 tulsaworld.com##.tnt-ads.dfp-ad
 thecentersquare.com###ad-656098
@@ -18775,9 +18638,6 @@ tampabay.com##.cookie-notice
 tampabay.com##.cookie-notice-wrapper
 tampabay.com##.advertising__slug
 ||kit.fontawesome.com^$script
-||connect.facebook.net/en_US/sdk.js
-||connect.facebook.net/fr_FR/sdk.js
-||connect.facebook.net/ru_RU/sdk.js
 ||connect.facebook.net/*/sdk.js
 ||api.nextsale.io/client/ping-old?callback=
 ||goaffpro.com/loader.js?shop=
@@ -18808,13 +18668,9 @@ affinitymagazine.us##.mvp-widget-latest-side
 affinitymagazine.us###mvp-side-wrap
 affinitymagazine.us##.relative.theiaStickySidebar
 birminghammail.co.uk###div-gpt-ad-top-slot
-birminghammail.co.uk##.gpt.top-slot
 birminghammail.co.uk###div-gpt-ad-rh-slot
-birminghammail.co.uk##.gpt.in-section
 birminghammail.co.uk###div-gpt-ad-bottom-slot
-birminghammail.co.uk##.gpt.bottom-ad-slot
 tucson.com###fixed-leaderboard-top
-tucson.com##.tnt-ads.dfp-ad.dfp-ad-lite
 tucson.com###ad-1620785
 tucson.com##.tnt-ads.dfp-ad
 tucson.com##.col-sm-6.col-sm-pull-6.col-lg-12.col-lg-pull-0
@@ -18846,7 +18702,6 @@ spreaker.com###curated_list_ad_1
 spreaker.com##.ads.ads_mr.ads_apps.hide
 spreaker.com##.curated_list_ad.curated_list_ad_left
 ||frenreport.com/wp-content/themes/Extra/core/admin/js/common.js
-||godog.shopifycloud.com/v1/event.gif
 ||html5.onl/nav.php
 ||scanalert.com^$third-party
 about:blank$domain=youtube.com
@@ -18856,7 +18711,6 @@ about:blank$domain=youtube.com
 ||cdn.streamroot.io/videojs-hls-dna-plugin/1/stable/videojs-hls-dna-plugin.js
 ||api.infowarsmedia.com/scripts/embed.js
 thehill.com###block-block-3
-twitter.com##.modal-overlay
 twitter.com##.LoginDialog, .modal-container, .u-textCenter
 twitter.com###permalink-overlay
 bitskins.com##+js(abort-on-property-write.js, Fingerprint2)
@@ -18937,13 +18791,11 @@ toonova.net###bga29kc17159170058 > a > img
 toonova.net###bga29kc12377487341 > a > img
 toonova.net##.ad
 fakty.ua###div-gpt-ad-1452871910214-0
-fakty.ua##.informer.banner_p20
 fakty.ua###M246128ScriptRootC652099
 fakty.ua##.informer
 mox.tv##.cc-window.cc-banner.cc-type-info.cc-theme-block.cc-bottom.cc-color-override-688238583
 twelvesec.com###cookie-law-info-bar
 crime.in.ua###block-block-103
-crime.in.ua###block-block-25 > div.art-block > div.art-block-body > div.art-blockcontent:first-child > div.art-blockcontent-body > div.content:first-child > center:last-child
 crime.in.ua###block-block-109
 crime.in.ua###block-block-25 > div.art-block > div.art-block-body > div.art-blockcontent:first-child > div.art-blockcontent-body
 crime.in.ua###block-block-96
@@ -18985,7 +18837,6 @@ producthunt.com##.sponsors_fb14b
 ||bluehost.com/static/js/ads.js
 ||capture.condenastdigital.com/track
 ||fonts.condenast.com/ad
-||bing.com/fd/ls/l?
 ||bing.com/fd/ls/
 ||bing.com$ping
 ||bing.com/rewardsapp/ncheader
@@ -19024,7 +18875,6 @@ multiup.org##.notification.ui-pnotify-container.notification-warning
 multiup.org##.panel-body.text-center.text-dark
 multiup.org##.panel.panel-featured-top.panel-featured-primary
 technologysage.com##.mh-ad-spot
-discordapp.com##.noticeDefault-362Ko2.notice-2FJMB4.size14-3iUx6q.weightMedium-2iZe9B.height36-36OHCc
 ||*.microsoft.com/fp/tags.js
 ||dox.wearelegal.ru/static/js/wal.dox.js
 ||шляхтен.рф$cookie
@@ -19068,7 +18918,6 @@ hackintosh.computer##.bs-gdpr-law
 ||orteil.dashnet.org/*/showads.js
 wyborcza.pl##.rodoBg_small
 wyborcza.pl##.notifyWrapperBackground
-wyborcza.pl###rodoNotificationWrapper > div.notifyWrapper:nth-child(2) > div.notify.big.active > div.contentWrapper:nth-child(3)
 wyborcza.pl###rodoNotificationWrapper > div.notifyWrapper:nth-child(2) > div.notify.big.active
 neowin.net##.widget-ad, .widget-ad-sidebar-top
 twojcel.to##div#iaa_avatarPreviewContainer.iaa_avatarContainer.iaa_genderF.iaa_right
@@ -19131,7 +18980,6 @@ en.people.cn##.tips
 ||msn.com$ping
 ||walmart.com/*/logger
 about:blank#domain=msn.com
-msn.com##.stripeouter.mestripeouter.unselectable.noflyoutdelay
 msn.com##.aaicpixktps
 msn.com##.stripeouter.mestripeouter.unselectable
 walmart.com###vf-feedback-bubble-fixed-link
@@ -19149,7 +18997,6 @@ sky.com##.s-masthead.mast-c-banners.mast-c-banners-cookie.mast-js-banners-cookie
 ||facebook.com/react_composer/sprouts/promotions
 ||facebook.com/ajax/mercury/mark_seen.php
 ||facebook.com/bluebar/create_menu/?button_id=
-||facebook.com/security/hsts-pixel.gif
 ||facebook.com/security/*-pixel.gif
 ||facebook.com/games/video/bookmark_nux
 ||facebook.com/sketch_results
@@ -19204,21 +19051,17 @@ medium.com##.js-directEmailSignupContainer
 politico.com##.cookie-modal__inner
 rumble.com/l/
 snopes.com##.smg-zone-widget-ads-freestar
-||paypalobjects.com/en_AU/i/scr/pixel.gif
 ||paypalobjects.com/*/i/scr/pixel.gif
 9to5google.com##.inlinead
 ||mythinformed.org/api/census/RecordHit
 ||cdn-prod.medicalnewstoday.com/structure/javascript/cache/quant.js
 ||cdn-prod.medicalnewstoday.com/structure/javascript/cache/beacon.js
-9to5google.com##.inlinead
 reddit.com##.promotedlink
 reddit.com##div[id^="overlay-sidebar-btf-"]
 reddit.com##div[id^="overlay-sidebar-atf-"]
 medicalnewstoday.com##div[class^="mnt css_c4zij"]
 medicalnewstoday.com##.css_h1ksn
 medicalnewstoday.com##img.lazy[src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="]
-medicalnewstoday.com##hr.css_h1ksn[style="display: block !important"]
-medicalnewstoday.com##hr.css_h1ksn
 medicalnewstoday.com##div.mnt_history[style="display:none;"]
 snopes.com##.banner-alert.alert.alert-danger
 snopes.com###header-1
@@ -19230,26 +19073,19 @@ gadgets.ndtv.com##.web_dialog.web_dialognotify.web_dialogproduct.animated.bounce
 9to5google.com##.th8ccd1281.thbc1c2e69
 anandtech.com###side_ad
 anandtech.com###footer_ad
-anandtech.com##.header_ad.hide_resp
 anandtech.com###header_ad
 anandtech.com##.header_ad
-medicalnewstoday.com##.css_h1ksn
 medicalnewstoday.com##html.webkit.chrome.win.js > head:first-child > noscript:nth-child(86)
 ubergizmo.com##.mediumbox_container_inarticle_left
 allthatsinteresting.com###root > div.css-1dbjc4n.r-lyu6sc.r-1p0dtai.r-zh076v.r-1d2f490.r-97e31f.r-bv2aro.r-hxflta.r-10xqauy.r-u8s1d.r-zchlnj.r-ipm5af.r-13qz1uu > div.css-1dbjc4n.r-13awgt0.r-1mnahxq > div.css-1dbjc4n.r-150rngu.r-13awgt0.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-1sncvnh.r-13qz1uu:last-child > div.css-1dbjc4n.r-1awozwy.r-16y2uox.r-13qz1uu > div.css-1dbjc4n.r-1awozwy.r-13qz1uu:nth-child(3) > div.css-1dbjc4n.r-13qz1uu > div.css-1dbjc4n.r-13qz1uu:last-child > div.css-1dbjc4n.r-13qz1uu:last-child > div.css-1dbjc4n.r-bnwqim > div.css-1dbjc4n:last-child > div.css-1dbjc4n.r-14lw9ot.r-1do4pyk.r-dnmrzs.r-1sv84sj.r-1yt7n81.r-ry3cjt.r-1s6pnzw.r-13qz1uu > div.css-1dbjc4n.r-bnwqim > div.css-1dbjc4n.r-18u37iz.r-1w6e6rj > div.css-1dbjc4n.r-1e8hiny.r-1oqcu8e:last-child
 everymac.com###topitemwrapper
 allthatsinteresting.com###root > div.css-1dbjc4n.r-lyu6sc.r-1p0dtai.r-zh076v.r-1d2f490.r-97e31f.r-bv2aro.r-hxflta.r-10xqauy.r-u8s1d.r-zchlnj.r-ipm5af.r-13qz1uu > div.css-1dbjc4n.r-13awgt0.r-1mnahxq > div.css-1dbjc4n.r-150rngu.r-13awgt0.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-1sncvnh.r-13qz1uu:last-child > div.css-1dbjc4n.r-1awozwy.r-16y2uox.r-13qz1uu > div.css-1dbjc4n.r-1awozwy.r-13qz1uu:nth-child(6) > div.css-1dbjc4n.r-13qz1uu > div.css-1dbjc4n.r-13qz1uu:last-child > div.css-1dbjc4n.r-13qz1uu:last-child > div.css-1dbjc4n.r-bnwqim > div.css-1dbjc4n:last-child > div.css-1dbjc4n.r-14lw9ot.r-1do4pyk.r-dnmrzs.r-1sv84sj.r-1yt7n81.r-ry3cjt.r-1s6pnzw.r-13qz1uu > div.css-1dbjc4n.r-bnwqim > div.css-1dbjc4n.r-18u37iz.r-1w6e6rj > div.css-1dbjc4n.r-1e8hiny.r-1oqcu8e:last-child
 ||x.kinja-static.com/assets/images/commerce-pop.svg
-||gizmodo.com/x-kinja-static/assets/new-client/ads.*.js
-||gizmodo.com/x-kinja-static/assets/new-client/runtime~ads.*.js
-||gizmodo.com/x-kinja-static/assets/new-client/vendors~ads.*.js
-||gizmodo.com/x-kinja-static/assets/new-client/runtime~trackers.*.js
 ||gizmodo.com/x-kinja-static/assets/new-client/
 ||bigleaguepolitics.com/?spu_action=
 bigleaguepolitics.com##.z-lockerdome-inline
 bigleaguepolitics.com##.tpd-box-ad-d
 bigleaguepolitics.com##.klicked-poll-continues
-bigleaguepolitics.com###klicked-poll-box
 bigleaguepolitics.com###klicked-poll-box
 ||brat.ro/check-terms-popup
 ||brat.ro/libraries/javascript/cookies_warning.js
@@ -19276,7 +19112,6 @@ www.klove.com##.in.fade.modal-backdrop
 ||e.snmc.io/2.5/js/min/modal.js
 ||e.snmc.io/2.5/js/web_ads/advertisement.js
 ||metrolyrics.com/g00/
-||hxyzhas.g00.metrolyrics.com/g00/
 ||metrolyrics.com/mod_pagespeed_beacon
 www.metrolyrics.com##.top-sponsor.js-top-sponsor
 www.metrolyrics.com##div.ad-box.expanding-ad:nth-of-type(1)
@@ -19320,7 +19155,6 @@ www.discogs.com###ad_bottom
 ||www.nothingprivate.ml/client.min.js
 www.ft.com##body > .n-messaging-slot
 www.ft.com##.o-ads--center.o-ads--transition.o-ads--reserve-90.o-ads--background.above-header-advert.o-ads
-www.ft.com##.n-feedback__survey-trigger > span
 www.ft.com##.n-feedback__survey-trigger
 gizmodo.com##.dYUnSk.sc-101yw2y-2.js_sticky-top-ad
 gizmodo.com##.cGjes.ynugv2-1
@@ -19346,15 +19180,12 @@ sourceforge.net###newsletter-floating
 ||pandora.com/api/v1/ad/registerImpression$important
 pandora.com##div.DisplayAdController.DisplayAdController--active
 pandora.com##div#adContainer
-pandora.com##div.DisplayAdController.DisplayAdController--active
 pandora.com##div#region-coachmark.region-coachmark
 pandora.com##div#googleDCMTagContainer
 pandora.com###leader_board_container
 www.androidcentral.com###Leaderboard_Header_ATF-wrap-5d7aed2f2b1d9
-www.androidcentral.com###visor-block--281 > .row > .col-1of3\@desktop.col-2of2\@tablet.col-3of3.sidebar > .sidebar__section
 www.androidcentral.com###visor-block--281 > .row > .col-1of3\@desktop.col-2of2\@tablet.col-3of3.sidebar
 www.androidcentral.com##.panels-flexible-region-inside-last.panels-flexible-region-inside-first.panels-flexible-region-17-full_width-inside.panels-flexible-region-inside.inside > div.col-3of3:nth-of-type(2)
-www.androidcentral.com###visor-block--282 > .row > .col-1of3\@desktop.col-2of2\@tablet.col-3of3.sidebar > .sidebar__section
 www.androidcentral.com###visor-block--282 > .row > .col-1of3\@desktop.col-2of2\@tablet.col-3of3.sidebar
 www.androidcentral.com##.article-leaderboard
 powr.com##.Cookie--base.Cookie--bottom.Cookie
@@ -19366,7 +19197,6 @@ mises.org###sliding-popup > div
 www.heise.de##.ad-container__leaderboard
 ||heise.de/js/prebid2.x.x.js
 www.heise.de##[href^="https://www.heise.de/solutions/aldi-sued/aldi-sued-spart-zeit-und-geld-dank-sap-hana-und-hadoop//"]
-www.heise.de##div.teaser_hbs:nth-of-type(2) > p
 www.heise.de##.clearfix.teaser_hbs
 www.heise.de##.teaser_deal_des_tages
 www.heise.de###wtma_teaser_ho_vertrieb_mini_2 > .stage-advertising.stage--aside
