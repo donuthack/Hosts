@@ -7,7 +7,7 @@ A blocklist of ads, trackers, malware, and IP grabbers
 
 * [`Hosts`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Hosts) - The main blocklist for trackers, ads, malware, and IP grabbers
 
-* [`Filters Adaptation`](raw.githubusercontent.com/Cybo1927/Hosts/master/Filters%20Adaptation) - The main blocklist for trackers, ads, malware, and IP grabbers formatted to fit the filter list syntax
+* [`Filters Adaptation`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Filters%20Adaptation) - The main blocklist for trackers, ads, malware, and IP grabbers formatted to fit a filter list syntax
 
 * [`Unbreak for AdGuard Home`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Unbreak%20for%20AdGuard%20Home) - This list is meant to prevent breakage from the main hosts file while using AdGuard Home
 
