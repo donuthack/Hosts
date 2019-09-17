@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 
-! Title: Cybo's Filters Adaptation 
+! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1130-6
+! Version: 1131
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.7K
-! Last Modified: Sunday, September 15, 2019
+! Last Modified: Tuesday, September 17, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -907,6 +907,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||ai.autoid.com
+||api.autoid.com
+||autoid.com
+||af.opera.com
+||autoupdate.geo.opera.com
 ||adbooks.ru
 ||a0.nic.payu
 ||ag.innovid.com
@@ -3548,6 +3553,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||buddy.bitdefender.com
 ||beacons.extremereach.io
 ||brightline.tv
 ||b1.nel.goog
@@ -6672,6 +6678,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||geo.opera.com
 ||games.wimi5.com
 ||good-traf.ru
 ||grv.media
@@ -7234,6 +7241,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||iris.tv
+||interactiveone.com
+||ionedigital.com
+||ispot.tv
 ||in.appcenter.ms
 ||in-prod-east-us2-23fa330.trafficmanager.net
 ||iad-01.braze.com
@@ -9016,6 +9027,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||moengage.com
 ||metrics.roblox.com
 ||msh.amazon.com
 ||mobilcrashreporting.googleapis.com
@@ -9564,6 +9576,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||net.geo.opera.com
 ||ns*.p16.dynect.net
 ||ns1.p16.dynect.net
 ||ns2.p16.dynect.net
@@ -9792,6 +9805,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||n149adserv.com
 
 !O
+||outbrain.com
+||ovp.iris.tv
 ||ord37s08-in-f16.1e100.net
 ||online-chat-support.com
 ||orjzy.com
@@ -9975,6 +9990,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||p.tvpixel.com
+||pi.ispot.tv
 ||pippio.com
 ||presence.roblox.com
 ||prophet.heise.de
@@ -10864,6 +10881,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||shareaholic.net
+||servedby.ammoland.com
+||sp-20190806072658941500000005-2017189556.us-east-1.elb.amazonaws.com
 ||stream192.forexpros.com
 ||smetrics.att.com
 ||server-52-85-115-127.ind6.r.cloudfront.net
@@ -12641,6 +12661,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||upgr-mmxix-cl-ts.2d8cd.cdn.bitdefender.net
 ||ustatik.com
 ||us-chi-anx-r001.teamviewer.com
 ||udp.ping.teamviewer.com
@@ -12796,6 +12817,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||vid.springserve.com
 ||vortex.hulu.com
 ||viphealthhelper.com
 ||vintage-ads-are.cool
@@ -19213,6 +19235,35 @@ www.roboform.com##.cookies-notification
 thewirecutter.com##._0121e291
 ||neonnettle.com/assets/img/Whatfinger*.jpg$image
 ||neonnettle.com/assets/img/sep-c-2.jpg$image
+www.zappos.com##.WU
+eero.com##.email-capture-content
+www.theodysseyonline.com##.create_more.footer-desktop__item
+www.theodysseyonline.com##.footer-desktop
+www.youtube.com##paper-dialog.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
+www.wonderfulshare.net###text-7 > .widget-title
+www.wonderfulshare.net###text-7 > .widget-content
+||hibbard.eu/analytics/matomo.js
+escharts.com##.blue.news-banner
+||hell.esm.one/www/delivery/asyncjs.php
+||lastpass.com/layouts/system/VisitorIdentification.js
+||static.vidazoo.com/basev/prebid/prebid.js
+||bis.vidazoo.com/aggregate
+bossip.com##.reveal-modal-bg
+bossip.com###exitModal
+bossip.com##.fsb-desktop
+bossip.com##.fsb-toggle
+bossip.com##div.content-ad-list
+bossip.com##.comment-block
+bossip.com##.mmg_content_widget
+bossip.com###video-expanded
+www.ammoland.com###ammoland_ad-2
+www.ammoland.com###ammoland_ad-3
+www.ammoland.com###ammoland_ad-4
+www.ammoland.com###ammoland_ad-5
+www.ammoland.com###ammoland_ad-7
+www.ammoland.com###ammoland_ad-6
+www.ammoland.com###header_mainad
+www.ammoland.com###ammoland_ad-32
 
 ! AdGuard Home
 wpad.home
@@ -19274,6 +19325,10 @@ wpad.home
 ||spotxchange.com.home
 ||t2.hulu.com.home
 ||w55c.net.home
+||events.tremorhub.com.home
+||pixel.mtrcs.samba.tv.home
+||beacons.gcp.gvt2.com.home
+||cdn.segment.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -19341,6 +19396,7 @@ $webrtc,domain=nsa.gov
 ||172.217.4.46$network
 
 ! Wildcard
+/VisitorIdentification.js
 /client.min.js
 /video-tracking.
 /caos-analytics/
@@ -19382,6 +19438,7 @@ $webrtc,domain=nsa.gov
 /w.chatlio-widget.js
 /assets/track.js
 /www/delivery/asyncjs.php
+/asyncjs.php
 /*.iframetracker.js
 /iframetracker.js
 /front/js/counter.js
