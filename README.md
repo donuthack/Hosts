@@ -23,7 +23,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 ## Support
 
 * uBlock Origin
-* Adblock Plus 2.0+
+* Adblock Plus 2.0+ (For best results use the [Filters Adaptation](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Filters%20Adaptation))
 * AdGuard AdBlocker
 * AdGuard Home
 * Blokada
