@@ -2,13 +2,14 @@
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1131
+! Version: 1132
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.7K
-! Last Modified: Tuesday, September 17, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 19.9K
+! Last Modified: Thursday, September 19, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||encrypted-tbn*.gstatic.com$domain=google.
 @@||connectivitycheck.gstatic.com
 @@||clients2.googleusercontent.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
@@ -907,6 +908,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||adserver.pressboard.ca
+||aivdesk.com
 ||ai.autoid.com
 ||api.autoid.com
 ||autoid.com
@@ -3553,6 +3556,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||bis.aivdesk.com
 ||buddy.bitdefender.com
 ||beacons.extremereach.io
 ||brightline.tv
@@ -4437,6 +4441,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||colossusssp.com
+||cm.eyereturn.com
+||c-5uwzmx78pmca90x24eeex2enikmjwwsx2ekwu.g00.cnet.com
 ||cws-hulu.conviva.com
 ||cdn-media.brightline.tv
 ||cdn.media.brightline.tv
@@ -6059,6 +6066,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||downloads.mailchimp.com
 
 !E
+||evs.jivox.com
+||eyereturn.com
+||emeter-nam.mppapi.io
+||elsevier.com
 ||*.engine.mobileapptracking.com
 ||events.brightline.tv
 ||ephemeralcounters.api.roblox.com
@@ -6415,6 +6426,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||freeskreen.com
 ||fd-geo-ec.gy1.b.yahoodns.net
 ||fbcdn2.com
 ||forwrdnow.com
@@ -6678,6 +6690,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||gannettdigital.com
 ||geo.opera.com
 ||games.wimi5.com
 ||good-traf.ru
@@ -7241,6 +7254,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||ipfingerprint.com
+||i.ipromote.com
+||ipromote.com
 ||iris.tv
 ||interactiveone.com
 ||ionedigital.com
@@ -7911,6 +7927,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||init.supersonicads.com
 
 !J
+||jivox.com
 ||journal.blokada.org
 ||js.center.io
 ||js.hscta.net
@@ -9027,6 +9044,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||mppglobal.com
+||mppapi.io
 ||moengage.com
 ||metrics.roblox.com
 ||msh.amazon.com
@@ -9792,7 +9811,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||net.softonicads.com
 ||native.sharethrough.com
 ||nsg.symantec.com
-||netdna.bootstrapcdn.com
 ||no-ip.info
 ||nextmillennium.liqwid.net
 ||net.ipcalf.com
@@ -9990,6 +10008,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||pressboard.ca
+||pressboardmedia.com
 ||p.tvpixel.com
 ||pi.ispot.tv
 ||pippio.com
@@ -10599,6 +10619,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||resources.eyereturn.com
 ||res-x.com
 ||res1.applovin.com
 ||rvty.net
@@ -10881,6 +10902,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||static.freeskreen.com
+||secure-ecsd.elsevier.com
 ||shareaholic.net
 ||servedby.ammoland.com
 ||sp-20190806072658941500000005-2017189556.us-east-1.elb.amazonaws.com
@@ -12661,6 +12684,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||us1-api.mppglobal.com
 ||upgr-mmxix-cl-ts.2d8cd.cdn.bitdefender.net
 ||ustatik.com
 ||us-chi-anx-r001.teamviewer.com
@@ -12817,6 +12841,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||v.lkqd.net
 ||vid.springserve.com
 ||vortex.hulu.com
 ||viphealthhelper.com
@@ -19264,6 +19289,59 @@ www.ammoland.com###ammoland_ad-7
 www.ammoland.com###ammoland_ad-6
 www.ammoland.com###header_mainad
 www.ammoland.com###ammoland_ad-32
+dailycaller.com##.tp-modal
+dailycaller.com##.tp-backdrop.tp-active
+||dailymail.co.uk/i/pix
+www.dailymail.co.uk##div.lead-alpha.cleared:nth-of-type(26)
+www.thestar.com##.leaderboard-ad-component.show-for-large-up.alpha__global
+www.thestar.com##.a1--alpha-small.container-gutters.container-aggregation.a1 > .layout-alpha > .layout-alpha__ad--big-box.layout-alpha__ad > .big-box
+www.thestar.com##.layout-alpha__ad-show-medium.layout-alpha__ad--big-box.layout-alpha__ad > .big-box
+www.thestar.com##.origami-widget-container
+||thestar.com/api/overlaydatarule/weekly-mtm-promo-low
+||platform.twitter.com/oct.js
+||thestar.com/static/RightRailAds-RightRailAds.chunk.js
+||cnet.com/g00/*/adframestats
+||undefined/g00/
+||c-5uwzmx78pmca90x24bx78a98047x2elwcjtmdmzqngx2ekwu.g00.cnet.com
+||c-5uwzmx78pmca90x24klv1x2elwcjtmdmzqngx2ekwu.g00.cnet.com
+download.cnet.com###-exiqhfiux-fyuxylviulx-ux-nij
+download.cnet.com###-eaiiafy_uxm_czlugy_\/8264\/uq-xiqhfiux\/xymenij\/pclnouf-guhuaylm_4
+download.cnet.com###-eaiiafy_uxm_czlugy_\/8264\/uq-xiqhfiux\/xymenij\/pclnouf-guhuaylm_5
+download.cnet.com###-eaiiafy_uxm_czlugy_\/8264\/uq-xiqhfiux\/xymenij\/pclnouf-guhuaylm_6__wihnuchyl__
+download.cnet.com###-exiqhfiux-fyuxylviulx-ux-vinnig
+download.cnet.com###trc_header_84384
+download.cnet.com###rbox-o2m
+download.cnet.com###trc_header_55250
+download.cnet.com###-exiqhfiux-zx-fyuxylviulx-ux-nij
+download.cnet.com###-eaiiafy_uxm_czlugy_\/8264\/uq-xiqhfiux\/qchxiqm_4
+download.cnet.com##.fb_lightbox-overlay-fixed.fb_lightbox-overlay
+download.cnet.com###lightbox-iframe-c2e12234-7374-4a6e-8ff0-9884b74d4524
+download.cnet.com###-eaiiafy_uxm_czlugy_\/8264\/uq-xiqhfiux\/qchxiqm_5
+download.cnet.com##.-eSUX-z8599y62-y607-30y3-9785-u5470959799u.desktop-recommends
+download.cnet.com###-enuviifu-lcabn-lucf-nbogvhucfm > .-enlw_lvir_wihnuchyl > div
+download.cnet.com###-eaiiafy_uxm_czlugy_\/8264\/uq-xiqhfiux\/qchxiqm_8
+download.cnet.com###rbox-h2m
+download.cnet.com###trc_header_74263
+||c-*.g00.cnet.com/g00
+download.cnet.com###-evddvat_psh_xugpbt_\/3719\/pl-sdlcadps\/sdlcadpsh_7
+download.cnet.com###-evddvat_psh_xugpbt_\/3719\/pl-sdlcadps\/sdlcadpsh_8
+download.cnet.com##.tbl-logo-right-position.tbl-feed-header
+||c-5uwzmx78pmca90x24quiomax2ebijwwtix2ekwu.g00.cnet.com/g00/
+download.cnet.com###-excitgcpa_igr_42840 > .trc_excludable.trc-spotlight-first-recommendation.trc-first-recommendation.videoCube_1_child.textItem.thumbnail_top.origin-default.trc_spotlight_item.videoCube > .item-thumbnail-href > .thumbBlock_holder > .thumbBlock
+download.cnet.com###-excitgcpa_igr_42840 > .trc_excludable.trc-spotlight-first-recommendation.trc-first-recommendation.videoCube_1_child.textItem.thumbnail_top.origin-default.trc_spotlight_item.videoCube > .item-thumbnail-href > .thumbBlock_holder > .videoCube_aspect
+download.cnet.com###-excitgcpa_igr_42840 > .trc_excludable.trc-spotlight-first-recommendation.trc-first-recommendation.videoCube_1_child.textItem.thumbnail_top.origin-default.trc_spotlight_item.videoCube
+||c-5uwzmx78pmca90x24quiomax2ebijwwtix2ekwu.g00.cnet.com/g00/
+download.cnet.com###-excitgcpa_igr_05732 > .trc_excludable.trc-spotlight-first-recommendation.trc-first-recommendation.videoCube_1_child.textItem.-ehncsxrpitsXitb.thumbnail_top.origin-default.trc_spotlight_item.videoCube > .item-thumbnail-href > .thumbBlock_holder > .thumbBlock
+download.cnet.com###-excitgcpa_igr_05732 > .trc_excludable.trc-spotlight-first-recommendation.trc-first-recommendation.videoCube_1_child.textItem.-ehncsxrpitsXitb.thumbnail_top.origin-default.trc_spotlight_item.videoCube > .item-thumbnail-href > .thumbBlock_holder > .videoCube_aspect
+download.cnet.com###rbox-t2v
+download.cnet.com###-eipqddap-qtadl-pgixrat-iwjbqcpxah
+download.cnet.com###-evddvat_psh_xugpbt_\/3719\/pl-sdlcadps\/sdlcadpsh_7
+download.cnet.com##.tbl-logo-right-position.tbl-feed-header
+||c-5uwzmx78pmca90x24quiomax2ebijwwtix2ekwu.g00.cnet.com/g00/
+download.cnet.com###-excitgcpa_igr_92264 > .trc_excludable.trc-spotlight-first-recommendation.trc-first-recommendation.videoCube_1_child.textItem.thumbnail_top.origin-default.trc_spotlight_item.videoCube > .item-thumbnail-href > .thumbBlock_holder > .thumbBlock
+download.cnet.com###-eipqddap-qtadl-pgixrat-iwjbqcpxah
+www.cnet.com##.entered.dock.inviewElement
+||lastpass.com/analytics2.php
 
 ! AdGuard Home
 wpad.home
@@ -19877,6 +19955,13 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /pub_lyricsmode.gif
 /adstream
 /prebid2.x.x.js
+/clientprofiler/
+/tracking/fingerprint/
+/rpFingerprint
+/pixel.fingerprint
+/loadJsFingerprint.js
+/device-fingerprint
+/analytics*.php
 -page-url=
 &page-url=
 ?adname=
@@ -19884,6 +19969,9 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 =googleanalytics
 =adunit&
 _WebBannerAd
+_fingerprint
+.fingerprint-
+-action/fingerprint
 -sponsored-outbrain-
 -ad-powerinbox-inline-
 -ad-display.z-ad-
