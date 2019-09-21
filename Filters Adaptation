@@ -1,11 +1,10 @@
 [Adblock Plus 2.0]
-
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1132
+! Version: 1133
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.9K
-! Last Modified: Thursday, September 19, 2019
+! Last Modified: Friday, September 20, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -52,6 +51,7 @@
 ! Don't Add Because Of Breakage
 !gdmf.apple.com (iOS updates)
 !gdmf.apple.com.akadns.net (iOS updates)
+!gs.apple.com (iOS updates)
 !e673.dsce9.akamaiedge.net (Breaks Apple App store on iOS)
 !play.itunes.apple.com (Breaks Apple App store on iOS)
 !a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
@@ -279,7 +279,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||securemetrics.apple.com
 ||xp.apple.com
 ||mesu.apple.com
-||gs.apple.com
 ||apsu.apple.com
 ||apfw.apple.com
 ||daypass.api-aka.smoot.apple.com
@@ -328,7 +327,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gs-loc-new.ls-apple.com.akadns.net
 ||gs-loc.apple.com
 ||gs-loc.ls-apple.com.akadns.net
-||gs.apple.com
 ||gs.apple.com.akadns.net
 ||gsa.apple.com
 ||gsa.apple.com.akadns.net
@@ -908,6 +906,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||api.sms.intl.miui.com
+||actnx.com
+||adtwbjs.com
+||ads-west-colo.adsymptotic.com
+||adncdnend.azureedge.net
+||albertonne.com
 ||adserver.pressboard.ca
 ||aivdesk.com
 ||ai.autoid.com
@@ -3556,6 +3560,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||burstmonster.com
+||baseball2.2ndhalfplays.com
 ||bis.aivdesk.com
 ||buddy.bitdefender.com
 ||beacons.extremereach.io
@@ -6426,6 +6432,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||facebook-info.co
 ||freeskreen.com
 ||fd-geo-ec.gy1.b.yahoodns.net
 ||fbcdn2.com
@@ -6690,6 +6697,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||geo1.ggpht.com
+||geo2.ggpht.com
+||geo3.ggpht.com
+||geo*.ggpht.com
 ||gannettdigital.com
 ||geo.opera.com
 ||games.wimi5.com
@@ -7043,6 +7054,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||hecherthepar.pro
+||hxyzhas.g00.metrolyrics.com
+||hits-secure.theguardian.com
+||hblock-check.molinero.dev
 ||hexagon-analytics.com
 ||honoluluadvertiser.com
 ||hootsuite.com
@@ -7254,6 +7269,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||in.o2o.api.xiaomi.com
+||i01.appmifile.com
 ||ipfingerprint.com
 ||i.ipromote.com
 ||ipromote.com
@@ -8023,6 +8040,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.users.51.la
 
 !K
+||keywordblocks.com
 ||ketobodytone.com
 ||kayako.com
 ||kayako.net
@@ -9044,6 +9062,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||mizdok.com
 ||mppglobal.com
 ||mppapi.io
 ||moengage.com
@@ -9595,6 +9614,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||notifychheck.com
+||na.gmtdmp.com
 ||net.geo.opera.com
 ||ns*.p16.dynect.net
 ||ns1.p16.dynect.net
@@ -10008,6 +10029,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||pixel.hecherthepar.pro
 ||pressboard.ca
 ||pressboardmedia.com
 ||p.tvpixel.com
@@ -10619,6 +10641,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||revboostprocdnadsprod.azureedge.net
 ||resources.eyereturn.com
 ||res-x.com
 ||res1.applovin.com
@@ -10902,6 +10925,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||s01.appmifile.com
+||sensityimmit.club
+||srv.tonefuse.com
 ||static.freeskreen.com
 ||secure-ecsd.elsevier.com
 ||shareaholic.net
@@ -12131,6 +12157,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||trk.appthis.io
+||trk.adtwbjs.com
+||tonefuse.com
 ||tvadsync.com
 ||tvpixel.com
 ||time.nist.gov
@@ -13764,6 +13793,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||zyqlfplqdgxu.com
 
 !Misc
+||2ndhalfplays.com
 ||3p.ampproject.net
 ||1.f.ix.de
 ||00bloggers.ru
@@ -19342,6 +19372,12 @@ download.cnet.com###-excitgcpa_igr_92264 > .trc_excludable.trc-spotlight-first-r
 download.cnet.com###-eipqddap-qtadl-pgixrat-iwjbqcpxah
 www.cnet.com##.entered.dock.inviewElement
 ||lastpass.com/analytics2.php
+freebeacon.com##div.full-width.py-2.bg-gray-100:nth-of-type(1)
+freebeacon.com##div.full-width.py-2.bg-gray-100:nth-of-type(2)
+freebeacon.com##.lg\:order-none.order-first.block-2.border-b.widget
+freebeacon.com##.order-1.block-1.border-b.widget
+freebeacon.com##.lg\:order-none.order-4.block-3.border-b.widget
+||pandora.com/static/promo
 
 ! AdGuard Home
 wpad.home
@@ -19407,6 +19443,8 @@ wpad.home
 ||pixel.mtrcs.samba.tv.home
 ||beacons.gcp.gvt2.com.home
 ||cdn.segment.com.home
+||evs.jivox.com.home
+||d.agkn.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -19474,6 +19512,10 @@ $webrtc,domain=nsa.gov
 ||172.217.4.46$network
 
 ! Wildcard
+/showads/
+/showad.js
+/lib/tracking/
+/atrk.js
 /VisitorIdentification.js
 /client.min.js
 /video-tracking.
