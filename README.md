@@ -22,16 +22,78 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 ## Support
 
-* uBlock Origin
-* Adblock Plus 2.0+ (For best results use the [Filters Adaptation](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Filters%20Adaptation))
-* AdGuard AdBlocker
+### Hosts
+* AdAway
 * AdGuard Home
+* AdGuard
+* AdNauseam
 * Blokada
 * Diversion
-* Slimjet
+* DNS66
+* Gas Mask
+* Hosts File Editor
+* hostsmgr
+* Nano Adblocker
+* PersonalDNSfilter
+* Pi-hole
+* uBlock Origin
+* uMatrix
+
+### Filters Adaptation
 * AdBlock
+* Adblock Plus 2.0+
+* AdGuard
 * AdNauseam
-* AdLock ad blocker
+* Nano Adblocker
+* Slimjet
+* uBlock Origin
+
+### Unbreak for AdGuard Home
+* Meant to be used with AdGuard Home
+
+### /Anti/Anti Alphabet
+* AdBlock
+* Adblock Plus 2.0+
+* AdGuard
+* AdNauseam
+* Nano Adblocker
+* Slimjet
+* uBlock Origin
+
+### /Anti/Anti Maps
+* AdBlock
+* Adblock Plus 2.0+
+* AdGuard
+* AdNauseam
+* Nano Adblocker
+* Slimjet
+* uBlock Origin
+
+### /Anti/Anti Social
+* AdBlock
+* Adblock Plus 2.0+
+* AdGuard
+* AdNauseam
+* Nano Adblocker
+* Slimjet
+* uBlock Origin
+
+### /Anti/Anti Verizon
+* AdAway
+* AdGuard Home
+* AdGuard
+* AdNauseam
+* Blokada
+* Diversion
+* DNS66
+* Gas Mask
+* Hosts File Editor
+* hostsmgr
+* Nano Adblocker
+* PersonalDNSfilter
+* Pi-hole
+* uBlock Origin
+* uMatrix
 
 ## Useful Resources
 
