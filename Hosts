@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1133
+! Version: 1134
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 19.9K
-! Last Modified: Friday, September 20, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
+! Last Modified: Saturday, September 21, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -921,6 +921,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 api.placed.com
+0.0.0.0 associates-amazon.com
 0.0.0.0 api.sms.intl.miui.com
 0.0.0.0 actnx.com
 0.0.0.0 adtwbjs.com
@@ -3575,6 +3577,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 brucelead.com
 0.0.0.0 burstmonster.com
 0.0.0.0 baseball2.2ndhalfplays.com
 0.0.0.0 bis.aivdesk.com
@@ -4462,6 +4465,15 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.jeapie.com
+0.0.0.0 conde.io
+0.0.0.0 collector-pxofrh1wnk.perimeterx.net
+0.0.0.0 cdn.petametrics.com
+0.0.0.0 connexity.net
+0.0.0.0 contentive.com
+0.0.0.0 convertkit.com
+0.0.0.0 coxmediagroup.com
+0.0.0.0 creativecdn.com
 0.0.0.0 colossusssp.com
 0.0.0.0 cm.eyereturn.com
 0.0.0.0 c-5uwzmx78pmca90x24eeex2enikmjwwsx2ekwu.g00.cnet.com
@@ -5431,6 +5443,16 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 deqwas.net
+0.0.0.0 distiltag.com
+0.0.0.0 dmxleo.com
+0.0.0.0 dotsub.com
+0.0.0.0 datamind.ru
+0.0.0.0 digitaltarget.ru
+0.0.0.0 digitaladsystems.com
+0.0.0.0 dps-reach.com
+0.0.0.0 dynad.net
+0.0.0.0 dyntrk.com
 0.0.0.0 dataplusmath.com
 0.0.0.0 doubleverify.com.home
 0.0.0.0 d-3475266105211008611.ampproject.net
@@ -5856,7 +5878,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 doska.eu
 0.0.0.0 defpush.com
 0.0.0.0 dolohen.com
-0.0.0.0 daumcdn.net
 0.0.0.0 deliveryengine.adswizz.com
 0.0.0.0 doesxyz.com
 0.0.0.0 dzpu6za66svjl.cloudfront.net
@@ -6087,6 +6108,18 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 ecorebates.com
+0.0.0.0 entertainow.com
+0.0.0.0 evergage.com
+0.0.0.0 everyaction.com
+0.0.0.0 evyy.net
+0.0.0.0 exactag.com
+0.0.0.0 edge-cdn.net
+0.0.0.0 effectivemeasure.net
+0.0.0.0 email-match.com
+0.0.0.0 emlgrid.com
+0.0.0.0 easydmp.net
+0.0.0.0 ebis.ne.jp
 0.0.0.0 evs.jivox.com
 0.0.0.0 eyereturn.com
 0.0.0.0 emeter-nam.mppapi.io
@@ -7284,6 +7317,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 infinity-tracking.net
 0.0.0.0 in.o2o.api.xiaomi.com
 0.0.0.0 i01.appmifile.com
 0.0.0.0 ipfingerprint.com
@@ -7959,6 +7993,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jeapie.com
 0.0.0.0 jivox.com
 0.0.0.0 journal.blokada.org
 0.0.0.0 js.center.io
@@ -8834,6 +8869,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lg.ecorebates.com
+0.0.0.0 link-page.info
 0.0.0.0 loc.sc-jpl.com
 0.0.0.0 lga15s49-in-f14.1e100.net
 0.0.0.0 lead.network
@@ -9077,6 +9114,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mads.amazon.com
+0.0.0.0 mybestdc.com
 0.0.0.0 mizdok.com
 0.0.0.0 mppglobal.com
 0.0.0.0 mppapi.io
@@ -10044,6 +10083,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pixsrvcs.com
+0.0.0.0 pl15117602.pvclouds.com
+0.0.0.0 placed.com
 0.0.0.0 pixel.hecherthepar.pro
 0.0.0.0 pressboard.ca
 0.0.0.0 pressboardmedia.com
@@ -10656,6 +10698,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rum.conde.io
 0.0.0.0 revboostprocdnadsprod.azureedge.net
 0.0.0.0 resources.eyereturn.com
 0.0.0.0 res-x.com
@@ -10940,6 +10983,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 squadata.net
+0.0.0.0 secure.ebis.ne.jp
+0.0.0.0 s.pixsrvcs.com
 0.0.0.0 s01.appmifile.com
 0.0.0.0 sensityimmit.club
 0.0.0.0 srv.tonefuse.com
@@ -12172,6 +12218,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 t1.daumcdn.net
+0.0.0.0 trackalyzer.com
+0.0.0.0 tracker.affirm.com
 0.0.0.0 trk.appthis.io
 0.0.0.0 trk.adtwbjs.com
 0.0.0.0 tonefuse.com
@@ -12728,6 +12777,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 urldata.net
+0.0.0.0 ublockerext.com
 0.0.0.0 us1-api.mppglobal.com
 0.0.0.0 upgr-mmxix-cl-ts.2d8cd.cdn.bitdefender.net
 0.0.0.0 ustatik.com
@@ -19393,7 +19444,28 @@ freebeacon.com##.lg\:order-none.order-first.block-2.border-b.widget
 freebeacon.com##.order-1.block-1.border-b.widget
 freebeacon.com##.lg\:order-none.order-4.block-3.border-b.widget
 ||pandora.com/static/promo
+||content.celebrityweightloss.com/clk?
+www.celebrityweightloss.com###div-gpt-ad-celebrityweightloss_com-box-3000005-0
+www.celebrityweightloss.com##.td-post-content > div:nth-of-type(1)
+www.celebrityweightloss.com##.td-post-content > span.awd-visible-tablet.awd-visible-desktop
+www.celebrityweightloss.com###div-gpt-ad-celebrityweightloss_com-medrectangle-3000007-0
+www.celebrityweightloss.com##.adtester-container-104.adtester-container.medrectangle-3000007.ezoic-ad
+www.celebrityweightloss.com##p:nth-of-type(1) > .awd-visible-desktop
+www.celebrityweightloss.com##td
+www.celebrityweightloss.com##center:nth-of-type(7)
+www.celebrityweightloss.com##.td-pb-border-top.td_with_ajax_pagination.td_uid_1__rand.td_block_related_posts.td_block_wrap
+reddit.com##.XPromoAdFeed
+reddit.com##.SnackBar
+reddit.com##.XPromoPill
+reddit.com##.XPromoPopup
+reddit.com##.xpromoMinimal
+||rp-online.de/*/tracking
+rp-online.de###park-snackbar-cookies
+rp-online.de##.park-floating-bell--animations-enabled.park-floating-bell
+rp-online.de###aiger_ms3
+rp-online.de##.themenwelt_box_svoe
 
+!#if !adguard
 ! AdGuard Home
 wpad.home
 *.arpa
@@ -19460,6 +19532,7 @@ wpad.home
 ||cdn.segment.com.home
 ||evs.jivox.com.home
 ||d.agkn.com.home
+||api.placed.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -19525,8 +19598,11 @@ $webrtc,domain=nsa.gov
 ||172.217.0.14$network
 ||172.217.1.46$network
 ||172.217.4.46$network
+!#endif
 
 ! Wildcard
+/trackalyze_secure.js
+/google-analytics-for-wordpress/
 /showads/
 /showad.js
 /lib/tracking/
@@ -20033,6 +20109,8 @@ _fingerprint
 -ad-powerinbox-inline-
 -ad-display.z-ad-
 videoiq-*
+*:has-text(/^Advertisement/i)
+*:has-text(/^Promoted Content/i)
 ##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message
 ##.adsbygoogle
 ##.google-bottom-ads
