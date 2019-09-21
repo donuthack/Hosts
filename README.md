@@ -22,7 +22,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 ## Support
 
-### Hosts
+#### Hosts
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -39,7 +39,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * uBlock Origin
 * uMatrix
 
-### Filters Adaptation
+#### Filters Adaptation
 * AdBlock
 * Adblock Plus 2.0+
 * AdGuard
@@ -48,10 +48,10 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
-### Unbreak for AdGuard Home
+#### Unbreak for AdGuard Home
 * Meant to be used with AdGuard Home
 
-### /Anti/Anti Alphabet
+#### /Anti/Anti Alphabet
 * AdBlock
 * Adblock Plus 2.0+
 * AdGuard
@@ -60,7 +60,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
-### /Anti/Anti Maps
+#### /Anti/Anti Maps
 * AdBlock
 * Adblock Plus 2.0+
 * AdGuard
@@ -69,7 +69,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
-### /Anti/Anti Social
+#### /Anti/Anti Social
 * AdBlock
 * Adblock Plus 2.0+
 * AdGuard
@@ -78,7 +78,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
-### /Anti/Anti Verizon
+#### /Anti/Anti Verizon
 * AdAway
 * AdGuard Home
 * AdGuard
