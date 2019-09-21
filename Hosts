@@ -17,10 +17,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1132
+! Version: 1133
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 19.9K
-! Last Modified: Thursday, September 19, 2019
+! Last Modified: Friday, September 20, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -67,6 +67,7 @@ ff02::3 ip6-allhosts
 ! Don't Add Because Of Breakage
 !gdmf.apple.com (iOS updates)
 !gdmf.apple.com.akadns.net (iOS updates)
+!gs.apple.com (iOS updates)
 !e673.dsce9.akamaiedge.net (Breaks Apple App store on iOS)
 !play.itunes.apple.com (Breaks Apple App store on iOS)
 !a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
@@ -294,7 +295,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 securemetrics.apple.com
 0.0.0.0 xp.apple.com
 0.0.0.0 mesu.apple.com
-0.0.0.0 gs.apple.com
 0.0.0.0 apsu.apple.com
 0.0.0.0 apfw.apple.com
 0.0.0.0 daypass.api-aka.smoot.apple.com
@@ -343,7 +343,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 gs-loc-new.ls-apple.com.akadns.net
 0.0.0.0 gs-loc.apple.com
 0.0.0.0 gs-loc.ls-apple.com.akadns.net
-0.0.0.0 gs.apple.com
 0.0.0.0 gs.apple.com.akadns.net
 0.0.0.0 gsa.apple.com
 0.0.0.0 gsa.apple.com.akadns.net
@@ -923,6 +922,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 api.sms.intl.miui.com
+0.0.0.0 actnx.com
+0.0.0.0 adtwbjs.com
+0.0.0.0 ads-west-colo.adsymptotic.com
+0.0.0.0 adncdnend.azureedge.net
+0.0.0.0 albertonne.com
 0.0.0.0 adserver.pressboard.ca
 0.0.0.0 aivdesk.com
 0.0.0.0 ai.autoid.com
@@ -3571,6 +3576,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 burstmonster.com
+0.0.0.0 baseball2.2ndhalfplays.com
 0.0.0.0 bis.aivdesk.com
 0.0.0.0 buddy.bitdefender.com
 0.0.0.0 beacons.extremereach.io
@@ -6441,6 +6448,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 facebook-info.co
 0.0.0.0 freeskreen.com
 0.0.0.0 fd-geo-ec.gy1.b.yahoodns.net
 0.0.0.0 fbcdn2.com
@@ -6705,6 +6713,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 geo1.ggpht.com
+0.0.0.0 geo2.ggpht.com
+0.0.0.0 geo3.ggpht.com
+0.0.0.0 geo*.ggpht.com
 0.0.0.0 gannettdigital.com
 0.0.0.0 geo.opera.com
 0.0.0.0 games.wimi5.com
@@ -7058,6 +7070,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hecherthepar.pro
+0.0.0.0 hxyzhas.g00.metrolyrics.com
+0.0.0.0 hits-secure.theguardian.com
+0.0.0.0 hblock-check.molinero.dev
 0.0.0.0 hexagon-analytics.com
 0.0.0.0 honoluluadvertiser.com
 0.0.0.0 hootsuite.com
@@ -7269,6 +7285,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 in.o2o.api.xiaomi.com
+0.0.0.0 i01.appmifile.com
 0.0.0.0 ipfingerprint.com
 0.0.0.0 i.ipromote.com
 0.0.0.0 ipromote.com
@@ -8038,6 +8056,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 keywordblocks.com
 0.0.0.0 ketobodytone.com
 0.0.0.0 kayako.com
 0.0.0.0 kayako.net
@@ -9059,6 +9078,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mizdok.com
 0.0.0.0 mppglobal.com
 0.0.0.0 mppapi.io
 0.0.0.0 moengage.com
@@ -9610,6 +9630,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 notifychheck.com
+0.0.0.0 na.gmtdmp.com
 0.0.0.0 net.geo.opera.com
 0.0.0.0 ns*.p16.dynect.net
 0.0.0.0 ns1.p16.dynect.net
@@ -10023,6 +10045,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pixel.hecherthepar.pro
 0.0.0.0 pressboard.ca
 0.0.0.0 pressboardmedia.com
 0.0.0.0 p.tvpixel.com
@@ -10634,6 +10657,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 revboostprocdnadsprod.azureedge.net
 0.0.0.0 resources.eyereturn.com
 0.0.0.0 res-x.com
 0.0.0.0 res1.applovin.com
@@ -10917,6 +10941,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 s01.appmifile.com
+0.0.0.0 sensityimmit.club
+0.0.0.0 srv.tonefuse.com
 0.0.0.0 static.freeskreen.com
 0.0.0.0 secure-ecsd.elsevier.com
 0.0.0.0 shareaholic.net
@@ -12146,6 +12173,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 trk.appthis.io
+0.0.0.0 trk.adtwbjs.com
+0.0.0.0 tonefuse.com
 0.0.0.0 tvadsync.com
 0.0.0.0 tvpixel.com
 0.0.0.0 time.nist.gov
@@ -13779,6 +13809,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 2ndhalfplays.com
 0.0.0.0 3p.ampproject.net
 0.0.0.0 1.f.ix.de
 0.0.0.0 00bloggers.ru
@@ -19357,6 +19388,12 @@ download.cnet.com###-excitgcpa_igr_92264 > .trc_excludable.trc-spotlight-first-r
 download.cnet.com###-eipqddap-qtadl-pgixrat-iwjbqcpxah
 www.cnet.com##.entered.dock.inviewElement
 ||lastpass.com/analytics2.php
+freebeacon.com##div.full-width.py-2.bg-gray-100:nth-of-type(1)
+freebeacon.com##div.full-width.py-2.bg-gray-100:nth-of-type(2)
+freebeacon.com##.lg\:order-none.order-first.block-2.border-b.widget
+freebeacon.com##.order-1.block-1.border-b.widget
+freebeacon.com##.lg\:order-none.order-4.block-3.border-b.widget
+||pandora.com/static/promo
 
 ! AdGuard Home
 wpad.home
@@ -19422,6 +19459,8 @@ wpad.home
 ||pixel.mtrcs.samba.tv.home
 ||beacons.gcp.gvt2.com.home
 ||cdn.segment.com.home
+||evs.jivox.com.home
+||d.agkn.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -19489,6 +19528,10 @@ $webrtc,domain=nsa.gov
 ||172.217.4.46$network
 
 ! Wildcard
+/showads/
+/showad.js
+/lib/tracking/
+/atrk.js
 /VisitorIdentification.js
 /client.min.js
 /video-tracking.
