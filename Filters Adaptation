@@ -19450,7 +19450,7 @@ rp-online.de##.park-floating-bell--animations-enabled.park-floating-bell
 rp-online.de###aiger_ms3
 rp-online.de##.themenwelt_box_svoe
 
-#if adguard
+!#if adguard
 ! AdGuard Home
 wpad.home
 *.arpa
@@ -19583,7 +19583,7 @@ $webrtc,domain=nsa.gov
 ||172.217.0.14$network
 ||172.217.1.46$network
 ||172.217.4.46$network
-#endif
+!#endif
 
 ! Wildcard
 /trackalyze_secure.js
