@@ -35,4 +35,6 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 ## Useful Resources
 
+* [`Filter Lists`](https://filterlists.com) - A great place to find other blocklists
+
 * [`Redundant Rule Checker`](https://abpvn.com/ruleChecker/redundantRuleChecker.html) - Helps to remove  redundant cosmetic filters
