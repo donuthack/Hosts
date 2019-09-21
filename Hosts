@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1134
+! Version: 1134-1
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
 ! Last Modified: Saturday, September 21, 2019
@@ -19465,7 +19465,7 @@ rp-online.de##.park-floating-bell--animations-enabled.park-floating-bell
 rp-online.de###aiger_ms3
 rp-online.de##.themenwelt_box_svoe
 
-!#if !adguard
+#if !adguard
 ! AdGuard Home
 wpad.home
 *.arpa
@@ -19598,7 +19598,7 @@ $webrtc,domain=nsa.gov
 ||172.217.0.14$network
 ||172.217.1.46$network
 ||172.217.4.46$network
-!#endif
+#endif
 
 ! Wildcard
 /trackalyze_secure.js
