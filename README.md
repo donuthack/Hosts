@@ -22,7 +22,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 ## Support
 
-#### Hosts
+#### Hosts - <a href="https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FCybo1927%2FHosts%2Fmaster%2FHosts&amp;title=Cybo's%20Hosts">Subscribe</a>
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -39,7 +39,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * uBlock Origin
 * uMatrix
 
-#### Filters Adaptation
+#### Filters Adaptation - <a href="https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FCybo1927%2FHosts%2Fmaster%2FFilters%2520Adaptation&amp;title=Cybo's%20Hosts">Subscribe</a>
 * AdBlock
 * Adblock Plus 2.0+
 * AdGuard
