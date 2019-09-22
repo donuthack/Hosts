@@ -1,10 +1,10 @@
-[Adblock Plus 2.0]
+  [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1134-5
+! Version: 1135
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 20.0K
-! Last Modified: Saturday, September 21, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.1K
+! Last Modified: Sunday, September 22, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -243,6 +243,20 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ezstat.ru
 ||blasze.com
 ||myiptest.com/img.php
+||spÃ¶tify.com
+||yoÃ¼tÃ¼be.co
+||yoÃ¼tÃ¼be.com
+||yoÃ¼tu.be
+||hackfÈ¯rums.com
+||hackfÈ¯rums.net
+||discÃ¶rd.com
+||battlÄ—.net
+||xn--yo14t14be-m2ad7057gea.com
+||xn--sptify-4ka37a.com
+||xn--discrd-6ka37a.com
+||xn--yo14tu-4ta9735d.be
+||xn--yo14t14be-m2ad7057gea.co
+||xn--battl-kra2007c.net
 
 ! Apple
 ||apple.comscoreresearch.com
@@ -906,6 +920,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||amazinggiftcardforyou.us
+||androidcheatsonline.com
+||akk.li
+||aj1616.online
+||ads.themoneytizer.com
 ||api.placed.com
 ||associates-amazon.com
 ||api.sms.intl.miui.com
@@ -3562,6 +3581,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||buyingpubg.com
+||bbcnews.today
+||betterdocs.net
+||blazingskins.com
+||bo1t-gg.com
+||bo1t-gg.pro
 ||brucelead.com
 ||burstmonster.com
 ||baseball2.2ndhalfplays.com
@@ -4450,6 +4475,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||counter.ukr.net
+||cmp.network-n.com
+||chatlivewith.me
 ||cdn.jeapie.com
 ||conde.io
 ||collector-pxofrh1wnk.perimeterx.net
@@ -6093,6 +6121,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||downloads.mailchimp.com
 
 !E
+||embed.tawk.to
 ||ecorebates.com
 ||entertainow.com
 ||evergage.com
@@ -6465,6 +6494,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||f5v1x3kgv5.com
 ||facebook-info.co
 ||freeskreen.com
 ||fd-geo-ec.gy1.b.yahoodns.net
@@ -6730,6 +6760,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||github.co
+||github.in
 ||geo1.ggpht.com
 ||geo2.ggpht.com
 ||geo3.ggpht.com
@@ -7087,6 +7119,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||hondachat.com
 ||hecherthepar.pro
 ||hxyzhas.g00.metrolyrics.com
 ||hits-secure.theguardian.com
@@ -8075,6 +8108,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||js.users.51.la
 
 !K
+||*-kra2007c.net
+||kitbit.net
 ||keywordblocks.com
 ||ketobodytone.com
 ||kayako.com
@@ -9099,6 +9134,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||m.mixadvert.com
+||mixadvert.com
+||*-m2ad7057gea.co
 ||mads.amazon.com
 ||mybestdc.com
 ||mizdok.com
@@ -9653,6 +9691,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||nmu5qtxpnakk.pro
+||network-n.com
 ||notifychheck.com
 ||na.gmtdmp.com
 ||net.geo.opera.com
@@ -10068,6 +10108,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||p18591.clksite.com
 ||pixsrvcs.com
 ||pl15117602.pvclouds.com
 ||placed.com
@@ -10683,6 +10724,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||referrer.disqus.com
 ||rum.conde.io
 ||revboostprocdnadsprod.azureedge.net
 ||resources.eyereturn.com
@@ -10968,6 +11010,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||source.mmi.bemobile.ua
+||static-v.tawk.to
+||s.zmctrack.net
+||softek.ucoz.ru
+||schnittberichte.com
 ||squadata.net
 ||secure.ebis.ne.jp
 ||s.pixsrvcs.com
@@ -12203,6 +12250,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||tawk.to
+||trafmag.com
+||themoneytizer.com
 ||t1.daumcdn.net
 ||trackalyzer.com
 ||tracker.affirm.com
@@ -12762,6 +12812,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||utarget.ru
 ||urldata.net
 ||ublockerext.com
 ||us1-api.mppglobal.com
@@ -12921,6 +12972,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||va.tawk.to
+||vs35.tawk.to
+||vs75.tawk.to
 ||v.lkqd.net
 ||vid.springserve.com
 ||vortex.hulu.com
@@ -13414,6 +13468,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||wv.inner-active.mobi
 
 !X
+||xinvites.com
 ||x3-predictor.goguardian.com
 ||xxxad.net
 ||x3-policy-maker.goguardian.com
@@ -13475,6 +13530,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||xxxwebtraffic.com
 
 !Y
+||youtube.gq
+||youutube.ga
 ||yospace-directv.akamaized.net
 ||yospace.com
 ||yxsu5ufd2m.kameleoon.eu
@@ -13628,6 +13685,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||y-track.com
 
 !Z
+||zaf.services.zam.com
+||zam.com
 ||zap.buzz
 ||zontera.com
 ||zidedge.com
@@ -13844,6 +13903,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||zyqlfplqdgxu.com
 
 !Misc
+||*-4ka37a.com
+||*-6ka37a.com
+||2girls1cup.com
+||420yolo.com
+||*-4ta9735d.be
 ||2ndhalfplays.com
 ||3p.ampproject.net
 ||1.f.ix.de
@@ -19345,7 +19409,6 @@ www.zappos.com##.WU
 eero.com##.email-capture-content
 www.theodysseyonline.com##.create_more.footer-desktop__item
 www.theodysseyonline.com##.footer-desktop
-www.youtube.com##paper-dialog.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
 www.wonderfulshare.net###text-7 > .widget-title
 www.wonderfulshare.net###text-7 > .widget-content
 ||hibbard.eu/analytics/matomo.js
@@ -19449,6 +19512,38 @@ rp-online.de###park-snackbar-cookies
 rp-online.de##.park-floating-bell--animations-enabled.park-floating-bell
 rp-online.de###aiger_ms3
 rp-online.de##.themenwelt_box_svoe
+www.maketecheasier.com##.sidebar-widget.newsub-box.sidebar-subscribe-box
+bitly.com###banner-cookie
+bitly.com###banner-spacer
+www.pocket-lint.com##.sticky_column23.sticky_column-head.block-mpu.block
+www.pocket-lint.com##div.sticky_parent:nth-of-type(1)
+www.pocket-lint.com##div.sticky_parent:nth-of-type(2)
+www.pocket-lint.com##div.sticky_parent:nth-of-type(4)
+www.pocket-lint.com##div.sticky_parent:nth-of-type(3)
+www.pocket-lint.com##.ads-content
+www.pocket-lint.com##.ad6.block-mpu.block
+www.pocket-lint.com##.ad7.block-mpu.block
+www.pocket-lint.com##.botom.block-mpu.block
+www.pocket-lint.com##div.hotbox-large:nth-of-type(13) > div:nth-of-type(3) > .sssss.ad3.block-mpu.block
+www.pocket-lint.com##div.hotbox-large:nth-of-type(15) > div:nth-of-type(3) > .sssss.ad3.block-mpu.block
+www.expertreviews.co.uk###block-dfp-billboard-leaderboard
+www.expertreviews.co.uk###block-dfp-billboard-2
+||bemobile.ua/bug/
+www.wowhead.com###ad-horizontal
+www.wowhead.com###ad-vertical
+www.wowhead.com###ad-horizontalBTF
+www.wowhead.com###wrapper > .blocks > .block-pair
+www.wowhead.com###wrapper > .blocks
+www.wowhead.com###sidebar-wrapper
+www.wowhead.com###main > .blocks > .block-pair
+www.wowhead.com###main > .blocks
+backpack.tf###media-side
+backpack.tf##.col-md-4
+backpack.tf###media-footer > .panel-main.panel > .panel-body
+www.dailystar.co.uk##.top-slot.gpt
+www.dailystar.co.uk##.secondary.related-column
+www.dailystar.co.uk###comments-wrapper
+www.g2a.com##.modal__curtain--visible.modal__curtain
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -19518,6 +19613,11 @@ wpad.home
 ||evs.jivox.com.home
 ||d.agkn.com.home
 ||api.placed.com.home
+||beacons4.gvt2.com.home
+||adrta.com.home
+||d.turn.com.home
+||presentation-atl1.turn.com.home
+||s.thebrighttag.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -19586,6 +19686,14 @@ $webrtc,domain=nsa.gov
 !#endif
 
 ! Wildcard
+/event.gif?
+/ads/beacon-
+/*.iframetracker.*
+/ad-manager.min.js
+/adServe/
+/ads-for-wp.bak/
+/ads-front.min.js
+/adsforwp-front.min.css
 /trackalyze_secure.js
 /google-analytics-for-wordpress/
 /showads/
@@ -20113,3 +20221,8 @@ videoiq-*
 ###adHeader
 ##.promotedlink
 ##div[id^="div-gpt-ad-"]
+###player-ads
+##.ytp-ad-progress-list
+###offer-module
+###ad-vertical
+###ad-horizontal
