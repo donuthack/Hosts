@@ -1,5 +1,5 @@
 # Cybo's Hosts
-A blocklist of ads, trackers, malware, and IP grabbers
+A blocklist of ads, trackers, anti-adblock, malware, IP grabbers, and tracking cookies
 
 <br>
 
