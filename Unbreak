@@ -1,0 +1,10 @@
+! Title: Cybo's Unbreak
+! Expires: 8 hours
+
+! Breaks Hulu
+@@||ads-e-darwin.hulustream.com
+@@||http-v-darwin.hulustream.com
+
+! Breaks Direct TV (Now AT&T TV)
+@@||yospace-directv.akamaized.net
+@@||yospace.com
