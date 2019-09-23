@@ -1,7 +1,7 @@
-  [Adblock Plus 2.0]
+[Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1135
+! Version: 1136
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.1K
 ! Last Modified: Sunday, September 22, 2019
@@ -54,6 +54,7 @@
 !gs.apple.com (iOS updates)
 !e673.dsce9.akamaiedge.net (Breaks Apple App store on iOS)
 !play.itunes.apple.com (Breaks Apple App store on iOS)
+!p43-buy.itunes.apple.com (Breaks app updates)
 !a0.awsstatic.com   (Breaks Amazon | But Has History Readout)
 !android.clients.google.com (Breaks some things on mobile)
 !akamaihd.net (Breaks some sites)
@@ -63,6 +64,7 @@
 !lh3.googleusercontent.com (Breaks some websites)
 !pushwoosh.com (Blocks many notifications)
 !spclient.wg.spotify.com (Breaks Spotify)
+!ir.ebaystatic.com (Possible analytics but blocking causes breakage on ebay.com)
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
@@ -763,7 +765,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||p42-content.fe.apple-dns.net
 ||p42-content.icloud.com
 ||p43-buy.itunes-apple.com.akadns.net
-||p43-buy.itunes.apple.com
 ||p43-calendars.fe.apple-dns.net
 ||p43-calendars.icloud.com
 ||p43-content.fe.apple-dns.net
@@ -4475,6 +4476,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||combine.urbanairship.com
 ||counter.ukr.net
 ||cmp.network-n.com
 ||chatlivewith.me
@@ -5456,6 +5458,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||devicemetadataservice.trafficmanager.net
 ||deqwas.net
 ||distiltag.com
 ||dmxleo.com
@@ -6868,6 +6871,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||getip.devehab.com
 ||gopher-buddy-dev.appspot.com
 ||gopher-buddy-prod.appspot.com
+||*.goguardian.com
 ||www.goguardian.com
 ||goguardian.com
 ||goguardian.*
@@ -7335,6 +7339,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||insidesecure.count.ly
 ||infinity-tracking.net
 ||in.o2o.api.xiaomi.com
 ||i01.appmifile.com
@@ -7377,7 +7382,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||inquisition.goguardian.com.home
 ||ip.goguardian.com
 ||ipm.bitdefender.com
-||ir.ebaystatic.com
 ||ir.ebaycdn.net
 ||isrg.trustid.ocsp.identrust.com
 ||ion-ma.turner.com.edgekey.net
@@ -11010,6 +11014,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||screenshots.goguardian.com
 ||source.mmi.bemobile.ua
 ||static-v.tawk.to
 ||s.zmctrack.net
