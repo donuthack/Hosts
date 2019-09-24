@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1136
+! Version: 1137
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 20.1K
-! Last Modified: Sunday, September 22, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.3K
+! Last Modified: Tuesday, September 24, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -80,7 +80,7 @@ verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 ||hola.org
@@ -921,6 +921,27 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||adabra.com
+||adbot.tw
+||adgainersolutions.com
+||a.montwam.top
+||aivalabs.com
+||albacross.com
+||appcast.io
+||auditedmedia.com
+||augur.io
+||azetklik.sk
+||ad.bitmedia.io
+||a.breaktime.com.tw
+||api-identification.hotmart.com
+||assets.poool.fr
+||app.clixtell.com
+||assets-us-u11ncmyydwz.stackpathdns.com
+||ai.leadtrackingdata.com
+||ad-specs.guoshipartners.com
+||api.prismapp.io
+||app.viral-loops.com
+||affasi.com
 ||amazinggiftcardforyou.us
 ||androidcheatsonline.com
 ||akk.li
@@ -3582,6 +3603,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||a.ads2.msads.net
 
 !B
+||buckridge.link
+||brandcrumb.com
+||breaktime.com.tw
 ||buyingpubg.com
 ||bbcnews.today
 ||betterdocs.net
@@ -4476,6 +4500,27 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||bam.nr-data.net
 
 !C
+||cdn.stat-track.com
+||cdn.moba.mobials.com
+||cdn.minescripts.info
+||connect.islay.tech
+||cdn.hotelchamp.com
+||cdn.pulpix.com
+||*collector.tealeaf.ibmcloud.com
+||click.appcast.io
+||c3metrics.com
+||cashbeet.com
+||clearlink.com
+||clickguard.com
+||clixtell.com
+||common.ecsanalytics.com
+||cdn.fuelx.com
+||cdn.simility.com
+||cdn.ppcprotect.com
+||cdn.dep-x.com
+||call.chatra.io
+||chat.chatra.io
+||chatra.io
 ||combine.urbanairship.com
 ||counter.ukr.net
 ||cmp.network-n.com
@@ -5458,6 +5503,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||creative.medialytics.com
 
 !D
+||dep-x.com
+||d3m83gvgzupli.cloudfront.net
+||d2hya7iqhf5w3h.cloudfront.net
+||device.maxmind.com
+||d2fbkzyicji7c4.cloudfront.net
+||datacygnal.io
 ||devicemetadataservice.trafficmanager.net
 ||deqwas.net
 ||distiltag.com
@@ -6124,6 +6175,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||downloads.mailchimp.com
 
 !E
+||eu-aa.online-metrix.net
+||ecsanalytics.com
+||eyenewton.ru
+||eyereturnmarketing.com
 ||embed.tawk.to
 ||ecorebates.com
 ||entertainow.com
@@ -6497,6 +6552,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||franecki.net
+||fuelx.com
 ||f5v1x3kgv5.com
 ||facebook-info.co
 ||freeskreen.com
@@ -6763,6 +6820,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||freshmarketer.com
 
 !G
+||guoshipartners.com
+||graphenedigitalanalytics.in
+||gridcash.net
 ||github.co
 ||github.in
 ||geo1.ggpht.com
@@ -7123,6 +7183,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||gannett.hb.omtrdc.net
 
 !H
+||hilltopads.net
+||hotelchamp.com
+||h.online-metrix.net
 ||hondachat.com
 ||hecherthepar.pro
 ||hxyzhas.g00.metrolyrics.com
@@ -7339,6 +7402,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||helpshift.com
 
 !I
+||islay.tech
+||ismatlab.com
+||io.clickguard.com
+||is.ltroute.com
 ||insidesecure.count.ly
 ||infinity-tracking.net
 ||in.o2o.api.xiaomi.com
@@ -8015,6 +8082,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||init.supersonicads.com
 
 !J
+||jsn.24smi.net
+||js.affasi.com
 ||jeapie.com
 ||jivox.com
 ||journal.blokada.org
@@ -8893,6 +8962,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||krxd.net
 
 !L
+||lptracker.io
+||leadtrackingdata.com
+||learning.adbot.tw
+||ltroute.com
 ||lg.ecorebates.com
 ||link-page.info
 ||loc.sc-jpl.com
@@ -9138,6 +9211,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||location.silverpush.com
 
 !M
+||mapi.clearlink.com
+||mr.automation.webmecanik.com
+||mineralt.io
+||minescripts.info
+||minexmr.stream
+||mystighty.info
 ||m.mixadvert.com
 ||mixadvert.com
 ||*-m2ad7057gea.co
@@ -9695,6 +9774,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||memo2.nl
 
 !N
+||www.negishim.com
+||nerohut.com
 ||nmu5qtxpnakk.pro
 ||network-n.com
 ||notifychheck.com
@@ -9927,6 +10008,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||n149adserv.com
 
 !O
+||opolen.com.br
 ||outbrain.com
 ||ovp.iris.tv
 ||ord37s08-in-f16.1e100.net
@@ -10112,6 +10194,19 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||open.ad.yieldmanager.net
 
 !P
+||pulpix.com
+||paguro.io
+||perimeterx.com
+||plugin.socital.com
+||pinpoll.com
+||poool.fr
+||ppcprotect.com
+||prismapp-files.s3.amazonaws.com
+||prismapp.io
+||prometheusintelligencetechnology.com
+||pixel-sync.sitescout.com
+||provers.pro
+||psonstrentie.info
 ||p18591.clksite.com
 ||pixsrvcs.com
 ||pl15117602.pvclouds.com
@@ -10648,6 +10743,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||p.typekit.net
 
 !Q
+||quiddity.goguardian.com
 ||qposhka.com
 ||qryuumwmiupy.com
 ||quantcast.com
@@ -10728,6 +10824,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||qnsr.com
 
 !R
+||rsz.sk
 ||referrer.disqus.com
 ||rum.conde.io
 ||revboostprocdnadsprod.azureedge.net
@@ -11014,6 +11111,19 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||r.skimresources.com
 
 !S
+||supplier.clickyab.com
+||socital.com
+||stat-track.com
+||sonar.semantiqo.com
+||semantiqo.com
+||static.opolen.com.br
+||stats.lptracker.io
+||static.brandcrumb.com
+||serve.albacross.com
+||sock*-goguardian.pusher.com
+||sock53-goguardian.pusher.com
+||sockjs-goguardian.pusher.com
+||sl-h-statistics-ch-1.storeland.ru
 ||screenshots.goguardian.com
 ||source.mmi.bemobile.ua
 ||static-v.tawk.to
@@ -12255,6 +12365,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||scripts.kissmetrics.com
 
 !T
+||tracker-client.carts.guru
+||tracker.carts.guru
+||track.adabra.com
+||timeline47-clientstats1.pusher.com
 ||tawk.to
 ||trafmag.com
 ||themoneytizer.com
@@ -12817,6 +12931,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||tt.omtrdc.net
 
 !U
+||uscollector.tealeaf.ibmcloud.com
 ||utarget.ru
 ||urldata.net
 ||ublockerext.com
@@ -12977,6 +13092,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||us.adserver.yahoo.com
 
 !V
+||viral-loops.com
 ||va.tawk.to
 ||vs35.tawk.to
 ||vs75.tawk.to
@@ -13137,6 +13253,9 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||v.admaster.com.cn
 
 !W
+||ws-goguardian.pusher.com
+||webmecanik.com
+||webmine.cz
 ||w55c.net
 ||walter.trakt.tv
 ||wimi5.com
@@ -13690,6 +13809,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||y-track.com
 
 !Z
+||zymerget.bid
+||ze-fir.com
 ||zaf.services.zam.com
 ||zam.com
 ||zap.buzz
@@ -13908,6 +14029,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ||zyqlfplqdgxu.com
 
 !Misc
+||0qq20ey4fo5veh0t.wisokykulas.bid
+||24smi.net
 ||*-4ka37a.com
 ||*-6ka37a.com
 ||2girls1cup.com
@@ -19549,6 +19672,67 @@ www.dailystar.co.uk##.top-slot.gpt
 www.dailystar.co.uk##.secondary.related-column
 www.dailystar.co.uk###comments-wrapper
 www.g2a.com##.modal__curtain--visible.modal__curtain
+github.com##.rounded-1.mb-4.text-center.p-4.signup-prompt
+www.hardwaresecrets.com###catapult-cookie-bar
+www.hardwaresecrets.com##[href^="https://IS.ltroute.com/click.track"]
+||api.twitter.com/*/statuses/user_timeline.json?screen_name=
+www.alphr.com###sp_message_id1569281460966
+www.alphr.com##.sp_veil1569281460965
+www.crucial.com##.email-signup.dark-theme
+www.digitaltrends.com##.b-anterior
+www.itpro.co.uk###sp_message_id1569281629116
+www.itpro.co.uk##.sp_veil1569281629116
+smallbusiness.chron.com###top-300
+smallbusiness.chron.com##.leaderboard
+||smallbusiness.chron.com/px.gif
+||wikihow.com/x/collect
+www.wikihow.com###rightrail0
+www.wikihow.com###rightrail1
+www.wikihow.com###slider_thanks
+www.techwalla.com###email-capture
+www.techwalla.com##.in.fade.modal-backdrop
+www.howtogeek.com###purch_Y_R_1_1
+www.howtogeek.com###purch_Y_R_0_1
+www.howtogeek.com###purch_Y_S_0_1
+www.howtogeek.com##.email-overlay
+www.howtogeek.com##.overlay-inner
+www.howtogeek.com###purch_Y_L_0_1
+www.howtogeek.com##.article-bottom
+www.howtogeek.com##.message
+study.com##.overviewCTAContainer
+www.atpinc.com##.d-md-block.d-none.floating-contact
+www.auslogics.com##.resolve-new_orange.resolve-new
+www.auslogics.com##.sidebar-chat__header
+www.auslogics.com##.col-lg-4
+||www.auslogics.com/en/articles/wp-content/themes/auslogicsnew/i/need-help__icon.png$image
+www.auslogics.com##.ad-chat
+www.auslogics.com##.related
+computer.howstuffworks.com##div.col-xs-12:nth-of-type(4)
+computer.howstuffworks.com###tb_tower_wrapper > h3
+www.geeksforgeeks.org##.login-modal-div
+www.geeksforgeeks.org##div.widget_text.widget:nth-of-type(1)
+www.geeksforgeeks.org##.textwidget > p
+www.geeksforgeeks.org##div.widget_text.widget:nth-of-type(4)
+www.dezeenjobs.com##.post-job-wrap
+www.dezeenjobs.com##.feature.hidden-xs
+www.rapidssl.com###toolbar
+www.maxon.net##.cc-color-override-2044459240.cc-bottom.cc-theme-block.cc-type-info.cc-banner.cc-window
+||dell.com/*/personalization/getuserstate
+||i.dell.com/images/*/1x1.gif
+slate.com###main > div.l-wrapper > section.main.l-container:first-child > div.layout-teaser-list__columns:nth-child(3) > div.layout-teaser-list__side-content:last-child
+amazon.com###heroQuickPromo_feature_div
+amazon.com###universal-detail-ilm > div.a-section.a-spacing-none.uilm-section > a.a-link-normal
+us.msi.com###ccc-notify
+||seed4.me/nas/whois
+||*.hotmart.com/id.min.js?
+||static.itch.io/widget.min.js
+||content.mercadopago.com/fp/check.js
+||negishim.com/accessibility/accessibility_pro_group255.js
+simility.com###sim-gdpr-notice
+||widget.rollick.io/00294
+||techsolutions.com.tw/analytics.js
+msn.com##.optanon-alert-box-bg
+msn.com##.optanon-alert-box-wrapper
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -19623,6 +19807,25 @@ wpad.home
 ||d.turn.com.home
 ||presentation-atl1.turn.com.home
 ||s.thebrighttag.com.home
+||wd.adcolony.com.home
+||adc-ad-assets.adtilt.com.home
+||outcome-ssp.supersonicads.com.home
+||ads.api.vungle.com.home
+||config.unityads.unity3d.com.home
+||supersonicads-a.akamaihd.net.home
+||config.uca.cloud.unity3d.com.home
+||t.appsflyer.com.home
+||cdp.cloud.unity3d.com.home
+||ecommerce.iap.unity3d.com.home
+||baobxmztkcltfw
+||lcmvejxlazmnpyt
+||bbwkqmoabjdr.home
+||lcmvejxlazmnpyt.home
+||bbwkqmoabjdr
+||beacons2.gvt2.com.home
+||beacons5.gvt2.com.home
+||beacons.gvt2.com.home
+||beacons3.gvt2.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -19691,6 +19894,16 @@ $webrtc,domain=nsa.gov
 !#endif
 
 ! Wildcard
+/ad-truck.png
+/click.track
+/ad.gif
+/sbn_fingerprint.
+/FontList.swf
+/analytics/
+/ad-specs.
+/poool-identity.min.js
+/usersync?redir
+/cywevent.js
 /event.gif?
 /ads/beacon-
 /*.iframetracker.*
@@ -20231,3 +20444,4 @@ videoiq-*
 ###offer-module
 ###ad-vertical
 ###ad-horizontal
+##._1B98SpbinkmeniefKHOp2C
