@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1137
+! Version: 1138
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 20.3K
-! Last Modified: Tuesday, September 24, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.4K
+! Last Modified: Wednesday, September 25, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -62,6 +62,7 @@ ff02::3 ip6-allhosts
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
+||*.doubleclick.net^$domain=msn.com,~media
 
 ! Don't Add Because Of Breakage
 !gdmf.apple.com (iOS updates)
@@ -936,6 +937,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 apikeys.civiccomputing.com
+0.0.0.0 anonymous-net.com
+0.0.0.0 adhref.com
+0.0.0.0 afcpatrk.com
+0.0.0.0 affiliatenetwork.co.za
+0.0.0.0 affbuzzads.com
 0.0.0.0 adabra.com
 0.0.0.0 adbot.tw
 0.0.0.0 adgainersolutions.com
@@ -4515,6 +4522,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cc.cdn.civiccomputing.com
+0.0.0.0 civiccomputing.com
+0.0.0.0 crazylead.com
+0.0.0.0 campaign.bharatmatrimony.com
 0.0.0.0 cdn.stat-track.com
 0.0.0.0 cdn.moba.mobials.com
 0.0.0.0 cdn.minescripts.info
@@ -5518,6 +5529,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 d3hio2lma4yp51.cloudfront.net
+0.0.0.0 delivery.trafficfabrik.com
 0.0.0.0 dep-x.com
 0.0.0.0 d3m83gvgzupli.cloudfront.net
 0.0.0.0 d2hya7iqhf5w3h.cloudfront.net
@@ -6835,6 +6848,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 geo.poki.io
 0.0.0.0 guoshipartners.com
 0.0.0.0 graphenedigitalanalytics.in
 0.0.0.0 gridcash.net
@@ -7417,6 +7431,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 intelligence-head.pinsightmedia.com
+0.0.0.0 internalredirect.site
 0.0.0.0 islay.tech
 0.0.0.0 ismatlab.com
 0.0.0.0 io.clickguard.com
@@ -8097,6 +8113,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jujo00obo2o234ungd3t8qjfcjrs3o6k-a-sites-opensocial.googleusercontent.com
 0.0.0.0 jsn.24smi.net
 0.0.0.0 js.affasi.com
 0.0.0.0 jeapie.com
@@ -9226,6 +9243,11 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 moneyducks.com
+0.0.0.0 mdrtrck.com
+0.0.0.0 mdn2015x1.com
+0.0.0.0 mdn2015x2.com
+0.0.0.0 mdn2015x3.com
 0.0.0.0 mapi.clearlink.com
 0.0.0.0 mr.automation.webmecanik.com
 0.0.0.0 mineralt.io
@@ -10023,6 +10045,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 orange2258.com
+0.0.0.0 outbid.io
 0.0.0.0 opolen.com.br
 0.0.0.0 outbrain.com
 0.0.0.0 ovp.iris.tv
@@ -10209,6 +10233,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pinsightmedia.com
+0.0.0.0 ptchits.com
 0.0.0.0 pulpix.com
 0.0.0.0 paguro.io
 0.0.0.0 perimeterx.com
@@ -10839,6 +10865,10 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 realtime.services.disqus.com
+0.0.0.0 richducks.com
+0.0.0.0 rarbg*.*
+0.0.0.0 rekoverr.com
 0.0.0.0 rsz.sk
 0.0.0.0 referrer.disqus.com
 0.0.0.0 rum.conde.io
@@ -11126,6 +11156,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 stateresolver.link
 0.0.0.0 supplier.clickyab.com
 0.0.0.0 socital.com
 0.0.0.0 stat-track.com
@@ -12380,6 +12411,21 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 t.poki.io
+0.0.0.0 trk.mdrtrck.com
+0.0.0.0 trafficfabrik.com
+0.0.0.0 traffic.tc-clicks.com
+0.0.0.0 tc-clicks.com
+0.0.0.0 tracking.toroadvertising.com
+0.0.0.0 toroadvertising.com
+0.0.0.0 tracking.deltamediallc.com
+0.0.0.0 tracking.crazylead.com
+0.0.0.0 tracker.mybroadband.co.za
+0.0.0.0 track.trkvluum.com
+0.0.0.0 trkvluum.com
+0.0.0.0 track.incognitovpn.com
+0.0.0.0 track.affiliatenetwork.co.za
+0.0.0.0 tour.affbuzzads.com
 0.0.0.0 tracker-client.carts.guru
 0.0.0.0 tracker.carts.guru
 0.0.0.0 track.adabra.com
@@ -19748,6 +19794,78 @@ simility.com###sim-gdpr-notice
 ||techsolutions.com.tw/analytics.js
 msn.com##.optanon-alert-box-bg
 msn.com##.optanon-alert-box-wrapper
+www.mamaslatinas.com##.top-bar
+www.mamaslatinas.com##.featured-content-center
+||schema.org/WPAdBlock
+mybroadband.co.za##.float-newsletter-bar
+mybroadband.co.za##.site-branding
+mybroadband.co.za###next-article
+||i.notdoppler.com/feature/*-promo-*_*.gif
+||i.notdoppler.com/img/topad_1a.gif
+||i.notdoppler.com/img/topad_1b.gif
+||i.notdoppler.com/img/topad_1c.gif
+||i.notdoppler.com/img/topad_2a.gif
+www.notdoppler.com##table:nth-of-type(7) > tbody > tr:nth-of-type(2) > td:nth-of-type(7)
+www.notdoppler.com##table:nth-of-type(7) > tbody > tr:nth-of-type(2) > td:nth-of-type(6)
+www.notdoppler.com##table:nth-of-type(7) > tbody > tr:nth-of-type(2) > td:nth-of-type(8)
+www.notdoppler.com##table:nth-of-type(7) > tbody > tr:nth-of-type(1) > td:nth-of-type(2)
+||i.notdoppler.com/img/main_topshadow-b.gif
+www.y8.com###policy-validation
+www.addictinggames.com##div.col-sm-2:nth-of-type(3) > .gam-add-box > .add-bx
+www.addictinggames.com##div.col-sm-2:nth-of-type(1) > .gam-add-box > .add-bx
+www.addictinggames.com##.blck-secgame.blck-sec
+poki.com##.ct.advertisement-GP-300x250-ATF.aD
+poki.com##.ct.advertisement-GP-Left.aD
+poki.com##.cz.ct.advertisement-GP-728x90-ATF.aD
+||a.poki.com/observer/t.js
+||a.poki.com/assets/client.v0.95.0.js
+sites.google.com###maestro_frame
+||links.services.disqus.com/api/ping
+www.g7r.com###noflash
+www.g7r.com##div.col-md-8:nth-of-type(1)
+www.g7r.com##div.col-md-12:nth-of-type(1) > .adblock
+www.g7r.com##.single-video-left > .adblock
+www.g7r.com##.single-video-right > .mt-0.adblock
+www.g7r.com##.footer-about
+sites.google.com##.sites-cookie-notice-fit
+www.arcadeprehacks.com##.small-box > .box-top
+||www.arcadeprehacks.com/plugins/site/themes/arcadeprehacks/img/sprite.png
+www.arcadeprehacks.com##.small-box > .box-bottom-thin > .thin-box-bottom-middle
+www.sprinter-game.com###prompt
+www.sprinter-game.com##.text-uppercase.my_ads_title
+www.sprinter-game.com###ZV12 > .text-center.ybi_w100.ybi_advertisement_title > .my_ads_title
+www.sprinter-game.com###ZV12 > div.ybi_w100.ybi_advertisement_inner:nth-of-type(3)
+www.sprinter-game.com###ZV12 > div.ybi_w100.ybi_advertisement_inner
+www.sprinter-game.com###ZX
+www.officegamespot.com##tr:nth-of-type(2) > td > table > tbody > tr:nth-of-type(6) > td
+www.officegamespot.com##body > table:nth-of-type(2) > tbody > tr > td:nth-of-type(2)
+www.kongregate.com###global > .sitemessage
+www.kongregate.com##.policy-bar
+www.silvergames.com##.cc-color-override-942629960.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
+www.silvergames.com##.w-300
+veedi.com##+js(set-constant, adBlocker, false)
+veedif.com##+js(set-constant, adBlocker, false)
+||i1.silvergames.com/js/17/tek.min.js
+||silvergames.com/div/g.php
+xxcrypticgamingxx.weebly.com##.footer-published-ab-powered-by
+xxcrypticgamingxx.weebly.com###footer
+www.tankius.com##.mgid_hor
+zombieshooting.games###comments > p
+www.agame.com###anti-bounce-overlay
+www.agame.com##.intro_intro--Ntqks
+www.agame.com##.popup_content--2JBXA
+www.agame.com##.anti-bounce__content-triangle
+www.agame.com##.anti-bounce__content-background > .popup-box
+||files.cdn.spilcloud.com/anti-bounce/1565267400_anti-bounce-drago.png
+www.agame.com###anti-bounce-popup
+www.agame.com##.MrGp1.mpu.advert
+www.agame.com##.SsGp1.skyscraper.advert
+www.agame.com##.game-page-sidebar
+www.agame.com###wdg-alertbar-flash-message
+||static-fonts.adobe.com/yoe7ink.js
+||fonts.adobe.com/yoe7ink.js
+||images2.adobe.com/downloadcenter/js/live/polarbear.js
+||pandora.com/radio/util/mediaserverPublicRedirect.jsp
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -19841,6 +19959,8 @@ wpad.home
 ||beacons5.gvt2.com.home
 ||beacons.gvt2.com.home
 ||beacons3.gvt2.com.home
+||xlnnkkt.home
+||vvvjmlomxtayk.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -20421,6 +20541,11 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /loadJsFingerprint.js
 /device-fingerprint
 /analytics*.php
+/radioAdEmbed.
+/topad_*.gif
+/ads-loader-*
+/cookieconsent.min.js
+-ad-
 -page-url=
 &page-url=
 ?adname=
@@ -20460,3 +20585,28 @@ videoiq-*
 ###ad-vertical
 ###ad-horizontal
 ##._1B98SpbinkmeniefKHOp2C
+##.amp-ad-container
+##.amp-ad-wrapper
+##.wsTopSposoredLinks
+##.yaAds
+##.yad-sponsored
+##.yahoo-ad-leader-north
+##.yahoo-ad-leader-south
+##div[id^="mainads"]
+##a[href^="trafficjunky.com"]
+##a[href^="adultfriendfinder.com"]
+##a[href^="orange2258.com"]
+##a[href^="crazylead.com"]
+##a[href^="adserver-*"]
+##a[href^="adserver.*"]
+##a[href^="adserver_*"]
+##a[href^="promo-*"]
+##a[href^="promo.*"]
+##a[href^="promo_*"]
+##a[href^="tracker-*"]
+##a[href^="tracker.*"]
+##a[href^="tracker_*"]
+##a[href^="track-*"]
+##a[href^="track.*"]
+##a[href^="track_*"]
+##a[href^="paid.outbrain.com"]
