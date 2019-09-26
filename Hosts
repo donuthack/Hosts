@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1138
+! Version: 1139
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.4K
-! Last Modified: Wednesday, September 25, 2019
+! Last Modified: Thursday, September 26, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -97,6 +97,34 @@ pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
 digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+
+! Conveniences
+! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
+*##+js(nofab.js)
+! Keep adf.ly links from trying to make you turn off your adblocker
+adf.ly##+js(adfly-defuser.js)
+
+! Scriptlet Injections
+converto.io##+js(disable-newtab-links.js)
+docs.google.com##+js(alert-buster.js)
+file-upload.net##+js(abort-on-property-write.js, Fingerprint2)
+thepiratebay.cr##+js(abort-on-property-write.js, Fingerprint2)
+thepiratebay.cr##+js(window.open-defuser.js)
+mp3converter.net##+js(abort-on-property-write.js, Fingerprint2)
+loadvid.online##+js(abort-current-inline-script.js, adblock)
+twitch.tv##+js(twitch-videoad.js)
+solarmovie.*##+js(window.open-defuser.js)
+imgrock.*##+js(abort-on-property-write.js, Fingerprint2)
+imgrock.*##+js(popads-dummy.js)
+imgrock.*##+js(window.open-defuser.js)
+123moviesunblocked.net##+js(abort-on-property-write.js, Fingerprint2)
+2giga.link##+js(abort-on-property-write.js, Fingerprint2)
+uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
+mega.co.nz##+js(abort-on-property-write.js, Fingerprint2)
+mega.nz##+js(abort-on-property-write.js, Fingerprint2)
+bitskins.com##+js(abort-on-property-write.js, Fingerprint2)
+veedi.com##+js(set-constant, adBlocker, false)
+veedif.com##+js(set-constant, adBlocker, false)
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -937,6 +965,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 ataijeeg.net
+0.0.0.0 a.o333o.com
 0.0.0.0 apikeys.civiccomputing.com
 0.0.0.0 anonymous-net.com
 0.0.0.0 adhref.com
@@ -5529,6 +5559,8 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 deloplen.com
+0.0.0.0 daurifek.net
 0.0.0.0 d3hio2lma4yp51.cloudfront.net
 0.0.0.0 delivery.trafficfabrik.com
 0.0.0.0 dep-x.com
@@ -9811,6 +9843,13 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 ns*.dynamicnetworkservices.net
+0.0.0.0 ns.dynamicnetworkservices.net
+0.0.0.0 ns1.dynamicnetworkservices.net
+0.0.0.0 ns2.dynamicnetworkservices.net
+0.0.0.0 ns3.dynamicnetworkservices.net
+0.0.0.0 ns4.dynamicnetworkservices.net
+0.0.0.0 ns5.dynamicnetworkservices.net
 0.0.0.0 www.negishim.com
 0.0.0.0 nerohut.com
 0.0.0.0 nmu5qtxpnakk.pro
@@ -10045,6 +10084,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 o333o.com
 0.0.0.0 orange2258.com
 0.0.0.0 outbid.io
 0.0.0.0 opolen.com.br
@@ -11270,7 +11310,6 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 supporttool-shasta-rrs.symantec.com
 0.0.0.0 static.brave.com
 0.0.0.0 stats.qalabs.symantec.com
-0.0.0.0 static-cdn.jtvnw.net
 0.0.0.0 slscr.update.microsoft.com
 0.0.0.0 slscr.update.microsoft.com.akadns.net
 0.0.0.0 star-mini.c10r.facebook.com
@@ -12411,6 +12450,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 taiphaib.net
 0.0.0.0 t.poki.io
 0.0.0.0 trk.mdrtrck.com
 0.0.0.0 trafficfabrik.com
@@ -17291,12 +17331,7 @@ freeonlinegames.com##.marginBottom0.well-blue.well
 freeonlinegames.com##.clearfix.span12
 games.aarp.org###div_blockTop_1
 ||file-upload.net^$subdocument
-file-upload.net##+js(abort-on-property-write.js, Fingerprint2)
 file-upload.net##iframe
-file-up.org,file-upload.*##+js(abort-current-inline-script.js, document.getElementById, undefined)
-file-upload.*##+js(setTimeout-defuser.js, nextFunction, 2000)
-file-upload.*##+js(abort-current-inline-script.js, RegExp, zfgloaded)
-file-up.org##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 file-upload.*##.adsbygoogle
 bloomberg.com###adBlockerContainer
 ||bit.ly^$popup
@@ -17310,39 +17345,17 @@ urlchecker.org###adchecker
 urlchecker.org###adchecker_btn
 urlchecker.org###ads_notify
 ria.ru##.antiblock
-openload.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
 uploadbank.com###\32 iegLoGXmk2LIjw1VxrdDKg7CWfCJy
 uploadbank.com###juzvY65xAdNlY2Yi2zp
-uploadbank.com##+js(abort-current-inline-script.js, Math.random, banner)
 telegraph.co.uk##.adblocker-message
-mp4upload.com##+js(popads-dummy.js)
 mp4upload.com###overlay
 playview.io##.ads_player
-thepiratebay.cr##+js(abort-on-property-write.js, adcashMacros)
-thepiratebay.cr##+js(abort-on-property-write.js, Fingerprint2)
-thepiratebay.cr##+js(window.open-defuser.js)
-thepiratebay.*##+js(abort-on-property-write.js, spot)
-conservativetribune.com##+js(set-constant.js, oio, true)
-uploadfiles.io##+js(abort-on-property-read.js, HTMLScriptElement)
-uploadfiles.io##+js(nano-setInterval-booster.js)
 uploadfiles.io##.ad-blocked
 usatoday.com##.home.taboola-sidebar-title.sidebar-title
 usatoday.com##.sidebar-static-title-wrapper
-mp3converter.net##+js(abort-on-property-write.js, Fingerprint2)
-sourceforge.net##+js(nano-setTimeout-booster.js)
 twitter.com##[data-testid="tweet"]:has-text(/Promoted|Gesponsert|Реклама/)
 reddit.com##.size-compact.Post:has([class*="promoted"])
 reddit.com##.vuIDB
-fbdown.net##script:inject(set-constant.js,harshblock,false)
-twitch.tv##+js(twitch-videoad.js)
-foxsports.com##+js(set-constant.js, cxStartDetectionProcess, noopFunc)
-foxsports.com.au##+js(set-constant.js, cxStartDetectionProcess, noopFunc)
-e-mailscamalerts.*##+js(nobab.js)
-loadvid.online##+js(abort-current-inline-script.js, fileID, adblock)
-loadvid.online##+js(abort-on-property-read.js, BetterJsPop)
-loadvid.online##+js(set-constant.js, adBlockNotDetected, true)
-loadvid.online##+js(set-constant.js, pop_cnt, 1)
-loadvid.online##+js(setTimeout-defuser.js, _creatBait)
 loadvid.online###overlay-vcplayer
 ||bit.ly^$subdocument,domain=loadvid.online
 4chan.org##.ad-plea
@@ -17356,70 +17369,33 @@ hireteen.com###adb-enabled
 theguardian.com##.js-adblock-sticky
 theguardian.com##.site-message--adblock-message
 solarmoviez.*,yesmovies.to##a[href^="https://watchasap.com/"]
-solarmoviez.*##+js(nowebrtc.js)
-solarmoviex.to##+js(abort-current-inline-script.js, decodeURI, atob)
-solarmoviex.to##+js(abort-current-inline-script.js, RegExp, zfgloaded)
 ||solarmoviex.to/sw.js$script
-solarmovie.cam##+js(abort-on-property-read.js, AaDetector)
-world4.eu##script:inject(nobab.js)
-solarmovie.cam##+js(window.open-defuser.js)
 mail.yahoo.com##div[aria-describedby="adblock-upsell-description"]
 bitfun.co,moonbitcoin.cash###flexContentAdFrame:style(visibility: collapse !important)
 moonbitcoin.cash###slideIn
-igg-games.com##+js(abort-current-inline-script.js, decodeURI, getScriptFromCss)
-igg-games.com##+js(abort-current-inline-script.js, RegExp, zfgloaded)
 igg-games.com##a[href$=".jpg"]
-paidshort.*##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
-paidshort.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
-xda-developers-forum.*##+js(nobab.js)
 wallpapersmania.com##.js_disabled
 wallpapersmania.com###cpa_wrap
-imgrock.*##+js(abort-current-inline-script.js, CustomEvent, window[_0x)
-imgrock.*##+js(abort-on-property-write.js, Fingerprint2)
-imgrock.*##+js(nano-setTimeout-booster.js, /.?/, 4000)
-imgrock.*##+js(popads-dummy.js)
-imgrock.*##+js(popads.net.js)
-imgrock.*##+js(window.open-defuser.js)
 uptobox.com###adblocktrap
 uptobox.com##.ad-leader
 www.ca.com##.showButton.contact__button
 wordgames.com###ad-gamepage-leaderboard
 wordgames.com###skyscrapper-container
 wordgames.com###skyscraper-container
-uqload.com##+js(abort-current-inline-script.js, atob, decodeURIComponent)
-unblocksites.co##+js(nowebrtc.js)
-royalurls.com##+js(abort-on-property-read.js, app_vars.force_disable_adblock)
-imageuploads.co.uk##+js(abort-current-inline-script.js, CustomEvent, getexoloader)
-uploadbox.io##+js(setInterval-defuser.js, (), 5000)
 c123movies.com,123freemovies.*,123movieslife.*,123movie.*,123movies123.*,123moviesu.com###option-0, a[href="#option-0"]
 123freemovies.*,123movies123.*,123movieslife.*,123movies4u.club,v123movies.com##.pframe:has([href^="javascript: void(0);"])
 123moviesfree.live##.pframe:has([src^="https://123moviesfree.live/"])
 123moviesok.com##.pframe:has([src^="https://123moviesok.com/"])
-123moviesunblocked.net##+js(abort-on-property-write.js, Fingerprint2)
-123movieswatch.fun##+js(abort-on-property-read.js, Date.prototype.toUTCString)
 123movieswatch.fun##.btn3d:has-text(/stream/i)
 123movieswatch.fun##.btn3d:has-text(/Download/i)
-l23movies.*,123movies0.*,123movieshub.*##+js(abort-current-inline-script.js, atob, decodeURIComponent)
-e123movies.com,123moviespower.com,123moviez.online##+js(abort-current-inline-script.js, atob, decodeURIComponent)
-0123movies.*,123movieshub.*##+js(abort-on-property-read.js, AaDetector)
-vidwatch.me##+js(abort-on-property-read.js, AaDetector)
-0l23movies.*##+js(abort-on-property-read.js, rid)
-0l23movies.com,123movieshd.vip,vidwatch.me##+js(nano-setInterval-booster.js)
 123movies.*##a[href="https://www.123movies.club/stream-now/"]
 123movies.*,123movieslife.*##.btn-watch-area
 123movies.*##li > .options:has-text(Watch Online)
 123movies.*##.selected.options
-yesmovies.*##+js(abort-on-property-read.js, AaDetector)
-yesmovies.gg##+js(abort-on-property-read.js, Date.prototype.toUTCString)
-yesmovies.cloud##+js(abort-on-property-read.js, zfgloadedpopup)
 uploadproper.com##.adsbygoogle
 uploadproper.com##.ads_small
 uploadproper.com##.ads_big
 uploadproper.com##[href*=".info/"]
-uploadproper.com##+js(abort-on-property-write.js, Fingerprint2)
-||2giga.link/sw.js$script,1p
-2giga.link##+js(abort-on-property-write.js, Fingerprint2)
-2giga.link##+js(addEventListener-defuser.js, click)
 ||www.fixmypcfree.com/wp-content/uploads/2018/09/1-3.jpg
 link.tl##.adblockBox
 link.tl##.adblockOverlay
@@ -18141,8 +18117,6 @@ filmora.wondershare.com##.with-hand.text-center.text-steel.bg-white.seasonal-clo
 npcdaily.com###tie-block_1776 > .container-wrapper
 npcdaily.com###stream-item-widget-6
 www.dummies.com##.dummies-helped-campaign.accent.dummies-newsletter
-mega.co.nz##+js(abort-on-property-write.js, Fingerprint2)
-mega.nz##+js(abort-on-property-write.js, Fingerprint2)
 hotair.com##.salem-content-injection-wrap > .row
 beta.washingtonpost.com##section:nth-of-type(2) > .i-amphtml-layout.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.i-amphtml-element > i-amphtml-sizer
 beta.washingtonpost.com##.i-amphtml-unresolved.amp-unresolved.i-amphtml-layout-size-defined.i-amphtml-layout-responsive.amp-notbuilt.i-amphtml-notbuilt.i-amphtml-element > i-amphtml-sizer
@@ -18237,7 +18211,6 @@ www.record.pt##.mt-4.leaderboard_footer.container
 ||dailymail.co.uk/manifest.json
 ||dailymail.co.uk/static/gunther/17.11.0/async_bundle--.js
 ||i.dailymail.co.uk/i/furniture/facebook/DailyMail/DailyMail.png
-discordapp.com##+js(abort-on-property-write.js, Fingerprint2)
 www.dailymail.co.uk##.facebook-like-static
 www.dailymail.co.uk###infinite-list > .wocc
 www.dailymail.co.uk##.comment-form.bogr1
@@ -18804,7 +18777,6 @@ desmoinesregister.com##.hydrated
 ||startpage.com/sp/adsense
 ||startpage.com/elt.gif
 ||startpage.com/pelp?
-panopticlick.eff.org##+js(abort-on-property-write.js, Fingerprint2)
 kdsm17.com##div.sd-page-wrapper.v2:last-child > div.sd-main-wrapper.sd-page-width:first-child > div.row:last-child > div.sd-main.col-xxs-24 > div.row > div.sd-main-content.col-xxs-24.col-md-18:first-child > div.component-teaser-medium_with_inline_ddb-v1.sd-component:last-child
 desmoinesregister.com###module-position-SBd98psi8jM
 q13fox.com###acm-tag-300x250-atf
@@ -19081,7 +19053,6 @@ about:blank$domain=youtube.com
 thehill.com###block-block-3
 twitter.com##.LoginDialog, .modal-container, .u-textCenter
 twitter.com###permalink-overlay
-bitskins.com##+js(abort-on-property-write.js, Fingerprint2)
 ||bitskins.com/js/fingerprint2.js
 ||cdn.jsdelivr.net/npm/fingerprintjs2
 youtube.com##.ytd-promoted-sparkles-text-search-renderer
@@ -19843,8 +19814,6 @@ www.kongregate.com###global > .sitemessage
 www.kongregate.com##.policy-bar
 www.silvergames.com##.cc-color-override-942629960.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
 www.silvergames.com##.w-300
-veedi.com##+js(set-constant, adBlocker, false)
-veedif.com##+js(set-constant, adBlocker, false)
 ||i1.silvergames.com/js/17/tek.min.js
 ||silvergames.com/div/g.php
 xxcrypticgamingxx.weebly.com##.footer-published-ab-powered-by
@@ -19866,6 +19835,13 @@ www.agame.com###wdg-alertbar-flash-message
 ||fonts.adobe.com/yoe7ink.js
 ||images2.adobe.com/downloadcenter/js/live/polarbear.js
 ||pandora.com/radio/util/mediaserverPublicRedirect.jsp
+||startpage.com/do/get_zeroclick_info
+||images-na.ssl-images-amazon.com/images/*/grey-pixel.gif
+poki.com##.cA.advertisement-GP-Left.aG
+poki.com##.cG.cA.advertisement-GP-728x90-ATF.aG
+poki.com##.cA.advertisement-GP-300x250-ATF.aG
+www.pomu.com##.Banners-lateral--derecha.Banners-lateral
+||solarmovie.*/updateViewCount
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -19968,7 +19944,7 @@ semantic-ui.com,gizmodo.com#%#//scriptlet("prevent-fab-3.2.0")
 dailycaller.com#%#document.cookie = "__adblocker = false"
 youtube.com##html > head:first-child > script:nth-child(30)[name="www-roboto"]
 ! Anti Tracking Cookies
-$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|__cfduid/
+$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|__cfduid/
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
 ||adorama.com$third-party,cookie
