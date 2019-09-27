@@ -48,23 +48,6 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
-#### Unbreak
-* AdAway
-* AdGuard Home
-* AdGuard
-* AdNauseam
-* Blokada
-* Diversion
-* DNS66
-* Gas Mask
-* Hosts File Editor
-* hostsmgr
-* Nano Adblocker
-* PersonalDNSfilter
-* Pi-hole
-* uBlock Origin
-* uMatrix
-
 #### /Anti/Anti Alphabet
 * AdBlock
 * Adblock Plus 2.0+
