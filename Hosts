@@ -16,13 +16,15 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1140
+! Version: 1141
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 20.4K
-! Last Modified: Friday, September 27, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
+! Last Modified: Saturday, September 28, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||github.co$domain=github.com
+@@||gigya.com
 @@||yospace-directv.akamaized.net
 @@||yospace.com
 @@||ads-e-darwin.hulustream.com
@@ -85,6 +87,10 @@ ff02::3 ip6-allhosts
 !pushwoosh.com (Blocks many notifications)
 !spclient.wg.spotify.com (Breaks Spotify)
 !ir.ebaystatic.com (Possible analytics but blocking causes breakage on ebay.com)
+!ctldl.windowsupdate.com (Windows Update)
+!settings-win.data.microsoft.com (Windows Update)
+!tr.rbxcdn.com (Breaks Roblox Profile Pictures)
+!presence.roblox.com (Breaks Roblox Friends and Chat)
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
@@ -105,6 +111,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
 *##+js(nofab.js)
+*##+js(nobab.js)
 ! Keep adf.ly links from trying to make you turn off your adblocker
 adf.ly##+js(adfly-defuser.js)
 
@@ -969,6 +976,13 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 analytics.snidigital.com
+0.0.0.0 adsales.snidigital.com
+0.0.0.0 advertising.yahoo.com
+0.0.0.0 crunchyroll.adclixx.net
+0.0.0.0 adclixx.net
+0.0.0.0 as.inbox.com
+0.0.0.0 a.livesportmedia.eu
 0.0.0.0 ataijeeg.net
 0.0.0.0 a.o333o.com
 0.0.0.0 apikeys.civiccomputing.com
@@ -4556,6 +4570,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.shortpixel.ai
+0.0.0.0 collect.igodigital.com
 0.0.0.0 cc.cdn.civiccomputing.com
 0.0.0.0 civiccomputing.com
 0.0.0.0 crazylead.com
@@ -4671,7 +4687,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 crlsets.brave.com
 0.0.0.0 chrome.adtidy.org
 0.0.0.0 cs1143.wpc.chicdn.net
-0.0.0.0 ctldl.windowsupdate.com
 0.0.0.0 crl.certum.pl
 0.0.0.0 crl.pki.goog
 0.0.0.0 clients4.brave.com
@@ -5534,7 +5549,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 crwdcntrl.net
 0.0.0.0 cbsi.com
 0.0.0.0 cbsi.net
-0.0.0.0 cdns.gigya.com
 0.0.0.0 casalemedia.com
 0.0.0.0 criteo.net
 0.0.0.0 cbs.siteintercept.qualtrics.com
@@ -6239,6 +6253,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 engage.vzw.com
 0.0.0.0 eu-aa.online-metrix.net
 0.0.0.0 ecsanalytics.com
 0.0.0.0 eyenewton.ru
@@ -7003,8 +7018,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 good.alibaba.com
 0.0.0.0 g.alicdn.com
 0.0.0.0 gj.mmstat.com
-0.0.0.0 www.gigya.com
-0.0.0.0 gigya.com
 0.0.0.0 ga.clearbit.com
 0.0.0.0 geolocation.onetrust.com
 0.0.0.0 ground1.wipersoft.revenuewire.net
@@ -9279,6 +9292,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 media-lax1.inq.com
+0.0.0.0 mobile.vzw.com
 0.0.0.0 moneyducks.com
 0.0.0.0 mdrtrck.com
 0.0.0.0 mdn2015x1.com
@@ -10277,6 +10292,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pixel-a.basis.net
+0.0.0.0 pubsub-560609236.pubnub.com
 0.0.0.0 pinsightmedia.com
 0.0.0.0 ptchits.com
 0.0.0.0 pulpix.com
@@ -10302,7 +10319,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 p.tvpixel.com
 0.0.0.0 pi.ispot.tv
 0.0.0.0 pippio.com
-0.0.0.0 presence.roblox.com
 0.0.0.0 prophet.heise.de
 0.0.0.0 playtechone.com
 0.0.0.0 p.jango.com
@@ -11200,6 +11216,9 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 shortpixel.ai
+0.0.0.0 speedyads.com
+0.0.0.0 sanalytics.verizonwireless.com
 0.0.0.0 stateresolver.link
 0.0.0.0 supplier.clickyab.com
 0.0.0.0 socital.com
@@ -11317,7 +11336,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 slscr.update.microsoft.com
 0.0.0.0 slscr.update.microsoft.com.akadns.net
 0.0.0.0 star-mini.c10r.facebook.com
-0.0.0.0 scontent.xx.fbcdn.net
 0.0.0.0 sf.symcd.com
 0.0.0.0 sb.adtidy.org
 0.0.0.0 safebrowsing.brave.com
@@ -12141,8 +12159,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 sigmaad.com
 0.0.0.0 snssdk.com
 0.0.0.0 siteminer.mycomputer.com
-0.0.0.0 settings-win.data.microsoft.com
-0.0.0.0 settings-sandbox.data.microsoft.com
 0.0.0.0 services.wes.df.telemetry.microsoft.com
 0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
 0.0.0.0 sqm.telemetry.microsoft.com
@@ -12595,7 +12611,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 tas.ezwealth4life.com
 0.0.0.0 tiyu2019.com
 0.0.0.0 teprofits.com
-0.0.0.0 tr.rbxcdn.com
 0.0.0.0 telephonyspamprotect-pa.googleapis.com
 0.0.0.0 tell.yumimobi.com
 0.0.0.0 tracker1.yumimobi.com
@@ -13197,6 +13212,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 verizon.inq.com
 0.0.0.0 viral-loops.com
 0.0.0.0 va.tawk.to
 0.0.0.0 vs35.tawk.to
@@ -19856,6 +19872,17 @@ nbcnews.com##.railContent___d7gAe
 nbcnews.com##.railWrapper___OPma9
 nbcnews.com##.rail.rail___14Hjt.layout-grid-item.grid-col-5-l.grid-col-4-xl
 nbcnews.com##.rightRail___IGUOf
+reddit.com##:-abp-has(div[data-before-content="advertisement"])
+urlchecker.org##div.panel-default.panel:nth-of-type(5)
+games2jolly.com###leaderboard_area
+games2jolly.com###home_right
+games2jolly.com##.main_left_home > center > div
+www.mofunzone.com###ad-banner
+www.mofunzone.com###sidebar-corner-ad
+www.mofunzone.com###ad-skyscraper
+www.zenz-solutions.de###hinweiscookie
+||javadecompilers.com/detroitchicago/rochester.js
+www.pubnub.com###cookie-law-info-bar
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -19951,6 +19978,7 @@ wpad.home
 ||beacons3.gvt2.com.home
 ||xlnnkkt.home
 ||vvvjmlomxtayk.home
+||mobile-collector.newrelic.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -20536,6 +20564,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /topad_*.gif
 /ads-loader-*
 /cookieconsent.min.js
+/AdManager.js
 -ad-
 -page-url=
 &page-url=
@@ -20553,7 +20582,7 @@ _fingerprint
 videoiq-*
 *:has-text(/^Advertisement/i)
 *:has-text(/^Promoted Content/i)
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
@@ -20583,6 +20612,14 @@ videoiq-*
 ##.yad-sponsored
 ##.yahoo-ad-leader-north
 ##.yahoo-ad-leader-south
+###ad-skyscraper
+###sidebar-corner-ad
+###ad-banner
+###adblockBanner
+###like-us-adblock-modal
+##.admania_adblock_detector
+###adchecker
+###ad-block-holder
 ##div[id^="mainads"]
 ##a[href^="trafficjunky.com"]
 ##a[href^="adultfriendfinder.com"]
