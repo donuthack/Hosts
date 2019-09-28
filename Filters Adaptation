@@ -1,13 +1,15 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1140
+! Version: 1141
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 20.4K
-! Last Modified: Friday, September 27, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
+! Last Modified: Saturday, September 28, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||github.co$domain=github.com
+@@||gigya.com
 @@||yospace-directv.akamaized.net
 @@||yospace.com
 @@||ads-e-darwin.hulustream.com
@@ -70,6 +72,10 @@
 !pushwoosh.com (Blocks many notifications)
 !spclient.wg.spotify.com (Breaks Spotify)
 !ir.ebaystatic.com (Possible analytics but blocking causes breakage on ebay.com)
+!ctldl.windowsupdate.com (Windows Update)
+!settings-win.data.microsoft.com (Windows Update)
+!tr.rbxcdn.com (Breaks Roblox Profile Pictures)
+!presence.roblox.com (Breaks Roblox Friends and Chat)
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
@@ -90,6 +96,7 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
 *##+js(nofab.js)
+*##+js(nobab.js)
 ! Keep adf.ly links from trying to make you turn off your adblocker
 adf.ly##+js(adfly-defuser.js)
 
@@ -954,6 +961,13 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||analytics.snidigital.com
+||adsales.snidigital.com
+||advertising.yahoo.com
+||crunchyroll.adclixx.net
+||adclixx.net
+||as.inbox.com
+||a.livesportmedia.eu
 ||ataijeeg.net
 ||a.o333o.com
 ||apikeys.civiccomputing.com
@@ -4541,6 +4555,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||bam.nr-data.net
 
 !C
+||cdn.shortpixel.ai
+||collect.igodigital.com
 ||cc.cdn.civiccomputing.com
 ||civiccomputing.com
 ||crazylead.com
@@ -4656,7 +4672,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||crlsets.brave.com
 ||chrome.adtidy.org
 ||cs1143.wpc.chicdn.net
-||ctldl.windowsupdate.com
 ||crl.certum.pl
 ||crl.pki.goog
 ||clients4.brave.com
@@ -5519,7 +5534,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||crwdcntrl.net
 ||cbsi.com
 ||cbsi.net
-||cdns.gigya.com
 ||casalemedia.com
 ||criteo.net
 ||cbs.siteintercept.qualtrics.com
@@ -6224,6 +6238,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||downloads.mailchimp.com
 
 !E
+||engage.vzw.com
 ||eu-aa.online-metrix.net
 ||ecsanalytics.com
 ||eyenewton.ru
@@ -6988,8 +7003,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||good.alibaba.com
 ||g.alicdn.com
 ||gj.mmstat.com
-||www.gigya.com
-||gigya.com
 ||ga.clearbit.com
 ||geolocation.onetrust.com
 ||ground1.wipersoft.revenuewire.net
@@ -9264,6 +9277,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||location.silverpush.com
 
 !M
+||media-lax1.inq.com
+||mobile.vzw.com
 ||moneyducks.com
 ||mdrtrck.com
 ||mdn2015x1.com
@@ -10262,6 +10277,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||open.ad.yieldmanager.net
 
 !P
+||pixel-a.basis.net
+||pubsub-560609236.pubnub.com
 ||pinsightmedia.com
 ||ptchits.com
 ||pulpix.com
@@ -10287,7 +10304,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||p.tvpixel.com
 ||pi.ispot.tv
 ||pippio.com
-||presence.roblox.com
 ||prophet.heise.de
 ||playtechone.com
 ||p.jango.com
@@ -11185,6 +11201,9 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||r.skimresources.com
 
 !S
+||shortpixel.ai
+||speedyads.com
+||sanalytics.verizonwireless.com
 ||stateresolver.link
 ||supplier.clickyab.com
 ||socital.com
@@ -11302,7 +11321,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||slscr.update.microsoft.com
 ||slscr.update.microsoft.com.akadns.net
 ||star-mini.c10r.facebook.com
-||scontent.xx.fbcdn.net
 ||sf.symcd.com
 ||sb.adtidy.org
 ||safebrowsing.brave.com
@@ -12126,8 +12144,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||sigmaad.com
 ||snssdk.com
 ||siteminer.mycomputer.com
-||settings-win.data.microsoft.com
-||settings-sandbox.data.microsoft.com
 ||services.wes.df.telemetry.microsoft.com
 ||sqm.telemetry.microsoft.com.nsatc.net
 ||sqm.telemetry.microsoft.com
@@ -12580,7 +12596,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||tas.ezwealth4life.com
 ||tiyu2019.com
 ||teprofits.com
-||tr.rbxcdn.com
 ||telephonyspamprotect-pa.googleapis.com
 ||tell.yumimobi.com
 ||tracker1.yumimobi.com
@@ -13182,6 +13197,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||us.adserver.yahoo.com
 
 !V
+||verizon.inq.com
 ||viral-loops.com
 ||va.tawk.to
 ||vs35.tawk.to
@@ -19841,6 +19857,17 @@ nbcnews.com##.railContent___d7gAe
 nbcnews.com##.railWrapper___OPma9
 nbcnews.com##.rail.rail___14Hjt.layout-grid-item.grid-col-5-l.grid-col-4-xl
 nbcnews.com##.rightRail___IGUOf
+reddit.com##:-abp-has(div[data-before-content="advertisement"])
+urlchecker.org##div.panel-default.panel:nth-of-type(5)
+games2jolly.com###leaderboard_area
+games2jolly.com###home_right
+games2jolly.com##.main_left_home > center > div
+www.mofunzone.com###ad-banner
+www.mofunzone.com###sidebar-corner-ad
+www.mofunzone.com###ad-skyscraper
+www.zenz-solutions.de###hinweiscookie
+||javadecompilers.com/detroitchicago/rochester.js
+www.pubnub.com###cookie-law-info-bar
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -19936,6 +19963,7 @@ wpad.home
 ||beacons3.gvt2.com.home
 ||xlnnkkt.home
 ||vvvjmlomxtayk.home
+||mobile-collector.newrelic.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
@@ -20521,6 +20549,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /topad_*.gif
 /ads-loader-*
 /cookieconsent.min.js
+/AdManager.js
 -ad-
 -page-url=
 &page-url=
@@ -20538,7 +20567,7 @@ _fingerprint
 videoiq-*
 *:has-text(/^Advertisement/i)
 *:has-text(/^Promoted Content/i)
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
@@ -20568,6 +20597,14 @@ videoiq-*
 ##.yad-sponsored
 ##.yahoo-ad-leader-north
 ##.yahoo-ad-leader-south
+###ad-skyscraper
+###sidebar-corner-ad
+###ad-banner
+###adblockBanner
+###like-us-adblock-modal
+##.admania_adblock_detector
+###adchecker
+###ad-block-holder
 ##div[id^="mainads"]
 ##a[href^="trafficjunky.com"]
 ##a[href^="adultfriendfinder.com"]
