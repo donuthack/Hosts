@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1141
+! Version: 1142
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Saturday, September 28, 2019
+! Last Modified: Monday, September 30, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -961,6 +961,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||array613.prod.do.dsp.mp.microsoft.com
+||array*.prod.do.dsp.mp.microsoft.com
 ||analytics.snidigital.com
 ||adsales.snidigital.com
 ||advertising.yahoo.com
@@ -3658,6 +3660,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||a.ads2.msads.net
 
 !B
+||byoc.fp-afd-ccc.com
 ||buckridge.link
 ||brandcrumb.com
 ||breaktime.com.tw
@@ -4555,6 +4558,12 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||bam.nr-data.net
 
 !C
+||chatws26.stream.highwebmedia.com
+||chatws*.stream.highwebmedia.com
+||cbjpeg.stream.highwebmedia.com
+||camo.stream.highwebmedia.com
+||cp.dbbp1.net
+||clickstream-killswitch.hd-personalization-prod.gcp.homedepot.com
 ||cdn.shortpixel.ai
 ||collect.igodigital.com
 ||cc.cdn.civiccomputing.com
@@ -5562,6 +5571,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||creative.medialytics.com
 
 !D
+||d.joinhoney.com
+||dbbp1.com
 ||deloplen.com
 ||daurifek.net
 ||d3hio2lma4yp51.cloudfront.net
@@ -6616,6 +6627,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||fp-afd-ccc.com
+||ftv-smp.ntp-fireos.com
 ||franecki.net
 ||fuelx.com
 ||f5v1x3kgv5.com
@@ -7465,6 +7478,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||helpshift.com
 
 !I
+||imgdrive.net.dbbp1.com
 ||intelligence-head.pinsightmedia.com
 ||internalredirect.site
 ||islay.tech
@@ -10277,6 +10291,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||open.ad.yieldmanager.net
 
 !P
+||pushlaram.com
 ||pixel-a.basis.net
 ||pubsub-560609236.pubnub.com
 ||pinsightmedia.com
@@ -10910,6 +10925,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||qnsr.com
 
 !R
+||report-uri.highwebmedia.com
 ||realtime.services.disqus.com
 ||richducks.com
 ||rarbg*.*
@@ -13197,6 +13213,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||us.adserver.yahoo.com
 
 !V
+||viewers.nighteye.app
 ||verizon.inq.com
 ||viral-loops.com
 ||va.tawk.to
@@ -19868,6 +19885,8 @@ www.mofunzone.com###ad-skyscraper
 www.zenz-solutions.de###hinweiscookie
 ||javadecompilers.com/detroitchicago/rochester.js
 www.pubnub.com###cookie-law-info-bar
+www.extremenetworks.com##.js-gdpr-message.gdpr-notifier
+www.scribens.com##.Prem-PopupVPremium
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -19903,67 +19922,6 @@ wpad.home
 ||252.0.0.224.in-addr.arpa
 ||254.254.168.192.in-addr.arpa
 ||150.32.234.18.in-addr.arpa
-||tr.snapchat.com.home
-||sc-analytics.appspot.com.home
-||adserver.snapads.com.home
-||adsafeprotected.com.home
-||serving-sys.com.home
-||doubleclick.net.home
-||android.bugly.qq.com.home
-||google-analytics.com.home
-||googlesyndication.com.home
-||innovid.com.home
-||device-metrics-us-2.amazon.com.home
-||res-x.com.home
-||presage.io.home
-||taboola.com.home
-||doubleverify.com.home
-||bluekai.com.home
-||adsrvr.org.home
-||rlcdn.com.home
-||adap.tv.home
-||demdex.net.home
-||krxd.net.home
-||tidaltv.com.home
-||stickyadstv.com.home
-||everesttech.net.home
-||spotxchange.com.home
-||t2.hulu.com.home
-||w55c.net.home
-||events.tremorhub.com.home
-||pixel.mtrcs.samba.tv.home
-||beacons.gcp.gvt2.com.home
-||cdn.segment.com.home
-||evs.jivox.com.home
-||d.agkn.com.home
-||api.placed.com.home
-||beacons4.gvt2.com.home
-||adrta.com.home
-||d.turn.com.home
-||presentation-atl1.turn.com.home
-||s.thebrighttag.com.home
-||wd.adcolony.com.home
-||adc-ad-assets.adtilt.com.home
-||outcome-ssp.supersonicads.com.home
-||ads.api.vungle.com.home
-||config.unityads.unity3d.com.home
-||supersonicads-a.akamaihd.net.home
-||config.uca.cloud.unity3d.com.home
-||t.appsflyer.com.home
-||cdp.cloud.unity3d.com.home
-||ecommerce.iap.unity3d.com.home
-||baobxmztkcltfw
-||lcmvejxlazmnpyt
-||bbwkqmoabjdr.home
-||lcmvejxlazmnpyt.home
-||bbwkqmoabjdr
-||beacons2.gvt2.com.home
-||beacons5.gvt2.com.home
-||beacons.gvt2.com.home
-||beacons3.gvt2.com.home
-||xlnnkkt.home
-||vvvjmlomxtayk.home
-||mobile-collector.newrelic.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
