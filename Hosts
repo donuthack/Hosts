@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1141
+! Version: 1142
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Saturday, September 28, 2019
+! Last Modified: Monday, September 30, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -976,6 +976,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 array613.prod.do.dsp.mp.microsoft.com
+0.0.0.0 array*.prod.do.dsp.mp.microsoft.com
 0.0.0.0 analytics.snidigital.com
 0.0.0.0 adsales.snidigital.com
 0.0.0.0 advertising.yahoo.com
@@ -3673,6 +3675,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 byoc.fp-afd-ccc.com
 0.0.0.0 buckridge.link
 0.0.0.0 brandcrumb.com
 0.0.0.0 breaktime.com.tw
@@ -4570,6 +4573,12 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 chatws26.stream.highwebmedia.com
+0.0.0.0 chatws*.stream.highwebmedia.com
+0.0.0.0 cbjpeg.stream.highwebmedia.com
+0.0.0.0 camo.stream.highwebmedia.com
+0.0.0.0 cp.dbbp1.net
+0.0.0.0 clickstream-killswitch.hd-personalization-prod.gcp.homedepot.com
 0.0.0.0 cdn.shortpixel.ai
 0.0.0.0 collect.igodigital.com
 0.0.0.0 cc.cdn.civiccomputing.com
@@ -5577,6 +5586,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 d.joinhoney.com
+0.0.0.0 dbbp1.com
 0.0.0.0 deloplen.com
 0.0.0.0 daurifek.net
 0.0.0.0 d3hio2lma4yp51.cloudfront.net
@@ -6631,6 +6642,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fp-afd-ccc.com
+0.0.0.0 ftv-smp.ntp-fireos.com
 0.0.0.0 franecki.net
 0.0.0.0 fuelx.com
 0.0.0.0 f5v1x3kgv5.com
@@ -7480,6 +7493,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 imgdrive.net.dbbp1.com
 0.0.0.0 intelligence-head.pinsightmedia.com
 0.0.0.0 internalredirect.site
 0.0.0.0 islay.tech
@@ -10292,6 +10306,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pushlaram.com
 0.0.0.0 pixel-a.basis.net
 0.0.0.0 pubsub-560609236.pubnub.com
 0.0.0.0 pinsightmedia.com
@@ -10925,6 +10940,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 report-uri.highwebmedia.com
 0.0.0.0 realtime.services.disqus.com
 0.0.0.0 richducks.com
 0.0.0.0 rarbg*.*
@@ -13212,6 +13228,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 viewers.nighteye.app
 0.0.0.0 verizon.inq.com
 0.0.0.0 viral-loops.com
 0.0.0.0 va.tawk.to
@@ -19883,6 +19900,8 @@ www.mofunzone.com###ad-skyscraper
 www.zenz-solutions.de###hinweiscookie
 ||javadecompilers.com/detroitchicago/rochester.js
 www.pubnub.com###cookie-law-info-bar
+www.extremenetworks.com##.js-gdpr-message.gdpr-notifier
+www.scribens.com##.Prem-PopupVPremium
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -19918,67 +19937,6 @@ wpad.home
 ||252.0.0.224.in-addr.arpa
 ||254.254.168.192.in-addr.arpa
 ||150.32.234.18.in-addr.arpa
-||tr.snapchat.com.home
-||sc-analytics.appspot.com.home
-||adserver.snapads.com.home
-||adsafeprotected.com.home
-||serving-sys.com.home
-||doubleclick.net.home
-||android.bugly.qq.com.home
-||google-analytics.com.home
-||googlesyndication.com.home
-||innovid.com.home
-||device-metrics-us-2.amazon.com.home
-||res-x.com.home
-||presage.io.home
-||taboola.com.home
-||doubleverify.com.home
-||bluekai.com.home
-||adsrvr.org.home
-||rlcdn.com.home
-||adap.tv.home
-||demdex.net.home
-||krxd.net.home
-||tidaltv.com.home
-||stickyadstv.com.home
-||everesttech.net.home
-||spotxchange.com.home
-||t2.hulu.com.home
-||w55c.net.home
-||events.tremorhub.com.home
-||pixel.mtrcs.samba.tv.home
-||beacons.gcp.gvt2.com.home
-||cdn.segment.com.home
-||evs.jivox.com.home
-||d.agkn.com.home
-||api.placed.com.home
-||beacons4.gvt2.com.home
-||adrta.com.home
-||d.turn.com.home
-||presentation-atl1.turn.com.home
-||s.thebrighttag.com.home
-||wd.adcolony.com.home
-||adc-ad-assets.adtilt.com.home
-||outcome-ssp.supersonicads.com.home
-||ads.api.vungle.com.home
-||config.unityads.unity3d.com.home
-||supersonicads-a.akamaihd.net.home
-||config.uca.cloud.unity3d.com.home
-||t.appsflyer.com.home
-||cdp.cloud.unity3d.com.home
-||ecommerce.iap.unity3d.com.home
-||baobxmztkcltfw
-||lcmvejxlazmnpyt
-||bbwkqmoabjdr.home
-||lcmvejxlazmnpyt.home
-||bbwkqmoabjdr
-||beacons2.gvt2.com.home
-||beacons5.gvt2.com.home
-||beacons.gvt2.com.home
-||beacons3.gvt2.com.home
-||xlnnkkt.home
-||vvvjmlomxtayk.home
-||mobile-collector.newrelic.com.home
 
 ! AdGuard
 nyt.com,nytimes.com,yalujailbreak.*,world4.eu,xda-developers.*,alibaba.com,twitwipe.com,*.fce365.info#%#//scriptlet("prevent-bab")
