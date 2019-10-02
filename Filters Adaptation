@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1142
+! Version: 1143
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Monday, September 30, 2019
+! Last Modified: Tuesday, October 1, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -19,7 +19,6 @@
 @@||clients2.googleusercontent.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
 @@||gab.com$cookie
-@@||i.kinja-img.com$image,domain=gizmodo.com
 @@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
 @@||moatads.com/*.js$domain=hulu.com
 @@||static-global-s-msn-com.akamaized.net/hp-eus/sc/9b/e151e5.gif$domain=msn.com
@@ -76,6 +75,7 @@
 !settings-win.data.microsoft.com (Windows Update)
 !tr.rbxcdn.com (Breaks Roblox Profile Pictures)
 !presence.roblox.com (Breaks Roblox Friends and Chat)
+!rover.ebay.com (Breaks External Linking)
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
@@ -961,6 +961,10 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||apimg.net
+||adsrevia.com
+||apppromotionsummit.com
+||api.gamearter.com
 ||array613.prod.do.dsp.mp.microsoft.com
 ||array*.prod.do.dsp.mp.microsoft.com
 ||analytics.snidigital.com
@@ -4558,6 +4562,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||bam.nr-data.net
 
 !C
+||cryptobrowser.site
 ||chatws26.stream.highwebmedia.com
 ||chatws*.stream.highwebmedia.com
 ||cbjpeg.stream.highwebmedia.com
@@ -6249,6 +6254,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||downloads.mailchimp.com
 
 !E
+||eroadvertising.com
 ||engage.vzw.com
 ||eu-aa.online-metrix.net
 ||ecsanalytics.com
@@ -6897,6 +6903,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||freshmarketer.com
 
 !G
+||gamearter.com
 ||geo.poki.io
 ||guoshipartners.com
 ||graphenedigitalanalytics.in
@@ -8278,7 +8285,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||klivetv.co
 ||kv601-prod.do.dsp.mp.microsoft.com
 ||kiip.me
-||kinja-img.com
 ||kansascity1.cabospeed.com
 ||klaviyo.com
 ||krk.kargo.com
@@ -10102,6 +10108,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||n149adserv.com
 
 !O
+||optinchat.com
 ||o333o.com
 ||orange2258.com
 ||outbid.io
@@ -11188,7 +11195,6 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||reports.crashlytics.com
 ||router.infolinks.com
 ||resources.infolinks.com
-||rover.ebay.com
 ||rubiconproject.com
 ||router.googlecom.biz
 ||route.carambo.la
@@ -11217,6 +11223,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||r.skimresources.com
 
 !S
+||slimspots.com
 ||shortpixel.ai
 ||speedyads.com
 ||sanalytics.verizonwireless.com
@@ -12471,6 +12478,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||scripts.kissmetrics.com
 
 !T
+||tapresearch.com
+||traffic-shop.com
 ||taiphaib.net
 ||t.poki.io
 ||trk.mdrtrck.com
@@ -18740,6 +18749,7 @@ jailbreak.fce365.info###content > center:nth-child(2)
 ||mineblocks.com/1/scripts/currentProvider?
 ||facebook.com/common/cavalry_endpoint.php
 ||cdn.intergient.com/pageos/pageos.js
+hentai-loli.com###ad
 deploys.io##.cc-window.cc-floating.cc-type-info.cc-theme-edgeless.cc-bottom.cc-left.cc-color-override-530831885
 internxt.com##.cc-window.cc-banner.cc-type-info.cc-theme-edgeless.cc-bottom.cc-color-override-1212131424
 ||s.yimg.com/rq/darla/*/html/r-sf.html
@@ -19887,6 +19897,21 @@ www.zenz-solutions.de###hinweiscookie
 www.pubnub.com###cookie-law-info-bar
 www.extremenetworks.com##.js-gdpr-message.gdpr-notifier
 www.scribens.com##.Prem-PopupVPremium
+usatoday.com##.gnt_m.gnt_x
+usatoday.com##.gnt_tb.gnt_tbr
+usatoday.com##.gnt_tb.gnt_tbb
+usatoday.com###gnt_atomsnc
+usatoday.com##.gnt_em.gnt_em_anc
+awea.org##.CMSBanner.Banner
+awea.org##.banner-container
+kotaku.com###leftrail_dynamic_ad_wrapper
+kotaku.com###sidebar_wrapper > div.gWNwSj.ynugv2-0:nth-of-type(2)
+kotaku.com##.iahfxG.sc-1jotqfp-2.sc-1jotqfp-0
+kotaku.com##.iHpzjB.sc-1cfejv7-0.js_subscribe
+kotaku.com##.dHZwOk.sc-1bdg1q0-0
+www.ytechweb.com##.before-header > .wrap
+www.businessofapps.com###ajdg_grpwidgets-6
+www.businessofapps.com##.g-1.g
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20508,11 +20533,15 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /ads-loader-*
 /cookieconsent.min.js
 /AdManager.js
+/adcombo
+/topoffers_
 -ad-
 -page-url=
 &page-url=
+&clickid
 ?adname=
 ?ga_action
+?tracker=
 =googleanalytics
 =adunit&
 _WebBannerAd
@@ -20523,8 +20552,8 @@ _fingerprint
 -ad-powerinbox-inline-
 -ad-display.z-ad-
 videoiq-*
-*:has-text(/^Advertisement/i)
-*:has-text(/^Promoted Content/i)
+*##:has-text(/^Advertisement/i)
+*##:has-text(/^Promoted Content/i)
 ##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
 ##.adsbygoogle
 ##.google-bottom-ads
