@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1144
+! Version: 1145
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
 ! Last Modified: Saturday, October 5, 2019
@@ -49,11 +49,7 @@ ff02::3 ip6-allhosts
 @@||encrypted.google.com/recaptcha/api/
 @@||google.com/recaptcha/api.js
 @@||media-cdn.tripadvisor.com
-@@||pandora.com/web-client-assets/
-@@||pandora.com/api/
 @@||iheart.com
-@@||duckduckgo.com/util/u367.js$important
-@@||duckduckgo.com/d2643.js$important
 @@||youtube.com/embed$third-party
 @@||www.paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 @@||maps.gstatic.com^$image
@@ -4580,6 +4576,10 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 country.incartupsell.com
+0.0.0.0 cdn.tradelab.fr
+0.0.0.0 compare.easyvoyage.com
+0.0.0.0 cdnreference.com
 0.0.0.0 cryptobrowser.site
 0.0.0.0 chatws26.stream.highwebmedia.com
 0.0.0.0 chatws*.stream.highwebmedia.com
@@ -5594,6 +5594,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 daring18.eklablog.com
 0.0.0.0 d.joinhoney.com
 0.0.0.0 dbbp1.com
 0.0.0.0 deloplen.com
@@ -6651,6 +6652,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 findher2date.com
 0.0.0.0 fp-afd-ccc.com
 0.0.0.0 ftv-smp.ntp-fireos.com
 0.0.0.0 franecki.net
@@ -6921,6 +6923,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 godog.shopifycloud.com
 0.0.0.0 gamearter.com
 0.0.0.0 geo.poki.io
 0.0.0.0 guoshipartners.com
@@ -9890,6 +9893,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 noclef.com
 0.0.0.0 ns*.dynamicnetworkservices.net
 0.0.0.0 ns.dynamicnetworkservices.net
 0.0.0.0 ns1.dynamicnetworkservices.net
@@ -10955,6 +10959,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 retargetcore.com
 0.0.0.0 report-uri.highwebmedia.com
 0.0.0.0 realtime.services.disqus.com
 0.0.0.0 richducks.com
@@ -12501,6 +12506,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tradelab.fr
+0.0.0.0 twittermobi.com
 0.0.0.0 track.bruceleadx2.com
 0.0.0.0 tapresearch.com
 0.0.0.0 traffic-shop.com
@@ -13085,6 +13092,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 uf.noclef.com
 0.0.0.0 utoumine.net
 0.0.0.0 uscollector.tealeaf.ibmcloud.com
 0.0.0.0 utarget.ru
@@ -19944,6 +19952,11 @@ www.businessofapps.com##.g-1.g
 ||s2.reutersmedia.net/resources/r/?v=1*&m=1*&d=201*&t=*&i=*&w=001&r=$image
 www.reuters.com##div.RightRail_sticky.Sticky_track:nth-of-type(2)
 www.reuters.com##.NewsletterSignUp_container
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.footer
+||pandora.com/web-client-assets/displayAdFrame.
+||pandora.com/*/ad/getAdList
+||googleapis.com/rpc
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20568,10 +20581,12 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /AdManager.js
 /adcombo
 /topoffers_
+/cookie-notice/
 -ad-
 -page-url=
 &page-url=
 &clickid
+&tds_
 ?adname=
 ?ga_action
 ?tracker=
@@ -20585,9 +20600,11 @@ _fingerprint
 -ad-powerinbox-inline-
 -ad-display.z-ad-
 videoiq-*
+tds_campaign=
+mas_jump_
 *##:has-text(/^Advertisement/i)
 *##:has-text(/^Promoted Content/i)
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
