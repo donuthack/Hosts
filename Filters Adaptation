@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1144
+! Version: 1145
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
 ! Last Modified: Saturday, October 5, 2019
@@ -34,11 +34,7 @@
 @@||encrypted.google.com/recaptcha/api/
 @@||google.com/recaptcha/api.js
 @@||media-cdn.tripadvisor.com
-@@||pandora.com/web-client-assets/
-@@||pandora.com/api/
 @@||iheart.com
-@@||duckduckgo.com/util/u367.js$important
-@@||duckduckgo.com/d2643.js$important
 @@||youtube.com/embed$third-party
 @@||www.paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 @@||maps.gstatic.com^$image
@@ -4565,6 +4561,10 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||bam.nr-data.net
 
 !C
+||country.incartupsell.com
+||cdn.tradelab.fr
+||compare.easyvoyage.com
+||cdnreference.com
 ||cryptobrowser.site
 ||chatws26.stream.highwebmedia.com
 ||chatws*.stream.highwebmedia.com
@@ -5579,6 +5579,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||creative.medialytics.com
 
 !D
+||daring18.eklablog.com
 ||d.joinhoney.com
 ||dbbp1.com
 ||deloplen.com
@@ -6636,6 +6637,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||findher2date.com
 ||fp-afd-ccc.com
 ||ftv-smp.ntp-fireos.com
 ||franecki.net
@@ -6906,6 +6908,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||freshmarketer.com
 
 !G
+||godog.shopifycloud.com
 ||gamearter.com
 ||geo.poki.io
 ||guoshipartners.com
@@ -9875,6 +9878,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||memo2.nl
 
 !N
+||noclef.com
 ||ns*.dynamicnetworkservices.net
 ||ns.dynamicnetworkservices.net
 ||ns1.dynamicnetworkservices.net
@@ -10940,6 +10944,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||qnsr.com
 
 !R
+||retargetcore.com
 ||report-uri.highwebmedia.com
 ||realtime.services.disqus.com
 ||richducks.com
@@ -12486,6 +12491,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||scripts.kissmetrics.com
 
 !T
+||tradelab.fr
+||twittermobi.com
 ||track.bruceleadx2.com
 ||tapresearch.com
 ||traffic-shop.com
@@ -13070,6 +13077,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||tt.omtrdc.net
 
 !U
+||uf.noclef.com
 ||utoumine.net
 ||uscollector.tealeaf.ibmcloud.com
 ||utarget.ru
@@ -19929,6 +19937,11 @@ www.businessofapps.com##.g-1.g
 ||s2.reutersmedia.net/resources/r/?v=1*&m=1*&d=201*&t=*&i=*&w=001&r=$image
 www.reuters.com##div.RightRail_sticky.Sticky_track:nth-of-type(2)
 www.reuters.com##.NewsletterSignUp_container
+duckduckgo.com##.js-feedback-btn-wrap
+duckduckgo.com##.footer
+||pandora.com/web-client-assets/displayAdFrame.
+||pandora.com/*/ad/getAdList
+||googleapis.com/rpc
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20553,10 +20566,12 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /AdManager.js
 /adcombo
 /topoffers_
+/cookie-notice/
 -ad-
 -page-url=
 &page-url=
 &clickid
+&tds_
 ?adname=
 ?ga_action
 ?tracker=
@@ -20570,9 +20585,11 @@ _fingerprint
 -ad-powerinbox-inline-
 -ad-display.z-ad-
 videoiq-*
+tds_campaign=
+mas_jump_
 *##:has-text(/^Advertisement/i)
 *##:has-text(/^Promoted Content/i)
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
