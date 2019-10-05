@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1143
+! Version: 1144
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Tuesday, October 1, 2019
+! Last Modified: Saturday, October 5, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -91,7 +91,7 @@ verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
@@ -961,6 +961,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||adaranth.com
 ||apimg.net
 ||adsrevia.com
 ||apppromotionsummit.com
@@ -3664,6 +3665,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||a.ads2.msads.net
 
 !B
+||boffoadsfeeds.com
+||bruceleadx2.com
 ||byoc.fp-afd-ccc.com
 ||buckridge.link
 ||brandcrumb.com
@@ -7266,6 +7269,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||gannett.hb.omtrdc.net
 
 !H
+||healte.de
 ||hilltopads.net
 ||hotelchamp.com
 ||h.online-metrix.net
@@ -7485,6 +7489,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||helpshift.com
 
 !I
+||ihsmarkit.com
 ||imgdrive.net.dbbp1.com
 ||intelligence-head.pinsightmedia.com
 ||internalredirect.site
@@ -9048,6 +9053,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||krxd.net
 
 !L
+||leo.gov
 ||lptracker.io
 ||leadtrackingdata.com
 ||learning.adbot.tw
@@ -9297,6 +9303,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||location.silverpush.com
 
 !M
+||markitcdn.com
+||markitondemand.com
 ||media-lax1.inq.com
 ||mobile.vzw.com
 ||moneyducks.com
@@ -12478,6 +12486,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||scripts.kissmetrics.com
 
 !T
+||track.bruceleadx2.com
 ||tapresearch.com
 ||traffic-shop.com
 ||taiphaib.net
@@ -13061,6 +13070,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||tt.omtrdc.net
 
 !U
+||utoumine.net
 ||uscollector.tealeaf.ibmcloud.com
 ||utarget.ru
 ||urldata.net
@@ -13724,6 +13734,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||wv.inner-active.mobi
 
 !X
+||xml.boffoadsfeeds.com
 ||xinvites.com
 ||x3-predictor.goguardian.com
 ||xxxad.net
@@ -19912,6 +19923,12 @@ kotaku.com##.dHZwOk.sc-1bdg1q0-0
 www.ytechweb.com##.before-header > .wrap
 www.businessofapps.com###ajdg_grpwidgets-6
 www.businessofapps.com##.g-1.g
+||aoc.com/images/empty.png
+||aoc.com/assets/js/home-geo.js
+||s2.reutersmedia.net/resources/r/?v=1*&m=1*&d=201*&t=*&i=*&w=001&r=*OI$image
+||s2.reutersmedia.net/resources/r/?v=1*&m=1*&d=201*&t=*&i=*&w=001&r=$image
+www.reuters.com##div.RightRail_sticky.Sticky_track:nth-of-type(2)
+www.reuters.com##.NewsletterSignUp_container
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20015,7 +20032,8 @@ $webrtc,domain=nsa.gov
 !#endif
 
 ! Wildcard
-/logImpressions?
+/adrum-config.js
+/logImpressions
 /ad-truck.
 /click.track
 /ad.gif
