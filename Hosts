@@ -16,13 +16,14 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1145
+! Version: 1146
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Saturday, October 5, 2019
+! Last Modified: Monday, October 7, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||pandora.com/*/adserver
 @@||github.co$domain=github.com
 @@||gigya.com
 @@||yospace-directv.akamaized.net
@@ -4576,6 +4577,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 crtx.info
 0.0.0.0 country.incartupsell.com
 0.0.0.0 cdn.tradelab.fr
 0.0.0.0 compare.easyvoyage.com
@@ -10959,6 +10961,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 run.crtx.info
 0.0.0.0 retargetcore.com
 0.0.0.0 report-uri.highwebmedia.com
 0.0.0.0 realtime.services.disqus.com
@@ -19957,6 +19960,13 @@ duckduckgo.com##.footer
 ||pandora.com/web-client-assets/displayAdFrame.
 ||pandora.com/*/ad/getAdList
 ||googleapis.com/rpc
+www.cbsnews.com###breaking-news
+||www.snapchat.com/api/is_cookie_popup_eligible
+||storage.googleapis.com/ad-manager-political-ads-dump-shadow
+||www.snap.com/en-US/political-ads/
+www.renewableenergyworld.com##.leaderboard.ad-container.ad
+www.renewableenergyworld.com##.cl-container.cl-cookie-notice__inner
+techradar.com##.region_rediret_popup_asset
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20060,6 +20070,8 @@ $webrtc,domain=nsa.gov
 !#endif
 
 ! Wildcard
+/track.min.js
+/missing-ad.png
 /adrum-config.js
 /logImpressions
 /ad-truck.
