@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1146
+! Version: 1147
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Monday, October 7, 2019
+! Last Modified: Tuesday, October 8, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
 @@||github.co$domain=github.com
 @@||gigya.com
@@ -9308,6 +9309,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||location.silverpush.com
 
 !M
+||www.msftncsi.com
 ||markitcdn.com
 ||markitondemand.com
 ||media-lax1.inq.com
@@ -10122,6 +10124,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||n149adserv.com
 
 !O
+||occ-0-1189-92.1.nflxso.net
 ||optinchat.com
 ||o333o.com
 ||orange2258.com
@@ -10312,6 +10315,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||open.ad.yieldmanager.net
 
 !P
+||pix.revjet.com
 ||pushlaram.com
 ||pixel-a.basis.net
 ||pubsub-560609236.pubnub.com
@@ -19952,6 +19956,8 @@ www.cbsnews.com###breaking-news
 www.renewableenergyworld.com##.leaderboard.ad-container.ad
 www.renewableenergyworld.com##.cl-container.cl-cookie-notice__inner
 techradar.com##.region_rediret_popup_asset
+||forum.frenreport.com/cron.php
+||hpe.com/global/metrics/bootstrap/prod_tl.js
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20579,6 +20585,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /adcombo
 /topoffers_
 /cookie-notice/
+/global/metrics/
 -ad-
 -page-url=
 &page-url=
@@ -20589,6 +20596,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 ?tracker=
 =googleanalytics
 =adunit&
+=cron.task.core.tidy_sessions
 _WebBannerAd
 _fingerprint
 .fingerprint-
