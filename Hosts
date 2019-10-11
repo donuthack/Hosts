@@ -16,13 +16,14 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1147
+! Version: 1148
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Tuesday, October 8, 2019
+! Last Modified: Friday, October 11, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||google.com/recaptcha/api*
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
 @@||github.co$domain=github.com
@@ -974,6 +975,9 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adst.fwdcdn.com
+0.0.0.0 aswpsdkus.com
+0.0.0.0 aka.ms
 0.0.0.0 adaranth.com
 0.0.0.0 apimg.net
 0.0.0.0 adsrevia.com
@@ -4578,6 +4582,9 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 crisp.im
+0.0.0.0 client.relay.crisp.im
+0.0.0.0 cs.dds.microsoft.com
 0.0.0.0 crtx.info
 0.0.0.0 country.incartupsell.com
 0.0.0.0 cdn.tradelab.fr
@@ -6276,6 +6283,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 etrust.pro
 0.0.0.0 eroadvertising.com
 0.0.0.0 engage.vzw.com
 0.0.0.0 eu-aa.online-metrix.net
@@ -6926,6 +6934,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 glitter.services.disqus.com
 0.0.0.0 godog.shopifycloud.com
 0.0.0.0 gamearter.com
 0.0.0.0 geo.poki.io
@@ -7510,6 +7519,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 io.narrative.io
+0.0.0.0 ibdcd.com
 0.0.0.0 ihsmarkit.com
 0.0.0.0 imgdrive.net.dbbp1.com
 0.0.0.0 intelligence-head.pinsightmedia.com
@@ -9074,6 +9085,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 live.rezync.com
 0.0.0.0 leo.gov
 0.0.0.0 lptracker.io
 0.0.0.0 leadtrackingdata.com
@@ -9897,6 +9909,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 narrative.io
 0.0.0.0 noclef.com
 0.0.0.0 ns*.dynamicnetworkservices.net
 0.0.0.0 ns.dynamicnetworkservices.net
@@ -10330,6 +10343,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 presence-heartbeat.xboxlive.com
 0.0.0.0 pix.revjet.com
 0.0.0.0 pushlaram.com
 0.0.0.0 pixel-a.basis.net
@@ -10965,6 +10979,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 rezync.com
 0.0.0.0 run.crtx.info
 0.0.0.0 retargetcore.com
 0.0.0.0 report-uri.highwebmedia.com
@@ -11258,6 +11273,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sftools.trafficmanager.net
 0.0.0.0 slimspots.com
 0.0.0.0 shortpixel.ai
 0.0.0.0 speedyads.com
@@ -12513,6 +12529,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 title.mgt.xboxlive.com
+0.0.0.0 targetednotifications.azurewebsites.net
 0.0.0.0 tradelab.fr
 0.0.0.0 twittermobi.com
 0.0.0.0 track.bruceleadx2.com
@@ -19973,6 +19991,57 @@ www.renewableenergyworld.com##.cl-container.cl-cookie-notice__inner
 techradar.com##.region_rediret_popup_asset
 ||forum.frenreport.com/cron.php
 ||hpe.com/global/metrics/bootstrap/prod_tl.js
+www.mercola.com##div.wide-content:nth-of-type(1) > .promo-banner
+articles.mercola.com##body > .modal-wrapper > .modal-overlay
+||articles.mercola.com/Themes/Blogs/mercolaArticle/RegistrationPopUpVWO-exit2.aspx
+||articles.mercola.com/Themes/Blogs/mercolaArticle/RegistrationPopUp.aspx
+||media.mercola.com/assets/images/cads/
+articles.mercola.com##.narrow-width.SpecialTagContent
+||testyourself.psychtests.com/images/ad_label*.gif
+testyourself.psychtests.com##.ad_cont_120x600
+psychtests.com/ad_label200.gif
+newstarget.com##.PopupLayer1
+newstarget.com##.PopupLayer2
+newstarget.com###subscriptionwidget-3
+newstarget.com###subscriptionwidget-2
+newstarget.com###subscriptionwidget-1
+newstarget.com##.UDZHAJISRXEQ
+newstarget.com##.HKRFIVOJXTEQ
+newstarget.com##.EAGVQHUFYDCW
+newstarget.com##.YMAPBKRJXZUN
+newstarget.com##.Sticky1 > div:nth-of-type(7)
+newstarget.com##.GTUFIPSEQDLK
+newstarget.com##.EOALHMNQXBZJ
+www.naturalnews.com##.PopupLayer1
+www.naturalnews.com##.PopupLayer2
+www.naturalnews.com##.Subscription-Article-Box
+www.naturalnews.com##.BLUXAOZJYGEC
+||naturalnews.com/getviews2.asp
+||research.investors.com/scripts/BATS.js
+||shop.investors.com/Images/promotional/$subdocument
+www.investors.com###investors-policy-terms-consent-dialog
+www.investors.com##section.marketArea:nth-of-type(8)
+www.investors.com##.subscribe-widget-frontpage.subscribe-widget
+||www.investors.com/wp-content/*/graphic-wp-paywall*.jpg$image
+www.manhattancontrarian.com##.newsletter-form-wrapper--alignCenter.newsletter-form-wrapper--layoutFloat.newsletter-form-wrapper
+www.manhattancontrarian.com###sqs-social
+www.ipsnews.net###delnorber
+www.ipsnews.net###custom_html-9
+www.ipsnews.net###custom_html-3
+www.ipsnews.net###text-51
+www.ipsnews.net###custom_html-11
+www.ipsnews.net###text-67
+www.ipsnews.net###text-65
+www.ipsnews.net###slideshowX
+www.ipsnews.net###text-73
+www.ipsnews.net##div.wdgt_wrapper:nth-of-type(10)
+www.ipsnews.net##div.wdgt_wrapper:nth-of-type(11) > div:nth-of-type(1)
+www.ipsnews.net##div.wdgt_wrapper:nth-of-type(11) > div:nth-of-type(3)
+www.ipsnews.net###text-74
+www.ipsnews.net###text-14
+||cdn1.collective-evolution.com/*/podcast_ad.jpg
+www.collective-evolution.com##.et_bloom_animated.et_bloom_visible.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_19.et_bloom_resize.et_bloom_optin.et_bloom_popup
+vectr.com###public
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20601,6 +20670,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /topoffers_
 /cookie-notice/
 /global/metrics/
+/pixel.html
 -ad-
 -page-url=
 &page-url=
@@ -20612,6 +20682,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 =googleanalytics
 =adunit&
 =cron.task.core.tidy_sessions
+=host:
 _WebBannerAd
 _fingerprint
 .fingerprint-
@@ -20624,7 +20695,7 @@ tds_campaign=
 mas_jump_
 *##:has-text(/^Advertisement/i)
 *##:has-text(/^Promoted Content/i)
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie, ##.gdpr-container
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
