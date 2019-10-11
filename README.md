@@ -5,13 +5,13 @@ A blocklist of ads, trackers, anti-adblock, malware, IP grabbers, and tracking c
 
 ## Lists
 
-* [`Hosts`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Hosts) - The main blocklist for trackers, ads, malware, and IP grabbers
+* [`Hosts`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Hosts) - The main blocklist for trackers, ads, malware, and IP grabbers.
 
-* [`Filters Adaptation`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Filters%20Adaptation) - The main blocklist for trackers, ads, malware, and IP grabbers formatted to fit a filter list syntax
+* [`Filters Adaptation`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Filters%20Adaptation) - The main blocklist for trackers, ads, malware, and IP grabbers formatted to fit a filter list syntax.
 
-* [`Unbreak`](https://raw.githubusercontent.com/Cybo1927/Hosts/master/Unbreak) - This list is meant to prevent breakage from the main hosts file while using AdGuard Home
+* [`Dark Mode`](https://github.com/Cybo1927/Hosts/blob/master/Dark%20Mode/Dark%20Mode) - This is a userstyle for uBlock Origin that will make supported pages pitch black instead of white or grey. Great for OLED screens.
 
-* [`/Anti/`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - This is a collection of lists to block all servers from the specified apps/companies/domains
+* [`/Anti/`](https://github.com/Cybo1927/Hosts/tree/master/Anti) - This is a collection of lists to block all servers from the specified apps/companies/domains.
 
 <br>
 
@@ -46,6 +46,9 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * AdNauseam
 * Nano Adblocker
 * Slimjet
+* uBlock Origin
+
+#### /Dark Mode/Dark Mode
 * uBlock Origin
 
 #### /Anti/Anti Alphabet
