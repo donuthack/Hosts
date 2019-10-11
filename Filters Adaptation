@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1147
+! Version: 1148
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Tuesday, October 8, 2019
+! Last Modified: Friday, October 11, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||google.com/recaptcha/api*
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
 @@||github.co$domain=github.com
@@ -959,6 +960,9 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||adst.fwdcdn.com
+||aswpsdkus.com
+||aka.ms
 ||adaranth.com
 ||apimg.net
 ||adsrevia.com
@@ -4563,6 +4567,9 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||bam.nr-data.net
 
 !C
+||crisp.im
+||client.relay.crisp.im
+||cs.dds.microsoft.com
 ||crtx.info
 ||country.incartupsell.com
 ||cdn.tradelab.fr
@@ -6261,6 +6268,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||downloads.mailchimp.com
 
 !E
+||etrust.pro
 ||eroadvertising.com
 ||engage.vzw.com
 ||eu-aa.online-metrix.net
@@ -6911,6 +6919,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||freshmarketer.com
 
 !G
+||glitter.services.disqus.com
 ||godog.shopifycloud.com
 ||gamearter.com
 ||geo.poki.io
@@ -7495,6 +7504,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||helpshift.com
 
 !I
+||io.narrative.io
+||ibdcd.com
 ||ihsmarkit.com
 ||imgdrive.net.dbbp1.com
 ||intelligence-head.pinsightmedia.com
@@ -9059,6 +9070,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||krxd.net
 
 !L
+||live.rezync.com
 ||leo.gov
 ||lptracker.io
 ||leadtrackingdata.com
@@ -9882,6 +9894,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||memo2.nl
 
 !N
+||narrative.io
 ||noclef.com
 ||ns*.dynamicnetworkservices.net
 ||ns.dynamicnetworkservices.net
@@ -10315,6 +10328,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||open.ad.yieldmanager.net
 
 !P
+||presence-heartbeat.xboxlive.com
 ||pix.revjet.com
 ||pushlaram.com
 ||pixel-a.basis.net
@@ -10950,6 +10964,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||qnsr.com
 
 !R
+||rezync.com
 ||run.crtx.info
 ||retargetcore.com
 ||report-uri.highwebmedia.com
@@ -11243,6 +11258,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||r.skimresources.com
 
 !S
+||sftools.trafficmanager.net
 ||slimspots.com
 ||shortpixel.ai
 ||speedyads.com
@@ -12498,6 +12514,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||scripts.kissmetrics.com
 
 !T
+||title.mgt.xboxlive.com
+||targetednotifications.azurewebsites.net
 ||tradelab.fr
 ||twittermobi.com
 ||track.bruceleadx2.com
@@ -19958,6 +19976,57 @@ www.renewableenergyworld.com##.cl-container.cl-cookie-notice__inner
 techradar.com##.region_rediret_popup_asset
 ||forum.frenreport.com/cron.php
 ||hpe.com/global/metrics/bootstrap/prod_tl.js
+www.mercola.com##div.wide-content:nth-of-type(1) > .promo-banner
+articles.mercola.com##body > .modal-wrapper > .modal-overlay
+||articles.mercola.com/Themes/Blogs/mercolaArticle/RegistrationPopUpVWO-exit2.aspx
+||articles.mercola.com/Themes/Blogs/mercolaArticle/RegistrationPopUp.aspx
+||media.mercola.com/assets/images/cads/
+articles.mercola.com##.narrow-width.SpecialTagContent
+||testyourself.psychtests.com/images/ad_label*.gif
+testyourself.psychtests.com##.ad_cont_120x600
+psychtests.com/ad_label200.gif
+newstarget.com##.PopupLayer1
+newstarget.com##.PopupLayer2
+newstarget.com###subscriptionwidget-3
+newstarget.com###subscriptionwidget-2
+newstarget.com###subscriptionwidget-1
+newstarget.com##.UDZHAJISRXEQ
+newstarget.com##.HKRFIVOJXTEQ
+newstarget.com##.EAGVQHUFYDCW
+newstarget.com##.YMAPBKRJXZUN
+newstarget.com##.Sticky1 > div:nth-of-type(7)
+newstarget.com##.GTUFIPSEQDLK
+newstarget.com##.EOALHMNQXBZJ
+www.naturalnews.com##.PopupLayer1
+www.naturalnews.com##.PopupLayer2
+www.naturalnews.com##.Subscription-Article-Box
+www.naturalnews.com##.BLUXAOZJYGEC
+||naturalnews.com/getviews2.asp
+||research.investors.com/scripts/BATS.js
+||shop.investors.com/Images/promotional/$subdocument
+www.investors.com###investors-policy-terms-consent-dialog
+www.investors.com##section.marketArea:nth-of-type(8)
+www.investors.com##.subscribe-widget-frontpage.subscribe-widget
+||www.investors.com/wp-content/*/graphic-wp-paywall*.jpg$image
+www.manhattancontrarian.com##.newsletter-form-wrapper--alignCenter.newsletter-form-wrapper--layoutFloat.newsletter-form-wrapper
+www.manhattancontrarian.com###sqs-social
+www.ipsnews.net###delnorber
+www.ipsnews.net###custom_html-9
+www.ipsnews.net###custom_html-3
+www.ipsnews.net###text-51
+www.ipsnews.net###custom_html-11
+www.ipsnews.net###text-67
+www.ipsnews.net###text-65
+www.ipsnews.net###slideshowX
+www.ipsnews.net###text-73
+www.ipsnews.net##div.wdgt_wrapper:nth-of-type(10)
+www.ipsnews.net##div.wdgt_wrapper:nth-of-type(11) > div:nth-of-type(1)
+www.ipsnews.net##div.wdgt_wrapper:nth-of-type(11) > div:nth-of-type(3)
+www.ipsnews.net###text-74
+www.ipsnews.net###text-14
+||cdn1.collective-evolution.com/*/podcast_ad.jpg
+www.collective-evolution.com##.et_bloom_animated.et_bloom_visible.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_19.et_bloom_resize.et_bloom_optin.et_bloom_popup
+vectr.com###public
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20586,6 +20655,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /topoffers_
 /cookie-notice/
 /global/metrics/
+/pixel.html
 -ad-
 -page-url=
 &page-url=
@@ -20597,6 +20667,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 =googleanalytics
 =adunit&
 =cron.task.core.tidy_sessions
+=host:
 _WebBannerAd
 _fingerprint
 .fingerprint-
@@ -20609,7 +20680,7 @@ tds_campaign=
 mas_jump_
 *##:has-text(/^Advertisement/i)
 *##:has-text(/^Promoted Content/i)
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie, ##.gdpr-container
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
