@@ -16,9 +16,9 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1149
+! Version: 1150
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.6K
 ! Last Modified: Saturday, October 12, 2019
 
 ! Unbreak
@@ -112,8 +112,12 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
 *##+js(nofab.js)
 *##+js(nobab.js)
+*##+js(abort-on-property-read, userABMessage)
+*##+js(abort-on-property-write, isAdblockOn)
 ! Keep adf.ly links from trying to make you turn off your adblocker
 adf.ly##+js(adfly-defuser.js)
+! WebRTC is problematic for most
+*##+js(nowebrtc)
 
 ! Scriptlet Injections
 converto.io##+js(disable-newtab-links.js)
