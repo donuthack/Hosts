@@ -16,14 +16,15 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1148
+! Version: 1149
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.5K
-! Last Modified: Friday, October 11, 2019
+! Last Modified: Saturday, October 12, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
 @@||google.com/recaptcha/api*
+@@||dailycaller.com/files/images/1x1.trans.gif
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
 @@||github.co$domain=github.com
@@ -975,6 +976,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 affirm.com
 0.0.0.0 adst.fwdcdn.com
 0.0.0.0 aswpsdkus.com
 0.0.0.0 aka.ms
@@ -3682,6 +3684,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 becomspectua.club
 0.0.0.0 boffoadsfeeds.com
 0.0.0.0 bruceleadx2.com
 0.0.0.0 byoc.fp-afd-ccc.com
@@ -4582,6 +4585,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clouding.live
 0.0.0.0 crisp.im
 0.0.0.0 client.relay.crisp.im
 0.0.0.0 cs.dds.microsoft.com
@@ -5604,6 +5608,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 d-ipv6.mmapiws.com
 0.0.0.0 daring18.eklablog.com
 0.0.0.0 d.joinhoney.com
 0.0.0.0 dbbp1.com
@@ -10343,6 +10348,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p2-iemmhkvlemspu-efful6gj327yvhst-if-v6exp3-v4.metric.gstatic.com
+0.0.0.0 policityseriod.info
 0.0.0.0 presence-heartbeat.xboxlive.com
 0.0.0.0 pix.revjet.com
 0.0.0.0 pushlaram.com
@@ -18772,7 +18779,6 @@ info.internet.org###jam3-cookie-banner
 ||phncdn.com/www-static/js/lib/ph-functions.js
 ||phncdn.com/vortex-simple-
 ||pornhub.com/svvt/add?
-||pornhub.com^$popup
 ||id.rambler.ru/jsonrpc
 ||rambler.ru/qex
 ||ssp.rambler.ru/capirs_async.js
@@ -20042,6 +20048,20 @@ www.ipsnews.net###text-14
 ||cdn1.collective-evolution.com/*/podcast_ad.jpg
 www.collective-evolution.com##.et_bloom_animated.et_bloom_visible.et_bloom_trigger_bottom.et_bloom_auto_popup.et_bloom_optin_19.et_bloom_resize.et_bloom_optin.et_bloom_popup
 vectr.com###public
+www.270towin.com###header-bottom
+||redditstatic.com/ads/pixel.js
+||upsells.boldapps.net/v2_ui/js/UpsellTracker.js
+||zoo-xvideos.com/zx.js
+||services.nofraud.com/js/device.js
+||trafficjunky.com^$all,popunder
+||adultfriendfinder.com^$all,popunder
+||orange2258.com^$all,popunder
+||trafficfactory.biz^$all,popunder
+||popads.net^$all,popunder
+||popcash.net^$all,popunder
+||ad-maven.com^$all,popunder
+||poponclick.com^$all,popunder
+||bidvertiser.com^$all,popunder
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20671,7 +20691,13 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /cookie-notice/
 /global/metrics/
 /pixel.html
+/pixel.js
+/affirm.js
+/UpsellTracker.js
+/v6exp3/iframe.html
+/ad-overlay-anything/
 -ad-
+-v6exp3-
 -page-url=
 &page-url=
 &clickid
