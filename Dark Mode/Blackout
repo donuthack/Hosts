@@ -1,6 +1,6 @@
 ! Title: Cybo's Blackout
 ! Expires: 1 day
-! Version: 1
+! Version: 2
 ! This is a userstyle for uBlock Origin that will make supported pages pitch black instead of white or grey
 
 ! Github
@@ -19,6 +19,7 @@ github.com##aside:style(background-color: black !important)
 github.com##td:style(background-color: black !important)
 github.com##summary:style(background-color: black !important)
 github.com##button:style(background-color: black !important)
+github.com##textarea:style(background-color: black !important)
 github.com##div:style(color: grey !important)
 github.com##label:style(color: grey !important)
 github.com##summary:style(color: grey !important)
@@ -27,6 +28,7 @@ github.com##input:style(color: cyan !important)
 github.com##form:style(color: cyan !important)
 github.com##code:style(color: cyan !important)
 github.com##pre:style(color: cyan !important)
+github.com##textarea:style(color: cyan !important)
 github.com##a:style(color: light-blue !important)
 
 ! FilterLists
