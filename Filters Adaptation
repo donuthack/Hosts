@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1150
+! Version: 1151
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.6K
 ! Last Modified: Saturday, October 12, 2019
@@ -99,6 +99,17 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 *##+js(nobab.js)
 *##+js(abort-on-property-read, userABMessage)
 *##+js(abort-on-property-write, isAdblockOn)
+! Extra for AdGuard AdBlocker Browser Extension
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlockDetected = false;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.check_adblock = true;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblock_check = true;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ads_unblocked = true;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlockTest = true;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.hasAdblock = false;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblocker = false;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlock = false;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblock = 'no';
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ab = false;
 ! Keep adf.ly links from trying to make you turn off your adblocker
 adf.ly##+js(adfly-defuser.js)
 ! WebRTC is problematic for most
