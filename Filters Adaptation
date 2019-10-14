@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1151
+! Version: 1152
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.6K
-! Last Modified: Saturday, October 12, 2019
+! Last Modified: Monday, October 14, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -976,6 +976,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||ads.golem.de
 ||affirm.com
 ||adst.fwdcdn.com
 ||aswpsdkus.com
@@ -4585,6 +4586,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||bam.nr-data.net
 
 !C
+||cpxl.golem.de
+||cloudflareinsights.com
 ||clouding.live
 ||crisp.im
 ||client.relay.crisp.im
@@ -6939,6 +6942,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||freshmarketer.com
 
 !G
+||gsspat.jp
 ||glitter.services.disqus.com
 ||godog.shopifycloud.com
 ||gamearter.com
@@ -9090,6 +9094,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||krxd.net
 
 !L
+||leadlab.click
 ||live.rezync.com
 ||leo.gov
 ||lptracker.io
@@ -9341,6 +9346,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||location.silverpush.com
 
 !M
+||m6r.eu
+||mxcdn.net
 ||www.msftncsi.com
 ||markitcdn.com
 ||markitondemand.com
@@ -10986,6 +10993,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||qnsr.com
 
 !R
+||restaurants.infcdn.net
+||rt.gsspat.jp
 ||rezync.com
 ||run.crtx.info
 ||retargetcore.com
@@ -11280,6 +11289,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||r.skimresources.com
 
 !S
+||softfree4u.xyz
 ||sftools.trafficmanager.net
 ||slimspots.com
 ||shortpixel.ai
@@ -13789,6 +13799,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||wv.inner-active.mobi
 
 !X
+||xplosion.de
 ||xml.boffoadsfeeds.com
 ||xinvites.com
 ||x3-predictor.goguardian.com
@@ -13852,6 +13863,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||xxxwebtraffic.com
 
 !Y
+||yieldlove.com
 ||youtube.gq
 ||youutube.ga
 ||yospace-directv.akamaized.net
@@ -20062,6 +20074,24 @@ www.270towin.com###header-bottom
 ||ad-maven.com^$all,popunder
 ||poponclick.com^$all,popunder
 ||bidvertiser.com^$all,popunder
+||www.golem.de/*/sp_*_rc.jpg
+www.golem.de###DsPSsvDvD
+www.golem.de###golem-cookie-accept
+www.golem.de##.gsap
+www.golem.de###gts-clip
+www.stroeer.de##.cc_container--open.cc_container.cc_banner
+www.stroeer.de##.sticky-button
+||auatv.com/*/ad-loader.js
+www.viagogo.de###gdprHeader
+www.viagogo.de###signup
+||particlecore.github.io^$third-party
+||linkexp85.club
+||api.k2s.cc/v1/users/me/country
+||freedownloadmanager.org/log.php
+en.freedownloadmanager.org##.onexit_block
+en.freedownloadmanager.org##.masonry_item.hcol1.fdm_block.how_to_block
+en.freedownloadmanager.org##.right_container
+www.findip-address.com##.header
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20215,6 +20245,8 @@ $webrtc,domain=nsa.gov
 /images/ads/
 /expadsblocked.js
 /travel-pixel-js/
+/google-tracking/
+/ga-*.js
 /browserfp.min.js
 /sk-logabpstatus.php
 /px.js?ch=
