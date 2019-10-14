@@ -60,6 +60,15 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
+#### /Anti/Anti Fonts
+* AdBlock
+* Adblock Plus 2.0+
+* AdGuard
+* AdNauseam
+* Nano Adblocker
+* Slimjet
+* uBlock Origin
+
 #### /Anti/Anti Maps
 * AdBlock
 * Adblock Plus 2.0+
