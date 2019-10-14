@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1151
+! Version: 1152
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.6K
-! Last Modified: Saturday, October 12, 2019
+! Last Modified: Monday, October 14, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -991,6 +991,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 ads.golem.de
 0.0.0.0 affirm.com
 0.0.0.0 adst.fwdcdn.com
 0.0.0.0 aswpsdkus.com
@@ -4600,6 +4601,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cpxl.golem.de
+0.0.0.0 cloudflareinsights.com
 0.0.0.0 clouding.live
 0.0.0.0 crisp.im
 0.0.0.0 client.relay.crisp.im
@@ -6954,6 +6957,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gsspat.jp
 0.0.0.0 glitter.services.disqus.com
 0.0.0.0 godog.shopifycloud.com
 0.0.0.0 gamearter.com
@@ -9105,6 +9109,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 leadlab.click
 0.0.0.0 live.rezync.com
 0.0.0.0 leo.gov
 0.0.0.0 lptracker.io
@@ -9356,6 +9361,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 m6r.eu
+0.0.0.0 mxcdn.net
 0.0.0.0 www.msftncsi.com
 0.0.0.0 markitcdn.com
 0.0.0.0 markitondemand.com
@@ -11001,6 +11008,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 restaurants.infcdn.net
+0.0.0.0 rt.gsspat.jp
 0.0.0.0 rezync.com
 0.0.0.0 run.crtx.info
 0.0.0.0 retargetcore.com
@@ -11295,6 +11304,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 softfree4u.xyz
 0.0.0.0 sftools.trafficmanager.net
 0.0.0.0 slimspots.com
 0.0.0.0 shortpixel.ai
@@ -13804,6 +13814,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xplosion.de
 0.0.0.0 xml.boffoadsfeeds.com
 0.0.0.0 xinvites.com
 0.0.0.0 x3-predictor.goguardian.com
@@ -13867,6 +13878,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yieldlove.com
 0.0.0.0 youtube.gq
 0.0.0.0 youutube.ga
 0.0.0.0 yospace-directv.akamaized.net
@@ -20077,6 +20089,24 @@ www.270towin.com###header-bottom
 ||ad-maven.com^$all,popunder
 ||poponclick.com^$all,popunder
 ||bidvertiser.com^$all,popunder
+||www.golem.de/*/sp_*_rc.jpg
+www.golem.de###DsPSsvDvD
+www.golem.de###golem-cookie-accept
+www.golem.de##.gsap
+www.golem.de###gts-clip
+www.stroeer.de##.cc_container--open.cc_container.cc_banner
+www.stroeer.de##.sticky-button
+||auatv.com/*/ad-loader.js
+www.viagogo.de###gdprHeader
+www.viagogo.de###signup
+||particlecore.github.io^$third-party
+||linkexp85.club
+||api.k2s.cc/v1/users/me/country
+||freedownloadmanager.org/log.php
+en.freedownloadmanager.org##.onexit_block
+en.freedownloadmanager.org##.masonry_item.hcol1.fdm_block.how_to_block
+en.freedownloadmanager.org##.right_container
+www.findip-address.com##.header
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20230,6 +20260,8 @@ $webrtc,domain=nsa.gov
 /images/ads/
 /expadsblocked.js
 /travel-pixel-js/
+/google-tracking/
+/ga-*.js
 /browserfp.min.js
 /sk-logabpstatus.php
 /px.js?ch=
