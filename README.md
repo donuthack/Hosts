@@ -104,6 +104,12 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * uBlock Origin
 * uMatrix
 
+#### /Anti/Easy Anti Anti Adblock
+* AdGuard
+* AdNauseam
+* Nano Adblocker
+* uBlock Origin
+
 ## Useful Resources
 
 * [`Filter Lists`](https://filterlists.com) - A great place to find other blocklists
