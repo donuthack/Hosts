@@ -17,7 +17,13 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Anti Fonts
 ! Expires: 4 days
-! Version: 1
+! Version: 2
+
+! Whitelist Icons and Unbreak
+@@||*/materialdesignicons-
+@@||*/fonts/icons/
+@@||*/material-icons/
+@@||fonts.gstatic.com^$domain=google.com
 
 ! Easy
 *$font
