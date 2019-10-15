@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1153
+! Version: 1154
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 20.6K
-! Last Modified: Monday, October 14, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 20.7K
+! Last Modified: Tuesday, October 15, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -115,11 +115,24 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 *##+js(abort-on-property-read, userABMessage)
 *##+js(abort-on-property-read, app_vars.force_disable_adblock)
 *##+js(abort-on-property-read, AaDetector)
+*##+js(abort-on-property-read.js, KBB.DetectBlockerExtensions)
+*##+js(abort-on-property-read.js, jQuery.adblock)
+*##+js(abort-on-property-read.js, ab_detection)
+*##+js(abort-on-property-read.js, AntiAd.check)
+*##+js(abort-on-property-read.js, adblock)
 *##+js(abort-on-property-write, isAdblockOn)
 *##+js(abort-on-property-write, adBlockDetected)
+*##+js(abort-on-property-write.js, AdBlockDetectorWorkaround)
+*##+js(abort-on-property-write.js, showAdBlockerOverlay)
+*##+js(abort-on-property-write.js, KillAdBlock)
+*##+js(abort-on-property-write.js, IS_ADBLOCK)
 *##+js(abort-current-inline-script, jQuery, adblock)
+*##+js(abort-current-inline-script.js, adblockinfo)
+*##+js(abort-current-inline-script.js, ad-blocker)
+*##+js(setTimeout-defuser.js, displayAdBlockedVideo)
 *##+js(set, adblock, false)
 *##+js(set, ads, true)
+*##img[onload="AntiAd.check(this)"]
 ! Extra for AdGuard AdBlocker Browser Extension
 com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlockDetected = false;
 com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.check_adblock = true;
@@ -131,6 +144,8 @@ com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblocker = 
 com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlock = false;
 com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblock = 'no';
 com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ab = false;
+! Defuse and sanatize the Fingerprintjs2 object
+*##+js(abort-on-property-write.js, Fingerprint2)
 ! Keep adf.ly links from trying to make you turn off your adblocker
 adf.ly##+js(adfly-defuser.js)
 ! WebRTC is problematic for most
@@ -997,6 +1012,10 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adclick.g-media.com
+0.0.0.0 ads.depositfiles.com
+0.0.0.0 ads.genericlink.com
+0.0.0.0 ad.onyx7.com
 0.0.0.0 ads.golem.de
 0.0.0.0 affirm.com
 0.0.0.0 adst.fwdcdn.com
@@ -3706,6 +3725,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 beap.gemini.yahoo.com
 0.0.0.0 becomspectua.club
 0.0.0.0 boffoadsfeeds.com
 0.0.0.0 bruceleadx2.com
@@ -4607,6 +4627,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 coinad.com
 0.0.0.0 cpxl.golem.de
 0.0.0.0 cloudflareinsights.com
 0.0.0.0 clouding.live
@@ -8335,6 +8356,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kqzyfj.com
 0.0.0.0 *-kra2007c.net
 0.0.0.0 kitbit.net
 0.0.0.0 keywordblocks.com
@@ -12567,6 +12589,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tri247ads.com
+0.0.0.0 trcklks.com
 0.0.0.0 title.mgt.xboxlive.com
 0.0.0.0 targetednotifications.azurewebsites.net
 0.0.0.0 tradelab.fr
@@ -14040,6 +14064,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zilliontoolkitusa.info
 0.0.0.0 zymerget.bid
 0.0.0.0 ze-fir.com
 0.0.0.0 zaf.services.zam.com
@@ -19411,10 +19436,6 @@ anime-odcinki.pl##.moove-gdpr-align-center.moove-gdpr-dark-scheme.gdpr_infobar_p
 player.pl##.modal-overlay
 player.pl##.modal-dialog
 player.pl##.cookie-notice
-||encrypted-tbn0.gstatic.com$third-party
-||encrypted-tbn1.gstatic.com$third-party
-||encrypted-tbn2.gstatic.com$third-party
-||encrypted-tbn3.gstatic.com$third-party
 ||google.com/imgevent?
 ||google.com/gen_204
 ||google.com/async/irc
@@ -20113,6 +20134,11 @@ en.freedownloadmanager.org##.onexit_block
 en.freedownloadmanager.org##.masonry_item.hcol1.fdm_block.how_to_block
 en.freedownloadmanager.org##.right_container
 www.findip-address.com##.header
+thehackernews.com,theblaze.com##[href*="bit.ly"]
+||guidedhacking.com/gh/img/aids/ad*_gif.gif
+www.pcgamesn.com##.sticky_rail600
+||s.yimg.com/os/mit/td/ape-location-
+||injections.adguard.com/generate_204
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20749,6 +20775,9 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /UpsellTracker.js
 /v6exp3/iframe.html
 /ad-overlay-anything/
+/google-adblock.js
+/favicon.ico$third-party
+-google-tag-
 -ad-
 -v6exp3-
 -page-url=
@@ -20817,6 +20846,8 @@ mas_jump_
 ##a[href^="adultfriendfinder.com"]
 ##a[href^="orange2258.com"]
 ##a[href^="crazylead.com"]
+##a[href^="paid.outbrain.com"]
+##a[href^="trcklks.com"]
 ##a[href^="adserver-*"]
 ##a[href^="adserver.*"]
 ##a[href^="adserver_*"]
@@ -20829,4 +20860,19 @@ mas_jump_
 ##a[href^="track-*"]
 ##a[href^="track.*"]
 ##a[href^="track_*"]
-##a[href^="paid.outbrain.com"]
+##a[href*="/_clicktracker.php"]
+##a[href*="/adclicksTag.php"]
+##a[href*="/adclick.php"]
+##a[href*="/adredir.php"]
+##a[href*="/click.php?"]
+##a[href*="/affiliates."]
+##a[href*="/affiliates/"]
+##a[href*="/advertise/"]
+##a[href*="/trackhit/"]
+##a[href*="/adClick/"]
+##a[href*="/track/"]
+##a[href*="?campaign_id="]
+##a[href*="&tracker_id="]
+##a[href*="?link_id="]
+##a[href*="&utm_"]
+##a[onclick^="ga"]
