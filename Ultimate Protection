@@ -1,7 +1,7 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 1
-! Version hyphen (-) Means Small Update
+! Version: 2
+! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 21.2K
 ! Last Modified: Tuesday, October 15, 2019
 
@@ -16,3 +16,5 @@
 ! machine with the permissions of your webpage/extension," Mozilla explains on its MDN web docs. 
 ! -https://thehackernews.com/2019/10/firefox-javascript-injection.html
 *##+js(noeval)
+
+/analytics/
