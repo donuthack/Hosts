@@ -1,0 +1,14 @@
+! Title: Cybo's Easy Anti Anti Adblock
+! Expires: 8 days
+! Version: 1
+
+*##+js(nofab.js)
+*##+js(nobab.js)
+*##+js(abort-on-property-read, userABMessage)
+*##+js(abort-on-property-read, app_vars.force_disable_adblock)
+*##+js(abort-on-property-read, AaDetector)
+*##+js(abort-on-property-write, isAdblockOn)
+*##+js(abort-on-property-write, adBlockDetected)
+*##+js(abort-current-inline-script, jQuery, adblock)
+*##+js(set, adblock, false)
+*##+js(set, ads, true)
