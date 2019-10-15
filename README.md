@@ -56,13 +56,21 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * uBlock Origin
 
 #### /Anti/Anti Alphabet
-* AdBlock
-* Adblock Plus 2.0+
+* AdAway
+* AdGuard Home
 * AdGuard
 * AdNauseam
+* Blokada
+* Diversion
+* DNS66
+* Gas Mask
+* Hosts File Editor
+* hostsmgr
 * Nano Adblocker
-* Slimjet
+* PersonalDNSfilter
+* Pi-hole
 * uBlock Origin
+* uMatrix
 
 #### /Anti/Anti Fonts
 * AdBlock
