@@ -1,0 +1,11 @@
+!#include Hosts
+!#include Anti/Anti%20Alphabet
+!#include Anti/Anti%20Fonts
+!#include Anti/Anti%20Maps
+!#include Anti/Anti%20Social
+!#include Anti/Anti%20Verizon
+
+! "If you run eval() with a string that could be affected by a malicious party, you may end up running malicious code on the user's
+! machine with the permissions of your webpage/extension," Mozilla explains on its MDN web docs. 
+! -https://thehackernews.com/2019/10/firefox-javascript-injection.html
+*##+js(noeval)
