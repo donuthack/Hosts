@@ -13,56 +13,55 @@ ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
+||0.0.0.0
 
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 4
+! Version: 5
 
-0.0.0.0 google.com
-0.0.0.0 google.*
-0.0.0.0 doubleclick.net
-0.0.0.0 googleapis.com
-0.0.0.0 googleapis.*
-0.0.0.0 android.googleapis.com
-0.0.0.0 clients.google.com
-0.0.0.0 clients1.google.com
-0.0.0.0 clients2.google.com
-0.0.0.0 clients3.google.com
-0.0.0.0 clients4.google.com
-0.0.0.0 clients5.google.com
-0.0.0.0 clients6.google.com
-0.0.0.0 remotedesktop-pa.googleapis.com
-0.0.0.0 googlevideo.com
-0.0.0.0 *-pa.google.*
-0.0.0.0 admob.com
-0.0.0.0 youtube.com
-0.0.0.0 blogger.com
-0.0.0.0 calicolabs.com
-0.0.0.0 nest.com
-0.0.0.0 store.google.com
-0.0.0.0 gv.com
-0.0.0.0 x.company
-0.0.0.0 verily.com
-0.0.0.0 deepmind.com
-0.0.0.0 waymo.com
-0.0.0.0 abc.xyz
-0.0.0.0 wing.com
-0.0.0.0 sidewalklabs.com
-0.0.0.0 makanipower.com
-0.0.0.0 loon.com
-0.0.0.0 jigsaw.google.*
-0.0.0.0 gv.com
-0.0.0.0 chronicle.security
-0.0.0.0 capitalg.com
-0.0.0.0 fiber.google.*
-0.0.0.0 gsuite.google.*
-0.0.0.0 gmail.com
-0.0.0.0 virustotal.com
-0.0.0.0 googlemail.com
-0.0.0.0 firebase.google.com
-0.0.0.0 fruitninjagame.page.link
-0.0.0.0 ytimg.com
-0.0.0.0 googleusercontent.com
-0.0.0.0 b1.nel.goog
-0.0.0.0 nel.goog
+||google.*^$all
+||doubleclick.net^$all
+||googleapis.*^$all
+||android.googleapis.com^$all
+||clients.google.com^$all
+||clients1.google.com^$all
+||clients2.google.com^$all
+||clients3.google.com^$all
+||clients4.google.com^$all
+||clients5.google.com^$all
+||clients6.google.com^$all
+||remotedesktop-pa.googleapis.com^$all
+||googlevideo.com^$all
+||*-pa.google.*^$all
+||admob.com^$all
+||youtube.com^$all
+||blogger.com^$all
+||calicolabs.com^$all
+||nest.com^$all
+||store.google.com^$all
+||gv.com^$all
+||x.company^$all
+||verily.com^$all
+||deepmind.com^$all
+||waymo.com^$all
+||abc.xyz^$all
+||wing.com^$all
+||sidewalklabs.com^$all
+||makanipower.com^$all
+||loon.com^$all
+||jigsaw.google.*^$all
+||gv.com^$all
+||chronicle.security^$all
+||capitalg.com^$all
+||fiber.google.*^$all
+||gsuite.google.*^$all
+||gmail.com^$all
+||virustotal.com^$all
+||googlemail.com^$all
+||firebase.google.com^$all
+||fruitninjagame.page.link^$all
+||ytimg.com^$all
+||googleusercontent.com^$all
+||b1.nel.goog^$all
+||nel.goog^$all
+||*.goog^$all
