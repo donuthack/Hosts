@@ -48,6 +48,9 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
+#### Ultimate Protection
+* uBlock Origin
+
 #### /Dark Mode/Dark Mode
 * uBlock Origin
 
