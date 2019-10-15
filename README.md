@@ -49,6 +49,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * uBlock Origin
 
 #### Ultimate Protection
+* AdGuard (Somewhat, preferred to use uBlock Origin)
 * uBlock Origin
 
 #### /Dark Mode/Dark Mode
