@@ -26,6 +26,8 @@
 /analytics/
 /evercookie/
 /record
+/aff_r
+/events?
 /tracker.jpg
 /jquery.cookie.js
 /async_js.js
@@ -33,3 +35,8 @@
 /swfobject-*.min.js
 /modal.js
 *.gif
+?offer_id=
+&url=
+&urlauth=
+affiliate_id
+aff_sub
