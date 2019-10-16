@@ -20,6 +20,9 @@
 ! Prevent local fonts from loading (to help prevent glyph fingerprinting)
 *$inline-font
 
+! Prevent any possible popups or popunders
+*$popup,popunder
+
 /analytics/
 /evercookie/
 /record
