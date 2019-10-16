@@ -17,6 +17,9 @@
 ! -https://thehackernews.com/2019/10/firefox-javascript-injection.html
 *##+js(noeval)
 
+! Prevent local fonts from loading (to help prevent glyph fingerprinting)
+*$inline-font
+
 /analytics/
 /evercookie/
 /record
