@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1154
+! Version: 1155
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.7K
-! Last Modified: Tuesday, October 15, 2019
+! Last Modified: Wednesday, October 16, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -91,7 +91,7 @@ verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
@@ -10915,7 +10915,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||proxy.softonicads.com
 ||po.st
 ||p1.zemanta.com
-||pixel.wp.com
+||pixel.wp.*
 ||pt.trafficjunkey.net
 ||platform.stumbleupon.com
 ||pix.spot.im
@@ -12574,6 +12574,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||scripts.kissmetrics.com
 
 !T
+||tracking.opinionoutpost.com
 ||tri247ads.com
 ||trcklks.com
 ||title.mgt.xboxlive.com
@@ -20124,6 +20125,11 @@ thehackernews.com,theblaze.com##[href*="bit.ly"]
 www.pcgamesn.com##.sticky_rail600
 ||s.yimg.com/os/mit/td/ape-location-
 ||injections.adguard.com/generate_204
+nbcnews.com##.f-NJD1R8-1-
+
+! Nano Adblocker Stuffs
+dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
+businessinsider.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -20227,6 +20233,15 @@ $webrtc,domain=nsa.gov
 !#endif
 
 ! Wildcard
+/promotional/
+/personalized-banner-ads/
+/etags.jpg
+/etag.jpg
+/tracking_id.js
+/clientjs/
+/FingerprintApi/
+/JsFingerprint-Kotlin/
+/site_stats/
 /track.min.js
 /missing-ad.png
 /adrum-config.js
@@ -20236,7 +20251,7 @@ $webrtc,domain=nsa.gov
 /ad.gif
 /sbn_fingerprint.
 /FontList.swf
-/analytics/
+! /analytics/ (breaks sites like moodysanalytics.com)
 /ad-specs.
 /poool-identity.min.js
 /usersync?redir
@@ -20849,7 +20864,7 @@ mas_jump_
 ##a[href*="/adclicksTag.php"]
 ##a[href*="/adclick.php"]
 ##a[href*="/adredir.php"]
-##a[href*="/click.php?"]
+! ##a[href*="/click.php?"] (Breaks legit downloads like that of Tinywall at tinywall.pados.hu/download.php
 ##a[href*="/affiliates."]
 ##a[href*="/affiliates/"]
 ##a[href*="/advertise/"]
