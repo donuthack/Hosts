@@ -29,6 +29,10 @@ neonnettle.com$inline-script
 ! Prevent any possible popups or popunders
 *$popup,popunder
 
+! Easy Anti Public Government Domains
+*.gov
+*.gov.*
+
 /analytics/
 /evercookie/
 /record
@@ -44,6 +48,8 @@ neonnettle.com$inline-script
 ?offer_id=
 &url=
 &urlauth=
+&PC=
+=CHROMN
 affiliate_id
 aff_sub
 ##a[href*="/analytics/"]
@@ -62,3 +68,5 @@ aff_sub
 ##a[href*="&urlauth="]
 ##a[href*="affiliate_id"]
 ##a[href*="aff_sub"]
+##a[href*="&PC="]
+##a[href*="=CHROMN"]
