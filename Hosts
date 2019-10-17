@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1154
+! Version: 1155
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.7K
-! Last Modified: Tuesday, October 15, 2019
+! Last Modified: Wednesday, October 16, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
