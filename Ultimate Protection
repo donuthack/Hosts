@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 3
+! Version: 4
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 21.2K
-! Last Modified: Tuesday, October 15, 2019
+! Last Modified: Wednesday, October 16, 2019
 
 !#include Hosts
 !#include Anti/Anti%20Alphabet
@@ -28,7 +28,7 @@
 /record
 /aff_r
 /events?
-/tracker.jpg
+/tracker.*
 /jquery.cookie.js
 /async_js.js
 /iframe_js.js
@@ -40,3 +40,19 @@
 &urlauth=
 affiliate_id
 aff_sub
+##a[href*="/analytics/"]
+##a[href*="/evercookie/"]
+##a[href*="/record"]
+##a[href*="/aff_r"]
+##a[href*="/events?"]
+##a[href*="/tracker."]
+##a[href*="/jquery.cookie.js"]
+##a[href*="/async_js.js"]
+##a[href*=/iframe_js.js""]
+##a[href*="/swfobject-*.min.js"]
+##a[href*="/modal.js"]
+##a[href*="?offer_id="]
+##a[href*="&url="]
+##a[href*="&urlauth="]
+##a[href*="affiliate_id"]
+##a[href*="aff_sub"]
