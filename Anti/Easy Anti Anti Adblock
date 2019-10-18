@@ -2,6 +2,7 @@
 ! Expires: 8 days
 ! Version: 1
 
+! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
 *##+js(nofab.js)
 *##+js(nobab.js)
 *##+js(abort-on-property-read, userABMessage)
@@ -25,3 +26,14 @@
 *##+js(set, adblock, false)
 *##+js(set, ads, true)
 *##img[onload="AntiAd.check(this)"]
+! Extra for AdGuard AdBlocker Browser Extension
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlockDetected = false;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.check_adblock = true;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblock_check = true;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ads_unblocked = true;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlockTest = true;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.hasAdblock = false;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblocker = false;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlock = false;
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblock = 'no';
+com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ab = false;
