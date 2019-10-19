@@ -36,6 +36,10 @@ neonnettle.com$inline-script
 *.gov
 *.gov.*
 
+! If Using AdGuard "prevents Facebook from tracking you even if you are logged in" 
+! (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#real-life-examples)
+||facebook.com^$third-party,cookie=c_user
+
 /analytics/
 /evercookie/
 /record
