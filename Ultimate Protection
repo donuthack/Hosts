@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 5
+! Version: 6
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 21.2K
-! Last Modified: Wednesday, October 16, 2019
+! Last Modified: Saturday, October 19, 2019
 
 !#include Hosts
 !#include Anti/Anti%20Alphabet
@@ -22,6 +22,9 @@ neonnettle.com$inline-script
 ! machine with the permissions of your webpage/extension," Mozilla explains on its MDN web docs. 
 ! -https://thehackernews.com/2019/10/firefox-javascript-injection.html
 *##+js(noeval)
+
+! Preven Any non-HTTPS connection
+||*^$csp=script-src https:
 
 ! Prevent local fonts from loading (to help prevent glyph fingerprinting)
 *$inline-font
