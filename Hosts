@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1157
+! Version: 1157-1
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.7K
 ! Last Modified: Sunday, October 20, 2019
@@ -178,7 +178,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 
 ! Content Security Policies
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
-||pandora.com^$csp=script-src 'self' * 'unsafe-inline' * p-cdn.com * p-cdn.us
+||pandora.com^$csp=script-src 'self' * 'unsafe-inline' * www.pandora.com * p-cdn.com * p-cdn.us
 ||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
