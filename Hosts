@@ -16,13 +16,14 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1156
+! Version: 1157
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 20.7K
-! Last Modified: Saturday, October 19, 2019
+! Last Modified: Sunday, October 20, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||facebook.com/settings/*/?ref=settings
 @@||google.com/recaptcha/api*
 @@||dailycaller.com/files/images/1x1.trans.gif
 @@||pandora.com/web-client-assets/d_*.
@@ -177,7 +178,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 
 ! Content Security Policies
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
-||pandora.com^$csp=script-src 'self' * 'unsafe-inline'
+||pandora.com^$csp=script-src 'self' * 'unsafe-inline' * p-cdn.com * p-cdn.us
+||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -1018,6 +1020,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adzsafe.com
+0.0.0.0 aefd.nelreports.net
 0.0.0.0 adclick.g-media.com
 0.0.0.0 ads.depositfiles.com
 0.0.0.0 ads.genericlink.com
@@ -9395,6 +9399,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 maranhesduve.club
 0.0.0.0 m6r.eu
 0.0.0.0 mxcdn.net
 0.0.0.0 www.msftncsi.com
@@ -9970,6 +9975,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nelreports.net
 0.0.0.0 narrative.io
 0.0.0.0 noclef.com
 0.0.0.0 ns*.dynamicnetworkservices.net
@@ -10213,6 +10219,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 onecollector.cloudapp.aria.akadns.net
 0.0.0.0 occ-0-1189-92.1.nflxso.net
 0.0.0.0 optinchat.com
 0.0.0.0 o333o.com
@@ -10404,6 +10411,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p3a.brave.com
 0.0.0.0 p2-iemmhkvlemspu-efful6gj327yvhst-if-v6exp3-v4.metric.gstatic.com
 0.0.0.0 policityseriod.info
 0.0.0.0 presence-heartbeat.xboxlive.com
@@ -11338,6 +11346,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sentry.ghostmonitor.net
+0.0.0.0 shy.elfsight.com
 0.0.0.0 softfree4u.xyz
 0.0.0.0 sftools.trafficmanager.net
 0.0.0.0 slimspots.com
@@ -12595,6 +12605,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 terttalkinhitin.pro
 0.0.0.0 tracking.opinionoutpost.com
 0.0.0.0 tri247ads.com
 0.0.0.0 trcklks.com
@@ -18841,8 +18852,6 @@ info.internet.org###jam3-cookie-banner
 ||translate.google.com/gen204
 ||jailbreak.fce365.info/jscripts/jquery.plugins.min.js
 ||jailbreak.fce365.info/cdn-cgi/apps/head/*.js
-||phncdn.com/www-static/js/lib/ph-functions.js
-||phncdn.com/vortex-simple-
 ||pornhub.com/svvt/add?
 ||id.rambler.ru/jsonrpc
 ||rambler.ru/qex
@@ -20147,6 +20156,22 @@ www.pcgamesn.com##.sticky_rail600
 ||s.yimg.com/os/mit/td/ape-location-
 ||injections.adguard.com/generate_204
 nbcnews.com##.f-NJD1R8-1-
+bing.com###b_results *:has(span:has-text(Ad))
+bing.com##.adbDef
+bing.com##li.b_adBottom
+www.windows-noob.com###ipsLayout_mainArea > div:nth-of-type(1)
+laptopunderbudget.com##.onp-sl-overlap-background
+laptopunderbudget.com##.onp-sl-secrets-theme.onp-sl-transparence-mode.onp-sl-overlap-box
+||google.com/insights/consumersurveys/
+||jetzt.de/apos-minified/anon-*.js
+||glasswire.com/pi/
+||images.ddc.com/*/spacer.gif
+||librivox.org/wp-content/themes/librivox/images/stroke.gif
+||cdn.ghostmonitor.com/messenger/
+||recart.com/tracking/
+||paypal.com/xoplatform/logger/api/logger
+||glasswire.com/pi/
+||epicgames.com/id/api/location
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -20248,6 +20273,11 @@ $webrtc,domain=nsa.gov
 ||172.217.0.14$network
 ||172.217.1.46$network
 ||172.217.4.46$network
+! Micorsoft Cortana
+||204.79.197.200$network
+! Google IP
+||216.58.192.205$network
+||216.56.192.205$network
 !#endif
 
 ! Wildcard
@@ -20396,6 +20426,13 @@ $webrtc,domain=nsa.gov
 /jslibs/track.js
 /wsAnalytics.min.js
 /metrics/adobe/
+/adblock-detector/
+/in.php?referer=
+/video-hit
+/video/tracking.js
+/scripttag.js
+/reportTimeWatched
+/vtrack.php
 /akam/*/pixel
 /admantx/service?
 /adobe-blank.css
@@ -20809,6 +20846,8 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 =adunit&
 =cron.task.core.tidy_sessions
 =host:
+=adunit
+=binghp
 _WebBannerAd
 _fingerprint
 .fingerprint-
@@ -20866,6 +20905,7 @@ mas_jump_
 ##a[href^="crazylead.com"]
 ##a[href^="paid.outbrain.com"]
 ##a[href^="trcklks.com"]
+##a[href^="gruce.advertising.com"]
 ##a[href^="adserver-*"]
 ##a[href^="adserver.*"]
 ##a[href^="adserver_*"]
