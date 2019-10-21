@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 7
+! Version: 8
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 21.2K
-! Last Modified: Saturday, October 19, 2019
+! Last Modified: Monday, October 21, 2019
 
 !#include Hosts
 !#include Anti/Anti%20Alphabet
@@ -35,6 +35,9 @@ neonnettle.com$inline-script
 ! Easy Anti Public Government Domains
 *.gov
 *.gov.*
+! Remove From Search Results
+google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov)
+google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
 
 ! If Using AdGuard "prevents Facebook from tracking you even if you are logged in" 
 ! (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#real-life-examples)
