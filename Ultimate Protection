@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 11
+! Version: 11-1
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 22.2K
 ! Last Modified: Wednesday, October 23, 2019
@@ -24,7 +24,7 @@ neonnettle.com$inline-script
 *##+js(noeval)
 
 ! Preven Any non-HTTPS connection
-||*^$csp=script-src https:
+||*^$csp=default-src https:
 
 ! Prevent local fonts from loading (to help prevent glyph fingerprinting)
 *$inline-font
