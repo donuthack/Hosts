@@ -16,13 +16,14 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1158
+! Version: 1159
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 21.0K
-! Last Modified: Tuesday, October 22, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 21.2K
+! Last Modified: Wednesday, October 23, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
+@@||apis.google.com/js/platform.js$domain=graspablemath.com
 @@||laptop-updates.brave.com/latest/*$domain=brave.com
 @@||cdnjs.cloudflare.com/ajax/$domain=emsicc.com
 @@||facebook.com/settings/*/?ref=settings
@@ -1183,6 +1184,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 antburape.club
+0.0.0.0 ailawlani.club
+0.0.0.0 andarcair.club
+0.0.0.0 advisories.review
 0.0.0.0 adzsafe.com
 0.0.0.0 aefd.nelreports.net
 0.0.0.0 adclick.g-media.com
@@ -3898,6 +3903,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 balvalur.com
+0.0.0.0 bp1.com
 0.0.0.0 beap.gemini.yahoo.com
 0.0.0.0 becomspectua.club
 0.0.0.0 boffoadsfeeds.com
@@ -6887,6 +6894,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 frontalidsp.playoncenter.com
 0.0.0.0 findher2date.com
 0.0.0.0 fp-afd-ccc.com
 0.0.0.0 ftv-smp.ntp-fireos.com
@@ -10138,6 +10146,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 n0ve1st0ry.gameloft.com
 0.0.0.0 nelreports.net
 0.0.0.0 narrative.io
 0.0.0.0 noclef.com
@@ -10382,6 +10391,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 onclickads.net
 0.0.0.0 onecollector.cloudapp.aria.akadns.net
 0.0.0.0 occ-0-1189-92.1.nflxso.net
 0.0.0.0 optinchat.com
@@ -12769,6 +12779,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 track.rediff.com
 0.0.0.0 terttalkinhitin.pro
 0.0.0.0 tracking.opinionoutpost.com
 0.0.0.0 tri247ads.com
@@ -13524,6 +13535,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vodafone.com-gift-winner-lucky-day.vip
 0.0.0.0 viewers.nighteye.app
 0.0.0.0 verizon.inq.com
 0.0.0.0 viral-loops.com
@@ -20393,6 +20405,23 @@ bing.com#?#ul:-abp-contains(Ad)
 bing.com##a[href^="bing.com/aclk?"]
 bing.com###b_results > li:not(.b_algo):not(.b_ans):not(.b_pag):not(.aca_algo):not(.aca_algo_count):not(.b_msg)
 iowa.emsicc.com##.cc-window.cc-banner.cc-type-opt-out.cc-theme-block.cc-bottom.cc-color-override-1558977326
+sciencefiles.org###hwp-bd-75933
+sciencefiles.org###hwp-75933
+www.facebook.com###u_0_e
+||http://simpsons.fox-fan.tv/images/ad.jpg
+||gameloft.com/un/track.php
+*.googleusercontent.com$domain=123movies.ge,third-party
+||graspablemath.com:*/log/
+||content.googleapis.com/static/proxy.html
+||stooq.pl/ads
+kralspor.ensonhaber.com##.detayAdAlt
+bbc.com###bbccom_outbrain_ar_7
+bbc.com##.bbccom_advert.bbccom_responsive
+techexplainer.wordpress.com##.hide-on-button.ads-active
+platform.everfi.net##.row-fluid.row-with-header
+platform.everfi.net##.row-fluid.row-header
+||mc.yandex.*/metrika/
+youtube.com##iframe[src="about:blank"]
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -20435,8 +20464,9 @@ wpad.home
 
 ! AdGuard
 dailycaller.com#%#document.cookie = "__adblocker = false"
+businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
-$cookie=/_landing_page[a-zA-Z_.]|http_referrer[a-zA-Z_.]|_device_id[a-zA-Z_.]|has_recent_activity[a-zA-Z_.]|_parsely_visitor[a-zA-Z_.]|slimstat_tracking_code[a-zA-Z_.]|view_count[a-zA-Z_.]|played_games_ids[a-zA-Z_.]|ABTEST[a-zA-Z_.]|ip[a-zA-Z_.]|KinjaSession[a-zA-Z_.]|country[a-zA-Z_.]|visited[a-zA-Z_.]|counter[a-zA-Z_.]|countrycode[a-zA-Z_.]|city[a-zA-Z_.]|session_tracker[a-zA-Z_.]|cookies.js[a-zA-Z_.]|location-data[a-zA-Z_.]|smpush_safari_device_token[a-zA-Z_.]|smpush_device_token[a-zA-Z_.]|_gcl_au[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|floodlightPixelTimer[a-zA-Z_.]|geo[a-zA-Z_.]|IPLOC[a-zA-Z_.]|browerV[a-zA-Z_.]|__utmz[a-zA-Z_.]|__utma[a-zA-Z_.]|__utmc[a-zA-Z_.]|__utmb[a-zA-Z_.]|__utmt[a-zA-Z_.]|_ga[a-zA-Z_.]|uid[a-zA-Z_.]|_gat[a-zA-Z_.]|PHPSESSID[a-zA-Z_.]|__cfduid[a-zA-Z_.]|UIDR[a-zA-Z_.]|pid[a-zA-Z_.]|uuid2[a-zA-Z_.]|tuuid[a-zA-Z_.]|_drt_[a-zA-Z_.]|uuidc[a-zA-Z_.]|__gads[a-zA-Z_.]|ASP.NET_SessionId[a-zA-Z_.]|anj[a-zA-Z_.]|__atuvc[a-zA-Z_.]|__atuvs[a-zA-Z_.]|di2[a-zA-Z_.]|rpx[a-zA-Z_.]|rpb[a-zA-Z_.]|bku[a-zA-Z_.]|bkdc[a-zA-Z_.]|yandexuid[a-zA-Z_.]|TDID[a-zA-Z_.]|yabs-sid[a-zA-Z_.]|khaos[a-zA-Z_.]|TDCPM[a-zA-Z_.]|__qca[a-zA-Z_.]|IDE[a-zA-Z_.]|PUBMDCID[a-zA-Z_.]|guest_id[a-zA-Z_.]|wfivefivec[a-zA-Z_.]|na_tc[a-zA-Z_.]|bkc[a-zA-Z_.]|bklc[a-zA-Z_.]|OAID[a-zA-Z_.]|JEB2[a-zA-Z_.]|CMPS[a-zA-Z_.]|CMID[a-zA-Z_.]|CfP[a-zA-Z_.]|ra1_uid[a-zA-Z_.]|CMST[a-zA-Z_.]|CMDD[a-zA-Z_.]|CMSC[a-zA-Z_.]|_cc_cc[a-zA-Z_.]|_cc_id[a-zA-Z_.]|_cc_dc[a-zA-Z_.]|_cc_aud[a-zA-Z_.]|rtc_AAAA[a-zA-Z_.]|ljt_reader[a-zA-Z_.]|ra1_sid[a-zA-Z_.]|RA1balancer[a-zA-Z_.]|MUID[a-zA-Z_.]|sto-id-20480-bh[a-zA-Z_.]|pudm_AAAA[a-zA-Z_.]|adaptv_unique_user_cookie[a-zA-Z_.]|put_1185[a-zA-Z_.]|MR[a-zA-Z_.]|CMRUM3[a-zA-Z_.]|__auc[a-zA-Z_.]|__asc[a-zA-Z_.]|KRTBCOOKIE_22[a-zA-Z_.]|everest_g_v2[a-zA-Z_.]|TapAd_TS[a-zA-Z_.]|TapAd_DID[a-zA-Z_.]|icu[a-zA-Z_.]|everest_session_v2[a-zA-Z_.]|Gdyn[a-zA-Z_.]|is_unique[a-zA-Z_.]|TMP_X1ID[a-zA-Z_.]|__unam[a-zA-Z_.]|X1ID[a-zA-Z_.]|matchgoogle[a-zA-Z_.]|put_1986[a-zA-Z_.]|KADUSERCOOKIE[a-zA-Z_.]|ServedBy[a-zA-Z_.]|optimizelyEndUserId[a-zA-Z_.]|optimizelyBuckets[a-zA-Z_.]|optimizelySegments[a-zA-Z_.]|optimizelyPendingLogEvents[a-zA-Z_.]|put_1512[a-zA-Z_.]|KTPCACOOKIE[a-zA-Z_.]|pi[a-zA-Z_.]|KRTBCOOKIE_27[a-zA-Z_.]|ev_t[a-zA-Z_.]|ev_t2[a-zA-Z_.]|SERVERID[a-zA-Z_.]|KRTBCOOKIE_57[a-zA-Z_.]|KRTBCOOKIE_80[a-zA-Z_.]|put_2249[a-zA-Z_.]|__utmv[a-zA-Z_.]|_ljtrtb_1[a-zA-Z_.]|SyncRTB[a-zA-Z_.]|SYNCUPPIX_ON[a-zA-Z_.]|put_2313[a-zA-Z_.]|_ym_uid[a-zA-Z_.]|_ym_isad[a-zA-Z_.]|put_2132[a-zA-Z_.]|PUBRETARGET[a-zA-Z_.]|KRTBCOOKIE_148[a-zA-Z_.]|__zlcmid[a-zA-Z_.]|taboola_session_id[a-zA-Z_.]|taboola_upci[a-zA-Z_.]|end_user_id[a-zA-Z_.]|__adroll[a-zA-Z_.]|OAGEO[a-zA-Z_.]|KRTBCOOKIE_240[a-zA-Z_.]|put_2146[a-zA-Z_.]|put_2309[a-zA-Z_.]|_ljtrtb_2[a-zA-Z_.]|put_2596[a-zA-Z_.]|mako_uid[a-zA-Z_.]|ANON_ID[a-zA-Z_.]|put_2307[a-zA-Z_.]|_rxuuid[a-zA-Z_.]|put_2810[a-zA-Z_.]|ra1_pd[a-zA-Z_.]|put_1523[a-zA-Z_.]|GPS[a-zA-Z_.]|ljtrtb[a-zA-Z_.]|KRTBCOOKIE_52[a-zA-Z_.]|parsely_network_uuid[a-zA-Z_.]|put_3876[a-zA-Z_.]|KRTBCOOKIE_466[a-zA-Z_.]|_chartbeat2[a-zA-Z_.]|put_2676[a-zA-Z_.]|sc_is_visitor_unique[a-zA-Z_.]|put_2046[a-zA-Z_.]|FFad[a-zA-Z_.]|FFcat[a-zA-Z_.]|KRTBCOOKIE_200[a-zA-Z_.]|put_2238[a-zA-Z_.]|BizoData[a-zA-Z_.]|ads_prefs[a-zA-Z_.]|personalization_id[a-zA-Z_.]|1P_JAR[a-zA-Z_.]|cp_id_ec364pageLoads[a-zA-Z_.]|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg[a-zA-Z_.]|lithiumSSO%3Apandora.prod[a-zA-Z_.]/
+$cookie=/_landing_page[a-zA-Z_.]|http_referrer[a-zA-Z_.]|_device_id[a-zA-Z_.]|has_recent_activity[a-zA-Z_.]|_parsely_visitor[a-zA-Z_.]|slimstat_tracking_code[a-zA-Z_.]|view_count[a-zA-Z_.]|played_games_ids[a-zA-Z_.]|ABTEST[a-zA-Z_.]|ip[a-zA-Z_.]|KinjaSession[a-zA-Z_.]|country[a-zA-Z_.]|visited[a-zA-Z_.]|counter[a-zA-Z_.]|countrycode[a-zA-Z_.]|city[a-zA-Z_.]|session_tracker[a-zA-Z_.]|cookies.js[a-zA-Z_.]|location-data[a-zA-Z_.]|smpush_safari_device_token[a-zA-Z_.]|smpush_device_token[a-zA-Z_.]|_gcl_au[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|floodlightPixelTimer[a-zA-Z_.]|geo[a-zA-Z_.]|IPLOC[a-zA-Z_.]|browerV[a-zA-Z_.]|__utmz[a-zA-Z_.]|__utma[a-zA-Z_.]|__utmc[a-zA-Z_.]|__utmb[a-zA-Z_.]|__utmt[a-zA-Z_.]|_ga[a-zA-Z_.]|uid[a-zA-Z_.]|_gat[a-zA-Z_.]|PHPSESSID[a-zA-Z_.]|__cfduid[a-zA-Z_.]|UIDR[a-zA-Z_.]|pid[a-zA-Z_.]|uuid2[a-zA-Z_.]|tuuid[a-zA-Z_.]|_drt_[a-zA-Z_.]|uuidc[a-zA-Z_.]|__gads[a-zA-Z_.]|ASP.NET_SessionId[a-zA-Z_.]|anj[a-zA-Z_.]|__atuvc[a-zA-Z_.]|__atuvs[a-zA-Z_.]|di2[a-zA-Z_.]|rpx[a-zA-Z_.]|rpb[a-zA-Z_.]|bku[a-zA-Z_.]|bkdc[a-zA-Z_.]|yandexuid[a-zA-Z_.]|TDID[a-zA-Z_.]|yabs-sid[a-zA-Z_.]|khaos[a-zA-Z_.]|TDCPM[a-zA-Z_.]|__qca[a-zA-Z_.]|IDE[a-zA-Z_.]|PUBMDCID[a-zA-Z_.]|guest_id[a-zA-Z_.]|wfivefivec[a-zA-Z_.]|na_tc[a-zA-Z_.]|bkc[a-zA-Z_.]|bklc[a-zA-Z_.]|OAID[a-zA-Z_.]|JEB2[a-zA-Z_.]|CMPS[a-zA-Z_.]|CMID[a-zA-Z_.]|CfP[a-zA-Z_.]|ra1_uid[a-zA-Z_.]|CMST[a-zA-Z_.]|CMDD[a-zA-Z_.]|CMSC[a-zA-Z_.]|_cc_cc[a-zA-Z_.]|_cc_id[a-zA-Z_.]|_cc_dc[a-zA-Z_.]|_cc_aud[a-zA-Z_.]|rtc_AAAA[a-zA-Z_.]|ljt_reader[a-zA-Z_.]|ra1_sid[a-zA-Z_.]|RA1balancer[a-zA-Z_.]|MUID[a-zA-Z_.]|sto-id-20480-bh[a-zA-Z_.]|pudm_AAAA[a-zA-Z_.]|adaptv_unique_user_cookie[a-zA-Z_.]|put_1185[a-zA-Z_.]|MR[a-zA-Z_.]|CMRUM3[a-zA-Z_.]|__auc[a-zA-Z_.]|__asc[a-zA-Z_.]|KRTBCOOKIE_22[a-zA-Z_.]|everest_g_v2[a-zA-Z_.]|TapAd_TS[a-zA-Z_.]|TapAd_DID[a-zA-Z_.]|icu[a-zA-Z_.]|everest_session_v2[a-zA-Z_.]|Gdyn[a-zA-Z_.]|is_unique[a-zA-Z_.]|TMP_X1ID[a-zA-Z_.]|__unam[a-zA-Z_.]|X1ID[a-zA-Z_.]|matchgoogle[a-zA-Z_.]|put_1986[a-zA-Z_.]|KADUSERCOOKIE[a-zA-Z_.]|ServedBy[a-zA-Z_.]|optimizelyEndUserId[a-zA-Z_.]|optimizelyBuckets[a-zA-Z_.]|optimizelySegments[a-zA-Z_.]|optimizelyPendingLogEvents[a-zA-Z_.]|put_1512[a-zA-Z_.]|KTPCACOOKIE[a-zA-Z_.]|pi[a-zA-Z_.]|KRTBCOOKIE_27[a-zA-Z_.]|ev_t[a-zA-Z_.]|ev_t2[a-zA-Z_.]|SERVERID[a-zA-Z_.]|KRTBCOOKIE_57[a-zA-Z_.]|KRTBCOOKIE_80[a-zA-Z_.]|put_2249[a-zA-Z_.]|__utmv[a-zA-Z_.]|_ljtrtb_1[a-zA-Z_.]|SyncRTB[a-zA-Z_.]|SYNCUPPIX_ON[a-zA-Z_.]|put_2313[a-zA-Z_.]|_ym_uid[a-zA-Z_.]|_ym_isad[a-zA-Z_.]|put_2132[a-zA-Z_.]|PUBRETARGET[a-zA-Z_.]|KRTBCOOKIE_148[a-zA-Z_.]|__zlcmid[a-zA-Z_.]|taboola_session_id[a-zA-Z_.]|taboola_upci[a-zA-Z_.]|end_user_id[a-zA-Z_.]|__adroll[a-zA-Z_.]|OAGEO[a-zA-Z_.]|KRTBCOOKIE_240[a-zA-Z_.]|put_2146[a-zA-Z_.]|put_2309[a-zA-Z_.]|_ljtrtb_2[a-zA-Z_.]|put_2596[a-zA-Z_.]|mako_uid[a-zA-Z_.]|ANON_ID[a-zA-Z_.]|put_2307[a-zA-Z_.]|_rxuuid[a-zA-Z_.]|put_2810[a-zA-Z_.]|ra1_pd[a-zA-Z_.]|put_1523[a-zA-Z_.]|GPS[a-zA-Z_.]|ljtrtb[a-zA-Z_.]|KRTBCOOKIE_52[a-zA-Z_.]|parsely_network_uuid[a-zA-Z_.]|put_3876[a-zA-Z_.]|KRTBCOOKIE_466[a-zA-Z_.]|_chartbeat2[a-zA-Z_.]|put_2676[a-zA-Z_.]|sc_is_visitor_unique[a-zA-Z_.]|put_2046[a-zA-Z_.]|FFad[a-zA-Z_.]|FFcat[a-zA-Z_.]|KRTBCOOKIE_200[a-zA-Z_.]|put_2238[a-zA-Z_.]|BizoData[a-zA-Z_.]|ads_prefs[a-zA-Z_.]|personalization_id[a-zA-Z_.]|1P_JAR[a-zA-Z_.]|cp_id_ec364pageLoads[a-zA-Z_.]|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg[a-zA-Z_.]|lithiumSSO%3Apandora.prod[a-zA-Z_.]|isp[a-zA-Z_.]|_device_id[a-zA-Z_.]|ghostmonitor_session_id[a-zA-Z_.]|_orig_referrer[a-zA-Z_.]/
 ||cloudflare.com$third-party,cookie
 ||highcharts.com$third-party,cookie
 ||adorama.com$third-party,cookie
@@ -21050,11 +21080,14 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /v6exp3/iframe.html
 /ad-overlay-anything/
 /google-adblock.js
+/ramy6P8ui3ZlbYWn/
+/gm-ga.min.js
 /favicon.ico$third-party
 -google-tag-
 -ad-
 -v6exp3-
 -page-url=
+&isp=
 &page-url=
 &clickid
 &tds_
@@ -21079,7 +21112,7 @@ tds_campaign=
 mas_jump_
 *##:has-text(/^Advertisement/i)
 *##:has-text(/^Promoted Content/i)
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie, ##.gdpr-container
+##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie, ##.gdpr-container, ###cookies_overlay, ###eu-cookie-law, ###cookies_popup_container
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
@@ -21110,6 +21143,7 @@ mas_jump_
 ##.yahoo-ad-leader-north
 ##.yahoo-ad-leader-south
 ###ad-skyscraper
+##.wide.ad
 ###sidebar-corner-ad
 ###ad-banner
 ###adblockBanner
@@ -21152,7 +21186,12 @@ mas_jump_
 ##a[href*="&tracker_id="]
 ##a[href*="?link_id="]
 ##a[href*="&utm_"]
-##a[onclick^="ga"]
+##[onclick^="ga"]
+##[onclick^="ga('send', 'event', 'outbound', 'click',"]
+##[onclick=*"track"]
+##[onclick=*"adclick"]
+##[onclick=*"/ping_url/"]
+##a[onclick="closeMyAd()"]
 ##a[h$="Ad"]
 ##a[h$="Advert"]
 ##a[h$="Advertisement"]
