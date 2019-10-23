@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 11-1
+! Version: 12
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 22.2K
 ! Last Modified: Wednesday, October 23, 2019
@@ -70,11 +70,13 @@ google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
 &campaign=0-true
 &city=
 &isp=
+&rpcToken
 ?brand=Apple
 ?brand=Google
 =CHROMN
 affiliate_id
 aff_sub
+#origin=
 ##a[href*="/analytics/"]
 ##a[href*="/evercookie/"]
 ##a[href*="/record"]
