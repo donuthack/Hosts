@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 6
+! Version: 7
 
 ! Facebook
 ||facebook.com/plugins/like.php
@@ -152,6 +152,10 @@
 ##[onclick^="window.open('twitter.com/intent/tweet"]
 ##[onclick^="window.open('telegram.me/share/url"]
 ##[onclick^="window.open('api.whatsapp.com/send"]
+##button[title="Share"]
+##a[title="Share"]
+##button[title="share"]
+##a[title="share"]
 ###follow-us
 ##.icon-share
 ##.social-box
