@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1160
+! Version: 1161
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 21.2K
-! Last Modified: Thursday, October 24, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 22.8K
+! Last Modified: Friday, October 25, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -111,8 +111,12 @@ pandora.com$genericblock
 *##+js(ra.js, ping)
 *##+js(ra.js, referrerpolicy)
 *##+js(ra.js, rel, link[rel*="pingback"])
+*##+js(ra, onclick, a[onclick*="ga"])
+*##+js(ra, onclick, a[onclick*="_gaq.push"])
+*##+js(ra, onclick, a[onclick*="dataLayer.push"])
 ! Specific
 google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
+platform.everfi.net*##+js(ra, disabled)
 
 ! Fixes
 dailycaller.com#@$#header { position: absolute !important; height: 155px !important; }
@@ -4817,6 +4821,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 ct.verticalhealth.net
 0.0.0.0 coinad.com
 0.0.0.0 cpxl.golem.de
 0.0.0.0 cloudflareinsights.com
@@ -5842,6 +5847,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 declarated.xyz
 0.0.0.0 dict.bing.com.cn
 0.0.0.0 d-ipv6.mmapiws.com
 0.0.0.0 daring18.eklablog.com
@@ -7761,6 +7767,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 id.verticalhealth.net
+0.0.0.0 img.gg
 0.0.0.0 io.narrative.io
 0.0.0.0 ibdcd.com
 0.0.0.0 ihsmarkit.com
@@ -20431,6 +20439,59 @@ platform.everfi.net##.row-fluid.row-header
 ||mc.yandex.*/metrika/
 ||google.com/analytics/
 whotracks.me$script
+psycom.net###vhn
+psycom.net##.qsm-after-message.mlw_qmn_message_end
+psycom.net##.qsm_contact_div.qsm-contact-type-email
+psycom.net###modalpop
+psycom.net##.active
+psycom.net##.vh-quiz-qborder
+psycom.net##.qsm_contact_div
+politifact.com##.cookie-notice-wrapper
+politifact.com###ad-topleaderboard
+politifact.com##.pfad.widget
+politifact.com###ad-bottomleaderboard
+gunfacts.info###sgcboxOverlay
+gunfacts.info##.colorbox1.gf-popup-overlay-blog-subscribe.sg-popup-overlay-8.sgcboxOverlayBg
+gunfacts.info###sgcboxLoadedContent
+gunfacts.info##.sg-current-popup-8
+gunfacts.info###sgcboxContent
+gunfacts.info###sgcboxWrapper
+amnesty.org##.cookies.print-hidden
+washingtonpost.com##.fixed.left-0.right-0.top-0.bottom-0
+washingtonpost.com##.dn.db-ns
+w3schools.com###tryitLeaderboard
+azcentral.com###ad-position-51
+azcentral.com##.partner-placement.partner-overlay-top-ad.partner-has-min-height
+azcentral.com###ad-position-38
+azcentral.com##.partner-placement.poster-scroll-ad
+azcentral.com##.more-stories-content
+fox8.com##.ad.ad-top.ad-long.full-width
+fox8.com###acm-tag-300x250-atf
+fox8.com##.prebid.ad-wrapper
+statista.com###cookiesNotification
+statista.com##.cookiesNotification__wrapper.animated.hidePrint.fadeInUp
+prisonpolicy.org###sidebar-content
+answers.yahoo.com###boxLREC
+answers.yahoo.com##.Wpx-300.Mih-250.D-ib
+pastebin.com###float-box-1
+pastebin.com###float-box-3
+dailycaller.com###dailycaller_top
+dailycaller.com##.ad
+dailycaller.com##.max-w-3xl.px-4.mx-auto.mb-6.text-center
+cbsnews.com###leader-middle-plus-content
+cbsnews.com##.ad-leader-middle-plus-content.lazypreload.lazyloaded
+stonetoss.com###facebook-likebox-5
+stonetoss.com##.widget.widget_facebook_likebox
+britannica.com###div-gpt-ad-f3ed9ba6-f05a-4e22-8f31-bcad5fa6820d
+britannica.com##.google-ad-iframe.ui-hide-on-modal.header-ad.middle-xs.center-xs
+britannica.com###div-gpt-ad-bf77874a-15bf-4c1a-8fa0-2868c63899ec
+britannica.com##.google-ad-iframe.ui-hide-on-modal.center-xs.middle-xs
+samsung.com##.cm-cookie-geo__msg
+samsung.com##.sp-g-samsung-chatbot-container__button
+inc.com##.NewsLetterBar__barItem__F2aqZ.NewsLetterBar__left__3XuDQ
+inc.com##.NewsLetterBar__barItem__F2aqZ.NewsLetterBar__right__1zwhf
+inc.com##.newsletterBarParts.NewsLetterBar__barParts__1eKM_
+||subscribe.washingtonpost.com/pw/index.html?destination=*&action=3
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -21162,6 +21223,7 @@ mas_jump_
 ##.admania_adblock_detector
 ###adchecker
 ###ad-block-holder
+##.google-ad-iframe
 ##div[id^="mainads"]
 ##a[href^="trafficjunky.com"]
 ##a[href^="adultfriendfinder.com"]
@@ -21200,8 +21262,8 @@ mas_jump_
 ##a[href^="*://*.doubleclick.net"]
 ##a[href*="/advert/"]
 ##a[href*="/avt/"]
-##[onclick^="ga"]
-##[onclick^="ga('send', 'event', 'outbound', 'click',"]
+! ##[onclick^="ga"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
+! ##[onclick^="ga('send', 'event', 'outbound', 'click',"] ((Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
 ##[onclick=*"track"]
 ##[onclick=*"adclick"]
 ##[onclick=*"/ping_url/"]
