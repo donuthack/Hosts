@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1161
+! Version: 1162
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 22.8K
-! Last Modified: Friday, October 25, 2019
+! Last Modified: Tuesday, October 29, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -1198,6 +1198,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 agreements.goguardian.com
+0.0.0.0 account.goguardian.com
 0.0.0.0 antburape.club
 0.0.0.0 ailawlani.club
 0.0.0.0 andarcair.club
@@ -2067,50 +2069,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a23-211-100-93.deploy.static.akamaitechnologies.com
 0.0.0.0 az725175.vo.msecnd.net
 0.0.0.0 api.lever.co
-0.0.0.0 arcgisonline.com
-0.0.0.0 www.arcgis.com
-0.0.0.0 arcgis.com
-0.0.0.0 ads.clivfnw5sdhbronn.onion
-0.0.0.0 ads.wise3dvxlxtd7hvy.onion
-0.0.0.0 ads.zliban6brffsahaa.onion
-0.0.0.0 ads.v4gnh5vg5uxsr5qd.onion
-0.0.0.0 ads.3kylcvehxgci2yuo.onion
-0.0.0.0 ads.7rma7duymct34cv6.onion
-0.0.0.0 ads.jpfovtommbqbesog.onion
-0.0.0.0 ads.awsyw4ghf3da7btb.onion
-0.0.0.0 ads.wallslbw6m5dnu3t.onion
-0.0.0.0 ads.wallbu3ztcirawxs.onion
-0.0.0.0 ads.blacfwvvkes3epxg.onion
-0.0.0.0 ads.w363ucprbosdzk2j.onion
-0.0.0.0 ads.undep675qbxvkgqf.onion
-0.0.0.0 ads.onio37kdd67zagmp.onion
-0.0.0.0 ads.answg72ikfap7s6d.onion
-0.0.0.0 ads.tordblitpldzlr4t.onion
-0.0.0.0 ads.3bbabe3gdqmpfjrh.onion
-0.0.0.0 ads.yq6mf2f7s7vdvrew.onion
-0.0.0.0 ads.zdpsq63ou6fmb5do.onion
-0.0.0.0 ads.777oo7yrp633bfkq.onion
-0.0.0.0 ads.tj2djbhoxoakgekb.onion
-0.0.0.0 ads.netazxfiskznrfoq.onion
-0.0.0.0 ads.deepid4dqvrfjqjv.onion
-0.0.0.0 ads.xmh5a2zhboupk56y.onion
-0.0.0.0 ads.rospu6tjaorxrx7d.onion
-0.0.0.0 ads.prope2hj4fy43oi5.onion
-0.0.0.0 ads.nql7baksohshwqbm.onion
-0.0.0.0 ads.j5eh3rskjkijdcue.onion
-0.0.0.0 ads.3kylcvehxgci2yuo.onion
-0.0.0.0 ads.v4gnh5vg5uxsr5qd.onion
-0.0.0.0 ads.undekriyfqqnh3hh.onion
-0.0.0.0 ads.vane6gpnh5ukk75g.onion
-0.0.0.0 ads.tinhqcktrmvfsuzx.onion
-0.0.0.0 ads.32av32jeltug4ycp.onion
-0.0.0.0 ads.starvzwaa5e2j75v.onion
-0.0.0.0 ads.dnex27tfdncqfjxt.onion
-0.0.0.0 ads.evilelohr7ofmo4b.onion
-0.0.0.0 ads.dmruscbkpelhdvbg.onion
-0.0.0.0 ads.psiihfa3dtcsousd.onion
-0.0.0.0 ads.torbqqbrr7kwuexs.onion
-0.0.0.0 ads.protxmj2bo56r5z2.onion
 0.0.0.0 anonymous.com
 0.0.0.0 ads.everquote.com
 0.0.0.0 apuja.siencesratify.com
@@ -3917,6 +3875,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 big-go-chune.goguardian.com
 0.0.0.0 balvalur.com
 0.0.0.0 bp1.com
 0.0.0.0 beap.gemini.yahoo.com
@@ -4821,6 +4780,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 checkup.goguardian.com
 0.0.0.0 ct.verticalhealth.net
 0.0.0.0 coinad.com
 0.0.0.0 cpxl.golem.de
@@ -6529,6 +6489,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 experiments-api.goguardian.com
+0.0.0.0 extapi.goguardian.com
 0.0.0.0 enzxnhimfmnk.com
 0.0.0.0 etrust.pro
 0.0.0.0 eroadvertising.com
@@ -6910,6 +6872,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fleet.goguardian.com
 0.0.0.0 frontalidsp.playoncenter.com
 0.0.0.0 findher2date.com
 0.0.0.0 fp-afd-ccc.com
@@ -7182,6 +7145,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gatekeeper.goguardian.com
 0.0.0.0 gsspat.jp
 0.0.0.0 glitter.services.disqus.com
 0.0.0.0 godog.shopifycloud.com
@@ -7548,6 +7512,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 harambe.goguardian.com
 0.0.0.0 hioopbhernn.com
 0.0.0.0 healte.de
 0.0.0.0 hilltopads.net
@@ -8555,6 +8520,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kings-hand.goguardian.com
 0.0.0.0 kqzyfj.com
 0.0.0.0 *-kra2007c.net
 0.0.0.0 kitbit.net
@@ -10602,6 +10568,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 potato-juice.goguardian.com
+0.0.0.0 polyjuice-api.goguardian.com
 0.0.0.0 p3a.brave.com
 0.0.0.0 p2-iemmhkvlemspu-efful6gj327yvhst-if-v6exp3-v4.metric.gstatic.com
 0.0.0.0 policityseriod.info
@@ -11537,6 +11505,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 smart-alerts.goguardian.com
+0.0.0.0 shylock.goguardian.com
+0.0.0.0 static.goguardian.com
 0.0.0.0 syndication.twimg.com
 0.0.0.0 sentry.ghostmonitor.net
 0.0.0.0 shy.elfsight.com
@@ -12055,10 +12026,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 server-99-84-168-106.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-168-40.ord52.r.cloudfront.net
 0.0.0.0 server-99-84-168-22.ord52.r.cloudfront.net
-0.0.0.0 server.arcgisonline.com
-0.0.0.0 static.arcgis.com
-0.0.0.0 services.arcgisonline.com
-0.0.0.0 services3.arcgis.com
 0.0.0.0 subscrib.com
 0.0.0.0 static.248.118.203.116.clients.your-server.de
 0.0.0.0 smartrcdn.s3.amazonaws.com
@@ -13453,7 +13420,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ustat.batmobi.net
 0.0.0.0 ue.flipboard.com
 0.0.0.0 unionstatistics.com
-0.0.0.0 utility.arcgisonline.com
 0.0.0.0 ultrawave.everquote.com
 0.0.0.0 www.updownload.com
 0.0.0.0 updownload.com
@@ -20492,6 +20458,18 @@ inc.com##.NewsLetterBar__barItem__F2aqZ.NewsLetterBar__left__3XuDQ
 inc.com##.NewsLetterBar__barItem__F2aqZ.NewsLetterBar__right__1zwhf
 inc.com##.newsletterBarParts.NewsLetterBar__barParts__1eKM_
 ||subscribe.washingtonpost.com/pw/index.html?destination=*&action=3
+github.com##.flash-notice.flash-full.flash
+www.tutorialrepublic.com##.fr.rectangle-right
+www.tutorialrepublic.com##.fl.rectangle-left
+||www.tutorialrepublic.com/lib/images/smooth-line.png
+www.tutorialrepublic.com##.clearfix.bottom-ad
+www.tutorialrepublic.com###carbon-block
+www.tutorialrepublic.com##.ad-container
+www.tutorialrepublic.com##.leaderboard > .ad-label
+www.tutorialrepublic.com##.primary.skyscraper
+www.tutorialrepublic.com##.sidebar > .ad-label
+||google.com/intl/*/ads
+www.arungudelli.com##.cf-wrapper
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
