@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1161
+! Version: 1162
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 22.8K
-! Last Modified: Friday, October 25, 2019
+! Last Modified: Tuesday, October 29, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -1183,6 +1183,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||agreements.goguardian.com
+||account.goguardian.com
 ||antburape.club
 ||ailawlani.club
 ||andarcair.club
@@ -2052,50 +2054,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||a23-211-100-93.deploy.static.akamaitechnologies.com
 ||az725175.vo.msecnd.net
 ||api.lever.co
-||arcgisonline.com
-||www.arcgis.com
-||arcgis.com
-||ads.clivfnw5sdhbronn.onion
-||ads.wise3dvxlxtd7hvy.onion
-||ads.zliban6brffsahaa.onion
-||ads.v4gnh5vg5uxsr5qd.onion
-||ads.3kylcvehxgci2yuo.onion
-||ads.7rma7duymct34cv6.onion
-||ads.jpfovtommbqbesog.onion
-||ads.awsyw4ghf3da7btb.onion
-||ads.wallslbw6m5dnu3t.onion
-||ads.wallbu3ztcirawxs.onion
-||ads.blacfwvvkes3epxg.onion
-||ads.w363ucprbosdzk2j.onion
-||ads.undep675qbxvkgqf.onion
-||ads.onio37kdd67zagmp.onion
-||ads.answg72ikfap7s6d.onion
-||ads.tordblitpldzlr4t.onion
-||ads.3bbabe3gdqmpfjrh.onion
-||ads.yq6mf2f7s7vdvrew.onion
-||ads.zdpsq63ou6fmb5do.onion
-||ads.777oo7yrp633bfkq.onion
-||ads.tj2djbhoxoakgekb.onion
-||ads.netazxfiskznrfoq.onion
-||ads.deepid4dqvrfjqjv.onion
-||ads.xmh5a2zhboupk56y.onion
-||ads.rospu6tjaorxrx7d.onion
-||ads.prope2hj4fy43oi5.onion
-||ads.nql7baksohshwqbm.onion
-||ads.j5eh3rskjkijdcue.onion
-||ads.3kylcvehxgci2yuo.onion
-||ads.v4gnh5vg5uxsr5qd.onion
-||ads.undekriyfqqnh3hh.onion
-||ads.vane6gpnh5ukk75g.onion
-||ads.tinhqcktrmvfsuzx.onion
-||ads.32av32jeltug4ycp.onion
-||ads.starvzwaa5e2j75v.onion
-||ads.dnex27tfdncqfjxt.onion
-||ads.evilelohr7ofmo4b.onion
-||ads.dmruscbkpelhdvbg.onion
-||ads.psiihfa3dtcsousd.onion
-||ads.torbqqbrr7kwuexs.onion
-||ads.protxmj2bo56r5z2.onion
 ||anonymous.com
 ||ads.everquote.com
 ||apuja.siencesratify.com
@@ -3902,6 +3860,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||a.ads2.msads.net
 
 !B
+||big-go-chune.goguardian.com
 ||balvalur.com
 ||bp1.com
 ||beap.gemini.yahoo.com
@@ -4806,6 +4765,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||bam.nr-data.net
 
 !C
+||checkup.goguardian.com
 ||ct.verticalhealth.net
 ||coinad.com
 ||cpxl.golem.de
@@ -6514,6 +6474,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||downloads.mailchimp.com
 
 !E
+||experiments-api.goguardian.com
+||extapi.goguardian.com
 ||enzxnhimfmnk.com
 ||etrust.pro
 ||eroadvertising.com
@@ -6895,6 +6857,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||fleet.goguardian.com
 ||frontalidsp.playoncenter.com
 ||findher2date.com
 ||fp-afd-ccc.com
@@ -7167,6 +7130,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||freshmarketer.com
 
 !G
+||gatekeeper.goguardian.com
 ||gsspat.jp
 ||glitter.services.disqus.com
 ||godog.shopifycloud.com
@@ -7533,6 +7497,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||gannett.hb.omtrdc.net
 
 !H
+||harambe.goguardian.com
 ||hioopbhernn.com
 ||healte.de
 ||hilltopads.net
@@ -8540,6 +8505,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||js.users.51.la
 
 !K
+||kings-hand.goguardian.com
 ||kqzyfj.com
 ||*-kra2007c.net
 ||kitbit.net
@@ -10587,6 +10553,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||open.ad.yieldmanager.net
 
 !P
+||potato-juice.goguardian.com
+||polyjuice-api.goguardian.com
 ||p3a.brave.com
 ||p2-iemmhkvlemspu-efful6gj327yvhst-if-v6exp3-v4.metric.gstatic.com
 ||policityseriod.info
@@ -11522,6 +11490,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||r.skimresources.com
 
 !S
+||smart-alerts.goguardian.com
+||shylock.goguardian.com
+||static.goguardian.com
 ||syndication.twimg.com
 ||sentry.ghostmonitor.net
 ||shy.elfsight.com
@@ -12040,10 +12011,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||server-99-84-168-106.ord52.r.cloudfront.net
 ||server-99-84-168-40.ord52.r.cloudfront.net
 ||server-99-84-168-22.ord52.r.cloudfront.net
-||server.arcgisonline.com
-||static.arcgis.com
-||services.arcgisonline.com
-||services3.arcgis.com
 ||subscrib.com
 ||static.248.118.203.116.clients.your-server.de
 ||smartrcdn.s3.amazonaws.com
@@ -13438,7 +13405,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||ustat.batmobi.net
 ||ue.flipboard.com
 ||unionstatistics.com
-||utility.arcgisonline.com
 ||ultrawave.everquote.com
 ||www.updownload.com
 ||updownload.com
@@ -20477,6 +20443,18 @@ inc.com##.NewsLetterBar__barItem__F2aqZ.NewsLetterBar__left__3XuDQ
 inc.com##.NewsLetterBar__barItem__F2aqZ.NewsLetterBar__right__1zwhf
 inc.com##.newsletterBarParts.NewsLetterBar__barParts__1eKM_
 ||subscribe.washingtonpost.com/pw/index.html?destination=*&action=3
+github.com##.flash-notice.flash-full.flash
+www.tutorialrepublic.com##.fr.rectangle-right
+www.tutorialrepublic.com##.fl.rectangle-left
+||www.tutorialrepublic.com/lib/images/smooth-line.png
+www.tutorialrepublic.com##.clearfix.bottom-ad
+www.tutorialrepublic.com###carbon-block
+www.tutorialrepublic.com##.ad-container
+www.tutorialrepublic.com##.leaderboard > .ad-label
+www.tutorialrepublic.com##.primary.skyscraper
+www.tutorialrepublic.com##.sidebar > .ad-label
+||google.com/intl/*/ads
+www.arungudelli.com##.cf-wrapper
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
