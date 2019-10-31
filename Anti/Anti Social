@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 8
+! Version: 9
 
 ! Facebook
 ||facebook.com/plugins/like.php
@@ -125,6 +125,9 @@
 ||meetme.com
 ||meetmecdna.com
 ||mtmei18n.com
+
+! Yandex
+||yastatic.net/share/
 
 ! Mail
 ||gmail.com
