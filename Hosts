@@ -16,7 +16,7 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1163
+! Version: 1164
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 22.8K
 ! Last Modified: Wednesday, October 30, 2019
@@ -108,13 +108,13 @@ pandora.com$genericblock
 ||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
 ||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
 
-! Remove Attribute (uBlock Origin)
-*##+js(ra.js, ping)
-*##+js(ra.js, referrerpolicy)
-*##+js(ra.js, rel, link[rel*="pingback"])
-*##+js(ra, onclick, a[onclick*="ga"])
-*##+js(ra, onclick, a[onclick*="_gaq.push"])
-*##+js(ra, onclick, a[onclick*="dataLayer.push"])
+! Remove Attribute (uBlock Origin) - Removed becasue it's possibly making loading slower
+! *##+js(ra.js, ping)
+! *##+js(ra.js, referrerpolicy)
+! *##+js(ra.js, rel, link[rel*="pingback"])
+! *##+js(ra, onclick, a[onclick*="ga"])
+! *##+js(ra, onclick, a[onclick*="_gaq.push"])
+! *##+js(ra, onclick, a[onclick*="dataLayer.push"])
 ! Specific
 google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
