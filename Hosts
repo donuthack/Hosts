@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1164
+! Version: 1165
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 22.8K
-! Last Modified: Wednesday, October 30, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 22.9K
+! Last Modified: Thursday, October 31, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -197,6 +197,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 ! Content Security Policies
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
 ||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
+||blocked.com-default.ws^$csp=script-src 'none'; style-src 'none'; img-src 'none'; connect-src 'none'; font-src 'none; object-src 'none'; media-src 'none'; child-src 'none'; form-action 'none'; frame-ancestors 'none'; plugin-types 'none'
 
 ! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
 0.0.0.0 hola.org
@@ -3876,6 +3877,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bytesignal.com
 0.0.0.0 blocked.com-default.ws
 0.0.0.0 big-go-chune.goguardian.com
 0.0.0.0 balvalur.com
@@ -4782,6 +4784,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 collect.usefathom.com
 0.0.0.0 caramel.press
 0.0.0.0 checkup.goguardian.com
 0.0.0.0 ct.verticalhealth.net
@@ -13366,6 +13369,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 usefathom.com
+0.0.0.0 utv.co
 0.0.0.0 uf.noclef.com
 0.0.0.0 utoumine.net
 0.0.0.0 uscollector.tealeaf.ibmcloud.com
@@ -14095,6 +14100,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 yavli.com
 0.0.0.0 yieldlove.com
 0.0.0.0 youtube.gq
 0.0.0.0 youutube.ga
@@ -20496,11 +20502,65 @@ sporcle.com##.display-wide
 technobuffalo.com###pushwooshBellWidget
 technobuffalo.com##.pushwoosh-subscribe-widget
 technobuffalo.com##.page-header.clearfix.clearfixb
-accounts.google.*$domain=blocked.com-default.ws
+restoreprivacy.com##.dislaimermsg
+restoreprivacy.com##.breadcrumb
+www.begindot.com##.dark.jeg_container.jeg_midbar
+||www.whatismyreferer.com/ryte.png$image
+washingtonpost.com##.fixed.left-0.right-0.top-0.bottom-0
+washingtonpost.com###slug_336x60
+washingtonpost.com##.pb-ad-container.border-bottom-airy.border-bottom-
+crimeresearch.org##.mfp-container.mfp-s-ready.mfp-inline-holder
+crimeresearch.org##.mfp-wrap.mfp-close-btn-in.mfp-auto-cursor.mfp-fade.mfp-ready
+crimeresearch.org##.mfp-bg.mfp-fade.mfp-ready
+bing.com##.cbtn.feedback-binded
+codereview.stackexchange.com###js-gdpr-consent-banner
+codereview.stackexchange.com##.p16.bg-black-700.ff-sans.fc-white.ps-fixed.b0.l0.r0.z-banner
+businessinsider.com##.ad.md-leaderboard.homepage
+businessinsider.com###gpt-post-sai-desktop_in_post_ad-desktop-1
+businessinsider.com##.ad.ad-wrapper.fluid.postload.only-desktop.in-post
+businessinsider.com###gpt-post-sai-desktop_in_post_ad-desktop-2
+businessinsider.com###gpt-post-sai-desktop_in_post_ad-desktop-3
+businessinsider.com###gpt-post-sai-desktop_in_post_ad-desktop
+businessinsider.com##.ad
+thestar.com.my##.Inline.Ads-slot
+ibtimes.co.uk###div-gpt-ad-Right1-box
+ibtimes.co.uk##.middle-leaderboard.banner-box.ad-container
+ibtimes.co.uk###div-gpt-ad-Right2
+ibtimes.co.uk##a[href="/corporate/advertise-with-us"]
+ibtimes.co.uk##.rightArticle
+bing.com##.b_ad.b_iomojitcugwpml
+bing.com##.b_algo.b_
+bing.com#?##b_results > li :-abp-has(span:-abp-contains(Ad))
+bing.com#?#.b_algo:-abp-has(p:-abp-properties(content: "Ad"))
+bing.com#?##b_context > li + li :-abp-has(span.b_adSlug)
+yahoo.com##li[data-test-id="infinite-scroll-AD"]
+ultraculture.org##.adsbygoogle
+learning-mind.com###eu-cookie-law
+learning-mind.com##.hide-on-button.negative
+learning-mind.com###wbounce-modal-flex
+learning-mind.com##.wbounce-modal-flex.wbounce-modal-flex-activated
+learning-mind.com###wbounce-modal
+learning-mind.com##.wbounce-modal.underlay
+universetoday.com###eu-cookie-law
+universetoday.com##.hide-on-button
+universetoday.com##.adsbygoogle
+digitaltrends.com##.dtads-slot
+||fb.me/use-check-prop-types
+||bing.com/widget/metrics.js
+||bing.com/fblogout
+||rightwingtribune.com/xhwfeolite/
+rightwingtribune.com##.z-ad-lockerdome-inline
+rightwingtribune.com##.tpd-box-ad-d
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
 businessinsider.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
+
+!#if (!ext_adguard && !ext_ublock)
+! Extra Crap For AdBlock Plus Because It's A Little Retarded
+rightwingtribune.com##a[href*="rs-stripe.com"]
+rightwingtribune.com##a[href*="bytesignal.com"]
+!#endif
 
 !#if (adguard && !ext_ublock)
 ! AdGuard Home
@@ -21162,6 +21222,8 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /gm-ga.min.js
 /favicon.ico$third-party
 /showads.js
+/adoefieldlite-
+/plugins/mashsharer/$script
 /_gap/
 /adOk?
 -google-tag-
@@ -21235,6 +21297,17 @@ mas_jump_
 ##.google-ad-iframe
 ##[data-google-query-id]
 ##div[id^="mainads"]
+##div[id^="GOOGLE_ADS_"]
+##div[id^="div-gpt-ad"]
+##div[class^="adsbygoogle"]
+##img[alt="sponsored"]
+##img[alt="sponsor"]
+##img[alt="Sponsored"]
+##img[alt="Sponsor"]
+##img[name="sponsor"]
+##img[name="sponsored"]
+##img[name="Sponsored"]
+##img[name="Sponsor"]
 ##a[href^="trafficjunky.com"]
 ##a[href^="adultfriendfinder.com"]
 ##a[href^="orange2258.com"]
@@ -21270,6 +21343,9 @@ mas_jump_
 ##a[href*="?link_id="]
 ##a[href*="&utm_"]
 ##a[href^="*://*.doubleclick.net"]
+##a[href*="rs-stripe.com"]
+##a[href*="bytesignal.com"]
+##a[href*=".searchiq.co"]
 ##a[href*="/advert/"]
 ##a[href*="/avt/"]
 ! ##[onclick^="ga"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
