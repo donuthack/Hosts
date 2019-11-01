@@ -1,7 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 10
+! Version: 11
+
+! AddToAny
+||addtoany.com
+*/plugins/add-to-any
 
 ! Facebook
 ||facebook.com/plugins/like.php
@@ -318,6 +322,9 @@
 ##.twitter
 ##.fb
 ##.facebook
+.*/share
+_share
+share_
 
 ! Specific
 www.dailymail.co.uk##.dms-puff
