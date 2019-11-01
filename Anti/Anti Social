@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 9
+! Version: 10
 
 ! Facebook
 ||facebook.com/plugins/like.php
@@ -128,6 +128,10 @@
 
 ! Yandex
 ||yastatic.net/share/
+
+! Disqus
+||disqus.com
+||disqus.com/embed/$subdocument
 
 ! Mail
 ||gmail.com
@@ -310,6 +314,12 @@
 ##.social-box
 ##.clear.sharebelow
 ##.float-share
+##.flipboard
+##.twitter
+##.fb
+##.facebook
 
 ! Specific
 www.dailymail.co.uk##.dms-puff
+www.htmlcsscolor.com##.maincontent.mainpanel.container > div:nth-of-type(4) > .pull-right
+foxnews.com##.social-icons
