@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1165
+! Version: 1166
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 22.9K
-! Last Modified: Thursday, October 31, 2019
+! Last Modified: Saturday, November 2, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -60,7 +60,7 @@ pandora.com$genericblock
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
-||*.doubleclick.net^$domain=msn.com,~media
+@@||*.doubleclick.net^$domain=msn.com,~media
 
 ! Don't Add Because Of Breakage
 !gdmf.apple.com (iOS updates)
@@ -110,7 +110,7 @@ verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com,washingtonpost.com,gunfacts.info,washingtonpost.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com,washingtonpost.com,gunfacts.info,washingtonpost.com,sharepointsky.com,zoomowl.co#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
@@ -1185,6 +1185,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||ajjhtetv87.com
+||awstats.org
 ||agreements.goguardian.com
 ||account.goguardian.com
 ||antburape.club
@@ -5797,6 +5799,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||creative.medialytics.com
 
 !D
+||dprtb.com
 ||declarated.xyz
 ||dict.bing.com.cn
 ||d-ipv6.mmapiws.com
@@ -6864,6 +6867,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||forwrdnow.com
 ||f-log-at.grammarly.io
 ||fleet.goguardian.com
 ||frontalidsp.playoncenter.com
@@ -7017,7 +7021,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||fenfa.woso.cn
 ||fluct.jp
 ||www.fourm.jp
-||franklyinc.com
 ||www.fibonad.com
 ||fibonad.com
 ||fun-hits.de
@@ -7138,6 +7141,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||freshmarketer.com
 
 !G
+||goaccess.io
 ||googletraveladservices.com
 ||gatekeeper.goguardian.com
 ||gsspat.jp
@@ -7506,6 +7510,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||gannett.hb.omtrdc.net
 
 !H
+||heatmap.me
+||heartbeats.omtrdc.net
 ||harambe.goguardian.com
 ||hioopbhernn.com
 ||healte.de
@@ -8261,7 +8267,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||www.isearch-net.com
 ||isearch-net.com
 ||iadops.com
-||ir.franklyinc.com
 ||illustriousoatmeal.com
 ||importedincrease.com
 ||incrediblesugar.com
@@ -9549,6 +9554,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||location.silverpush.com
 
 !M
+||meetrics.net
+||medleyads.com
+||monsterinsights.com
+||metricbuzz.com
 ||maranhesduve.club
 ||m6r.eu
 ||mxcdn.net
@@ -10125,6 +10134,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||memo2.nl
 
 !N
+||nvidia.tt.omtrdc.net
 ||n0ve1st0ry.gameloft.com
 ||nelreports.net
 ||narrative.io
@@ -11124,6 +11134,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||p.typekit.net
 
 !Q
+||quickkoala.io
 ||quiddity.goguardian.com
 ||qposhka.com
 ||qryuumwmiupy.com
@@ -11205,6 +11216,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||qnsr.com
 
 !R
+||research.de.com
 ||restaurants.infcdn.net
 ||rt.gsspat.jp
 ||rezync.com
@@ -11501,6 +11513,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||r.skimresources.com
 
 !S
+||siteheatmaps.com
 ||statsy.net
 ||smart-alerts.goguardian.com
 ||shylock.goguardian.com
@@ -12761,6 +12774,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||scripts.kissmetrics.com
 
 !T
+||trafficsan.com
 ||track.rediff.com
 ||terttalkinhitin.pro
 ||tracking.opinionoutpost.com
@@ -13682,6 +13696,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||v.admaster.com.cn
 
 !W
+||webalizer.org
+||web42.com
 ||ws-goguardian.pusher.com
 ||webmecanik.com
 ||webmine.cz
@@ -14463,6 +14479,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||zyqlfplqdgxu.com
 
 !Misc
+||4pleb.org
 ||0qq20ey4fo5veh0t.wisokykulas.bid
 ||24smi.net
 ||*-4ka37a.com
@@ -20536,6 +20553,20 @@ digitaltrends.com##.dtads-slot
 ||rightwingtribune.com/xhwfeolite/
 rightwingtribune.com##.z-ad-lockerdome-inline
 rightwingtribune.com##.tpd-box-ad-d
+abcnews.go.com##.terms.terms-alert-fixed
+www.sharepointsky.com###custom_html-27 > .scn.widget_text
+www.crunchbase.com##.layout-align-center-start.layout-row.flex-initial
+www.crunchbase.com##.ng-star-inserted._mat-animation-noopable.mat-primary.mat-button-base.mat-fab
+||bit.ly/1vb1Bnj
+trackingtokens.com##[href^="../go.php"]
+trackingtokens.com##.clearfix.text-center.well-lg.well
+trackingtokens.com##.homepage.container > .text-center
+trackingtokens.com##hr:nth-of-type(2)
+||americanlisted.com/ad/
+||ixsystems.com/*.png?srv=
+.*?srv=$image
+||archive.org/*/analytics.js
+||apis.google.com/js/additnow.js
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -20616,6 +20647,8 @@ $cookie=/_landing_page[a-zA-Z_.]|http_referrer[a-zA-Z_.]|_device_id[a-zA-Z_.]|ha
 ||github.com$cookie=/tz/
 ! End Anti Tracking Cookies
 $webrtc,domain=infoip.io|xda-developers.com|vimeo.com|4chan.org|8ch.net|kiwifarms.net|voat.co|apple.com|google.com|youtube.com|lifewire.com|github.com|gitlab.com|pandora.com|spotify.com
+! From https://github.com/CHEF-KOCH/WebRTC-tracking/blob/master/WebRTC.txt
+$webrtc,domain=rootech.ir|bangaltech.blogspot.com|webconversiononline.com|shakeyourtentacles.com|coolchura.blogspot.com|newsiranian.ir|yaspsd.ir|danchimviet.info|hdmoviesfun.in|52blackberry.com|cool-de.com|hackp.com|80lou.com|wearfigs.com|usahud.com|skandar.ir|luxbet.com|yaspsd.ir|hoosheparsi.ir|bravefrontierglobal.blogspot.com|5ok.com.ru|jz100.com|703804.com|zuojiaju.com|hcbbs.com|yewn.cn|sketchupbar.com|biggab.com|weiot.net|jacobtime.com|gigaom.com|mhtdownload.ir|jevons1.com|downloadhi.ir|allcigs.com|xostbaku.ru|rootech.ir|androidrevolution.org|hahasforhoohas.com|fanscloob.com|eazyshoppy.com|onlinewatchmovies2k.com|bankvarzesh.com|williams-oliver.ru|eldorado.com.ua|jamiiyetubongo.com|iruni.ir|khabarfarsi.com|erokawas.xyz|cs-kings.biz|boerse.xyz|asanfizika.blogspot.com|questnutrition.com|xn-xx.co|iruni.ir|real-madrid.ir|cocopanda.dk|shiayan.ir|oliodevices.com|elvoline.com|jam.ua|navasan94.ir|bookmarkrally.info|cargeek.ir|0576qq.com|drlykke.no|duluohe.com|khabareruz.ir|webfa.ir|radiojavanmusic.com|pmo.rozblog.com|nesaporn.xyz|khabarduni.ir|lawrenceburgnow.com|asandl.com|philnewsdaily.com|diablofans.com|novaopt.ru|apg29.nu|ogar.be|idmserialkeycrack.com|samaschool.org|kjparmar.in|torrentjogos.com|teoalida.com|northpoletimes.com|logiastarata.gr|mytwintiers.com|bigbash-2016.com|metssfm.tumblr.com|t20predictions.com|unida.ac.id|darwinite-blog.com|lordaardvarksfm.tumblr.com|australianopenlivestreaming.com|meregita19.blogspot.co.id|karenjcarlisle.com|watcht20worldcup.com|bblt20.com|surat-yasin.com|eceway.com|humhaifilmy.com|hackhackers.com|dilwale-boxofficecollection.in|sarkaribuzz.com|finanzaspersonales.com.co|himexam.net|screencapped.net|agariopvp.biz|bblt20live.net|footballrefereeing.blogspot.com|sportwettenvergleich.net|agromedia.rs|lovelylittlerants.com|tukesquest.com|kcchronicle.com|dilwalemovie.in|yl1001.com|gyft.com|lesmao.net|ourhf.com|baozouribao.com|eeff.net|rmsft.rozblog.com|52kd.com|iruni.ir|khabareruz.ir|fararu.com|asnafshomal.com|hoosheparsi.ir|kalakamuz.ir|reshoevn8r.com|afkarnews.ir|merrilledge.com|emailaddresseslists.com|rmsft.rozblog.com|anipassion.com|healthproductsforyou.com|atzuche.com|khabarduni.ir|whoer.net|wordsearchplanet.info|pedal.ir|soyezcoquin.com|zhavenoci.cz|iwantu.com|rdvtorride.com|getnaughty.com|cougarpourmoi.com|desirdunsoir.com|nastymams.com|relacionsecreta.com|blivuartignu.com|hornycontacts.com|soloavventure.it|onenightfriend.com|sexosemamor.com|maturexmatch.com|together2night.com|jenomsex.cz|amissexy.com|bangexperts.com|plaisirexpress.com|piacerediscreto.com|nastyhookups.com|wildbuddies.com|ulla.com|wildmeets.com|fristemeg.no|sexlugar.es|justgetnaughty.com|becoquin.fr|benaughty.com|liaisontorride.com|hellohotties.com|naughtyfever.com|quierorollo.es|senzapudore.it|wilddate4sex.com|shagaholic.com|maturesforfuck.com|voisinssolitaires.com|naughtydate.com|hookupsfinder.com|iamnaughty.com|upforit.com|playcougar.com|meetwild.com|laymatures.co.uk|affairdating.com|quickflirt.com|spicychats.com|wildbuddies.dk|woohoodates.com|wivesgowild.com|spicydesires.com|maritalhookup.com|passionmature.com|sololigar.com|benaughty.dk|naughtyavenue.com|cheekylovers.com|dammisesso.com|douwant.me|becoquin.com|meetdivorced.com|benaughty.cz|sexintouchbbw.com|mytilene.fr|loveaholics.com|foreigngirlfriend.com|naughtyflirt.com|netshahr.com|jazzaab.ir|delivery.com|how2learn.in|jazzaab.ir|mp3cools.xyz|manupatrafast.in|mega-grad.ru|torrentshulks.xyz|panimix.com|ineedfree.com|pedal.ir|checkesnfree.com|yaspsd.ir|zachys.com|inside-galaxy.blogspot.com|pokupay.by|ladyzest.com|khabarfarsi.com|dafycredit.com|6blog.ir|omen-good.ir|activeconversion.com|whatismyproxy.com|cqrujia.com|art-ideas.ir|ilpotereoctopus.com|bankvarzesh.com|topgames.ir|tcf.com|covanta.com|sellbetter.ca|unitedsafety.net|cossd.com|esecuritytogo.com|hdmoviesfun.in|panimix.com|ir2movie.net|alirezaclassseven.ir|draftkings.com|tvdez.com|omiddinamit.rozblog.com|comparecellular.com|i-love-roman.ir|musicema.com|plchinese.com|sfht.com|fuyang.net|seobust.16mb.com|boursenovin.ir|android-er.blogspot.com|fararu.com|allgameonline.net|bancsabadell.com|stuartweitzman.ca|bankvarzesh.com|asnafshomal.com|haftrah.com|dajizx.com|hoosheparsi.ir|wenbita.net|dajinzx.com|daqinzx.com|daguizx.com|p30world.com|wallpaperswide.ir|ataland.com|irgametech.com|vaghayedaily.ir|dailypuzzleanswers.com|etashee.com|khabargozari.xyz|photofans.cn|ixian.cn|fengqu.com|zhangyu.tv|hdpfans.com|852867.com|hdmoviesfun.in|abshop.com.ua|windowscenter.org|hepan.com|bankvarzesh.com|ip-api.com|zarabanebourse.ir|par30dl.com|privatbank.ua|wishpond.com|theelephantpants.com|bluewin.ch|nutriliving.com|anotherfriend.com|evemattress.co.uk|bttrack.com|ripio.com|imotors.com|samplesandrebates.com|credibly.com|evemattress.com|conferencecalling.com|healthecareers.com|meetcircle.com|bidtellect.com|probemas.com|clickenergy.com.au|wetshaveclub.com|globein.com|wishpond.com.br|getambassador.com|fsastore.com|wishpond.com.mx|cme4life.com|pillpack.com|tirebuyer.com|zferral.com|spirithoods.com|cirrusinsight.com|monetago.com|uslawshield.com|leesa.com|evemattress.de|escortradar.com|ghostbed.com|redplanethotels.com|standdesk.co|shipt.com|texaslawshield.com|lull.com|ztailors.com|cindymovies.com|shopgiftssell.com|fatgranny.com|neatmovies.com|pornorama.com|divinefeet.com|xnxx.com|milfporn.com|jizzle.com|porn.sc|streamsex.com|onlygirlvideos.com|shopporno18.com|gigantits.com|blacktube.com|sexotic.com|fuck.sc|dynavideo.tk|dreammovies.com|teensnow.com|ass4all.com|milfmovs.com|blackmonsterterror.com|magicmovies.com|redheadpussy.com|supercameras.tk|asianporn.com|xnxxmovies.com|malnsextube.xyz|ebonytube.com|gonzo-movies.com|dlove-music.rozblog.com|bankvarzesh.com|straitstimes.com|whatismybrowser.com|blueblog.ir|portmiamiwebcam.com|boursenovin.ir|bankvarzesh.com|hoosheparsi.ir|bia4music.com|farmville2-games.com|phonerated.com|reyaziat.mihanblog.com|iruni.ir|sexxxx.asia|p2pchange.is|bankvarzesh.com|par30dl.com|uptv.tv|investopedia.com|android-revolution-hd.blogspot.com|navid-mojabi.ir|segodnya.ua|ariyagame.com|expedia.com.au|expedia.com.ar|expedia.com.ph|lastminute.co.nz|wotif.co.nz|expedia.it|expedia.com.my|expediacustomer.com|travelocity.com|wotif.com|expedia.com.vn|expedia.mx|expedia.ie|expedia.co.in|expedia.co.id|expedia.dk|expedia.co.kr|expedia.co.th|travel.com.au|expedia.de|expedia.com.hk|karmalab.net|expedia.be|expedia.nl|expedia.no|expedia.biz|expedia.com.tw|expedia.com.sg|expedia.se|travelocity.ca|expedia.at|expedia.co.nz|expedia.fr|expedia.es|expedia.co.jp|expedia.ca|shareanalysis.org|expedia.co.uk|expedia.com.br|lastminute.com.au|expedia.com|pop-music.ir|whatleaks.com|real-madrid.ir|infozed.blogspot.com|ushud.com|pornsharea.com|cocopanda.se|fardanews.com|conferenceyab.ir|rdklu.com|rdkl-u.myshopify.com|drugbuyersguide.net|jiaoduiba.com|clinphar.cn|7ganj.ir|mirivan.com|2ip.com.ua|sunwy.org|wahawang.com|52fzba.com|jining.com|myactmusic.com|zzlt.cn|mydiyclub.com|kalakamuz.ir|hahasforhoohas.com|digicircle.com|taomashen.com|mhuai.com|technomech.ir|rfj.ch|debriefdaily.com|hubaustralia.com|joiz.ch|escortradarforum.com|monitronics.com|4-4-2.com|nextstepliving.com|jobup.ch|toponline.ch|planday.dk|trustev.com|organifi.com|zol.ch|theglow.com.au|business24.ch|city-academy.com|designcrowd.es|activtrak.com|bentoforbusiness.com|devialet.com|transfermarkt.ch|augur.io|swissmom.ch|suedostschweiz.ch|miracleessentialoils.com|dufl.com|weltfussball.com|dixipay.com|mylio.com|ovo.com|designcrowd.ca|planday.com|polizei-schweiz.ch|news.ch|cine.ch|wirtschaft.ch|gipfelbuch.ch|mapmeo.com|mamamia.com.au|vanityplanet.com|carriera.ch|designcrowd.com.br|litter-robot.com|gutekueche.ch|themotherish.com|insideparadeplatz.ch|watson.ch|3plus.tv|tageswoche.ch|landbote.ch|infosperber.ch|fitradio.com|polizeiticker.ch|snowplowanalytics.com|folowsites.xyz|android-revolution-hd.blogspot.com|agricultureinstructor.blogspot.com|pedal.ir|ir2movie.net|simcity.cn|paro.com.tr|manupatra.com|downloadina.net|prepaidreviews.com|talkhab.com|tedxtube.com|smokeandshop.com|5link.ir|sms4send.altervista.org|foxtrot.com.ua|bollywoodkart.com|yaspsd.ir|blueblog.ir|smartmobilephonesolutions.com|2287652162056513113_7f979e3409b78c9266cf8ff16f80c3affd43dc2c.blogspot.com|m500.ir|2nyan.org|2cat.org|check2ip.com|buhgalter911.com|vaghayedaily.ir|utopia-game.com|wisgoon.com|rachelschultz.com|jamesallen.com|smartphonematters.com|buxirani.com|jahannews.com|boursenovin.ir|rmsft.rozblog.com|edu4java.com|newsiranian.ir|f-oloom7-8.rozblog.com|act-music.ir|topak.ir|vastradijewels.com|b88ag.com|qingsongchou.com|m795.com|nongcen.com|wsat4.com|denjnet.com|bangaltech.blogspot.com|manupatrafast.com|aalaponbd.blogspot.com|vaghayedaily.ir|daganzx.com|hahasforhoohas.com|pnu_ac.r98.ir|levme.com|pingpangwang.com|act-music.ir|nimafereidooni.vcp.ir|schottnyc.com|jomashop.com|irgametech.com|draftday.com|lethalperformance.com|politicalraid.com|pard.is|khabarduni.ir|normalite.ir|cheap-phones.com|2287652162056513113_7f979e3409b78c9266cf8ff16f80c3affd43dc2c.blogspot.com|infozed.blogspot.com|vaghayedaily.ir|khabarduni.ir|bia2mah.ir|tvcenlinea.net|advanced.name|lynxbroker.de|smartmobilephonesolutions.com|hudexchange.com|khabargozari.xyz|newsiranian.ir|homage.com|macs4u.com|khabar14.ir|topak.ir|watchseriez.xyz|mihanblog.com|fiverr.com|fiverrcdn.com|fakty.ua|cgaria.com|yesvion.com|phonerated.com|careervillage.org|haingoaiphiemdam.com|bartarinfun.ir|safelink-gta.blogspot.com|javabyab.com|pcgamesupply.com|uupload.ir|shan-ghai.com|tehran98.com|imageaf.com|majazidonya.ir|myactmusic.com|bankvarzesh.com|jasaantar.com|downloadina.net|aftabnews.ir|hairburst.com|mogharrabin.ir|reyaziat.mihanblog.com|vaghayedaily.ir|butterfieldonline.ky|521yw.com|satellite-one.info|i-love-roman.ir|tag-fox.com|mymerrill.com|vaghayedaily.ir|pokupay.by|pardad.ir|navad.net|topak.ir|act-music.ir|subtitleseek.com|6blog.ir|cytbj.com|onlinewatchmovies2k.com|business-gazeta.ru|daminzx.com|shenbiana.com|yiaia.com|5798.com|6blog.ir|anaface.ir|homewp.ir|hotels.com|hoteis.com|hoteles.com|hotels.cn|modemfiles.blogspot.com|6blog.ir|mamisite.com|campussutra.com|littlegoa.com|riotjeans.com|checknshop.com|cubishop.com|ipleak.net|howardforums.com|smyfinancial.com|gigle.ir|comparecellular.com|biacafe.ir|digicircle.com|iranbanou.com|netshahr.com|opoderdopolvo.com|raise.com|akhbarejavan.ir|flw.ph|pb.ua|scdkey.com|club-renault.ru|safelink-gta.blogspot.com|parsi1.com|tvline.com|hollywoodlife.com|digitalartsonline.co.uk|varietylatino.com|wwd.com|variety.com|techadvisor.co.uk|todaysiphone.com|androidandme.com|stagram.com|tmonews.com|bgr.com|blackberry.com|phonedog.com|websta.me|rim.net|wojushop.com|gymboree.com|mangapark.xyz|mysubwaycard.com|blivakker.no|tehran98.com|marugujarats.com|roomertravel.com|yaspsd.ir|planetavto.com.ua|5ok.com.ua|btstor.xyz|learningtv.ir|learningtv.ir|karlkratz.de|iruni.ir|java67.blogspot.sg|nvidiavga.com|yaspsd.ir|rootech.ir|khabarfarsi.com|shahrahnews.ir|babyvote.com|6blog.ir|ukcigs.co|safelink-gta.blogspot.co.id|knowyourstuff.org|rmsft.rozblog.com|leheiwang.com|qiankoo.com|bi-xenon.cn|secunda.com.ua|sandlife.com.cn|imweile.com|vaghayedaily.ir|fishing-sh.com|giahyab.com|zennioptical.com|gigaom.com|khabargozari.xyz|yaspsd.ir|art-ideas.ir|macsales.com|gsnpakistan.com|rootech.ir|reyaziat.mihanblog.com|khabarduni.ir|naslemusic.com|fancytext.blogspot.com|heels.com|rootech.ir|manupatra.in|windowscenter.org|tiket.com|4it.me|flysat.com|jewelslane.com|bitcasino.io|gqget.com|p30download.com|silaosminoga.com|doodleordie.com|lavdan.com|apn-settings.com|1800sports.in|nallucollection.com|cabforce.com|campec.ir|viatech.ir|homewp.ir|hamejoordoa.samenblog.com|istclub.ir|androidiha.com|brandsdal.no|techtools.net|masterdoc.rozblog.com|ebonyflirt.com|flirt.com|clickandflirt.com|rrjewels.com|ekhorshid.ir|modemfiles.blogspot.com|rootech.ir|patogh.rozblog.com|mihanfal.com|925.com.ua|navad.net|javlibraries.xyz|chinagadgetsreviews.blogspot.com|gone-ta-pott.com|bankvarzesh.com|itsatforum.com|khabarduni.ir|safelink-gta.blogspot.com|betseyjohnson.com|youtubedownloaders.xyz|lojaonlinenokia.com.br|netshahr.com|talkhab.com|woodies.cz|ml.com|xgan.cn
 $webrtc,domain=fbi.gov
 $webrtc,domain=usa.gov
 $webrtc,domain=irs.gov
@@ -21211,6 +21244,17 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /plugins/mashsharer/$script
 /_gap/
 /adOk?
+/adtech/
+/gravitate-event-tracking/
+/heatmap-for-wp/
+/go_to/
+/ga-audiences
+/_img/space.gif
+/r/collect?
+//collect?
+/gampad/google_$script
+*.net/bnr/$image
+/graph-calc.js
 -google-tag-
 -ad-
 -v6exp3-
@@ -21331,6 +21375,9 @@ mas_jump_
 ##a[href*="rs-stripe.com"]
 ##a[href*="bytesignal.com"]
 ##a[href*=".searchiq.co"]
+##a[href*="carbonads.net"]
+##a[href*="buysellads.net"]
+##a[href*="orange2258.com"]
 ##a[href*="/advert/"]
 ##a[href*="/avt/"]
 ! ##[onclick^="ga"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
