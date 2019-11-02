@@ -48,13 +48,6 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
-#### Ultimate Protection
-* AdGuard (Somewhat, preferred to use uBlock Origin)
-* uBlock Origin
-
-#### /Dark Mode/Dark Mode
-* uBlock Origin
-
 #### /Anti/Anti Alphabet
 * AdAway
 * AdGuard Home
@@ -120,6 +113,39 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * AdGuard
 * AdNauseam
 * Nano Adblocker
+* uBlock Origin
+
+#### /Dark Mode/Blackout
+* uBlock Origin
+
+### /Other Formats/Extra Format
+* AdAway
+* AdGuard Home
+* AdGuard
+* AdNauseam
+* Blokada
+* Diversion
+* DNS66
+* Gas Mask
+* Hosts File Editor
+* hostsmgr
+* Nano Adblocker
+* PersonalDNSfilter
+* Pi-hole
+* uBlock Origin
+* uMatrix
+
+### /Other Formats/Extra Format [Adblock Plus]
+* AdBlock
+* Adblock Plus 2.0+
+* AdGuard
+* AdNauseam
+* Nano Adblocker
+* Slimjet
+* uBlock Origin
+
+#### Ultimate Protection
+* AdGuard (Somewhat, preferred to use uBlock Origin)
 * uBlock Origin
 
 ## Useful Resources
