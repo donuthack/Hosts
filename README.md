@@ -118,7 +118,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 #### /Dark Mode/Blackout
 * uBlock Origin
 
-### /Other Formats/Extra Format
+#### /Other Formats/Extra Format
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -135,7 +135,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * uBlock Origin
 * uMatrix
 
-### /Other Formats/Extra Format [Adblock Plus]
+#### /Other Formats/Extra Format [Adblock Plus]
 * AdBlock
 * Adblock Plus 2.0+
 * AdGuard
