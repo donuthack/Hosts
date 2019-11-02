@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 12
+! Version: 13
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 22.2K
 ! Last Modified: Wednesday, October 23, 2019
@@ -10,7 +10,10 @@
 !#include Anti/Anti%20Fonts
 !#include Anti/Anti%20Maps
 !#include Anti/Anti%20Social
+!#include /Anti/Anti%20Third-Party%20HTTP%20(uBlock%20Origin%20%26%20AdGuard)
 !#include Anti/Anti%20Verizon
+!#include /Anti/Easy%20Anti%20Anti%20Adblock
+!#include /Other%20Formats/Extra%20Format
 
 ! Sites that can work without scripts
 marketwatch.com^$script,inline-script
