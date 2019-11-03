@@ -16,14 +16,13 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1166
+! Version: 1167
 ! Version hyphen (-) Means Small Update
 ! Number Of Ad Services, Trackers, And Malware Blocked: 22.9K
-! Last Modified: Saturday, November 2, 2019
+! Last Modified: Sunday, November 3, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
-@@||bing.*$domain=msn.com
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 @@||external-preview.redd.it/*.gif
 pandora.com$genericblock
@@ -48,7 +47,6 @@ pandora.com$genericblock
 @@||gab.com$cookie
 @@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
 @@||moatads.com/*.js$domain=hulu.com
-@@||static-global-s-msn-com.akamaized.net/hp-eus/sc/9b/e151e5.gif$domain=msn.com
 @@||*-dnsotls-ds.metric.gstatic.com
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.*,gmail.*
 @@||abs.twimg.com/responsive-web/web/*
@@ -75,7 +73,6 @@ pandora.com$genericblock
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
-@@||*.doubleclick.net^$domain=msn.com,~media
 
 ! Don't Add Because Of Breakage
 !gdmf.apple.com (iOS updates)
@@ -237,6 +234,12 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 weathercenter.co
 0.0.0.0 quickemailaccess.co
 0.0.0.0 easyspeedtest.co
+
+! https://www.youtube.com/watch?v=_ypaZ2XaxhU
+0.0.0.0 trace.svc.ui.com
+
+! IP that appears to be a 'phone to home' for AdGuard Home
+0.0.0.0 176.103.133.133
 
 ! Unknown Domains From Lucky Patcher
 ! 104.27.134.170 (Using Reverse IP Lookup via ipaddress.com)
@@ -1200,6 +1203,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 app.conversiobot.com
+0.0.0.0 analytics.feeder.co
 0.0.0.0 ajjhtetv87.com
 0.0.0.0 awstats.org
 0.0.0.0 agreements.goguardian.com
@@ -2869,10 +2874,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ad.yieldlab.net
 0.0.0.0 auth.gfx.ms
 0.0.0.0 a.ads1.msads.net
-0.0.0.0 a.ads1.msn.com
-0.0.0.0 a.ads2.msn.com
 0.0.0.0 aa.agkn.com
-0.0.0.0 ac3.msn.com
 0.0.0.0 acdn.adnxs.com
 0.0.0.0 ads.exdynsrv.com
 0.0.0.0 adtrack.king.com
@@ -2880,9 +2882,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 api-s2s-emea.taboola.com
 0.0.0.0 apprepsvc-ch1p.smartscreen.microsoft.com
 0.0.0.0 apps.skype.com
-0.0.0.0 arc.msn.com
-0.0.0.0 arc1.msn.com
-0.0.0.0 auto.search.msn.com
 0.0.0.0 az361816.vo.msecnd.net
 0.0.0.0 az512334.vo.msecnd.net
 0.0.0.0 az725175.vo.msecdn.net
@@ -3595,7 +3594,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ads.elitetrader.com
 0.0.0.0 ads.emirates.net.ae
 0.0.0.0 ads.epltalk.com
-0.0.0.0 ads.eu.msn.com
 0.0.0.0 ads.exactdrive.com
 0.0.0.0 ads.expat-blog.biz
 0.0.0.0 ads.expedia.com
@@ -3702,7 +3700,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ads.mobilautomaten.com
 0.0.0.0 ads.motor-forum.nl
 0.0.0.0 ads.motormedia.nl
-0.0.0.0 ads.msn.com
 0.0.0.0 ads.multimania.lycos.fr
 0.0.0.0 ads.nationalgeographic.com
 0.0.0.0 ads.ncm.com
@@ -3852,7 +3849,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ad-brix.com
 0.0.0.0 ad-clicks.com
 0.0.0.0 ad-feeds.com
-0.0.0.0 analytics.msnbc.msn.com
 0.0.0.0 affiliates.mature.eu
 0.0.0.0 ad-flow.com
 0.0.0.0 ad-host.com
@@ -3879,6 +3875,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 buzzsubs.com
+0.0.0.0 *-bh.pbp.vip.bf1.yahoo.com
 0.0.0.0 bytesignal.com
 0.0.0.0 blocked.com-default.ws
 0.0.0.0 big-go-chune.goguardian.com
@@ -4221,7 +4219,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 businessclick.com
 0.0.0.0 bridgetrack.com
 0.0.0.0 bidder.criteo.com
-0.0.0.0 bat.r.msn.com
 0.0.0.0 backtype.com
 0.0.0.0 buzz.yahoo.com
 0.0.0.0 bodelen.com
@@ -4239,7 +4236,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 be.adserver.yahoo.com
 0.0.0.0 b.scorecardresearch.com
 0.0.0.0 banner.chat.ru
-0.0.0.0 b.ads1.msn.com
 0.0.0.0 browser-update.org
 0.0.0.0 bestfwdservice.com
 0.0.0.0 b.6sc.co
@@ -4786,6 +4782,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 conversiobot.com
+0.0.0.0 cds26.ams9.msecn.net
+0.0.0.0 ca.telemetry.microsoft.com
 0.0.0.0 collect.usefathom.com
 0.0.0.0 caramel.press
 0.0.0.0 checkup.goguardian.com
@@ -4863,7 +4862,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 cdn.ustatik.com
 0.0.0.0 cbsig.net
 0.0.0.0 confiant-integrations.global.ssl.fastly.net
-0.0.0.0 cdn.query.prod.cms.msn.com
 0.0.0.0 cdin.me
 0.0.0.0 core.zontera.com
 0.0.0.0 code3.adtlgc.com
@@ -5521,7 +5519,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 candycrushsoda.king.com
 0.0.0.0 cdn.adnxs.com
 0.0.0.0 cdn.at.atwola.com
-0.0.0.0 cdn.content.prod.cms.msn.com
 0.0.0.0 cdn.onesignal.com
 0.0.0.0 cdpcs.microsoft.com
 0.0.0.0 choice.microsoft.com.nsatc.net
@@ -5814,6 +5811,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 db3aqu.atdmt.com
 0.0.0.0 dprtb.com
 0.0.0.0 declarated.xyz
 0.0.0.0 dict.bing.com.cn
@@ -6498,6 +6496,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 edgetipscdn.microsoft.com
 0.0.0.0 exoticads.com
 0.0.0.0 experiments-api.goguardian.com
 0.0.0.0 extapi.goguardian.com
@@ -7441,7 +7440,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 geover-prod.do.dsp.mp.microsoft.com
 0.0.0.0 geo-prod.do.dsp.mp.microsoft.com
 0.0.0.0 g.microsoft.com
-0.0.0.0 g.msn.com
 0.0.0.0 g.live.com
 0.0.0.0 g.bing.com
 0.0.0.0 gameanalytics.com
@@ -7727,7 +7725,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 heyzap.com
 0.0.0.0 hitfox.go2cloud.org
 0.0.0.0 honolulu.app.ur.gcion.com
-0.0.0.0 h6.msn.com
 0.0.0.0 hello.myfonts.net
 0.0.0.0 hm.baidu.com
 0.0.0.0 hotjar.com
@@ -8535,6 +8532,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 k12insight.com
 0.0.0.0 kings-hand.goguardian.com
 0.0.0.0 kqzyfj.com
 0.0.0.0 *-kra2007c.net
@@ -9317,6 +9315,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 loox.io
 0.0.0.0 leadlab.click
 0.0.0.0 live.rezync.com
 0.0.0.0 leo.gov
@@ -9519,7 +9518,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 logging.clients6.google.com
 0.0.0.0 liverail.com
 0.0.0.0 livetileedge.dsx.mp.microsoft.com
-0.0.0.0 live.rads.msn.com
 0.0.0.0 link.ixs1.net
 0.0.0.0 learnpython-ads.datacamp.com
 0.0.0.0 licensing.bitmovin.com
@@ -9569,6 +9567,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 msedge.api.cdp.microsoft.com
+0.0.0.0 msnbot-65-55-108-23.search.msn.com
 0.0.0.0 meetrics.net
 0.0.0.0 medleyads.com
 0.0.0.0 monsterinsights.com
@@ -10123,7 +10123,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 mobileapptracking.com
 0.0.0.0 mydas.mobi
 0.0.0.0 mktoresp.com
-0.0.0.0 mobileads.msn.com
 0.0.0.0 mises-media.s3.amazonaws.com
 0.0.0.0 mocean.mobi
 0.0.0.0 mojiva.com
@@ -10191,7 +10190,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 nav-it.ru
 0.0.0.0 net.trafficmanager.net
 0.0.0.0 notify.medicalnewstoday.com
-0.0.0.0 nc-4tvylwolbz88x24zahapj-nsvihs-z-tzu-jvtx2ehrhthpglkx2eula.g01.msn.com
 0.0.0.0 nielsen.com
 0.0.0.0 nv.veta.naver.com
 0.0.0.0 novelty.media
@@ -10452,7 +10450,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 og-in-f138.1e100.net
 0.0.0.0 ozoneproject.com
 0.0.0.0 onaudience.com
-0.0.0.0 otf.msn.com
 0.0.0.0 outreach.io
 0.0.0.0 offer.alibaba.com
 0.0.0.0 open-s.alibaba.com
@@ -10588,6 +10585,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 perk0mean.com
+0.0.0.0 px.spiceworks.com
+0.0.0.0 pr-bh.pbp.vip.bf1.yahoo.com
 0.0.0.0 pulsar.ebay.com
 0.0.0.0 potato-juice.goguardian.com
 0.0.0.0 polyjuice-api.goguardian.com
@@ -11381,7 +11381,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 req.tidaltv.com
 0.0.0.0 rsc.cdn77.org
 0.0.0.0 redirector.gvt1.com
-0.0.0.0 r.msn.com
 0.0.0.0 revenuedirect.com
 0.0.0.0 removalmalware.servecounterstrike.com
 0.0.0.0 reklama.neg.bg
@@ -11528,6 +11527,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 secure.perk0mean.com
+0.0.0.0 stats.jamwtds.co
+0.0.0.0 sdad.guru
 0.0.0.0 siteheatmaps.com
 0.0.0.0 statsy.net
 0.0.0.0 smart-alerts.goguardian.com
@@ -12789,6 +12791,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 thefreesite.com
 0.0.0.0 trafficsan.com
 0.0.0.0 track.rediff.com
 0.0.0.0 terttalkinhitin.pro
@@ -12854,7 +12857,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 t.9gag.com
 0.0.0.0 tracker.yougov.com
 0.0.0.0 ted.dailymail.co.uk
-0.0.0.0 tu9srvbirvvtocrjcc1pbi5uyw5vdmlzb3iuaw80.g00.msn.com
 0.0.0.0 target.smi2.net
 0.0.0.0 target.my.com
 0.0.0.0 taplytics.com
@@ -13383,6 +13385,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 us.ads.justpremium.com
 0.0.0.0 usefathom.com
 0.0.0.0 utv.co
 0.0.0.0 uf.noclef.com
@@ -13547,6 +13550,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vpn-anbieter-vergleich-test.de
 0.0.0.0 vodafone.com-gift-winner-lucky-day.vip
 0.0.0.0 viewers.nighteye.app
 0.0.0.0 verizon.inq.com
@@ -13711,6 +13715,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 web.vortex.data.msn.com
 0.0.0.0 webalizer.org
 0.0.0.0 web42.com
 0.0.0.0 ws-goguardian.pusher.com
@@ -15096,7 +15101,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 229.52.241.35.bc.googleusercontent.com
 0.0.0.0 53.26.241.35.bc.googleusercontent.com
 0.0.0.0 14.0.190.35.bc.googleusercontent.com
-0.0.0.0 1.65.on.180613.msn.com
 0.0.0.0 9p41uvlef4ikrt.wffc-e635.yciuyrlw.ml
 0.0.0.0 www.1800freshtax.com
 0.0.0.0 1800freshtax.com
@@ -15224,7 +15228,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 109mview.atdmt.com
 0.0.0.0 109mview.atdmt.com.1.6000.302br.net
 0.0.0.0 050005.voodoo.com
-0.0.0.0 0.r.msn.com
 0.0.0.0 4.afs.googleadservices.com
 0.0.0.0 101.sub-75-199-205.myvzw.com
 0.0.0.0 103.sub-70-222-213.myvzw.com
@@ -15805,10 +15808,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 360adshost.com
 0.0.0.0 0c4e7ca4a9a4803f563e38c47d93575b.org
 0.0.0.0 0ec97c88.000webhostapp.com
-0.0.0.0 1669323.r.msn.com
-0.0.0.0 1669437.r.msn.com
-0.0.0.0 1695842.r.msn.com
-0.0.0.0 1695693.r.msn.com
 0.0.0.0 1696908298.rsc.cdn77.org
 0.0.0.0 135.197.186.35.bc.googleusercontent.com
 0.0.0.0 0c4uuexarf.usa.cc
@@ -17318,7 +17317,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 182.6.87.194.dynamic.dol.ru
 0.0.0.0 18205.voluumtrk.com
 0.0.0.0 1821.bitterstrawberry.com
-0.0.0.0 1822333.r.msn.com
 0.0.0.0 1829.bitterstrawberry.com
 0.0.0.0 183.6.87.194.dynamic.dol.ru
 0.0.0.0 184.6.87.194.dynamic.dol.ru
@@ -17405,8 +17403,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 31.6.87.194.dynamic.dol.ru
 0.0.0.0 3130320.fls.doubleclick.net
 0.0.0.0 32.6.87.194.dynamic.dol.ru
-0.0.0.0 3217776.r.msn.com
-0.0.0.0 3252817.r.msn.com
 0.0.0.0 3276817.fls.doubleclick.net
 0.0.0.0 32d1d3b9c.se
 0.0.0.0 33.6.87.194.dynamic.dol.ru
@@ -17993,8 +17989,6 @@ bigleaguepolitics.com##.mvp-side-widget.widget_text.enhanced-text-widget
 bigleaguepolitics.com###\30 \.4qzbxvhu7c3
 bigleaguepolitics.com###udm-edge-close-img-middle
 bigleaguepolitics.com##.udmIgnore
-msn.com##iframe[src="about: blank"]
-||c.msn.com/c.gif?
 mashable.com##.sidebar.box-cell
 www.technologyreview.com##.signup-wrapper.jsx-2623490083
 www.technologyreview.com##.meter.jsx-1767533962
@@ -18289,8 +18283,6 @@ odb.org##footer.no-print > div:nth-of-type(1) > div:nth-of-type(2)
 www.download-anymovie.com###e9 > div
 www.downloads-anymovies.com###e12
 www.iwin.com###switch-systems-modal > .modal-dialog > .modal-content
-zone.msn.com###SuperBanner_div
-zone.msn.com##.superbanner
 www.myrealgames.com##.responsive_category_top_padding.mb-3.mt-4.mobile_ad_correct.adWords-bg.container-fluid
 www.myrealgames.com##.responsive_category_bottom_padding.mb-3.mt-4.mobile_ad_correct.adWords-bg.container-fluid
 toomkygames.com##.AdSmain336x280
@@ -19674,19 +19666,13 @@ en.people.cn##.tips
 ||clients6.google.com/drive/v2internal/viewerimpressions
 ||clients4.google.com/invalidation/lcs/request
 ||wal.co/beacon
-||msn.com$ping
 ||walmart.com/*/logger
-about:blank#domain=msn.com
-msn.com##.aaicpixktps
-msn.com##.stripeouter.mestripeouter.unselectable
 walmart.com###vf-feedback-bubble-fixed-link
 walmart.com##.buy-box-container
 alternative.me##.next.screenshots
 walmart.com##.adctr
 google.com##.hMzvqc
 pixlr.com###feedback-link
-msn.com###aaiBxrgdhdui_Ctlh_Pee_TCJH_7564_qpcctg_6
-msn.com##.aaixgxhqpcctg.aaixgxhqpcctgide
 wilderssecurity.com##.baseHtml.noticeContent
 vice.com##.article-right-rail-recirculation__content.article-right-rail-recirculation__right-rail
 sky.com##.s-masthead.mast-c-banners.mast-c-banners-cookie.mast-js-banners-cookie.is-open
@@ -19728,18 +19714,6 @@ dade68.com###myCarousela2
 dade68.com##.carousel.slide
 calcsbox.com###noticeWindow
 123movies.tf###main > div.container > script:nth-child(15)[type="text/javascript"]
-msn.com##.todayshowcasead
-msn.com##.nativead
-||msn.com/en-us/homepage/irisbannerajax
-msn.com###main > div.todaystripe.grid.layout-large.popnow.popnow3.edpicks:nth-child(5) > ul:last-child > li.pos4.smalla:nth-child(5)
-msn.com###main > div.stripecontainer:nth-child(7)
-msn.com###main > div.stripecontainer:nth-child(19)
-msn.com###fbcount
-msn.com###twcount > iframe
-msn.com###social-plugins
-msn.com##.filmstripouter, .light
-msn.com##.dynamicRRWrapper
-msn.com##.widead
 forge.medium.com###root > div.a.b.c > div.m.oy.ab.oz.pa.pb.pc:nth-child(2)
 ||redditmedia.com/gtm
 arcdigital.media##.nu.nv.jp.ab.l.en.gj.nw.nx.ny
@@ -20121,8 +20095,6 @@ us.msi.com###ccc-notify
 simility.com###sim-gdpr-notice
 ||widget.rollick.io/00294
 ||techsolutions.com.tw/analytics.js
-msn.com##.optanon-alert-box-bg
-msn.com##.optanon-alert-box-wrapper
 www.mamaslatinas.com##.top-bar
 www.mamaslatinas.com##.featured-content-center
 ||schema.org/WPAdBlock
@@ -20582,6 +20554,25 @@ trackingtokens.com##hr:nth-of-type(2)
 .*?srv=$image
 ||archive.org/*/analytics.js
 ||apis.google.com/js/additnow.js
+www.mypdns.org##.cc-right.cc-bottom.cc-theme-block.cc-type-opt-in.cc-floating.cc-window
+blackhatworld.com##a[href*="bit.ly"]
+||fishbowlprizes.com$third-party
+||jamwtds.co$third-party
+||cafepress.com/dist/client.js
+||southtexascollege.edu/_Incapsula_Resource?
+aspsnippets.com##.float-box-white-bg
+aspsnippets.com###dvCookie
+aspsnippets.com##.popup
+sharepointsky.com##.tve_p_lb_overlay
+sharepointsky.com##.tl-lb-target.tve-leads-track-lightbox-4.tve_p_lb_background.tve_lb_open
+sharepointsky.com##.code-block.code-block-5
+sharepointsky.com###div-gpt-ad-sharepointsky_com-medrectangle-2-0
+sharepointsky.com##.ezoic-ad
+sharepointsky.com###ezmobfooter
+sharepointsky.com##.ezmob-footer.ezoic-floating-bottom.ezo_ad.ezmob-footer-desktop
+social.technet.microsoft.com##.cc-container
+open.lib.umn.edu##.nav-reading__next.js-nav-next
+open.lib.umn.edu##.nav-reading
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
