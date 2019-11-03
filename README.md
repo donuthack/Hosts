@@ -150,12 +150,13 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * AdGuard (Somewhat, preferred to use uBlock Origin)
 * uBlock Origin
 
-## Useful Resources
+## Useful Stuffs
+* [`Blokada`](https://blokada.org) - Block ads on Android devices
+
+* [`DNSCloak`](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351) A great DNS client for iOS that allows you to also add your own blocklist (even on top of using a DNS server)
 
 * [`Filter Lists`](https://filterlists.com) - A great place to find other blocklists
 
 * [`Redundant Rule Checker`](https://abpvn.com/ruleChecker/redundantRuleChecker.html) - Helps to remove  redundant cosmetic filters
-
-* ~[`Adblock Plus Redundant Rule Checker`](https://adblockplus.org/redundancy_check)  - Helps to remove  redundant cosmetic filters~ - See https://adblockplus.org/forum/viewtopic.php?f=10&t=74763&sid=81e8b8be1ffb3316baada7a6aad4b4ad#p198491
 
 * [`Privacy Eye Extension`](https://github.com/Dan-inpooling/Privacy-eye) - Great for seeing what cookies are being set by the current site
