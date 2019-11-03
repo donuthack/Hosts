@@ -156,4 +156,6 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 * [`Redundant Rule Checker`](https://abpvn.com/ruleChecker/redundantRuleChecker.html) - Helps to remove  redundant cosmetic filters
 
+* [`Adblock Plus Redundant Rule Checker`](adblockplus.org/redundancy_check)  - Helps to remove  redundant cosmetic filters
+
 * [`Privacy Eye Extension`](https://github.com/Dan-inpooling/Privacy-eye) - Great for seeing what cookies are being set by the current site
