@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 5
+! Version: 6
 
 ||google.*^$all
 ||doubleclick.net^$all
@@ -48,3 +48,4 @@
 ||b1.nel.goog^$all
 ||nel.goog^$all
 ||*.goog^$all
+||forms.gle^$all
