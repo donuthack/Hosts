@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1168
+! Version: 1169
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 23.0K
-! Last Modified: Monday, November 4, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 23.1K
+! Last Modified: Tuesday, November 5, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -84,11 +84,15 @@ pandora.com$genericblock
 
 ! RegEX Stuffs
 ! Block insecure (HTTP) popups
-/^http:/$popup
+/^http:/$popup,domain=~pearsonrealize.com|~pearsoncmg.com
 ! Block insecure (HTTP) popunders on supported adblockers
 /^http:/$popunder
 ! Block IP addresses on insecure domains
 ^http*:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}$domain=http://
+! Screen resolution tracker
+/[&]s(screen)?[=][0-9]{3,}x[0-9]{3,}[&]/
+! Platform Tracker
+/[&]platform[=][a-zA-Z]/
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
@@ -98,13 +102,16 @@ pandora.com$genericblock
 ||ads-e-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
 ||ads-v-darwin.hulustream.com/published/*.mp4$media,redirect=noopmp4-1s,domain=hulu.com
 
-! Remove Attribute (uBlock Origin) - Removed becasue it's possibly making loading slower
-! *##+js(ra.js, ping)
-! *##+js(ra.js, referrerpolicy)
-! *##+js(ra.js, rel, link[rel*="pingback"])
-! *##+js(ra, onclick, a[onclick*="ga"])
-! *##+js(ra, onclick, a[onclick*="_gaq.push"])
-! *##+js(ra, onclick, a[onclick*="dataLayer.push"])
+! Remove Attribute (uBlock Origin)
+*##+js(ra.js, ping)
+*##+js(ra.js, referrerpolicy)
+*##+js(ra.js, rel, link[rel*="pingback"])
+*##+js(ra, onclick, a[onclick*="ga"])
+*##+js(ra, onclick, a[onclick*="_gaq.push"])
+*##+js(ra, onclick, a[onclick*="dataLayer.push"])
+*##+js(ra, data-google-query-id, a[data-google-query-id])
+*##+js(ra, data-obtrack, a[data-obtrack])
+*##+js(ra, data-oburl, a[data-oburl])
 ! Specific
 google.*##+js(ra, ping|href, a[href*="javascript:void(0);])
 platform.everfi.net*##+js(ra, disabled)
@@ -1196,6 +1203,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||advert-technology.*
 ||adshob.com
 ||ali-crm.ru
 ||analytics-v4-poc.ff.avast.com
@@ -7170,6 +7178,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||freshmarketer.com
 
 !G
+||goeris.com
 ||g.msn.com
 ||goprediction.com
 ||geoip.ubuntu.com
@@ -11265,6 +11274,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||qnsr.com
 
 !R
+||regularimptracker.xyz
 ||rek.savefrom.net
 ||rtrlseqbudrzfd.com
 ||rollhome.fun
@@ -20703,6 +20713,13 @@ www.trgamestudio.com##.idiUqUglZgtS-default
 unix.stackexchange.com###js-gdpr-consent-banner
 unix.stackexchange.com##.p16.bg-black-700.ff-sans.fc-white.ps-fixed.b0.l0.r0.z-banner
 fitsmallbusiness.com###fit-omv2-desktop-322697
+||pavlov-prod.healthline.com/api/metrics
+kephyr.com/popupkillertest/$popup
+windstream.net##.masthead
+windstream.net##div[style="min-height: 300px;"]
+windstream.net##div[style="min-height: 250px;"]
+jsfiddle.net###keep-us-running
+ourpastimes.com##.sidebar-col.col-sm-12.col-md-3.no-print
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -21424,12 +21441,41 @@ _fingerprint
 -sponsored-outbrain-
 -ad-powerinbox-inline-
 -ad-display.z-ad-
+-analytics-
 videoiq-*
 tds_campaign=
 mas_jump_
-*##:has-text(/^Advertisement/i)
-*##:has-text(/^Promoted Content/i)
-##.js-cookie-modal, .cookie-modal, .cookie-modal__inner, .cookie-notice-container, ###cookie-notice, #cookie-tip, .cookieBanner--container, #cookie-message, .cookies__banner, .js-cookies-banner, .cookies-banner-shown, #eu-cookie-law, #cookiebar, #cookie-bar, .cookie-section, #catapult-cookie-bar, .content-cookie, #cookie-content, #cookiePolicyBar, .cookie-popup.show, #cookie-law-info-bar, ###euConsent, ###cookies-message, ###cookie-law-info-bar, ###hinweiscookie, ##.gdpr-container, ###cookies_overlay, ###eu-cookie-law, ###cookies_popup_container
+*##:has-text(/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама/)
+*##:has-text(/^Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/)
+##.js-cookie-modal
+##.cookie-modal
+##.cookie-modal__inner
+##.cookie-notice-container
+###cookie-notice
+###cookie-tip
+##.cookieBanner--container
+###cookie-message
+##.cookies__banner
+##.js-cookies-banner
+##.cookies-banner-shown
+###eu-cookie-law
+###cookiebar
+###cookie-bar
+##.cookie-section
+###catapult-cookie-bar
+##.content-cookie
+###cookie-content
+###cookiePolicyBar
+##.cookie-popup.show
+###cookie-law-info-bar
+###euConsent
+###cookies-message
+###cookie-law-info-bar
+###hinweiscookie
+##.gdpr-container
+###cookies_overlay
+###eu-cookie-law
+###cookies_popup_container
 ##.adsbygoogle
 ##.google-bottom-ads
 ##.ad-wrapper
