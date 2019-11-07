@@ -153,7 +153,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 ## Useful Stuffs
 * [`Blokada`](https://blokada.org) - Block ads on Android devices
 
-* [`DNSCloak`](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351) A great DNS client for iOS that allows you to also add your own blocklist (even on top of using a DNS server)
+* [`DNSCloak`](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351) - A great DNS client for iOS that allows you to also add your own blocklist (even on top of using a DNS server)
 
 * [`Filter Lists`](https://filterlists.com) - A great place to find other blocklists
 
