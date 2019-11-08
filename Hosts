@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1169
+! Version: 1170
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 23.1K
-! Last Modified: Tuesday, November 5, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 23.2K
+! Last Modified: Thursday, November 7, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -807,7 +807,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idiagnostics.apple.com.akadns.net
 0.0.0.0 keyvalueservice.fe.apple-dns.net
 0.0.0.0 keyvalueservice.icloud.com
-0.0.0.0 km.support.apple.com
 0.0.0.0 lcdn-locator-usuqo.apple.com.akadns.net
 0.0.0.0 lcdn-locator.apple.com
 0.0.0.0 ld-3.itunes-apple.com.akadns.net
@@ -1218,6 +1217,18 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 app.redtrack.io
+0.0.0.0 avocado.trtrak.com
+0.0.0.0 anstrex.com
+0.0.0.0 adperiscope.com
+0.0.0.0 app.rtxplatform.com
+0.0.0.0 assets-landingi.com
+0.0.0.0 advertizer.com
+0.0.0.0 adcombo.com
+0.0.0.0 alfaleads.net
+0.0.0.0 affiliates.fxmonetize.com
+0.0.0.0 affmy.com
+0.0.0.0 adfox.ru
 0.0.0.0 advert-technology.*
 0.0.0.0 adshob.com
 0.0.0.0 ali-crm.ru
@@ -3902,6 +3913,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 binom.org
+0.0.0.0 betwinner.com
+0.0.0.0 byoffers.com
+0.0.0.0 blam.mobi
+0.0.0.0 builderall.com
 0.0.0.0 bstats.org
 0.0.0.0 boafabie.com
 0.0.0.0 buzzsubs.com
@@ -4811,6 +4827,16 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clickmagick.com
+0.0.0.0 cpakitchen.com
+0.0.0.0 clickdealer.com
+0.0.0.0 cooins.mobi
+0.0.0.0 cpark.pro
+0.0.0.0 cpa.ikon.vn
+0.0.0.0 crakrevenue.com
+0.0.0.0 cpalead.com
+0.0.0.0 cpitraffic.com
+0.0.0.0 c3pa.net
 0.0.0.0 clickaine.com
 0.0.0.0 cookieinformation.com
 0.0.0.0 count.zcominc.com
@@ -5846,6 +5872,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 datspush.com
+0.0.0.0 datingmillions.com
+0.0.0.0 doaffiliate.net
+0.0.0.0 dr.cash
+0.0.0.0 dobermanmedia.com
 0.0.0.0 daisy.ubuntu.com
 0.0.0.0 db3aqu.atdmt.com
 0.0.0.0 dprtb.com
@@ -6532,6 +6563,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 evadav.com
+0.0.0.0 en.ryte.com
+0.0.0.0 ezmob.com
+0.0.0.0 earnify.com
+0.0.0.0 everad.com
 0.0.0.0 events.api.bosecm.com
 0.0.0.0 edgetipscdn.microsoft.com
 0.0.0.0 exoticads.com
@@ -6918,6 +6954,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 funnelflux.com
+0.0.0.0 fxmonetize.com
 0.0.0.0 fireroll.fun
 0.0.0.0 forwrdnow.com
 0.0.0.0 f-log-at.grammarly.io
@@ -7193,6 +7231,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 globalwidemedia.com
 0.0.0.0 goeris.com
 0.0.0.0 g.msn.com
 0.0.0.0 goprediction.com
@@ -7565,6 +7604,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hilltopads.com
+0.0.0.0 hexcan.com
 0.0.0.0 hrtsclmulpwnr.com
 0.0.0.0 heatmap.me
 0.0.0.0 heartbeats.omtrdc.net
@@ -7787,6 +7828,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 idvert.com
+0.0.0.0 iwoop.com
+0.0.0.0 ikon.vn
+0.0.0.0 indiaaffiliatehub.com
 0.0.0.0 icutlink.com
 0.0.0.0 ingress-direct.live-aws-useast1.bose.io
 0.0.0.0 ingress-direct.live-aws-*.bose.io
@@ -8579,6 +8624,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kintura.com
+0.0.0.0 kma.biz
 0.0.0.0 klclick.com
 0.0.0.0 keytape.fun
 0.0.0.0 keyrich.fun
@@ -9365,6 +9412,12 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 limelightplatform.com
+0.0.0.0 leadpages.net
+0.0.0.0 landingi.com
+0.0.0.0 landingtrack.com
+0.0.0.0 lospollos.com
+0.0.0.0 leadrock.com
 0.0.0.0 ladsup.com
 0.0.0.0 llnk.eu
 0.0.0.0 loox.io
@@ -9619,6 +9672,17 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mobidea.com
+0.0.0.0 maxbounty.com
+0.0.0.0 mediabuy.idvert.com
+0.0.0.0 mobipium.com
+0.0.0.0 metacpa.ru
+0.0.0.0 melbetpartners.com
+0.0.0.0 mylead.global
+0.0.0.0 mobipium.com
+0.0.0.0 mintegrated.com
+0.0.0.0 mobiletraffic.de
+0.0.0.0 mobvault.com
 0.0.0.0 mobileads.msn.com
 0.0.0.0 metrics.readme.io
 0.0.0.0 mediaoaktree.com
@@ -10643,6 +10707,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 purelander.com
+0.0.0.0 poweradspy.com
+0.0.0.0 pushground.com
 0.0.0.0 perk0mean.com
 0.0.0.0 px.spiceworks.com
 0.0.0.0 pr-bh.pbp.vip.bf1.yahoo.com
@@ -11289,6 +11356,13 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 ryte.com
+0.0.0.0 richpush.co
+0.0.0.0 redtrack.io
+0.0.0.0 rtxplatform.com
+0.0.0.0 reklamstore.com
+0.0.0.0 rocketprofit.com
+0.0.0.0 rulead.com
 0.0.0.0 regularimptracker.xyz
 0.0.0.0 rek.savefrom.net
 0.0.0.0 rtrlseqbudrzfd.com
@@ -11593,6 +11667,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 spypush.com
+0.0.0.0 spyover.com
+0.0.0.0 sabotageads.com
 0.0.0.0 supertracker.flashget.com
 0.0.0.0 spocs.getpocket.com
 0.0.0.0 searchads.msn.net
@@ -12861,6 +12938,15 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 trackrevenue.com
+0.0.0.0 trkur.com
+0.0.0.0 tonic.com
+0.0.0.0 theoptimizer.io
+0.0.0.0 trackingdesk.com
+0.0.0.0 traffichunt.com
+0.0.0.0 topoffers.com
+0.0.0.0 tapgerine.com
+0.0.0.0 trafforsrv.com
 0.0.0.0 tracker.winudf.com
 0.0.0.0 traq.li
 0.0.0.0 thefreesite.com
@@ -13457,6 +13543,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 unbounce.com
 0.0.0.0 us.ads.justpremium.com
 0.0.0.0 usefathom.com
 0.0.0.0 utv.co
@@ -13622,6 +13709,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vipoffers.com
+0.0.0.0 vulkanbet.partners
 0.0.0.0 vpn-anbieter-vergleich-test.de
 0.0.0.0 vodafone.com-gift-winner-lucky-day.vip
 0.0.0.0 viewers.nighteye.app
@@ -13787,6 +13876,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 whalecash.com
 0.0.0.0 web.vortex.data.msn.com
 0.0.0.0 webalizer.org
 0.0.0.0 web42.com
@@ -14350,6 +14440,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zeropark.com
 0.0.0.0 zilliontoolkitusa.info
 0.0.0.0 zymerget.bid
 0.0.0.0 ze-fir.com
@@ -14571,6 +14662,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 3snet.ru
+0.0.0.0 3snet.co
 0.0.0.0 4pleb.org
 0.0.0.0 0qq20ey4fo5veh0t.wisokykulas.bid
 0.0.0.0 24smi.net
@@ -20735,6 +20828,30 @@ windstream.net##div[style="min-height: 300px;"]
 windstream.net##div[style="min-height: 250px;"]
 jsfiddle.net###keep-us-running
 ourpastimes.com##.sidebar-col.col-sm-12.col-md-3.no-print
+gyazo.com$third-party
+||affbank.com/ad-redirect
+helpdeskgeek.com##.et_bloom_popup.et_bloom_optin.et_bloom_resize.et_bloom_optin_2.et_bloom_auto_popup.et_bloom_hide_mobile_optin.et_bloom_visible.et_bloom_animated
+health.howstuffworks.com###tb_tower_wrapper
+mashable.com###newsletter-signup
+goodtherapy.org###gdprWarning
+diymfa.com##.ck_form.ck_minimal.width400.ck_vertical
+theamericangenius.com###wp-subscribe
+theamericangenius.com##.wp-subscribe.has-name-field
+livescience.com##.box.newsletter-signup
+lifehacker.com##.sc-147n754-0.iYoMhr
+lifehacker.com##.sc-1jotqfp-0.sc-1jotqfp-2.iahfxG
+sciencedaily.com##.unit1
+sciencedaily.com##.unit2.hidden-tiny.hidden-xs
+sciencedaily.com##.half-page.hidden-tiny.hidden-xs
+sciencedaily.com##.left-skyscraper.center-block.hidden-sm.hidden-xs
+sciencedaily.com##.row.footer-links
+||calmclinic.com/srv.php
+||static.grammarly.com/assets/js/*/vendor.js
+hentai-comic.com,hentaivi.com,hentaitha.com,hentairu.com,hentaizh.com,hentaien.com,hentaijapon.com,hentaikor.com,aniimg.com,wallpapers-anime.com,hentai-image.com,hentai-comic.com,hentai-animes.com,hentai-cosplay.com,hentai-gifs.com,hentai-game-xxx.com,hentai-3d-xxx.com,hentai-monsters.com,hentai-yaoi.com,hentai-yuri.com,hentai-futanari-xxx.com,hentai-tentacle.com,hentai-naruto-xxx.com,hentai-fairy-tail.com,hentai-bleach-xxx.com,hentai-one-piece.com,hentai-netorare.com,hentai-touhou.com,hentai-kancolle.com,hentai-dragon-ball.com,hentai-loli.com,hentai-ahegao.com,hentai-wife.com,hentai-fate.com,hentai-raper.com,hentai-vocaloid.com,hentai-idolmaster.com,porn-image-xxx.com,porn-movie-xxx.com,porn-av-xxx.com,porn-gravure-idol.com###display_image_detail > span
+hentai-comic.com,hentaivi.com,hentaitha.com,hentairu.com,hentaizh.com,hentaien.com,hentaijapon.com,hentaikor.com,aniimg.com,wallpapers-anime.com,hentai-image.com,hentai-comic.com,hentai-animes.com,hentai-cosplay.com,hentai-gifs.com,hentai-game-xxx.com,hentai-3d-xxx.com,hentai-monsters.com,hentai-yaoi.com,hentai-yuri.com,hentai-futanari-xxx.com,hentai-tentacle.com,hentai-naruto-xxx.com,hentai-fairy-tail.com,hentai-bleach-xxx.com,hentai-one-piece.com,hentai-netorare.com,hentai-touhou.com,hentai-kancolle.com,hentai-dragon-ball.com,hentai-loli.com,hentai-ahegao.com,hentai-wife.com,hentai-fate.com,hentai-raper.com,hentai-vocaloid.com,hentai-idolmaster.com,porn-image-xxx.com,porn-movie-xxx.com,porn-av-xxx.com,porn-gravure-idol.com###social_button
+hentai-comic.com,hentaivi.com,hentaitha.com,hentairu.com,hentaizh.com,hentaien.com,hentaijapon.com,hentaikor.com,aniimg.com,wallpapers-anime.com,hentai-image.com,hentai-comic.com,hentai-animes.com,hentai-cosplay.com,hentai-gifs.com,hentai-game-xxx.com,hentai-3d-xxx.com,hentai-monsters.com,hentai-yaoi.com,hentai-yuri.com,hentai-futanari-xxx.com,hentai-tentacle.com,hentai-naruto-xxx.com,hentai-fairy-tail.com,hentai-bleach-xxx.com,hentai-one-piece.com,hentai-netorare.com,hentai-touhou.com,hentai-kancolle.com,hentai-dragon-ball.com,hentai-loli.com,hentai-ahegao.com,hentai-wife.com,hentai-fate.com,hentai-raper.com,hentai-vocaloid.com,hentai-idolmaster.com,porn-image-xxx.com,porn-movie-xxx.com,porn-av-xxx.com,porn-gravure-idol.com###comments
+hentai-comic.com,hentaivi.com,hentaitha.com,hentairu.com,hentaizh.com,hentaien.com,hentaijapon.com,hentaikor.com,aniimg.com,wallpapers-anime.com,hentai-image.com,hentai-comic.com,hentai-animes.com,hentai-cosplay.com,hentai-gifs.com,hentai-game-xxx.com,hentai-3d-xxx.com,hentai-monsters.com,hentai-yaoi.com,hentai-yuri.com,hentai-futanari-xxx.com,hentai-tentacle.com,hentai-naruto-xxx.com,hentai-fairy-tail.com,hentai-bleach-xxx.com,hentai-one-piece.com,hentai-netorare.com,hentai-touhou.com,hentai-kancolle.com,hentai-dragon-ball.com,hentai-loli.com,hentai-ahegao.com,hentai-wife.com,hentai-fate.com,hentai-raper.com,hentai-vocaloid.com,hentai-idolmaster.com,porn-image-xxx.com,porn-movie-xxx.com,porn-av-xxx.com,porn-gravure-idol.com###icon-good-thumbnail
+hentai-comic.com,hentaivi.com,hentaitha.com,hentairu.com,hentaizh.com,hentaien.com,hentaijapon.com,hentaikor.com,aniimg.com,wallpapers-anime.com,hentai-image.com,hentai-comic.com,hentai-animes.com,hentai-cosplay.com,hentai-gifs.com,hentai-game-xxx.com,hentai-3d-xxx.com,hentai-monsters.com,hentai-yaoi.com,hentai-yuri.com,hentai-futanari-xxx.com,hentai-tentacle.com,hentai-naruto-xxx.com,hentai-fairy-tail.com,hentai-bleach-xxx.com,hentai-one-piece.com,hentai-netorare.com,hentai-touhou.com,hentai-kancolle.com,hentai-dragon-ball.com,hentai-loli.com,hentai-ahegao.com,hentai-wife.com,hentai-fate.com,hentai-raper.com,hentai-vocaloid.com,hentai-idolmaster.com,porn-image-xxx.com,porn-movie-xxx.com,porn-av-xxx.com,porn-gravure-idol.com###icon-bad-thumbnail
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -20744,6 +20861,7 @@ businessinsider.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
 ! Extra Crap For AdBlock Plus Because It's A Little Retarded
 rightwingtribune.com##a[href*="rs-stripe.com"]
 rightwingtribune.com##a[href*="bytesignal.com"]
+*#$#hide-if-contains-visible-text/Sponsored|Promoted Content/
 !#endif
 
 !#if (adguard && !ext_ublock)
@@ -20855,6 +20973,8 @@ $webrtc,domain=nsa.gov
 !#endif
 
 ! Wildcard
+/ad-blocking-detector.php
+/anti-adblock.php
 /pdAb.min.js
 /common/tracker.js
 /promotional/
@@ -21536,7 +21656,12 @@ mas_jump_
 ##.adchoices
 ##.widead
 ##.adchoices
+###top_ad
+###comments_ad
+##.admax-ads
+##.adslot__mpu
 ##[data-google-query-id]
+##[id^="bestgoogleadsense-"]
 ##div[id^="mainads"]
 ##div[id^="GOOGLE_ADS_"]
 ##div[id^="div-gpt-ad"]
