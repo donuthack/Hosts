@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 13
+! Version: 14
 ! This list was made to block trackers that WILL BREAK some sites
-! Number Of Ad Services, Trackers, And Malware Blocked: 46.9K
-! Last Modified: Saturday, November 2, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 48K (Give Or Take A Little)
+! Last Modified: Saturday, November 9, 2019
 
 !#include Hosts
 !#include Anti/Anti%20Alphabet
@@ -45,6 +45,112 @@ google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
 ! If Using AdGuard "prevents Facebook from tracking you even if you are logged in" 
 ! (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#real-life-examples)
 ||facebook.com^$third-party,cookie=c_user
+
+! From https://github.com/dex4k/dex4kblocklist/blob/master/dex4kblocklistextras.txt#L83
+! Apple
+! Blocking these domains stops your macOS and iOS device from phoning home to Apple with your location even if location services is disabled
+! A Mac, iPhone, iPad, even Apple TV with location services disabled still phones home to Apple location domains regularly
+! On a Mac it contacts them via "com.apple.geod.xpc" on macOS, process unknown on iOS but domains are the same + a few extra
+! May need to whitelist location domains if you use Apple Maps on a device this list covers (e.g. an iPhone on a LAN or VPN with Pi Hole active)
+! If you only use this list on e.g. a Mac which never uses Apple Maps, it's safe to block and will prevent Apple trying to track your location
+cl1.apple.com
+cl2.apple.com
+cl3.apple.com
+cl4.apple.com
+cl5.apple.com
+cl6.apple.com
+cl7.apple.com
+cl8.apple.com
+cl9.apple.com
+cl10.apple.com
+gsp-ssl.ls.apple.com
+gsp1-ssl-background.ls.apple.com
+gsp1-ssl.apple.com
+gsp2-ssl-background.ls.apple.com
+gsp2-ssl.apple.com
+gsp3-ssl-background.ls.apple.com
+gsp3-ssl.apple.com
+gsp4-ssl-background.ls.apple.com
+gsp4-ssl.apple.com
+gsp5-ssl-background.ls.apple.com
+gsp5-ssl.apple.com
+gsp6-ssl-background.ls.apple.com
+gsp6-ssl.apple.com
+gsp7-ssl-background.ls.apple.com
+gsp7-ssl.apple.com
+gsp8-ssl.apple.com
+gsp8-ssl-background.ls.apple.com
+gsp9-ssl-background.ls.apple.com
+gsp9-ssl.apple.com
+gsp10-ssl-background.ls.apple.com
+gsp10-ssl.apple.com
+gsp11-ssl-background.ls.apple.com
+gsp11-ssl.apple.com
+gsp12-ssl-background.ls.apple.com
+gsp12-ssl.apple.com
+gsp13-ssl-background.ls.apple.com
+gsp13-ssl.apple.com
+gsp14-ssl-background.ls.apple.com
+gsp14-ssl.apple.com
+gsp15-ssl-background.ls.apple.com
+gsp15-ssl.apple.com
+gsp57-ssl-background.ls.apple.com
+gsp57-ssl.ls.apple.com
+gsp64-ssl-background.ls.apple.com
+gsp64-ssl.ls.apple.com
+gspe1-ssl.ls.apple.com
+gspe1.ls.apple.com
+gspe2.ls.apple.com
+gspe3.ls.apple.com
+gspe4.ls.apple.com
+gspe5.ls.apple.com
+gspe6.ls.apple.com
+gspe7.ls.apple.com
+gspe8.ls.apple.com
+gspe9.ls.apple.com
+gspe10.ls.apple.com
+gspe11.ls.apple.com
+gspe12.ls.apple.com
+gspe13.ls.apple.com
+gspe14.ls.apple.com
+gspe15.ls.apple.com
+gspe16.ls.apple.com
+gspe17.ls.apple.com
+gspe18.ls.apple.com
+gspe19.ls.apple.com
+gspe20.ls.apple.com
+gspe21.ls.apple.com
+gspe11.ls.apple.com.akadns.net
+gspe11-ssl.ls.apple.com.edgekey.net
+gspe11-ssl.ls.apple.com
+gspe15.ls.apple.com.akadns.net
+gspe16.ls.apple.com.akadns.net
+gspe18.ls.apple.com.akadns.net
+gspe18.ls.apple.com.edgesuite.net
+gspe19-ssl.ls.apple.com
+gspe19.ls.apple.com.akadns.net
+gspe19.ls.apple.com.edgesuite.net
+gspe20.ls.apple.com.akadns.net
+gspe20.ls.apple.com.edgesuite.net
+gspe21.ls.apple.com.akadns.net 
+gspe21.ls.apple.com.edgesuite.net
+gspe21-ssl.ls.apple.com
+gspe35-ssl.ls.apple.com
+gspe36-ssl.ls.apple.com
+gsp-ssl.ls-apple.com.akadns.net
+gsp64-ssl.ls-apple.com.akadns.net
+gs-loc.apple.com
+iphone-ld.apple.com
+
+! Other Apple domains e.g. phoning home your search queries while using Spotlight, useless stuff like Game Centre
+! The BTMM domain is for remotely accessing your Mac, so blocking this on your network if you don't need it is a security advantage
+apple-finance.query.yahoo.com
+lookup-api.apple.com
+members.btmm.icloud.com
+p42-quota.icloud.com
+p42-availability.icloud.com
+static.gc.apple.com
+wu-calculator.apple.com
 
 /analytics/
 /evercookie/
