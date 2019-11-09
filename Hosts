@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1171
+! Version: 1172
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 23.3K
-! Last Modified: Friday, November 8, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 23.6K
+! Last Modified: Saturday, November 9, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -110,6 +110,8 @@ pandora.com$genericblock
 /[&]platform[=][a-zA-Z]/
 ! Get the hard to block sponsored content on Reuters
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
+! Block possibly suspicious top-level domains from running as third-party on sites
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link)/$third-party
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
@@ -1219,6 +1221,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adsaturn.com
 0.0.0.0 abhimig.info
 0.0.0.0 affiliaxe.com
 0.0.0.0 adgatemedia.com
@@ -3923,6 +3926,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 brsflia.tk
 0.0.0.0 binom.org
 0.0.0.0 betwinner.com
 0.0.0.0 byoffers.com
@@ -4837,6 +4841,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cckefu.com$third-party
 0.0.0.0 chitika.com
 0.0.0.0 clickky.biz
 0.0.0.0 chat24.io
@@ -6582,6 +6587,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 emsecure.net
 0.0.0.0 evadav.com
 0.0.0.0 evadav.com
 0.0.0.0 en.ryte.com
@@ -6974,6 +6980,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 futureplc.slgnt.eu
+0.0.0.0 fanimg.site
 0.0.0.0 funnelflux.com
 0.0.0.0 fxmonetize.com
 0.0.0.0 fireroll.fun
@@ -7251,6 +7259,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gloussuz.com
+0.0.0.0 grooksom.com
 0.0.0.0 g4offers.com
 0.0.0.0 globaxy.com
 0.0.0.0 globalwidemedia.com
@@ -10742,6 +10752,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pushsar.com
+0.0.0.0 pornnperfect.com
 0.0.0.0 plugrush.com
 0.0.0.0 puretechglobal.com
 0.0.0.0 purelander.com
@@ -11706,6 +11718,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 sevootie.com
+0.0.0.0 selligent.com
+0.0.0.0 slgnt.eu
+0.0.0.0 slgnt.us
 0.0.0.0 sirenltd.com
 0.0.0.0 slaviamobile.com
 0.0.0.0 spypush.com
@@ -12979,6 +12995,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 thedoctopdf.com
+0.0.0.0 talkwalker.com
+0.0.0.0 thepromoexperts.com
 0.0.0.0 targeleon.com
 0.0.0.0 trafficforce.com
 0.0.0.0 terraleads.com
@@ -13755,6 +13774,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 viatepigan.com
 0.0.0.0 viceoffers.com
 0.0.0.0 vipoffers.com
 0.0.0.0 vulkanbet.partners
@@ -14267,6 +14287,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xtremeserve.xyz
 0.0.0.0 xplosion.de
 0.0.0.0 xml.boffoadsfeeds.com
 0.0.0.0 xinvites.com
@@ -14331,6 +14352,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 youview.io
 0.0.0.0 yengo.com
 0.0.0.0 yavli.com
 0.0.0.0 yieldlove.com
@@ -14489,6 +14511,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 ziyun.com.cn$third-party
 0.0.0.0 zeropark.com
 0.0.0.0 zilliontoolkitusa.info
 0.0.0.0 zymerget.bid
@@ -14711,6 +14734,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 8ixrxa2tnr.com
 0.0.0.0 3snet.ru
 0.0.0.0 3snet.co
 0.0.0.0 4pleb.org
@@ -20913,6 +20937,29 @@ keezmovies.online##div:nth-child(7)
 keezmovies.online##div.those:nth-child(7)
 keezmovies.online##div:iframe
 gamcore.com###thgir > iframe
+||www.talkwalker.com/uploads/*/CTA_Get-the-full-picture.png
+www.filmonerileri.org##.custom-html-widget.textwidget
+www.filmonerileri.org###cookie-box
+cashearn.eu##.container-fluid
+cashearn.eu###_pn_1573265645457
+yandex.com.tr##.lllbne3x9mCckfX9szzc
+||my.openwrite.cn/js/readmore.js$third-party
+caniuse.com##.bottom-ad
+caniuse.com##.bsa-cpc.top-ad
+vev.io##.Cookie--vevio.Cookie--bottom.p-3.bg-primary.Cookie
+pornhub.com###mobileContainer > div.adContainer.clearfix
+pornhub.com###mobileContainer > div.topAdContainter
+pornhub.com###videoShow > div.adContainer.clearfix.ad-tabSplit
+pornhub.com###videoShow > div.adContainer.clearfix.middleVideoAdContainer
+pornhub.com###mobileContainer > div.pageWrapper.homePage.fullWidth:nth-child(2) > div.adContainer.clearfix.ad-tabSplit
+pornhub.com###videoListSearchResults > div.adContainer.clearfix.middleVideoAdContainer
+pornhub.com###mobileContainer > div.adContainer
+m.youtube.com###app > div.page-container:nth-child(3) > ytm-browse > ytm-single-column-browse-results-renderer > div > div > ytm-section-list-renderer > lazy-list > ytm-item-section-renderer:first-child
+billboard.com##div.ad-container.leaderboard.leaderboard--top:nth-child(3) > div.leaderboard-wrapper
+justgetflux.com##a[href*="justgetflux.com/promo/"]
+||www.biz.nf/images/chatbg5_1.gif
+www.biz.nf##.flyBox3
+www.freenom.com##.push
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -21612,6 +21659,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /getads?
 /?track=ad
 /golink?url=
+/phantomPopunder.js
 -google-tag-
 -ad-
 -v6exp3-
