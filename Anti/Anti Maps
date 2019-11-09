@@ -17,8 +17,8 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Anti Maps
 ! Expires: 1 day
-! Version: 1
-! Last Modified: Tuesday, September 3, 2019
+! Version: 2
+! Last Modified: Saturday, November 9, 2019
 
 0.0.0.0 locuslabs.com
 0.0.0.0 api.mapbox.com
@@ -26,6 +26,10 @@ ff02::3 ip6-allhosts
 0.0.0.0 maps.google.com
 0.0.0.0 mapquest.com
 0.0.0.0 maps.yahoo.com
+0.0.0.0 mapway.com
+0.0.0.0 ud-prd.geohawk.co.uk
+0.0.0.0 geohawk.co.uk
+
 
 ||apple.com/ios/maps/
 ||cloud.google.com/maps-platform/
