@@ -1,9 +1,9 @@
 ! Title: Cybo's Hosts - Extra Format
 ! Expires: 8 hours
-! Version: 1172
+! Version: 1173
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 23.6K
-! Last Modified: Saturday, November 9, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 23.7K
+! Last Modified: Sunday, November 10, 2019
 
 ! This is the main hosts file but 0.0.0.0 was replaced with *://
 ! This was made to help with blocking on archive.org where normal blocking with 0.0.0.0, 127.0.0.1, and || wont get the trackers due
@@ -99,7 +99,17 @@ pandora.com$genericblock
 ! Get the hard to block sponsored content on Reuters
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
 ! Block possibly suspicious top-level domains from running as third-party on sites
-/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link)/$third-party
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$third-party
+! Block possibly suspicious top-level domains from running as third-party popups on sites
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$third-party,popup
+! Block some text ad craps
+/^http(s)?:\/\/(www\.)?[textad]+\./
+
+! Make Disqus Click-to-Load
+||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
+||disqus.com/embed.js$script,redirect=disqus.com/embed.js
+||disqus.com/count.js$script
+@@||disqus.com/embed.js?_=1457540*$script
 
 ! Rewrite/Redirect (Adblock Plus, AdGuard, and uBlock Origin)
 ||pandora.com/ping.txt?f=*^$rewrite=abp-resource:blank-text,domain=pandora.com
@@ -129,7 +139,7 @@ verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com,washingtonpost.com,gunfacts.info,washingtonpost.com,sharepointsky.com,zoomowl.co#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com,washingtonpost.com,gunfacts.info,washingtonpost.com,sharepointsky.com,zoomowl.co,helpfulprofessor.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
@@ -203,7 +213,9 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
 ||blocked.com-default.ws^$csp=script-src 'none'; style-src 'none'; img-src 'none'; connect-src 'none'; font-src 'none; object-src 'none'; media-src 'none'; child-src 'none'; form-action 'none'; frame-ancestors 'none'; plugin-types 'none'
 
-! Block Hola VPN ( dailydot.com/debug/hola-vpn-security )
+! Block Hola VPN 
+! dailydot.com/debug/hola-vpn-security
+! torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
 *://hola.org
 *://holaspark.com
 *://client.hola.org
@@ -1209,6 +1221,39 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://idmsa.apple.com/appleauth/jslog
 
 !A
+*://*ad.kinstacdn.com
+*://ad.mi.com
+*://aiclean.us.cloud.360safe.com
+*://admqr.com$third-party
+*://allfreecounter.com
+*://afreeca-tag.ad-mapps.com
+*://ad-mapps.com
+*://analytics.qoqa.ninja
+*://analytics-sprint.qoqa.com
+*://analytics.qoqa.ch
+*://analytics.qoqa.com
+*://analytics.snapchat.com
+*://ads.gionee.com
+*://adcore.lenovomm.com
+*://adapi.lenovogame.com
+*://adsfs.oppomobile.com
+*://adx.ads.oppomobile.com
+*://ads.oppomobile.com
+*://analytics.xgimi.com
+*://atlas.torproject.org
+*://adpdx.com
+*://ads.adcloud.net
+*://adcloud.net
+*://ads.usualgirls.com
+*://ads1.brazzers.com
+*://ads2.brazzers.com
+*://ads.adtube.de
+*://adtube.de
+*://ads.adultpopunders.com
+*://amateurmatch.com$third-party
+*://asiafriendfinder.com$third-party
+*://adultpopunders.com
+*://ads.iknowthatgirl.com
 *://adsaturn.com
 *://abhimig.info
 *://affiliaxe.com
@@ -3914,6 +3959,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://a.ads2.msads.net
 
 !B
+*://bnrdom.com
+*://bdapi.ads.oppomobile.com
 *://brsflia.tk
 *://binom.org
 *://betwinner.com
@@ -4829,6 +4876,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://bam.nr-data.net
 
 !C
+*://ce04.com
+*://customerevents.netflix.com
+*://collector.deepmetrix.com
 *://cckefu.com$third-party
 *://chitika.com
 *://clickky.biz
@@ -5881,6 +5931,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://creative.medialytics.com
 
 !D
+*://data.ads.oppomobile.com
 *://daopush.com
 *://datspush.com
 *://directaffiliate.com
@@ -6575,6 +6626,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://downloads.mailchimp.com
 
 !E
+*://e.mi.com
 *://emsecure.net
 *://evadav.com
 *://evadav.com
@@ -6968,6 +7020,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+*://fcs.ovh
 *://futureplc.slgnt.eu
 *://fanimg.site
 *://funnelflux.com
@@ -7232,8 +7285,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://floridat.app.ur.gcion.com
 *://freewarefreedownload.com
 *://feedads.googleadservices.com
-*://fast.fonts.net
-*://fonts.net
 *://fyre.co
 *://force.com
 *://fo-api.omnitagjs.com
@@ -7247,6 +7298,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://freshmarketer.com
 
 !G
+*://geohawk.co.uk
 *://gloussuz.com
 *://grooksom.com
 *://g4offers.com
@@ -7624,6 +7676,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://gannett.hb.omtrdc.net
 
 !H
+*://httpdns.push.oppomobile.com
 *://href.li$third-party
 *://hypercentage.com
 *://hilltopads.com
@@ -7850,6 +7903,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://helpshift.com
 
 !I
+*://ichnaea.netflix.com
+*://ichnaea-web.netflix.com
+*://istripper.com$third-party
 *://iclwy.xyz
 *://idvert.com
 *://iwoop.com
@@ -9432,10 +9488,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://kemetdesign.cf
 *://kemmassb.com
 *://kemvaleo.ru
-*://k1.midasplayer.com
 *://krxd.net
 
 !L
+*://log.kajicam.com
 *://leads.su
 *://leadbit.com
 *://leads.black
@@ -9700,6 +9756,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://location.silverpush.com
 
 !M
+*://mepodownload.mediatek.com
+*://mgepodownload.mediatek.com
+*://metrics.torproject.org
 *://matomymarket.com
 *://monsterleads.pro
 *://mobidea.com
@@ -10299,6 +10358,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://memo2.nl
 
 !N
+*://newad.ifeng.com
+*://nojsstats.appspot.com
+*://notifybrowser.com
 *://netminers.dk
 *://nvidia.tt.omtrdc.net
 *://n0ve1st0ry.gameloft.com
@@ -10740,6 +10802,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://open.ad.yieldmanager.net
 
 !P
+*://pushapi.lenovomm.com
+*://p.adpdx.com
 *://pushsar.com
 *://pornnperfect.com
 *://plugrush.com
@@ -11706,6 +11770,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://r.skimresources.com
 
 !S
+*://scgraph.facebook.com
+*://susapi.lenovomm.com
+*://stats.mokeedev.com
+*://sextracker.com$third-party
 *://sevootie.com
 *://selligent.com
 *://slgnt.eu
@@ -12983,6 +13051,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://scripts.kissmetrics.com
 
 !T
+*://tls.telemetry.swe.quicinc.com
+*://telemetry.swe.quicinc.com
+*://tigger-citadel.touchtype-fluency.com
+*://trac.torproject.org
+*://touchtype-fluency.com
 *://thedoctopdf.com
 *://talkwalker.com
 *://thepromoexperts.com
@@ -13596,6 +13669,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://tt.omtrdc.net
 
 !U
+*://ud-prd.geohawk.co.uk
+*://usualgirls.com
 *://unbounce.com
 *://us.ads.justpremium.com
 *://usefathom.com
@@ -13762,6 +13837,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://us.adserver.yahoo.com
 
 !V
+*://virtuagirl.com$third-party
+*://virtuaguy.com$third-party
+*://virtuagirlhd.com$third-party
+*://virtuaguyhd.com$third-party
 *://viatepigan.com
 *://viceoffers.com
 *://vipoffers.com
@@ -14275,6 +14354,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://wv.inner-active.mobi
 
 !X
+*://xxxbannerswap.com
 *://xtremeserve.xyz
 *://xplosion.de
 *://xml.boffoadsfeeds.com
@@ -14722,6 +14802,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 *://zyqlfplqdgxu.com
 
 !Misc
+*://01counter.com
 *://8ixrxa2tnr.com
 *://3snet.ru
 *://3snet.co
@@ -18811,7 +18892,6 @@ www.dailymail.co.uk##.module.puff_pastel.item.tvshowbiz
 ||codecademy.com/logs/*
 ||codecademy.com/stats/*
 ||en.wikipedia.org/w/load.php$script
-||hello.myfonts.net/count
 ||api.abcnews.go.com/apollo/news/configuration/60550765
 ||onamae.com/parking.html$third-party
 ||toppan.com/assets/img/common/icon_location.svg
@@ -19848,7 +19928,6 @@ cholera.fora.pl##.t-a-c__box-bottom
 cholera.fora.pl##.t-a-c__box-content
 cholera.fora.pl##.t-a-c__box-header
 cholera.fora.pl##.pp-t-a-c.js-pp-t-a-c
-cholera.fora.pl##div[style="position:relative;display:block;margin:0 auto;visibility:visible;overflow:hidden;font-size:0.8em;color:#232000;background-color:#fcfc9a;-moz-box-shadow:0 2px 4px #bbb;-webkit-box-shadow:0 2px 4px #bbb;-khtml-box-shadow:0 2px 4px #bbb;box-shadow:0 2px 4px #bbb;filter:progid:DXImageTransform.Microsoft.Shadow(color='#969696', Direction=145, Strength=4);"]
 southpark.cc.com###geoblockmsg
 abtshield.com###cookies-message-bottom
 neowin.net##div[style="background-color:#fff; padding 5px 0 5px 0;"]
@@ -19915,7 +19994,6 @@ sky.com##.s-masthead.mast-c-banners.mast-c-banners-cookie.mast-js-banners-cookie
 ||apps.facebook.com/ajax/apps/heartbeat.php
 facebook.com##._4-u2._1-ib._2tyk._20os._4-u8
 facebook.com##._1-ia
-mini.51quick.xyz##div[style="font-size: 12px;text-align: center"]
 ||content.mql5.com/tr
 ||apis.google.com/js/platform.js
 ||123movies.tf/assets/js/player.123movies.v5.3.min.js
@@ -20939,7 +21017,7 @@ pornhub.com###mobileContainer > div.adContainer.clearfix
 pornhub.com###mobileContainer > div.topAdContainter
 pornhub.com###videoShow > div.adContainer.clearfix.ad-tabSplit
 pornhub.com###videoShow > div.adContainer.clearfix.middleVideoAdContainer
-pornhub.com###mobileContainer > div.pageWrapper.homePage.fullWidth:nth-child(2) > div.adContainer.clearfix.ad-tabSplit
+pornhub.com###mobileContainer > div.pageWrapper.homePage.fullWidth > div.adContainer.clearfix.ad-tabSplit
 pornhub.com###videoListSearchResults > div.adContainer.clearfix.middleVideoAdContainer
 pornhub.com###mobileContainer > div.adContainer
 m.youtube.com###app > div.page-container:nth-child(3) > ytm-browse > ytm-single-column-browse-results-renderer > div > div > ytm-section-list-renderer > lazy-list > ytm-item-section-renderer:first-child
@@ -20948,6 +21026,17 @@ justgetflux.com##a[href*="justgetflux.com/promo/"]
 ||www.biz.nf/images/chatbg5_1.gif
 www.biz.nf##.flyBox3
 www.freenom.com##.push
+king.com###SiteMessages
+www.monda-magazin.de##.light.as-oil
+electrical-engineering-portal.com##.page-ad-topline.page-divider-ad
+electrical-engineering-portal.com##.ad-div-top
+electrical-engineering-portal.com##.content > .tp
+electrical-engineering-portal.com##.sticky-widget > .reklama-text
+torrentfreak.com##.widget_custom_html.o-widget.widget-1.widget-first.widget-odd.widget_text
+helpfulprofessor.com###elementor-popup-modal-5773
+helpfulprofessor.com##.adtester-container-103.adtester-container.box-2.ezoic-ad
+helpfulprofessor.com##.adtester-container-105.adtester-container.box-1.ezoic-ad
+helpfulprofessor.com##.elementor-top-column.elementor-col-100.elementor-column.elementor-element-527f7c1.elementor-element > .elementor-element-populated.elementor-column-wrap
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -20957,7 +21046,6 @@ businessinsider.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
 ! Extra Crap For AdBlock Plus Because It's A Little Retarded
 rightwingtribune.com##a[href*="rs-stripe.com"]
 rightwingtribune.com##a[href*="bytesignal.com"]
-*#$#hide-if-contains-visible-text/Sponsored|Promoted Content/
 !#endif
 
 !#if (adguard && !ext_ublock)
@@ -21068,6 +21156,9 @@ $webrtc,domain=nsa.gov
 ||216.56.192.205$network
 !#endif
 
+! Common Malware Crap
+-analysis-safety-antimalware-support.
+
 ! Wildcard
 /ad-blocking-detector.php
 /anti-adblock.php
@@ -21090,7 +21181,6 @@ $webrtc,domain=nsa.gov
 /click.track
 /ad.gif
 /sbn_fingerprint.
-/FontList.swf
 ! /analytics/ (breaks sites like moodysanalytics.com)
 /ad-specs.
 /poool-identity.min.js
@@ -21166,7 +21256,6 @@ $webrtc,domain=nsa.gov
 /ico_twitter.gif
 /adalyser.js
 /images/sponsors/
-/fonts.js?
 /third-party.js
 /webgl.js?
 /*.gif?
@@ -21184,7 +21273,6 @@ $webrtc,domain=nsa.gov
 /analytics/track/
 /events?app_id=
 /mixpanel-2-latest.min.js
-/*-tracking.js?
 *-tracking.js
 /events?app_id=
 /htmlPauseRoll/pb_block_controller.js?
@@ -21285,7 +21373,6 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /blockadblock.git
 /api/analytics/view.json
 /Ping.aspx
-/fonts/ssj.jpg
 /adoric.js
 /ping.gif
 /adframestats
@@ -21442,7 +21529,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /__utm.gif
 /_utm.gif
 /generate_204/
-/images/public/devicead/t/r/a/m/daartpralbumart_500W_500H.jpg
+/images/public/devicead/$image
 /images/BottomCol2Back2.gif
 /aboutadtextonline.php.html
 /getadpack.html
@@ -21462,16 +21549,13 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /adbackground.html
 /plugins/feedback.php
 /ajax/bz
-/widget/pandawidget/5b03409417e08-532.js
 /game-tracking-views.ajax
-/assets.pagefair.com/adimaged/textlink-ads.jpg
-/modules/fed-newsfeed/850424a9481/bundle.js
+/adimaged/textlink-ads.^$image
 /wp-content/plugins/dfm-notifications/js/webpush.js?
 /ki.js/53782/bH0qoo.js
 /JS/cos-chatbot-1.10.min.js
 /JS/botchat-es5-0.14.0.js
 /dcs.gif?
-/vaylihfrsojo9mOCkuqinOmchogapq
 /recImpression.html
 /serveAds.php
 /showads.v2.js
@@ -21648,6 +21732,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /?track=ad
 /golink?url=
 /phantomPopunder.js
+/ads-sexlink.
 -google-tag-
 -ad-
 -v6exp3-
@@ -21677,6 +21762,7 @@ _fingerprint
 videoiq-*
 tds_campaign=
 mas_jump_
+*#$#hide-if-contains-visible-text/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама|Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/
 *##:has-text(/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама/)
 *##:has-text(/^Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/)
 ##.js-cookie-modal
@@ -21757,9 +21843,12 @@ mas_jump_
 ###comments_ad
 ##.admax-ads
 ##.adslot__mpu
+##.gallery-ads.gallery-ads-active
+###ezmobfooter
 ###content > section.container.advertisement.advt
 ##[data-google-query-id]
 ##[id^="bestgoogleadsense-"]
+##[id^="blogTwoAD"]
 ##div[id^="mainads"]
 ##div[id^="GOOGLE_ADS_"]
 ##div[id^="div-gpt-ad"]
@@ -21816,7 +21905,7 @@ mas_jump_
 ##a[href*="/advert/"]
 ##a[href*="/avt/"]
 ! ##[onclick^="ga"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
-! ##[onclick^="ga('send', 'event', 'outbound', 'click',"] ((Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
+! ##[onclick^="ga('send', 'event', 'outbound', 'click',"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
 ##[onclick=*"track"]
 ##[onclick=*"adclick"]
 ##[onclick=*"/ping_url/"]
