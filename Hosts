@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1173
+! Version: 1174
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 23.7K
-! Last Modified: Sunday, November 10, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 25.0K
+! Last Modified: Monday, November 11, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -73,6 +73,9 @@ pandora.com$genericblock
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
+
+! Watch To Remove If Goes Down/Offline
+0.0.0.0 best4708.nonametds39.live
 
 ! Don't Add Because Of Breakage
 !gdmf.apple.com (iOS updates)
@@ -174,7 +177,25 @@ digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunade
 *##+js(abort-current-inline-script, jQuery, adblock)
 *##+js(abort-current-inline-script.js, adblockinfo)
 *##+js(abort-current-inline-script.js, ad-blocker)
+*##+js(abort-current-inline-script, adsBlocked)
 *##+js(setTimeout-defuser.js, displayAdBlockedVideo)
+*##^script:has-text(userABMessage)
+*##^script:has-text(app_vars.force_disable_adblock)
+*##^script:has-text(AaDetector)
+*##^script:has-text(KBB.DetectBlockerExtensions)
+*##^script:has-text(jQuery.adblock)
+*##^script:has-text(ab_detection)
+*##^script:has-text(AntiAd.check)
+*##^script:has-text(adblock)
+*##^script:has-text(isAdblockOn)
+*##^script:has-text(adBlockDetected)
+*##^script:has-text(AdBlockDetectorWorkaround)
+*##^script:has-text(showAdBlockerOverlay)
+*##^script:has-text(KillAdBlock)
+*##^script:has-text(IS_ADBLOCK)
+*##^script:has-text(adblockinfo)
+*##^script:has-text(ad-blocker)
+*##^script:has-text(adsBlocked)
 *##+js(set, adblock, false)
 *##+js(set, ads, true)
 *##img[onload="AntiAd.check(this)"]
@@ -345,6 +366,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 yoütu.be
 0.0.0.0 yoütübe.co
 0.0.0.0 yoütübe.com
+0.0.0.0 yȯutube.com
 0.0.0.0 xda-developers.io
 0.0.0.0 starbucksiswrong.com
 0.0.0.0 starbucksisbadforyou.com
@@ -1233,6 +1255,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 adxadserv.com
+0.0.0.0 adxadtracker.com
+0.0.0.0 adextrem.com
+0.0.0.0 adsanityplugin.com
+0.0.0.0 analytics.icons8.com
 0.0.0.0 *ad.kinstacdn.com
 0.0.0.0 ad.mi.com
 0.0.0.0 aiclean.us.cloud.360safe.com
@@ -3971,6 +3998,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 beacon.cracked.com
 0.0.0.0 bnrdom.com
 0.0.0.0 bdapi.ads.oppomobile.com
 0.0.0.0 brsflia.tk
@@ -4888,6 +4916,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cloudfrale.com
+0.0.0.0 cdnapisec.kaltura.com
+0.0.0.0 certona.com
+0.0.0.0 conductrics.com
 0.0.0.0 ce04.com
 0.0.0.0 customerevents.netflix.com
 0.0.0.0 collector.deepmetrix.com
@@ -5943,6 +5975,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 d99p2t2nlodcbhs4ghmoql4ij.litix.io
+0.0.0.0 detectadblock.com
+0.0.0.0 dianomi.com
+0.0.0.0 dynbeacon.global.ssl.fastly.net
 0.0.0.0 data.ads.oppomobile.com
 0.0.0.0 daopush.com
 0.0.0.0 datspush.com
@@ -6638,6 +6674,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 eoredi.com
 0.0.0.0 e.mi.com
 0.0.0.0 emsecure.net
 0.0.0.0 evadav.com
@@ -7032,6 +7069,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 footprint.ne
+0.0.0.0 freewheel.tv
 0.0.0.0 fcs.ovh
 0.0.0.0 futureplc.slgnt.eu
 0.0.0.0 fanimg.site
@@ -7310,6 +7349,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 go.strpjmp.com
+0.0.0.0 gaps.com
+0.0.0.0 gigya.com
 0.0.0.0 geohawk.co.uk
 0.0.0.0 gloussuz.com
 0.0.0.0 grooksom.com
@@ -7688,6 +7730,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hrahdmon.com
+0.0.0.0 hlserve.com
 0.0.0.0 httpdns.push.oppomobile.com
 0.0.0.0 href.li$third-party
 0.0.0.0 hypercentage.com
@@ -8716,6 +8760,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kaltura.com
+0.0.0.0 krunkerkr.xyz
 0.0.0.0 kintura.com
 0.0.0.0 kma.biz
 0.0.0.0 klclick.com
@@ -9503,6 +9549,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 litix.io
 0.0.0.0 log.kajicam.com
 0.0.0.0 leads.su
 0.0.0.0 leadbit.com
@@ -9768,6 +9815,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mediacnt.pro
+0.0.0.0 madkudu.com
 0.0.0.0 mepodownload.mediatek.com
 0.0.0.0 mgepodownload.mediatek.com
 0.0.0.0 metrics.torproject.org
@@ -10370,6 +10419,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 networkmanag.com
 0.0.0.0 newad.ifeng.com
 0.0.0.0 nojsstats.appspot.com
 0.0.0.0 notifybrowser.com
@@ -10619,6 +10669,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 optinmonster.com
+0.0.0.0 origin.ih.constantcontact.com
 0.0.0.0 offerseven.com
 0.0.0.0 ord37s08-in-f8.1e100.net
 0.0.0.0 offers-tracking.com
@@ -10814,6 +10866,12 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 purpreine.co
+0.0.0.0 poolgmsd.com
+0.0.0.0 producthunt.com$third-party
+0.0.0.0 pixel.nymag.com
+0.0.0.0 prweb.com
+0.0.0.0 performance.typekit.net
 0.0.0.0 pushapi.lenovomm.com
 0.0.0.0 p.adpdx.com
 0.0.0.0 pushsar.com
@@ -11782,6 +11840,14 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 strpjmp.com
+0.0.0.0 stat.networkmanag.com
+0.0.0.0 statisgeek.com
+0.0.0.0 syndicpop.com
+0.0.0.0 social.com
+0.0.0.0 salesforce.com
+0.0.0.0 sap.com
+0.0.0.0 sspinc.io
 0.0.0.0 scgraph.facebook.com
 0.0.0.0 susapi.lenovomm.com
 0.0.0.0 stats.mokeedev.com
@@ -13063,6 +13129,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 traffichaus.com
+0.0.0.0 tracking-plan.herokuapp.com
+0.0.0.0 tempo.inc.com
+0.0.0.0 triblio.com
+0.0.0.0 tribl.io
 0.0.0.0 tls.telemetry.swe.quicinc.com
 0.0.0.0 telemetry.swe.quicinc.com
 0.0.0.0 tigger-citadel.touchtype-fluency.com
@@ -14022,6 +14093,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wpu.sh
 0.0.0.0 wowtrk.com
 0.0.0.0 whalecash.com
 0.0.0.0 web.vortex.data.msn.com
@@ -14366,6 +14438,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xineday.com
 0.0.0.0 xxxbannerswap.com
 0.0.0.0 xtremeserve.xyz
 0.0.0.0 xplosion.de
@@ -21049,6 +21122,53 @@ helpfulprofessor.com###elementor-popup-modal-5773
 helpfulprofessor.com##.adtester-container-103.adtester-container.box-2.ezoic-ad
 helpfulprofessor.com##.adtester-container-105.adtester-container.box-1.ezoic-ad
 helpfulprofessor.com##.elementor-top-column.elementor-col-100.elementor-column.elementor-element-527f7c1.elementor-element > .elementor-element-populated.elementor-column-wrap
+||girlfuckshorse.net/2right.html$subdocument
+www.girlfuckshorse.net##.bbgToTcGradient.sectionTitle
+www.girlfuckshorse.net###rightBanner
+en.luxuretv.com###pub72890
+en.luxuretv.com###right2
+zootube1.com##div.content_aside:nth-of-type(3)
+femefun.com##.media_spot_box
+||aporntv.com/apor/desk/leaderboard.php$subdocument
+crowdin.com##.cc-color-override-1528406573.cc-right.cc-bottom.cc-theme-classic.cc-type-info.cc-floating.cc-window
+apa.org##.horizontal-icon-bar
+psychiatry.org###modal
+findip-address.com##.cc-window.cc-floating.cc-type-info.cc-theme-block.cc-bottom.cc-left.cc-color-override-530831885
+robtex.com##.cookieclass
+pastebin.com###abrpm
+pastebin.com###abrpm3
+designmodo.com##.dialogContent
+designmodo.com##.info-box
+wpbeginner.com##.singleadthumbcontainer
+hongkiat.com###promote-bottom-infinity-next
+hongkiat.com##.promote-unit.promote-unit--content-infinity-next.display-none
+xaviesteve.com###cookie-law-div
+reuters.com##.RightRail_sticky:abp-has(.DPSlot_slot)
+aperionaudio.com###cmApp_modalBackground
+aperionaudio.com###cmApp_signupContainer
+aperionaudio.com##.cmApp_signupContainer.cmApp_hasSubHeader.cmApp_lightbox
+khou.com##.notifications
+khou.com###taboola-below-article-thumbnails-2nd-0
+nos.twnsnd.co##.tmblr-iframe.tmblr-iframe--follow-teaser.open
+nos.twnsnd.co##iframe[src="about:blank"]
+unsplash.com##._2qskt
+pxhere.com##.policy-info
+pxhere.com##.adv300
+4channel.org##.container-eaed4d55144c813097d5aa84a204a7c2__bn-container
+||cdn.shopifycloud.com/messenger_commerce/
+pornhub.com###mobileContainer > div.pageWrapper.homePage.fullWidth:nth-child(2) > div.adContainer.clearfix.ad-tabSplit:nth-child(11)
+pornhub.com###mobileContainer > div.pageWrapper.homePage.fullWidth:nth-child(2) > div.adContainer.clearfix.ad-tabSplit:nth-child(10)
+pornhub.com###mobileContainer > div.adContainer.clearfix:first-child
+duckduckgo.com###links_wrapper > div.results--main:first-child > div.ia-modules.js-ia-modules:nth-child(4)
+dell.com###contact-drawer
+stacksocial.com##.in.modal-backdrop
+||shops1.stackassets.com/assets/email_capture_modal/$image
+stacksocial.com##.clearfix.modal-body
+stacksocial.com###email-capture-modal > .modal-dialog > .modal-content
+aruljohn.com###coocon
+||pastebin.com/pba/cube_safe.php
+||pastebin.com/pba/sky_safe.php
+||jtvnw.net$domain=yourgames.io
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -21745,6 +21865,13 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /golink?url=
 /phantomPopunder.js
 /ads-sexlink.
+/afu.php?zoneid
+/widget/ip/
+/v2internal/viewerimpressions
+/_/jserror
+/StatsService.RecordStats
+/QuotaService.RecordEvent
+/transparent-pixel$image
 -google-tag-
 -ad-
 -v6exp3-
@@ -21766,6 +21893,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 _WebBannerAd
 _fingerprint
 .fingerprint-
+.adi.$script
 -action/fingerprint
 -sponsored-outbrain-
 -ad-powerinbox-inline-
@@ -21788,6 +21916,12 @@ mas_jump_
 ##.cookies__banner
 ##.js-cookies-banner
 ##.cookies-banner-shown
+###gdpr-visitor-consent-banner
+##.common_google_ads
+##.taboola
+###cookie-alert
+###vz_im_ad
+###player > .adver
 ###eu-cookie-law
 ###cookiebar
 ###cookie-bar
@@ -21865,6 +21999,7 @@ mas_jump_
 ##div[id^="GOOGLE_ADS_"]
 ##div[id^="div-gpt-ad"]
 ##div[class^="adsbygoogle"]
+##div[class*="ad_billboard"]
 ##img[alt="sponsored"]
 ##img[alt="sponsor"]
 ##img[alt="Sponsored"]
@@ -21914,6 +22049,7 @@ mas_jump_
 ##a[href*="carbonads.net"]
 ##a[href*="buysellads.net"]
 ##a[href*="orange2258.com"]
+##a[href*="dianomi.com/click.epl"]
 ##a[href*="/advert/"]
 ##a[href*="/avt/"]
 ! ##[onclick^="ga"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
