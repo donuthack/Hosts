@@ -1,7 +1,7 @@
-[Adblock Plus 2.0]
+[Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 11
+! Version: 12
 
 ! AddToAny
 ||addtoany.com
@@ -146,6 +146,34 @@
 ||mail.com
 ||zoho.com/mail
 ||my.juno.com
+
+! Comments
+||facebook.com/plugins/comments.php
+||youtube.com/live_chat_fragments_ajax?
+||youtube.com/comment_service_ajax?
+||disqus.com
+##.chat-widget__messages-area
+##.chat
+###chat
+##.chat-widget
+###chat-widget
+###disqus_thread
+###dsq1
+###dsq2
+##.disqus
+###fyre-comment-count
+###powered_by_livefyre_new
+###comments
+##.comments
+##.commentbubble
+##.entry-comments
+##.comment-entry
+##.comment-count
+##.commentHolder
+###commentContainer
+##.commentDisclaimer
+##.articleComments
+##.comments_icon
 
 ! Buttons / Share Links
 ##a[href^="reddit.com/submit?"]
@@ -330,3 +358,4 @@ share_
 www.dailymail.co.uk##.dms-puff
 www.htmlcsscolor.com##.maincontent.mainpanel.container > div:nth-of-type(4) > .pull-right
 foxnews.com##.social-icons
+app.tradeoff.com##.trading-results__header-actions
