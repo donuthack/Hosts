@@ -43,7 +43,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 #### Filters Adaptation - <a href="https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2FCybo1927%2FHosts%2Fmaster%2FFilters%2520Adaptation&amp;title=Cybo's%20Hosts">Subscribe</a>
 * AdBlock
-* Adblock Plus 2.0+
+* Adblock Plus 3.0+
 * AdGuard
 * AdNauseam
 * Nano Adblocker
@@ -69,7 +69,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 #### /Anti/Anti Fonts
 * AdBlock
-* Adblock Plus 2.0+
+* Adblock Plus 3.0+
 * AdGuard
 * AdNauseam
 * Nano Adblocker
@@ -78,7 +78,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 #### /Anti/Anti Maps
 * AdBlock
-* Adblock Plus 2.0+
+* Adblock Plus 3.0+
 * AdGuard
 * AdNauseam
 * Nano Adblocker
@@ -87,7 +87,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 #### /Anti/Anti Social
 * AdBlock
-* Adblock Plus 2.0+
+* Adblock Plus 3.0+
 * AdGuard
 * AdNauseam
 * Nano Adblocker
@@ -139,7 +139,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 
 #### /Other Formats/Extra Format [Adblock Plus]
 * AdBlock
-* Adblock Plus 2.0+
+* Adblock Plus 3.0+
 * AdGuard
 * AdNauseam
 * Nano Adblocker
