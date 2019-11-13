@@ -147,8 +147,8 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * uBlock Origin
 
 #### Ultimate Protection
-* AdGuard (Somewhat, preferred to use uBlock Origin)
-* uBlock Origin
+* AdGuard (Somewhat, Best to use in uBlock Origin as well)
+* uBlock Origin (Somewhat, Best to use in AdGuard as well)
 
 ## Useful Stuffs
 * [`Blokada`](https://blokada.org) - Block ads on Android devices
