@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 14
+! Version: 14-1
 ! This list was made to block trackers that WILL BREAK some sites
-! Number Of Ad Services, Trackers, And Malware Blocked: 48K (Give Or Take A Little)
-! Last Modified: Saturday, November 9, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 50K (Give Or Take A Little)
+! Last Modified: Tuesday, November 12, 2019
 
 !#include Hosts
 !#include Anti/Anti%20Alphabet
@@ -151,6 +151,7 @@ p42-quota.icloud.com
 p42-availability.icloud.com
 static.gc.apple.com
 wu-calculator.apple.com
+! ---------------------------------------------------------------------------------------------------
 
 /analytics/
 /evercookie/
