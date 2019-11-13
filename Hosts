@@ -16,10 +16,10 @@ ff02::3 ip6-allhosts
 
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1174-1
+! Version: 1175
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 21.8K
-! Last Modified: Monday, November 11, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 22K
+! Last Modified: Tuesday, November 12, 2019
 
 ! Unbreak
 @@$generichide,domain=reddit.com
@@ -74,9 +74,6 @@ pandora.com$genericblock
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
 
-! Watch To Remove If Goes Down/Offline
-0.0.0.0 best4708.nonametds39.live
-
 ! Don't Add Because Of Breakage
 !gdmf.apple.com (iOS updates)
 !gdmf.apple.com.akadns.net (iOS updates)
@@ -99,6 +96,7 @@ pandora.com$genericblock
 !tr.rbxcdn.com (Breaks Roblox Profile Pictures)
 !presence.roblox.com (Breaks Roblox Friends and Chat)
 !rover.ebay.com (Breaks External Linking)
+!graph.facebook.com (Appears To Break The Facebook App)
 
 ! RegEX Stuffs
 ! Block insecure (HTTP) popups
@@ -1255,6 +1253,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 ads2.iid.jp
+0.0.0.0 ad.dmm.com
+0.0.0.0 analytics.kidoz.net
 0.0.0.0 adxadserv.com
 0.0.0.0 adxadtracker.com
 0.0.0.0 adextrem.com
@@ -3998,6 +3999,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 best4708.nonametds39.live
+0.0.0.0 blueconic.net
+0.0.0.0 b.stats.paypal.com
 0.0.0.0 beacon.cracked.com
 0.0.0.0 bnrdom.com
 0.0.0.0 bdapi.ads.oppomobile.com
@@ -4916,6 +4920,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cophys.xyz
+0.0.0.0 cdn15.com
+0.0.0.0 click.dictionary.com
+0.0.0.0 click.aliyun.com
 0.0.0.0 cloudfrale.com
 0.0.0.0 cdnapisec.kaltura.com
 0.0.0.0 certona.com
@@ -5975,6 +5983,21 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 doublepimp.com$popup
+0.0.0.0 deliver.ads2.iid.jp
+0.0.0.0 deliver.ads2.iid.jp
+0.0.0.0 device-metrics-us-1.amazon.com
+0.0.0.0 device-metrics-us-2.amazon.com
+0.0.0.0 device-metrics-us-3.amazon.com
+0.0.0.0 device-metrics-us-4.amazon.com
+0.0.0.0 device-metrics-us-5.amazon.com
+0.0.0.0 device-metrics-us-6.amazon.com
+0.0.0.0 device-metrics-us-7.amazon.com
+0.0.0.0 device-metrics-us-8.amazon.com
+0.0.0.0 device-metrics-us-9.amazon.com
+0.0.0.0 device-metrics-us-10.amazon.com
+0.0.0.0 device-metrics-us-11.amazon.com
+0.0.0.0 device-metrics-us-12.amazon.com
 0.0.0.0 d99p2t2nlodcbhs4ghmoql4ij.litix.io
 0.0.0.0 detectadblock.com
 0.0.0.0 dianomi.com
@@ -6674,6 +6697,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 essayprofit.com
 0.0.0.0 eoredi.com
 0.0.0.0 e.mi.com
 0.0.0.0 emsecure.net
@@ -7069,6 +7093,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fp.msedge.net
 0.0.0.0 footprint.ne
 0.0.0.0 freewheel.tv
 0.0.0.0 fcs.ovh
@@ -7349,6 +7374,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gstatic-as.pro
 0.0.0.0 go.strpjmp.com
 0.0.0.0 gaps.com
 0.0.0.0 gigya.com
@@ -7704,7 +7730,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 gothamistllc.com
 0.0.0.0 gaug.es
 0.0.0.0 get.whitesmoke.com
-0.0.0.0 graph.facebook.com
 0.0.0.0 graph.instagram.com
 0.0.0.0 gubagoo.io
 0.0.0.0 gramombird.com
@@ -7730,6 +7755,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hrahdmon.com
 0.0.0.0 hrahdmon.com
 0.0.0.0 hlserve.com
 0.0.0.0 httpdns.push.oppomobile.com
@@ -7959,6 +7985,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 insightsprod.zelfy.com
 0.0.0.0 ichnaea.netflix.com
 0.0.0.0 ichnaea-web.netflix.com
 0.0.0.0 istripper.com$third-party
@@ -9549,6 +9576,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 link-a.net$third-party
+0.0.0.0 luckypushh.com
 0.0.0.0 litix.io
 0.0.0.0 log.kajicam.com
 0.0.0.0 leads.su
@@ -9815,6 +9844,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mini5-1.opera-mini.net
+0.0.0.0 mdlhzknv.com
+0.0.0.0 mia-chat.com
 0.0.0.0 mediacnt.pro
 0.0.0.0 madkudu.com
 0.0.0.0 mepodownload.mediatek.com
@@ -10419,6 +10451,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nogerefron.info
 0.0.0.0 networkmanag.com
 0.0.0.0 newad.ifeng.com
 0.0.0.0 nojsstats.appspot.com
@@ -10866,8 +10899,12 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 plexapp.com
+0.0.0.0 plex.r.worldssl.net
+0.0.0.0 pbprof.com
 0.0.0.0 purpreine.co
 0.0.0.0 poolgmsd.com
+0.0.0.0 pornoneverdie.com$third-party
 0.0.0.0 producthunt.com$third-party
 0.0.0.0 pixel.nymag.com
 0.0.0.0 prweb.com
@@ -11527,6 +11564,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 razeraqrassm.info
+0.0.0.0 ru.essayprofit.com
 0.0.0.0 richpush.co
 0.0.0.0 refpa.top
 0.0.0.0 ryte.com
@@ -11840,6 +11879,15 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 stripchat.com$third-party
+0.0.0.0 servingmillions.com
+0.0.0.0 sancdn.net
+0.0.0.0 spotx.tv
+0.0.0.0 spotx.tv
+0.0.0.0 sitecheck1.opera.com
+0.0.0.0 sitecheck2.opera.com
+0.0.0.0 suggestv.io
+0.0.0.0 stripst.com
 0.0.0.0 strpjmp.com
 0.0.0.0 stat.networkmanag.com
 0.0.0.0 statisgeek.com
@@ -13129,6 +13177,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tcwcsaddht.com
 0.0.0.0 traffichaus.com
 0.0.0.0 tracking-plan.herokuapp.com
 0.0.0.0 tempo.inc.com
@@ -13920,6 +13969,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vidsrev.com
+0.0.0.0 videodelivery.net$domain=reuters.com
 0.0.0.0 virtuagirl.com$third-party
 0.0.0.0 virtuaguy.com$third-party
 0.0.0.0 virtuagirlhd.com$third-party
@@ -14093,6 +14144,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 webclicks24.com
 0.0.0.0 wpu.sh
 0.0.0.0 wowtrk.com
 0.0.0.0 whalecash.com
@@ -14438,6 +14490,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xclick24.com
 0.0.0.0 xineday.com
 0.0.0.0 xxxbannerswap.com
 0.0.0.0 xtremeserve.xyz
@@ -14505,6 +14558,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 xxxwebtraffic.com
 
 !Y
+0.0.0.0 ya-counter.ru
 0.0.0.0 youview.io
 0.0.0.0 yengo.com
 0.0.0.0 yavli.com
@@ -14664,6 +14718,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zelfy.com
 0.0.0.0 ziyun.com.cn$third-party
 0.0.0.0 zeropark.com
 0.0.0.0 zilliontoolkitusa.info
@@ -21169,6 +21224,94 @@ aruljohn.com###coocon
 ||pastebin.com/pba/cube_safe.php
 ||pastebin.com/pba/sky_safe.php
 ||jtvnw.net$domain=yourgames.io
+rbreezy.net###player > div:first-child
+t-i-g-h-t.com###post-2794\ clearfix > article.entry-wrap > div.entry-main:first-child > div.entry-content.clearfix:nth-child(2) > div.code-block.code-block-2:nth-child(3)
+t-i-g-h-t.com###post-2794\ clearfix > article.entry-wrap > div.entry-main:first-child > div.entry-content.clearfix:nth-child(2) > div.code-block.code-block-4:nth-child(4)
+hclips.com##div.wrapper-holder:nth-child(8) > div.wrapper.wrapper-no-padding:last-child > div.layout:nth-child(2) > div.video:first-child > div.sidebar:last-child > div:nth-child(2) > div.adv-box-holder > div.fel-sbar > div.video-adv
+extremetube.com##div.bkg-filter-straight:nth-child(5) > div.attentionMsg:nth-child(2)
+extremetube.com###zone_30_site_12_
+extremetube.com###video-box > div:nth-child(2)
+extremetube.com###video-box > div.footer_cookie_policy.js-cookie-policy.noPopunder:nth-child(18) > div.footer_cookie_policy__announcement
+truthordarepics.com##center:nth-child(2) > table > tbody > tr > td > center:last-child > font:first-child > center:nth-child(17)
+babes-and-stuff.com###text-5 > div.textwidget > p
+perfectnaked.com###main-content > div:nth-child(5) > p:first-child
+porn18videos.com##.playerRight
+www.tube8.com##.col-3-lg.col-4-md.col-4
+www.tube8.com##.footerBanner
+www.heavy-r.com###M424171ScriptRootC722736
+xhamster.com##.rendered.horizontal.as-width-wrap.wil-cams-widget
+xhamster.com##.no-popunder.cookie-announce.bottom-announce
+xhamster.com##.no-popunder.wil-sponsor-banner
+||images-assets-ht.project1content.com/Sexyhub/Tour/*/5d*p$image
+||chaturbate.com/in/?track
+||www.amateurpicpost.com/app-spot-1.php$subdocument
+||www.amateurpicpost.com/app-spot-2.php$subdocument
+||www.amateurpicpost.com/app-spot-3.php$subdocument
+||www.amateurpicpost.com/app-spot-4.php$subdocument
+||www.amateurpicpost.com/app-spot-cl.php$subdocument
+||www.amateurpicpost.com/app-spot-cb.php$subdocument
+||www.amateurpicpost.com/app-spot-af.php$subdocument
+www.realgfporn.com##.banner-video-right.pull-right
+www.realgfporn.com##.video-bottom-a.video-container.content-container
+www.realgfporn.com##div.content-container:nth-of-type(16)
+motherless.com##.control-box > .row > .col-md-12
+www.sensualmothers.com##.bottomadv
+www.sensualmothers.com##.adv
+www.celebjihad.com##[href^="https://go.celebjihad.live/smartpop/"]
+||adultgames.fun$third-party
+||bignaturaltitties.net/jss/qrc_agent.min.js
+||bignaturaltitties.net/_ad
+bignaturaltitties.net###parrot
+bignaturaltitties.net###embed-overlay
+www.yooaudio.com##[href="mailto:419651715@qq.com"]
+www.yooaudio.com##.relative.customerServiceType-wechat
+kahoot.it##.notification-bar__NotificationBar-uw7wkb-0.gzHyVq
+breitbart.com##.form_div
+petersweden.com##.x-el.x-el-section.c1-1.c1-2.c1-7d.c1-h.c1-i.c1-b.c1-c.c1-k.c1-l.c1-d.c1-e.x-d-ux
+facebook.###mobile_login_bar
+addons.opera.com###overlay
+reuters.com##.dianomi-header-text
+reuters.com###dv_44729
+reuters.com##.dianomi_video
+edubirdie.com##.cookies-notify
+seotoolsfreeonline.com##.well
+||p.dmm.com/p/bnr/ad/rotation/
+www.dmm.com##.m-rotate__main
+www.dmm.com###fn-rotate
+||p.dmm.com/p/bnr/ad/$image
+www.dmm.com##.clear
+yahoo.com###act-labs-initial-fade > div
+yahoo.com###act-labs-video-holder
+bing.com$domain=rbreezy.net
+google.com$domain=realgfporn.com
+rewritertools.com##.col-md-10.col-xs-12.add
+quillbot.com##.feedback-text
+quillbot.com##.feedback-first-box
+csgenerator.com##.horizontalAdTop4
+csgenerator.com##.horizontalAdTop2
+csgenerator.com##.horizontalAdBottom
+csgenerator.com##.horizontalAdBottom2
+||smartlock.google.com/iframe/request?client=http$third-party
+||rewritertools.com/images/ad.jpg
+||quillbot.com/quillbot_anim/quillAnim.html
+||googleapis.com/maps/api/js/StatsService
+www.prepostseo.com##.bg-dark
+www.prepostseo.com##.rbs.text16.text-center.clear.col-md-12
+www.duplichecker.com##.cookies_bar.navbar-fixed-bottom.navbar-default.navbar
+www.duplichecker.com###bio_ep_bg
+www.duplichecker.com###bio_ep
+||smallseotools.com/mazak_ae.html
+smallseotools.com###bio_ep_bg
+smallseotools.com##.col-md-12.text-center.love_wraper
+smallseotools.com##.home_page_banner
+smallseotools.com###bio_ep
+smallseotools.com##.pic3
+smallseotools.com##.medium_.love_wraper.text-center
+smallseotools.com##.sidebar_adds.p5.box_shadow_border.sticky.mn
+smallseotools.com##.pic1
+smallseotools.com##.love_wraper.text-center
+||graph.facebook.com/*/activities?access_token=&event=
+||graph.facebook.com/*=supports_implicit_sdk_logging
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -21216,6 +21359,14 @@ wpad.home
 ||150.32.234.18.in-addr.arpa
 
 ! AdGuard
+
+! Simplified Domains Incorrectly Blocks This -----------------
+@@||smallseotools.com^$important
+! ------------------------------------------------------------
+
+! https://forum.adguard.com/index.php?threads/http-rt-pornhub-com.12443/
+pornhub.com#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
+
 dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
@@ -21246,7 +21397,6 @@ $cookie=/_landing_page[a-zA-Z_.]|http_referrer[a-zA-Z_.]|_device_id[a-zA-Z_.]|ha
 ||store.steampowered.*$cookie,domain=steam.tv
 ||yahoo.com$cookie=/apeaf|ucs|thamba|B|flash_enabled/
 ||facebook.com$cookie=/datr|fr|wd/
-||paypal.com$cookie=/cookie_check/
 ||github.com$cookie=/tz/
 ! End Anti Tracking Cookies
 $webrtc,domain=infoip.io|xda-developers.com|vimeo.com|4chan.org|8ch.net|kiwifarms.net|voat.co|apple.com|google.com|youtube.com|lifewire.com|github.com|gitlab.com|pandora.com|spotify.com
@@ -21872,6 +22022,12 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /StatsService.RecordStats
 /QuotaService.RecordEvent
 /transparent-pixel$image
+/crosspromo/
+/ads.json
+/ad_manager
+/infos.ads?
+/gtag/analytics.
+/gtag.js
 -google-tag-
 -ad-
 -v6exp3-
@@ -21884,6 +22040,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 ?adname=
 ?ga_action
 ?tracker=
+?zoneid=$popup
 =googleanalytics
 =adunit&
 =cron.task.core.tidy_sessions
@@ -21992,9 +22149,21 @@ mas_jump_
 ##.gallery-ads.gallery-ads-active
 ###ezmobfooter
 ###content > section.container.advertisement.advt
+##.section-header-sponsor
+##.block-home-featured-sponsors
+##.block-middle-sponsor
+##div.section-home-row-sponsor
+##.component-sponsor
+##.wide.ad
+##.side-advertisement
+##.mc-ad-chrome
+##.paywall-fade
 ##[data-google-query-id]
 ##[id^="bestgoogleadsense-"]
 ##[id^="blogTwoAD"]
+##[id*="gdpr"]
+##[class*="gdpr"]
+##[class*=".ad-printservice."]
 ##div[id^="mainads"]
 ##div[id^="GOOGLE_ADS_"]
 ##div[id^="div-gpt-ad"]
