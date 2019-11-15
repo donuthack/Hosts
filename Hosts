@@ -1,27 +1,15 @@
-! Needed for Windows host
-127.0.0.1 localhost
-127.0.0.1 localhost.localdomain
-127.0.0.1 local
-255.255.255.255 broadcasthost
-::1 localhost
-::1 ip6-localhost
-::1 ip6-loopback
-fe80::1%lo0 localhost
-ff00::0 ip6-localnet
-ff00::0 ip6-mcastprefix
-ff02::1 ip6-allnodes
-ff02::2 ip6-allrouters
-ff02::3 ip6-allhosts
-0.0.0.0 0.0.0.0
-
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1175
+! Version: 1176
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 22K
-! Last Modified: Tuesday, November 12, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 22.2K
+! Last Modified: Thursday, November 14, 2019
 
 ! Unbreak
+pandora.com#@#^script:has-text(ideoAds)
+pandora.com#@#^script:has-text(udioAds)
+pandora.com#@#^script:has-text(AdBlock)
+pandora.com#@#[class$="Ads"]:not(html):not(body)
 @@$generichide,domain=reddit.com
 reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 @@||external-preview.redd.it/*.gif
@@ -103,8 +91,8 @@ pandora.com$genericblock
 ! /^http:/$popup,domain=~pearsonrealize.com|~pearsoncmg.com - Removed because it breaks way too many things
 ! Block insecure (HTTP) popunders on supported adblockers
 ! /^http:/$popunder - Removed because it breaks way too many things
-! Block IP addresses on insecure domains
-^http*:\/\/([0-9]{1,3}\.){3}[0-9]{1,3}$domain=http://
+! Block Insecure Third-Party IP Addresses
+/^http:\/\/(www\.)?([0-9]{1,3}\.){3,4}(:*)?/$third-party
 ! Screen resolution tracker
 /[&]s(screen)?[=][0-9]{3,}x[0-9]{3,}[&]/
 ! Platform Tracker
@@ -210,6 +198,43 @@ com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblocker = 
 com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adBlock = false;
 com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.adblock = 'no';
 com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ab = false;
+#%#window.blockAdBlock = function() {};
+#%#fuckAdBlock = function() {};
+#%#AG_abortInlineScript(/Please disable "ad blocker"/);
+#%#Object.defineProperty(window, 'adCheck', { value: 0 });
+#%#AG_defineProperty('jQuery.adblock', {value: false});
+#%#Object.defineProperty(window,'adCheck',{value:0});
+! Generic script:has-text
+*##^script:has-text(GoogleAnalyticsObject)
+*##^script:has-text(adsbygoogle)
+*##^script:has-text(googletag)
+*##^script:has-text(google_tag_params)
+*##^script:has-text(googletagmanager)
+*##^script:has-text(_gaq.push)
+*##^script:has-text(ga.js)
+*##^script:has-text(google-analytics)
+*##^script:has-text(google.ads)
+*##^script:has-text(google_ad_client)
+*##^script:has-text(google_ad_height)
+*##^script:has-text(google_ad_slot)
+*##^script:has-text(google_ad_width)
+*##^script:has-text(google_ads)
+*##^script:has-text(google_conversion_id)
+*##^script:has-text(google_remarketing_only)
+*##^script:has-text(gpt-ad)
+*##^script:has-text("gpt-ad")
+*##^script:has-text(popads)
+*##^script:has-text(ad-tag)
+*##^script:has-text(adtag)
+*##^script:has-text(deployads)
+*##^script:has-text(displayPlayerAdv)
+*##^script:has-text(statsLog)
+*##^script:has-text(clickTrackerInit)
+*##^script:has-text(clicktracker)
+*##^script:has-text(clicktale)
+*##^script:has-text(freegeoip)
+*##^script:has-text(Ya.Metrika)
+*##^script:has-text(cookieAlert)
 ! Defuse and sanatize the Fingerprintjs2 object
 *##+js(abort-on-property-write.js, Fingerprint2)
 ! Keep adf.ly links from trying to make you turn off your adblocker
@@ -349,6 +374,7 @@ veedif.com##+js(set-constant, adBlocker, false)
 0.0.0.0 tenbai-no.jp
 
 ! IP Grabbers
+0.0.0.0 skypeipresolver.net
 0.0.0.0 www.spylink.net
 0.0.0.0 spylink.net
 0.0.0.0 ipstat.com
@@ -1253,6 +1279,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 alliance4creativity.com
+0.0.0.0 ads.freesex.pw
+0.0.0.0 a.es-meetic.club
+0.0.0.0 appsflyer.com
 0.0.0.0 ads2.iid.jp
 0.0.0.0 ad.dmm.com
 0.0.0.0 analytics.kidoz.net
@@ -3999,6 +4029,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 btkxogjoxtd.com
 0.0.0.0 best4708.nonametds39.live
 0.0.0.0 blueconic.net
 0.0.0.0 b.stats.paypal.com
@@ -4920,6 +4951,12 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clprr.com
+0.0.0.0 cc.swiftype.com
+0.0.0.0 com-tohho.netmng.com
+0.0.0.0 cdn.resonate.com
+0.0.0.0 comm100.com
+0.0.0.0 clickbank.net
 0.0.0.0 cophys.xyz
 0.0.0.0 cdn15.com
 0.0.0.0 click.dictionary.com
@@ -6697,6 +6734,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 es-meetic.club
+0.0.0.0 epnt.ebay.com$third-party
+0.0.0.0 emxdgt.com
 0.0.0.0 essayprofit.com
 0.0.0.0 eoredi.com
 0.0.0.0 e.mi.com
@@ -7093,6 +7133,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fourchan.com
 0.0.0.0 fp.msedge.net
 0.0.0.0 footprint.ne
 0.0.0.0 freewheel.tv
@@ -7374,6 +7415,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 grtyv.com
 0.0.0.0 gstatic-as.pro
 0.0.0.0 go.strpjmp.com
 0.0.0.0 gaps.com
@@ -7755,6 +7797,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hxnbotlkxpkyt.com
+0.0.0.0 hbint.emxdgt.com
 0.0.0.0 hrahdmon.com
 0.0.0.0 hrahdmon.com
 0.0.0.0 hlserve.com
@@ -8787,6 +8831,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kfutdsjwtcvnpx.com
 0.0.0.0 kaltura.com
 0.0.0.0 krunkerkr.xyz
 0.0.0.0 kintura.com
@@ -10431,7 +10476,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 mojiva.com
 0.0.0.0 media.net
 0.0.0.0 mixi.media
-0.0.0.0 maps.googleapis.com
 0.0.0.0 mftracking.imfast.io
 0.0.0.0 mathtag.com
 0.0.0.0 mediamath.com
@@ -10451,6 +10495,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 netmng.com
 0.0.0.0 nogerefron.info
 0.0.0.0 networkmanag.com
 0.0.0.0 newad.ifeng.com
@@ -10702,6 +10747,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 onelink.me
 0.0.0.0 optinmonster.com
 0.0.0.0 origin.ih.constantcontact.com
 0.0.0.0 offerseven.com
@@ -10899,6 +10945,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 p.clprr.com
+0.0.0.0 pvclouds.com
 0.0.0.0 plexapp.com
 0.0.0.0 plex.r.worldssl.net
 0.0.0.0 pbprof.com
@@ -11564,6 +11612,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 ringlead.com
+0.0.0.0 resonate.com
 0.0.0.0 razeraqrassm.info
 0.0.0.0 ru.essayprofit.com
 0.0.0.0 richpush.co
@@ -11879,6 +11929,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 shen5511.com
 0.0.0.0 stripchat.com$third-party
 0.0.0.0 servingmillions.com
 0.0.0.0 sancdn.net
@@ -13177,6 +13228,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 t.grtyv.com
 0.0.0.0 tcwcsaddht.com
 0.0.0.0 traffichaus.com
 0.0.0.0 tracking-plan.herokuapp.com
@@ -14144,6 +14196,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wzismevwhqixlq.com
+0.0.0.0 watchingthat.net
 0.0.0.0 webclicks24.com
 0.0.0.0 wpu.sh
 0.0.0.0 wowtrk.com
@@ -14942,6 +14996,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 3b82.com
+0.0.0.0 22366.com
+0.0.0.0 80.211.148.176
 0.0.0.0 01counter.com
 0.0.0.0 8ixrxa2tnr.com
 0.0.0.0 3snet.ru
@@ -21312,6 +21369,68 @@ smallseotools.com##.pic1
 smallseotools.com##.love_wraper.text-center
 ||graph.facebook.com/*/activities?access_token=&event=
 ||graph.facebook.com/*=supports_implicit_sdk_logging
+foxnews.com##.dyna-ad-container.desktop.ng-scope
+foxnews.com##.search-directive.ng-scope.ad-content-item
+foxbusiness.com##.ad-container.desktop
+foxbusiness.com##.article-footer
+foxnews.com##.article-body a[href*="foxnews.com/apps-products"]
+foxbusiness.com##.article-body a[href*="foxbusiness.com/apps-products"]
+foxnews.com,foxbusiness.com##.article-body a[href*="onelink.me"]
+healthyplace.com##.text-center
+healthyplace.com###block-newsletterform
+healthyplace.com##.block.block-block-content.block-block-content49a1148a-ee89-4b50-a1f7-f349f52977ad.clearfix
+healthyplace.com##td[style="width: 300px;"]
+latimes.com##.met-flyout.met-rule-2700
+latimes.com##.Page-below
+businessinsider.com.au###adspot-970x250_970x90_728x90-pos1
+businessinsider.com.au##.adspot-970x250_970x90_728x90-pos1-container.leaderboard
+businessinsider.com.au##.leaderboard-container
+urbandictionary.com###UD_ROS_300x600_ATF_Flex
+urbandictionary.com###UD_ROS_728x90_ATF_Flex
+urbandictionary.com###Define_300x250_1
+mycelium.site##.adad.box-1.clearfix.m0a.mb25
+ibc.org##.notice
+||static.foxnews.com/static/orion/styles/img/fox-news/nation-promo/$image
+>[class][onclick*=".updateAnalyticsEvents"]
+chefkoch.de##.gujad-wrapper.u-desktop-only
+m.reolink.com###flashsale-ads-wrapper
+m.reolink.com##div.notice-cookies:first-child
+m.reolink.com###help-me-choose
+m.reolink.com###post-13598 > div.article-inner > div.entry-content.single-page:first-child > div.reo-blog-block:nth-child(26)
+insecam.org##div.container-fluid:nth-child(6) > div.grid-container:nth-child(11)
+cnsnews.com###imk728xFlexTop
+bizpacreview.com###imiframe
+bizpacreview.com###post-846818 > div.entry-content:last-child > div.code-block.code-block-61.ai-viewport-1.ai-viewport-2:nth-child(45)
+bizpacreview.com###text-70
+bizpacreview.com###ai_widget-4
+bizpacreview.com###ai_widget-2
+memecenter.com##iframe:nth-child(18)
+memedroid.com##div.cc-window.cc-floating.cc-type-info.cc-theme-edgeless.cc-bottom.cc-color-override--330132580:first-child
+www.thisoldhouse.com##.pad-lr.push-right.push-left.push.hire-pro.step-links.strip-bg-blue-bright
+www.thisoldhouse.com##.equalHeight.right-sidebar.columns.small-14.medium-6.large-4
+www.thisoldhouse.com##.has-bg-treatment.strip-bg-white.l-header-region.top-leaderboard
+www.thisoldhouse.com###sticky-trending-leaderboard
+www.thisoldhouse.com##.processed.st-ad-wrapper.parallax_ad_wrapper
+www.thisoldhouse.com##.columns.medium-4.large-4.hide-for-medium-small.add-position-left.ad-item-1
+www.thisoldhouse.com##.content-box-item.clearfix.row > .add-calculation.hide-for-medium-small.columns.small-14.medium-6.large-4
+www.ibc.org###cookiePolicy
+www.ibc.org###top > .grid > .twoColumnsSmallRight > .columnContainer > .columnTwo.column > .spinAdvert
+vulcanhentai.org##div.luv_dynamic-db347c99.left.icon-box:nth-of-type(5)
+||hornycuts.com/wp-content/uploads/2018/03/hornycuts-banner-video.mp4$media
+vulcanhentai.org##.videoContainer
+||ssl.p.jwpcdn.com/player/plugins/vast/v/*/vast.js
+muchohentai.com###__eq2282__
+muchohentai.com###__eq2281__
+pagehentai.com##.page-don
+||cartoontube.com/hit.php
+levelity.com##.cookiebanner
+||facebook.com/x/oauth/status?client_id$third-party
+msn.com##iframe[src="about:uoo:nqy-clwt"]
+msn.com##.dynamic
+msn.com##.oneriverpage
+silver.urih.com##.cookiebanner
+researchgate.net##.lite-page-ad__inner
+||s.swiftypecdn.com/cc.js
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -21366,6 +21485,9 @@ wpad.home
 
 ! https://forum.adguard.com/index.php?threads/http-rt-pornhub-com.12443/
 pornhub.com#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
+
+#%#//scriptlet('abort-current-inline-script','document.addEventListener','/google_ad_client/')
+ibc.org#%#document.cookie = "AnonUserCookie = " + Math.random() + ";path=/";
 
 dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
@@ -21431,6 +21553,7 @@ $webrtc,domain=nsa.gov
 ||172.217.0.14$network
 ||172.217.1.46$network
 ||172.217.4.46$network
+||80.211.148.176$network,third-party
 ! Micorsoft Cortana
 ||204.79.197.200$network
 ! Google IP
@@ -22028,6 +22151,9 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /infos.ads?
 /gtag/analytics.
 /gtag.js
+/advert-amazon-secret?
+/banner/videos/player.htm?
+/plugin/banner/videos/*
 -google-tag-
 -ad-
 -v6exp3-
@@ -22037,10 +22163,13 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 &clickid
 &tds_
 &popundersPerIP
+*:*/amp.gif
+*:*/clear.gif
 ?adname=
 ?ga_action
 ?tracker=
 ?zoneid=$popup
+?*odb.outbrain.com
 =googleanalytics
 =adunit&
 =cron.task.core.tidy_sessions
@@ -22158,12 +22287,24 @@ mas_jump_
 ##.side-advertisement
 ##.mc-ad-chrome
 ##.paywall-fade
+##.ad-panel
+##.adb.m0a
+##.adbd.box-1.m0a.mb20
+##.ada.right
+##.ada.left
+##.ginsuAd
+###ad-main-top
+##.ad-container.main.top.hidden-print
+##.showcasead
+##.nativeadasideplaceholder
 ##[data-google-query-id]
 ##[id^="bestgoogleadsense-"]
 ##[id^="blogTwoAD"]
 ##[id*="gdpr"]
 ##[class*="gdpr"]
 ##[class*=".ad-printservice."]
+##div[class*="adunit"]
+##div[id*="adunit"]
 ##div[id^="mainads"]
 ##div[id^="GOOGLE_ADS_"]
 ##div[id^="div-gpt-ad"]
@@ -22219,8 +22360,14 @@ mas_jump_
 ##a[href*="buysellads.net"]
 ##a[href*="orange2258.com"]
 ##a[href*="dianomi.com/click.epl"]
+##a[href*="cartoontube.com/hit.php"]
+##a[href*="onelink.me"]
+##a[href*="clickbank.net"]
+##a[href*="fourchan.com"]
 ##a[href*="/advert/"]
 ##a[href*="/avt/"]
+##a[href*="/adrotate-out.php?"]
+##a[href*="/adServe/"]
 ! ##[onclick^="ga"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
 ! ##[onclick^="ga('send', 'event', 'outbound', 'click',"] (Use remove attribute in uBlock to remove the Google Analytics tracker without just hiding the link)
 ##[onclick=*"track"]
@@ -22230,3 +22377,4 @@ mas_jump_
 ##a[h$="Ad"]
 ##a[h$="Advert"]
 ##a[h$="Advertisement"]
+##a[href$="_banner"]
