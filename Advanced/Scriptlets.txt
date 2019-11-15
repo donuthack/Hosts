@@ -2,27 +2,6 @@
 // https://raw.githubusercontent.com/NanoAdblocker/NanoCore2/master/src/snippets.js
 // And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
 
-// Working / Somewhat
-
-// Modify cookies, 1 required argument, 1 optional argument
-// data   - The key = value pair
-// del    - true or false, set to true to delete the cookie instead; optional, default to false
-//
-/// cookie.js
-(() => {
- var data = '{{1}}';
-    var del = '{{2}}';
-    if (data.indexOf('=') === -1) {
-        return;
-    }
-    if (del === 'true') {
-        data += ';max-age=-100';
-    } else {
-        data += ';max-age=2592000'; // 30 days
-    }
-    document.cookie = data;
-})();
-
 ! Working / Unknown / Needs Testing
 
 // Grant fake notification permission
