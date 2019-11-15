@@ -10,16 +10,12 @@
 //
 /// cookie.js
 (() => {
-    var guard = '{{nano}}';
-    if (guard === '{{nano}}') {
-        return;
-    }
     var data = '{{1}}';
-    var del = '{{5}}';
+    var del = '{{2}}';
     if (data.indexOf('=') === -1) {
         return;
     }
-    if (del === 'true') {
+    if (del) {
         data += ';expires=Thu, 01 Jan 1970 00:00:00 UTC'; // https://superuser.com/a/356266
     } else {
         data += ';max-age=2592000'; // 30 days
