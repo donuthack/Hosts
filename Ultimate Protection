@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 15
+! Version: 15-1
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 50K (Give Or Take A Little)
 ! Last Modified: Thursday, November 14, 2019
@@ -40,8 +40,8 @@ google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov)
 google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
 
 ! CSP
-*$csp='upgrade-insecure-requests';
-*$csp='block-all-mixed-content';
+||*$csp='upgrade-insecure-requests';
+||*$csp='block-all-mixed-content';
 ! Preven Any non-HTTPS connection
 ||*^$csp=default-src https:
 
