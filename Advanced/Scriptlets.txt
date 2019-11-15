@@ -1,4 +1,28 @@
 ! Based on https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
+! https://raw.githubusercontent.com/NanoAdblocker/NanoCore2/master/src/snippets.js
 ! And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
 
 ! WORKING ON
+
+// Modify cookies, 1 required argument, 1 optional argument
+// data   - The key = value pair
+// del    - true or false, set to true to delete the cookie instead; optional, default to false
+//
+/// cookie.js
+(() => {
+    var guard = '{{nano}}';
+    if (guard === '{{nano}}') {
+        return;
+    }
+    var data = '{{1}}';
+    var del = '{{5}}';
+    if (data.indexOf('=') === -1) {
+        return;
+    }
+    if (del === 'true') {
+        data += ';max-age=-100';
+    } else {
+        data += ';max-age=2592000'; // 30 days
+    }
+    document.cookie = data;
+})();
