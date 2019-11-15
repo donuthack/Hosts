@@ -1,11 +1,13 @@
-// Based on https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
-// https://raw.githubusercontent.com/NanoAdblocker/NanoCore2/master/src/snippets.js
-// And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
+! Based on https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
+! https://raw.githubusercontent.com/NanoAdblocker/NanoCore2/master/src/snippets.js
+! https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
+! And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
 
-! Working / Unknown / Needs Testing
+! These are things I've found that I believe to be useful
+! Mainly for my personal use but feel free to use it
 
 // Grant fake notification permission
-/// gfa.js
+/// gfa.js application/javascript
 (() => {
     Notification = function () { };
     Notification.permission = 'default';
@@ -16,4 +18,64 @@
         }
         return Promise.resolve('granted');
     };
+})();
+
+// meta-tag-remover
+// example.com##+js(remove-meta, /refresh|referrer/)
+/// remove-meta.js application/javascript
+(() => { 
+          'use strict';
+	  let needle = '{{1}}';
+          if ( needle === '' || needle === '{{1}}' ) {
+              needle = '.?';
+          } else if ( needle.slice(0,1) === '/' && needle.slice(-1) === '/' ) {
+              needle = needle.slice(1,-1);
+          } else {
+              needle = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          }
+          needle = new RegExp(needle);
+          const metanode = () => {
+                                          try {
+                                          	const metas = document.querySelectorAll('meta');
+                                          	for (const meta of metas) {
+                                              		if (meta.outerHTML.match(needle)) {
+                                                                	meta.textContent = '';
+									meta.remove();
+                                              		}			
+                                          	}
+                                   	  } catch { }
+          };
+          const observer = new MutationObserver(metanode);
+	  observer.observe(document.documentElement, { childList: true, subtree: true });
+	  if (document.readyState === 'complete') { observer.disconnect(); return; } 
+})();
+
+// url-query-remover
+// example.com##+js(query-stripper, fbclid|gclid)
+/// strip.js application/javascript
+(() => {
+		'use strict';
+		const needle = '{{1}}';
+		if ( needle === '' || needle === '{{1}}' ) { 
+	   		return; 
+	   	}			
+	   	const needles = needle.split(/\s*\|\s*/);
+		const querystripper = ev => {
+						if (ev) { window.removeEventListener(ev.type, querystripper, true); }
+						try {
+			  		      		const url = new URL(location.href);
+					      		const params = new URLSearchParams(url.search.slice(1));
+					      		for (const needleremover of needles) {
+					      			if (params.has(needleremover)) {
+									url.searchParams.delete(needleremover);
+			       						window.location.href = url;
+								}
+			  		      		}		
+						} catch { }
+		};		    
+		if (document.readyState === 'loading') {
+		    	 window.addEventListener('DOMContentLoaded', querystripper, true);
+		} else {
+		     	 querystripper();
+		}
 })();
