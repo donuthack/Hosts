@@ -5,6 +5,8 @@
 ocdef.js application/javascript
 (() => {
     'use strict';
+    document.body.removeAttribute('click');
     document.body.removeAttribute('onclick');
+    document.click = null;
     document.onclick = null;
 })();
