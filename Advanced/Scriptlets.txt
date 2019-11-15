@@ -1,35 +1,4 @@
 ! Based on https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
 ! And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
 
-! Usage example.com##+js(ocdef.js)
-ocdef.js application/javascript
-(() => {
-    'use strict';
-    document.body.removeAttribute('click');
-    document.body.removeAttribute('onclick');
-    document.body.removeAttribute('mousedown');
-    document.body.removeAttribute('mouseup');
-    document.click = null;
-    document.onclick = null;
-    document.mousedown = null;
-    document.mouseup = null;
-})();
-
-! Usage example.com##+js(ocdef2.js)
-ocdef2.js application/javascript
-! function() {
-    function e(e) {
-        for (var t = 0; t < r.length; t++) {
-            var n = r[t],
-                o = "on" + n;
-            e[o] && (e[o] = null), e.addEventListener(n, function(e) {
-                e.stopPropagation()
-            }, !0)
-        }
-    }
-    var r = ["mousedown", "mouseup", "keyup", "keydown", "click", "onclick"];
-    e(window);
-    for (var t, n = window.frames, o = 0; o < n.length; o++) try {
-        e(n[o])
-    } catch (e) {}(t = document.createElement("style")).type = "text/css", t.innerHTML = "* { -webkit-touch-callout: default !important; -webkit-user-select: text !important; -moz-user-select: text !important; -ms-user-select: text !important; user-select: text !important; } ", document.head.appendChild(t)
-}();
+! WORKING ON
