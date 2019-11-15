@@ -2,8 +2,13 @@
 ! And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
 
 ! WORKING ON
-noua.js application/javascript
+
+! Fake User Agent
+fua.js application/javascript
 (() => {
     'use strict';
-    document.write.remove(navigator.userAgent);
+    Object.defineProperty(navigator, 'userAgent', {
+    get: function () { return 'Mozilla/5.0 (Windows NT 6.2; WOW64; 
+    rv:28.0) Gecko/20100101 Firefox/28.0)'; }
+});
 })();
