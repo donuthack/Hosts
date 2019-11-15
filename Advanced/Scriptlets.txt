@@ -1,0 +1,10 @@
+! Based on https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
+! And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
+! Usage example.com##+js(ocdef.js)
+
+ocdef.js application/javascript
+(() => {
+    'use strict';
+    document.body.removeAttribute('onclick');
+    document.onclick = null;
+})();
