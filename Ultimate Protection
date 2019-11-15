@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 14-1
+! Version: 15
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 50K (Give Or Take A Little)
-! Last Modified: Tuesday, November 12, 2019
+! Last Modified: Thursday, November 14, 2019
 
 !#include Hosts
 !#include Anti/Anti%20Alphabet
@@ -26,9 +26,6 @@ neonnettle.com$inline-script
 ! -https://thehackernews.com/2019/10/firefox-javascript-injection.html
 *##+js(noeval)
 
-! Preven Any non-HTTPS connection
-||*^$csp=default-src https:
-
 ! Prevent local fonts from loading (to help prevent glyph fingerprinting)
 *$inline-font
 
@@ -41,6 +38,12 @@ neonnettle.com$inline-script
 ! Remove From Search Results
 google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov)
 google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
+
+! CSP
+*$csp='upgrade-insecure-requests';
+*$csp='block-all-mixed-content';
+! Preven Any non-HTTPS connection
+||*^$csp=default-src https:
 
 ! If Using AdGuard "prevents Facebook from tracking you even if you are logged in" 
 ! (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#real-life-examples)
