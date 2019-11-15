@@ -1,8 +1,8 @@
-! Based on https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
-! https://raw.githubusercontent.com/NanoAdblocker/NanoCore2/master/src/snippets.js
-! And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
+// Based on https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
+// https://raw.githubusercontent.com/NanoAdblocker/NanoCore2/master/src/snippets.js
+// And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
 
-! WORKING ON
+// Working / Somewhat
 
 // Modify cookies, 1 required argument, 1 optional argument
 // data   - The key = value pair
@@ -21,4 +21,35 @@
         data += ';max-age=2592000'; // 30 days
     }
     document.cookie = data;
+})();
+
+! Working / Unknown / Needs Testing
+
+// Strip these known tracking tokens from urls
+// From https://github.com/Cybo1927/Anti-Click-Tracking/blob/master/Anti%20Click%20Tracking/strip.js
+// No arguments
+/// strip.js
+(() => {
+var searchPattern = new RegExp('utm_|fb_|campaign|click_|site_|country_|device_|user_|bv_|adv_|user.|cmpid|_openstat|aff_|offer_|url_|ad|trafficsource.|lander.|fp_');
+
+var replacePattern = new RegExp(
+    '([?&]' +
+    '(utm_(source|medium|term|campaign|content|cid|reader|referrer|name|social|social-type|place|userid|pubreferrer|swu|viz_id)|fb_(actiion_ids|action_types|ref|source)|campaign(_id|_item_id|.id|.name|_name)|click_(id)|site_(id|source_name)|country_(code|name)|device_(id|os_name|make)|user_(id)|bv_(adname|clickid|keyword|srcid)|adv_(targets)|user.(browser|country|os)|cmpid|_openstat|aff_(platform|trace_key|id)|offer_(id)|url_(id)|ad(_id|_name|set_id|set_name)|trafficsource.(id|name)|lander.(id)|fp_(ref))' +
+    '=[^&#]*)');
+chrome.webRequest.onBeforeRequest.addListener(function(details) {
+    var url = details.url;
+    var queryStringIndex = url.indexOf('?');
+    if (url.search(searchPattern) > queryStringIndex) {
+        var stripped = url.replace(replacePattern, '');
+        if (stripped.charAt(queryStringIndex) === '&') {
+            stripped = stripped.substr(0, queryStringIndex) + '?' +
+                stripped.substr(queryStringIndex + 1)
+        }
+        if (stripped != url) {
+            return {
+                redirectUrl: stripped
+            };
+        }
+    }
+}
 })();
