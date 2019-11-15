@@ -1,6 +1,6 @@
 ! Title: Cybo's Blackout
 ! Expires: 1 day
-! Version: 3
+! Version: 4
 ! This is a userstyle for uBlock Origin that will make supported pages pitch black instead of white or grey
 
 ! Generic
@@ -30,6 +30,9 @@
 *##form:style(background-color: black !important)
 *##abbr:style(background-color: black !important)
 *##article:style(background-color: black !important)
+*##select:style(background-color: black !important)
+*##img:style(background-color: #2f2e2e !important)
+*##blockquote:style(background-color: black !important)
 *##div:style(color: grey !important)
 *##p:style(color: grey !important)
 *##span:style(color: grey !important)
@@ -49,14 +52,15 @@
 *##pre:style(color: #5bb1cd !important)
 *##textarea:style(color: #5bb1cd !important)
 *##a:style(color: #5bb1cd !important)
+*##select:style(color: grey !important)
+*##li:style(color: grey !important)
+*##blockquote:style(color: #5bb1cd !important)
 
 ! Filter Lists
 filterlists.com#@#a:style(background-color: black !important)
 filterlists.com#@#span:style(color: grey !important)
-filterlists.com#@#li:style(background-color: black !important)
 filterlists.com##span:style(color: #5bb1cd !important)
 filterlists.com##span:style(color: #5bb1cd !important)
-filterlists.com##li.ant-pagination-simple-pager:style(background-color: grey !important)
 filterlists.com###text:style(background-color: grey !important)
 
 ! YouTube Doesn't Need Dark Mode
@@ -86,6 +90,8 @@ youtube.com#@#footer:style(background-color: black !important)
 youtube.com#@#form:style(background-color: black !important)
 youtube.com#@#abbr:style(background-color: black !important)
 youtube.com#@#article:style(background-color: black !important)
+youtube.com#@#select:style(background-color: black !important)
+youtube.com#@#img:style(background-color: black !important)
 youtube.com#@#div:style(color: grey !important)
 youtube.com#@#p:style(color: grey !important)
 youtube.com#@#span:style(color: grey !important)
@@ -105,6 +111,8 @@ youtube.com#@#code:style(color: #5bb1cd !important)
 youtube.com#@#pre:style(color: #5bb1cd !important)
 youtube.com#@#textarea:style(color: #5bb1cd !important)
 youtube.com#@#a:style(color: #5bb1cd !important)
+youtube.com#@#select:style(color: grey !important)
+youtube.com#@#select:style(color: grey !important)
 
 ! ColorHexa
 colorhexa.com#@#li:style(background-color: black !important)
@@ -113,5 +121,5 @@ colorhexa.com#@#a:style(background-color: black !important)
 colorhexa.com##span.d:style(background-color: black !important)
 colorhexa.com##span.t:style(background-color: black !important)
 
-! Pandora - Needs A Lot Of Work But At Least The Page Where You Listen To The Music Is Good
+! Pandora - Needs a lot of work but I can't seem to figure out how to fix
 pandora.com#@#div:style(background-color: black !important)
