@@ -20,7 +20,7 @@
         return;
     }
     if (del === 'true') {
-        data += ';max-age=-100';
+        data += ';expires=Thu, 01 Jan 1970 00:00:00 UTC';
     } else {
         data += ';max-age=2592000'; // 30 days
     }
