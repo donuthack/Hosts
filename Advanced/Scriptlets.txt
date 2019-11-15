@@ -7,8 +7,12 @@ ocdef.js application/javascript
     'use strict';
     document.body.removeAttribute('click');
     document.body.removeAttribute('onclick');
+    document.body.removeAttribute('mousedown');
+    document.body.removeAttribute('mouseup');
     document.click = null;
     document.onclick = null;
+    document.mousedown = null;
+    document.mouseup = null;
 })();
 
 ! Usage example.com##+js(ocdef2.js)
