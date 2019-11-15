@@ -53,3 +53,17 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
     }
 }
 })();
+
+// Grant fake notification permission
+/// gfa.js
+(() => {
+    Notification = function () { };
+    Notification.permission = 'default';
+    Notification.requestPermission = function (callback) {
+        Notification.permission = 'grante';
+        if (callback) {
+            setTimeout(callback, 0, 'granted');
+        }
+        return Promise.resolve('granted');
+    };
+})();
