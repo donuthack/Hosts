@@ -20,7 +20,7 @@
         return;
     }
     if (del === 'true') {
-        data += ';expires=Thu, 01 Jan 1970 00:00:00 UTC';
+        data += ';expires=Thu, 01 Jan 1970 00:00:00 UTC'; // https://superuser.com/a/356266
     } else {
         data += ';max-age=2592000'; // 30 days
     }
