@@ -1,7 +1,7 @@
-// Based on https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
+// https://raw.githubusercontent.com/uBlock-user/uBO-Scriptlets/master/scriptlets.txt
 // https://raw.githubusercontent.com/NanoAdblocker/NanoCore2/master/src/snippets.js
 // https://raw.githubusercontent.com/gorhill/uBlock/9367a6015b8cbb6b49347b00a105aab8f24df861/assets/resources/scriptlets.js
-// And https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
+// https://github.com/bogachenko/presstheattack/blob/personal/scriptlets.txt
 
 // These are things I've found that I believe to be useful
 // Mainly for my personal use but feel free to use it
@@ -40,6 +40,6 @@
 /// alias cd.js
 function cd() {
     document.onclick = null;
-    document.body.removeAttribute("onclick")
+    document.body.removeAttribute('onclick')
 }
 window.addEventListener('load', cd);
