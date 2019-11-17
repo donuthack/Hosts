@@ -24,6 +24,10 @@
     if (selector === '' || selector === '{{1}}') {
         return;
     }
+    const wait = async () => {
+  await delay(3000);
+  console.log("Waited 3s");
+    };
     let click = () => {
         let element = document.querySelector(selector);
         element.click();
@@ -31,6 +35,6 @@
     if (document.readyState === 'complete') {
         click();
     } else {
-        addEventListener('DOMContentLoaded', click);
+        addEventListener('DOMContentLoaded', wait, click);
     }
 })();
