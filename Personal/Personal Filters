@@ -1,0 +1,91 @@
+! uBlock/Nano
+!--- PERSONAL FILTERS DONT ADD TO LISTS ---!
+! Add Event Listener Defuser
+*##+js(aeld, /mousedown|mouseup/)
+! Remove Attributes
+*##+js(ra, onerror|onkeypress|onkeydown|onkeyup|onmousemove|onpageshow|onpagehide)
+! Discord Cosmetic
+discordapp.com###app-mount > div.app-19_DXt:nth-child(3) > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss:nth-child(2) > div.layer-3QrUeG.baseLayer-35bLyl > div.container-2lgZY8 > div.base-3dtUhz:last-child > div.content-98HsJk:last-child > div.sidebar-2K8pFh.hasNotice-1XRy4h:first-child > div.privateChannels-1nO12o:first-child > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y:last-child > div.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-1JbKMe > span > a.channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:first-child
+discordapp.com###app-mount > div.app-19_DXt:nth-child(3) > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss:nth-child(2) > div.layer-3QrUeG.baseLayer-35bLyl > div.container-2lgZY8 > div.base-3dtUhz:last-child > div.content-98HsJk:last-child > div.sidebar-2K8pFh.hasNotice-1XRy4h:first-child > div.privateChannels-1nO12o:first-child > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y:last-child > div.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-1JbKMe > span > a.channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:nth-child(2)
+discordapp.com###app-mount > div.app-19_DXt:nth-child(3) > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss:nth-child(2) > div.layer-3QrUeG.baseLayer-35bLyl > div.container-2lgZY8 > div.base-3dtUhz:last-child > div.content-98HsJk:last-child > div.sidebar-2K8pFh.hasNotice-1XRy4h:first-child > div.privateChannels-1nO12o:first-child > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y:last-child > div.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-1JbKMe > span > a.channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:nth-child(3)
+discordapp.com##.noticeDefault-362Ko2, .notice-2FJMB4
+discordapp.com##.fixClipping-3qAKRb.container-16j22k
+discordapp.com###app-mount > .app-19_DXt > .app-2rEoOp > .layers-3q14ss.layers-3iHuyZ > .baseLayer-35bLyl.layer-3QrUeG > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk > .activityFeed-1C0EmJ > .container-3T1zWi.noWrap-3jynv6.alignCenter-1dQNNs.justifyCenter-3D2jYp.directionRow-3v3tfG.horizontal-2EEEnY.horizontal-1ae9ci.flex-1O1GKY.flex-1xMQg5
+discordapp.com##.activityFeed-1C0EmJ
+!--- END PERSONAL FILTERS ---!
+! AdGuard
+!--- PERSONAL FILTERS DONT ADD TO LISTS ---!
+||*facebook*^$all
+||fbcdn.net^$all
+||fbcdn-profile-a.akamaihd.net^$all
+||fbcdn-*.akamaihd.net^$all
+||fbexternal-*.akamaihd.net^$all
+||*google*^$all,domain=~youtube.com|~accounts.google.com
+||*youtube.com^$all,domain=~youtube.com
+||*ytimg.com^$all,domain=~youtube.com|~accounts.google.com|discordapp.com
+||*googlevideo.com^$all,domain=~youtube.com|~accounts.google.com|discordapp.com
+||firebaseio.com^$all
+||twitter.com^$all
+||twimg.com^$all
+||linkedin.*^$all
+||googleapis.com^$all,domain=~youtube.com|~accounts.google.com
+||gstatic.com^$all,domain=~youtube.com|~accounts.google.com
+||appspot.com^$all
+||cloudfront.net^$third-party,all
+||bit.ly^$all
+||bitly.com^$all
+! From Anti Maps
+||locuslabs.com^$all
+||api.mapbox.com^$all
+||mapbox.com^$all
+||maps.google.com^$all
+||mapquest.com^$all
+||maps.yahoo.com^$all
+||mapway.com^$all
+||ud-prd.geohawk.co.uk^$all
+||geohawk.co.uk^$all
+||openstreetmap.org^$all
+||openweathermap.org^$all
+||apple.com/ios/maps/^$all
+||cloud.google.com/maps-platform/^$all
+||mirmay.com^$all
+! Cloudflare (https://www.cloudflare.com/privacypolicy/)
+||cloudflare.com^$all
+||cloudflare-dns.com^$all
+||one.one.one.one^$all
+||1.1.1.1^$all
+||1.0.0.1^$all
+! No Scripts On .Gov Domains
+||*.gov$script,inline-script
+! Block Chinese Top-Level Domains (https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains/)
+||*.cn^$all
+||*.mo^$all
+||*.tw^$all
+||*.hk^$all
+||*.wang^$all
+||*.unicom^$all
+! Stores
+||refer.walmart.com^$all
+! Amazon Hosting
+||*cloudfront.*^$all
+||*aws.amazon.*^$all
+! 000WebHost
+||000webhost.com^$all
+! Fonts
+||*fontawesome.com^$all
+||*font*^$all
+*$font
+! CSP
+*$csp='upgrade-insecure-requests';
+! AdGuard Specific
+||cloudflare.com^$network,all
+||cloudflare-dns.com^$network,all
+||one.one.one.one^$network,all
+||1.1.1.1^$network,all
+||1.0.0.1^$network,all
+! Cookies
+*^$cookie=/.+/;maxAge=-999999,domain=~youtube.com|~accounts.google.com|~discordapp.com|~discord.gg|~pandora.com
+*^$cookie=/lithiumSSO%3A[a-z]+.prod|_wamtcstandards|http_referrer|at/
+! Cookies Expire So Login Is Required Every Page Load
+pandora.com$cookie=/.+/;maxAge=360
+!--- END PERSONAL FILTERS ---!
