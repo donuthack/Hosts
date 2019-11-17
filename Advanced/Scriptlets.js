@@ -14,3 +14,23 @@
         window.name = '';
     }
 })();
+
+// element-clicker-onload
+/// eclick.js
+/// alias ec.js
+(() => {
+    'use strict';
+    let selector = '{{1}}';
+    if (selector === '' || selector === '{{1}}') {
+        return;
+    }
+    let click = () => {
+        let element = document.querySelector(selector);
+        element.click();
+    };
+    if (document.readyState === 'complete') {
+        click();
+    } else {
+        addEventListener('load', click);
+    }
+})();
