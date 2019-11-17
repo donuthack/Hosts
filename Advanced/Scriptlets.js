@@ -23,9 +23,9 @@
     let selector = '{{1}}';
     if (selector === '' || selector === '{{1}}') {
         return;
-    }, 5000);
 }
     let click = () => {
+        wait(4000);
         let element = document.querySelector(selector);
         element.click();
     };
