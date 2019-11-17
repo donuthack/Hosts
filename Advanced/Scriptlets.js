@@ -25,7 +25,6 @@
         return;
 }
     let click = () => {
-        wait(4000);
         let element = document.querySelector(selector);
         element.click();
     };
