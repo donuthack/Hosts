@@ -24,7 +24,7 @@
     if (selector === '' || selector === '{{1}}') {
         return;
     }
-    const wait = async () => {
+    const wait = {
   await delay(3000);
   console.log("Waited 3s");
     };
