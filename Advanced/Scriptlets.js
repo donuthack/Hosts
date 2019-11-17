@@ -34,12 +34,3 @@
         addEventListener('load', click);
     }
 })();
-
-// click-defuser
-/// clickdef.js
-/// alias cd.js
-function cd() {
-    document.onclick = null;
-    document.body.removeAttribute('onclick')
-}
-window.addEventListener('load', cd);
