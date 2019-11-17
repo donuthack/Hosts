@@ -31,6 +31,6 @@
     if (document.readyState === 'complete') {
         click();
     } else {
-        addEventListener('DOMContentLoaded', setTimeout(click, 3000));
+        addEventListener('DOMContentLoaded', setTimeout(click, 10000));
     }
 })();
