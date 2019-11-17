@@ -1,12 +1,12 @@
-[Adblock Plus 3.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1176
+! Version: 1177
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 22.2K
-! Last Modified: Thursday, November 14, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 22.4K
+! Last Modified: Saturday, November 16, 2019
 
 ! Unbreak
+bluestacks.com,lucidpress.com#@#a[href*="&utm_"]
 pandora.com#@#^script:has-text(ideoAds)
 pandora.com#@#^script:has-text(udioAds)
 pandora.com#@#^script:has-text(AdBlock)
@@ -141,7 +141,7 @@ verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com,washingtonpost.com,gunfacts.info,washingtonpost.com,sharepointsky.com,zoomowl.co,helpfulprofessor.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com,washingtonpost.com,gunfacts.info,washingtonpost.com,sharepointsky.com,zoomowl.co,helpfulprofessor.com,theconspiracyblog.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
@@ -209,6 +209,7 @@ com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ab = false;
 *##^script:has-text(GoogleAnalyticsObject)
 *##^script:has-text(adsbygoogle)
 *##^script:has-text(googletag)
+*##^script:has-text(gtag)
 *##^script:has-text(google_tag_params)
 *##^script:has-text(googletagmanager)
 *##^script:has-text(_gaq.push)
@@ -269,6 +270,8 @@ veedif.com##+js(set-constant, adBlocker, false)
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
 ||converto.io^$csp=script-src 'self' * 'unsafe-inline' *.googleapis.com *.ytimg.com *.youtube.com
 ||blocked.com-default.ws^$csp=script-src 'none'; style-src 'none'; img-src 'none'; connect-src 'none'; font-src 'none; object-src 'none'; media-src 'none'; child-src 'none'; form-action 'none'; frame-ancestors 'none'; plugin-types 'none'
+! Prevent prefetch which can sometimes bypass blocking (uBlock & Nano Have A Simple Button To Do Something Like This)
+||*^$csp=prefetch-src 'none'
 
 ! Block Hola VPN 
 ! dailydot.com/debug/hola-vpn-security
@@ -1280,6 +1283,14 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||anonfile.com$domain=anonfiles.com
+||aimtell.com
+||azrjdlvlsxihbd.com
+||aplhabet.applinzi.com
+||applinzi.com
+||appsflyer.com
+||alegrium.helpshift.com
+||a35945c38b3c4e8c3be964b7786a6a1c.sinasws.com
 ||alliance4creativity.com
 ||ads.freesex.pw
 ||a.es-meetic.club
@@ -4030,6 +4041,14 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||a.ads2.msads.net
 
 !B
+||bnsjb1ab1e.com
+||bceapp.com
+||bro.shtranssion.com
+||bidsflyer.g2afse.com
+||bluestacks.go2cloud.org
+||baconaces.pro
+||bestgethsksl.pro
+||batnstrk.com
 ||btkxogjoxtd.com
 ||best4708.nonametds39.live
 ||blueconic.net
@@ -4952,6 +4971,14 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||bam.nr-data.net
 
 !C
+||cdn1.mobile.contentdef.com
+||cdn2.mobile.contentdef.com
+||cdn3.mobile.contentdef.com
+||cdn.friendbuy.com
+||cttghjfhsw.com
+||cookie-cdn.cookiepro.com
+||cookiepro.com
+||clk.taptica.com
 ||clprr.com
 ||cc.swiftype.com
 ||com-tohho.netmng.com
@@ -6021,6 +6048,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||creative.medialytics.com
 
 !D
+||ds.shalltry.com
+||dsms0mj1bbhn4.cloudfront.net
+||dynsrvbaa.com
 ||doublepimp.com$popup
 ||deliver.ads2.iid.jp
 ||deliver.ads2.iid.jp
@@ -7134,6 +7164,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||firstrun.psafe.com
+||friendbuy.com
+||fitanalytics.com
 ||fourchan.com
 ||fp.msedge.net
 ||footprint.ne
@@ -7416,6 +7449,12 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||freshmarketer.com
 
 !G
+||g2afse.com
+||gtm.oasisfeng.com
+||go.referralcandy.com
+||googleclubstore.com
+||geo.shtranssion.com
+||ghs.google.com
 ||grtyv.com
 ||gstatic-as.pro
 ||go.strpjmp.com
@@ -7798,6 +7837,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||gannett.hb.omtrdc.net
 
 !H
+||hegtiterbuttons.pro
+||handy-porn.net
 ||hxnbotlkxpkyt.com
 ||hbint.emxdgt.com
 ||hrahdmon.com
@@ -8030,6 +8071,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||helpshift.com
 
 !I
+||instantfuns.com
 ||insightsprod.zelfy.com
 ||ichnaea.netflix.com
 ||ichnaea-web.netflix.com
@@ -8730,6 +8772,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||init.supersonicads.com
 
 !J
+||jfrog-support.secure.force.com
+||jbrpciuloi.com
+||jaavpuhxrsryk.com
 ||jungletap.com
 ||jsrc.icu
 ||jujo00obo2o234ungd3t8qjfcjrs3o6k-a-sites-opensocial.googleusercontent.com
@@ -9622,6 +9667,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||krxd.net
 
 !L
+||lbadv.alegrium.com
 ||link-a.net$third-party
 ||luckypushh.com
 ||litix.io
@@ -9890,6 +9936,14 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||location.silverpush.com
 
 !M
+||mainstrat.com
+||madspms.com
+||maidesqueen.pro
+||mtalk4.google.com
+||mtalk3.google.com
+||mtalk2.google.com
+||mtalk1.google.com
+||main.dynsrvbaa.com
 ||mini5-1.opera-mini.net
 ||mdlhzknv.com
 ||mia-chat.com
@@ -10496,6 +10550,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||memo2.nl
 
 !N
+||noxagile.bceapp.com
+||newsunads.com
+||newthuads.com
 ||netmng.com
 ||nogerefron.info
 ||networkmanag.com
@@ -10748,6 +10805,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||n149adserv.com
 
 !O
+||o3sndvzo25.com
+||ogrfi3uyt7.com
 ||onelink.me
 ||optinmonster.com
 ||origin.ih.constantcontact.com
@@ -10946,6 +11005,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||open.ad.yieldmanager.net
 
 !P
+||puu.sh
+||pge.unityads.unity3d.com
+||piwik.pro
+||pepperjam.com
 ||p.clprr.com
 ||pvclouds.com
 ||plexapp.com
@@ -11531,6 +11594,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||p.typekit.net
 
 !Q
+||q4i.co
 ||quickkoala.io
 ||quiddity.goguardian.com
 ||qposhka.com
@@ -11613,6 +11677,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||qnsr.com
 
 !R
+||referralcandy.com
+||rsvph.xyz
 ||ringlead.com
 ||resonate.com
 ||razeraqrassm.info
@@ -11666,9 +11732,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||rlogs.youdao.com
 ||rem-track.bild.de
 ||rosetta.prod.ps.bild.de
-||res06.bignox.com
-||res11.bignox.com
-||res*.bignox.com
 ||rdd.vzw.com
 ||rdmhllq.x.incapdns.net
 ||rtam-collector.snapchat.com
@@ -11930,6 +11993,13 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||r.skimresources.com
 
 !S
+||shalltry.com
+||snaptu-z.facebook.com
+||sniff.visistat.com
+||stats-new.smugmug.com
+||subscribers.click
+||sift.com
+||srmdata.com
 ||shen5511.com
 ||stripchat.com$third-party
 ||servingmillions.com
@@ -13229,6 +13299,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||scripts.kissmetrics.com
 
 !T
+||tionscofferent.info
+||taptica.com
+||track.tenjin.com
+||tenjin.com
 ||t.grtyv.com
 ||tcwcsaddht.com
 ||traffichaus.com
@@ -13854,6 +13928,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||tt.omtrdc.net
 
 !U
+||uqelijcu.com
 ||ud-prd.geohawk.co.uk
 ||usualgirls.com
 ||unbounce.com
@@ -14022,6 +14097,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||us.adserver.yahoo.com
 
 !V
+||visistat.com
 ||vidsrev.com
 ||videodelivery.net$domain=reuters.com
 ||virtuagirl.com$third-party
@@ -14197,6 +14273,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||v.admaster.com.cn
 
 !W
+||ws-na.amazon-adsystem.com
+||wpnjs.com
 ||wzismevwhqixlq.com
 ||watchingthat.net
 ||webclicks24.com
@@ -14997,6 +15075,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||zyqlfplqdgxu.com
 
 !Misc
+||5fac97b397a336397f0f528ec95699c6.sinasws.com
+||3point14.g2afse.com
+||4exlkjnngs.com
 ||3b82.com
 ||22366.com
 ||80.211.148.176
@@ -21432,10 +21513,123 @@ msn.com##.oneriverpage
 silver.urih.com##.cookiebanner
 researchgate.net##.lite-page-ad__inner
 ||s.swiftypecdn.com/cc.js
+lucidpress.com##.bubble-in
+sfgate.com###A728
+sfgate.com###ctpl-fullbanner1
+sfgate.com##.ctpl-fullbanner
+sfgate.com###subHead-spacer
+sfgate.com###ctpl-fullbanner-spacer
+sfgate.com###site-nav-spacer
+nymag.com###ad-cid-UdaWpnaZ
+nymag.com##.ad.vp-1180-plus
+nymag.com##.pinboard
+nymag.com##.spacer.multi-children
+nymag.com##.sticky-list
+dailydot.com##.dd-blueconic
+dailydot.com##.dd-well-second-sidebar
+studybreaks.com##.ezoic-ad.box-2.adtester-container.adtester-container-115
+studybreaks.com##.col-sm-4.hide-in-mobile
+studybreaks.com###div-gpt-ad-studybreaks_com-box-3-0
+rollingstone.com##.c-ad.c-ad--desktop-header.c-ad--728x90
+businessinsider.com##.ad.md-leaderboard.homepage
+businessinsider.com###gpt-post-politics-subnav-desktop-1
+businessinsider.com##.ad.ad-wrapper.fluid.postload.only-desktop
+businessinsider.com###taboola-right-rail-thumbnails
+businessinsider.com##.taboola-container.targeted-recommended.taboola-right-rail-thumbnails
+businessinsider.com###gpt-post-politics-desktop_in_post_ad-desktop-1
+businessinsider.com##.ad.ad-wrapper.fluid.postload.only-desktop.in-post
+businessinsider.com###gpt-post-politics-desktop_in_post_ad-desktop-2
+wired.com##.cm-hero-wrapper
+wired.com##.cm-rail-container
+wired.com##.callout.callout--inset-left.callout--has-top-border.callout--content-type--blockquote-embedu
+motherjones.com###TopROS970x250
+motherjones.com##.ad-unit.col-12
+motherjones.com###htlad-2
+motherjones.com##.htl-ad.ROS_ATF_300x600.display-block
+motherjones.com###htlad-6
+motherjones.com##.htl-ad.ROS_BTF_300x250_1.display-block
+motherjones.com###htlad-7
+motherjones.com##.htl-ad.ROS_BTF_970x250_1.display-block
+motherjones.com###htlad-8
+motherjones.com##.htl-ad.ROS_BTF_300x250_2.display-block
+motherjones.com###htlad-9
+motherjones.com##.htl-ad.ROS_BTF_970x250_2.display-block
+motherjones.com###htlad-10
+motherjones.com##.htl-ad.ROS_BTF_970x250_3.display-block
+motherjones.com###htlad-11
+motherjones.com##.htl-ad.ROS_BTF_300x250_3.display-block
+theconspiracyblog.com###overlay_rstbox_1
+theconspiracyblog.com##.rstbox_overlay
+theconspiracyblog.com###rstbox_1
+theconspiracyblog.com##.rstbox.rstbox_center.rstbox_emailform.rstbox-acm.rstbox-acc.rstbox_shd_1.formVer.rstbox_visible
+gamesbids.com###text-16
+gamesbids.com##.widget.widget_text
+gizmodo.com###_5d1b8a5c7d-384-0-container
+gizmodo.com###_5d1b8a73ac-384-1-container
+gizmodo.com##.js_sidebar-edit-video.ynugv2-0.gYemkc
+gizmodo.com##.sc-1ez0oyg-0.ehkuKX
+||s.yimg.*/cv/conversion.js$third-party
+||chinaregistrar.org/tl.gif
+||chinaregistrar.org/tr.gif
+support.teachable.com##.hero-unit.header
+cordis.europa.eu##.co-cookie-consent
+||xxxery.com/b.php
+||fuckpix.club/b.php
+||sexsrc.com/b.php
+porndaa.com/b.php
+honeysanime.com###post_top
+honeysanime.com###post_top
+honeysanime.com###custom_html-15 > div.widget-content:last-child > div.textwidget.custom-html-widget:first-child > div.buruburu-bee.pos-rlt > a > img.pos-abt.quiver.img-skiplazy
+honeysanime.com###post_top > div.textwidget.custom-html-widget:last-child > div > a.img-hover-alpha > img.aligncenter.size-full.wp-image-240343.lazy-loaded:first-child
+honeysanime.com###post_top > div.textwidget.custom-html-widget:last-child > a.img-hover-alpha.layer-anchor-ad > img.aligncenter.size-full.wp-image-263455.lazy-loaded:first-child
+honeysanime.com###register-sticky-btn > a > p
+otakutherapy.com##div.mfp-bg.animated.fadeIn.mfp-ready:first-child
+otakutherapy.com##div.mfp-wrap.mfp-close-btn-in.mfp-auto-cursor.animated.fadeIn.mfp-ready:nth-child(2)
+sotaku.com###td-outer-wrap > div.tdc-header-wrap:first-child > div.td-header-wrap.td-header-style-7 > div.td-banner-wrap-full.td-container-wrap:last-child > div.td-container-header.td-header-row.td-header-header
+sotaku.com###td-outer-wrap > div.td-main-content-wrap.td-container-wrap:nth-child(2) > div.td-container.td-post-template-default > div.td-pb-row:last-child > div.td-pb-span4.td-main-sidebar:last-child
+hentaivideoworld.com##div.container:first-child > div.wrap:nth-child(2) > div.ma6in.container_holder:first-child > div.content:last-child > div.main:first-child > div.intro_adv:last-child
+ahegao.online###masthead > div.top-bar.clearfix:first-child
+animehentaihub.com###main > div.code-block.code-block-13.ai-viewport-1.ai-viewport-2:nth-child(2)
+animehentaihub.com###main > div.code-block.code-block-13.ai-viewport-1.ai-viewport-2:nth-child(2) > div.ai-rotate > div.ai-rotate-option
+animehentaihub.com###main > div.code-block.code-block-14.ai-viewport-1.ai-viewport-2:last-child
+animehentaihub.com###main > div.code-block.code-block-14.ai-viewport-1.ai-viewport-2:last-child > div.ai-rotate > div.ai-rotate-option > a
+freehentaimovies.net##div:nth-child(13)
+animehentaihub.com###post-24492 > header.entry-header:first-child > div.video-player:first-child > div.responsive-player:last-child > div.wps-player > div.wps-player-block > div.wps-player__happy-inside.wps-player__happy-inside--pause:last-child
+sheshaft.com###yotam > div.inner_ad
+sheshaft.com##div.wrapper.broker:first-child > div.wrapper-holder > main.main:nth-child(2) > div.container > div.block-player:first-child > div.player-holder > div.player:first-child > div.adv-aside:last-child
+sheshaft.com##div.wrapper.broker:first-child > div.wrapper-holder > main.main:nth-child(2) > div.container > div.bottom-banners:nth-child(5)
+sex.com###container > div.pin_container > div.right-column:nth-child(2) > div.ad-block:last-child
+sex.com###ad-div
+sex.com###pin-underplayer > a > img
+sex.com###pin-underplayer
+sex.com###container > div.pin_container > div.text-center:last-child
+sex.com###container > div.pin_container > div.text-center:last-child > div.ad-footer > div.ad-wrap:first-child > iframe
+luscious.net###root > main.main-padding:nth-child(2) > div.o-padding-top-bottom:nth-child(5) > div > div:last-child > div > div:nth-child(2) > div:last-child > div > div.o-justified-grid > div.ReactVirtualized__Grid.ReactVirtualized__List > div.ReactVirtualized__Grid__innerScrollContainer > div:first-child > div.o-justified-row:last-child > div.o-justified-row--details > div.o-flex--single-line--align-center:nth-child(2)
+luscious.net###root > div.site-banner.o-flex-center.o-border--bottom:nth-child(6)
+luscious.net###root > main.main-padding:nth-child(2) > div.o-flex--single-line--align-center.o-padding-top-bottom:nth-child(6)
+luscious.net###root > div.site-banner.o-flex-center.o-border--bottom:nth-child(5)
+luscious.net###root > main.main-padding:nth-child(2) > div.o-flex--single-line--align-center.o-padding-top-bottom:nth-child(3) > div.ad_lead.o-row-gut-1
+lazytown-porn.galactik-football.com###content > div.scr-holder:nth-child(2)
+lazytown-porn.galactik-football.com###primary > a:first-child
+lazytown-porn.galactik-football.com###content > div.scr-holder:nth-child(5)
+lazytown-porn.galactik-football.com###content > div.trd-holder:nth-child(7)
+lazytown-porn.galactik-football.com###content > div.scr-holder:nth-child(10) > a.img.img1:nth-child(2)
+lazytown-porn.galactik-football.com###content > div.scr-holder:nth-child(10) > a.img.img0:first-child
+lazytown-porn.galactik-football.com###content > div.scr-holder:nth-child(13) > a.img.img1:nth-child(2) > img.th.th1
+lazytown-porn.galactik-football.com###content > div.scr-holder:nth-child(13) > a.img.img0:first-child > img.th.th0
+lazytown-porn.galactik-football.com###content > div.scr-holder:nth-child(20) > a.img.img1:nth-child(2) > img.th.th1
+lazytown-porn.galactik-football.com###content > div.scr-holder:nth-child(20) > a.img.img0:first-child > img.th.th0
+hentai-foundry.com##a[href*="hentaiunited.com"]
+anonfile.com##span.glyphicon-upload.glyphicon
+anonfiles.com##span.glyphicon-upload.glyphicon
+www.hentai-foundry.com##.activebar
+us.shein.com##.j-quick-register.c-quick-register
+wcostream.com##img[src*="/tnc/zya/lfa.js?"]
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
 businessinsider.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
+anonfile.com,anonfiles.com##+js(nano-grant-fake-notification.js)
 
 !#if (!ext_adguard && !ext_ublock)
 ! Extra Crap For AdBlock Plus Because It's A Little Retarded
@@ -21494,6 +21688,8 @@ dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
 $cookie=/_landing_page[a-zA-Z_.]|http_referrer[a-zA-Z_.]|_device_id[a-zA-Z_.]|has_recent_activity[a-zA-Z_.]|_parsely_visitor[a-zA-Z_.]|slimstat_tracking_code[a-zA-Z_.]|view_count[a-zA-Z_.]|played_games_ids[a-zA-Z_.]|ABTEST[a-zA-Z_.]|ip[a-zA-Z_.]|KinjaSession[a-zA-Z_.]|country[a-zA-Z_.]|visited[a-zA-Z_.]|counter[a-zA-Z_.]|countrycode[a-zA-Z_.]|city[a-zA-Z_.]|session_tracker[a-zA-Z_.]|cookies.js[a-zA-Z_.]|location-data[a-zA-Z_.]|smpush_safari_device_token[a-zA-Z_.]|smpush_device_token[a-zA-Z_.]|_gcl_au[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|floodlightPixelTimer[a-zA-Z_.]|geo[a-zA-Z_.]|IPLOC[a-zA-Z_.]|browerV[a-zA-Z_.]|__utmz[a-zA-Z_.]|__utma[a-zA-Z_.]|__utmc[a-zA-Z_.]|__utmb[a-zA-Z_.]|__utmt[a-zA-Z_.]|_ga[a-zA-Z_.]|uid[a-zA-Z_.]|_gat[a-zA-Z_.]|PHPSESSID[a-zA-Z_.]|__cfduid[a-zA-Z_.]|UIDR[a-zA-Z_.]|pid[a-zA-Z_.]|uuid2[a-zA-Z_.]|tuuid[a-zA-Z_.]|_drt_[a-zA-Z_.]|uuidc[a-zA-Z_.]|__gads[a-zA-Z_.]|ASP.NET_SessionId[a-zA-Z_.]|anj[a-zA-Z_.]|__atuvc[a-zA-Z_.]|__atuvs[a-zA-Z_.]|di2[a-zA-Z_.]|rpx[a-zA-Z_.]|rpb[a-zA-Z_.]|bku[a-zA-Z_.]|bkdc[a-zA-Z_.]|yandexuid[a-zA-Z_.]|TDID[a-zA-Z_.]|yabs-sid[a-zA-Z_.]|khaos[a-zA-Z_.]|TDCPM[a-zA-Z_.]|__qca[a-zA-Z_.]|IDE[a-zA-Z_.]|PUBMDCID[a-zA-Z_.]|guest_id[a-zA-Z_.]|wfivefivec[a-zA-Z_.]|na_tc[a-zA-Z_.]|bkc[a-zA-Z_.]|bklc[a-zA-Z_.]|OAID[a-zA-Z_.]|JEB2[a-zA-Z_.]|CMPS[a-zA-Z_.]|CMID[a-zA-Z_.]|CfP[a-zA-Z_.]|ra1_uid[a-zA-Z_.]|CMST[a-zA-Z_.]|CMDD[a-zA-Z_.]|CMSC[a-zA-Z_.]|_cc_cc[a-zA-Z_.]|_cc_id[a-zA-Z_.]|_cc_dc[a-zA-Z_.]|_cc_aud[a-zA-Z_.]|rtc_AAAA[a-zA-Z_.]|ljt_reader[a-zA-Z_.]|ra1_sid[a-zA-Z_.]|RA1balancer[a-zA-Z_.]|MUID[a-zA-Z_.]|sto-id-20480-bh[a-zA-Z_.]|pudm_AAAA[a-zA-Z_.]|adaptv_unique_user_cookie[a-zA-Z_.]|put_1185[a-zA-Z_.]|MR[a-zA-Z_.]|CMRUM3[a-zA-Z_.]|__auc[a-zA-Z_.]|__asc[a-zA-Z_.]|KRTBCOOKIE_22[a-zA-Z_.]|everest_g_v2[a-zA-Z_.]|TapAd_TS[a-zA-Z_.]|TapAd_DID[a-zA-Z_.]|icu[a-zA-Z_.]|everest_session_v2[a-zA-Z_.]|Gdyn[a-zA-Z_.]|is_unique[a-zA-Z_.]|TMP_X1ID[a-zA-Z_.]|__unam[a-zA-Z_.]|X1ID[a-zA-Z_.]|matchgoogle[a-zA-Z_.]|put_1986[a-zA-Z_.]|KADUSERCOOKIE[a-zA-Z_.]|ServedBy[a-zA-Z_.]|optimizelyEndUserId[a-zA-Z_.]|optimizelyBuckets[a-zA-Z_.]|optimizelySegments[a-zA-Z_.]|optimizelyPendingLogEvents[a-zA-Z_.]|put_1512[a-zA-Z_.]|KTPCACOOKIE[a-zA-Z_.]|pi[a-zA-Z_.]|KRTBCOOKIE_27[a-zA-Z_.]|ev_t[a-zA-Z_.]|ev_t2[a-zA-Z_.]|SERVERID[a-zA-Z_.]|KRTBCOOKIE_57[a-zA-Z_.]|KRTBCOOKIE_80[a-zA-Z_.]|put_2249[a-zA-Z_.]|__utmv[a-zA-Z_.]|_ljtrtb_1[a-zA-Z_.]|SyncRTB[a-zA-Z_.]|SYNCUPPIX_ON[a-zA-Z_.]|put_2313[a-zA-Z_.]|_ym_uid[a-zA-Z_.]|_ym_isad[a-zA-Z_.]|put_2132[a-zA-Z_.]|PUBRETARGET[a-zA-Z_.]|KRTBCOOKIE_148[a-zA-Z_.]|__zlcmid[a-zA-Z_.]|taboola_session_id[a-zA-Z_.]|taboola_upci[a-zA-Z_.]|end_user_id[a-zA-Z_.]|__adroll[a-zA-Z_.]|OAGEO[a-zA-Z_.]|KRTBCOOKIE_240[a-zA-Z_.]|put_2146[a-zA-Z_.]|put_2309[a-zA-Z_.]|_ljtrtb_2[a-zA-Z_.]|put_2596[a-zA-Z_.]|mako_uid[a-zA-Z_.]|ANON_ID[a-zA-Z_.]|put_2307[a-zA-Z_.]|_rxuuid[a-zA-Z_.]|put_2810[a-zA-Z_.]|ra1_pd[a-zA-Z_.]|put_1523[a-zA-Z_.]|GPS[a-zA-Z_.]|ljtrtb[a-zA-Z_.]|KRTBCOOKIE_52[a-zA-Z_.]|parsely_network_uuid[a-zA-Z_.]|put_3876[a-zA-Z_.]|KRTBCOOKIE_466[a-zA-Z_.]|_chartbeat2[a-zA-Z_.]|put_2676[a-zA-Z_.]|sc_is_visitor_unique[a-zA-Z_.]|put_2046[a-zA-Z_.]|FFad[a-zA-Z_.]|FFcat[a-zA-Z_.]|KRTBCOOKIE_200[a-zA-Z_.]|put_2238[a-zA-Z_.]|BizoData[a-zA-Z_.]|ads_prefs[a-zA-Z_.]|personalization_id[a-zA-Z_.]|1P_JAR[a-zA-Z_.]|cp_id_ec364pageLoads[a-zA-Z_.]|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg[a-zA-Z_.]|lithiumSSO%3Apandora.prod[a-zA-Z_.]|isp[a-zA-Z_.]|_device_id[a-zA-Z_.]|ghostmonitor_session_id[a-zA-Z_.]|_orig_referrer[a-zA-Z_.]|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|AMCV_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|utag_main[a-zA-Z_.]|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|AMCV_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|utag_main[a-zA-Z_.]|_uv3_session[a-zA-Z_.]/
+||anonfile.com$cookie
+||anonfiles.com$cookie
 ||cloudflare.com$third-party,cookie
 ||adblockplus.org$cookie
 ||g01.msn.com$cookie
@@ -21560,6 +21756,29 @@ $webrtc,domain=nsa.gov
 ! Google IP
 ||216.58.192.205$network
 ||216.56.192.205$network
+||172.217.4.40$network
+||172.217.6.10$network
+! Facebook IP
+||157.240.18.15$network
+!#endif
+!#if (adguard_app_android && !ext_ublock)
+! App Specific
+35.241.26.53$network,app=com.creativegap.lastdefender
+34.231.178.101$network,app=com.sharkjump.castlefusion
+96.6.26.216$network,app=com.sharkjump.castlefusion
+157.240.18.15$network,app=com.sharkjump.castlefusion
+34.231.178.101$network,app=com.sharkjump.castlefusion
+35.241.14.70$network,app=com.sharkjump.castlefusion
+34.231.178.101$network,app=com.sharkjump.castlefusion
+35.241.14.70$network,app=com.sharkjump.castlefusion
+52.216.109.115$network,app=com.glu.samuzombie
+52.216.162.51$network,app=com.glu.samuzombie
+52.216.109.115$network,app=com.glu.samuzombie
+99.86.227.193$network,app=com.glu.samuzombie
+172.217.0.14$network,app=com.symantec.applock
+! Nox Android Emulator
+47.254.40.233$network,app=system
+47.88.66.23$network,app=system
 !#endif
 
 ! Common Malware Crap
@@ -22155,6 +22374,13 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /advert-amazon-secret?
 /banner/videos/player.htm?
 /plugin/banner/videos/*
+/haekchen/mapchen/
+/mapchen-heatmap/
+/pixel/purst?$image
+/pixel/pure
+/_addve.php
+/_addve*Footer.php
+/addve*bottom.php
 -google-tag-
 -ad-
 -v6exp3-
@@ -22298,6 +22524,11 @@ mas_jump_
 ##.ad-container.main.top.hidden-print
 ##.showcasead
 ##.nativeadasideplaceholder
+###adblockmsg
+##.ezoic-ad
+##.ad_deferrable
+##.ad-splash
+##.ad.ad--rail
 ##[data-google-query-id]
 ##[id^="bestgoogleadsense-"]
 ##[id^="blogTwoAD"]
@@ -22365,6 +22596,8 @@ mas_jump_
 ##a[href*="onelink.me"]
 ##a[href*="clickbank.net"]
 ##a[href*="fourchan.com"]
+##a[href*="feed111.me"]
+##a[href*="dynsrvbaa.com"]
 ##a[href*="/advert/"]
 ##a[href*="/avt/"]
 ##a[href*="/adrotate-out.php?"]
