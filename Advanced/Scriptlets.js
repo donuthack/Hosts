@@ -34,12 +34,3 @@
         addEventListener('load', click);
     }
 })();
-
-// input-click-defuser
-/// i-click-defuser.js
-/// alias icd.js
-(() => {
-    'use strict';
-    const click = document.querySelectorAll('input');
-    click.forEach(item => item.removeAttribute('onclick'));
-})();
