@@ -38,9 +38,8 @@
 // click-defuser
 /// clickdef.js
 /// alias cd.js
-contextmenudef.js application/javascript
-function clearEventListeners() {
+function cd() {
     document.onclick = null;
     document.body.removeAttribute("onclick")
 }
-window.addEventListener('load', clearEventListeners, false);
+window.addEventListener('load', cd);
