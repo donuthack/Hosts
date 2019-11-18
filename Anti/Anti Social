@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 15
+! Version: 16
 
 ! AddToAny
 ||addtoany.com
@@ -178,6 +178,15 @@
 ###comment-section
 ##.inactive.short.flex_action_chat
 
+! RSS
+###rss-link
+##.rss
+/rss/
+/rss_*
+/rss__*
+/*_rss
+/*-rrss
+
 ! Buttons / Share Links
 ##a[href^="reddit.com/submit?"]
 ##a[href^="linkedin.com/shareArticle"]
@@ -353,9 +362,24 @@
 ##.twitter
 ##.fb
 ##.facebook
+-facebook
+-fb
+-twitter
+.facebook
+.fb
+.twitter
+-social-
+-socail.
+.social-
+.social.
 .*/share
 _share
 share_
+-share-
+-sharebar-
+-sharebar.
+.sharebar-
+.sharebar.
 
 ! Specific
 www.dailymail.co.uk##.dms-puff
