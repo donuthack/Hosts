@@ -1,10 +1,10 @@
 [Adblock Plus 3.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1177
+! Version: 1178
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 22.4K
-! Last Modified: Saturday, November 16, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 22.5K
+! Last Modified: Sunday, November 17, 2019
 
 ! Unbreak
 bluestacks.com,lucidpress.com#@#a[href*="&utm_"]
@@ -105,8 +105,6 @@ pandora.com$genericblock
 /^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$third-party
 ! Block possibly suspicious top-level domains from running as third-party popups on sites
 /^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$third-party,popup
-! Block some text ad craps
-/^http(s)?:\/\/(www\.)?[textad]+\./
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -4042,6 +4040,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||a.ads2.msads.net
 
 !B
+||bestcontentnetwork.top
+||black77854.com
 ||bnsjb1ab1e.com
 ||bceapp.com
 ||bro.shtranssion.com
@@ -4972,6 +4972,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||bam.nr-data.net
 
 !C
+||consting-hancessor.com
+||camonster.com$popup
+||cp.dbbp1.pro
+||cams.com$third-party,popup
 ||cdn1.mobile.contentdef.com
 ||cdn2.mobile.contentdef.com
 ||cdn3.mobile.contentdef.com
@@ -6049,6 +6053,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||creative.medialytics.com
 
 !D
+||dat1.its-up.com
+||dragonfru.it
+||dbbp1.pro
 ||ds.shalltry.com
 ||dsms0mj1bbhn4.cloudfront.net
 ||dynsrvbaa.com
@@ -6766,6 +6773,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||downloads.mailchimp.com
 
 !E
+||engine.voluumtlkrnarketing.com
+||erossite.com
 ||es-meetic.club
 ||epnt.ebay.com$third-party
 ||emxdgt.com
@@ -7937,7 +7946,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||www.hey.lt
 ||hey.lt
 ||hits.informer.com
-||hwcdn.net
 ||www.hupso.com
 ||hupso.com
 ||hashing.win
@@ -8072,6 +8080,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||helpshift.com
 
 !I
+||ipcheck.info
+||its-up.com
 ||instantfuns.com
 ||insightsprod.zelfy.com
 ||ichnaea.netflix.com
@@ -9937,6 +9947,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||location.silverpush.com
 
 !M
+||mediagamemainframes.com$third-party
 ||mainstrat.com
 ||madspms.com
 ||maidesqueen.pro
@@ -11994,6 +12005,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||r.skimresources.com
 
 !S
+||seeawhale.com
+||sexad.com$popup
 ||shalltry.com
 ||snaptu-z.facebook.com
 ||sniff.visistat.com
@@ -13300,6 +13313,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||scripts.kissmetrics.com
 
 !T
+||taozgpkjzpdtgr.com
 ||tionscofferent.info
 ||taptica.com
 ||track.tenjin.com
@@ -14098,6 +14112,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||us.adserver.yahoo.com
 
 !V
+||voluumtlkrnarketing.com
 ||visistat.com
 ||vidsrev.com
 ||videodelivery.net$domain=reuters.com
@@ -18619,18 +18634,12 @@ nourishinteractive.com##.location_page_right5
 nourishinteractive.com##.location_page_left2
 nourishinteractive.com##.location_page_left4
 www.pandora.com##.DisplayAdController__rightRail--active.DisplayAdController__rightRail
-google.com$domain=theatlas.com
-google.com$domain=thenews.com.pk
-google.com$domain=techworld.com
+google.com$domain=theatlas.com|sex.com|thenews.com.pk|techworld.com|servicecare.org.uk|ipeeworld.com|cambiaresearch.com|indiatimes.com|realgfporn.com|1stamender.com|billboard.com
 www.today.com##.pkg-index-8.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.mainColumn___9Tp3L.columnsWrapper___3OmzC > .adColumnRight___E1E5V.grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 www.today.com##.pkg-index-12.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.columnsWrapper___3OmzC > .grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 www.today.com##.pkg-index-4.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.columnsWrapper___3OmzC > .grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
 www.today.com##.grid-col-4-xl.grid-col-5-l.layout-grid-item.rail___2vypZ.rail___14Hjt.rail
 www.today.com##.pkg-index-16.stickyAdTrackContainer___3Ze7b.stickyAdTrack--7up.stickyAdTrack.pkg > .inFront___3dmmy > .gutter-collapse.layout-grid-container.mainColumn___9Tp3L.columnsWrapper___3OmzC > .adColumnRight___E1E5V.grid-col-4-xl.grid-col-5-l.layout-grid-item.adColumn___394WZ
-google.com$domain=indiatimes.com
-google.com$domain=cambiaresearch.com
-google.com$domain=ipeeworld.com
-google.com$domain=servicecare.org.uk
 pubmatic.com$domain=indiatimes.com
 abcnews.go.com###_outbrain
 abcnews.go.com###interest-carousel
@@ -18813,7 +18822,6 @@ www.bitrix24.com##.b24-widget-button-popup-show.b24-widget-button-popup
 www.harmonypsa.com##.scroll-show.u-highest.c-scroll-top
 www.isotravel.com##.js-cookieBanner.cookieBanner--container
 www.instantcheckmate.com##.ugc-alert
-google.com$domain=billboard.com
 snapchat-download.net##.entry-inner > div:nth-of-type(1)
 snapchat-download.net##.entry-inner > div:nth-of-type(3)
 snapchat-download.net##.entry-inner > div:nth-of-type(5)
@@ -18855,7 +18863,6 @@ www.sohu.com###main-news
 cgi.connect.qq.com/report
 ui.ptlogin2.qq.com/cgi-bin/report
 clients6.google.com/rpc
-google.com$domain=1stamender.com
 www.yahoo.com/_td_api/beacon
 www.yahoo.com/_td_api?_appletType=viewer
 cdn.vox-cdn.com/packs/concert_ads*
@@ -21423,7 +21430,6 @@ www.dmm.com##.clear
 yahoo.com###act-labs-initial-fade > div
 yahoo.com###act-labs-video-holder
 bing.com$domain=rbreezy.net
-google.com$domain=realgfporn.com
 rewritertools.com##.col-md-10.col-xs-12.add
 quillbot.com##.feedback-text
 quillbot.com##.feedback-first-box
@@ -21626,6 +21632,27 @@ anonfiles.com##span.glyphicon-upload.glyphicon
 www.hentai-foundry.com##.activebar
 us.shein.com##.j-quick-register.c-quick-register
 wcostream.com##img[src*="/tnc/zya/lfa.js?"]
+www.pornhub.com##.sniperModeEngaged
+html.com##.pm-dialog
+||liquiddeath.com/null
+boards.4chan.org##div.adg-rects.desktop
+boards.4chan.org##div.adg.adp-250.adp-row
+www.sex.com###container > div.text-center > div.ad-foote
+www.sex.com##div.ad-wrap:first-child
+www.sex.com##.ad-big.masonry_box
+www.sex.com##div.ad_box.masonry_box
+www.sex.com###slideAd
+www.pornmd.com##.advertisement
+www.tube8.com##.mhp1138_eventCatcher
+www.tube8.com###pb_template
+therule34.net##[href="goo.gl/"]
+cams.com###lm_reg
+cams.com###reg_popup
+cams.com###lightbox
+sex.com##.ad
+||cams.com/wonuserinfo.cgi
+||secureimage.securedataimages.com/images/common/spacer.gif$third-party
+www.msn.com##div.extnativeaditem
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -21685,10 +21712,14 @@ pornhub.com#%#AG_onLoad(function() { if (typeof redirect !== 'function') return;
 #%#//scriptlet('abort-current-inline-script','document.addEventListener','/google_ad_client/')
 ibc.org#%#document.cookie = "AnonUserCookie = " + Math.random() + ";path=/";
 
+cams.com#@%#//scriptlet("prevent-bab")
+
 dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
-$cookie=/_landing_page[a-zA-Z_.]|http_referrer[a-zA-Z_.]|_device_id[a-zA-Z_.]|has_recent_activity[a-zA-Z_.]|_parsely_visitor[a-zA-Z_.]|slimstat_tracking_code[a-zA-Z_.]|view_count[a-zA-Z_.]|played_games_ids[a-zA-Z_.]|ABTEST[a-zA-Z_.]|ip[a-zA-Z_.]|KinjaSession[a-zA-Z_.]|country[a-zA-Z_.]|visited[a-zA-Z_.]|counter[a-zA-Z_.]|countrycode[a-zA-Z_.]|city[a-zA-Z_.]|session_tracker[a-zA-Z_.]|cookies.js[a-zA-Z_.]|location-data[a-zA-Z_.]|smpush_safari_device_token[a-zA-Z_.]|smpush_device_token[a-zA-Z_.]|_gcl_au[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|floodlightPixelTimer[a-zA-Z_.]|geo[a-zA-Z_.]|IPLOC[a-zA-Z_.]|browerV[a-zA-Z_.]|__utmz[a-zA-Z_.]|__utma[a-zA-Z_.]|__utmc[a-zA-Z_.]|__utmb[a-zA-Z_.]|__utmt[a-zA-Z_.]|_ga[a-zA-Z_.]|uid[a-zA-Z_.]|_gat[a-zA-Z_.]|PHPSESSID[a-zA-Z_.]|__cfduid[a-zA-Z_.]|UIDR[a-zA-Z_.]|pid[a-zA-Z_.]|uuid2[a-zA-Z_.]|tuuid[a-zA-Z_.]|_drt_[a-zA-Z_.]|uuidc[a-zA-Z_.]|__gads[a-zA-Z_.]|ASP.NET_SessionId[a-zA-Z_.]|anj[a-zA-Z_.]|__atuvc[a-zA-Z_.]|__atuvs[a-zA-Z_.]|di2[a-zA-Z_.]|rpx[a-zA-Z_.]|rpb[a-zA-Z_.]|bku[a-zA-Z_.]|bkdc[a-zA-Z_.]|yandexuid[a-zA-Z_.]|TDID[a-zA-Z_.]|yabs-sid[a-zA-Z_.]|khaos[a-zA-Z_.]|TDCPM[a-zA-Z_.]|__qca[a-zA-Z_.]|IDE[a-zA-Z_.]|PUBMDCID[a-zA-Z_.]|guest_id[a-zA-Z_.]|wfivefivec[a-zA-Z_.]|na_tc[a-zA-Z_.]|bkc[a-zA-Z_.]|bklc[a-zA-Z_.]|OAID[a-zA-Z_.]|JEB2[a-zA-Z_.]|CMPS[a-zA-Z_.]|CMID[a-zA-Z_.]|CfP[a-zA-Z_.]|ra1_uid[a-zA-Z_.]|CMST[a-zA-Z_.]|CMDD[a-zA-Z_.]|CMSC[a-zA-Z_.]|_cc_cc[a-zA-Z_.]|_cc_id[a-zA-Z_.]|_cc_dc[a-zA-Z_.]|_cc_aud[a-zA-Z_.]|rtc_AAAA[a-zA-Z_.]|ljt_reader[a-zA-Z_.]|ra1_sid[a-zA-Z_.]|RA1balancer[a-zA-Z_.]|MUID[a-zA-Z_.]|sto-id-20480-bh[a-zA-Z_.]|pudm_AAAA[a-zA-Z_.]|adaptv_unique_user_cookie[a-zA-Z_.]|put_1185[a-zA-Z_.]|MR[a-zA-Z_.]|CMRUM3[a-zA-Z_.]|__auc[a-zA-Z_.]|__asc[a-zA-Z_.]|KRTBCOOKIE_22[a-zA-Z_.]|everest_g_v2[a-zA-Z_.]|TapAd_TS[a-zA-Z_.]|TapAd_DID[a-zA-Z_.]|icu[a-zA-Z_.]|everest_session_v2[a-zA-Z_.]|Gdyn[a-zA-Z_.]|is_unique[a-zA-Z_.]|TMP_X1ID[a-zA-Z_.]|__unam[a-zA-Z_.]|X1ID[a-zA-Z_.]|matchgoogle[a-zA-Z_.]|put_1986[a-zA-Z_.]|KADUSERCOOKIE[a-zA-Z_.]|ServedBy[a-zA-Z_.]|optimizelyEndUserId[a-zA-Z_.]|optimizelyBuckets[a-zA-Z_.]|optimizelySegments[a-zA-Z_.]|optimizelyPendingLogEvents[a-zA-Z_.]|put_1512[a-zA-Z_.]|KTPCACOOKIE[a-zA-Z_.]|pi[a-zA-Z_.]|KRTBCOOKIE_27[a-zA-Z_.]|ev_t[a-zA-Z_.]|ev_t2[a-zA-Z_.]|SERVERID[a-zA-Z_.]|KRTBCOOKIE_57[a-zA-Z_.]|KRTBCOOKIE_80[a-zA-Z_.]|put_2249[a-zA-Z_.]|__utmv[a-zA-Z_.]|_ljtrtb_1[a-zA-Z_.]|SyncRTB[a-zA-Z_.]|SYNCUPPIX_ON[a-zA-Z_.]|put_2313[a-zA-Z_.]|_ym_uid[a-zA-Z_.]|_ym_isad[a-zA-Z_.]|put_2132[a-zA-Z_.]|PUBRETARGET[a-zA-Z_.]|KRTBCOOKIE_148[a-zA-Z_.]|__zlcmid[a-zA-Z_.]|taboola_session_id[a-zA-Z_.]|taboola_upci[a-zA-Z_.]|end_user_id[a-zA-Z_.]|__adroll[a-zA-Z_.]|OAGEO[a-zA-Z_.]|KRTBCOOKIE_240[a-zA-Z_.]|put_2146[a-zA-Z_.]|put_2309[a-zA-Z_.]|_ljtrtb_2[a-zA-Z_.]|put_2596[a-zA-Z_.]|mako_uid[a-zA-Z_.]|ANON_ID[a-zA-Z_.]|put_2307[a-zA-Z_.]|_rxuuid[a-zA-Z_.]|put_2810[a-zA-Z_.]|ra1_pd[a-zA-Z_.]|put_1523[a-zA-Z_.]|GPS[a-zA-Z_.]|ljtrtb[a-zA-Z_.]|KRTBCOOKIE_52[a-zA-Z_.]|parsely_network_uuid[a-zA-Z_.]|put_3876[a-zA-Z_.]|KRTBCOOKIE_466[a-zA-Z_.]|_chartbeat2[a-zA-Z_.]|put_2676[a-zA-Z_.]|sc_is_visitor_unique[a-zA-Z_.]|put_2046[a-zA-Z_.]|FFad[a-zA-Z_.]|FFcat[a-zA-Z_.]|KRTBCOOKIE_200[a-zA-Z_.]|put_2238[a-zA-Z_.]|BizoData[a-zA-Z_.]|ads_prefs[a-zA-Z_.]|personalization_id[a-zA-Z_.]|1P_JAR[a-zA-Z_.]|cp_id_ec364pageLoads[a-zA-Z_.]|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg[a-zA-Z_.]|lithiumSSO%3Apandora.prod[a-zA-Z_.]|isp[a-zA-Z_.]|_device_id[a-zA-Z_.]|ghostmonitor_session_id[a-zA-Z_.]|_orig_referrer[a-zA-Z_.]|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|AMCV_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|utag_main[a-zA-Z_.]|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|AMCV_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|utag_main[a-zA-Z_.]|_uv3_session[a-zA-Z_.]/
+$cookie=/_landing_page[a-zA-Z_.]|http_referrer[a-zA-Z_.]|_device_id[a-zA-Z_.]|has_recent_activity[a-zA-Z_.]|_parsely_visitor[a-zA-Z_.]|slimstat_tracking_code[a-zA-Z_.]|view_count[a-zA-Z_.]|played_games_ids[a-zA-Z_.]|ABTEST[a-zA-Z_.]|ip[a-zA-Z_.]|KinjaSession[a-zA-Z_.]|country[a-zA-Z_.]|visited[a-zA-Z_.]|counter[a-zA-Z_.]|countrycode[a-zA-Z_.]|city[a-zA-Z_.]|session_tracker[a-zA-Z_.]|cookies.js[a-zA-Z_.]|location-data[a-zA-Z_.]|smpush_safari_device_token[a-zA-Z_.]|smpush_device_token[a-zA-Z_.]|_gcl_au[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|floodlightPixelTimer[a-zA-Z_.]|geo[a-zA-Z_.]|IPLOC[a-zA-Z_.]|browerV[a-zA-Z_.]|__utmz[a-zA-Z_.]|__utma[a-zA-Z_.]|__utmc[a-zA-Z_.]|__utmb[a-zA-Z_.]|__utmt[a-zA-Z_.]|_ga[a-zA-Z_.]|uid[a-zA-Z_.]|_gat[a-zA-Z_.]|PHPSESSID[a-zA-Z_.]|__cfduid[a-zA-Z_.]|UIDR[a-zA-Z_.]|pid[a-zA-Z_.]|uuid2[a-zA-Z_.]|tuuid[a-zA-Z_.]|_drt_[a-zA-Z_.]|uuidc[a-zA-Z_.]|__gads[a-zA-Z_.]|ASP.NET_SessionId[a-zA-Z_.]|anj[a-zA-Z_.]|__atuvc[a-zA-Z_.]|__atuvs[a-zA-Z_.]|di2[a-zA-Z_.]|rpx[a-zA-Z_.]|rpb[a-zA-Z_.]|bku[a-zA-Z_.]|bkdc[a-zA-Z_.]|yandexuid[a-zA-Z_.]|TDID[a-zA-Z_.]|yabs-sid[a-zA-Z_.]|khaos[a-zA-Z_.]|TDCPM[a-zA-Z_.]|__qca[a-zA-Z_.]|IDE[a-zA-Z_.]|PUBMDCID[a-zA-Z_.]|guest_id[a-zA-Z_.]|wfivefivec[a-zA-Z_.]|na_tc[a-zA-Z_.]|bkc[a-zA-Z_.]|bklc[a-zA-Z_.]|OAID[a-zA-Z_.]|JEB2[a-zA-Z_.]|CMPS[a-zA-Z_.]|CMID[a-zA-Z_.]|CfP[a-zA-Z_.]|ra1_uid[a-zA-Z_.]|CMST[a-zA-Z_.]|CMDD[a-zA-Z_.]|CMSC[a-zA-Z_.]|_cc_cc[a-zA-Z_.]|_cc_id[a-zA-Z_.]|_cc_dc[a-zA-Z_.]|_cc_aud[a-zA-Z_.]|rtc_AAAA[a-zA-Z_.]|ljt_reader[a-zA-Z_.]|ra1_sid[a-zA-Z_.]|RA1balancer[a-zA-Z_.]|MUID[a-zA-Z_.]|sto-id-20480-bh[a-zA-Z_.]|pudm_AAAA[a-zA-Z_.]|adaptv_unique_user_cookie[a-zA-Z_.]|put_1185[a-zA-Z_.]|MR[a-zA-Z_.]|CMRUM3[a-zA-Z_.]|__auc[a-zA-Z_.]|__asc[a-zA-Z_.]|KRTBCOOKIE_22[a-zA-Z_.]|everest_g_v2[a-zA-Z_.]|TapAd_TS[a-zA-Z_.]|TapAd_DID[a-zA-Z_.]|icu[a-zA-Z_.]|everest_session_v2[a-zA-Z_.]|Gdyn[a-zA-Z_.]|is_unique[a-zA-Z_.]|TMP_X1ID[a-zA-Z_.]|__unam[a-zA-Z_.]|X1ID[a-zA-Z_.]|matchgoogle[a-zA-Z_.]|put_1986[a-zA-Z_.]|KADUSERCOOKIE[a-zA-Z_.]|ServedBy[a-zA-Z_.]|optimizelyEndUserId[a-zA-Z_.]|optimizelyBuckets[a-zA-Z_.]|optimizelySegments[a-zA-Z_.]|optimizelyPendingLogEvents[a-zA-Z_.]|put_1512[a-zA-Z_.]|KTPCACOOKIE[a-zA-Z_.]|pi[a-zA-Z_.]|KRTBCOOKIE_27[a-zA-Z_.]|ev_t[a-zA-Z_.]|ev_t2[a-zA-Z_.]|SERVERID[a-zA-Z_.]|KRTBCOOKIE_57[a-zA-Z_.]|KRTBCOOKIE_80[a-zA-Z_.]|put_2249[a-zA-Z_.]|__utmv[a-zA-Z_.]|_ljtrtb_1[a-zA-Z_.]|SyncRTB[a-zA-Z_.]|SYNCUPPIX_ON[a-zA-Z_.]|put_2313[a-zA-Z_.]|_ym_uid[a-zA-Z_.]|_ym_isad[a-zA-Z_.]|put_2132[a-zA-Z_.]|PUBRETARGET[a-zA-Z_.]|KRTBCOOKIE_148[a-zA-Z_.]|__zlcmid[a-zA-Z_.]|taboola_session_id[a-zA-Z_.]|taboola_upci[a-zA-Z_.]|end_user_id[a-zA-Z_.]|__adroll[a-zA-Z_.]|OAGEO[a-zA-Z_.]|KRTBCOOKIE_240[a-zA-Z_.]|put_2146[a-zA-Z_.]|put_2309[a-zA-Z_.]|_ljtrtb_2[a-zA-Z_.]|put_2596[a-zA-Z_.]|mako_uid[a-zA-Z_.]|ANON_ID[a-zA-Z_.]|put_2307[a-zA-Z_.]|_rxuuid[a-zA-Z_.]|put_2810[a-zA-Z_.]|ra1_pd[a-zA-Z_.]|put_1523[a-zA-Z_.]|GPS[a-zA-Z_.]|ljtrtb[a-zA-Z_.]|KRTBCOOKIE_52[a-zA-Z_.]|parsely_network_uuid[a-zA-Z_.]|put_3876[a-zA-Z_.]|KRTBCOOKIE_466[a-zA-Z_.]|_chartbeat2[a-zA-Z_.]|put_2676[a-zA-Z_.]|sc_is_visitor_unique[a-zA-Z_.]|put_2046[a-zA-Z_.]|FFad[a-zA-Z_.]|FFcat[a-zA-Z_.]|KRTBCOOKIE_200[a-zA-Z_.]|put_2238[a-zA-Z_.]|BizoData[a-zA-Z_.]|ads_prefs[a-zA-Z_.]|personalization_id[a-zA-Z_.]|1P_JAR[a-zA-Z_.]|cp_id_ec364pageLoads[a-zA-Z_.]|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg[a-zA-Z_.]|lithiumSSO%3Apandora.prod[a-zA-Z_.]|isp[a-zA-Z_.]|_device_id[a-zA-Z_.]|ghostmonitor_session_id[a-zA-Z_.]|_orig_referrer[a-zA-Z_.]|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|AMCV_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|utag_main[a-zA-Z_.]|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|AMCV_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|utag_main[a-zA-Z_.]|_uv3_session[a-zA-Z_.]|_device_id[a-zA-Z_.]|has_recent_activity[a-zA-Z_.]|click_id_time[a-zA-Z_.]|LOCATION_FROM_IP[a-zA-Z_.]|IP_COUNTRY[a-zA-Z_.]|_wamtcstandards[a-zA-Z_.]|com.tree.widgets\$IGoogleAdServingTest[a-zA-Z_.]|com.yahoo.\$IB[a-zA-Z_.]|i10c.referrer[a-zA-Z_.]|[a-zA-Z0-9]+.uservisit[a-zA-Z_.]|i10c3C[a-zA-Z_.]|i10c.SIBC[a-zA-Z_.]|i10c.ss[a-zA-Z_.]|i10c.uid[a-zA-Z_.]|morphi10c[a-zA-Z_.]|m0r9h.route[a-zA-Z_.]|m0r9h.salt[a-zA-Z_.]|m0r9h.bsalt[a-zA-Z_.]|_chartbeat[0-9][a-zA-Z_.]|MUID[a-zA-Z_.]|_EDGE_V[a-zA-Z_.]|_EDGE_S[a-zA-Z_.]|net.media.contextual\$Nhbcm_sd[a-zA-Z_.]|i10cTS[a-zA-Z_.]|i10cTC[a-zA-Z_.]|SRCHUSR[a-zA-Z_.]|SRCHUID[a-zA-Z_.]|SRCHD[a-zA-Z_.]|com.linkedin.\$Ilidc[a-zA-Z_.]|com.linkedin.ads.\$Nlang[a-zA-Z_.]|com.linkedin.\$Ili_sugr[a-zA-Z_.]|com.scorecardresearch.\$IUIDR[a-zA-Z_.]|com.scorecardresearch.\$IUID[a-zA-Z_.]|net.media.\$Idata-nms[a-zA-Z_.]|net.media.\$Ivisitor-id[a-zA-Z_.]|msaOptout[a-zA-Z_.]|_cb_svref[a-zA-Z_.]/
+||msn.com$cookie=anoncknm|RecentStocks
+||cams.com$cookie=/cams_who|cams_tr|HISTORY/
 ||anonfile.com$cookie
 ||anonfiles.com$cookie
 ||cloudflare.com$third-party,cookie
@@ -22333,7 +22364,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /google-adblock.js
 /ramy6P8ui3ZlbYWn/
 /gm-ga.min.js
-/favicon.ico$third-party
+/favicon.ico$third-party,domain=~discprdapp.com|~github.com
 /showads.js
 /adoefieldlite-
 /plugins/mashsharer/$script
@@ -22382,6 +22413,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /_addve.php
 /_addve*Footer.php
 /addve*bottom.php
+/track/count/zone/
 -google-tag-
 -ad-
 -v6exp3-
