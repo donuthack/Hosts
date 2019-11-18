@@ -56,6 +56,7 @@
 0.0.0.0 www.news.verizonenterprise.com
 0.0.0.0 verizonenterprise.com
 0.0.0.0 www.verizonenterprise.com
+0.0.0.0 sso.verizonenterprise.com
 0.0.0.0 135.sub-198-224-148.myvzw.com
 0.0.0.0 www.135.sub-198-224-148.myvzw.com
 0.0.0.0 101.sub-75-199-205.myvzw.com
@@ -401,7 +402,6 @@
 0.0.0.0 rdd.vzw.com
 0.0.0.0 mobile-exp.vzw.com
 0.0.0.0 vzw.com
-0.0.0.0 /foryourhome/ordering/checkavailabilitylq.aspx
 0.0.0.0 ascrmdinet101-ns-rdd-w.verizonwireless.com
 0.0.0.0 nyorbgdinet101-ns-rdd-e.verizonwireless.com
 0.0.0.0 verizon-services.com
@@ -410,3 +410,63 @@
 0.0.0.0 verizon.inq.com
 0.0.0.0 mobile.vzw.com
 0.0.0.0 sanalytics.verizonwireless.com
+0.0.0.0 vzwebsites.com
+0.0.0.0 business.verizon.com
+0.0.0.0 tv.verizon.com
+0.0.0.0 forums.verizon.com
+0.0.0.0 myverizonid.verizon.com
+0.0.0.0 login.verizonwireless.com
+0.0.0.0 fios.verizon.com
+0.0.0.0 ssoauth.verizon.com
+0.0.0.0 b2b.verizonwireless.com
+0.0.0.0 yourdigitalrebatecenter.com
+0.0.0.0 activate.verizon.com
+0.0.0.0 m.mediastore.verizonwireless.com
+0.0.0.0 mediastore.verizonwireless.com
+0.0.0.0 verizon.net
+0.0.0.0 help.webhosting.verizon.net
+0.0.0.0 gowireless.com
+0.0.0.0 hum.com
+0.0.0.0 tccrocks.com
+0.0.0.0 odi-device.verizonwireless.com
+0.0.0.0 jobs.verizon.com
+0.0.0.0 ilogin.verizon.com
+0.0.0.0 communities.verizon.com
+0.0.0.0 thingspace.verizon.com
+0.0.0.0 opendevelopment.verizonwireless.com
+0.0.0.0 myverizonenterprise.verizon.com
+0.0.0.0 go.verizon.com
+0.0.0.0 enterprisecenter.verizon.com
+0.0.0.0 noaccess.verizon.com
+0.0.0.0 welcometofios.verizon.com
+0.0.0.0 insite.verizonenterprise.com
+0.0.0.0 verizon.overview.mail.yahoo.com
+0.0.0.0 verizon.mcafee.com
+0.0.0.0 smallbizrewards.verizon.com
+0.0.0.0 cim.verizonwireless.com
+0.0.0.0 customer.hum.com
+0.0.0.0 lz3.verizon.com
+0.0.0.0 wbillpay.verizonwireless.com
+0.0.0.0 care.verizon.net
+0.0.0.0 games.verizon.com
+0.0.0.0 payable.verizon.com
+0.0.0.0 cimr7-tpa.verizonwireless.com
+0.0.0.0 vzidr7-tpa.verizonwireless.com
+0.0.0.0 picture.vzw.com
+0.0.0.0 verizonwebhost.com
+0.0.0.0 verizonmedia.com
+0.0.0.0 allourthanks.com
+0.0.0.0 vzwmap.verizonwireless.com
+0.0.0.0 vznavigator.vzw.com
+0.0.0.0 vesidm.verizonwireless.com
+0.0.0.0 help.domains.verizon.net
+0.0.0.0 verizon.digitalpromise.org
+0.0.0.0 conferencing.verizonbusiness.com
+
+! Things that wont work in DNS blocking methods
+/foryourhome/ordering/checkavailabilitylq.aspx
+/vzauth
+/verizonrewards
+?goto=https://*.verizonwireless.com
+%2everizon%2ecom%
+||pandora.com/verizon
