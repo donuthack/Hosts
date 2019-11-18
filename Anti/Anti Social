@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 14
+! Version: 15
 
 ! AddToAny
 ||addtoany.com
@@ -176,6 +176,7 @@
 ##.comments_icon
 ###comment-container
 ###comment-section
+##.inactive.short.flex_action_chat
 
 ! Buttons / Share Links
 ##a[href^="reddit.com/submit?"]
