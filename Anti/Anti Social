@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 16
+! Version: 17
 
 ! AddToAny
 ||addtoany.com
@@ -386,8 +386,11 @@ www.dailymail.co.uk##.dms-puff
 www.htmlcsscolor.com##.maincontent.mainpanel.container > div:nth-of-type(4) > .pull-right
 foxnews.com##.social-icons
 app.tradeoff.com##.trading-results__header-actions
-www.gallup.com##[href="https://www.facebook.com/gallup"]
-www.gallup.com##[href="https://twitter.com/gallup"]
-www.gallup.com##[href="https://www.linkedin.com/company/166373"]
-www.gallup.com##[href="https://www.youtube.com/channel/UC2dTfkMAnI7_kco6QK7sQuA"]
+www.gallup.com##[href="https://www.facebook.com/"]
+www.gallup.com##[href="https://twitter.com/"]
+www.gallup.com##[href="https://www.linkedin.com/"]
+www.gallup.com##[href="https://www.youtube.com"]
 yahoo.com##.canvas-share-buttons, .left-share-buttons
+wordpress.com##a[href*="wordpress.com/feed/"]
+wordpress.com##a[href*="wordpress.com/comment/feed/"]
+wordpress.com##a[href*="wordpress.com/comments/feed/"]
