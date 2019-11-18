@@ -462,6 +462,9 @@
 0.0.0.0 help.domains.verizon.net
 0.0.0.0 verizon.digitalpromise.org
 0.0.0.0 conferencing.verizonbusiness.com
+0.0.0.0 es.verizonwireless.com
+0.0.0.0 verizonspecials.com
+0.0.0.0 virtualcommexpress.verizon.com
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
