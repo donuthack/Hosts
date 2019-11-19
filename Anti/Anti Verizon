@@ -473,3 +473,23 @@
 ?goto=https://*.verizonwireless.com
 %2everizon%2ecom%
 ||pandora.com/verizon
+
+! Use AdGuard To Block Cookies From Tracking You
+!#if (adguard && !ext_ublock)
+verizon.com^*$cookie=/.+/
+verizon.net^*$cookie=/.+/
+vzw.com^*$cookie=/.+/
+verizonspecials.com^*$cookie=/.+/
+verizonwireless.com^*$cookie=/.+/
+verizonbusiness.com^*$cookie=/.+/
+allourthanks.com^*$cookie=/.+/
+verizonmedia.com^*$cookie=/.+/
+verizonwebhost.com^*$cookie=/.+/
+verizonenterprise.com^*$cookie=/.+/
+hum.com^*$cookie=/.+/
+verizon.mcafee.com^*$cookie=/.+/
+verizon.overview.mail.yahoo.com^*$cookie=/.+/
+tccrocks.com^*$cookie=/.+/
+gowireless.com^*$cookie=/.+/
+uplynk.com^*$cookie=/.+/
+!#endif
