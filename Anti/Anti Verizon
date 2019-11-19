@@ -1,5 +1,5 @@
-# Title: Cybo's Anti Verizon
-# Expires: 1 day
+! Title: Cybo's Anti Verizon
+! Expires: 1 day
 
 0.0.0.0 www.verizondigitalmedia.com
 0.0.0.0 verizondigitalmedia.com
@@ -465,6 +465,7 @@
 0.0.0.0 es.verizonwireless.com
 0.0.0.0 verizonspecials.com
 0.0.0.0 virtualcommexpress.verizon.com
+0.0.0.0
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
@@ -482,6 +483,7 @@ vzw.com^*$cookie=/.+/
 verizonspecials.com^*$cookie=/.+/
 verizonwireless.com^*$cookie=/.+/
 verizonbusiness.com^*$cookie=/.+/
+verizonconnect.com^*$cookie=/.+/
 allourthanks.com^*$cookie=/.+/
 verizonmedia.com^*$cookie=/.+/
 verizonwebhost.com^*$cookie=/.+/
