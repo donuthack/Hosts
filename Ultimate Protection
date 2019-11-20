@@ -187,7 +187,17 @@ wu-calculator.apple.com
 &ssp=AppNexus
 &campaign=0-true
 &city=
+%city=
+&geo=
+%geo=
+&ip=
+%ip=
 &isp=
+%isp=
+&browser=
+%browser=
+&os=
+%os=
 &rpcToken
 ?brand=Apple
 ?brand=Google
