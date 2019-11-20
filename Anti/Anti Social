@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 17
+! Version: 18
 
 ! AddToAny
 ||addtoany.com
@@ -188,21 +188,21 @@
 /*-rrss
 
 ! Buttons / Share Links
-##a[href^="reddit.com/submit?"]
-##a[href^="linkedin.com/shareArticle"]
-##a[href^="facebook.com/sharer.php"]
-##a[href^="twitter.com/intent/tweet"]
-##a[href^="telegram.me/share/url"]
-##a[href^="api.whatsapp.com/send"]
+##a[href^="reddit.com/"]
+##a[href^="linkedin.com/"]
+##a[href^="facebook.com/"]
+##a[href^="twitter.com/"]
+##a[href^="telegram.me/"]
+##a[href^="whatsapp.com/"]
 ##a[href^="fb-messenger://share/"]
-##[onclick^="window.open('reddit.com/submit"]
-##[onclick^="window.open('linkedin.com/shareArticle"]
-##[onclick^="window.open('facebook.com/sharer.php"]
-##[onclick^="window.open('fb-messenger://share/"]
-##[onclick^="window.open('facebook.com/plugins/like.php"]
-##[onclick^="window.open('twitter.com/intent/tweet"]
-##[onclick^="window.open('telegram.me/share/url"]
-##[onclick^="window.open('api.whatsapp.com/send"]
+##[onclick^="window.open('reddit.com"]
+##[onclick^="window.open('linkedin.com"]
+##[onclick^="window.open('facebook.com"]
+##[onclick^="window.open('fb-messenger://"]
+##[onclick^="window.open('facebook.com"]
+##[onclick^="window.open('twitter.com"]
+##[onclick^="window.open('telegram.me"]
+##[onclick^="window.open('whatsapp.com"]
 ##a[data-sm^="instagram"]
 ##a[data-sm^="facebook"]
 ##a[data-sm^="twitter"]
