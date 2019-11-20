@@ -119,6 +119,23 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
+#### /Anti/Anti Third-Party HTTP
+* AdAway
+* AdGuard Home
+* AdGuard
+* AdNauseam
+* Blokada
+* Diversion
+* DNS66
+* Gas Mask
+* Hosts File Editor
+* hostsmgr
+* Nano Adblocker
+* PersonalDNSfilter
+* Pi-hole
+* uBlock Origin
+* uMatrix
+
 #### /Anti/Anti Verizon
 * AdAway
 * AdGuard Home
