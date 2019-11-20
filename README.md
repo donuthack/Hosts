@@ -1,6 +1,6 @@
 # Cybo's Hosts
-A blocklist of ads, trackers, anti-adblock, malware, IP grabbers, and tracking cookies
-
+A blocklist of ads, trackers, anti-adblock, malware, IP grabbers, and tracking cookies <br>
+[![HitCount](http://hits.dwyl.io/Cybo1927/Hosts.svg)](http://hits.dwyl.io/Cybo1927/Hosts)
 <br>
 
 ## Lists
