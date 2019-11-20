@@ -66,6 +66,15 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * uBlock Origin
 * uMatrix
 
+#### /Anti/Anti CDN
+* AdBlock
+* Adblock Plus 3.0+
+* AdGuard
+* AdNauseam
+* Nano Adblocker
+* Slimjet
+* uBlock Origin
+
 #### /Anti/Anti Fonts
 * AdBlock
 * Adblock Plus 3.0+
