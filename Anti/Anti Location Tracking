@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 4
+! Version: 5
 
 ! Block maps, location analytics, and GPS services
 
@@ -96,3 +96,9 @@
 /maps
 &maps
 %maps
+&geo=
+%geo=
+&ip=
+%ip=
+&isp=
+%isp=
