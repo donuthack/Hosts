@@ -76,7 +76,7 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
-#### /Anti/Anti Maps
+#### /Anti/Anti Location Tracking
 * AdBlock
 * Adblock Plus 3.0+
 * AdGuard
