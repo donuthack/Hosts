@@ -1,30 +1,34 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 7
+! Version: 7-1
 
+! Google
 ||google.*^$all
-||doubleclick.net^$all
 ||googleapis.*^$all
-||android.googleapis.com^$all
-||clients.google.com^$all
-||clients1.google.com^$all
-||clients2.google.com^$all
-||clients3.google.com^$all
-||clients4.google.com^$all
-||clients5.google.com^$all
-||clients6.google.com^$all
-||remotedesktop-pa.googleapis.com^$all
-||googleapis.com^$all
 ||googlevideo.com^$all
-||cloud.google.com^$all
+||googleusercontent.com^$all
+||*.goog^$all
+
+! Hosting
 ||appspot.com^$all
-||*-pa.google.*^$all
-||admob.com^$all
 ||youtube.com^$all
 ||blogger.com^$all
+||ytimg.com^$all
+
+! Mail
+||gmail.com^$all
+||googlemail.com^$all
+
+! Ads
+||doubleclick.net^$all
+||admob.com^$all
+
+! Forms
+||forms.gle^$all
+
+! Misc
 ||calicolabs.com^$all
 ||nest.com^$all
-||store.google.com^$all
 ||gv.com^$all
 ||x.company^$all
 ||verily.com^$all
@@ -35,20 +39,8 @@
 ||sidewalklabs.com^$all
 ||makanipower.com^$all
 ||loon.com^$all
-||jigsaw.google.*^$all
 ||gv.com^$all
 ||chronicle.security^$all
 ||capitalg.com^$all
-||fiber.google.*^$all
-||gsuite.google.*^$all
-||gmail.com^$all
 ||virustotal.com^$all
-||googlemail.com^$all
-||firebase.google.com^$all
 ||fruitninjagame.page.link^$all
-||ytimg.com^$all
-||googleusercontent.com^$all
-||b1.nel.goog^$all
-||nel.goog^$all
-||*.goog^$all
-||forms.gle^$all
