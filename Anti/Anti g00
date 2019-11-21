@@ -1,0 +1,9 @@
+[Adblock Plus]
+! Title: Cybo's Anti g00
+! Expires: 1 day
+
+! This is used to block all .g00. crap that domains like msn.com
+! And sportingnews.com use to obfuscate loaded/loading resources
+
+.g00.
+/g00
