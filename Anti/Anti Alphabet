@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 6
+! Version: 7
 
 ||google.*^$all
 ||doubleclick.net^$all
@@ -14,7 +14,10 @@
 ||clients5.google.com^$all
 ||clients6.google.com^$all
 ||remotedesktop-pa.googleapis.com^$all
+||googleapis.com^$all
 ||googlevideo.com^$all
+||cloud.google.com^$all
+||appspot.com^$all
 ||*-pa.google.*^$all
 ||admob.com^$all
 ||youtube.com^$all
