@@ -1,8 +1,8 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 17-2
+! Version: 17-3
 ! This list was made to block trackers that WILL BREAK some sites
-! Number Of Ad Services, Trackers, And Malware Blocked: 50K (Give Or Take A Little)
+! Number Of Ad Services, Trackers, And Malware Blocked: 53K (Give Or Take A Little)
 ! Last Modified: Thursday, November 14, 2019
 
 !#include Hosts
@@ -14,6 +14,7 @@
 !#include /Anti/Anti%20Social
 !#include /Anti/Anti%20Third-Party%20HTTP
 !#include /Anti/Anti%20Verizon
+!#include /Anti/Anti%20g00
 !#include /Anti/Easy%20Anti%20Anti%20Adblock
 !#include /Other%20Formats/Extra%20Format
 
