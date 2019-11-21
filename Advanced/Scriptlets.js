@@ -134,32 +134,3 @@
         addEventListener('DOMContentLoaded', setTimeout(click, 5000));
     }
 })();
-
-// Testing
-
-// URL-Strip-Tracking-Tokens
-/// strip.js
-    (() => {
-var searchPattern = new RegExp('utm_|fb_|campaign|click_|site_|country_|device_|user_|bv_|adv_|user.|cmpid|_openstat|aff_|beaconFlowId|ip|isp|os|browser|geo|brand|rpcToken|clkredir|originalReferrer|TracingTag|adpk|client_');
-
-var replacePattern = new RegExp(
-    '([?&%]' +
-    '(utm_(source|medium|term|campaign|content|cid|reader|referrer|name|social|social-type|place|userid|pubreferrer|swu|viz_id|channel)|fb_(actiion_ids|action_types|ref|source)|campaign(_id|_item_id|.id|.name)|click_(id)|site_(id)|country_(code|name)|device_(id|os_name|make)|user_(id)|bv_(adname|clickid|keyword|srcid)|adv_(targets)|user.(browser|country|os)|cmpid|_openstat|aff_(platform|trace_key)|beaconFlowId|ip|isp|os|browser|geo|brand|rpcToken|clkredir|originalReferrer|TracingTag|adpk|client_(id|name))' +
-    '=[^&#]*)');
-chrome.webRequest.onBeforeRequest.addListener(function(details) {
-    var url = details.url;
-    var queryStringIndex = url.indexOf('?');
-    if (url.search(searchPattern) > queryStringIndex) {
-        var stripped = url.replace(replacePattern, '');
-        if (stripped.charAt(queryStringIndex) === '&') {
-            stripped = stripped.substr(0, queryStringIndex) + '?' +
-                stripped.substr(queryStringIndex + 1)
-        }
-        if (stripped != url) {
-            return {
-                redirectUrl: stripped
-            };
-        }
-    }
-}
-    })();
