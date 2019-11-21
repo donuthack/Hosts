@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 18
+! Version: 19
 
 ! AddToAny
 ||addtoany.com
@@ -101,6 +101,22 @@
 
 ! Snapchat
 ||snapchat.com
+! From /Anti/Anti Snapchat
+||snap.com
+||sc-cdn.net
+||sc-static.net
+||snapchat-proxy.appspot.com
+||snapchat.appspot.com
+||snapchat-webfonts.storage.googleapis.com
+||snapnet-cdn.storage.googleapis.com
+||feelinsonice.appspot.com
+||feelinsonice-hrd.appspot.com
+||feelinsonice.com
+||snapads.com
+||feelinsonice.l.google.com
+||appspot.l.google.com
+||app.snapchat.com
+||data.flurry.com
 
 ! Myspace
 ||myspace.com
