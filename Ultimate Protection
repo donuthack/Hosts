@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 17-3
+! Version: 18
 ! This list was made to block trackers that WILL BREAK some sites
-! Number Of Ad Services, Trackers, And Malware Blocked: 53K (Give Or Take A Little)
-! Last Modified: Thursday, November 14, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 51K (Give Or Take A Little)
+! Last Modified: Friday, November 22, 2019
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -32,8 +32,9 @@ neonnettle.com$inline-script
 ! Prevent local fonts from loading (to help prevent glyph fingerprinting)
 *$inline-font
 
-! Prevent any possible popups or popunders
-*$popup,popunder
+! Some Promotions
+*promo*
+/^https?:\/\/(www\.)?promo(tion)?\./
 
 ! Easy Anti Public Government Domains
 *.gov
