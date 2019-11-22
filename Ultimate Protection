@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 18
+! Version: 19
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 51K (Give Or Take A Little)
 ! Last Modified: Friday, November 22, 2019
@@ -42,6 +42,9 @@ neonnettle.com$inline-script
 ! Remove From Search Results
 google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov)
 google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
+
+! Yandex Click Tracking
+||yandex.ua/clck
 
 ! CSP
 ||*$csp='upgrade-insecure-requests';
