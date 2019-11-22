@@ -34,7 +34,7 @@ neonnettle.com$inline-script
 
 ! Some Promotions
 *promo*
-/^https?:\/\/(www\.)?promo(tion)?\./
+/^https?:\/\/(www\.)?promo(tion)?\./$all,important
 
 ! Easy Anti Public Government Domains
 *.gov
