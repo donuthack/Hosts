@@ -22,20 +22,6 @@
 ||bitly.com^$all
 ||microsoftonline.com^$all
 ||mirmay.com^$all
-! From Anti Maps
-||locuslabs.com^$all
-||api.mapbox.com^$all
-||mapbox.com^$all
-||maps.google.com^$all
-||mapquest.com^$all
-||maps.yahoo.com^$all
-||mapway.com^$all
-||ud-prd.geohawk.co.uk^$all
-||geohawk.co.uk^$all
-||openstreetmap.org^$all
-||openweathermap.org^$all
-||apple.com/ios/maps/^$all
-||cloud.google.com/maps-platform/^$all
 ! Cloudflare (https://www.cloudflare.com/privacypolicy/)
 ||cloudflare.*^$all
 ||cloudflare-dns.com^$all
@@ -59,6 +45,8 @@
 ||*.hk^$all
 ||*.wang^$all
 ||*.unicom^$all
+! Chinese Crap
+||cnvid.net^$all
 ! Stores
 ||refer.walmart.com^$all
 ! Amazon Hosting
