@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 19
+! Version: 20
 
 ! AddToAny
 ||addtoany.com
@@ -117,6 +117,15 @@
 ||appspot.l.google.com
 ||app.snapchat.com
 ||data.flurry.com
+||snap-storage-cdn.l.google.com
+||sc-gw.com
+||sc-prod.ne
+||snap.api.mapbox.com
+||snap.events.mapbox.com
+||snapkit.com
+||sc-jpl.com
+||sc-prod.net
+||bitmoji.com
 
 ! Myspace
 ||myspace.com
