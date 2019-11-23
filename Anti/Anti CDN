@@ -1,11 +1,12 @@
 [Adblock Plus]
 ! Title: Cybo's Anti CDN
 ! Expires: 1 day
-! Version: 2
+! Version: 3
 
 ||bunnycdn.com
 ||cdn77.com
 ||azure.microsoft.com
+||aspnetcdn.com
 ||stackpath.com
 ||metacdn.com
 ||keycdn.com
