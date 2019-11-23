@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 6
+! Version: 7
 
 ! Block maps, location analytics, and GPS services
 
@@ -78,6 +78,8 @@
 ||sas.com
 ||pivvot.com
 ||db-ip.com
+||api-maps.yandex.ru
+||maps.yandex.net
 
 ||apple.com/ios/maps/
 ||cloud.google.com/maps-platform/
@@ -94,6 +96,7 @@
 /location-intelligence/
 .maps
 /maps
+/geo
 &maps
 %maps
 &geo=
