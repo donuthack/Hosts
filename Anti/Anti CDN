@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti CDN
 ! Expires: 1 day
-! Version: 3
+! Version: 4
 
 ||bunnycdn.com
 ||cdn77.com
@@ -16,3 +16,5 @@
 ||leaseweb.com
 ||govdelivery.com
 ||granicus.com
+||cdn.useproof.com
+||cdn.jsdelivr.net
