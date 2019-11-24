@@ -1,13 +1,17 @@
 [Adblock Plus 3.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1179
+! Version: 1180
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 22.6K
-! Last Modified: Wednesday, November 20, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 23.0K
+! Last Modified: Sunday, November 24, 2019
 
 ! Unbreak
-bluestacks.com,lucidpress.com#@#a[href*="&utm_"]
+@@||undefined/g00/$domain=sportingnews.com
+@@||sdad.guru$domain=sportingnews.com
+@@||api.emsicc.com/sites/iowa
+@@||static.hotjar.com/$domain=emsicc.com/assessment?
+@@||pandora.com/web-version/*/ads.json?
 pandora.com#@#^script:has-text(ideoAds)
 pandora.com#@#^script:has-text(udioAds)
 pandora.com#@#^script:has-text(AdBlock)
@@ -236,6 +240,7 @@ com,co,net,edu,org,int,io,au,cu,ca,fr,kr,nl,no,nz,ua,uk,ru#%#window.ab = false;
 *##^script:has-text(freegeoip)
 *##^script:has-text(Ya.Metrika)
 *##^script:has-text(cookieAlert)
+*##^script:has-text(rotatorEnableLinks)
 ! Defuse and sanatize the Fingerprintjs2 object
 *##+js(abort-on-property-write.js, Fingerprint2)
 ! Keep adf.ly links from trying to make you turn off your adblocker
@@ -264,6 +269,9 @@ mega.nz##+js(abort-on-property-write.js, Fingerprint2)
 bitskins.com##+js(abort-on-property-write.js, Fingerprint2)
 veedi.com##+js(set-constant, adBlocker, false)
 veedif.com##+js(set-constant, adBlocker, false)
+! https://github.com/uBlockOrigin/uBlock-issues/issues/780
+*##+js(aopw, EA_data)
+oui.sncf##+js(acis, document.getElementById, vscaUrl)
 
 ! Content Security Policies
 ||4chan.org^$csp=script-src 'self' * 'unsafe-inline' *.gstatic.com *.googleapis.com *.4cdn.org *.4channel.org
@@ -1282,6 +1290,22 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||at-o.net
+||a.shifen.com
+||arc.msn.com
+||asiangfsex.com
+||aningronbedint.pro
+||anymad.com
+||amavirgin.pro
+||analiud.xyz
+||analiud.pw
+||alluringteen.top
+||adinte.jp
+||adultlinks.co.za
+||ac-data.com
+||axc.nl
+||awin1.com
+||adcdnx.com
 ||adult.xyz
 ||ad4mmo.com
 ||accutracking.com
@@ -4044,6 +4068,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||a.ads2.msads.net
 
 !B
+||bro-bg-store.s3.yandex.net
+||bringthepixel.com
+||bigbangbon.online
+||bgwucxto.com
 ||backpackerdeals.info
 ||blf.innovationsist.com
 ||bestcontentnetwork.top
@@ -4978,6 +5006,26 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||bam.nr-data.net
 
 !C
+||cjgg1m.eiecaw.com
+||crl.sectigo.com
+||cache-default*.cdn.yandex.net
+||collections.yandex.ru
+||cryprox.yandex.net
+||cdn.useproof.com
+||ckk.ai
+||cataspboa.site
+||click2go.me
+||clrpdhptoddatj49.pro
+||c-c.one
+||clknrtrg.pro
+||cadsabs.com
+||celeritascdn.com
+||cvqgnkeqme.com
+||chatango.com
+||cashdorado.de
+||cash-ads.com
+||coinmedia.co
+||counters4u.com
 ||clear.link
 ||clcknads.pro
 ||counevan.pro
@@ -6063,6 +6111,21 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||creative.medialytics.com
 
 !D
+||data.aws-qa.rnatest.brightcove.com
+||dnsdelegation.io
+||defaultsearch.co
+||db-ip.com
+||dr.yandex.net
+||districtm.io
+||dwatngkas.xyz
+||dns29parks.in
+||dollfuck.top
+||darkteenporn.com
+||dtprofit.com
+||doublepimp.com
+||delitraff.com
+||donstick.com
+||dwhvkier.com
 ||dr2ijy2dk.com
 ||dat1.its-up.com
 ||dragonfru.it
@@ -6566,7 +6629,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||doctorsh.ru
 ||daayenetra.ml
 ||duhtate.ru
-||dditscdn.com
 ||desktop.adplexity.com
 ||directadvert.ru
 ||dashboard.adtags.pro
@@ -6784,6 +6846,20 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||downloads.mailchimp.com
 
 !E
+||eulerian.net
+||eiecaw.com
+||evvnt-api.global.ssl.fastly.net
+||evvnt-search.global.ssl.fastly.net
+||ext-strm-level302.strm.yandex.net
+||ext-strm-telia06.strm.yandex.net
+||eio.io
+||expansdriven.com
+||endteen.com
+||extreme-dm.com
+||e-l.me
+||ezanga.com
+||erosexporn.com
+||etrust.eu
 ||eleseems-insector.com
 ||eforsa.pl
 ||e.jetsetter.com
@@ -7188,6 +7264,23 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||free-browser.co
+||filehippo-fre.com
+||fp-cdn.azureedge.net
+||favicon.yandex.net
+||freegeoip.app
+||freenudist.eu
+||free.1passforallsites.com
+||family-nudist-girls.eu
+||familynudist.eu
+||forbiddenarchive.pw
+||fortunexxx.pw
+||fathed.pro
+||fpcpopunder.com
+||freeusersonline.com
+||freesexlinks4you.org
+||freesexlist.org
+||frivol-ads.com
 ||firstwellness.info
 ||firstrun.psafe.com
 ||friendbuy.com
@@ -7474,6 +7567,18 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||freshmarketer.com
 
 !G
+||ghtenbritingso.com
+||goguardian.*
+||gse.io
+||gamingadult.com$third-party
+||go.trafficshop.com
+||gunnepaa.xyz
+||getscriptjs.com
+||gallerynude.eu
+||greedseed.world
+||galeon.com$third-party
+||g.cash-ads.com
+||go.nordvpn.*$third-party
 ||gstatic-us.pro
 ||gpswox.com
 ||ga-dev-tools.appspot.com
@@ -7867,6 +7972,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||gannett.hb.omtrdc.net
 
 !H
+||hubvisor.io
+||hypnoticwound.com
+||hubtraffic.com
+||hardcoreincest.top
+||hqpornbook.download
 ||heap.io
 ||hegtiterbuttons.pro
 ||handy-porn.net
@@ -8101,6 +8211,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||helpshift.com
 
 !I
+||iredirect.net
+||id-visitors.com
+||ibet96ace.com
+||insitepromotion.com
 ||instantresp.com
 ||inorbitad.com
 ||ispot.tv
@@ -8808,6 +8922,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||init.supersonicads.com
 
 !J
+||jrnudistfilm.eu
+||juicegirls.info
+||jrnudefilm.eu
+||justmineit.com
+||jetm-tech.net
 ||ji41ioe3r4addb.w1.bvyhcusz.cf
 ||jfrog-support.secure.force.com
 ||jbrpciuloi.com
@@ -8914,6 +9033,16 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||js.users.51.la
 
 !K
+||keilaparius.com
+||kts.visitstats.com
+||klsdee.com
+||konferencje-eventy.eu
+||kitties-collection.xyz
+||kindnudist.eu
+||k1.justmineit.com
+||k.keyade.com
+||keyade.com
+||ключель.рф
 ||kn3.net
 ||kfutdsjwtcvnpx.com
 ||kaltura.com
@@ -9705,6 +9834,15 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||krxd.net
 
 !L
+||link.brightcove.co
+||listenlive.co
+||linktrack.info
+||littlelolas.club
+||leeloo.ai
+||little-nudists.eu
+||littlegrussiangirl.pw
+||linkrotator.gr
+||loadheavilycurrentproduct.icu
 ||lodoxfwite.com
 ||logistimatics.com
 ||luckyorange.net
@@ -9977,6 +10115,21 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||location.silverpush.com
 
 !M
+||minute.ly
+||my-ivideos.com
+||mob1ledev1ces.com
+||musemuse.cn
+||memo.co
+||mg2connext.com
+||moevideo.biz
+||meryjane.pro
+||majus.pw
+||missnudist.eu
+||movielu.pw
+||majus.xyz
+||munitedschoose.com
+||mywebclick.net
+||mediahits.club
 ||mypurecloud.com
 ||mail-ads.google.com
 ||macebearer.cf
@@ -10595,6 +10748,27 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||memo2.nl
 
 !N
+||nakedteen.top
+||net.cleverjp.com
+||ntvk1.ru
+||nakedreel.com
+||nextmovs.com
+||noamicaseros.pro
+||netcpms.com
+||nudistvid.eu
+||nudistgallery.eu
+||noowho.com
+||nudepixel.eu
+||nudistgirls.eu
+||nudist-movies.top
+||nudevideos.eu
+||nudistspics.xyz
+||nudemovies.eu
+||nudist4colony.eu
+||nudist-video.top
+||nudistsmall.eu
+||nydus.org$third-party
+||no-minimum.club
 ||nvikgaormj.com
 ||navixy.com
 ||notifyvisitors.com
@@ -10853,6 +11027,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||n149adserv.com
 
 !O
+||ocsp.pki.goog
+||ownfeed.com
+||oipcqenejq.com
+||oopt.fr
 ||oevltdvzl.com
 ||octopuspop.com
 ||opexanalytics.com
@@ -11056,6 +11234,23 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||open.ad.yieldmanager.net
 
 !P
+||pics-nudist.top
+||purenudism.com
+||pub.ezanga.com
+||partnercash.com
+||powr.io
+||promo.iredirect.net
+||portal-xiva.yandex.net
+||pornoslices.com$popup
+||pornjacket.com$popup
+||pornnewspaper.com$popup
+||prpops.com
+||pcgmer.com
+||porno-partner.com
+||promo4partners.com
+||pub.qwerty24.net
+||prscripts.com
+||popnc.com
 ||prpopss.com
 ||prpopss.com$popup
 ||panel.eforsa.pl
@@ -11650,6 +11845,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||p.typekit.net
 
 !Q
+||qwerfdx.com
+||qwerty24.net
 ||q4i.co
 ||quickkoala.io
 ||quiddity.goguardian.com
@@ -11733,6 +11930,17 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||qnsr.com
 
 !R
+||ramirocampos.pro
+||rdsb2.club
+||rapidscansecure.com
+||reasonporn.com$popup
+||riverhit.com
+||richcult.com
+||r.e-l.me
+||restights.pro
+||royalads.net
+||redirectbuzz.club
+||russianvirginz.com
 ||redlele.com
 ||ra.poringa.net
 ||routetracko.com
@@ -11915,7 +12123,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||ru.theswiftones.com
 ||richmetrics.com
 ||realtor-d.openx.net
-||rdtcdn.com
 ||rc.de.adlink.net
 ||re.givemeofferlnk.com
 ||www.rwadx.com
@@ -12053,6 +12260,29 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||r.skimresources.com
 
 !S
+||sv.symcd.com
+||stat.hackedonlinegames.com
+||stat.ripe.net
+||storetail.io
+||shifen.com
+||subca.ocsp-certum.com
+||storage.ape.yandex.net
+||static-mon.yandex.net
+||storage.mds.yandex.net
+||super-route.com
+||sextoysgfs.com
+||sevenporn.com$popup
+||smartcj.com
+||securecloud-smart.com
+||sexyfashion.top
+||sexcas.xyz
+||sex-porn.site
+||sexy-counter.com$third-party
+||sexrank.ch
+||sexkabi.net
+||startwebpromo.com
+||slvcwiabpgyxa.com
+||sonyqiratoza.tk
 ||suregauzi.info
 ||sexxdate.net
 ||sffmctrnimk.com
@@ -13370,6 +13600,27 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||scripts.kissmetrics.com
 
 !T
+||terrapsps.com
+||terrasdsdstd.com
+||top-nudism.eu
+||tubecorporate.com
+||tag.audience.acpm.fr
+||tpv-analytics.com
+||track.lt
+||traffic-media.co.uk
+||x-troy.com
+||trafficholder.com
+||trafficshop.com
+||trustyfine.com
+||top-nudism.eu
+||teen-nudist.top
+||teensexfolder.com
+||tpmr.com
+||t7strip.com
+||trafficundercontrol.com
+||traffic-buchen.de
+||tm.tradetracker.net
+||tradetracker.net
 ||t26.net
 ||tracking.minitool.com
 ||target.georiot.com
@@ -14003,6 +14254,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||tt.omtrdc.net
 
 !U
+||useproof.com
+||unibetasia.org
+||usenetmodelsindex.com
+||us.to$third-party
+||uw.hu$third-party
 ||urtirepor.com
 ||uqelijcu.com
 ||ud-prd.geohawk.co.uk
@@ -14173,6 +14429,13 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||us.adserver.yahoo.com
 
 !V
+||verifycaptcha.com
+||visualvisitor.com
+||visitstats.com
+||visitstats.com$popup
+||vfl81ea28aztw7y3.pro
+||v.mediahits.club
+||vpfadnueru.com
 ||voluumtlkrnarketing.com
 ||visistat.com
 ||vidsrev.com
@@ -14350,6 +14613,13 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||v.admaster.com.cn
 
 !W
+||windowssearch-exp.com
+||wshifen.com
+||wildxxxhardcore.com
+||webtraxs.com
+||wep.wf
+||whhxnz.com
+||wowmodels.info
 ||web1.xaijo.com
 ||wpadkigwiazd.pl
 ||ws-na.amazon-adsystem.com
@@ -14702,6 +14972,15 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||wv.inner-active.mobi
 
 !X
+||xxxstats.pro
+||xtraffstat.com
+||xtraffme.pro
+||xnxxcomvideos.com
+||xbc8fsvo5w75wwx8.pro
+||xwayx.net
+||xxdjmuekj.com
+||xidrus.com
+||xup.to$third-party
 ||xxe2.com
 ||xnylfcp.com
 ||xclick24.com
@@ -14772,6 +15051,13 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||xxxwebtraffic.com
 
 !Y
+||yandex.ocsp-responder.com
+||yabs.yandex.ru
+||youngkitties.com
+||youngpussy.xyz
+||youngestpetite.com
+||youngnudists.xyz
+||youngnudism.eu
 ||ymkol.sexxdate.net
 ||ya-counter.ru
 ||youview.io
@@ -14933,6 +15219,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||y-track.com
 
 !Z
+||zog.link
+||zeroxxx.club
 ||zoee.xyz
 ||zelfy.com
 ||ziyun.com.cn$third-party
@@ -15158,6 +15446,18 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||zyqlfplqdgxu.com
 
 !Misc
+||1passforallsites.com
+||*.keilaparius.com
+||*-analytics.com
+||5ijo.01net.com
+||2013download.com
+||8nc8shot.txxx.com
+||9eb10b7a3d04a.com
+||18teensex.club
+||172833208.pub.ezanga.com
+||7-7-7-partner.com$third-party
+||777-partner.com$third-party
+||777partner.com$third-party
 ||l9bjkkhaycw6f8f4.soundcloud.com
 ||*-ads.google.com
 ||5fac97b397a336397f0f528ec95699c6.sinasws.com
@@ -21825,6 +22125,266 @@ streamray.com,cams.com##.full_width.bio_fc_upsell_banner
 ||5kplayer.com/js/da.js
 ||5kplayer.com/js/timer-native.js?time=
 www.5kplayer.com##.ytb_banner.MobileNo
+www.hackedonlinegames.com##.MegaBlock
+www.hackedonlinegames.com###PortalLeft > div:nth-of-type(1)
+www.hackedonlinegames.com###Content > div > div:nth-of-type(3)
+www.hackedonlinegames.com###Content > div > div:nth-of-type(2)
+www.hackedonlinegames.com##.InfoPanel > div:nth-of-type(1)
+www.hackedonlinegames.com##.fb-comments
+||who.is/blank.html
+||who.is/api/whois/getDomainSiteAnalysis/
+www.sportingnews.com##.grid--control-margin-btm.grid > .grid-aside
+www.sportingnews.com##.std-section-margin-btm.grid > .grid-aside > .right-rail-v2
+||instagram.com/logging
+||instagram.com/qp/batch_fetch_web/
+mobileguardian.com##.hide-on-button
+sonicwall.com##.icon-help
+technipages.com###MGKI-ccbcmNTxpsfndsH3pMf6j5PnlMf7m9b3oG
+technipages.com##.MGKI-kcb8mNTxpse1kca.MGKI-kcb8mNTxpse1lsH3pMf6.MGKI-kcb8mNTxpse1lsH3pMf6XZO.MGKI-kcb8mNTxpse1o9bxk83B
+independentsentinel.com##.cookie-notice-container
+independentsentinel.com##.onesignal-bell-launcher-button
+independentsentinel.com###onesignal-bell-launcher
+independentsentinel.com##.onesignal-bell-launcher.onesignal-bell-launcher-md.onesignal-bell-launcher-bottom-right.onesignal-bell-launcher-theme-default.onesignal-bell-launcher-active
+reuters.com##.BreakingNews_bar.BreakingNews_happening
+symbolab.com##.tooltipster-content
+symbolab.com##.tooltipster-box
+symbolab.com##.tooltipster-arrow-background
+symbolab.com##.tooltipster-arrow-border
+symbolab.com###tooltipster-799592
+symbolab.com##.tooltipster-base.tooltipster-sidetip.tooltipster-light.tooltipster-top.tooltipster-fade.tooltipster-show
+snbforums.com##.floatingItem.primary
+futurereadyiowa.gov##div[style="top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%; position: fixed; z-index: 10000; background: rgb(0, 0, 0); opacity: 0.5;"]
+futurereadyiowa.gov###prefix-overlay-step1
+futurereadyiowa.gov##.prefix-overlay-close.prefix-overlay-action-later
+yandex.by##.content__right
+yandex.ru##.popup2.popup2_theme_normal.popup2_target_anchor.popup2_autoclosable_yes.popup2_hiding_yes.popup2_view_classic.serp-user__promo-popup.i-bem.popup2_js_inited.popup2_direction_bottom-right.popup2_visible_yes
+en.pons.com##.cc_banner.cc_container.cc_container--open
+en.pons.com##div[style="display: flex; justify-content: center;"]
+en.pons.com##.teaser.teaser-green.dark
+en.pons.com###widget_context_intro
+en.pons.com##.widget
+extendsclass.com###cookieChoiceInfo
+yandex.ua##.desk-notif-card.desk-notif-card_zen_yes.desk-notif-card_icon_no.desk-notif-card_details_no.desk-notif-card_actions_yes.desk-notif-card_minified_yes.desk-notif-card_animated_yes.desk-notif-card_bg_default.i-bem.desk-notif-card_js_inited
+yandex.ua##.desk-notif-card.desk-notif-card_weather_yes.desk-notif-card_icon_yes.desk-notif-card_details_no.desk-notif-card_actions_yes.desk-notif-card_minified_yes.desk-notif-card_animated_yes.desk-notif-card_bg_default.i-bem.desk-notif-card_js_inited
+yandex.ua###afisha-inserts_88557_panel_cinema
+yandex.ua##.afisha-inserts__panel.media-service__panel
+yandex.ua###afisha-inserts_88557_panels
+yandex.ua##.media-service__panels.afisha-inserts__panels
+yandex.ua##.media-grid__row.zen-insert.media-grid__row_visible_yes
+yandex.ua##.ya-chat-button__container.ya-chat-button__container_size_normal
+yandex.ua##.ya-chat-widget.ya-chat-widget_desktop.ya-chat-widget_theme_light.ya-chat-widget_size_normal
+foi.com###sidebar1
+foi.com##.sidebar
+sushkom.com##span[style="display:block;padding:5px 0 5px 0;"]
+sushkom.com##.cookieinfo
+vpnmentor.com###bio_ep_bg
+vpnmentor.com##.content-link
+vpnmentor.com##.bioep_footer
+vpnmentor.com###bio_ep
+vpnmentor.com##.nordvpn.v0
+sensorstechforum.com###cookiescript_injected
+yandex.ua##.popup2__content.promo-popup__content
+bedynet.ru##.cc_banner.cc_container.cc_container--open
+bedynet.ru##.ask_question_form
+bedynet.ru###ask
+bedynet.ru##.askit-form-header.colorbg-grey-social
+safetydetectives.com##.main-disclosure
+free.drweb.ru##.SHOWIT-msg-text
+free.drweb.ru##.paddYC.paddRS.margRL.alignLeft.\-Grid_cell.\-Grid_alignMiddle.\-Grid_1of6._viewS_noMargT.\-viewS-Grid_1of1
+free.drweb.ru##.SHOWIT-msgCase
+macpaw.com##.banner.\-bottom
+macpaw.com##.subscribe-bar.\-cleanmymac-x.\-visible
+macpaw.com##.download-box
+uaclips.com###morev
+frclip.com###morev
+beat.yandex.uk.com##.form-horizontal
+it-tehnik.ru##.widget-area
+ru.pcviruscare.com###catapult-cookie-bar
+ru.pcviruscare.com###menu-item-7898
+ru.pcviruscare.com##.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-7898.sfHover
+ru.pcviruscare.com###menu-item-12181
+ru.pcviruscare.com##.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-12181.sfHover
+ru.pcviruscare.com###menu-item-12077
+ru.pcviruscare.com##.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-12077.sfHover
+ru.pcviruscare.com###menu-item-12050
+ru.pcviruscare.com##.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-12050.sfHover
+andro-news.com##.wysiwyg
+trfilms.net###vbl
+myfreesoft.ru##div[style="border:1px dotted #ccc; padding:25px;background-color:#FFFFCC; margin-bottom:35px;"]
+tunecom.ru##.section-top
+novaya-rudnya.mydutyfree.net###cookie-notice
+novaya-rudnya.mydutyfree.net##.cookie-notice.show
+track24.ru##div[style="margin-top: -14px; margin-bottom: 0 px; min-width: 1140px; height: 105px; overflow: hidden;"]
+vn-zoom.org##.notice.js-notice.notice--dark.notice--hasImage
+fl.ru##.b-layout.b-layout_relative.b-layout_padbot_20.b-layout__desktop
+||bedynet.ru/*/esolaskit/
+||bedynet.ru/*/AskIt/$script
+||cdn2.macpaw.com/images/3ea0c4a6636299c70c0587008876aad8.webp
+||cdn2.macpaw.com/images/83934498d56fcab2caac53db98acdb62.webp
+||cdn2.macpaw.com/images/CleanMyMac-X@*x.png
+||beat.yandex.uk.com/dl.php
+||fe-do.ru/ls3030/google-chrome-download.html
+||vk.com/widget_subscribe.php?$third-party
+||s.4pda.to/g98jKxLGy8oMr0OTbTojPrW4fY4FWz0sdw3p2j9X5NsQqnQFCf5vRkOKt.jpg
+||web.facebook.com/plugins/like.php?$third-party
+||tunecom.ru/templates/tunecom/images/antivirus_scanners.png
+||content.govdelivery.com/attachments/fancy_images/IACIO/2019/01/2371291/fri-pop-up-header_original.png
+eonline.com##.nav__adbanner
+eonline.com###rail__mps
+eonline.com##.rail__mps-ad
+eonline.com##.newsletter-sticky.newsletter-sticky--active
+||videolika.com/top-download-*
+www.outsideonline.com###notice_dek
+www.fatherly.com##section.module__ad.home-page-module.home-page
+www.fatherly.com##.newsletter-signup-ad
+www.fatherly.com##.variant_2.newsletter-signup
+www.fatherly.com##section.module__search_form.home-page-module.home-page:nth-of-type(13)
+www.fatherly.com##.variant_1.newsletter-signup > .email-submit-module.email-submit.newsletter-signup-input
+||images.fatherly.com/wp-content/uploads/2018/01/Screenshot_2.png?q=65&enable=upscale&w=380$image
+www.fatherly.com##div.article__body-rail-ad
+www.fatherly.com##.advertisement-text.article__rail-ad-txt
+||www.fatherly.com/wp-content/themes/grandfather/images/seahore-flyout.png$image
+www.fatherly.com##.show.flyout.email-submit
+||statesman.com/_Incapsula_Resource?
+www.statesman.com###baseLeaderBillboard
+www.statesman.com###bucket-2000800 > .ad-container.summary-2x1.summary
+www.statesman.com##div.headline-col > .ad-container.summary-2x1.summary
+www.statesman.com##.ad-container
+www.statesman.com###\33 77
+www.statesman.com##.fade.connext-modal-backdrop
+www.statesman.com##.x-editable-css-bg.bg4.centered.text-center.Mg2-bg-white.body.width-800
+www.statesman.com###\36 88
+www.statesman.com##.article-newsletter-signup
+www.statesman.com###\35 10
+www.statesman.com###\36 39
+www.statesman.com###\38 75
+www.statesman.com###baseLeaderboard
+||browser.yandex.com/goodbye
+sourceforge.net###banner-sterling
+sourceforge.net###SF_ProjectSum_300x250_B_wrapped
+nhentai.net###content > section.container.advertisement
+www.linuxincluded.com##.post-comments
+||yandex.*/clck
+||cdn.jsdelivr.net/npm/cookie-bar/
+upornia.com##.fel-sbar.sidebar
+upornia.com###channel-video-banner
+upornia.com###GcBt3 > tbody > tr > td
+upornia.com###GcBt3
+upornia.com##.iRx9
+txxx.com##.video-page__content > .right
+txxx.com##.underplayer__ad
+||script.bangdom.com/pjs/
+www.bitporno.com###vpnad
+www.hqasianhotties.com###topbar1
+www.japanesepornmov.com###topbar1
+avidolpics.com##div.spots-section
+www.xpornolab.com###topbar1
+www.extraasian.com##.wyg.nb
+www.extraasian.com##.ynq
+www.19asianporn.com##.spots-section
+www.hotjapanesevideos.com##div.vid-bn
+www.hotjapanesevideos.com##.vid-bns-block
+www.hotjapanesevideos.com##.hor-bns-block
+www.20asiansex.com##.spots-section
+||www.oriental-tube.com/*.php?$image
+www.oriental-tube.com###adDJkl2j
+||teencumpot.com/*/fjhreiow.php$image
+teencumpot.com##.ratovipoke
+www.chinese-porn.me##.video-spots-area
+www.chinese-porn.me##.bottom-spot-area
+www.chinese-porn.me##.spots-area
+www.xpornolab.com##.invideo
+www.xpornolab.com##.v-line-bs
+www.xpornolab.com##.line-bs
+www.onesek.com###topbar1
+www.onesek.com##.v-line-bs
+www.onesek.com##.invideo
+www.onesek.com##.line-bs
+www.mature-cunt.com###topbar1
+www.mature-cunt.com##.line-bs
+www.emohot.com##.tlk
+momxson.com##.right-content
+www.mymilfsextube.com###div1
+||www.lunarerotica.com/banners/$subdocument
+www.sexcord.com###plban
+sevenporn.com##.right-col
+pornoslices.com##.right-col
+||chaturbate.com/affiliates/
+www.hamsterx.pro##.video-spots-area
+www.hamsterx.pro##.bottom-spot-area
+www.hamsterx.pro##.spots-area
+pornnewspaper.com##.right-col
+porntabu.icu##.block-related
+||donstick.com/play2.html$subdocument
+ixxxclips.com##.prefix-player-promo-col
+ixxxclips.com###scroll
+sextubish.com##.prefix-player-promo-col
+sextubish.com###scroll
+adult-tuber.com##.prefix-player-promo-col
+adult-tuber.com###scroll
+www.apornotube.net##ul.ad
+www.18porno.tv##.videobanner.banner
+www.18porno.tv###M354956ScriptRootC724338
+www.18porno.tv###M354956ScriptRootC724342
+www.18porno.tv##.bottom_banner
+www.18porno.tv##.camitems
+www.xxxhothub.com###topbar > .admin-frame-wrap
+www.xxxhothub.com###topbar
+painfullanal.com###im-layer
+hdzog.com##.without-title.player-showtime-two
+||js.hdzog.com/saber/hdzog/dutti/?$image
+hdzog.com###under-pl-ad
+teen-homemade.com##.yrdprghts
+www.mybeegsex.com##.videobanner.banner
+www.mybeegsex.com###M354956ScriptRootC724338
+www.mybeegsex.com###M354956ScriptRootC724342
+www.mybeegsex.com##.bottom_banner
+teenspornfuck.com##.video-brs
+teenspornfuck.com##.brs-block
+teenspornfuck.com##.on-player-pl
+||txxx.com/assets/invideo_pause.css?
+langke.pe.hu###putBg
+langke.pe.hu##.adsbar
+www.adulttoplive.com##td:nth-of-type(3) > table > tbody > tr:nth-of-type(1) > td
+www.adulttoplive.com##center > table > tbody > tr > td:nth-of-type(3)
+www.adulttoplive.com##td:nth-of-type(1) > table > tbody > tr > td
+www.adulttoplive.com##center > table > tbody > tr > td:nth-of-type(1)
+||www.visit-x.net/promo/
+||sexei.net/w.php?
+||www.sexei.net/responsive.html?$subdocument
+www.sexei.net###righttube
+||imgoutlet.pw/jcksle.php?$image
+imgoutlet.pw##.fkDTB3sr
+imgoutlet.pw###svSQN9ep
+imgoutlet.pw###sgI2rl5M
+imgoutlet.pw##.rORayxHx
+imgoutlet.pw##.xPgpGUyR
+imgoutlet.pw##.iJMZIfBt
+||imgoutlet.pw/jcksle.php?$image
+||imgoutlet.pw/jcksle.php?$image
+imgoutlet.pw###sKcNnbGi
+imgoutlet.pw##div.banner > div.inner > table > tbody > tr > td > div > div
+imgoutlet.pw###tq3R9Dew
+jav69.vip##.aRight
+jav69.vip##.wrap.ads
+4ksex.me##span.bb_show_7
+||pixlink.club/teenpixs/aljbt.jpg$image
+teenjb.com##.underlay
+teenjb.com##.modal
+www.livejasmin.com##.kvclDt.sc-hmzhuo
+||18top.link/button.php
+anonnn.com###v881d05fdca
+anonnn.com###v861d05fdca
+anonnn.com###v881d4fa4f2
+anonnn.com###v6e1d1745f9
+||safefreepornsites.com/lucky-surf-*
+lunarerotica.com###div1
+lunarerotica.com##.video-top
+vn-zoom.org##div.u-bottomFixer.js-bottomFixTarget:nth-child(2)
+lifehacker.com##.sc-1bdg1q0-0, .dHZwOk
+lifehacker.com##.inset--story, .branded-item, .branded-item--lifehacker
+||graph.instagram.com/logging_client_events
+||instagram.com/logging/*
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -21889,7 +22449,7 @@ cams.com,streamray.com#@%#//scriptlet("prevent-bab")
 dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
-$cookie=/_landing_page[a-zA-Z_.]|http_referrer[a-zA-Z_.]|_device_id[a-zA-Z_.]|has_recent_activity[a-zA-Z_.]|_parsely_visitor[a-zA-Z_.]|slimstat_tracking_code[a-zA-Z_.]|view_count[a-zA-Z_.]|played_games_ids[a-zA-Z_.]|ABTEST[a-zA-Z_.]|ip[a-zA-Z_.]|KinjaSession[a-zA-Z_.]|country[a-zA-Z_.]|visited[a-zA-Z_.]|counter[a-zA-Z_.]|countrycode[a-zA-Z_.]|city[a-zA-Z_.]|session_tracker[a-zA-Z_.]|cookies.js[a-zA-Z_.]|location-data[a-zA-Z_.]|smpush_safari_device_token[a-zA-Z_.]|smpush_device_token[a-zA-Z_.]|_gcl_au[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|floodlightPixelTimer[a-zA-Z_.]|geo[a-zA-Z_.]|IPLOC[a-zA-Z_.]|browerV[a-zA-Z_.]|__utmz[a-zA-Z_.]|__utma[a-zA-Z_.]|__utmc[a-zA-Z_.]|__utmb[a-zA-Z_.]|__utmt[a-zA-Z_.]|_ga[a-zA-Z_.]|uid[a-zA-Z_.]|_gat[a-zA-Z_.]|PHPSESSID[a-zA-Z_.]|__cfduid[a-zA-Z_.]|UIDR[a-zA-Z_.]|pid[a-zA-Z_.]|uuid2[a-zA-Z_.]|tuuid[a-zA-Z_.]|_drt_[a-zA-Z_.]|uuidc[a-zA-Z_.]|__gads[a-zA-Z_.]|ASP.NET_SessionId[a-zA-Z_.]|anj[a-zA-Z_.]|__atuvc[a-zA-Z_.]|__atuvs[a-zA-Z_.]|di2[a-zA-Z_.]|rpx[a-zA-Z_.]|rpb[a-zA-Z_.]|bku[a-zA-Z_.]|bkdc[a-zA-Z_.]|yandexuid[a-zA-Z_.]|TDID[a-zA-Z_.]|yabs-sid[a-zA-Z_.]|khaos[a-zA-Z_.]|TDCPM[a-zA-Z_.]|__qca[a-zA-Z_.]|IDE[a-zA-Z_.]|PUBMDCID[a-zA-Z_.]|guest_id[a-zA-Z_.]|wfivefivec[a-zA-Z_.]|na_tc[a-zA-Z_.]|bkc[a-zA-Z_.]|bklc[a-zA-Z_.]|OAID[a-zA-Z_.]|JEB2[a-zA-Z_.]|CMPS[a-zA-Z_.]|CMID[a-zA-Z_.]|CfP[a-zA-Z_.]|ra1_uid[a-zA-Z_.]|CMST[a-zA-Z_.]|CMDD[a-zA-Z_.]|CMSC[a-zA-Z_.]|_cc_cc[a-zA-Z_.]|_cc_id[a-zA-Z_.]|_cc_dc[a-zA-Z_.]|_cc_aud[a-zA-Z_.]|rtc_AAAA[a-zA-Z_.]|ljt_reader[a-zA-Z_.]|ra1_sid[a-zA-Z_.]|RA1balancer[a-zA-Z_.]|MUID[a-zA-Z_.]|sto-id-20480-bh[a-zA-Z_.]|pudm_AAAA[a-zA-Z_.]|adaptv_unique_user_cookie[a-zA-Z_.]|put_1185[a-zA-Z_.]|MR[a-zA-Z_.]|CMRUM3[a-zA-Z_.]|__auc[a-zA-Z_.]|__asc[a-zA-Z_.]|KRTBCOOKIE_22[a-zA-Z_.]|everest_g_v2[a-zA-Z_.]|TapAd_TS[a-zA-Z_.]|TapAd_DID[a-zA-Z_.]|icu[a-zA-Z_.]|everest_session_v2[a-zA-Z_.]|Gdyn[a-zA-Z_.]|is_unique[a-zA-Z_.]|TMP_X1ID[a-zA-Z_.]|__unam[a-zA-Z_.]|X1ID[a-zA-Z_.]|matchgoogle[a-zA-Z_.]|put_1986[a-zA-Z_.]|KADUSERCOOKIE[a-zA-Z_.]|ServedBy[a-zA-Z_.]|optimizelyEndUserId[a-zA-Z_.]|optimizelyBuckets[a-zA-Z_.]|optimizelySegments[a-zA-Z_.]|optimizelyPendingLogEvents[a-zA-Z_.]|put_1512[a-zA-Z_.]|KTPCACOOKIE[a-zA-Z_.]|pi[a-zA-Z_.]|KRTBCOOKIE_27[a-zA-Z_.]|ev_t[a-zA-Z_.]|ev_t2[a-zA-Z_.]|SERVERID[a-zA-Z_.]|KRTBCOOKIE_57[a-zA-Z_.]|KRTBCOOKIE_80[a-zA-Z_.]|put_2249[a-zA-Z_.]|__utmv[a-zA-Z_.]|_ljtrtb_1[a-zA-Z_.]|SyncRTB[a-zA-Z_.]|SYNCUPPIX_ON[a-zA-Z_.]|put_2313[a-zA-Z_.]|_ym_uid[a-zA-Z_.]|_ym_isad[a-zA-Z_.]|put_2132[a-zA-Z_.]|PUBRETARGET[a-zA-Z_.]|KRTBCOOKIE_148[a-zA-Z_.]|__zlcmid[a-zA-Z_.]|taboola_session_id[a-zA-Z_.]|taboola_upci[a-zA-Z_.]|end_user_id[a-zA-Z_.]|__adroll[a-zA-Z_.]|OAGEO[a-zA-Z_.]|KRTBCOOKIE_240[a-zA-Z_.]|put_2146[a-zA-Z_.]|put_2309[a-zA-Z_.]|_ljtrtb_2[a-zA-Z_.]|put_2596[a-zA-Z_.]|mako_uid[a-zA-Z_.]|ANON_ID[a-zA-Z_.]|put_2307[a-zA-Z_.]|_rxuuid[a-zA-Z_.]|put_2810[a-zA-Z_.]|ra1_pd[a-zA-Z_.]|put_1523[a-zA-Z_.]|GPS[a-zA-Z_.]|ljtrtb[a-zA-Z_.]|KRTBCOOKIE_52[a-zA-Z_.]|parsely_network_uuid[a-zA-Z_.]|put_3876[a-zA-Z_.]|KRTBCOOKIE_466[a-zA-Z_.]|_chartbeat2[a-zA-Z_.]|put_2676[a-zA-Z_.]|sc_is_visitor_unique[a-zA-Z_.]|put_2046[a-zA-Z_.]|FFad[a-zA-Z_.]|FFcat[a-zA-Z_.]|KRTBCOOKIE_200[a-zA-Z_.]|put_2238[a-zA-Z_.]|BizoData[a-zA-Z_.]|ads_prefs[a-zA-Z_.]|personalization_id[a-zA-Z_.]|1P_JAR[a-zA-Z_.]|cp_id_ec364pageLoads[a-zA-Z_.]|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg[a-zA-Z_.]|lithiumSSO%3Apandora.prod[a-zA-Z_.]|isp[a-zA-Z_.]|_device_id[a-zA-Z_.]|ghostmonitor_session_id[a-zA-Z_.]|_orig_referrer[a-zA-Z_.]|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|AMCV_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|utag_main[a-zA-Z_.]|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|AMCV_CF4957F555EE9B727F000101%40AdobeOrg[a-zA-Z_.]|gup_clientid[a-zA-Z_.]|utag_main[a-zA-Z_.]|_uv3_session[a-zA-Z_.]|_device_id[a-zA-Z_.]|has_recent_activity[a-zA-Z_.]|click_id_time[a-zA-Z_.]|LOCATION_FROM_IP[a-zA-Z_.]|IP_COUNTRY[a-zA-Z_.]|_wamtcstandards[a-zA-Z_.]|com.tree.widgets\$IGoogleAdServingTest[a-zA-Z_.]|com.yahoo.\$IB[a-zA-Z_.]|i10c.referrer[a-zA-Z_.]|[a-zA-Z0-9]+.uservisit[a-zA-Z_.]|i10c3C[a-zA-Z_.]|i10c.SIBC[a-zA-Z_.]|i10c.ss[a-zA-Z_.]|i10c.uid[a-zA-Z_.]|morphi10c[a-zA-Z_.]|m0r9h.route[a-zA-Z_.]|m0r9h.salt[a-zA-Z_.]|m0r9h.bsalt[a-zA-Z_.]|_chartbeat[0-9][a-zA-Z_.]|MUID[a-zA-Z_.]|_EDGE_V[a-zA-Z_.]|_EDGE_S[a-zA-Z_.]|net.media.contextual\$Nhbcm_sd[a-zA-Z_.]|i10cTS[a-zA-Z_.]|i10cTC[a-zA-Z_.]|SRCHUSR[a-zA-Z_.]|SRCHUID[a-zA-Z_.]|SRCHD[a-zA-Z_.]|com.linkedin.\$Ilidc[a-zA-Z_.]|com.linkedin.ads.\$Nlang[a-zA-Z_.]|com.linkedin.\$Ili_sugr[a-zA-Z_.]|com.scorecardresearch.\$IUIDR[a-zA-Z_.]|com.scorecardresearch.\$IUID[a-zA-Z_.]|net.media.\$Idata-nms[a-zA-Z_.]|net.media.\$Ivisitor-id[a-zA-Z_.]|msaOptout[a-zA-Z_.]|_cb_svref[a-zA-Z_.]|session_tracker[a-zA-Z_.]|PLAY_FLASH[a-zA-Z_.]|PLAY_SESSION[a-zA-Z_.]|AkaSTrackingID[a-zA-Z_.]|comment_author_[a-zA-Z_.]|_snow_id.[a-zA-Z_.]|_snow_ses.[a-zA-Z_.]|is_mobile[a-zA-Z_.]/
+$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession/
 ||msn.com$cookie=anoncknm|RecentStocks
 ||ninecorners.com$cookie
 ||cams.com$cookie=/cams_who|cams_tr|HISTORY/
@@ -21958,6 +22518,7 @@ $webrtc,domain=nsa.gov
 ||172.217.0.14$network
 ||172.217.1.46$network
 ||172.217.4.46$network
+||192.99.211.67$network
 ||80.211.148.176$network,third-party
 ! Micorsoft Cortana
 ||204.79.197.200$network
@@ -21989,8 +22550,11 @@ $webrtc,domain=nsa.gov
 47.88.66.23$network,app=system
 !#endif
 
-! Common Malware Crap
+! Common Malware/Scam Crap
 -analysis-safety-antimalware-support.
+*freecash*
+*freemoney*
+*freemonies*
 
 ! Wildcard
 /ad-blocking-detector.php
@@ -22594,6 +23158,11 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /sponsors/ads/
 /game-analytics
 /gtm.js
+/rsya-tag-users/
+/myvids/nb/thephpfile.php
+/traffic_return.php
+/myvids/force.php?
+/popunder.cgi
 -google-tag-
 -ad-
 -v6exp3-
@@ -22610,6 +23179,7 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 ?tracker=
 ?zoneid=$popup
 ?*odb.outbrain.com
+?ads
 =googleanalytics
 =adunit&
 =cron.task.core.tidy_sessions
@@ -22754,7 +23324,10 @@ mas_jump_
 ##.right_ad
 ##.left_ad
 ##.main_ads
+##.ads-small
+###eu-cookie-law
 ##[data-google-query-id]
+##iframe[id^="google_ads_iframe"]
 ##[id^="bestgoogleadsense-"]
 ##[id^="blogTwoAD"]
 ##[id*="gdpr"]
@@ -22815,7 +23388,6 @@ mas_jump_
 ##a[href*="?campaign_id="]
 ##a[href*="&tracker_id="]
 ##a[href*="?link_id="]
-##a[href*="&utm_"]
 ##a[href^="*://*.doubleclick.net"]
 ##a[href*="rs-stripe.com"]
 ##a[href*="bytesignal.com"]
@@ -22825,6 +23397,7 @@ mas_jump_
 ##a[href*="orange2258.com"]
 ##a[href*="dianomi.com/click.epl"]
 ##a[href*="cartoontube.com/hit.php"]
+##a[href*="admitad.com"]
 ##a[href*="onelink.me"]
 ##a[href*="clickbank.net"]
 ##a[href*="fourchan.com"]
