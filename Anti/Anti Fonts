@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Cybo's Anti Fonts
 ! Expires: 4 days
-! Version: 2
+! Version: 3
 
 ! Whitelist Icons and Unbreak
 @@||*/materialdesignicons-
@@ -11,11 +11,3 @@
 
 ! Easy
 *$font
-
-/font/
-/fonts/
-/webfonts/
-/font-awesome/
-/webfont.js
-/font-
-/fontawesome-
