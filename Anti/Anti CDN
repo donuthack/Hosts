@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti CDN
 ! Expires: 1 day
-! Version: 7
+! Version: 8
 
 ||bunnycdn.com
 ||cdn77.com
@@ -39,3 +39,7 @@
 ||cdn.tax
 ||dditscdn.com
 ||rdtcdn.com
+||cdn.connatix.com
+
+! Wildcard
+||cdn.*.
