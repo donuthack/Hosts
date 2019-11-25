@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 7
+! Version: 8
 
 ! Block maps, location analytics, and GPS services
 
@@ -13,8 +13,8 @@
 ||mapway.com
 ||ud-prd.geohawk.co.uk
 ||geohawk.co.uk
-||openstreetmap.org
-||openweathermap.org
+||openstreetmap.*
+||openweathermap.*
 ||maps.randmcnally.com
 ||viamichelin.com
 ||wikimapia.org
@@ -78,23 +78,41 @@
 ||sas.com
 ||pivvot.com
 ||db-ip.com
-||api-maps.yandex.ru
-||maps.yandex.net
+||api-maps.yandex.*
+||maps.yandex.*
+||bestmaps.ru
+||2gis.ua
+||map.meta.ua
+||map.i.ua
+||infoportal.ua
+||maps-world.ru
+||kartaonline.com
+||satellite-maps.ru
+||liveuamap.com
+||1maps.ru
+||earth3dmap.com
+||maps.sputnik.ru
+||gisfile.com
+||world-maps.pro
+||russia-karta.ru
 
 ||apple.com/ios/maps/
 ||cloud.google.com/maps-platform/
 ||bing.com/maps
-||yandex.com/maps
+||yandex.*/maps
 ||qwant.com/maps
 ||alltrails.com/*/map
 ||carobapps.com/*/inroute
 
 ! Generic
+*map.online*
 /bhuvan2d.php
 /gps-navigation
 /maps-data/
 /location-intelligence/
+/google_map_*
 .maps
+-maps
 /maps
 /geo
 &maps
