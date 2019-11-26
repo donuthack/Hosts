@@ -495,4 +495,7 @@ tccrocks.com^*$cookie=/.+/
 gowireless.com^*$cookie=/.+/
 uplynk.com^*$cookie=/.+/
 gateway.verizon.llabs.io^*$cookie=/.+/
+||52.27.7.77$network
+||13.227.34.42$network
+||54.236.3.168$network
 !#endif
