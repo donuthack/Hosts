@@ -465,7 +465,7 @@
 0.0.0.0 es.verizonwireless.com
 0.0.0.0 verizonspecials.com
 0.0.0.0 virtualcommexpress.verizon.com
-0.0.0.0
+0.0.0.0 gateway.verizon.llabs.io
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
