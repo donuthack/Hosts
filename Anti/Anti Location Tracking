@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 8
+! Version: 9
 
 ! Block maps, location analytics, and GPS services
 
@@ -95,6 +95,9 @@
 ||gisfile.com
 ||world-maps.pro
 ||russia-karta.ru
+||api.alpify.com
+||alpify.com
+||life360.com
 
 ||apple.com/ios/maps/
 ||cloud.google.com/maps-platform/
@@ -104,12 +107,23 @@
 ||alltrails.com/*/map
 ||carobapps.com/*/inroute
 
+! AdGuard For Android
+||52.72.245.79$network
+||52.87.74.252$network
+||34.243.125.37$network
+||157.240.18.15
+172.217.4.106
+104.18.168.222
+172.217.9.67
+52.22.113.11
+
 ! Generic
 *map.online*
 /bhuvan2d.php
 /gps-navigation
 /maps-data/
 /location-intelligence/
+/api/location
 /google_map_*
 .maps
 -maps
