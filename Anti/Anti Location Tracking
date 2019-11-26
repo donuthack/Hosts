@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 9
+! Version: 10
 
 ! Block maps, location analytics, and GPS services
 
@@ -98,6 +98,9 @@
 ||api.alpify.com
 ||alpify.com
 ||life360.com
+||location-inference-westus.cloudapp.net
+||inference.location.live.net
+
 
 ||apple.com/ios/maps/
 ||cloud.google.com/maps-platform/
