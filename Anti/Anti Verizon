@@ -494,4 +494,5 @@ verizon.overview.mail.yahoo.com^*$cookie=/.+/
 tccrocks.com^*$cookie=/.+/
 gowireless.com^*$cookie=/.+/
 uplynk.com^*$cookie=/.+/
+gateway.verizon.llabs.io^*$cookie=/.+/
 !#endif
