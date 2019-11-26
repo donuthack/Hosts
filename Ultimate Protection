@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 21-1
+! Version: 22
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Little)
 ! Last Modified: Tuesday, November 26, 2019
@@ -56,6 +56,9 @@ google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
 ! If Using AdGuard "prevents Facebook from tracking you even if you are logged in" 
 ! (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#real-life-examples)
 ||facebook.com^$third-party,cookie=c_user
+
+! Tracker In Windows By Default
+0.0.0.0 candycrushsoda.king.com
 
 ! Extra Non-Specific Trackers
 0.0.0.0 graph.accountkit.com
@@ -181,6 +184,7 @@ wu-calculator.apple.com
 /out.php
 /redir.php
 /redirect.php
+/connecttest.txt
 *.gif
 *tracking*
 *tracker*
