@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 7-1
+! Version: 8
 
 ! Google
 ||google.*^$all
@@ -14,6 +14,7 @@
 ||youtube.com^$all
 ||blogger.com^$all
 ||ytimg.com^$all
+||googlehosted.com^$all
 
 ! Mail
 ||gmail.com^$all
@@ -44,3 +45,4 @@
 ||capitalg.com^$all
 ||virustotal.com^$all
 ||fruitninjagame.page.link^$all
+||google-public-dns-*.google.com
