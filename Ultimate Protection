@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 20
+! Version: 21
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 51K (Give Or Take A Little)
 ! Last Modified: Friday, November 22, 2019
@@ -55,6 +55,9 @@ google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
 ! If Using AdGuard "prevents Facebook from tracking you even if you are logged in" 
 ! (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#real-life-examples)
 ||facebook.com^$third-party,cookie=c_user
+
+! Extra Non-Specific Trackers
+0.0.0.0 graph.accountkit.com
 
 ! From https://github.com/dex4k/dex4kblocklist/blob/master/dex4kblocklistextras.txt#L83
 ! Apple
