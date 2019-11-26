@@ -12,7 +12,7 @@ A blocklist of ads, trackers, anti-adblock, malware, IP grabbers, and tracking c
 
 * [`Dark Mode`](https://github.com/Cybo1927/Hosts/blob/master/Dark%20Mode/Blackout) - This is a userstyle for uBlock Origin that will make supported pages pitch black instead of white or grey. Great for OLED screens.
 
-* [`Other Formats`](https://github.com/Cybo1927/Hosts/tree/master/Other%20Formats) - This is a folder for extra blocklist formats. Specifically made to help block things on archive.org as the normal way of blocking with 0.0.0.0, 127.0.0.1, and || wont get the trackers due to the weird way they use the sites URLs.
+* [`Other Formats`](https://github.com/Cybo1927/Hosts/tree/master/Other%20Formats) - This is a folder for extra blocklist formats. Specifically made to help block things on archive.org as the normal way of blocking with 0.0.0.0, 127.0.0.1, and || wont get the trackers due to the weird way they use the archived sites URLs.
 
 <br>
 
