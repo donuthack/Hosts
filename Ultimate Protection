@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 22
+! Version: 23
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Little)
 ! Last Modified: Tuesday, November 26, 2019
@@ -24,6 +24,24 @@ marketwatch.com^$script,inline-script
 nytimes.com^$script
 dailycaller.com$inline-script
 neonnettle.com$inline-script
+content-security-policy.com$script,inline-script
+computerhope.com$script,inline-script
+
+! Nothing Is Free / Too Good To Be True
+! "Honey"
+0.0.0.0 honey.io
+0.0.0.0 cdn.honey.io
+0.0.0.0 joinhoney.com
+##a[href*="joinhoney.com"]
+! "Otto – Gift Card and Coupon Finder"
+0.0.0.0 d3lh2hqqgsec27.cloudfront.net
+0.0.0.0 giftcardgrannydev.com
+0.0.0.0 giftcardgrannystage.com
+0.0.0.0 giftcardgranny.com
+! "Browse Plus"
+0.0.0.0 browse-plus.browser-apps.net
+0.0.0.0 secure-cluster.net
+0.0.0.0 awsecure.net
 
 ! "If you run eval() with a string that could be affected by a malicious party, you may end up running malicious code on the user's
 ! machine with the permissions of your webpage/extension," Mozilla explains on its MDN web docs. 
