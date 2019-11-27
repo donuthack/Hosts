@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti CDN
 ! Expires: 1 day
-! Version: 13
+! Version: 14
 
 ||bunnycdn.com
 ||cdn77.com
@@ -48,6 +48,7 @@
 ||staticcdn.duckduckgo.com
 ||section.io
 ||licdn.com
+||hwcdn.net
 
 ! Wildcard
 ||*.cdn.*
