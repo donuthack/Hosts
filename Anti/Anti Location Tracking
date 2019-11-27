@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 10
+! Version: 11
 
 ! Block maps, location analytics, and GPS services
 
@@ -100,7 +100,7 @@
 ||life360.com
 ||location-inference-westus.cloudapp.net
 ||inference.location.live.net
-
+||maps.windows.com
 
 ||apple.com/ios/maps/
 ||cloud.google.com/maps-platform/
