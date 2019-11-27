@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Microsoft
 ! Expires: 1 day
-! Version: 2
+! Version: 3
 
 ! Block Microsoft and their services
 
@@ -22,15 +22,32 @@
 0.0.0.0 trafficshaping.dsp.mp.microsoft.com
 
 0.0.0.0 *microsoft.com*
+0.0.0.0 *s-microsoft.com*
 0.0.0.0 *onenote.net*
 0.0.0.0 *msedge.net*
+0.0.0.0 *-msedge.net*
 0.0.0.0 *live.com*
+0.0.0.0 *live.net*
 0.0.0.0 *outlook.com*
 0.0.0.0 *skype.com*
 0.0.0.0 *msn.com*
 0.0.0.0 *windowsupdate.com*
 0.0.0.0 *msecnd.net*
 0.0.0.0 *office365.com*
+! Block any domains ending in (AdGuard Home)
+microsoft.com|
+s-microsoft.com|
+onenote.net|
+msedge.net|
+*-msedge.net|
+live.com|
+live.net|
+outlook.com|
+skype.com|
+msn.com|
+windowsupdate.com|
+msecnd.net|
+office365.com|
 
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1809-endpoints
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1803-endpoints
