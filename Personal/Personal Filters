@@ -2,11 +2,6 @@
 ! Expires: 1 hours
 ! Version: 1
 
-!#include Hosts
-!#include /Anti/Anti%20Fonts
-!#include /Anti/Anti%20Third-Party%20HTTP
-!#include /Other%20Formats/Extra%20Format
-
 ! uBlock/Nano
 !--- PERSONAL FILTERS DONT ADD TO LISTS ---!
 ||*facebook*^$all
