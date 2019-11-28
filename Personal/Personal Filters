@@ -1,3 +1,8 @@
+!#include Hosts
+!#include /Anti/Anti%20Fonts
+!#include /Anti/Anti%20Third-Party%20HTTP
+!#include /Other%20Formats/Extra%20Format
+
 ! uBlock/Nano
 !--- PERSONAL FILTERS DONT ADD TO LISTS ---!
 ||*facebook*^$all
@@ -80,6 +85,19 @@ dailycaller.com##.article-footer
 dailycaller.com##.xl\:pr-6.lg\:mx-4.lg\:mb-0.mb-6.article-column > .pt-10.mb-4.flex.list-none
 www.dailymail.co.uk##div.lead-alpha.cleared > .beta
 www.dailymail.co.uk##div.gamma
+! YouTube Cosmetic
+youtube.com###items > ytd-playlist-sidebar-primary-info-renderer.style-scope.ytd-playlist-sidebar-renderer:first-child > ytd-expander.style-scope.ytd-playlist-sidebar-primary-info-renderer:nth-child(10)
+youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
+youtube.com###section-items > ytd-guide-entry-renderer.style-scope.ytd-guide-collapsible-section-entry-renderer:first-child
+youtube.com###section-items > ytd-guide-entry-renderer.style-scope.ytd-guide-collapsible-section-entry-renderer:nth-child(3)
+youtube.com###sections > ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(2)
+youtube.com###sections > ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(3)
+youtube.com###sections > ytd-guide-section-renderer.style-scope.ytd-guide-renderer:last-child
+youtube.com###button > a.yt-simple-endpoint.style-scope.ytd-topbar-menu-button-renderer
+youtube.com###header-entry
+youtube.com###footer
+! YouTube Autoplay Disabler
+youtube.com##+js(ec4.js, .paper-toggle-button.style-scope.toggle-container)
 !--- END PERSONAL FILTERS ---!
 
 ! AdGuard
@@ -101,6 +119,4 @@ www.dailymail.co.uk##div.gamma
 ! Cookies
 *^$cookie=/.+/;maxAge=-999999,domain=~youtube.com|~accounts.google.com|~discordapp.com|~discord.gg|~pandora.com|mega.nz
 *^$cookie=/lithiumSSO%3A[a-z]+.prod|_wamtcstandards|http_referrer|at|__cfduid/
-! Cookies Expire So Login Is Required Every Page Load
-example.com$cookie=/.+/;maxAge=360
 !--- END PERSONAL FILTERS ---!
