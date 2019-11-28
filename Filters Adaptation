@@ -1,15 +1,18 @@
 [Adblock Plus 3.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1180
+! Version: 1181
 ! Version hyphen (-) Means Small Update
-! Number Of Ad Services, Trackers, And Malware Blocked: 25.0K
-! Last Modified: Sunday, November 24, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 25.2K
+! Last Modified: Wednesday, November 27, 2019
 
 ! Unbreak
+@@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
+@@||slickdealscdn.com/images/slickdeals/blank.gif$domain=slickdeals.net
+@@||slickdeals.net/images/slickdeals/blank.gif$domain=slickdeals.net
 @@||undefined/g00/$domain=sportingnews.com
 @@||sdad.guru$domain=sportingnews.com
-@@||api.emsicc.com/sites/iowa
+@@||api.emsicc.com/sites/*
 @@||static.hotjar.com/$domain=emsicc.com/assessment?
 @@||pandora.com/web-version/*/ads.json?
 pandora.com#@#^script:has-text(ideoAds)
@@ -28,16 +31,7 @@ pandora.com$genericblock
 @@||dailycaller.com/files/images/1x1.trans.gif
 @@||pandora.com/web-client-assets/d_*.
 @@||pandora.com/*/adserver
-@@||github.co$domain=github.com
-@@||gigya.com
-@@||yospace-directv.akamaized.net
-@@||yospace.com
-@@||ads-e-darwin.hulustream.com
-@@||http-v-darwin.hulustream.com
 @@||encrypted-tbn*.gstatic.com$domain=google.
-@@||connectivitycheck.gstatic.com
-@@||clients2.googleusercontent.com
-@@||*-sponsored.dfw.vcdn.att-idns.net
 @@||gab.com$cookie
 @@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
 @@||moatads.com/*.js$domain=hulu.com
@@ -48,12 +42,8 @@ pandora.com$genericblock
 @@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
 @@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
 @@||ssl.gstatic.com/*/common/netcheck.gif?
-@@||services.gfe.nvidia.com
-@@||download.gfe.nvidia.com
 @@||encrypted.google.com/recaptcha/api/
 @@||google.com/recaptcha/api.js
-@@||media-cdn.tripadvisor.com
-@@||iheart.com
 @@||youtube.com/embed$third-party
 @@||www.paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
 @@||maps.gstatic.com^$image
@@ -61,12 +51,29 @@ pandora.com$genericblock
 @@||apis.google.com/_/scs/*
 @@||link.theplatform.com$xmlhttprequest
 @@||nbc.com/generetic/scripts/ads.js
-@@||player.theplatform.com
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
 @@||accounts.google.$cookie
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
+! Simple Domains
+! AdGuard Simplified Domains Incorrectly Blocks This -----------------
+@@||smallseotools.com^$important
+! --------------------------------------------------------------------
+@@||player.theplatform.com
+@@||media-cdn.tripadvisor.com
+@@||iheart.com
+@@||services.gfe.nvidia.com
+@@||download.gfe.nvidia.com
+@@||connectivitycheck.gstatic.com
+@@||clients2.googleusercontent.com
+@@||*-sponsored.dfw.vcdn.att-idns.net
+@@||github.co$domain=github.com
+@@||gigya.com
+@@||yospace-directv.akamaized.net
+@@||yospace.com
+@@||ads-e-darwin.hulustream.com
+@@||http-v-darwin.hulustream.com
 
 ! Don't Add Because Of Breakage
 !gdmf.apple.com (iOS updates)
@@ -106,9 +113,15 @@ pandora.com$genericblock
 ! Get the hard to block sponsored content on Reuters
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
 ! Block possibly suspicious top-level domains from running as third-party on sites
-/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$third-party
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)/$third-party
 ! Block possibly suspicious top-level domains from running as third-party popups on sites
-/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)$/$third-party,popup
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ad|ninja)/$third-party,popup
+! General advert blocker
+/\.ad(vert|verts|vertisement|click|clicks|cash|buzz|break|img|image|server|service|share|tech|pro|promo|exchange|dump)+\..+/
+! TraceDock RegEX blocking
+/[a-z0-9]{15,15}(e997c60ac8a4ec150-)[0-9]+\.(eu-).+\.(amazonaws)./
+! Collecter Analytics Scripts
+/\/collect(ion|er)?\/v[0-9]{1,2}/
 
 ! Make Disqus Click-to-Load
 ||disqus.com/forums/*/embed.js$script,redirect=disqus.com/forums/*/embed.js
@@ -269,6 +282,7 @@ mega.nz##+js(abort-on-property-write.js, Fingerprint2)
 bitskins.com##+js(abort-on-property-write.js, Fingerprint2)
 veedi.com##+js(set-constant, adBlocker, false)
 veedif.com##+js(set-constant, adBlocker, false)
+*##+js(abort-on-property-read, adtoniq)
 ! https://github.com/uBlockOrigin/uBlock-issues/issues/780
 *##+js(aopw, EA_data)
 oui.sncf##+js(acis, document.getElementById, vscaUrl)
@@ -280,7 +294,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ! Prevent prefetch which can sometimes bypass blocking (uBlock & Nano Have A Simple Button To Do Something Like This)
 ||*^$csp=prefetch-src 'none'
 
-! Block Hola VPN 
+! Block Hola VPN
 ! dailydot.com/debug/hola-vpn-security
 ! torrentfreak.com/hola-vpn-sells-users-bandwidth-150528
 ||hola.org
@@ -467,170 +481,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||xn--yo14tu-4ta9735d.be
 ||xn--yo14t14be-m2ad7057gea.co
 ||xn--battl-kra2007c.net
-! Prevent The IP Grabber Links From Even Being Seen
-*#?#a:-abp-contains(www.spylink.net)
-*#?#a:-abp-contains(spylink.net)
-*#?#a:-abp-contains(ipstat.com)
-*#?#a:-abp-contains(ipstatp.com)
-*#?#a:-abp-contains(grabify.link)
-*#?#a:-abp-contains(bmwforum.co)
-*#?#a:-abp-contains(leancoding.co)
-*#?#a:-abp-contains(quickmessage.io)
-*#?#a:-abp-contains(spottyfly.com)
-*#?#a:-abp-contains(spötify.com)
-*#?#a:-abp-contains(stopify.co)
-*#?#a:-abp-contains(yoütu.be)
-*#?#a:-abp-contains(yoütübe.co)
-*#?#a:-abp-contains(yoütübe.com)
-*#?#a:-abp-contains(xda-developers.io)
-*#?#a:-abp-contains(starbucksiswrong.com)
-*#?#a:-abp-contains(starbucksisbadforyou.com)
-*#?#a:-abp-contains(bucks.as)
-*#?#a:-abp-contains(discörd.com)
-*#?#a:-abp-contains(minecräft.com)
-*#?#a:-abp-contains(cyberh1.xyz)
-*#?#a:-abp-contains(discördapp.com)
-*#?#a:-abp-contains(freegiftcards.co)
-*#?#a:-abp-contains(disçordapp.com)
-*#?#a:-abp-contains(rëddït.com)
-*#?#a:-abp-contains(iplogger.org)
-*#?#a:-abp-contains(iplogger.com)
-*#?#a:-abp-contains(iplogger.ru)
-*#?#a:-abp-contains(2no.co)
-*#?#a:-abp-contains(yip.su)
-*#?#a:-abp-contains(youramonkey.com)
-*#?#a:-abp-contains(whatstheirip.com)
-*#?#a:-abp-contains(IP-Grabber.com)
-*#?#a:-abp-contains(ip-grabber.com)
-*#?#a:-abp-contains(blasze.tk)
-*#?#a:-abp-contains(ps3cfw.com)
-*#?#a:-abp-contains(freegeoip.net)
-*#?#a:-abp-contains(ipstack.com)
-*#?#a:-abp-contains(ipstack.net)
-*#?#a:-abp-contains(tracemyip.org)
-*#?#a:-abp-contains(www.tracemyip.org)
-*#?#a:-abp-contains(xn--yotu-1ra.be)
-*#?#a:-abp-contains(xn--discrd-zxa.com)
-*#?#a:-abp-contains(xn--srahah-bua.eu)
-*#?#a:-abp-contains(xn--minecrft-5za.com)
-*#?#a:-abp-contains(xn--disordapp-s3a.com)
-*#?#a:-abp-contains(xn--srahah-bua.pl)
-*#?#a:-abp-contains(xda-developers.us)
-*#?#a:-abp-contains(quickmessage.us)
-*#?#a:-abp-contains(fortnight.space)
-*#?#a:-abp-contains(fortnitechat.site)
-*#?#a:-abp-contains(youshouldclick.us)
-*#?#a:-abp-contains(joinmy.site)
-*#?#a:-abp-contains(watches-my.stream)
-*#?#a:-abp-contains(www.apple.com-fasting.live)
-*#?#a:-abp-contains(apple.com-fasting.live)
-*#?#a:-abp-contains(parentelement.tk)
-*#?#a:-abp-contains(com-fasting.live)
-*#?#a:-abp-contains(crabrave.pw)
-*#?#a:-abp-contains(särahah.eu)
-*#?#a:-abp-contains(särahah.pl)
-*#?#a:-abp-contains(mapper.info)
-*#?#a:-abp-contains(ezstat.ru)
-*#?#a:-abp-contains(blasze.com)
-*#?#a:-abp-contains(myiptest.com/img.php)
-*#?#a:-abp-contains(spÃ¶tify.com)
-*#?#a:-abp-contains(yoÃ¼tÃ¼be.co)
-*#?#a:-abp-contains(yoÃ¼tÃ¼be.com)
-*#?#a:-abp-contains(yoÃ¼tu.be)
-*#?#a:-abp-contains(hackfÈ¯rums.com)
-*#?#a:-abp-contains(hackfÈ¯rums.net)
-*#?#a:-abp-contains(discÃ¶rd.com)
-*#?#a:-abp-contains(battlÄ—.net)
-*#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.com)
-*#?#a:-abp-contains(xn--sptify-4ka37a.com)
-*#?#a:-abp-contains(xn--discrd-6ka37a.com)
-*#?#a:-abp-contains(xn--yo14tu-4ta9735d.be)
-*#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.co)
-*#?#a:-abp-contains(xn--battl-kra2007c.net)
-!#if (!ext_adguard && !ext_ublock)
-! Help for Adblock Plus Because It's a Little Retarded
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(www.spylink.net)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(spylink.net)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ipstat.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ipstatp.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(grabify.link)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(bmwforum.co)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(leancoding.co)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(quickmessage.io)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(spottyfly.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(spötify.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(stopify.co)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoütu.be)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoütübe.co)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoütübe.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xda-developers.io)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(starbucksiswrong.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(starbucksisbadforyou.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(bucks.as)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(discörd.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(minecräft.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(cyberh1.xyz)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(discördapp.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(freegiftcards.co)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(disçordapp.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(rëddït.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(iplogger.org)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(iplogger.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(iplogger.ru)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(2no.co)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yip.su)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(youramonkey.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(whatstheirip.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(IP-Grabber.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ip-grabber.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(blasze.tk)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ps3cfw.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(freegeoip.net)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ipstack.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ipstack.net)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(tracemyip.org)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(www.tracemyip.org)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--yotu-1ra.be)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--discrd-zxa.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--srahah-bua.eu)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--minecrft-5za.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--disordapp-s3a.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--srahah-bua.pl)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xda-developers.us)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(quickmessage.us)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(fortnight.space)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(fortnitechat.site)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(youshouldclick.us)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(joinmy.site)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(watches-my.stream)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(www.apple.com-fasting.live)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(apple.com-fasting.live)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(parentelement.tk)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(com-fasting.live)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(crabrave.pw)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(särahah.eu)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(särahah.pl)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(mapper.info)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ezstat.ru)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(blasze.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(myiptest.com/img.php)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(spÃ¶tify.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoÃ¼tÃ¼be.co)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoÃ¼tÃ¼be.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoÃ¼tu.be)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(hackfÈ¯rums.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(hackfÈ¯rums.net)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(discÃ¶rd.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(battlÄ—.net)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--sptify-4ka37a.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--discrd-6ka37a.com)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--yo14tu-4ta9735d.be)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.co)
-facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--battl-kra2007c.net)
-!#endif
 
 ! Apple
+||smp-device-content.apple.com
 ||apple.comscoreresearch.com
 ||init.ess.apple.com
 ||profile.gc.apple.com
@@ -1290,6 +1143,25 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||aliadvert.ru
+||adnium.com
+||affex.org
+||analytics-ingestion.production-public.tubi.io
+||acc-hd.de
+||action.adzcore.com
+||adzcore.com
+||ad-cdn.*
+||adbetclickin.pink
+||adbetnet.com
+||adbreak.cdn.ubeei.com
+||adbreak.cubecdn.net
+||adtracks.biz
+||ads1.contentabc.com
+||ads2.contentabc.com
+||api.revenuecat.com
+||appboy.com
+||amplitude.life360.com
+||adsansar.com
 ||at-o.net
 ||a.shifen.com
 ||arc.msn.com
@@ -4068,6 +3940,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||a.ads2.msads.net
 
 !B
+||brinein.com
+||betwinnerpromo.com
+||best2019-games-web1.com
 ||bro-bg-store.s3.yandex.net
 ||bringthepixel.com
 ||bigbangbon.online
@@ -6111,6 +5986,13 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||creative.medialytics.com
 
 !D
+||dev.appboy.com
+||dnsotls-ds.metric.gstatic.com
+||contentabc.com
+||cc.xtgreat.com
+||cdn.insta.playbryte.com
+||counter.adguard.com
+||casinoclassic.wingiftcard.site
 ||data.aws-qa.rnatest.brightcove.com
 ||dnsdelegation.io
 ||defaultsearch.co
@@ -7264,6 +7146,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||fascinatednosed.club
+||ffjjti.frl$third-party,domain=~mp3juices.cc
 ||free-browser.co
 ||filehippo-fre.com
 ||fp-cdn.azureedge.net
@@ -7972,6 +7856,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||gannett.hb.omtrdc.net
 
 !H
+||homes.adtracks.biz
+||hottieswantu.com
 ||hubvisor.io
 ||hypnoticwound.com
 ||hubtraffic.com
@@ -7982,7 +7868,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||handy-porn.net
 ||hxnbotlkxpkyt.com
 ||hbint.emxdgt.com
-||hrahdmon.com
 ||hrahdmon.com
 ||hlserve.com
 ||httpdns.push.oppomobile.com
@@ -8211,6 +8096,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||helpshift.com
 
 !I
+||installer.filebulldog.com
+||intergient.com
 ||iredirect.net
 ||id-visitors.com
 ||ibet96ace.com
@@ -8922,6 +8809,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||init.supersonicads.com
 
 !J
+||jump-your-bones.com
 ||jrnudistfilm.eu
 ||juicegirls.info
 ||jrnudefilm.eu
@@ -9033,6 +8921,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||js.users.51.la
 
 !K
+||keapeiros.xyz
+||killsironmentord.com
+||k-ring.msedge.net
+||kethinwi.ru
 ||keilaparius.com
 ||kts.visitstats.com
 ||klsdee.com
@@ -9834,6 +9726,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||krxd.net
 
 !L
+||lp.searchdimension.com
+||lockmypix-free.firebaseio.com
+||l-ring.msedge.net
+||literally-analytics.appspot.com
+||logs.roku.com
 ||link.brightcove.co
 ||listenlive.co
 ||linktrack.info
@@ -10115,6 +10012,14 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||location.silverpush.com
 
 !M
+||modern.watson.data.microsoft.com.akadns.net
+||msftconnecttest.com
+||monu.delivery
+||mediad2.jp
+||marenhemperdidn.pro
+||mwzxe.jump-your-bones.com
+||mobtyb.com
+||monetizer101.com
 ||minute.ly
 ||my-ivideos.com
 ||mob1ledev1ces.com
@@ -10748,6 +10653,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||memo2.nl
 
 !N
+||nlkdom.com
+||nativesubscribe.pro
+||neboley.site
 ||nakedteen.top
 ||net.cleverjp.com
 ||ntvk1.ru
@@ -11027,6 +10935,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||n149adserv.com
 
 !O
+||oem.twimg.com
 ||ocsp.pki.goog
 ||ownfeed.com
 ||oipcqenejq.com
@@ -11234,6 +11143,12 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||open.ad.yieldmanager.net
 
 !P
+||pathlime.com
+||ps.pndsn.com
+||pndsn.com
+||playbryte.com
+||pixel.archive.is
+||pingback.giphy.com
 ||pics-nudist.top
 ||purenudism.com
 ||pub.ezanga.com
@@ -11930,6 +11845,9 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||qnsr.com
 
 !R
+||refer.ccbill.com
+||revenuecat.com
+||rtbmedia.org
 ||ramirocampos.pro
 ||rdsb2.club
 ||rapidscansecure.com
@@ -12260,6 +12178,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||r.skimresources.com
 
 !S
+||sur.telemetry.intel.com
+||searchdimension.com$popup
 ||sv.symcd.com
 ||stat.hackedonlinegames.com
 ||stat.ripe.net
@@ -13600,6 +13520,14 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||scripts.kissmetrics.com
 
 !T
+||tracedock.com
+||tsfe.trafficshaping.dsp.mp.microsoft.com
+||trafficshaping.dsp.mp.microsoft.com
+||trbas.com
+||t-ring.msedge.net
+||t.mobtyb.com
+||telemetry.intel.com
+||telemetry-in.*
 ||terrapsps.com
 ||terrasdsdstd.com
 ||top-nudism.eu
@@ -14254,6 +14182,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||tt.omtrdc.net
 
 !U
+||ubeei.com
 ||useproof.com
 ||unibetasia.org
 ||usenetmodelsindex.com
@@ -14613,6 +14542,10 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||v.admaster.com.cn
 
 !W
+||wingiftcard.site
+||wizaly.com
+||wbd.ms
+||whiteboard.ms
 ||windowssearch-exp.com
 ||wshifen.com
 ||wildxxxhardcore.com
@@ -14657,7 +14590,6 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||walsalladvertiser.co.uk
 ||wdcp.microsoft.com
 ||wdcpalt.microsoft.com
-||wixmp.com
 ||wo.vzwwo.com
 ||who.nie.netease.com
 ||whatismyip.akamai.com
@@ -14972,6 +14904,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||wv.inner-active.mobi
 
 !X
+||xtgreat.com
 ||xxxstats.pro
 ||xtraffstat.com
 ||xtraffme.pro
@@ -15051,6 +14984,7 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||xxxwebtraffic.com
 
 !Y
+||youwins.mobi
 ||yandex.ocsp-responder.com
 ||yabs.yandex.ru
 ||youngkitties.com
@@ -15219,6 +15153,8 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||y-track.com
 
 !Z
+||zendplace.pro
+||zdravo.neboley.site
 ||zog.link
 ||zeroxxx.club
 ||zoee.xyz
@@ -15446,6 +15382,11 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||zyqlfplqdgxu.com
 
 !Misc
+||539370883133-r2p5v09t3p81v4gqo2lrkjnvlcloo48o.apps.googleusercontent.com
+||*.pixel.archive.is
+||*-ring.msedge.net
+||*.logs.roku.com
+||*.telemetry.intel.com
 ||1passforallsites.com
 ||*.keilaparius.com
 ||*-analytics.com
@@ -18501,6 +18442,26 @@ facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitt
 ||6901690.fls.doubleclick.net
 ||1e100.net
 
+! Fake Bitdefender Sites
+||mybitdefender-central.com
+||my-bitdefender.com
+||bitdefender-login.com
+||installbitdefender.org
+||centralbitdefender.org
+||bitdefender-my.com
+||mybitdefenderlogin.com
+||bitdefendercentralx.com
+||bitdefenderlogins.com
+||bitdefenderlogin.org
+||bitdefenderlogin.me
+||bitdefendercentrall.com
+||activationcodebit-defender.org
+||bitdefenderlogin.com
+||bitdefender-central.org
+||bitdefendercentral.support
+||bitdefendermyanmar.com
+||bitdefenderonline.com
+
 # Filtered Blocking / Filter List
 duckduckgo.com#@#.has-ad
 iprvl.co###pref-label
@@ -20467,7 +20428,8 @@ appleinsider.com###div-gpt-ad-1510770062118-3
 appleinsider.com##.ad-mrec
 ||pandora.com/web-client-assets/displayAdFrame.
 ||hearst.io/js/vendor/fingerprint.js
-||duckduckgo.com/post2.html
+||xda-developers.com/at.php
+duckduckgo.com##.is-showing.js-welcome-wrap.welcome-wrap
 bestproducts.com##.top-pathing-inner
 head-fi.org###dfp_ultra_leaderboard_1
 head-fi.org##.banner_flex_leaderboard_child_right
@@ -22096,7 +22058,6 @@ marketwatch.com###sponsored-links
 marketwatch.com###little-hole
 iopscience.iop.org###cookieBanner
 iopscience.iop.org##.cookies-banner-wrap
-||ninecorners.com/search.php?get=*
 ||ninecorners.com/images/branding/googlelogo/1x/google*.png
 ||ninecorners.com/images/branding/googlelogo/2x/google*.png
 ||proxfree-nitrad.netdna-ssl.com$third-party
@@ -22385,6 +22346,121 @@ lifehacker.com##.sc-1bdg1q0-0, .dHZwOk
 lifehacker.com##.inset--story, .branded-item, .branded-item--lifehacker
 ||graph.instagram.com/logging_client_events
 ||instagram.com/logging/*
+community.spiceworks.com###join-login_alt-modal
+||cumonprintedpics.com/1linking.php
+longlist.org##div.wrapper:nth-child(2) > div.container > div.content:nth-child(3) > div.entry:nth-child(2)
+www.3dsex.pro##.paid-mix
+www.3dsex.pro##.tac.promo-block
+www.newsexpics.net##div.checked.mix.col-md-3.single-portfolio
+www.xxxhentaicomix.com##figure.mix > .tac
+cumonprintedpics.com###message > center:nth-child(4) > table > tbody > tr
+cumonprintedpics.com###message > center:first-child
+silkengirl.com##.aside
+silkengirl.com##div.main > div.container.flex_container:first-child > div.content_main:nth-child(2) > div.block_row:nth-child(4) > div.spots_long
+babesandgirls.com###block-block-6 > div.content > div
+phun.org###\36 1q8-94nsw-9ojmo
+phun.org###k145s-efnxa-iprlr
+phun.org###ny6sr-dluvv-70f88
+phun.org###rqc5-513er-xqlgt
+babesmachine.com###gallery > div.banner:nth-child(3)
+nakedwomenweb.com##div > canvas
+freexcafe.com###page > div.unit-lb:nth-child(5) > iframe
+freexcafe.com###page > div.unit-lb:nth-child(8)
+freexcafe.com###page > ul.topfriends-list:nth-child(13)
+bigleaguepolitics.com###mvp-side-wrap > a:nth-child(2)
+||uaclips.com/img/1.gif
+||frclip.com/img/1.gif
+forum.donanimhaber.com##.yapisanreklam.sagreklam
+forum.donanimhaber.com##div.sagreklam
+forum.donanimhaber.com##.dfLastLoad.DH-Reklam-8
+forum.donanimhaber.com##.dfLastLoad.altkisim
+www.kimberamerica.com##.popup_offer
+www.kimberamerica.com##.popup_offer-overlay
+joyofandroid.com##.thetopad
+hentai-animes.com###ad
+slickdeals.net###crt-adblock-a
+||static.slickdealscdn.com/az-creative/$image
+slickdeals.net##.externalGiveawayModule
+slickdeals.net###omegaBanner
+slickdeals.net##div.ad.sideGridBox
+slickdeals.net##.variableHeightAd.variableWidthAd.abc.sideGridBox
+slickdeals.net###countdownBanner
+slickdeals.net###featureDealsAndCoupons
+slickdeals.net###crt-adblock-b
+slickdeals.net###bottom-728x90-970x250
+www.nydailynews.com##.met-rule-3249.met-flyout
+www.nydailynews.com###right-rail
+www.nydailynews.com###left > div.pb-container:nth-of-type(8)
+||sourceforge.net$generichide
+regex101.com##.y-FD0._234pj
+gfycat.com##.feed-with-player__desktop-side-au
+gfycat.com##.signup-call-to-action
+thefappeningblog.com##.entry-content > .cl-exl
+leakedhub.com###slide-in-box
+9gag.com###jsid-ad-container-banner_top
+9gag.com###jsid-ad-container-sidebar_top
+9gag.com###jsid-ad-container-sidebar_bottom
+celebsiren.com##.td-g-rec-id-sidebar.td-g-rec > .td-adspot-title
+celebsiren.com##.td-g-rec-id-content_bottom.td-g-rec > .td-adspot-title
+www.promiflash.de##.cookieBanner.jsx-2673923631
+www.promiflash.de##.adColumnRight.jsx-1548487972
+cheezburger.com###cmn_ad_tag_head
+cheezburger.com##.secondary-border.hidden-xs.hidden-sm.nw-panel.nw-fb-page-panel
+cheezburger.com###nw-right-column > .hidden-xs.hidden-sm.nw-rail-thumbnail.nw-rail-min-250
+cheezburger.com##li.ad-list-item
+cheezburger.com##.sticky-cheez.js-sticky-cheez > .hidden-xs.hidden-sm.nw-rail-thumbnail.nw-rail-min-250
+www.eporner.com##.ad300px
+m.vk.com##.post__adsFriendsInfo
+m.vk.com##.recommends_link
+nydailynews.com##.pb-f-ads-dfp
+heavy-r.com##.ifoguq
+eporner.com###btasd
+eporner.com###movieplayer-box-adv-iframe
+eporner.com##.vjs-inplayer-container
+fapgrams.com##div.divmini2
+fapgrams.com##div.divmini
+fapgrams.com###ad1
+fapgrams.com###ad2
+||googleapis.com/auth/userinfo.email
+ghacks.net##.optanon-alert-box-bg
+ghacks.net##.optanon-alert-box-wrapper
+music.yandex.ru##.dVjOdgZUWw7tPFIl7T8sngFQ
+adlock.com###banner_full
+adlock.com##.fullscr_banner.fullscr_banner--active
+orduh.com###billboardAd
+clip-share.net###morev
+russiansearchmarketing.com###om-b8mchwpx16-lightbox
+russiansearchmarketing.com##.optin-monster-overlay
+us.youtubers.me##.rek1.rek1hp
+us.youtubers.me##.country.countryrek
+beforeitsnews.com###top-alert
+beforeitsnews.com###fancybox-overlay
+beforeitsnews.com###fancybox-content
+beforeitsnews.com###fancybox-bg-s
+beforeitsnews.com##.fancybox-bg
+beforeitsnews.com###fancybox-wrap
+beforeitsnews.com##a[href*="tinyurl.com"]
+beforeitsnews.com###M310742PreloadC351461
+lolzteam.org##.floatingItem.dark
+video-downloader-online.com##.mn-wrapper
+video-downloader-online.com###M309716PreloadC306975
+mp3.yandex.uk.com##div[style="z-index: 2147483647; position: fixed; top: 0; bottom: 0; left: 0; right: 0;background: rgba(0,0,0,.70)!important;backface-visibility: hidden;-webkit-backface-visibility: hidden;text-align: left;"]
+mp3.yandex.uk.com##.form-horizontal
+fatelines.net##.adwshak
+fatelines.net##.boite_news_health.sepia
+fatelines.net##.ja-box-ct.clearfix
+fatelines.net###ja-right1
+fatelines.net##.ja-col.column
+fatelines.net###ja-newbread
+i.ua###banner730
+i.ua##.baner
+||sex-and-flirt.com/ad
+||bing.com/client
+||bing.com/proactive
+||bing.com/threshold/xls.aspx
+liveuamap.com###modalWrapA
+liveuamap.com##.modalWrap
+liveuamap.com##.user-msg
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -22432,24 +22508,26 @@ wpad.home
 ||254.254.168.192.in-addr.arpa
 ||150.32.234.18.in-addr.arpa
 
-! AdGuard
+! AdGuard (Extension/Apps)
 
-! Simplified Domains Incorrectly Blocks This -----------------
-@@||smallseotools.com^$important
-! ------------------------------------------------------------
+! Whitelist
+@@||sourceforge.net$generichide,genericblock
+@@||sourceforge.net$cookie
 
 ! https://forum.adguard.com/index.php?threads/http-rt-pornhub-com.12443/
 pornhub.com#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
 
+! Scriptlets
 #%#//scriptlet('abort-current-inline-script','document.addEventListener','/google_ad_client/')
 ibc.org#%#document.cookie = "AnonUserCookie = " + Math.random() + ";path=/";
-
 cams.com,streamray.com#@%#//scriptlet("prevent-bab")
 
+! Set Cookies
 dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
-$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession/
+!+ NOT_OPTIMIZED
+$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session/
 ||msn.com$cookie=anoncknm|RecentStocks
 ||ninecorners.com$cookie
 ||cams.com$cookie=/cams_who|cams_tr|HISTORY/
@@ -22482,7 +22560,12 @@ $cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_vis
 ||yahoo.com$cookie=/apeaf|ucs|thamba|B|flash_enabled/
 ||facebook.com$cookie=/datr|fr|wd/
 ||github.com$cookie=/tz/
-||google.com$cookie=/GMAIL_LOGIN|COMPASS|GMAIL_AT|GMAIL_STAT_|__Host-GMAIL_SCH_/
+||google.*$cookie=/GMAIL_LOGIN|COMPASS|GMAIL_AT|GMAIL_STAT_|__Host-GMAIL_SCH_/
+pathlimecom$cookie
+walmart.com$cookie=/[A-Z]+[0-9]+[a-z]+[0-9]+|athrvi|TBV|vtc|DL|AID/
+yandex.*$cookie=/font_loaded|i|mda|yabs-frequency|yc|yp|ys|zm|maps_los/
+frclip.com,uaclips.com$cookie=/wn/
+bitdefender.com$cookie=/bd112|fsd2|oidfg4|rerew4|_cbcp|_cbso|sc/
 ! Can Get You Unlimited Free Answers
 ||brainly.com$cookie=Zadanepl_cookie[Token][Guest]
 ! End Anti Tracking Cookies
@@ -22519,6 +22602,11 @@ $webrtc,domain=nsa.gov
 ||172.217.1.46$network
 ||172.217.4.46$network
 ||192.99.211.67$network
+||52.72.245.79$network
+||52.27.7.77$network
+||13.227.34.42$network
+||54.236.3.168$network
+||52.22.113.11$network
 ||80.211.148.176$network,third-party
 ! Micorsoft Cortana
 ||204.79.197.200$network
@@ -22527,6 +22615,10 @@ $webrtc,domain=nsa.gov
 ||216.56.192.205$network
 ||172.217.4.40$network
 ||172.217.6.10$network
+||172.217.9.67$network
+||216.239.35.4$network
+||172.217.4.195$network
+||35.201.97.85$network
 ! Facebook IP
 ||157.240.18.15$network
 !#endif
@@ -22545,6 +22637,22 @@ $webrtc,domain=nsa.gov
 52.216.109.115$network,app=com.glu.samuzombie
 99.86.227.193$network,app=com.glu.samuzombie
 172.217.0.14$network,app=com.symantec.applock
+63.34.13.252$network,app=com.transsion.phoenix
+172.217.5.4$network,app=com.transsion.phoenix
+54.171.16.207$network,app=com.transsion.phoenix
+34.253.87.189$network,app=com.transsion.phoenix
+34.253.87.189$network,app=com.transsion.phoenix
+34.253.87.189$network,app=com.transsion.phoenix
+34.253.87.189$network,app=com.transsion.phoenix
+34.253.87.189$network,app=com.transsion.phoenix
+54.171.16.207$network,app=com.transsion.phoenix
+64.210.147.104$network,app=com.transsion.phoenix
+66.254.98.101$network,app=com.transsion.phoenix
+3.222.106.82$network,app=com.app.downloadmanager
+108.168.194.93$network,app=com.app.downloadmanager
+172.217.4.74$network,app=com.app.downloadmanager
+172.217.4.74$network,app=com.app.downloadmanager
+3.222.106.82$network,app=com.app.downloadmanager
 ! Nox Android Emulator
 47.254.40.233$network,app=system
 47.88.66.23$network,app=system
@@ -23163,6 +23271,15 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /traffic_return.php
 /myvids/force.php?
 /popunder.cgi
+/istripper/
+/yandex-metrica-watch/
+/ads-top
+/ad-inserter/
+/xhr/api/v2/collector
+/hit.xiti
+/Telemetry.Request
+/smartpop/
+/atop$domain=morazzia.com
 -google-tag-
 -ad-
 -v6exp3-
@@ -23326,6 +23443,8 @@ mas_jump_
 ##.main_ads
 ##.ads-small
 ###eu-cookie-law
+##.ad-footer
+###footadframe
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
 ##[id^="bestgoogleadsense-"]
@@ -23403,6 +23522,9 @@ mas_jump_
 ##a[href*="fourchan.com"]
 ##a[href*="feed111.me"]
 ##a[href*="dynsrvbaa.com"]
+##a[href*="adtracks.biz"]
+##a[href*="grtyv.com"]
+##a[href*="mobtyb.com"]
 ##a[href*="/advert/"]
 ##a[href*="/avt/"]
 ##a[href*="/adrotate-out.php?"]
@@ -23417,3 +23539,165 @@ mas_jump_
 ##a[h$="Advert"]
 ##a[h$="Advertisement"]
 ##a[href$="_banner"]
+! Prevent IP Grabber Links From Being Seen
+*#?#a:-abp-contains(www.spylink.net)
+*#?#a:-abp-contains(spylink.net)
+*#?#a:-abp-contains(ipstat.com)
+*#?#a:-abp-contains(ipstatp.com)
+*#?#a:-abp-contains(grabify.link)
+*#?#a:-abp-contains(bmwforum.co)
+*#?#a:-abp-contains(leancoding.co)
+*#?#a:-abp-contains(quickmessage.io)
+*#?#a:-abp-contains(spottyfly.com)
+*#?#a:-abp-contains(spötify.com)
+*#?#a:-abp-contains(stopify.co)
+*#?#a:-abp-contains(yoütu.be)
+*#?#a:-abp-contains(yoütübe.co)
+*#?#a:-abp-contains(yoütübe.com)
+*#?#a:-abp-contains(xda-developers.io)
+*#?#a:-abp-contains(starbucksiswrong.com)
+*#?#a:-abp-contains(starbucksisbadforyou.com)
+*#?#a:-abp-contains(bucks.as)
+*#?#a:-abp-contains(discörd.com)
+*#?#a:-abp-contains(minecräft.com)
+*#?#a:-abp-contains(cyberh1.xyz)
+*#?#a:-abp-contains(discördapp.com)
+*#?#a:-abp-contains(freegiftcards.co)
+*#?#a:-abp-contains(disçordapp.com)
+*#?#a:-abp-contains(rëddït.com)
+*#?#a:-abp-contains(iplogger.org)
+*#?#a:-abp-contains(iplogger.com)
+*#?#a:-abp-contains(iplogger.ru)
+*#?#a:-abp-contains(2no.co)
+*#?#a:-abp-contains(yip.su)
+*#?#a:-abp-contains(youramonkey.com)
+*#?#a:-abp-contains(whatstheirip.com)
+*#?#a:-abp-contains(IP-Grabber.com)
+*#?#a:-abp-contains(ip-grabber.com)
+*#?#a:-abp-contains(blasze.tk)
+*#?#a:-abp-contains(ps3cfw.com)
+*#?#a:-abp-contains(freegeoip.net)
+*#?#a:-abp-contains(ipstack.com)
+*#?#a:-abp-contains(ipstack.net)
+*#?#a:-abp-contains(tracemyip.org)
+*#?#a:-abp-contains(www.tracemyip.org)
+*#?#a:-abp-contains(xn--yotu-1ra.be)
+*#?#a:-abp-contains(xn--discrd-zxa.com)
+*#?#a:-abp-contains(xn--srahah-bua.eu)
+*#?#a:-abp-contains(xn--minecrft-5za.com)
+*#?#a:-abp-contains(xn--disordapp-s3a.com)
+*#?#a:-abp-contains(xn--srahah-bua.pl)
+*#?#a:-abp-contains(xda-developers.us)
+*#?#a:-abp-contains(quickmessage.us)
+*#?#a:-abp-contains(fortnight.space)
+*#?#a:-abp-contains(fortnitechat.site)
+*#?#a:-abp-contains(youshouldclick.us)
+*#?#a:-abp-contains(joinmy.site)
+*#?#a:-abp-contains(watches-my.stream)
+*#?#a:-abp-contains(www.apple.com-fasting.live)
+*#?#a:-abp-contains(apple.com-fasting.live)
+*#?#a:-abp-contains(parentelement.tk)
+*#?#a:-abp-contains(com-fasting.live)
+*#?#a:-abp-contains(crabrave.pw)
+*#?#a:-abp-contains(särahah.eu)
+*#?#a:-abp-contains(särahah.pl)
+*#?#a:-abp-contains(mapper.info)
+*#?#a:-abp-contains(ezstat.ru)
+*#?#a:-abp-contains(blasze.com)
+*#?#a:-abp-contains(myiptest.com/img.php)
+*#?#a:-abp-contains(spÃ¶tify.com)
+*#?#a:-abp-contains(yoÃ¼tÃ¼be.co)
+*#?#a:-abp-contains(yoÃ¼tÃ¼be.com)
+*#?#a:-abp-contains(yoÃ¼tu.be)
+*#?#a:-abp-contains(hackfÈ¯rums.com)
+*#?#a:-abp-contains(hackfÈ¯rums.net)
+*#?#a:-abp-contains(discÃ¶rd.com)
+*#?#a:-abp-contains(battlÄ—.net)
+*#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.com)
+*#?#a:-abp-contains(xn--sptify-4ka37a.com)
+*#?#a:-abp-contains(xn--discrd-6ka37a.com)
+*#?#a:-abp-contains(xn--yo14tu-4ta9735d.be)
+*#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.co)
+*#?#a:-abp-contains(xn--battl-kra2007c.net)
+!#if (!ext_adguard && !ext_ublock)
+! Help for Adblock Plus Because It's a Little Retarded
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(www.spylink.net)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(spylink.net)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ipstat.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ipstatp.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(grabify.link)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(bmwforum.co)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(leancoding.co)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(quickmessage.io)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(spottyfly.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(spötify.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(stopify.co)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoütu.be)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoütübe.co)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoütübe.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xda-developers.io)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(starbucksiswrong.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(starbucksisbadforyou.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(bucks.as)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(discörd.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(minecräft.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(cyberh1.xyz)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(discördapp.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(freegiftcards.co)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(disçordapp.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(rëddït.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(iplogger.org)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(iplogger.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(iplogger.ru)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(2no.co)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yip.su)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(youramonkey.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(whatstheirip.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(IP-Grabber.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ip-grabber.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(blasze.tk)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ps3cfw.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(freegeoip.net)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ipstack.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ipstack.net)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(tracemyip.org)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(www.tracemyip.org)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--yotu-1ra.be)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--discrd-zxa.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--srahah-bua.eu)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--minecrft-5za.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--disordapp-s3a.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--srahah-bua.pl)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xda-developers.us)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(quickmessage.us)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(fortnight.space)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(fortnitechat.site)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(youshouldclick.us)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(joinmy.site)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(watches-my.stream)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(www.apple.com-fasting.live)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(apple.com-fasting.live)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(parentelement.tk)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(com-fasting.live)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(crabrave.pw)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(särahah.eu)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(särahah.pl)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(mapper.info)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(ezstat.ru)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(blasze.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(myiptest.com/img.php)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(spÃ¶tify.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoÃ¼tÃ¼be.co)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoÃ¼tÃ¼be.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(yoÃ¼tu.be)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(hackfÈ¯rums.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(hackfÈ¯rums.net)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(discÃ¶rd.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(battlÄ—.net)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--sptify-4ka37a.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--discrd-6ka37a.com)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--yo14tu-4ta9735d.be)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--yo14t14be-m2ad7057gea.co)
+facebook.com,whatsapp.com,wechat.com,qzone.qq.com,tumblr.com,instagram.com,twitter.com,skype.com,viber.com,weibo.com,line.me,vk.com,yy.com,pinterest.com,linkedin.com,telegram.org,reddit.com,taringa.net,renren.com,deviantart.com,flickr.com,discordapp.com,myspace.com#?#a:-abp-contains(xn--battl-kra2007c.net)
+!#endif
