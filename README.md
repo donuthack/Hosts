@@ -222,6 +222,23 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
+#### /Other Formats/Simplified Domains
+* AdAway
+* AdGuard Home
+* AdGuard
+* AdNauseam
+* Blokada
+* Diversion
+* DNS66
+* Gas Mask
+* Hosts File Editor
+* hostsmgr
+* Nano Adblocker
+* PersonalDNSfilter
+* Pi-hole
+* uBlock Origin
+* uMatrix
+
 #### Ultimate Protection
 * AdGuard (Somewhat, Best to use in uBlock Origin as well)
 * uBlock Origin (Somewhat, Best to use in AdGuard as well)
