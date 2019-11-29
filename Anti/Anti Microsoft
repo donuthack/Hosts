@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Microsoft
 ! Expires: 1 day
-! Version: 3
+! Version: 4
 
 ! Block Microsoft and their services
 
@@ -20,6 +20,8 @@
 0.0.0.0 r4.res.office365.com
 0.0.0.0 outlook.live.com
 0.0.0.0 trafficshaping.dsp.mp.microsoft.com
+0.0.0.0 mceserv.net
+0.0.0.0 playfab.com
 
 0.0.0.0 *microsoft.com*
 0.0.0.0 *s-microsoft.com*
@@ -34,6 +36,9 @@
 0.0.0.0 *windowsupdate.com*
 0.0.0.0 *msecnd.net*
 0.0.0.0 *office365.com*
+0.0.0.0 *mceserv.net*
+0.0.0.0 *playfab.com*
+
 ! Block any domains ending in (AdGuard Home)
 microsoft.com|
 s-microsoft.com|
@@ -48,6 +53,8 @@ msn.com|
 windowsupdate.com|
 msecnd.net|
 office365.com|
+mceserv.net|
+playfab.com|
 
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1809-endpoints
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1803-endpoints
