@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 12
+! Version: 13
 
 ! Block maps, location analytics, and GPS services
 
@@ -123,6 +123,104 @@
 104.18.168.222$network
 172.217.9.67$network
 52.22.113.11$network
+! App Specific
+||*.mapbox.com^$app=com.snapchat.android
+! Extra
+locuslabs.com|
+mapbox.com|
+maps.google.com|
+mapquest.com|
+maps.yahoo.com|
+mapway.com|
+ud-prd.geohawk.co.uk|
+geohawk.co.uk|
+openstreetmap.*|
+openweathermap.*|
+maps.randmcnally.com|
+viamichelin.com|
+wikimapia.org|
+here.com|
+map.baidu.com|
+map.qq.com|
+bhuvan-app1.nrsc.gov.in|
+geoportail.gouv.fr|
+waze.com|
+maps.me|
+mapswith.me|
+osmand.net|
+amap.com|
+sygic.com|
+copilotgps.com|
+mapout.app|
+gurumaps.app|
+gpsmycity.com|
+scoutgps.com|
+scoutgpslink.com|
+mytopo.com|
+topozone.com|
+gpsandtrack.com|
+accutracking.com|
+logistimatics.com|
+teletracnavman.com|
+quartix.com|
+liveviewgps.com|
+routetracko.com|
+linxup.com|
+navixy.com|
+trackersystems.net|
+gpstrackit.com|
+amcrestgpstracker.com|
+amcrestgps.net|
+gpstrackservices.com|
+gpsphonetracker.org|
+trackyourtruck.com|
+budgetgps.com|
+trymobilespy.com|
+gpstrackerservice.com|
+gpswox.com|
+traccar.org|
+gotrack.com|
+trackrtalk.com|
+phonetracker-geek.com|
+sat-gps-tracker.com|
+gps-server.net|
+mspy.com|
+gpsinsight.com|
+mobiletrackingandconsulting.com|
+awaregps.com|
+btracking.com|
+geotrack24.com|
+intouchgps.com|
+pitneybowes.com|
+sas.com|
+pivvot.com|
+db-ip.com|
+api-maps.yandex.*|
+maps.yandex.*|
+bestmaps.ru|
+2gis.ua|
+map.meta.ua|
+map.i.ua|
+infoportal.ua|
+maps-world.ru|
+kartaonline.com|
+satellite-maps.ru|
+liveuamap.com|
+1maps.ru|
+earth3dmap.com|
+maps.sputnik.ru|
+gisfile.com|
+world-maps.pro|
+russia-karta.ru|
+alpify.com|
+life360.com|
+location-inference-westus.cloudapp.net|
+inference.location.live.net|
+maps.windows.com|
+fysical.com|
+beaconinspace.com|
+weatherops.com|
+onelouder.com|
 
 ! Generic
 *map.online*
