@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 8
+! Version: 9
 
 ! Google
 ||google.*^$all
@@ -8,6 +8,7 @@
 ||googlevideo.com^$all
 ||googleusercontent.com^$all
 ||*.goog^$all
+||gstatic.com^$all
 
 ! Hosting
 ||appspot.com^$all
@@ -45,4 +46,69 @@
 ||capitalg.com^$all
 ||virustotal.com^$all
 ||fruitninjagame.page.link^$all
-||google-public-dns-*.google.com
+||google-public-dns-*.google.com^$all
+
+! Extra
+! Google
+google.*|
+googleapis.*|
+googlevideo.com|
+googleusercontent.com|
+*.goog|
+gstatic.com|
+
+! Hosting
+appspot.com|
+youtube.com|
+blogger.com|
+ytimg.com|
+googlehosted.com|
+
+! Mail
+gmail.com|
+googlemail.com|
+
+! Ads
+doubleclick.net|
+admob.com|
+
+! Forms
+forms.gle|
+
+! Misc
+calicolabs.com|
+nest.com|
+gv.com|
+x.company|
+verily.com|
+deepmind.com|
+waymo.com|
+abc.xyz|
+wing.com|
+sidewalklabs.com|
+makanipower.com|
+loon.com|
+gv.com|
+chronicle.security|
+capitalg.com|
+virustotal.com|
+fruitninjagame.page.link|
+google-public-dns-*.google.com|
+
+! AdGuard For Android Specific
+121.121.121.121$network
+172.217.9.36$network
+216.58.192.205$network
+216.56.192.205$network
+172.217.4.40$network
+172.217.6.10$network
+172.217.9.67$network
+216.239.35.4$network
+172.217.4.195$network
+35.201.97.85$network
+172.217.8.175$network
+172.217.4.202$network
+172.217.4.46$network
+216.56.192.163$network
+! Gboard Tracking
+172.217.9.35$network
