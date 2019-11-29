@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 10
+! Version: 11
 
 ! Google
 ||google.*^$all
@@ -9,6 +9,7 @@
 ||googleusercontent.com^$all
 ||*.goog^$all
 ||gstatic.com^$all
+||ggpht.com^$all
 
 ! Hosting
 ||appspot.com^$all
@@ -49,6 +50,7 @@
 ||google-public-dns-*.google.com^$all
 
 ! Extra
+
 ! Google
 google.*|
 googleapis.*|
@@ -56,6 +58,7 @@ googlevideo.com|
 googleusercontent.com|
 *.goog|
 gstatic.com|
+ggpht.com|
 
 ! Hosting
 appspot.com|
