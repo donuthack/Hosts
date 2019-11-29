@@ -1,6 +1,8 @@
 ! Title: Cybo's Anti Snapchat
 ! Expires: 1 day
 
+0.0.0.0 impala-media-production.s3.amazonaws.com
+
 ! https://www.nbcnews.com/technology/snapchats-unopened-messages-can-be-shared-police-8C11395848
 
 0.0.0.0 snapchat.com
@@ -33,6 +35,8 @@
 0.0.0.0 data.flurry.com
 
 ! Extra For AdGuard
+impala-media-production.s3.amazonaws.com|
+
 snapchat.com|
 snap.com|
 sc-cdn.net|
@@ -50,9 +54,6 @@ snapkit.com|
 sc-jpl.com|
 sc-prod.net|
 bitmoji.com|
-
-! https://support.cipafilter.com/index.php?/Knowledgebase/Article/View/117/0/how-to---block-snapchat
-! https://kb.k12usa.com/Knowledgebase/Blocking-Snapchat
 feelinsonice.appspot.com|
 feelinsonice-hrd.appspot.com|
 feelinsonice.com|
