@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 9
+! Version: 10
 
 ! Google
 ||google.*^$all
@@ -112,3 +112,7 @@ google-public-dns-*.google.com|
 216.56.192.163$network
 ! Gboard Tracking
 172.217.9.35$network
+! Phone
+172.217.1.48$network
+! VPN Services
+172.217.4.106$network
