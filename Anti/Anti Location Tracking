@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 13
+! Version: 13-1
 
 ! Block maps, location analytics, and GPS services
 
@@ -124,7 +124,7 @@
 172.217.9.67$network
 52.22.113.11$network
 ! App Specific
-||*.mapbox.com^$app=com.snapchat.android
+mapbox.com|^$app=com.snapchat.android
 ! Extra
 locuslabs.com|
 mapbox.com|
