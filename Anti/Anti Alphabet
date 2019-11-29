@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 12
+! Version: 13
 
 ! Google
 ||google.*^$all
@@ -121,3 +121,6 @@ google-public-dns-*.google.com|
 172.217.1.48$network
 ! VPN Services
 172.217.4.106$network
+! YouTube
+||youtubei.googleapis.com^$app=com.google.android.youtube
+||i.ytimg.com^$app=com.google.android.youtube
