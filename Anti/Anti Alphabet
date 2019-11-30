@@ -1,55 +1,77 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 15
+! Version: 16
 
 ! Google
-||google.*^$all
-||googleapis.*^$all
-||googlevideo.com^$all
-||googleusercontent.com^$all
-||*.goog^$all
-||gstatic.com^$all
-||ggpht.com^$all
-||googlezip.net^$all
+0.0.0.0 google.*^$all
+0.0.0.0 googleapis.*^$all
+0.0.0.0 googlevideo.com^$all
+0.0.0.0 googleusercontent.com^$all
+0.0.0.0 *.goog^$all
+0.0.0.0 gstatic.com^$all
+0.0.0.0 ggpht.com^$all
+0.0.0.0 googlezip.net^$all
+0.0.0.0 googlesource.com^$all
 
 ! Hosting
-||appspot.com^$all
-||youtube.com^$all
-||blogger.com^$all
-||ytimg.com^$all
-||googlehosted.com^$all
-||firebase.io^$all
+0.0.0.0 appspot.com^$all
+0.0.0.0 youtube.com^$all
+0.0.0.0 blogger.com^$all
+0.0.0.0 ytimg.com^$all
+0.0.0.0 googlehosted.com^$all
+0.0.0.0 firebase.io^$all
 
 ! Mail
-||gmail.com^$all
-||googlemail.com^$all
+0.0.0.0 gmail.com^$all
+0.0.0.0 googlemail.com^$all
 
 ! Ads
-||doubleclick.net^$all
-||admob.com^$all
+0.0.0.0 doubleclick.net^$all
+0.0.0.0 admob.com^$all
 
 ! Forms
-||forms.gle^$all
+0.0.0.0 forms.gle^$all
 
 ! Misc
-||calicolabs.com^$all
-||nest.com^$all
-||gv.com^$all
-||x.company^$all
-||verily.com^$all
-||deepmind.com^$all
-||waymo.com^$all
-||abc.xyz^$all
-||wing.com^$all
-||sidewalklabs.com^$all
-||makanipower.com^$all
-||loon.com^$all
-||gv.com^$all
-||chronicle.security^$all
-||capitalg.com^$all
-||virustotal.com^$all
-||fruitninjagame.page.link^$all
-||google-public-dns-*.google.com^$all
+0.0.0.0 calicolabs.com^$all
+0.0.0.0 nest.com^$all
+0.0.0.0 gv.com^$all
+0.0.0.0 x.company^$all
+0.0.0.0 verily.com^$all
+0.0.0.0 deepmind.com^$all
+0.0.0.0 waymo.com^$all
+0.0.0.0 abc.xyz^$all
+0.0.0.0 wing.com^$all
+0.0.0.0 sidewalklabs.com^$all
+0.0.0.0 makanipower.com^$all
+0.0.0.0 loon.com^$all
+0.0.0.0 gv.com^$all
+0.0.0.0 chronicle.security^$all
+0.0.0.0 capitalg.com^$all
+0.0.0.0 virustotal.com^$all
+0.0.0.0 fruitninjagame.page.link^$all
+0.0.0.0 google-public-dns-*.google.com^$all
+
+! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
+! https://wwws.nightwatchcybersecurity.com/tag/gps/
+! http://whois.domaintools.com/izatcloud.net
+! http://whois.domaintools.com/izatcloud.com
+! http://whois.domaintools.com/gpsonextra.net
+! http://whois.domaintools.com/gpsonextra.com
+0.0.0.0 xtrapath1.izatcloud.net
+0.0.0.0 xtrapath2.izatcloud.net
+0.0.0.0 xtrapath3.izatcloud.net
+0.0.0.0 izatcloud.net
+0.0.0.0 izatcloud.com
+0.0.0.0 ssl.gpsonextra.net
+0.0.0.0 xtra1.gpsonextra.net
+0.0.0.0 xtra2.gpsonextra.net
+0.0.0.0 xtra3.gpsonextra.net
+0.0.0.0 gpsonextra.net
+0.0.0.0 xtra1.gpsonextra.com
+0.0.0.0 xtra2.gpsonextra.com
+0.0.0.0 xtra3.gpsonextra.com
+0.0.0.0 gpsonextra.com
 
 ! Extra AdGuard Specific
 
@@ -62,6 +84,7 @@ googleusercontent.com|
 gstatic.com|
 ggpht.com|
 googlezip.net|
+googlesource.com|
 
 ! Hosting
 appspot.com|
@@ -101,6 +124,10 @@ capitalg.com|
 virustotal.com|
 fruitninjagame.page.link|
 google-public-dns-*.google.com|
+izatcloud.net|
+izatcloud.com|
+gpsonextra.net|
+gpsonextra.com|
 
 ! AdGuard For Android Specific
 121.121.121.121$network
@@ -137,6 +164,18 @@ google-public-dns-*.google.com|
 172.217.1.48$network
 ! VPN Services
 172.217.4.106$network
+! Pixel Tips
+172.217.6.3$network
+! YouTube App
+172.217.9.86$network
+216.58.192.234$network
+! Play Store
+172.217.4.35$network
+216.58.192.163$network
+! Gmail
+172.217.0.5$network
+! Calendar
+216.58.192.138$network
 ! YouTube
 ||youtubei.googleapis.com^$app=com.google.android.youtube
 ||i.ytimg.com^$app=com.google.android.youtube
