@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Microsoft
 ! Expires: 1 day
-! Version: 5
+! Version: 6
 
 ! Block Microsoft and their services
 
@@ -24,6 +24,10 @@
 0.0.0.0 playfab.com
 0.0.0.0 azurefd.net
 0.0.0.0 minecraft.net
+0.0.0.0 in.appcenter.ms
+0.0.0.0 appcenter.ms
+0.0.0.0 11509.playfabapi.com
+0.0.0.0 playfabapi.com
 
 0.0.0.0 *microsoft.com*
 0.0.0.0 *s-microsoft.com*
@@ -42,8 +46,10 @@
 0.0.0.0 *playfab.com*
 0.0.0.0 *azurefd.net*
 0.0.0.0 *minecraft.net*
+0.0.0.0 *appcenter.ms*
+0.0.0.0 *playfabapi.com*
 
-! Block any domains ending in (AdGuard Home)
+! Block any domains that include (AdGuard)
 microsoft.com|
 s-microsoft.com|
 onenote.net|
@@ -61,6 +67,8 @@ mceserv.net|
 playfab.com|
 azurefd.net|
 minecraft.net|
+appcenter.ms|
+playfabapi.com|
 
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1809-endpoints
 ! docs.microsoft.com/en-us/windows/privacy/manage-windows-1803-endpoints
