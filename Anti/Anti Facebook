@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 2
+! Version: 3
 
 0.0.0.0 facebook.*
 0.0.0.0 www.facebook.*
@@ -62,3 +62,33 @@ fbexternal-*.akamaihd.net|
 fbstatic-*.akamaihd.net|
 internet.org|
 freebasics.com|
+! AdGuard For Android
+facebook.*$network
+www.facebook.*$network
+graph.facebook.com$network
+star-mini.*.facebook.com$network
+fbcdn.net$network
+fbcdn.net$network
+fb.com$network
+fb.me$network
+fbsbx.com$network
+fburl.com$network
+messenger.com$network
+m.me$network
+instagram.com$network
+cdninstagram.com$network
+whatsapp.com$network
+whatsapp.net$network
+instagramstatic-a.akamaihd.net$network
+instagramstatic-a.akamaihd.net.edgesuite.net$network
+connect.facebook.net.edgekey.net$network
+facebook-web-clients.appspot.com$network
+fbcdn-profile-a.akamaihd.net$network
+h-ct-m-fbx.fbsbx.com.online-metrix.net$network
+sac-h-ct-m-fbx.fbsbx.com.online-metrix.net$network
+fbcdn-video-*.akamaihd.net$network
+fbcdn-vthumb-*.akamaihd.net$network
+fbexternal-*.akamaihd.net$network
+fbstatic-*.akamaihd.net$network
+internet.org$network
+freebasics.com$network
