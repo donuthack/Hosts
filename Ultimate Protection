@@ -8,6 +8,7 @@
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
 !#include /Anti/Anti%20CDN
+!#include /Anti/Anti%20Facebook
 !#include /Anti/Anti%20Fonts
 !#include /Anti/Anti%20Location%20Tracking
 !#include /Anti/Anti%20Microsoft
@@ -26,8 +27,11 @@ dailycaller.com$inline-script
 neonnettle.com$inline-script
 content-security-policy.com$script,inline-script
 computerhope.com$script,inline-script
+ip-tracker.org$script
+ccc.de$script
+duckduckgo.com$script
 
-! Nothing Is Free / Too Good To Be True
+! Nothing Is Free / Too Good To Be True / Probably Data Mines
 ! "Honey"
 0.0.0.0 honey.io
 0.0.0.0 cdn.honey.io
