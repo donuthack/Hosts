@@ -1,27 +1,18 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
-! Version: 1
+! Version: 2
+
+!#if (adguard && !ext_ublock)
+! Non uBlock/Nano Supported Include
+!#include ../Hosts
+!#include ../Anti/Anti%20Fonts
+!#include ../Other%20Formats/Extra%20Format
+!#endif
 
 ! uBlock/Nano
 !--- PERSONAL FILTERS DONT ADD TO LISTS ---!
-||*facebook*^$all
-||fbcdn.net^$all
-||fbcdn-profile-a.akamaihd.net^$all
-||fbcdn-*.akamaihd.net^$all
-||fbexternal-*.akamaihd.net^$all
-||*google*^$all,domain=~youtube.com|~accounts.google.com
-||*youtube.com^$all,domain=~youtube.com
-||*ytimg.com^$all,domain=~youtube.com|~accounts.google.com|discordapp.com
-||*googlevideo.com^$all,domain=~youtube.com|~accounts.google.com|discordapp.com
-||firebaseio.com^$all
-||twitter.com^$all
-||twimg.com^$all
-||linkedin.*^$all
-||googleapis.com^$all,domain=~youtube.com|~accounts.google.com
-||gstatic.com^$all,domain=~youtube.com|~accounts.google.com
-||ggpht.com^$all,domain=~youtube.com|~accounts.google.com
 ||appspot.com^$all
-||cloudfront.net^$third-party,all
+||cloudfront.net^$all
 ||bit.ly^$all
 ||bitly.com^$all
 ||microsoftonline.com^$all
@@ -61,9 +52,9 @@
 ! CSP
 *$csp='upgrade-insecure-requests';
 ! Add Event Listener Defuser
-*##+js(aeld, /mousedown|mouseup/)$domain~youtube.com
+*##+js(aeld, /onerror|onkeypress|onkeydown|onkeyup|onmousemove|onpageshow|onpagehide/)$domain=~youtube.com
 ! Remove Attributes
-*##+js(ra, onerror|onkeypress|onkeydown|onkeyup|onmousemove|onpageshow|onpagehide)$domain~youtube.com
+*##+js(ra, onerror|onkeypress|onkeydown|onkeyup|onmousemove|onpageshow|onpagehide)$domain=~youtube.com
 ! Discord Cosmetic
 discordapp.com###app-mount > div.app-19_DXt:nth-child(3) > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss:nth-child(2) > div.layer-3QrUeG.baseLayer-35bLyl > div.container-2lgZY8 > div.base-3dtUhz:last-child > div.content-98HsJk:last-child > div.sidebar-2K8pFh.hasNotice-1XRy4h:first-child > div.privateChannels-1nO12o:first-child > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y:last-child > div.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-1JbKMe > span > a.channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:first-child
 discordapp.com###app-mount > div.app-19_DXt:nth-child(3) > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss:nth-child(2) > div.layer-3QrUeG.baseLayer-35bLyl > div.container-2lgZY8 > div.base-3dtUhz:last-child > div.content-98HsJk:last-child > div.sidebar-2K8pFh.hasNotice-1XRy4h:first-child > div.privateChannels-1nO12o:first-child > div.scrollerWrap-2lJEkd.firefoxFixScrollFlex-cnI2ix.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y:last-child > div.scroller-2FKFPG.firefoxFixScrollFlex-cnI2ix.systemPad-3UxEGl.scroller-1JbKMe > span > a.channel-2QD9_O.container-2Pjhx-.clickable-1JJAn8:nth-child(2)
@@ -72,31 +63,6 @@ discordapp.com##.noticeDefault-362Ko2, .notice-2FJMB4
 discordapp.com##.fixClipping-3qAKRb.container-16j22k
 discordapp.com###app-mount > .app-19_DXt > .app-2rEoOp > .layers-3q14ss.layers-3iHuyZ > .baseLayer-35bLyl.layer-3QrUeG > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk > .activityFeed-1C0EmJ > .container-3T1zWi.noWrap-3jynv6.alignCenter-1dQNNs.justifyCenter-3D2jYp.directionRow-3v3tfG.horizontal-2EEEnY.horizontal-1ae9ci.flex-1O1GKY.flex-1xMQg5
 discordapp.com##.activityFeed-1C0EmJ
-! News Cosmetic
-voiceofeurope.com##.theiaStickySidebar > ul
-voiceofeurope.com##.navigate-posts
-voiceofeurope.com##.support-us-button
-voiceofeurope.com##p:nth-of-type(9)
-dailycaller.com##.justify-between.flex-col.md\:flex.flex-shrink-0.lg\:w-300.md\:w-1\/2.lg\:mx-3.lg\:pl-0.md\:pl-4.lg\:order-2
-dailycaller.com##.justify-between.flex-col.md\:flex.flex-shrink-0.lg\:w-300.md\:w-1\/2.lg\:mx-3.lg\:pr-0.md\:pr-4.lg\:order-0
-dailycaller.com##aside
-dailycaller.com##.article-footer
-dailycaller.com##.xl\:pr-6.lg\:mx-4.lg\:mb-0.mb-6.article-column > .pt-10.mb-4.flex.list-none
-www.dailymail.co.uk##div.lead-alpha.cleared > .beta
-www.dailymail.co.uk##div.gamma
-! YouTube Cosmetic
-youtube.com###items > ytd-playlist-sidebar-primary-info-renderer.style-scope.ytd-playlist-sidebar-renderer:first-child > ytd-expander.style-scope.ytd-playlist-sidebar-primary-info-renderer:nth-child(10)
-youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
-youtube.com###section-items > ytd-guide-entry-renderer.style-scope.ytd-guide-collapsible-section-entry-renderer:first-child
-youtube.com###section-items > ytd-guide-entry-renderer.style-scope.ytd-guide-collapsible-section-entry-renderer:nth-child(3)
-youtube.com###sections > ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(2)
-youtube.com###sections > ytd-guide-section-renderer.style-scope.ytd-guide-renderer:nth-child(3)
-youtube.com###sections > ytd-guide-section-renderer.style-scope.ytd-guide-renderer:last-child
-youtube.com###button > a.yt-simple-endpoint.style-scope.ytd-topbar-menu-button-renderer
-youtube.com###header-entry
-youtube.com###footer
-! YouTube Autoplay Disabler
-youtube.com##+js(ec4.js, .paper-toggle-button.style-scope.toggle-container)
 !--- END PERSONAL FILTERS ---!
 
 ! AdGuard
