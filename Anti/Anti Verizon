@@ -1,66 +1,37 @@
 ! Title: Cybo's Anti Verizon
 ! Expires: 1 day
 
-0.0.0.0 www.verizondigitalmedia.com
 0.0.0.0 verizondigitalmedia.com
 0.0.0.0 uplynk.com
 0.0.0.0 verizonwireless.com
-0.0.0.0 www.verizonwireless.com
 0.0.0.0 verizon.com
-0.0.0.0 www.verizon.com
 0.0.0.0 vzw.com
-0.0.0.0 www.vzw.com
 0.0.0.0 vzweb2.verizon.com
-0.0.0.0 www.vzweb2.verizon.com
 0.0.0.0 vzweb1.verizon.com
-0.0.0.0 www.vzweb1.verizon.com
 0.0.0.0 vzweb.verizon.com
-0.0.0.0 www.vzweb.verizon.com
 0.0.0.0 aboutyou.verizon.com
-0.0.0.0 www.aboutyou.verizon.com
 0.0.0.0 myvzweb.verizon.com
-0.0.0.0 www.myvzweb.verizon.com
 0.0.0.0 ps-prdsso.ehr.verizon.com
-0.0.0.0 www.ps-prdsso.ehr.verizon.com
 0.0.0.0 ehr.verizon.com
-0.0.0.0 www.ehr.verizon.com
 0.0.0.0 learn.lms.verizon.com
-0.0.0.0 www.learn.lms.verizon.com
 0.0.0.0 lms.verizon.com
-0.0.0.0 www.lms.verizon.com
 0.0.0.0 itsupport.verizon.com
-0.0.0.0 www.itsupport.verizon.com
 0.0.0.0 federation.verizon.com
-0.0.0.0 www.federation.verizon.com
 0.0.0.0 cvm.vzbi.com
-0.0.0.0 www.cvm.vzbi.com
 0.0.0.0 vzbi.com
-0.0.0.0 www.vzbi.com
 0.0.0.0 insite.vzbi.com
-0.0.0.0 www.insite.vzbi.com
 0.0.0.0 messaging.verizon.com
-0.0.0.0 www.messaging.verizon.com
 0.0.0.0 wbds.vzbi.com
-0.0.0.0 www.wbds.vzbi.com
 0.0.0.0 nsapportal.verizon.com
-0.0.0.0 www.nsapportal.verizon.com
 0.0.0.0 verizon.medallia.com
-0.0.0.0 www.verizon.medallia.com
 0.0.0.0 knowledge.verizon.com
-0.0.0.0 www.knowledge.verizon.com
 0.0.0.0 crowdaround.verizon.com
-0.0.0.0 www.crowdaround.verizon.com
 0.0.0.0 community.verizonwireless.com
-0.0.0.0 www.community.verizonwireless.com
 0.0.0.0 news.verizonenterprise.com
-0.0.0.0 www.news.verizonenterprise.com
 0.0.0.0 verizonenterprise.com
-0.0.0.0 www.verizonenterprise.com
 0.0.0.0 sso.verizonenterprise.com
 0.0.0.0 135.sub-198-224-148.myvzw.com
-0.0.0.0 www.135.sub-198-224-148.myvzw.com
 0.0.0.0 101.sub-75-199-205.myvzw.com
-0.0.0.0 www.101.sub-75-199-205.myvzw.com
 0.0.0.0 103.sub-70-222-213.myvzw.com
 0.0.0.0 103.sub-75-236-210.myvzw.com
 0.0.0.0 105.sub-75-197-132.myvzw.com
@@ -398,7 +369,6 @@
 0.0.0.0 www.myvzw.com
 0.0.0.0 static-business.verizon.net
 0.0.0.0 www.static-business.verizon.net
-0.0.0.0 151.101.186.110
 0.0.0.0 rdd.vzw.com
 0.0.0.0 mobile-exp.vzw.com
 0.0.0.0 vzw.com
@@ -466,6 +436,48 @@
 0.0.0.0 verizonspecials.com
 0.0.0.0 virtualcommexpress.verizon.com
 0.0.0.0 gateway.verizon.llabs.io
+0.0.0.0 mqtt.vzmessages.com
+0.0.0.0 syncva.vzmessages.com
+0.0.0.0 vzmessages.com
+0.0.0.0 st001vw.instabug.com
+0.0.0.0 *vw.instabug.com
+0.0.0.0 *.broadcloudpbx.net
+0.0.0.0 broadcloudpbx.net
+0.0.0.0 dc.verizononthego.com
+0.0.0.0 va.verizononthego.com
+0.0.0.0 verizononthego.com
+0.0.0.0 us-identity.doubledutch.me
+0.0.0.0 *-identity.doubledutch.me
+0.0.0.0 access.verizonsocialadvocacy.com
+0.0.0.0 verizonsocialadvocacy.com
+0.0.0.0 d3utlhu53nfcwz.cloudfront.net
+0.0.0.0 gpals.myvzw.com
+0.0.0.0 gizmo.gpals.myvzw.com
+0.0.0.0 sanalytics.verizon.com
+0.0.0.0 mvmobile.verizonwireless.com
+0.0.0.0 cdnstabletransit.com
+0.0.0.0 verizonconnect.*
+0.0.0.0 sdk.out.usbla.net
+0.0.0.0 ars-dynatrace.allstate.com
+0.0.0.0 *-dynatrace.allstate.com
+0.0.0.0 api.polargrizzly.com
+0.0.0.0 polargrizzly.com
+0.0.0.0 ispcapi.mcafee.com
+0.0.0.0 ch1.thingspace.verizon.com
+0.0.0.0 ch2.thingspace.verizon.com
+0.0.0.0 ch3.thingspace.verizon.com
+0.0.0.0 ch4.thingspace.verizon.com
+0.0.0.0 ch*.thingspace.verizon.com
+0.0.0.0 verizonmdm.vzw.com
+0.0.0.0 tones.verizonwireless.com
+0.0.0.0 scache.vzw.com
+0.0.0.0 mobile.track-n-trace.net
+0.0.0.0 track-n-trace.net
+0.0.0.0 mobile.vznavigator.net
+0.0.0.0 e58c4f4901f59a8c9c04661343075289d544fa48.mobile.vznavigator.net
+0.0.0.0 vznavigator.net
+0.0.0.0 sts.503a90a9c435.us.fm-cloud.com
+0.0.0.0 alb-loadb-pmfmsu6lx4vr-1241112320.us-west-2.elb.amazonaws.com
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
@@ -475,27 +487,52 @@
 %2everizon%2ecom%
 ||pandora.com/verizon
 
-! Use AdGuard To Block Cookies From Tracking You
-!#if (adguard && !ext_ublock)
-verizon.com^*$cookie=/.+/
-verizon.net^*$cookie=/.+/
-vzw.com^*$cookie=/.+/
-verizonspecials.com^*$cookie=/.+/
-verizonwireless.com^*$cookie=/.+/
-verizonbusiness.com^*$cookie=/.+/
-verizonconnect.com^*$cookie=/.+/
-allourthanks.com^*$cookie=/.+/
-verizonmedia.com^*$cookie=/.+/
-verizonwebhost.com^*$cookie=/.+/
-verizonenterprise.com^*$cookie=/.+/
-hum.com^*$cookie=/.+/
-verizon.mcafee.com^*$cookie=/.+/
-verizon.overview.mail.yahoo.com^*$cookie=/.+/
-tccrocks.com^*$cookie=/.+/
-gowireless.com^*$cookie=/.+/
-uplynk.com^*$cookie=/.+/
-gateway.verizon.llabs.io^*$cookie=/.+/
-||52.27.7.77$network
-||13.227.34.42$network
-||54.236.3.168$network
-!#endif
+! AdGuard
+verizondigitalmedia.com|
+uplynk.com|
+verizonwireless.com|
+verizon.com|
+verizon.net|
+vzw.com|
+vzbi.com|
+verizonenterprise.com|
+yourdigitalrebatecenter.com|
+gowireless.com|
+hum.com|
+myvzw.com|
+verizonwebhost.com|
+vzmessages.com|
+*vw.instabug.com|
+broadcloudpbx.net|
+verizononthego.com|
+verizonsocialadvocacy.com|
+cdnstabletransit.com|
+verizonconnect.*|
+polargrizzly.com|
+track-n-trace.net|
+vznavigator.net|
+! AdGuard For Android
+69.78.235.114$network
+151.101.186.110$network
+128.177.14.181$network
+98.173.2.12$network
+52.27.7.77$network
+13.227.34.42$network
+54.236.3.168$network
+[2001:428:1404:2::2:11]$network
+[2001:4860:4806:8::]$network
+! App Specific
+0.0.0.0 code.jquery.com$app=com.dcgov.verizon
+0.0.0.0 code.jquery.com$app=com.capresults.verizon
+0.0.0.0 fonts.google.com$app=com.capresults.verizon
+0.0.0.0 login.voicestorm.com$app=com.dynamicsignal.enterprise.iamvz
+0.0.0.0 s3.amazonaws.com$app=com.vzw.smartlocatorhub
+0.0.0.0 www.cdnstabletransit.com$app=com.app_phonewireless.layout
+0.0.0.0 2373813c.api.splkmobile.com$app=com.allstate.Verizon
+0.0.0.0 api.telogis.eu$app=com.telogis.spotlight
+0.0.0.0 spotlight.telogis.com$app=com.telogis.spotlight
+0.0.0.0 sdk.out.usbla.net$app=com.telogis.spotlight
+0.0.0.0 trips.telogis.com$app=com.telogis.logbook
+0.0.0.0 mobilecore-dist.flows.telogis.com$app=com.verizonconnect.workforce
+0.0.0.0 static.telogis.com$app=com.verizonconnect.workforce
+0.0.0.0 login.platform.telogis.com$app=com.verizonconnect.workforce
