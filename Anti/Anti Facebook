@@ -1,8 +1,11 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 1
+! Version: 2
 
 0.0.0.0 facebook.*
+0.0.0.0 www.facebook.*
+0.0.0.0 graph.facebook.com
+0.0.0.0 star-mini.*.facebook.com
 0.0.0.0 fbcdn.com
 0.0.0.0 fbcdn.net
 0.0.0.0 fb.com
@@ -31,6 +34,9 @@
 
 ! Extra AdGuard Specific
 facebook.*|
+www.facebook.*|
+graph.facebook.com|
+star-mini.*.facebook.com|
 fbcdn.net|
 fbcdn.net|
 fb.com|
