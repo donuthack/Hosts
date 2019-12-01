@@ -1,9 +1,62 @@
 ! Title: Cybo's Simplified Domains
 ! Expires: 8 hours
-! Version: 1181
-! Last Modified: Wednesday, November 27, 2019
+! Version: 1182
+! Last Modified: Saturday, November 30, 2019
 
 ! Unbreak
+@@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
+@@||local.adguard.org^$important
+@@||youtube.com$cookie
+@@||api.nextdns.io/configuration/*/analytics/*$domain=my.nextdns.io
+@@||slickdealscdn.com/images/slickdeals/blank.gif$domain=slickdeals.net
+@@||slickdeals.net/images/slickdeals/blank.gif$domain=slickdeals.net
+@@||undefined/g00/$domain=sportingnews.com
+@@||sdad.guru$domain=sportingnews.com
+@@||api.emsicc.com/sites/*
+@@||static.hotjar.com/$domain=emsicc.com/assessment?
+@@||pandora.com/web-version/*/ads.json?
+pandora.com#@#^script:has-text(ideoAds)
+pandora.com#@#^script:has-text(udioAds)
+pandora.com#@#^script:has-text(AdBlock)
+pandora.com#@#[class$="Ads"]:not(html):not(body)
+@@$generichide,domain=reddit.com
+reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
+@@||external-preview.redd.it/*.gif
+pandora.com$genericblock
+@@||apis.google.com/js/platform.js$domain=graspablemath.com
+@@||laptop-updates.brave.com/latest/*$domain=brave.com
+@@||cdnjs.cloudflare.com/ajax/$domain=emsicc.com
+@@||facebook.com/settings/*/?ref=settings
+@@||google.com/recaptcha/api*
+@@||dailycaller.com/files/images/1x1.trans.gif
+@@||pandora.com/web-client-assets/d_*.
+@@||pandora.com/*/adserver
+@@||encrypted-tbn*.gstatic.com$domain=google.
+@@||gab.com$cookie
+@@||gizmodo.com/x-kinja-static/*$domain=gizmodo.com
+@@||moatads.com/*.js$domain=hulu.com
+@@||*-dnsotls-ds.metric.gstatic.com
+@@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.*,gmail.*
+@@||abs.twimg.com/responsive-web/web/*
+@@||content-images.p-cdn.com/images^$image
+@@||gstatic.com/_/hr/_/ss/k=homeroom$domain=classroom.google.com
+@@||gstatic.com/_/hr/_/js/k=homeroom$domain=classroom.google.com
+@@||ssl.gstatic.com/*/common/netcheck.gif?
+@@||encrypted.google.com/recaptcha/api/
+@@||google.com/recaptcha/api.js
+@@||youtube.com/embed$third-party
+@@||www.paypal.com/webapps/helios/api/log?event=IC*$domain=pay.ebay.com
+@@||maps.gstatic.com^$image
+@@||adobedtm.com/launch-*
+@@||apis.google.com/_/scs/*
+@@||link.theplatform.com$xmlhttprequest
+@@||nbc.com/generetic/scripts/ads.js
+@@||ssl.gstatic.com/docs/common/cleardot.gif?
+@@||accounts.google.$cookie
+@@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
+@@||totaljerkface.com/adplayer/ads.js
+@@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
+! Simple Domains
 ! AdGuard Simplified Domains Incorrectly Blocks This -----------------
 @@||smallseotools.com^$important
 ! --------------------------------------------------------------------
@@ -21,6 +74,7 @@
 @@||yospace.com
 @@||ads-e-darwin.hulustream.com
 @@||http-v-darwin.hulustream.com
+
 
 ! Block Hola VPN
 ! dailydot.com/debug/hola-vpn-security
@@ -65,6 +119,9 @@
 
 ! https://www.youtube.com/watch?v=_ypaZ2XaxhU
 0.0.0.0 trace.svc.ui.com
+
+! Left-Wing Propaganda/Fake Local News Site - https://www.youtube.com/watch?v=RLIFiI2ADW4
+0.0.0.0 coppercourier.com
 
 ! IP that appears to be a 'phone to home' for AdGuard Home
 0.0.0.0 176.103.133.133
@@ -871,6 +928,21 @@
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 api.hubspot.com
+0.0.0.0 abtest.goforandroid.com
+0.0.0.0 advshield.goforandroid.com
+0.0.0.0 advshield.goforandroid.com
+0.0.0.0 attr.appsflyer.com
+0.0.0.0 api.appsflyer.com
+0.0.0.0 adviap.goforandroid.com
+0.0.0.0 advshield.goforandroid.com
+0.0.0.0 app.appsflyer.com
+0.0.0.0 api.beaconsinspace.com
+0.0.0.0 airdownload2.adobe.com
+0.0.0.0 api.ticlock.com
+0.0.0.0 aens.belugaboost.com
+0.0.0.0 appad-api-01.perfectcorp.com
+0.0.0.0 ars-dynatrace.allstate.com
 0.0.0.0 aliadvert.ru
 0.0.0.0 adnium.com
 0.0.0.0 affex.org
@@ -2939,7 +3011,6 @@
 0.0.0.0 a23-66-211-153.deploy.static.akamaitechnologies.com
 0.0.0.0 a184-50-213-121.deploy.static.akamaitechnologies.com
 0.0.0.0 a104-106-242-113.deploy.static.akamaitechnologies.com
-0.0.0.0 api2.evie.com
 0.0.0.0 adsrevenue.clicksor.net
 0.0.0.0 ads.adonion.com
 0.0.0.0 adtrack.voicestar.com
@@ -3668,6 +3739,8 @@
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 beaconsinspace.com
+0.0.0.0 bc-api-01.beautycircle.com
 0.0.0.0 brinein.com
 0.0.0.0 betwinnerpromo.com
 0.0.0.0 best2019-games-web1.com
@@ -4609,6 +4682,16 @@
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 ciscobinary.openh264.org
+0.0.0.0 cdn-webview-pge.unityads.unity3d.com
+0.0.0.0 cdn2.hubspot.net
+0.0.0.0 cdn.syndication.twimg.com
+0.0.0.0 cdn.88-f.net
+0.0.0.0 conf.api.hk.goforandroid.com
+0.0.0.0 cognito-identity.ap-northeast-1.amazonaws.com
+0.0.0.0 config.uca.cloud.unity3d.com
+0.0.0.0 clad.perfectcorp.com
+0.0.0.0 codeadnetwork.com
 0.0.0.0 cjgg1m.eiecaw.com
 0.0.0.0 crl.sectigo.com
 0.0.0.0 cache-default*.cdn.yandex.net
@@ -5714,6 +5797,7 @@
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dynamicadx.com
 0.0.0.0 dev.appboy.com
 0.0.0.0 dnsotls-ds.metric.gstatic.com
 0.0.0.0 contentabc.com
@@ -6874,6 +6958,8 @@
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fdroid.tetaneutral.net
+0.0.0.0 forms.hubspot.com
 0.0.0.0 fascinatednosed.club
 0.0.0.0 ffjjti.frl$third-party,domain=~mp3juices.cc
 0.0.0.0 free-browser.co
@@ -7179,6 +7265,14 @@
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 get.geo.opera.com.global.prod.fastly.net
+0.0.0.0 get.geo.opera.com
+0.0.0.0 gd10.cloudmosa.net
+0.0.0.0 gjapplog.ucweb.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 www.googletagservices.com
+0.0.0.0 gstaticadssl.l.google.com
 0.0.0.0 ghtenbritingso.com
 0.0.0.0 goguardian.*
 0.0.0.0 gse.io
@@ -7288,8 +7382,6 @@
 0.0.0.0 gsolos.com
 0.0.0.0 giganticsolos.com
 0.0.0.0 ganon.yahoo.com
-0.0.0.0 gcp.api.snapchat.com
-0.0.0.0 gtq.sct.sc-prod.net
 0.0.0.0 growth-pa.googleapis.com
 0.0.0.0 gdpr500.com
 0.0.0.0 gvosupport.com
@@ -7824,6 +7916,8 @@
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 insight.ucweb.com
+0.0.0.0 ispcapi.mcafee.com
 0.0.0.0 installer.filebulldog.com
 0.0.0.0 intergient.com
 0.0.0.0 iredirect.net
@@ -8537,6 +8631,8 @@
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 js.hsleadflows.net
+0.0.0.0 js.usemessages.com
 0.0.0.0 jump-your-bones.com
 0.0.0.0 jrnudistfilm.eu
 0.0.0.0 juicegirls.info
@@ -9454,6 +9550,8 @@
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lbmarie.alegrium.com
+0.0.0.0 locator.blueswan.io
 0.0.0.0 lp.searchdimension.com
 0.0.0.0 lockmypix-free.firebaseio.com
 0.0.0.0 l-ring.msedge.net
@@ -9471,7 +9569,6 @@
 0.0.0.0 lodoxfwite.com
 0.0.0.0 logistimatics.com
 0.0.0.0 luckyorange.net
-0.0.0.0 lbadv.alegrium.com
 0.0.0.0 link-a.net$third-party
 0.0.0.0 luckypushh.com
 0.0.0.0 litix.io
@@ -9740,6 +9837,11 @@
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 m_s.3g.cn
+0.0.0.0 mobilecrashreporting.googleapis.com
+0.0.0.0 manifest.localytics.com
+0.0.0.0 mobile.track-n-trace.net
+0.0.0.0 my.rtmark.net
 0.0.0.0 modern.watson.data.microsoft.com.akadns.net
 0.0.0.0 msftconnecttest.com
 0.0.0.0 monu.delivery
@@ -10381,6 +10483,9 @@
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 no-cache.hubspot.com
+0.0.0.0 newstoredata.goforandroid.com
+0.0.0.0 nameservice.dolphin-browser.com
 0.0.0.0 nlkdom.com
 0.0.0.0 nativesubscribe.pro
 0.0.0.0 neboley.site
@@ -10663,6 +10768,10 @@
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 opsen.dolphin-browser.com
+0.0.0.0 onesignal.com
+0.0.0.0 outcome-ssp.supersonicads.com
+0.0.0.0 ota.googlezip.net
 0.0.0.0 oem.twimg.com
 0.0.0.0 ocsp.pki.goog
 0.0.0.0 ownfeed.com
@@ -10713,7 +10822,6 @@
 0.0.0.0 o.ss2.us
 0.0.0.0 o12zs3u2n.com
 0.0.0.0 offers-api.ghostery.net
-0.0.0.0 onelouder.com
 0.0.0.0 oexbdfnbentzd.com
 0.0.0.0 our.antutu.net
 0.0.0.0 ownlocal.com
@@ -10871,6 +10979,13 @@
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 ping.chartbeat.net
+0.0.0.0 prebid.adnxs.com
+0.0.0.0 protect.ppmobiles.com
+0.0.0.0 pushapi.dolphin.com
+0.0.0.0 pointer2.cloudmosa.net
+0.0.0.0 px-intl.ucweb.com
+0.0.0.0 pc-gizmos.com
 0.0.0.0 pathlime.com
 0.0.0.0 ps.pndsn.com
 0.0.0.0 pndsn.com
@@ -10999,7 +11114,6 @@
 0.0.0.0 panther.goguardian.com
 0.0.0.0 postback.applinzi.com
 0.0.0.0 *-prod.do.*.microsoft.com
-0.0.0.0 pro-w.1ldr.me
 0.0.0.0 ping.yoyogames.com
 0.0.0.0 playgateway-pa.googleapis.com
 0.0.0.0 pokemon-scramblesp.jp
@@ -11488,6 +11602,7 @@
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 q.blueswan.io
 0.0.0.0 qwerfdx.com
 0.0.0.0 qwerty24.net
 0.0.0.0 q4i.co
@@ -11573,6 +11688,13 @@
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 receiver.habby.mobi
+0.0.0.0 redirector.googlevideo.com
+0.0.0.0 report.newsgenious.com
+0.0.0.0 roi-huichuan.ucweb.com
+0.0.0.0 receiver.habby.mobi
+0.0.0.0 rtmark.net
+0.0.0.0 reports.protonmail.ch
 0.0.0.0 refer.ccbill.com
 0.0.0.0 revenuecat.com
 0.0.0.0 rtbmedia.org
@@ -11906,6 +12028,14 @@
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 stats.coronalabs.com
+0.0.0.0 sdk-assets.localytics.com
+0.0.0.0 service.fyber.com
+0.0.0.0 supercell.helpshift.com
+0.0.0.0 stats-proto.pandora.com
+0.0.0.0 sdkupgrade.insight.ucweb.com
+0.0.0.0 sanalytics.verizon.com
+0.0.0.0 sdk.out.usbla.net
 0.0.0.0 sur.telemetry.intel.com
 0.0.0.0 searchdimension.com$popup
 0.0.0.0 sv.symcd.com
@@ -13248,6 +13378,10 @@
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 t.appsflyer.com
+0.0.0.0 ticlock.com
+0.0.0.0 track-n-trace.net
+0.0.0.0 trustaffs.com
 0.0.0.0 tracedock.com
 0.0.0.0 tsfe.trafficshaping.dsp.mp.microsoft.com
 0.0.0.0 trafficshaping.dsp.mp.microsoft.com
@@ -13910,6 +14044,10 @@
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 usasync01.admantx.com
+0.0.0.0 ucads-cdn.ucweb.com
+0.0.0.0 udm.scorecardresearch.com
+0.0.0.0 us-identity.doubledutch.me
 0.0.0.0 ubeei.com
 0.0.0.0 useproof.com
 0.0.0.0 unibetasia.org
@@ -14086,6 +14224,7 @@
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vcen.dolphin-browser.com
 0.0.0.0 verifycaptcha.com
 0.0.0.0 visualvisitor.com
 0.0.0.0 visitstats.com
@@ -15110,6 +15249,8 @@
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 *-identity.doubledutch.me
+0.0.0.0 *-dynatrace.allstate.com
 0.0.0.0 539370883133-r2p5v09t3p81v4gqo2lrkjnvlcloo48o.apps.googleusercontent.com
 0.0.0.0 *.pixel.archive.is
 0.0.0.0 *-ring.msedge.net
