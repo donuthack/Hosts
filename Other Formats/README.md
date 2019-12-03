@@ -1,6 +1,6 @@
 ## Support
 
-#### /Other Formats/Extra Format
+#### Extra Format
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -17,7 +17,7 @@
 * uBlock Origin
 * uMatrix
 
-#### /Other Formats/Extra Format [Adblock Plus]
+#### Extra Format [Adblock Plus]
 * AdBlock
 * Adblock Plus 3.0+
 * AdGuard
@@ -26,7 +26,7 @@
 * Slimjet
 * uBlock Origin
 
-#### /Other Formats/Simplified Domains
+#### Simplified Domains
 * AdAway
 * AdGuard Home
 * AdGuard
