@@ -204,12 +204,6 @@ To contribute to any of the blocklists create a new [`Issue`](https://github.com
 * Slimjet
 * uBlock Origin
 
-#### /Anti/Easy Anti Anti Adblock
-* AdGuard
-* AdNauseam
-* Nano Adblocker
-* uBlock Origin
-
 #### /Dark Mode/Blackout
 * uBlock Origin
 
