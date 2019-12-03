@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 23
+! Version: 24
 ! This list was made to block trackers that WILL BREAK some sites
-! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Little)
-! Last Modified: Tuesday, November 26, 2019
+! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
+! Last Modified: Tuesday, December 3, 2019
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -17,7 +17,6 @@
 !#include /Anti/Anti%20Third-Party%20HTTP
 !#include /Anti/Anti%20Verizon
 !#include /Anti/Anti%20g00
-!#include /Anti/Easy%20Anti%20Anti%20Adblock
 !#include /Other%20Formats/Extra%20Format
 
 ! Sites that can work without scripts
@@ -30,30 +29,48 @@ computerhope.com$script,inline-script
 ip-tracker.org$script
 ccc.de$script
 duckduckgo.com$script
+restoreprivacy.com$script
+wikipedia.org$script
+baxtel.com$script
+twitter.com$script
+
+! https://restoreprivacy.com/startpage-system1-privacy-one-group/
+! StartPage was bought in part by a targeted advertising company
+||startpage.com^
+startpage|
 
 ! Nothing Is Free / Too Good To Be True / Probably Data Mines
 ! "Honey"
-0.0.0.0 honey.io
-0.0.0.0 cdn.honey.io
-0.0.0.0 joinhoney.com
+||honey.io^
+||joinhoney.com^
+honey.io|
+joinhoney.com|
 ##a[href*="joinhoney.com"]
 ! "Otto – Gift Card and Coupon Finder"
-0.0.0.0 d3lh2hqqgsec27.cloudfront.net
-0.0.0.0 giftcardgrannydev.com
-0.0.0.0 giftcardgrannystage.com
-0.0.0.0 giftcardgranny.com
+||d3lh2hqqgsec27.cloudfront.net^
+||giftcardgrannydev.com^
+||giftcardgrannystage.com^
+||giftcardgranny.com^
 ! "Browse Plus"
-0.0.0.0 browse-plus.browser-apps.net
-0.0.0.0 secure-cluster.net
-0.0.0.0 awsecure.net
+||browse-plus.browser-apps.net^
+||secure-cluster.net^
+||awsecure.net^
+
+! IP Ranges
+! Amazon IAD (Storage Centers)
+3.0.0.0 - 3.127.255.255
+3.80.0.0 - 3.95.255.255
+! Amazon IAD - AdGuard - $network
+3.0.0.0 - 3.127.255.255$network
+3.80.0.0 - 3.95.255.255$network
 
 ! "If you run eval() with a string that could be affected by a malicious party, you may end up running malicious code on the user's
 ! machine with the permissions of your webpage/extension," Mozilla explains on its MDN web docs. 
 ! -https://thehackernews.com/2019/10/firefox-javascript-injection.html
 *##+js(noeval)
 
-! Prevent local fonts from loading (to help prevent glyph fingerprinting)
-*$inline-font
+! Prevent fonts from loading (to help prevent glyph fingerprinting)
+*$inline-font,font
 
 ! Some Promotions
 *promo*
