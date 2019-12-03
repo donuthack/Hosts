@@ -1,0 +1,3 @@
+## Support
+
+* uBlock Origin
