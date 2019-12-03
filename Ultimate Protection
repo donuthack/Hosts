@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 24
+! Version: 25
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
 ! Last Modified: Tuesday, December 3, 2019
@@ -36,7 +36,7 @@ twitter.com$script
 
 ! https://restoreprivacy.com/startpage-system1-privacy-one-group/
 ! StartPage was bought in part by a targeted advertising company
-||startpage.com^
+||startpage.com^$all
 startpage|
 
 ! Nothing Is Free / Too Good To Be True / Probably Data Mines
@@ -95,6 +95,30 @@ google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
 ! If Using AdGuard "prevents Facebook from tracking you even if you are logged in" 
 ! (https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#real-life-examples)
 ||facebook.com^$third-party,cookie=c_user
+
+! Third-Party cookies
+facebook.*^$third-party,cookie
+google.*^$third-party,cookie
+bing.*^$third-party,cookie
+windows.*^$third-party,cookie
+
+! Adblock Plus Logs Your IP - https://adblockplus.org/en/privacy
+||adblockplus.org^
+0.0.0.0 adblockplus.org
+adblockplus.org|
+! Adblock Plus IPs
+144.76.197.80$network
+176.9.26.105$network
+88.99.186.154$network
+195.201.59.236$network
+94.130.104.89$network
+88.99.186.148$network
+94.130.73.110$network
+144.76.153.101$network
+88.99.186.149$network
+94.130.76.59$network
+136.243.110.88$network
+176.9.146.200$network
 
 ! Tracker In Windows By Default
 0.0.0.0 candycrushsoda.king.com
