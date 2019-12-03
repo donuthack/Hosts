@@ -1,6 +1,6 @@
 ## Support
 
-#### /Anti/Anti Alphabet
+#### Anti Alphabet
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -17,7 +17,7 @@
 * uBlock Origin
 * uMatrix
 
-#### /Anti/Anti CDN
+#### Anti CDN
 * AdBlock
 * Adblock Plus 3.0+
 * AdGuard
@@ -26,7 +26,7 @@
 * Slimjet
 * uBlock Origin
 
-#### /Anti/Anti Facebook
+#### Anti Facebook
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -43,7 +43,7 @@
 * uBlock Origin
 * uMatrix
 
-#### /Anti/Anti Fonts
+#### Anti Fonts
 * AdBlock
 * Adblock Plus 3.0+
 * AdGuard
@@ -52,7 +52,7 @@
 * Slimjet
 * uBlock Origin
 
-#### /Anti/Anti Location Tracking
+#### Anti Location Tracking
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -69,7 +69,7 @@
 * uBlock Origin
 * uMatrix
 
-#### /Anti/Anti Microsoft
+#### Anti Microsoft
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -86,7 +86,7 @@
 * uBlock Origin
 * uMatrix
 
-#### /Anti/Anti Snapchat
+#### Anti Snapchat
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -103,7 +103,7 @@
 * uBlock Origin
 * uMatrix
 
-#### /Anti/Anti Social
+#### Anti Social
 * AdBlock
 * Adblock Plus 3.0+
 * AdGuard
@@ -112,7 +112,7 @@
 * Slimjet
 * uBlock Origin
 
-#### /Anti/Anti Third-Party HTTP
+#### Anti Third-Party HTTP
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -129,7 +129,7 @@
 * uBlock Origin
 * uMatrix
 
-#### /Anti/Anti Verizon
+#### Anti Verizon
 * AdAway
 * AdGuard Home
 * AdGuard
@@ -146,7 +146,7 @@
 * uBlock Origin
 * uMatrix
 
-#### /Anti/Anti g00
+#### Anti g00
 * AdBlock
 * Adblock Plus
 * AdGuard
