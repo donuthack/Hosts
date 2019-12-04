@@ -1,7 +1,7 @@
 ! Title: Cybo's Simplified Domains
 ! Expires: 8 hours
-! Version: 1182
-! Last Modified: Saturday, November 30, 2019
+! Version: 1183
+! Last Modified: Tuesday, December 3, 2019
 
 ! Unbreak
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
@@ -52,7 +52,7 @@ pandora.com$genericblock
 @@||link.theplatform.com$xmlhttprequest
 @@||nbc.com/generetic/scripts/ads.js
 @@||ssl.gstatic.com/docs/common/cleardot.gif?
-@@||accounts.google.$cookie
+@@||accounts.google.*$cookie
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
@@ -68,13 +68,12 @@ pandora.com$genericblock
 @@||connectivitycheck.gstatic.com
 @@||clients2.googleusercontent.com
 @@||*-sponsored.dfw.vcdn.att-idns.net
-@@||github.co$domain=github.com
 @@||gigya.com
 @@||yospace-directv.akamaized.net
 @@||yospace.com
 @@||ads-e-darwin.hulustream.com
 @@||http-v-darwin.hulustream.com
-
+@@||android.clients.google.com
 
 ! Block Hola VPN
 ! dailydot.com/debug/hola-vpn-security
@@ -928,6 +927,10 @@ pandora.com$genericblock
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 amazonadsi-a.akamaihd.net
+0.0.0.0 ad.nettvservices.com
+0.0.0.0 ad.lgsmartad.com
+0.0.0.0 applog.musical.ly
 0.0.0.0 api.hubspot.com
 0.0.0.0 abtest.goforandroid.com
 0.0.0.0 advshield.goforandroid.com
@@ -3739,6 +3742,7 @@ pandora.com$genericblock
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bt-tracker.gamexp.ru
 0.0.0.0 beaconsinspace.com
 0.0.0.0 bc-api-01.beautycircle.com
 0.0.0.0 brinein.com
@@ -4682,6 +4686,7 @@ pandora.com$genericblock
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 collect-*-*.myhomescreen.tv
 0.0.0.0 ciscobinary.openh264.org
 0.0.0.0 cdn-webview-pge.unityads.unity3d.com
 0.0.0.0 cdn2.hubspot.net
@@ -5797,6 +5802,9 @@ pandora.com$genericblock
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 device-messaging-*.amazon.com
+0.0.0.0 devicemessaging.*-*-1.amazon.com
+0.0.0.0 dbbp1.pro$popup
 0.0.0.0 dynamicadx.com
 0.0.0.0 dev.appboy.com
 0.0.0.0 dnsotls-ds.metric.gstatic.com
@@ -6958,6 +6966,8 @@ pandora.com$genericblock
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fls-*.amazon.com
+0.0.0.0 frozen-layer.net
 0.0.0.0 fdroid.tetaneutral.net
 0.0.0.0 forms.hubspot.com
 0.0.0.0 fascinatednosed.club
@@ -7265,6 +7275,7 @@ pandora.com$genericblock
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 geo.choice.faktor.io
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 get.geo.opera.com.global.prod.fastly.net
 0.0.0.0 get.geo.opera.com
@@ -7322,8 +7333,6 @@ pandora.com$genericblock
 0.0.0.0 guoshipartners.com
 0.0.0.0 graphenedigitalanalytics.in
 0.0.0.0 gridcash.net
-0.0.0.0 github.co
-0.0.0.0 github.in
 0.0.0.0 geo1.ggpht.com
 0.0.0.0 geo2.ggpht.com
 0.0.0.0 geo3.ggpht.com
@@ -7916,6 +7925,7 @@ pandora.com$genericblock
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 inistrack.net
 0.0.0.0 insight.ucweb.com
 0.0.0.0 ispcapi.mcafee.com
 0.0.0.0 installer.filebulldog.com
@@ -9550,6 +9560,8 @@ pandora.com$genericblock
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 lgsmartad.com
+0.0.0.0 log2.musical.ly
 0.0.0.0 lbmarie.alegrium.com
 0.0.0.0 locator.blueswan.io
 0.0.0.0 lp.searchdimension.com
@@ -9837,6 +9849,8 @@ pandora.com$genericblock
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mads-*.amazon.com
+0.0.0.0 msh.amazon.co.uk
 0.0.0.0 m_s.3g.cn
 0.0.0.0 mobilecrashreporting.googleapis.com
 0.0.0.0 manifest.localytics.com
@@ -10483,6 +10497,8 @@ pandora.com$genericblock
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 newoctads.com
+0.0.0.0 newwedads.com
 0.0.0.0 no-cache.hubspot.com
 0.0.0.0 newstoredata.goforandroid.com
 0.0.0.0 nameservice.dolphin-browser.com
@@ -10768,6 +10784,8 @@ pandora.com$genericblock
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 opentracker.*
+0.0.0.0 opentracker.acgnx.se
 0.0.0.0 opsen.dolphin-browser.com
 0.0.0.0 onesignal.com
 0.0.0.0 outcome-ssp.supersonicads.com
@@ -10979,6 +10997,7 @@ pandora.com$genericblock
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 popup.taboola.com
 0.0.0.0 ping.chartbeat.net
 0.0.0.0 prebid.adnxs.com
 0.0.0.0 protect.ppmobiles.com
@@ -12028,6 +12047,8 @@ pandora.com$genericblock
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 stats.hbbtv.smartclip.net
+0.0.0.0 sukebei.tracker.wf
 0.0.0.0 stats.coronalabs.com
 0.0.0.0 sdk-assets.localytics.com
 0.0.0.0 service.fyber.com
@@ -13378,6 +13399,13 @@ pandora.com$genericblock
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tracksrv.zdf.de
+0.0.0.0 tracker.wf
+0.0.0.0 tracker.frozen-layer.net
+0.0.0.0 tracker.gbitt.info
+0.0.0.0 tracker.torrentyorg.pl
+0.0.0.0 tracker.yoshi210.com
+0.0.0.0 tr.bangumi.moe
 0.0.0.0 t.appsflyer.com
 0.0.0.0 ticlock.com
 0.0.0.0 track-n-trace.net
@@ -14044,6 +14072,7 @@ pandora.com$genericblock
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 usage-*-*.myhomescreen.tv
 0.0.0.0 usasync01.admantx.com
 0.0.0.0 ucads-cdn.ucweb.com
 0.0.0.0 udm.scorecardresearch.com
@@ -14409,6 +14438,7 @@ pandora.com$genericblock
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 webstats.arxiv.org
 0.0.0.0 wingiftcard.site
 0.0.0.0 wizaly.com
 0.0.0.0 wbd.ms
@@ -14771,6 +14801,7 @@ pandora.com$genericblock
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xlog-va.musical.ly
 0.0.0.0 xtgreat.com
 0.0.0.0 xxxstats.pro
 0.0.0.0 xtraffstat.com
@@ -15249,6 +15280,7 @@ pandora.com$genericblock
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 *-adnow.com
 0.0.0.0 *-identity.doubledutch.me
 0.0.0.0 *-dynatrace.allstate.com
 0.0.0.0 539370883133-r2p5v09t3p81v4gqo2lrkjnvlcloo48o.apps.googleusercontent.com
