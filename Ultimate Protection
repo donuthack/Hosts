@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 25
+! Version: 26
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
 ! Last Modified: Tuesday, December 3, 2019
@@ -33,6 +33,12 @@ restoreprivacy.com$script
 wikipedia.org$script
 baxtel.com$script
 twitter.com$script
+
+! Can Break Some Things Making It Not Suitable For Normal Hosts File
+! Block possibly suspicious top-level domains from running as third-party on sites
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ninja)/$third-party
+! Block possibly suspicious top-level domains from running as third-party popups on sites
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ninja)/$third-party,popup
 
 ! https://restoreprivacy.com/startpage-system1-privacy-one-group/
 ! StartPage was bought in part by a targeted advertising company
