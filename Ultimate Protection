@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 26
+! Version: 27
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
-! Last Modified: Tuesday, December 3, 2019
+! Last Modified: Thursday, December 5, 2019
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -36,9 +36,9 @@ twitter.com$script
 
 ! Can Break Some Things Making It Not Suitable For Normal Hosts File
 ! Block possibly suspicious top-level domains from running as third-party on sites
-/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ninja)/$third-party
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(adult|agency|am|android|app|ar|associates|at|au|bd|best|bet|bid|biz|blue|boutique|business|ca|casa|casino|cd|center|cf|ch|cheap|click|club|community|company|comundefined|contractors|cool|date|de|digital|dk|download|email|es|eu|events|expert|express|fi|foundation|fr|fun|fyi|ga|gallery|game|games|gg|gl|global|gold|gq|host|hu|icu|id|il|im|info|ink|land|li|life|limited|link|live|ltd|marketing|me|media|ml|mobi|mq|name|network|news|ninja|nl|no|nz|online|ovh|pro|pt|pub|pw|racing|recipes|red|review|reviews|ro|rocks|sale|se|services|sh|shoes|shop|singles|site|solutions|space|st|store|stream|style|su|surf|systems|tech|tk|to|today|tokyo|top|tr|trade|tv||video|vip|website|win|work|world|wtf|xyz|zone)/$third-party
 ! Block possibly suspicious top-level domains from running as third-party popups on sites
-/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(club|pro|info|bid|tk|to|site|xyz|app|pet|win|cc|is|zone|ga|review|agency|live|world|website|email|life|today|rock|space|company|nf|mobi|be|cm|gq|rocks|art|link|cricket|ninja)/$third-party,popup
+/^http(s)?:\/\/(www\.)?[a-zA-Z0-9]+\.(adult|agency|am|android|app|ar|associates|at|au|bd|best|bet|bid|biz|blue|boutique|business|ca|casa|casino|cd|center|cf|ch|cheap|click|club|community|company|comundefined|contractors|cool|date|de|digital|dk|download|email|es|eu|events|expert|express|fi|foundation|fr|fun|fyi|ga|gallery|game|games|gg|gl|global|gold|gq|host|hu|icu|id|il|im|info|ink|land|li|life|limited|link|live|ltd|marketing|me|media|ml|mobi|mq|name|network|news|ninja|nl|no|nz|online|ovh|pro|pt|pub|pw|racing|recipes|red|review|reviews|ro|rocks|sale|se|services|sh|shoes|shop|singles|site|solutions|space|st|store|stream|style|su|surf|systems|tech|tk|to|today|tokyo|top|tr|trade|tv||video|vip|website|win|work|world|wtf|xyz|zone)/$third-party,popup,domain=~google.com|bing.com|~duckduckgo.com|~yandex.com|~yandex.ru|~yandex.by|~yahoo.com|~dogpile.com|~searx.me|~search.aol.com|~ask.com|~baidu.com
 
 ! https://restoreprivacy.com/startpage-system1-privacy-one-group/
 ! StartPage was bought in part by a targeted advertising company
