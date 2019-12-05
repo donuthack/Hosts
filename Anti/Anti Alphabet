@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 16
+! Version: 17
 
 ! Google
 0.0.0.0 google.*^$all
@@ -31,6 +31,11 @@
 
 ! Forms
 0.0.0.0 forms.gle^$all
+
+! AMP Project
+0.0.0.0 cdn.ampproject.org^$all
+0.0.0.0 ampproject.org^$all
+0.0.0.0 adguard-com.cdn.ampproject.org^$all
 
 ! Misc
 0.0.0.0 calicolabs.com^$all
@@ -104,6 +109,9 @@ admob.com|
 
 ! Forms
 forms.gle|
+
+! AMP Project
+ampproject.org|
 
 ! Misc
 calicolabs.com|
