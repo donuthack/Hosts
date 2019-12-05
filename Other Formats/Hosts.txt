@@ -1,13 +1,13 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1183
+! Version: 1184
 ! Version hyphen (-) Means Small Update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.5K
-! Last Modified: Tuesday, December 3, 2019
-
-! This is just the default hosts but as a text file
+! Last Modified: Thursday, December 5, 2019
 
 ! Unbreak
+@@||haberler.com$image
+@@||js-agent.newrelic.com/nr-1153.min.js$domain=pearsonrealize.com
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
 @@||local.adguard.org^$important
 @@||youtube.com$cookie
@@ -102,6 +102,7 @@ pandora.com$genericblock
 !presence.roblox.com (Breaks Roblox Friends and Chat)
 !rover.ebay.com (Breaks External Linking)
 !graph.facebook.com (Appears To Break The Facebook App)
+!gvt1.com (Breaks Google Play Store Downloads)
 
 ! RegEX Stuffs
 ! Block insecure (HTTP) popups
@@ -1145,6 +1146,111 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 ayima.com
+0.0.0.0 ayi.ma
+0.0.0.0 absorbingband.com
+0.0.0.0 affiliation.lws-hosting.com
+0.0.0.0 a1.by
+0.0.0.0 abplockutkach.site
+0.0.0.0 adclickbyte.com
+0.0.0.0 adcator.com
+0.0.0.0 adcannybid.com
+0.0.0.0 adcannyads.com
+0.0.0.0 adcanny.com
+0.0.0.0 adastrasol.com
+0.0.0.0 addropletsrv.com
+0.0.0.0 adeimptrck.com
+0.0.0.0 adeanalysis.com
+0.0.0.0 adex.media
+0.0.0.0 adleads.space
+0.0.0.0 adkomo.com
+0.0.0.0 adkmbc.com
+0.0.0.0 admeridianads.com
+0.0.0.0 admida.com
+0.0.0.0 admidainsight.com
+0.0.0.0 admozartxml.com
+0.0.0.0 admuxer.com
+0.0.0.0 adnexus.mobi
+0.0.0.0 adpays.net
+0.0.0.0 adorca.com
+0.0.0.0 adoptadx.com
+0.0.0.0 adops.click
+0.0.0.0 adopexchange.com
+0.0.0.0 adokutcontextual.com
+0.0.0.0 adpile.net
+0.0.0.0 adportalcloud.com
+0.0.0.0 adpremier.fr
+0.0.0.0 adrebels.net
+0.0.0.0 adscrypto.net
+0.0.0.0 adscloud.net
+0.0.0.0 adsbizarre.com
+0.0.0.0 ads.gold
+0.0.0.0 adserv.online
+0.0.0.0 adserver.pw
+0.0.0.0 adservercheck.net
+0.0.0.0 adserverexchange.in
+0.0.0.0 adshub1.com
+0.0.0.0 adsjoy.com
+0.0.0.0 adsjump.com
+0.0.0.0 adsjump.info
+0.0.0.0 adspt-3615.com
+0.0.0.0 adszx.pro
+0.0.0.0 adswave.co
+0.0.0.0 adstard.com
+0.0.0.0 adsremnant.com
+0.0.0.0 adspt-7005.com
+0.0.0.0 adspt-4250.com
+0.0.0.0 adspt-*.com
+0.0.0.0 adtrackingflow.pro
+0.0.0.0 adtraff.com
+0.0.0.0 adtrafficjam.com
+0.0.0.0 adtriage.com
+0.0.0.0 adtrkr9.com
+0.0.0.0 adunitytracking.mobi
+0.0.0.0 adup.app
+0.0.0.0 adv2cvrt.com
+0.0.0.0 adverster.com
+0.0.0.0 advertagent.eu
+0.0.0.0 advertgoods1.online
+0.0.0.0 advertgoods3.site
+0.0.0.0 adz2you.in
+0.0.0.0 adz2you.net
+0.0.0.0 adzflyer.com
+0.0.0.0 adzmediatrk.com
+0.0.0.0 adzoona.com
+0.0.0.0 adzsx.pro
+0.0.0.0 aerialimpacts.com
+0.0.0.0 affilist.com
+0.0.0.0 affilinet-directory.co.uk
+0.0.0.0 afffarm.com
+0.0.0.0 afftrackr.com
+0.0.0.0 chefnheels.info
+0.0.0.0 afternoon.world
+0.0.0.0 agian.com
+0.0.0.0 uvdesk.com
+0.0.0.0 aj1549.online
+0.0.0.0 an-it-uk-dental-implants-ok.live
+0.0.0.0 analysisable.com
+0.0.0.0 analyticsjs.net
+0.0.0.0 analyticssilo.com
+0.0.0.0 apac-tracker.com
+0.0.0.0 appicmedia.com
+0.0.0.0 appleads-trk.com
+0.0.0.0 applesstext.com
+0.0.0.0 apps4download.club
+0.0.0.0 apps-mobile.xyz
+0.0.0.0 appsuntrack.com
+0.0.0.0 appsworld.online
+0.0.0.0 apptocash.com
+0.0.0.0 apptrackco.com
+0.0.0.0 apptrk.live
+0.0.0.0 articlellkkk1.info
+0.0.0.0 at2.win
+0.0.0.0 atrakr10.com
+0.0.0.0 atrafficreseller.co
+0.0.0.0 adprotect.net
+0.0.0.0 analytics.rayjump.com
+0.0.0.0 ads.erasuper.com
 0.0.0.0 amazonadsi-a.akamaihd.net
 0.0.0.0 ad.nettvservices.com
 0.0.0.0 ad.lgsmartad.com
@@ -3960,6 +4066,15 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bemobpath.com
+0.0.0.0 best-prize-2019.com
+0.0.0.0 best-mobile-offers.com
+0.0.0.0 bestgoldenrewards.xyz
+0.0.0.0 bgtrackmobile.com
+0.0.0.0 botrckng.info
+0.0.0.0 browsingsecurityhub.com
+0.0.0.0 brtrk2.com
+0.0.0.0 bxtrk.com
 0.0.0.0 bt-tracker.gamexp.ru
 0.0.0.0 beaconsinspace.com
 0.0.0.0 bc-api-01.beautycircle.com
@@ -4904,6 +5019,23 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 chat.customerly.io
+0.0.0.0 customerly.io
+0.0.0.0 click10.online
+0.0.0.0 click*.online
+0.0.0.0 c4tracking01.com
+0.0.0.0 cdnanalytics.net
+0.0.0.0 cctrck.com
+0.0.0.0 clickprotects.com
+0.0.0.0 clickredir.ru
+0.0.0.0 clicksaddiction.com
+0.0.0.0 cloudtracking.icu
+0.0.0.0 cloudads.global
+0.0.0.0 clixforads.com
+0.0.0.0 cntad.win
+0.0.0.0 cognitiveadscience.com
+0.0.0.0 collecting.click
+0.0.0.0 cointracking.info
 0.0.0.0 collect-*-*.myhomescreen.tv
 0.0.0.0 ciscobinary.openh264.org
 0.0.0.0 cdn-webview-pge.unityads.unity3d.com
@@ -5144,7 +5276,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 client.wns.windows.com
 0.0.0.0 cds.s5x3j6q5.hwcdn.net
 0.0.0.0 cds.j3z9t3p6.hwcdn.net
-0.0.0.0 chromefeedcontentsuggestions-pa.googleapis.com
 0.0.0.0 cdn-magiclinks.trackonomics.net
 0.0.0.0 cse.avlyun.com
 0.0.0.0 crbug.com
@@ -6020,6 +6151,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dadbab.info
+0.0.0.0 downloadyourmobileapp.xyz
+0.0.0.0 dretracking.com
 0.0.0.0 device-messaging-*.amazon.com
 0.0.0.0 devicemessaging.*-*-1.amazon.com
 0.0.0.0 dbbp1.pro$popup
@@ -6766,6 +6900,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 easydirectionsfinder.com
+0.0.0.0 etustracker.com
+0.0.0.0 ewayads.com
 0.0.0.0 eulerian.net
 0.0.0.0 eiecaw.com
 0.0.0.0 evvnt-api.global.ssl.fastly.net
@@ -7184,6 +7321,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 free.easydirectionsfinder.com
+0.0.0.0 freetemplatefinder.com
+0.0.0.0 free.searchformsonline.com
 0.0.0.0 fls-*.amazon.com
 0.0.0.0 frozen-layer.net
 0.0.0.0 fdroid.tetaneutral.net
@@ -7277,7 +7417,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 freebitco.in
 0.0.0.0 f7daf7adjkbc777.com
 0.0.0.0 footprints-pa.googleapis.com
-0.0.0.0 federatedml-pa.googleapis.com
 0.0.0.0 freesalesleads4u.com
 0.0.0.0 forfollow.net
 0.0.0.0 freefollower.eu
@@ -7493,6 +7632,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 getpushmonkey.com
+0.0.0.0 go.click10.online
+0.0.0.0 go.redirdomain.ru
 0.0.0.0 geo.choice.faktor.io
 0.0.0.0 www.googletagmanager.com
 0.0.0.0 get.geo.opera.com.global.prod.fastly.net
@@ -7731,7 +7873,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 github.exacttarget.com
 0.0.0.0 github.tinypass.com
 0.0.0.0 github.algolia.com
-0.0.0.0 gvt1.com
 0.0.0.0 gtssl2-ocsp.geotrust.com
 0.0.0.0 www.groovinads.com
 0.0.0.0 groovinads.com
@@ -7903,6 +8044,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hubvas.123-as-dzx-c123.com
+0.0.0.0 huirnbrfj.com
 0.0.0.0 homes.adtracks.biz
 0.0.0.0 hottieswantu.com
 0.0.0.0 hubvisor.io
@@ -8859,6 +9002,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 justads.link
 0.0.0.0 js.hsleadflows.net
 0.0.0.0 js.usemessages.com
 0.0.0.0 jump-your-bones.com
@@ -9778,6 +9922,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 light-client-log.getapk.cn
 0.0.0.0 lgsmartad.com
 0.0.0.0 log2.musical.ly
 0.0.0.0 lbmarie.alegrium.com
@@ -10067,6 +10212,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mpl-id.com
 0.0.0.0 mads-*.amazon.com
 0.0.0.0 msh.amazon.co.uk
 0.0.0.0 m_s.3g.cn
@@ -10308,7 +10454,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 mintigo.com
 0.0.0.0 myvipcontacts.com
 0.0.0.0 mastersafelistblaster.com
-0.0.0.0 mdh-pa.googleapis.com
 0.0.0.0 ms.aplvn.com
 0.0.0.0 manychat.com
 0.0.0.0 mzbcdn.net
@@ -11002,6 +11147,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 oct8ne.com
 0.0.0.0 opentracker.*
 0.0.0.0 opentracker.acgnx.se
 0.0.0.0 opsen.dolphin-browser.com
@@ -11352,7 +11498,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 postback.applinzi.com
 0.0.0.0 *-prod.do.*.microsoft.com
 0.0.0.0 ping.yoyogames.com
-0.0.0.0 playgateway-pa.googleapis.com
 0.0.0.0 pokemon-scramblesp.jp
 0.0.0.0 profile.mob.psafe.com
 0.0.0.0 p.bm23.com
@@ -11925,6 +12070,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 redirdomain.ru
+0.0.0.0 r0.mradx.net
+0.0.0.0 r.my.com
+0.0.0.0 reef.vk-cdn.net
 0.0.0.0 receiver.habby.mobi
 0.0.0.0 redirector.googlevideo.com
 0.0.0.0 report.newsgenious.com
@@ -12265,6 +12414,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 scripts.webcontentassessor.com
+0.0.0.0 searchformsonline.com
+0.0.0.0 stats.vk-portal.net
+0.0.0.0 setting.rayjump.com
 0.0.0.0 stats.hbbtv.smartclip.net
 0.0.0.0 sukebei.tracker.wf
 0.0.0.0 stats.coronalabs.com
@@ -12490,8 +12643,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 sf.symcd.com
 0.0.0.0 sb.adtidy.org
 0.0.0.0 safebrowsing.brave.com
-0.0.0.0 serviceidcheckservice-pa.googleapis.com
-0.0.0.0 semanticlocation-pa.googleapis.com
 0.0.0.0 stage31.net
 0.0.0.0 smetrics.boston.com
 0.0.0.0 s3c6.adj.st
@@ -13617,6 +13768,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 tracker-api.my.com
 0.0.0.0 tracksrv.zdf.de
 0.0.0.0 tracker.wf
 0.0.0.0 tracker.frozen-layer.net
@@ -13850,7 +14002,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 tas.ezwealth4life.com
 0.0.0.0 tiyu2019.com
 0.0.0.0 teprofits.com
-0.0.0.0 telephonyspamprotect-pa.googleapis.com
 0.0.0.0 tell.yumimobi.com
 0.0.0.0 tracker1.yumimobi.com
 0.0.0.0 tracker2.yumimobi.com
@@ -14656,6 +14807,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 widget.customerly.io
+0.0.0.0 webcontentassessor.com
+0.0.0.0 wt4xd.bemobpath.com
 0.0.0.0 webstats.arxiv.org
 0.0.0.0 wingiftcard.site
 0.0.0.0 wizaly.com
@@ -15269,6 +15423,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 y-track.com
 
 !Z
+0.0.0.0 zcbyoqylllxe.com
 0.0.0.0 zendplace.pro
 0.0.0.0 zdravo.neboley.site
 0.0.0.0 zog.link
@@ -15498,6 +15653,18 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 *-client-log.getapk.cn
+0.0.0.0 12xlwin2.net
+0.0.0.0 166hdtv.com
+0.0.0.0 123-as-dzx-c123.com
+0.0.0.0 123clk.com
+0.0.0.0 123cls.com
+0.0.0.0 12gate.site
+0.0.0.0 0k.click
+0.0.0.0 0n.click
+0.0.0.0 0rg.online
+0.0.0.0 0ut.click
+0.0.0.0 0sntp7dnrr.com
 0.0.0.0 *-adnow.com
 0.0.0.0 *-identity.doubledutch.me
 0.0.0.0 *-dynatrace.allstate.com
@@ -15954,7 +16121,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 163yun.com
 0.0.0.0 126.net
 0.0.0.0 127.net
-0.0.0.0 *-pa.googleapis.com
 0.0.0.0 12secondcommute.com
 0.0.0.0 8286777.com
 0.0.0.0 71e73428c98d2e64fd6b-596a7347bb8d75314ef5b080382defe2.ssl.cf2.rackcdn.com
@@ -22615,9 +22781,38 @@ rootmygalaxy.net###cookie-consent-lite
 slant.co##._LustreAIBannerView, .LustreAIBanner
 ||clients4.google.com/chrome-sync/experimentstatus
 ||www.gstatic.com/*/img/promos/$image
-www.youtube.com###main
 ||newtoncity.org/components/com_jchat/
 ||bangumi.moe/api/tag/
+||app.requestly.in/static/assets/analyticsbar/$image
+www.washingtontimes.com##body > div:nth-of-type(5)
+||1-property.ru/banners/banner*.shtml
+www.citiservi.es###cookie_box
+||ck12.org/dexter/record/event
+||graspablemath.com/shared/libs/analytics/
+whoishostingthis.com###pushmonkey-prompt-container
+whoishostingthis.com##div.wrapper:first-child > footer.footer:last-child
+whatismybrowser.com##.extra
+whatismybrowser.com##.fun-adsense, .fun-position-matched-content
+||domain.com.au/user-behaviour-api/
+||domain.com.au/phoenix/api/stats
+www.9news.com.au##.article__native-links
+www.yenimedya.com.tr###cookiePolicyw
+www.haberler.com###\33 00x600_reklam
+www.haberler.com###widget_div_engage
+www.haberler.com###cookiePolicyw
+www.haberler.com###widget_div_enga
+www.haberler.com##.mustheadBlk
+www.haberler.com##.spor-bxsliderM
+www.haberler.com##.spor-wrapperM > .bx-wrapper > .bx-viewport
+www.haberler.com##.spor-wrapperM
+||haberler.com/static/scripts/ah_2.js
+www.haberler.com###reklam300x250_1
+www.haberler.com###widget_div_11
+www.haberler.com###widget_div_1
+||api.productreview.com.au/api/geoip
+||imlive.com/Services/ContentGalleryService.ashx?cmd=GetNewPlayerHosts
+www.blackboard.com###cookie-disclosure
+deviceatlas.com###cookie-consent
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -22754,21 +22949,8 @@ $webrtc,domain=nsa.gov
 151.101.193.7$network
 151.101.1.7$network
 151.101.65.7$network
-172.217.4.78$network
-172.217.4.110$network
-172.217.5.14$network
-172.217.4.206$network
 172.217.6.110$network
-172.217.8.174$network
-!172.217.8.206$network (Can Break YouTube Sometimes)
-172.217.9.46$network
-!172.217.9.78$network (Can Break YouTube Sometimes)
-216.58.192.142$network
-!216.58.192.206$network (Can Break YouTube Sometimes)
-216.58.192.238$network
-172.217.0.14$network
 172.217.1.46$network
-172.217.4.46$network
 192.99.211.67$network
 52.72.245.79$network
 52.27.7.77$network
@@ -22777,7 +22959,6 @@ $webrtc,domain=nsa.gov
 52.22.113.11$network
 176.103.133.133$network
 80.211.148.176$network,third-party
-239.255.255.250$network
 52.41.175.237:443$network
 13.249.134.94:80$network
 ! xlog-va.musical.ly
@@ -22851,7 +23032,6 @@ $webrtc,domain=nsa.gov
 [2406:da14:325:1c01:6247:cc61:6d6:19f9]$network,app=com.jiubang.go.music
 65.255.35.98$network,app=com.jiubang.go.music
 13.226.15.34$network,app=com.jiubang.go.music
-35.190.43.134:443$network,app=com.snapchat.android
 [2001:4860:4802:36::7e]:443$network,app=com.snapchat.android
 [2a03:2880:f027:20e:face:b00c:0:2]:443$network,app=com.sharkjump.castlefusion
 35.241.26.53$network,app=com.sharkjump.castlefusion
@@ -22888,6 +23068,12 @@ perf-events.cloud.unity3d.com$app=com.codigames.idle.fitness.gym.tycoon
 *freemonies*
 
 ! Wildcard
+/redirect/?spot_id
+/googleads.css
+/adx.css
+/ClickTail.js
+/counter/?domain=
+/footer_ads_tiz.php
 /ad-blocking-detector.php
 /anti-adblock.php
 /pdAb.min.js
@@ -23544,6 +23730,9 @@ _fingerprint
 videoiq-*
 tds_campaign=
 mas_jump_
+_right_ads.php
+_left_ads.php
+_statsonlineinfo
 *#$#hide-if-contains-visible-text/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама|Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/
 *##:has-text(/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама/)
 *##:has-text(/^Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/)
