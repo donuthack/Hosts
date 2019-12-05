@@ -5,3 +5,10 @@
 
 ! Google Tag Manager
 0.0.0.0 gtm.*
+
+! Nextstar Digital (advertising)
+0.0.0.0 lkqd.net
+0.0.0.0 nexstardigital.com
+
+! Believed to be used to load external ad/tracking servers (Breitbart)
+||*.amazonaws.com/ssl-intgr-net/tags/
