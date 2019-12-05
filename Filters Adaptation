@@ -1,12 +1,14 @@
 [Adblock Plus 3.0]
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1183
+! Version: 1184
 ! Version hyphen (-) Means Small Update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.5K
-! Last Modified: Tuesday, December 3, 2019
+! Last Modified: Thursday, December 5, 2019
 
 ! Unbreak
+@@||haberler.com$image
+@@||js-agent.newrelic.com/nr-1153.min.js$domain=pearsonrealize.com
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
 @@||local.adguard.org^$important
 @@||youtube.com$cookie
@@ -101,6 +103,7 @@ pandora.com$genericblock
 !presence.roblox.com (Breaks Roblox Friends and Chat)
 !rover.ebay.com (Breaks External Linking)
 !graph.facebook.com (Appears To Break The Facebook App)
+!gvt1.com (Breaks Google Play Store Downloads)
 
 ! RegEX Stuffs
 ! Block insecure (HTTP) popups
@@ -1144,6 +1147,111 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||idmsa.apple.com/appleauth/jslog
 
 !A
+||ayima.com
+||ayi.ma
+||absorbingband.com
+||affiliation.lws-hosting.com
+||a1.by
+||abplockutkach.site
+||adclickbyte.com
+||adcator.com
+||adcannybid.com
+||adcannyads.com
+||adcanny.com
+||adastrasol.com
+||addropletsrv.com
+||adeimptrck.com
+||adeanalysis.com
+||adex.media
+||adleads.space
+||adkomo.com
+||adkmbc.com
+||admeridianads.com
+||admida.com
+||admidainsight.com
+||admozartxml.com
+||admuxer.com
+||adnexus.mobi
+||adpays.net
+||adorca.com
+||adoptadx.com
+||adops.click
+||adopexchange.com
+||adokutcontextual.com
+||adpile.net
+||adportalcloud.com
+||adpremier.fr
+||adrebels.net
+||adscrypto.net
+||adscloud.net
+||adsbizarre.com
+||ads.gold
+||adserv.online
+||adserver.pw
+||adservercheck.net
+||adserverexchange.in
+||adshub1.com
+||adsjoy.com
+||adsjump.com
+||adsjump.info
+||adspt-3615.com
+||adszx.pro
+||adswave.co
+||adstard.com
+||adsremnant.com
+||adspt-7005.com
+||adspt-4250.com
+||adspt-*.com
+||adtrackingflow.pro
+||adtraff.com
+||adtrafficjam.com
+||adtriage.com
+||adtrkr9.com
+||adunitytracking.mobi
+||adup.app
+||adv2cvrt.com
+||adverster.com
+||advertagent.eu
+||advertgoods1.online
+||advertgoods3.site
+||adz2you.in
+||adz2you.net
+||adzflyer.com
+||adzmediatrk.com
+||adzoona.com
+||adzsx.pro
+||aerialimpacts.com
+||affilist.com
+||affilinet-directory.co.uk
+||afffarm.com
+||afftrackr.com
+||chefnheels.info
+||afternoon.world
+||agian.com
+||uvdesk.com
+||aj1549.online
+||an-it-uk-dental-implants-ok.live
+||analysisable.com
+||analyticsjs.net
+||analyticssilo.com
+||apac-tracker.com
+||appicmedia.com
+||appleads-trk.com
+||applesstext.com
+||apps4download.club
+||apps-mobile.xyz
+||appsuntrack.com
+||appsworld.online
+||apptocash.com
+||apptrackco.com
+||apptrk.live
+||articlellkkk1.info
+||at2.win
+||atrakr10.com
+||atrafficreseller.co
+||adprotect.net
+||analytics.rayjump.com
+||ads.erasuper.com
 ||amazonadsi-a.akamaihd.net
 ||ad.nettvservices.com
 ||ad.lgsmartad.com
@@ -3959,6 +4067,15 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||a.ads2.msads.net
 
 !B
+||bemobpath.com
+||best-prize-2019.com
+||best-mobile-offers.com
+||bestgoldenrewards.xyz
+||bgtrackmobile.com
+||botrckng.info
+||browsingsecurityhub.com
+||brtrk2.com
+||bxtrk.com
 ||bt-tracker.gamexp.ru
 ||beaconsinspace.com
 ||bc-api-01.beautycircle.com
@@ -4903,6 +5020,23 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||bam.nr-data.net
 
 !C
+||chat.customerly.io
+||customerly.io
+||click10.online
+||click*.online
+||c4tracking01.com
+||cdnanalytics.net
+||cctrck.com
+||clickprotects.com
+||clickredir.ru
+||clicksaddiction.com
+||cloudtracking.icu
+||cloudads.global
+||clixforads.com
+||cntad.win
+||cognitiveadscience.com
+||collecting.click
+||cointracking.info
 ||collect-*-*.myhomescreen.tv
 ||ciscobinary.openh264.org
 ||cdn-webview-pge.unityads.unity3d.com
@@ -5143,7 +5277,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||client.wns.windows.com
 ||cds.s5x3j6q5.hwcdn.net
 ||cds.j3z9t3p6.hwcdn.net
-||chromefeedcontentsuggestions-pa.googleapis.com
 ||cdn-magiclinks.trackonomics.net
 ||cse.avlyun.com
 ||crbug.com
@@ -6019,6 +6152,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||creative.medialytics.com
 
 !D
+||dadbab.info
+||downloadyourmobileapp.xyz
+||dretracking.com
 ||device-messaging-*.amazon.com
 ||devicemessaging.*-*-1.amazon.com
 ||dbbp1.pro$popup
@@ -6765,6 +6901,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||downloads.mailchimp.com
 
 !E
+||easydirectionsfinder.com
+||etustracker.com
+||ewayads.com
 ||eulerian.net
 ||eiecaw.com
 ||evvnt-api.global.ssl.fastly.net
@@ -7183,6 +7322,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+||free.easydirectionsfinder.com
+||freetemplatefinder.com
+||free.searchformsonline.com
 ||fls-*.amazon.com
 ||frozen-layer.net
 ||fdroid.tetaneutral.net
@@ -7276,7 +7418,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||freebitco.in
 ||f7daf7adjkbc777.com
 ||footprints-pa.googleapis.com
-||federatedml-pa.googleapis.com
 ||freesalesleads4u.com
 ||forfollow.net
 ||freefollower.eu
@@ -7492,6 +7633,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||freshmarketer.com
 
 !G
+||getpushmonkey.com
+||go.click10.online
+||go.redirdomain.ru
 ||geo.choice.faktor.io
 ||www.googletagmanager.com
 ||get.geo.opera.com.global.prod.fastly.net
@@ -7730,7 +7874,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||github.exacttarget.com
 ||github.tinypass.com
 ||github.algolia.com
-||gvt1.com
 ||gtssl2-ocsp.geotrust.com
 ||www.groovinads.com
 ||groovinads.com
@@ -7902,6 +8045,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||gannett.hb.omtrdc.net
 
 !H
+||hubvas.123-as-dzx-c123.com
+||huirnbrfj.com
 ||homes.adtracks.biz
 ||hottieswantu.com
 ||hubvisor.io
@@ -8858,6 +9003,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||init.supersonicads.com
 
 !J
+||justads.link
 ||js.hsleadflows.net
 ||js.usemessages.com
 ||jump-your-bones.com
@@ -9777,6 +9923,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||krxd.net
 
 !L
+||light-client-log.getapk.cn
 ||lgsmartad.com
 ||log2.musical.ly
 ||lbmarie.alegrium.com
@@ -10066,6 +10213,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||location.silverpush.com
 
 !M
+||mpl-id.com
 ||mads-*.amazon.com
 ||msh.amazon.co.uk
 ||m_s.3g.cn
@@ -10307,7 +10455,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||mintigo.com
 ||myvipcontacts.com
 ||mastersafelistblaster.com
-||mdh-pa.googleapis.com
 ||ms.aplvn.com
 ||manychat.com
 ||mzbcdn.net
@@ -11001,6 +11148,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||n149adserv.com
 
 !O
+||oct8ne.com
 ||opentracker.*
 ||opentracker.acgnx.se
 ||opsen.dolphin-browser.com
@@ -11351,7 +11499,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||postback.applinzi.com
 ||*-prod.do.*.microsoft.com
 ||ping.yoyogames.com
-||playgateway-pa.googleapis.com
 ||pokemon-scramblesp.jp
 ||profile.mob.psafe.com
 ||p.bm23.com
@@ -11924,6 +12071,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||qnsr.com
 
 !R
+||redirdomain.ru
+||r0.mradx.net
+||r.my.com
+||reef.vk-cdn.net
 ||receiver.habby.mobi
 ||redirector.googlevideo.com
 ||report.newsgenious.com
@@ -12264,6 +12415,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||r.skimresources.com
 
 !S
+||scripts.webcontentassessor.com
+||searchformsonline.com
+||stats.vk-portal.net
+||setting.rayjump.com
 ||stats.hbbtv.smartclip.net
 ||sukebei.tracker.wf
 ||stats.coronalabs.com
@@ -12489,8 +12644,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||sf.symcd.com
 ||sb.adtidy.org
 ||safebrowsing.brave.com
-||serviceidcheckservice-pa.googleapis.com
-||semanticlocation-pa.googleapis.com
 ||stage31.net
 ||smetrics.boston.com
 ||s3c6.adj.st
@@ -13616,6 +13769,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||scripts.kissmetrics.com
 
 !T
+||tracker-api.my.com
 ||tracksrv.zdf.de
 ||tracker.wf
 ||tracker.frozen-layer.net
@@ -13849,7 +14003,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||tas.ezwealth4life.com
 ||tiyu2019.com
 ||teprofits.com
-||telephonyspamprotect-pa.googleapis.com
 ||tell.yumimobi.com
 ||tracker1.yumimobi.com
 ||tracker2.yumimobi.com
@@ -14655,6 +14808,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||v.admaster.com.cn
 
 !W
+||widget.customerly.io
+||webcontentassessor.com
+||wt4xd.bemobpath.com
 ||webstats.arxiv.org
 ||wingiftcard.site
 ||wizaly.com
@@ -15268,6 +15424,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||y-track.com
 
 !Z
+||zcbyoqylllxe.com
 ||zendplace.pro
 ||zdravo.neboley.site
 ||zog.link
@@ -15497,6 +15654,18 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||zyqlfplqdgxu.com
 
 !Misc
+||*-client-log.getapk.cn
+||12xlwin2.net
+||166hdtv.com
+||123-as-dzx-c123.com
+||123clk.com
+||123cls.com
+||12gate.site
+||0k.click
+||0n.click
+||0rg.online
+||0ut.click
+||0sntp7dnrr.com
 ||*-adnow.com
 ||*-identity.doubledutch.me
 ||*-dynatrace.allstate.com
@@ -15953,7 +16122,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 ||163yun.com
 ||126.net
 ||127.net
-||*-pa.googleapis.com
 ||12secondcommute.com
 ||8286777.com
 ||71e73428c98d2e64fd6b-596a7347bb8d75314ef5b080382defe2.ssl.cf2.rackcdn.com
@@ -22614,9 +22782,38 @@ rootmygalaxy.net###cookie-consent-lite
 slant.co##._LustreAIBannerView, .LustreAIBanner
 ||clients4.google.com/chrome-sync/experimentstatus
 ||www.gstatic.com/*/img/promos/$image
-www.youtube.com###main
 ||newtoncity.org/components/com_jchat/
 ||bangumi.moe/api/tag/
+||app.requestly.in/static/assets/analyticsbar/$image
+www.washingtontimes.com##body > div:nth-of-type(5)
+||1-property.ru/banners/banner*.shtml
+www.citiservi.es###cookie_box
+||ck12.org/dexter/record/event
+||graspablemath.com/shared/libs/analytics/
+whoishostingthis.com###pushmonkey-prompt-container
+whoishostingthis.com##div.wrapper:first-child > footer.footer:last-child
+whatismybrowser.com##.extra
+whatismybrowser.com##.fun-adsense, .fun-position-matched-content
+||domain.com.au/user-behaviour-api/
+||domain.com.au/phoenix/api/stats
+www.9news.com.au##.article__native-links
+www.yenimedya.com.tr###cookiePolicyw
+www.haberler.com###\33 00x600_reklam
+www.haberler.com###widget_div_engage
+www.haberler.com###cookiePolicyw
+www.haberler.com###widget_div_enga
+www.haberler.com##.mustheadBlk
+www.haberler.com##.spor-bxsliderM
+www.haberler.com##.spor-wrapperM > .bx-wrapper > .bx-viewport
+www.haberler.com##.spor-wrapperM
+||haberler.com/static/scripts/ah_2.js
+www.haberler.com###reklam300x250_1
+www.haberler.com###widget_div_11
+www.haberler.com###widget_div_1
+||api.productreview.com.au/api/geoip
+||imlive.com/Services/ContentGalleryService.ashx?cmd=GetNewPlayerHosts
+www.blackboard.com###cookie-disclosure
+deviceatlas.com###cookie-consent
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -22753,21 +22950,8 @@ $webrtc,domain=nsa.gov
 151.101.193.7$network
 151.101.1.7$network
 151.101.65.7$network
-172.217.4.78$network
-172.217.4.110$network
-172.217.5.14$network
-172.217.4.206$network
 172.217.6.110$network
-172.217.8.174$network
-!172.217.8.206$network (Can Break YouTube Sometimes)
-172.217.9.46$network
-!172.217.9.78$network (Can Break YouTube Sometimes)
-216.58.192.142$network
-!216.58.192.206$network (Can Break YouTube Sometimes)
-216.58.192.238$network
-172.217.0.14$network
 172.217.1.46$network
-172.217.4.46$network
 192.99.211.67$network
 52.72.245.79$network
 52.27.7.77$network
@@ -22776,7 +22960,6 @@ $webrtc,domain=nsa.gov
 52.22.113.11$network
 176.103.133.133$network
 80.211.148.176$network,third-party
-239.255.255.250$network
 52.41.175.237:443$network
 13.249.134.94:80$network
 ! xlog-va.musical.ly
@@ -22850,7 +23033,6 @@ $webrtc,domain=nsa.gov
 [2406:da14:325:1c01:6247:cc61:6d6:19f9]$network,app=com.jiubang.go.music
 65.255.35.98$network,app=com.jiubang.go.music
 13.226.15.34$network,app=com.jiubang.go.music
-35.190.43.134:443$network,app=com.snapchat.android
 [2001:4860:4802:36::7e]:443$network,app=com.snapchat.android
 [2a03:2880:f027:20e:face:b00c:0:2]:443$network,app=com.sharkjump.castlefusion
 35.241.26.53$network,app=com.sharkjump.castlefusion
@@ -22887,6 +23069,12 @@ perf-events.cloud.unity3d.com$app=com.codigames.idle.fitness.gym.tycoon
 *freemonies*
 
 ! Wildcard
+/redirect/?spot_id
+/googleads.css
+/adx.css
+/ClickTail.js
+/counter/?domain=
+/footer_ads_tiz.php
 /ad-blocking-detector.php
 /anti-adblock.php
 /pdAb.min.js
@@ -23543,6 +23731,9 @@ _fingerprint
 videoiq-*
 tds_campaign=
 mas_jump_
+_right_ads.php
+_left_ads.php
+_statsonlineinfo
 *#$#hide-if-contains-visible-text/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама|Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/
 *##:has-text(/^Advertisement|Anuncio|广告|廣告|Werbung|広告|Reklama|Рекламное объявление|Реклама/)
 *##:has-text(/^Promoted Content|Contenido promocionado|宣传内容|宣傳內容|Geförderte Inhalte|プロモートコンテンツ|Продвигаемый контент|Рекламний контент/)
