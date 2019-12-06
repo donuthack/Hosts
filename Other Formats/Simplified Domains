@@ -1,11 +1,11 @@
 ! Title: Cybo's Simplified Domains
 ! Expires: 8 hours
-! Version: 1184
-! Last Modified: Thursday, December 5, 2019
+! Version: 1184-1
+! Last Modified: Friday, December 6, 2019
 
 ! Unbreak
 @@||haberler.com$image
-@@||js-agent.newrelic.com/nr-1153.min.js$domain=pearsonrealize.com
+pearsonrealize.com#@#+js(nobab)
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
 @@||local.adguard.org^$important
 @@||youtube.com$cookie
