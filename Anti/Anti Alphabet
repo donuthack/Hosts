@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 17
+! Version: 18
 
 ! Google
 0.0.0.0 google.*^$all
@@ -56,6 +56,8 @@
 0.0.0.0 virustotal.com^$all
 0.0.0.0 fruitninjagame.page.link^$all
 0.0.0.0 google-public-dns-*.google.com^$all
+0.0.0.0 auditrecording-pa.googleapis.com^$all
+0.0.0.0 geller-pa.googleapis.com^$all
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
@@ -166,6 +168,8 @@ gpsonextra.com|
 172.217.6.14$network
 172.217.0.14$network
 172.217.9.46$network
+! https://who.is/whois-ip/ip-address/172.217.9.74
+172.217.9.74$network
 ! Gboard Tracking
 172.217.9.35$network
 ! Phone
@@ -187,3 +191,4 @@ gpsonextra.com|
 ! YouTube
 ||youtubei.googleapis.com^$app=com.google.android.youtube
 ||i.ytimg.com^$app=com.google.android.youtube
+172.217.1.46$network
