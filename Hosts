@@ -1,13 +1,13 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1184
+! Version: 1184-1
 ! Version hyphen (-) Means Small Update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.5K
-! Last Modified: Thursday, December 5, 2019
+! Last Modified: Friday, December 6, 2019
 
 ! Unbreak
 @@||haberler.com$image
-@@||js-agent.newrelic.com/nr-1153.min.js$domain=pearsonrealize.com
+pearsonrealize.com#@#+js(nobab)
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
 @@||local.adguard.org^$important
 @@||youtube.com$cookie
