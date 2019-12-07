@@ -1,8 +1,6 @@
 ! Title: Cybo's Experimental Hosts
 ! Expires: 8 hours
 
-! Needs Long-Term Testing
-
 0.0.0.0 look.djfiln.com
 0.0.0.0 djfiln.com
 0.0.0.0 parandaya.com
@@ -67,6 +65,8 @@
 0.0.0.0 et2-na61-na62.wagbridge.alibaba.tanx.com
 0.0.0.0 lkqd.net
 0.0.0.0 nexstardigital.com
+! https://www.youtube.com/watch?v=oBI4Cl4rM6o
+0.0.0.0 census.zorinos.com
 
 /google-tracking/
 /ruxitagentjs_
