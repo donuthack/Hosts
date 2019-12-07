@@ -3,12 +3,79 @@
 
 ! Needs Long-Term Testing
 
-! Google Tag Manager
-0.0.0.0 gtm.*
-
-! Nextstar Digital (advertising)
+0.0.0.0 look.djfiln.com
+0.0.0.0 djfiln.com
+0.0.0.0 parandaya.com
+0.0.0.0 en.offergate.pro
+0.0.0.0 offergate.pro
+0.0.0.0 eclick.baidu.com
+0.0.0.0 adocean.cz
+0.0.0.0 ads.linksrequest.com
+0.0.0.0 linksrequest.com
+0.0.0.0 d.haberler.com
+0.0.0.0 ads.yenimedya.com.tr
+0.0.0.0 advgalaxy.com
+0.0.0.0 adwiretracker.fwix.com
+0.0.0.0 adwiretracker.
+0.0.0.0 affilate.mercola.com
+0.0.0.0 affiliate.ms3388.com
+0.0.0.0 ms3388.com
+0.0.0.0 affiliate.productreview.com.au
+0.0.0.0 affiliates.de
+0.0.0.0 analy.qq.com
+0.0.0.0 analyticcdn.wlmediahub.com
+0.0.0.0 fly202.globalmailer.com
+0.0.0.0 appbosh21.wlmediahub.com
+0.0.0.0 imlive.servicebus.windows.net
+0.0.0.0 gstsvc.webcamwiz.com
+0.0.0.0 analytic.imlive.com
+0.0.0.0 analytics.schoolwires.com
+0.0.0.0 api.ladipage.com
+0.0.0.0 ladipage.com
+0.0.0.0 ladipage.vn
+0.0.0.0 databox.laydata.com
+0.0.0.0 laydata.com
+0.0.0.0 indieclicktv.com
+0.0.0.0 wh.ip-adress.com
+0.0.0.0 c.ipaddress.com
+0.0.0.0 traffictrader.net
+0.0.0.0 cnt.nuvid.com
+0.0.0.0 t.propbn.com
+0.0.0.0 cnt.vivatube.com
+0.0.0.0 collection-day.com
+0.0.0.0 5eb.cc
+0.0.0.0 counciladvertising.net
+0.0.0.0 can-digital.net
+0.0.0.0 counter.joins.com
+0.0.0.0 event-reporting-dot-webylytics.appspot.com
+0.0.0.0 ezpush.me
+0.0.0.0 static.olymptrade.com
+0.0.0.0 olymptrade.com
+0.0.0.0 queuev4.vk.com
+0.0.0.0 pslweb.org
+0.0.0.0 purechat.com
+0.0.0.0 widgetapi.purechat.com
+0.0.0.0 roomapi-signalr.prod-aws.purechat.com
+0.0.0.0 app.purechat.com
+0.0.0.0 api.purechat.com
+0.0.0.0 api-cdn.purechat.com
+0.0.0.0 prod-grpc-alpha-parent-client-gateway.goguardian.com
+0.0.0.0 vg-setting.rayjump.com
+0.0.0.0 vg-old-setting.rayjump.com
+0.0.0.0 adn-tksetting-vg-605648748.us-east-1.elb.amazonaws.com
+0.0.0.0 tanx.com
+0.0.0.0 et2-na61-na62.wagbridge.alibaba.tanx.com
 0.0.0.0 lkqd.net
 0.0.0.0 nexstardigital.com
 
-! Believed to be used to load external ad/tracking servers (Breitbart)
+/google-tracking/
+/ruxitagentjs_
+
+! GoGuardian IPs
+34.216.47.158$network
+52.89.199.247$network
+52.34.228.147$network
+
+www.yelp.co.uk##.alert--not-dismissible.alert--site.alert-info.alert
+||yelp.co.uk/OYOx6Vj7/init.js
 ||*.amazonaws.com/ssl-intgr-net/tags/
