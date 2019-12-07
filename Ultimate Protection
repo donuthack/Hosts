@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 27
+! Version: 28
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
-! Last Modified: Thursday, December 5, 2019
+! Last Modified: Friday, December 6, 2019
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -81,6 +81,9 @@ joinhoney.com|
 ! Some Promotions
 *promo*
 /^https?:\/\/(www\.)?promo(tion)?\./$all,important
+
+! Google Tag Manager
+0.0.0.0 gtm.*
 
 ! Easy Anti Public Government Domains
 *.gov
