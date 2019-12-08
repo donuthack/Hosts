@@ -4,10 +4,16 @@
 ! SHOULDNT BE BLOCKED
 @@||windstream.net
 
+@@||192.168.*.*$important
+
+*$cookie=/wordpress_last_visit|wpdiscuz_last_visit/
+
 @@||yahoo.com$cookie
 NEED TO REMOVE B
 @@||github.com$cookie
 NEED TO REMOVE has_recent_activity
+@@||auth.adguard.com$cookie
+googlevideo.com$cookie
 
 0.0.0.0 look.djfiln.com
 0.0.0.0 djfiln.com
@@ -77,8 +83,16 @@ NEED TO REMOVE has_recent_activity
 0.0.0.0 stat.radar.imgsmail.ru
 0.0.0.0 radar.imgsmail.ru
 0.0.0.0 apollo-affiliates.com
+0.0.0.0 counter.adguard.com
 ! https://www.youtube.com/watch?v=oBI4Cl4rM6o
 0.0.0.0 census.zorinos.com
+
+! CHANGE
+/favicon.ico$third-party,domain=~discprdapp.com|~github.com|~4chan.org
+@@||s.4cdn.org/image/favicon.ico$domain=boards.4chan.org
+
+! CHECK IF IN LIST
+||google.com/insights/
 
 speedtest.net#@#^script:has-text(googletag)
 speedtest.net#@#^script:has-text(gpt-ad)
@@ -99,3 +113,6 @@ www.youtube.com###contents > .ytd-search-pyv-renderer.style-scope
 ||ipv6-api.speedtest.net/getip
 www.omgubuntu.co.uk##.is-active.CookieWarning
 zigforums.com###ob-AR_1
+foxnews.com##.wn7ydddwjcev
+comss.ru##.container-fluid, .hidden-xs
+vk.com##.apps_feedRightAppsBlock.apps_feedRightAppsBlock_collaborative_recommend_apps
