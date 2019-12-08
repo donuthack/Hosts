@@ -1,6 +1,14 @@
 ! Title: Cybo's Experimental Hosts
 ! Expires: 8 hours
 
+! SHOULDNT BE BLOCKED
+@@||windstream.net
+
+@@||yahoo.com$cookie
+NEED TO REMOVE B
+@@||github.com$cookie
+NEED TO REMOVE has_recent_activity
+
 0.0.0.0 look.djfiln.com
 0.0.0.0 djfiln.com
 0.0.0.0 parandaya.com
@@ -65,8 +73,15 @@
 0.0.0.0 et2-na61-na62.wagbridge.alibaba.tanx.com
 0.0.0.0 lkqd.net
 0.0.0.0 nexstardigital.com
+0.0.0.0 reklama.mail.ru
+0.0.0.0 stat.radar.imgsmail.ru
+0.0.0.0 radar.imgsmail.ru
+0.0.0.0 apollo-affiliates.com
 ! https://www.youtube.com/watch?v=oBI4Cl4rM6o
 0.0.0.0 census.zorinos.com
+
+speedtest.net#@#^script:has-text(googletag)
+speedtest.net#@#^script:has-text(gpt-ad)
 
 /google-tracking/
 /ruxitagentjs_
@@ -79,3 +94,8 @@
 www.yelp.co.uk##.alert--not-dismissible.alert--site.alert-info.alert
 ||yelp.co.uk/OYOx6Vj7/init.js
 ||*.amazonaws.com/ssl-intgr-net/tags/
+xritephoto.com###cookie_directive_container
+www.youtube.com###contents > .ytd-search-pyv-renderer.style-scope
+||ipv6-api.speedtest.net/getip
+www.omgubuntu.co.uk##.is-active.CookieWarning
+zigforums.com###ob-AR_1
