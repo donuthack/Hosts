@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Alphabet
 ! Expires: 1 day
-! Version: 19
+! Version: 19-1
 
 ! Google
 0.0.0.0 google.*^$all
@@ -36,6 +36,10 @@
 0.0.0.0 cdn.ampproject.org^$all
 0.0.0.0 ampproject.org^$all
 0.0.0.0 adguard-com.cdn.ampproject.org^$all
+
+! DNS
+0.0.0.0 8.8.8.8^$all
+0.0.0.0 8.8.4.4^$all
 
 ! Misc
 0.0.0.0 calicolabs.com^$all
