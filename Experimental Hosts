@@ -3,6 +3,14 @@
 
 ! SHOULDNT BE BLOCKED
 @@||windstream.net
+@@||c-*.g00.cnet.com/g00
+@@||aws.api.snapchat.com
+@@||us-central1-gcp.api.snapchat.com
+@@||appload.ingest.crittercism.com
+! Seems to deliver ads but also legit content on cnet
+@@||sdad.guru
+! CAN BREAK TIKTOK LOGIN
+@@||log2.musical.ly
 
 @@||192.168.*.*$important
 
@@ -84,6 +92,29 @@ googlevideo.com$cookie
 0.0.0.0 radar.imgsmail.ru
 0.0.0.0 apollo-affiliates.com
 0.0.0.0 counter.adguard.com
+0.0.0.0 log.outbrainimg.com
+0.0.0.0 outbrainimg.com
+0.0.0.0 bdfsf.comundefined
+0.0.0.0 cszb553.com
+0.0.0.0 collect.analyze.ly
+0.0.0.0 analyze.ly
+0.0.0.0 dq4irj27fs462.cloudfront.net
+0.0.0.0 common.radar.imgsmail.ru
+0.0.0.0 touchsplash.radar.imgsmail.ru
+0.0.0.0 clientapi.mail.ru
+0.0.0.0 ib-backend.appspot.com
+0.0.0.0 cdn11.contentabc.com
+0.0.0.0 static.trafficjunky.com
+0.0.0.0 cb.ksmobile.com
+0.0.0.0 horoscope.cmcm.com
+0.0.0.0 helpcmbrowser1.ksmobile.com
+0.0.0.0 syndication.site.yahoo.net
+0.0.0.0 black-ca623.firebaseio.com
+0.0.0.0 s-usc1c-nss-236.firebaseio.com
+0.0.0.0 matomo.darken.eu
+0.0.0.0 vip0x04e.ssl.rncdn5.com
+0.0.0.0 uc.jh1230.com
+
 ! https://www.youtube.com/watch?v=oBI4Cl4rM6o
 0.0.0.0 census.zorinos.com
 
@@ -98,6 +129,7 @@ speedtest.net#@#^script:has-text(googletag)
 speedtest.net#@#^script:has-text(gpt-ad)
 
 /google-tracking/
+/gaT.module.js
 /ruxitagentjs_
 
 ! GoGuardian IPs
@@ -105,6 +137,15 @@ speedtest.net#@#^script:has-text(gpt-ad)
 52.89.199.247$network
 52.34.228.147$network
 
+! App Specific
+72.30.35.89$network,app=com.kayac.park_master
+99.192.182.100$network,app=com.tenta.android
+209.244.0.3$network,app=com.tenta.android
+208.67.222.222$network,app=com.tenta.android
+
+! Cisco Blocked Pages - Possibly Built In Analytics
+||wired.meraki.com:8090/blocked.cgi
+!
 www.yelp.co.uk##.alert--not-dismissible.alert--site.alert-info.alert
 ||yelp.co.uk/OYOx6Vj7/init.js
 ||*.amazonaws.com/ssl-intgr-net/tags/
@@ -116,3 +157,17 @@ zigforums.com###ob-AR_1
 foxnews.com##.wn7ydddwjcev
 comss.ru##.container-fluid, .hidden-xs
 vk.com##.apps_feedRightAppsBlock.apps_feedRightAppsBlock_collaborative_recommend_apps
+||hxyzhas.g00.cnet.com/g00/*/ad?
+www.cnet.com###-efsn-sv-hdmk-dwsvwj
+||symbolab.com/detailedLog
+www.symbolab.com##.print-hide.googleLeftSkyScrapper
+www.pressherald.com###pum-3204187
+||talk.pressherald.com/api/v1/graph/ql
+www.zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
+||quizlet.com/event_logger
+||gsuite.google.com/_/AdditnowStoreUi/browserinfo
+nationaldaycalendar.com###pum-392131
+www.cnet.com###article-body > .col-4
+www.cnet.com###-egto-tw-ienl-extwxk
+||tenta.com/pw.php
+||tenta.com/pwjs
