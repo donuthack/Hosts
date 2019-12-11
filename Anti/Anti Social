@@ -1,11 +1,18 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 20
+! Version: 21
 
 ! AddToAny
 ||addtoany.com
 */plugins/add-to-any
+
+! AddThis
+||addthis.com
+##.addthis_button_facebook
+##.addthis_button_twitter
+##.addthis_button_instagram
+##.addthis_button_youtube
 
 ! Facebook
 ||facebook.com/plugins/like.php
@@ -213,13 +220,13 @@
 /*-rrss
 
 ! Buttons / Share Links
-##a[href^="reddit.com/"]
-##a[href^="linkedin.com/"]
-##a[href^="facebook.com/"]
-##a[href^="twitter.com/"]
-##a[href^="telegram.me/"]
-##a[href^="whatsapp.com/"]
-##a[href^="fb-messenger://share/"]
+##a[href*="reddit.com"]
+##a[href*="linkedin.com"]
+##a[href*="facebook.com"]
+##a[href*="twitter.com"]
+##a[href*="telegram.me"]
+##a[href*="whatsapp.com"]
+##a[href*="fb-messenger://share/"]
 ##[onclick^="window.open('reddit.com"]
 ##[onclick^="window.open('linkedin.com"]
 ##[onclick^="window.open('facebook.com"]
@@ -419,3 +426,8 @@ yahoo.com##.canvas-share-buttons, .left-share-buttons
 wordpress.com##a[href*="wordpress.com/feed/"]
 wordpress.com##a[href*="wordpress.com/comment/feed/"]
 wordpress.com##a[href*="wordpress.com/comments/feed/"]
+www.breitbart.com###bsocial
+www.breitbart.com###bbvb
+dailycaller.com##.xl\:pr-6.lg\:mx-4.lg\:mb-0.mb-6.article-column > .pt-10.mb-4.flex.list-none
+dailycaller.com##.article-footer > .pt-10.mb-4.flex.list-none
+www.dailywire.com##a.es81y9m5.css-oe3sn5
