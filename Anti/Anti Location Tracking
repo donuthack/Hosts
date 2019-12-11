@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 14
+! Version: 15
 
 ! Block maps, location analytics, and GPS services
 
@@ -105,6 +105,13 @@
 0.0.0.0 beaconinspace.com
 0.0.0.0 weatherops.com
 0.0.0.0 onelouder.com
+0.0.0.0 loc.nine.com.au
+0.0.0.0 geo1.weatherzone.com.au
+0.0.0.0 geo2.weatherzone.com.au
+0.0.0.0 geo3.weatherzone.com.au
+0.0.0.0 geo4.weatherzone.com.au
+0.0.0.0 ip-adress.com
+0.0.0.0 ipaddress.com
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
@@ -134,6 +141,7 @@
 ||qwant.com/maps
 ||alltrails.com/*/map
 ||carobapps.com/*/inroute
+||api.productreview.com.au/api/geoip
 
 ! AdGuard For Android
 52.72.245.79$network
@@ -144,8 +152,7 @@
 104.18.168.222$network
 172.217.9.67$network
 52.22.113.11$network
-! App Specific
-mapbox.com|^$app=com.snapchat.android
+13.226.19.42$network
 ! Extra
 locuslabs.com|
 mapbox.com|
@@ -246,6 +253,13 @@ izatcloud.net|
 izatcloud.com|
 gpsonextra.net|
 gpsonextra.com|
+loc.nine.com.au|
+geo1.weatherzone.com.au|
+geo2.weatherzone.com.au|
+geo3.weatherzone.com.au|
+geo4.weatherzone.com.au|
+ip-adress.com|
+ipaddress.com|
 
 ! Generic
 *map.online*
