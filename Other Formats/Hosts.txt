@@ -1,11 +1,14 @@
 ! Title: Cybo's Hosts
 ! Expires: 8 hours
-! Version: 1184-1
+! Version: 1185
 ! Version hyphen (-) Means Small Update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.5K
-! Last Modified: Friday, December 6, 2019
+! Last Modified: Tuesday, December 10, 2019
 
 ! Unbreak
+@@||192.168.*.*$important
+speedtest.net#@#^script:has-text(googletag)
+speedtest.net#@#^script:has-text(gpt-ad)
 @@||haberler.com$image
 pearsonrealize.com#@#+js(nobab)
 @@||ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif$domain=mail.google.com
@@ -15,7 +18,6 @@ pearsonrealize.com#@#+js(nobab)
 @@||slickdealscdn.com/images/slickdeals/blank.gif$domain=slickdeals.net
 @@||slickdeals.net/images/slickdeals/blank.gif$domain=slickdeals.net
 @@||undefined/g00/$domain=sportingnews.com
-@@||sdad.guru$domain=sportingnews.com
 @@||api.emsicc.com/sites/*
 @@||static.hotjar.com/$domain=emsicc.com/assessment?
 @@||pandora.com/web-version/*/ads.json?
@@ -60,6 +62,10 @@ pandora.com$genericblock
 @@||s7.addthis.com/js/250/addthis_widget.js^$domain=allsides.com
 @@||totaljerkface.com/adplayer/ads.js
 @@||2a7e9.v.fwmrm.net/ad/$script,domain=channel4.com
+! Seems to deliver ads but also legit content on cnet
+@@||sdad.guru
+! CAN BREAK TIKTOK LOGIN
+@@||log2.musical.ly
 ! Simple Domains
 ! AdGuard Simplified Domains Incorrectly Blocks This -----------------
 @@||smallseotools.com^$important
@@ -329,6 +335,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 162.243.24.21
 0.0.0.0 107.22.193.119
 0.0.0.0 107.22.60.33
+
+! https://www.youtube.com/watch?v=oBI4Cl4rM6o
+0.0.0.0 census.zorinos.com
 
 ! Polarity Technology Ltd Malware Addons( youtube.com/watch?v=GhRC6HDR8GA )
 0.0.0.0 weathercenter.co
@@ -1146,6 +1155,31 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 ad2up.com
+0.0.0.0 adw.wp.pl
+0.0.0.0 adocean.cz
+0.0.0.0 ads.linksrequest.com
+0.0.0.0 ads.yenimedya.com.tr
+0.0.0.0 advgalaxy.com
+0.0.0.0 adwiretracker.fwix.com
+0.0.0.0 adwiretracker.*
+0.0.0.0 affilate.mercola.com
+0.0.0.0 affiliate.ms3388.com
+0.0.0.0 affiliate.productreview.com.au
+0.0.0.0 affiliates.de
+0.0.0.0 analy.qq.com
+0.0.0.0 analyticcdn.wlmediahub.com
+0.0.0.0 appbosh21.wlmediahub.com
+0.0.0.0 analytic.imlive.com
+0.0.0.0 analytics.schoolwires.com
+0.0.0.0 api.ladipage.com
+0.0.0.0 app.purechat.com
+0.0.0.0 api.purechat.com
+0.0.0.0 api-cdn.purechat.com
+0.0.0.0 adn-tksetting-vg-605648748.us-east-1.elb.amazonaws.com
+0.0.0.0 apollo-affiliates.com
+0.0.0.0 analyze.ly
+0.0.0.0 api.growingio.com
 0.0.0.0 ayima.com
 0.0.0.0 ayi.ma
 0.0.0.0 absorbingband.com
@@ -1526,7 +1560,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 a5224106a28855abbbb0825aa5e4cd9bd.profile.ams50.cloudfront.net
 0.0.0.0 abc-ads.com
 0.0.0.0 api.taboola.com
-0.0.0.0 aws.api.snapchat.com
 0.0.0.0 adguardian.net
 0.0.0.0 a.ria.ru
 0.0.0.0 adblockmetrics.ru
@@ -4066,6 +4099,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bigrewards.com-new.net
+0.0.0.0 bango.com
+0.0.0.0 bdfsf.comundefined
+0.0.0.0 black-ca623.firebaseio.com
 0.0.0.0 bemobpath.com
 0.0.0.0 best-prize-2019.com
 0.0.0.0 best-mobile-offers.com
@@ -5019,6 +5056,21 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clickfancy.wap.com
+0.0.0.0 c.ipaddress.com
+0.0.0.0 cnt.nuvid.com
+0.0.0.0 cnt.vivatube.com
+0.0.0.0 collection-day.com
+0.0.0.0 counciladvertising.net
+0.0.0.0 can-digital.net
+0.0.0.0 counter.joins.com
+0.0.0.0 counter.adguard.com
+0.0.0.0 cszb553.com
+0.0.0.0 collect.analyze.ly
+0.0.0.0 common.radar.imgsmail.ru
+0.0.0.0 clientapi.mail.ru
+0.0.0.0 cdn11.contentabc.com
+0.0.0.0 cb.ksmobile.com
 0.0.0.0 chat.customerly.io
 0.0.0.0 customerly.io
 0.0.0.0 click10.online
@@ -5284,7 +5336,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 convertplug.com
 0.0.0.0 criticalmention.com
 0.0.0.0 c00.adobe.com
-0.0.0.0 cs2-wac.apr-8315.edgecastdns.net
 0.0.0.0 cdn-store-icons-highwinds-prd.unityads.unity3d.com
 0.0.0.0 cdn-creatives-highwinds-prd.unityads.unity3d.com
 0.0.0.0 cdm.cursecdn.com
@@ -6151,6 +6202,12 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 die-deutsch-methode.com
+0.0.0.0 dashgreen.online
+0.0.0.0 djfiln.com
+0.0.0.0 d.haberler.com
+0.0.0.0 databox.laydata.com
+0.0.0.0 dq4irj27fs462.cloudfront.net
 0.0.0.0 dadbab.info
 0.0.0.0 downloadyourmobileapp.xyz
 0.0.0.0 dretracking.com
@@ -6900,6 +6957,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 en.offergate.pro
+0.0.0.0 eclick.baidu.com
+0.0.0.0 event-reporting-dot-webylytics.appspot.com
+0.0.0.0 ezpush.me
+0.0.0.0 et2-na61-na62.wagbridge.alibaba.tanx.com
 0.0.0.0 easydirectionsfinder.com
 0.0.0.0 etustracker.com
 0.0.0.0 ewayads.com
@@ -7321,6 +7383,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fly202.globalmailer.com
 0.0.0.0 free.easydirectionsfinder.com
 0.0.0.0 freetemplatefinder.com
 0.0.0.0 free.searchformsonline.com
@@ -7632,6 +7695,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 gifts.stkfree.xyz
+0.0.0.0 gstsvc.webcamwiz.com
+0.0.0.0 growingio.com
 0.0.0.0 getpushmonkey.com
 0.0.0.0 go.click10.online
 0.0.0.0 go.redirdomain.ru
@@ -8044,6 +8110,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hnyny.com
+0.0.0.0 horoscope.cmcm.com
+0.0.0.0 helpcmbrowser1.ksmobile.com
 0.0.0.0 hubvas.123-as-dzx-c123.com
 0.0.0.0 huirnbrfj.com
 0.0.0.0 homes.adtracks.biz
@@ -8286,6 +8355,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 i-stream.pl
+0.0.0.0 imlive.servicebus.windows.net
+0.0.0.0 indieclicktv.com
+0.0.0.0 ib-backend.appspot.com
 0.0.0.0 inistrack.net
 0.0.0.0 insight.ucweb.com
 0.0.0.0 ispcapi.mcafee.com
@@ -9117,6 +9190,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 keepmydevicesafe.com
 0.0.0.0 keapeiros.xyz
 0.0.0.0 killsironmentord.com
 0.0.0.0 k-ring.msedge.net
@@ -9924,7 +9998,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 !L
 0.0.0.0 light-client-log.getapk.cn
 0.0.0.0 lgsmartad.com
-0.0.0.0 log2.musical.ly
 0.0.0.0 lbmarie.alegrium.com
 0.0.0.0 locator.blueswan.io
 0.0.0.0 lp.searchdimension.com
@@ -10212,6 +10285,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 message-76.xyz
+0.0.0.0 ms3388.com
+0.0.0.0 matomo.darken.eu
 0.0.0.0 mpl-id.com
 0.0.0.0 mads-*.amazon.com
 0.0.0.0 msh.amazon.co.uk
@@ -10860,6 +10936,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 nexstardigital.com
 0.0.0.0 newoctads.com
 0.0.0.0 newwedads.com
 0.0.0.0 no-cache.hubspot.com
@@ -11147,6 +11224,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 onclkds.com
+0.0.0.0 offergate.pro
+0.0.0.0 olymptrade.com
+0.0.0.0 outbrainimg.com
 0.0.0.0 oct8ne.com
 0.0.0.0 opentracker.*
 0.0.0.0 opentracker.acgnx.se
@@ -11361,6 +11442,12 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pfundertrk.me
+0.0.0.0 perfectsafeadz.com
+0.0.0.0 parandaya.com
+0.0.0.0 pslweb.org
+0.0.0.0 purechat.com
+0.0.0.0 prod-grpc-alpha-parent-client-gateway.goguardian.com
 0.0.0.0 popup.taboola.com
 0.0.0.0 ping.chartbeat.net
 0.0.0.0 prebid.adnxs.com
@@ -11984,6 +12071,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 p.typekit.net
 
 !Q
+0.0.0.0 qejvh5yd.pw
+0.0.0.0 queuev4.vk.com
 0.0.0.0 q.blueswan.io
 0.0.0.0 qwerfdx.com
 0.0.0.0 qwerty24.net
@@ -12070,6 +12159,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 roomapi-signalr.prod-aws.purechat.com
+0.0.0.0 reklama.mail.ru
+0.0.0.0 radar.imgsmail.ru
 0.0.0.0 redirdomain.ru
 0.0.0.0 r0.mradx.net
 0.0.0.0 r.my.com
@@ -12414,6 +12506,14 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 share-apps.xyz
+0.0.0.0 social-thunder.com
+0.0.0.0 stkfree.xyz
+0.0.0.0 static.olymptrade.com
+0.0.0.0 stat.radar.imgsmail.ru
+0.0.0.0 static.trafficjunky.com
+0.0.0.0 syndication.site.yahoo.net
+0.0.0.0 s-usc1c-nss-236.firebaseio.com
 0.0.0.0 scripts.webcontentassessor.com
 0.0.0.0 searchformsonline.com
 0.0.0.0 stats.vk-portal.net
@@ -12508,7 +12608,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 spinlucky.fun
 0.0.0.0 secure.perk0mean.com
 0.0.0.0 stats.jamwtds.co
-0.0.0.0 sdad.guru
 0.0.0.0 siteheatmaps.com
 0.0.0.0 statsy.net
 0.0.0.0 smart-alerts.goguardian.com
@@ -13070,7 +13169,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 salesiq.zoho.com
 0.0.0.0 www.surfbouncer.com
 0.0.0.0 surfbouncer.com
-0.0.0.0 static.zdassets.com
 0.0.0.0 server-99-84-168-95.ord52.r.cloudfront.net
 0.0.0.0 static.hupso.com
 0.0.0.0 static.vilynx.com
@@ -13768,6 +13866,12 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 traffictrader.net
+0.0.0.0 t.propbn.com
+0.0.0.0 tanx.com
+0.0.0.0 touchsplash.radar.imgsmail.ru
+0.0.0.0 t.growingio.com
+0.0.0.0 tags.growingio.com
 0.0.0.0 tracker-api.my.com
 0.0.0.0 tracksrv.zdf.de
 0.0.0.0 tracker.wf
@@ -14109,7 +14213,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 t.freelancer.com
 0.0.0.0 t-online.hu
 0.0.0.0 trendemon.com
-0.0.0.0 theme.zdassets.com
 0.0.0.0 trafficg.com
 0.0.0.0 tctm.co
 0.0.0.0 www.txt180.com
@@ -14441,6 +14544,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 tt.omtrdc.net
 
 !U
+0.0.0.0 uc.jh1230.com
 0.0.0.0 usage-*-*.myhomescreen.tv
 0.0.0.0 usasync01.admantx.com
 0.0.0.0 ucads-cdn.ucweb.com
@@ -14480,7 +14584,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 upgr-avfree-2017-p.2d8cd.cdn.bitdefender.net
 0.0.0.0 urs.microsoft.com
 0.0.0.0 us-east-1-a.route.herokuapp.com
-0.0.0.0 us-central1-gcp.api.snapchat.com
 0.0.0.0 updatesdk.avlyun.com
 0.0.0.0 up2date.mob.psafe.com
 0.0.0.0 usapi1.xirsys.com
@@ -14490,9 +14593,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 ulogs.umeng.com
 0.0.0.0 ui.staples-sparx.com
 0.0.0.0 us-central1-global-justice-178103.cloudfunctions.net
-0.0.0.0 us-east1-aws.api.snapchat.com
-0.0.0.0 us-west1-aws.api.snapchat.com
-0.0.0.0 us-central1-aws.api.snapchat.com
 0.0.0.0 ultimatelicense.com
 0.0.0.0 uptimecdn.com
 0.0.0.0 unbouncepages.com
@@ -14622,6 +14722,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 us.adserver.yahoo.com
 
 !V
+0.0.0.0 vg-setting.rayjump.com
+0.0.0.0 vg-old-setting.rayjump.com
+0.0.0.0 vip0x04e.ssl.rncdn5.com
 0.0.0.0 vcen.dolphin-browser.com
 0.0.0.0 verifycaptcha.com
 0.0.0.0 visualvisitor.com
@@ -14807,6 +14910,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 weekly-prizes.co
+0.0.0.0 wap.com
+0.0.0.0 wh.ip-adress.com
+0.0.0.0 widgetapi.purechat.com
 0.0.0.0 widget.customerly.io
 0.0.0.0 webcontentassessor.com
 0.0.0.0 wt4xd.bemobpath.com
@@ -15011,7 +15118,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 watchdog.energized.pro
 0.0.0.0 windstream.d2.sc.omtrdc.net
 0.0.0.0 windstreambusiness.net
-0.0.0.0 windstream.net
 0.0.0.0 www.wwwal.com
 0.0.0.0 wwwal.com
 0.0.0.0 web-frontend-dot-sc-analytics.appspot.com
@@ -15173,6 +15279,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 wv.inner-active.mobi
 
 !X
+0.0.0.0 xeptek.pro
 0.0.0.0 xlog-va.musical.ly
 0.0.0.0 xtgreat.com
 0.0.0.0 xxxstats.pro
@@ -15653,6 +15760,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 5eb.cc
+0.0.0.0 9icmzvn6.website
+0.0.0.0 894de8bb784.com
+0.0.0.0 7112992.com
+0.0.0.0 360mobileapp.xyz
 0.0.0.0 *-client-log.getapk.cn
 0.0.0.0 12xlwin2.net
 0.0.0.0 166hdtv.com
@@ -21164,7 +21276,6 @@ download.cnet.com###-enuviifu-lcabn-lucf-nbogvhucfm > .-enlw_lvir_wihnuchyl > di
 download.cnet.com###-eaiiafy_uxm_czlugy_\/8264\/uq-xiqhfiux\/qchxiqm_8
 download.cnet.com###rbox-h2m
 download.cnet.com###trc_header_74263
-||c-*.g00.cnet.com/g00
 download.cnet.com###-evddvat_psh_xugpbt_\/3719\/pl-sdlcadps\/sdlcadpsh_7
 download.cnet.com###-evddvat_psh_xugpbt_\/3719\/pl-sdlcadps\/sdlcadpsh_8
 download.cnet.com##.tbl-logo-right-position.tbl-feed-header
@@ -21530,7 +21641,7 @@ bing.com##li.b_adBottom
 www.windows-noob.com###ipsLayout_mainArea > div:nth-of-type(1)
 laptopunderbudget.com##.onp-sl-overlap-background
 laptopunderbudget.com##.onp-sl-secrets-theme.onp-sl-transparence-mode.onp-sl-overlap-box
-||google.com/insights/consumersurveys/
+||google.com/insights/
 ||jetzt.de/apos-minified/anon-*.js
 ||glasswire.com/pi/
 ||images.ddc.com/*/spacer.gif
@@ -22813,6 +22924,43 @@ www.haberler.com###widget_div_1
 ||imlive.com/Services/ContentGalleryService.ashx?cmd=GetNewPlayerHosts
 www.blackboard.com###cookie-disclosure
 deviceatlas.com###cookie-consent
+contractfortheweb.org##.cc-banner
+gfycat.com##.visible.type4.pro-cta
+||assets.gfycat.com/self/dktp1/collections_dktp1.png$image
+gfycat.com##.top-slot
+gfycat.com##.side-slot > div
+riblink.com##.cookies_informer
+||h.mangatown.com/store/banners
+www.algolia.com##.js-cookies-eu.cookies-eu
+! Cisco Blocked Pages - Possibly Built In Analytics
+||wired.meraki.com:8090/blocked.cgi
+!
+www.yelp.co.uk##.alert--not-dismissible.alert--site.alert-info.alert
+||yelp.co.uk/OYOx6Vj7/init.js
+||*.amazonaws.com/ssl-intgr-net/tags/
+xritephoto.com###cookie_directive_container
+www.youtube.com###contents > .ytd-search-pyv-renderer.style-scope
+||ipv6-api.speedtest.net/getip
+www.omgubuntu.co.uk##.is-active.CookieWarning
+zigforums.com###ob-AR_1
+foxnews.com##.wn7ydddwjcev
+comss.ru##.container-fluid, .hidden-xs
+vk.com##.apps_feedRightAppsBlock.apps_feedRightAppsBlock_collaborative_recommend_apps
+||hxyzhas.g00.cnet.com/g00/*/ad?
+www.cnet.com###-efsn-sv-hdmk-dwsvwj
+||symbolab.com/detailedLog
+www.symbolab.com##.print-hide.googleLeftSkyScrapper
+www.pressherald.com###pum-3204187
+||talk.pressherald.com/api/v1/graph/ql
+www.zdf.de##.js-rb-attached.m-open.x-cookies.b-system-dialog
+||quizlet.com/event_logger
+||gsuite.google.com/_/AdditnowStoreUi/browserinfo
+nationaldaycalendar.com###pum-392131
+www.cnet.com###article-body > .col-4
+www.cnet.com###-egto-tw-ienl-extwxk
+||tenta.com/pw.php
+||tenta.com/pwjs
+||ipchicken.com/images/pixel.gif
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -22874,6 +23022,7 @@ crashlytics.com|
 ! Whitelist
 @@||sourceforge.net$generichide,genericblock
 @@||sourceforge.net$cookie
+@@||auth.adguard.com$cookie
 
 ! https://forum.adguard.com/index.php?threads/http-rt-pornhub-com.12443/
 pornhub.com#%#AG_onLoad(function() { if (typeof redirect !== 'function') return; var str = redirect.toString(); var m = str.match(/\'(\/view.*)\'/); if (m.length != 2) return; var link = m[1]; window.location.href = m[1]; });
@@ -22888,7 +23037,8 @@ dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
-*$cookie=/_landing_page|http_referrer|_device_id|has_recent_activity|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript/
+*$cookie=/wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript/
+googlevideo.com$cookie
 msn.com$cookie=anoncknm|RecentStocks
 ninecorners.com$cookie
 oomph.de$cookie
@@ -22920,7 +23070,7 @@ staticflickr.com$cookie,third-party
 swiftype.com$cookie,third-party
 infowarsmedia.com$cookie,third-party
 store.steampowered.*$cookie,domain=steam.tv
-yahoo.com$cookie=/apeaf|ucs|thamba|B|flash_enabled/
+yahoo.com$cookie=/apeaf|ucs|thamba|flash_enabled/
 facebook.com$cookie=/datr|fr|wd/
 github.com$cookie=/tz/
 google.*$cookie=/GMAIL_LOGIN|COMPASS|GMAIL_AT|GMAIL_STAT_|__Host-GMAIL_SCH_/
@@ -22980,6 +23130,10 @@ $webrtc,domain=nsa.gov
 35.201.97.85$network
 ! Facebook IP
 157.240.18.15$network
+! GoGuardian IPs
+34.216.47.158$network
+52.89.199.247$network
+52.34.228.147$network
 !#endif
 !#if (adguard_app_android && !ext_ublock)
 ! App Specific
@@ -23056,6 +23210,10 @@ premiumyva.appspot.com$app=com.google.android.youtube
 198.50.238.156$network,app=com.alegrium.cong2
 clad.perfectcorp.com$app=com.cyberlink.youperfect
 perf-events.cloud.unity3d.com$app=com.codigames.idle.fitness.gym.tycoon
+72.30.35.89$network,app=com.kayac.park_master
+99.192.182.100$network,app=com.tenta.android
+209.244.0.3$network,app=com.tenta.android
+208.67.222.222$network,app=com.tenta.android
 ! Nox Android Emulator
 47.254.40.233$network,app=system
 47.88.66.23$network,app=system
@@ -23068,6 +23226,9 @@ perf-events.cloud.unity3d.com$app=com.codigames.idle.fitness.gym.tycoon
 *freemonies*
 
 ! Wildcard
+/google-tracking/
+/gaT.module.js
+/ruxitagentjs_
 /redirect/?spot_id
 /googleads.css
 /adx.css
@@ -23621,7 +23782,6 @@ images-na.ssl-images-amazon.com/images/G/01/x-locale/common/transparent-pixel._*
 /google-adblock.js
 /ramy6P8ui3ZlbYWn/
 /gm-ga.min.js
-/favicon.ico$third-party,domain=~discprdapp.com|~github.com
 /showads.js
 /adoefieldlite-
 /plugins/mashsharer/$script
