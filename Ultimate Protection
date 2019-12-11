@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 28-1
+! Version: 29
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
 ! Last Modified: Wednesday, December 11, 2019
@@ -44,6 +44,8 @@ twitter.com$script
 ! StartPage was bought in part by a targeted advertising company
 ||startpage.com^$all
 startpage|
+! IP
+216.218.239.62$network
 
 ! Nothing Is Free / Too Good To Be True / Probably Data Mines
 ! "Honey"
@@ -132,8 +134,11 @@ adblockplus.org|
 ! Tracker In Windows By Default
 0.0.0.0 candycrushsoda.king.com
 
-! Extra Non-Specific Trackers
+! Extra Non-Specific Stuffs
 0.0.0.0 graph.accountkit.com
+*affilate*
+*beacon*
+*clk*
 
 ! From https://github.com/dex4k/dex4kblocklist/blob/master/dex4kblocklistextras.txt#L83
 ! Apple
