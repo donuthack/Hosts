@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 28
+! Version: 28-1
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
-! Last Modified: Friday, December 6, 2019
+! Last Modified: Wednesday, December 11, 2019
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -282,6 +282,7 @@ wu-calculator.apple.com
 %geo=
 &ip=
 %ip=
+ip_
 &isp=
 %isp=
 &browser=
