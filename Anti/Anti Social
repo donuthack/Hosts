@@ -1,7 +1,7 @@
 [Adblock Plus]
 ! Title: Cybo's Anti Social
 ! Expires: 1 day
-! Version: 22
+! Version: 23
 
 ! This list somehow breaks Pandora music
 pandora.com$generichide
@@ -181,6 +181,10 @@ pandora.com$generichide
 ||mail.com
 ||zoho.com/mail
 ||my.juno.com
+
+! Extra
+||chat.yellw.co
+||yellw.co
 
 ! Comments
 ||facebook.com/plugins/comments.php
@@ -397,6 +401,50 @@ pandora.com$generichide
 ##.twitter
 ##.fb
 ##.facebook
+##.SocialMediaShareButton--facebook
+##.SocialMediaShareButton--twitter
+##.SocialMediaShareButton--instagram
+##.SocialMediaShareButton--youtube
+##.SocialMediaShareButton--email
+##.SocialMediaShareButton
+##.share-wrap
+##.share
+##.articleHeadlineShareFacebook
+##.articleHeadlineSharePinterest
+##.articleHeadlineShareTwitter
+##.articleHeadlineShareGooglePlus
+##.articleHeadlineShareLinkedIn
+##.articleHeadlineShares
+##..articleHeadlineShare
+##.articleHeadlineShareLong
+##.articleFooterFollow
+##.articleFooterFollows
+##.articleFooterShares
+##.articleRateButton
+##.ui-icon-youtube-play
+##.ui-icon-instagram
+##.ui-icon-pinterest
+##.md-social-toolbar-circle
+##.et-social-icon
+##.et-social-rss
+##.html5aside.social
+##.share-tool
+##.instagram
+##.google-plus
+##.youtube
+##.pinterest
+##.fa-instagram
+##.fa-google-plus
+##.fa-youtube
+##.fa-pinterest
+##.dpsp-pinterest
+##.dpsp-whatsapp
+##.dpsp-tumblr
+##.dpsp-flipboard
+##.dpsp-email
+##.dpsp-network-icon
+##.dpsp-network-btn
+##.dpsp-total-share-wrapper
 -facebook
 -fb
 -twitter
@@ -435,3 +483,4 @@ dailycaller.com##.xl\:pr-6.lg\:mx-4.lg\:mb-0.mb-6.article-column > .pt-10.mb-4.f
 dailycaller.com##.article-footer > .pt-10.mb-4.flex.list-none
 www.dailywire.com##a.es81y9m5.css-oe3sn5
 thehackernews.com##.cf.f-menu-cl-4
+www.britannica.com##.middle-xs.center-xs.ui-icon
