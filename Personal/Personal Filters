@@ -1,6 +1,6 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
-! Version: 2
+! Version: 3
 
 !#if (adguard && !ext_ublock)
 ! Non uBlock/Nano Supported Include
@@ -11,7 +11,6 @@
 
 ! uBlock/Nano
 !--- PERSONAL FILTERS DONT ADD TO LISTS ---!
-||appspot.com^$all
 ||cloudfront.net^$all
 ||bit.ly^$all
 ||bitly.com^$all
@@ -33,6 +32,7 @@
 ||1.0.0.1^$all
 ! No Scripts On .Gov Domains
 ||*.gov$script,inline-script
+||*.gov.*$script,inline-script
 ! Block Chinese Top-Level Domains (https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains/)
 ||*.cn^$all
 ||*.mo^$all
@@ -42,13 +42,13 @@
 ||*.unicom^$all
 ! Chinese Crap
 ||cnvid.net^$all
+||dnspod.net^$all
+||dnspod.cn^$all
 ! Stores
 ||refer.walmart.com^$all
 ! Amazon Hosting
 ||*cloudfront.*^$all
 ||*aws.amazon.*^$all
-! 000WebHost
-||000webhost.com^$all
 ! CSP
 *$csp='upgrade-insecure-requests';
 ! Add Event Listener Defuser
