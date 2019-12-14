@@ -1,13 +1,30 @@
 ! Title: Cybo's Anti Facebook
 ! Expires: 1 day
-! Version: 3
+! Version: 4
 
-0.0.0.0 facebook.*
-0.0.0.0 www.facebook.*
+! DNS Sinkholes
+0.0.0.0 facebook.com
+0.0.0.0 www.facebook.com
+0.0.0.0 facebook.net
+0.0.0.0 www.facebook.net
+0.0.0.0 m.facebook.com
 0.0.0.0 graph.facebook.com
-0.0.0.0 star-mini.*.facebook.com
+0.0.0.0 badge.facebook.com
+0.0.0.0 api-read.facebook.com
+0.0.0.0 api.facebook.com
+0.0.0.0 connect.facebook.com
+0.0.0.0 connect.facebook.net
+0.0.0.0 profile.ak.fbcdn.net
+0.0.0.0 static.ak.fbcdn.net
+0.0.0.0 staticxx.facebook.com
+0.0.0.0 channel.facebook.com
+0.0.0.0 b-api.facebook.com
+0.0.0.0 b-graph.facebook.com
+0.0.0.0 lookaside.facebook.com
+0.0.0.0 mqtt-mini.facebook.com
 0.0.0.0 fbcdn.com
 0.0.0.0 fbcdn.net
+0.0.0.0 portal.fb.com
 0.0.0.0 fb.com
 0.0.0.0 fb.me
 0.0.0.0 fbsbx.com
@@ -16,6 +33,7 @@
 0.0.0.0 m.me
 0.0.0.0 instagram.com
 0.0.0.0 cdninstagram.com
+0.0.0.0 v.whatsapp.net
 0.0.0.0 whatsapp.com
 0.0.0.0 whatsapp.net
 0.0.0.0 instagramstatic-a.akamaihd.net
@@ -25,12 +43,29 @@
 0.0.0.0 fbcdn-profile-a.akamaihd.net
 0.0.0.0 h-ct-m-fbx.fbsbx.com.online-metrix.net
 0.0.0.0 sac-h-ct-m-fbx.fbsbx.com.online-metrix.net
+0.0.0.0 b.i.instagram.com
+0.0.0.0 i.instagram.com
+0.0.0.0 internet.org
+0.0.0.0 freebasics.com
+
+! Adblockers
 0.0.0.0 fbcdn-video-*.akamaihd.net
 0.0.0.0 fbcdn-vthumb-*.akamaihd.net
 0.0.0.0 fbexternal-*.akamaihd.net
 0.0.0.0 fbstatic-*.akamaihd.net
-0.0.0.0 internet.org
-0.0.0.0 freebasics.com
+0.0.0.0 scontent-*.fbcdn.net
+0.0.0.0 star-mini.*.facebook.com
+0.0.0.0 b-*.facebook.com
+0.0.0.0 fbcdn-photos-*.*
+0.0.0.0 fbcdn-sphotos-*.
+0.0.0.0 fbcdn-profile-*.*
+0.0.0.0 fbexternal-*.*
+0.0.0.0 facebook.*
+0.0.0.0 *.instagram.com
+0.0.0.0 *.whatsapp.net
+
+?*facebook*
+?*.facebook.*
 
 ! Extra AdGuard Specific
 facebook.*|
