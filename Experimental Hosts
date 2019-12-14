@@ -1,2 +1,83 @@
 ! Title: Cybo's Experimental Hosts
 ! Expires: 8 hours
+
+! Needs a lot of testing
+||s.yimg.com/wi/ytc.js
+
+! From uBlock Filters
+bing.com##.b_algo:has(p:matches-css-before(content: "Ad"))
+
+! Fixes
+pressherald.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+
+0.0.0.0 analyticsacademy.withgoogle.com
+0.0.0.0 bidbarrel.cbsnews.com
+0.0.0.0 a.nytimes.com
+0.0.0.0 meter-svc.nytimes.com
+0.0.0.0 bucket1.mm-syringe.com
+0.0.0.0 mm-syringe.com
+0.0.0.0 hope-of-israel.org
+0.0.0.0 hstry.eu
+0.0.0.0 raintwig.com
+0.0.0.0 ezojs.com
+0.0.0.0 hhsstopbullying.mpeasylink.com
+0.0.0.0 mpeasylink.com
+0.0.0.0 iq-in-xbc.1e100.net
+0.0.0.0 iz-in-f188.1e100.net
+0.0.0.0 jm-in-xbc.1e100.net
+0.0.0.0 ord37s03-in-x02.1e100.net
+0.0.0.0 ord30s26-in-f10.1e100.net
+0.0.0.0 ord38s19-in-x02.1e100.net
+0.0.0.0 lga15s48-in-f194.1e100.net
+0.0.0.0 ord38s18-in-x0a.1e100.net
+0.0.0.0 ord36s01-in-f14.1e100.net
+0.0.0.0 gamestats.gs.nintendowifi.net
+0.0.0.0 gamestats2.gs.nintendowifi.net
+
+/bidbarrel-cbsnews$script
+/vhs-plugin-*-analytics.min.js
+/ip_seg_
+/gciAnalytics.js
+=nyt-vi&referrer=
+
+##.partner-overlay-top-ad
+##.poster-scroll-ad
+##.ahe-ad
+##.ad-disclaimer
+##.ad-container
+##.ad-container--inarticle1
+##.ad-container--inarticle2
+##.ad-container--inarticle3
+##.ad-container--inarticle4
+##.ad-container--inarticle5
+##.ad-container--inarticle6
+##.ad-container--inarticle7
+##.ad-container--inarticle8
+##.ad-container--inarticle9
+##.ad-container--inarticle10
+##.ad-container__notification
+##.ad-container--lead1--18
+##.ad-container--lead1.ad-container
+
+quizlet.com##.SetPageTerms-embeddedDesktopAdWrapper
+quizlet.com##.SetPage-inferiorAdz.SetPage-adz
+||gannett-cdn.com/partner/vendor/pbjsandwich-$script
+||gannett-cdn.com/uxstatic/*overlay/pages/story-overlay.js
+www.dailywire.com##.ehgqkai0.css-5fqhws > div:nth-of-type(1)
+www.dailywire.com##.enc9ux60.css-sabs64.fitvids.load-external-scripts.fbia-body.post-body > div:nth-of-type(1)
+www.dailywire.com##.enc9ux60.css-sabs64.fitvids.load-external-scripts.fbia-body.post-body > div:nth-of-type(2) > div
+www.dailywire.com##div:nth-of-type(3) > div
+www.dailywire.com##.e1rizci20.css-99f077
+www.ancient.eu###mc-embedded-subscribe-form
+www.ancient.eu##.membership_below_notice
+www.dkfindout.com##.cookies-container
+www.britannica.com##.center-xs.catfish
+www.historyonthenet.com##.is_desktop
+theculturetrip.com##.bannerstyled__CookieBannerWrapper-irgboo-1
+||services.adremover.org/api/pipe/view.gif
+||services.adremover.org/api/match/
+||adremover.org/templates.html
+www.coolmathgames.com##.pane-cmatgame-advertisement-cm-g-otherpages-728-90
+www.acikkart.com###cookiesdirective
+www.bing.com###b_op_anch
+www.boston.com##.content-toaster--newsletter.content-toaster
