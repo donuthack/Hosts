@@ -1,7 +1,7 @@
 ! Title: Cybo's Simplified Domains
 ! Expires: 8 hours
-! Version: 1185
-! Last Modified: Tuesday, December 10, 2019
+! Version: 1186
+! Last Modified: Sunday, December 15, 2019
 
 ! This List Is Better Than The Other Hosts For DNS Sinkholes And Slow Computers
 ! (If Used With An Adblocker)
@@ -941,6 +941,10 @@ pandora.com$genericblock
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 a.mafiagameglobal.com
+0.0.0.0 ana.whisper.sh
+0.0.0.0 analyticsacademy.withgoogle.com
+0.0.0.0 a.nytimes.com
 0.0.0.0 ad2up.com
 0.0.0.0 adw.wp.pl
 0.0.0.0 adocean.cz
@@ -3885,6 +3889,9 @@ pandora.com$genericblock
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bi.kinecosystembi.com
+0.0.0.0 bidbarrel.cbsnews.com
+0.0.0.0 bucket1.mm-syringe.com
 0.0.0.0 bigrewards.com-new.net
 0.0.0.0 bango.com
 0.0.0.0 bdfsf.comundefined
@@ -4842,6 +4849,13 @@ pandora.com$genericblock
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 clientmetrics.kik.com
+0.0.0.0 clientmetrics-augmentum.kik.com
+0.0.0.0 clientmetrics-augmentum.kik.com
+0.0.0.0 clientmetrics.kik.com
+0.0.0.0 clientmetrics-ws-b-65556556.us-east-1.elb.amazonaws.com
+0.0.0.0 config.inmobi.com
+0.0.0.0 config.eastus.avi.inmobi.com
 0.0.0.0 clickfancy.wap.com
 0.0.0.0 c.ipaddress.com
 0.0.0.0 cnt.nuvid.com
@@ -5988,6 +6002,7 @@ pandora.com$genericblock
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 data.media-lab.ai
 0.0.0.0 die-deutsch-methode.com
 0.0.0.0 dashgreen.online
 0.0.0.0 djfiln.com
@@ -6743,6 +6758,7 @@ pandora.com$genericblock
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 ezojs.com
 0.0.0.0 en.offergate.pro
 0.0.0.0 eclick.baidu.com
 0.0.0.0 event-reporting-dot-webylytics.appspot.com
@@ -7481,6 +7497,11 @@ pandora.com$genericblock
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 geo-media.beatport.com
+0.0.0.0 googlezip.net
+0.0.0.0 gingie.com
+0.0.0.0 gamestats.gs.nintendowifi.net
+0.0.0.0 gamestats2.gs.nintendowifi.net
 0.0.0.0 gifts.stkfree.xyz
 0.0.0.0 gstsvc.webcamwiz.com
 0.0.0.0 growingio.com
@@ -7896,6 +7917,9 @@ pandora.com$genericblock
 0.0.0.0 gannett.hb.omtrdc.net
 
 !H
+0.0.0.0 hope-of-israel.org
+0.0.0.0 hstry.eu
+0.0.0.0 hhsstopbullying.mpeasylink.com
 0.0.0.0 hnyny.com
 0.0.0.0 horoscope.cmcm.com
 0.0.0.0 helpcmbrowser1.ksmobile.com
@@ -8141,6 +8165,8 @@ pandora.com$genericblock
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 iq-in-xbc.1e100.net
+0.0.0.0 iz-in-f188.1e100.net
 0.0.0.0 i-stream.pl
 0.0.0.0 imlive.servicebus.windows.net
 0.0.0.0 indieclicktv.com
@@ -8861,6 +8887,7 @@ pandora.com$genericblock
 0.0.0.0 init.supersonicads.com
 
 !J
+0.0.0.0 jm-in-xbc.1e100.net
 0.0.0.0 justads.link
 0.0.0.0 js.hsleadflows.net
 0.0.0.0 js.usemessages.com
@@ -8976,6 +9003,8 @@ pandora.com$genericblock
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 kvinit-prod.api.kochava.com
+0.0.0.0 kikinteractive.zendesk.com
 0.0.0.0 keepmydevicesafe.com
 0.0.0.0 keapeiros.xyz
 0.0.0.0 killsironmentord.com
@@ -9782,6 +9811,8 @@ pandora.com$genericblock
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 live-playphoto.servers.kwalee.com
+0.0.0.0 lga15s48-in-f194.1e100.net
 0.0.0.0 light-client-log.getapk.cn
 0.0.0.0 lgsmartad.com
 0.0.0.0 lbmarie.alegrium.com
@@ -10071,6 +10102,10 @@ pandora.com$genericblock
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mktcs-cloudapps.glb-ext.cisco.com
+0.0.0.0 meter-svc.nytimes.com
+0.0.0.0 mm-syringe.com
+0.0.0.0 mpeasylink.com
 0.0.0.0 message-76.xyz
 0.0.0.0 ms3388.com
 0.0.0.0 matomo.darken.eu
@@ -10660,7 +10695,6 @@ pandora.com$genericblock
 0.0.0.0 myad.clicksor.net
 0.0.0.0 mp.clicksor.net
 0.0.0.0 m.servedby-buysellads.com
-0.0.0.0 mobilenetworkscoring-pa.googleapis.com
 0.0.0.0 mimageads.googleadservices.com
 0.0.0.0 mimageads1.googleadservices.com
 0.0.0.0 mimageads2.googleadservices.com
@@ -11010,6 +11044,11 @@ pandora.com$genericblock
 0.0.0.0 n149adserv.com
 
 !O
+0.0.0.0 ord37s03-in-x02.1e100.net
+0.0.0.0 ord30s26-in-f10.1e100.net
+0.0.0.0 ord38s19-in-x02.1e100.net
+0.0.0.0 ord38s18-in-x0a.1e100.net
+0.0.0.0 ord36s01-in-f14.1e100.net
 0.0.0.0 onclkds.com
 0.0.0.0 offergate.pro
 0.0.0.0 olymptrade.com
@@ -11228,6 +11267,7 @@ pandora.com$genericblock
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 pornhub-d.com
 0.0.0.0 pfundertrk.me
 0.0.0.0 perfectsafeadz.com
 0.0.0.0 parandaya.com
@@ -11945,6 +11985,7 @@ pandora.com$genericblock
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 raintwig.com
 0.0.0.0 roomapi-signalr.prod-aws.purechat.com
 0.0.0.0 reklama.mail.ru
 0.0.0.0 radar.imgsmail.ru
@@ -12292,6 +12333,8 @@ pandora.com$genericblock
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 scorecard.wspisp.net
+0.0.0.0 stats.monohost.com
 0.0.0.0 share-apps.xyz
 0.0.0.0 social-thunder.com
 0.0.0.0 stkfree.xyz
@@ -14696,6 +14739,7 @@ pandora.com$genericblock
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 wspisp.net
 0.0.0.0 weekly-prizes.co
 0.0.0.0 wap.com
 0.0.0.0 wh.ip-adress.com
