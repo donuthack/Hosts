@@ -1,10 +1,10 @@
 [Adblock Plus 3.0]
 ! Title: Cybo's Hosts - Extra Format [Adblock Plus]
 ! Expires: 8 hours
-! Version: 1185
+! Version: 1186
 ! Version hyphen (-) Means Small Update
 ! Approximate Number Of Ad Services, Trackers, And Malware Blocked: 25.5K
-! Last Modified: Tuesday, December 10, 2019
+! Last Modified: Sunday, December 15, 2019
 
 ! This is the main hosts file but 0.0.0.0 was replaced with *://*
 ! This was made to help with blocking on archive.org where normal blocking with 0.0.0.0, 127.0.0.1, and || wont get the
@@ -125,7 +125,7 @@ pandora.com$genericblock
 ! Screen resolution tracker
 /[&]s(screen)?[=][0-9]{3,}x[0-9]{3,}[&]/
 ! Platform Tracker
-/[&]platform[=][a-zA-Z]/
+/[&]platform[=][a-zA-Z]/$domain=~spotify.com
 ! Get the hard to block sponsored content on Reuters
 /[?o=][0-9]{2,}[&][a-z][=][0-9]{3,}[&][a-z][=][0-9]{1,}[&][a-z][=][0-9]{10,}[&][a-z][=][0-9]{3,}[&][a-z][=][A-Z]/$domain=reutersmedia.net|reuters.com
 ! General advert blocker
@@ -169,7 +169,7 @@ verizonwireless.com#$#.sub-container-gnav { min-height: 90px !important; }
 pandora.com#$#.SimilarArtists--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Lyrics--nowPlaying { margin-bottom: 5px !important; }
 pandora.com#$#.Fillet { margin-bottom: 5px !important; }
-digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com,washingtonpost.com,gunfacts.info,washingtonpost.com,sharepointsky.com,zoomowl.co,helpfulprofessor.com,theconspiracyblog.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
+digg.com,democracynow.org,tribunademinas.com.br,shmoop.com,latimes.com,tribunademinas.com.br,shop.dailycaller.com,washingtonpost.com,demorgen.be,expertreviews.co.uk,klove.com,themighty.com,techwalla.com,itpro.co.uk,alphr.com,nbcnews.com,pixlr.com,nbcnews.com,washingtonpost.com,gunfacts.info,washingtonpost.com,sharepointsky.com,zoomowl.co,helpfulprofessor.com,theconspiracyblog.com,pressherald.com#$#body { overflow-x: hidden !important; overflow-y: scroll !important; }
 
 ! Conveniences
 ! Remove/Sanatize FuckAdBlock, BlockAdBlock, SniffAdBlock, fuckAdBlock, blockAdBlock, and sniffAdBlock on any uBlock Origin based adblocker (Automatically runs on every site)
@@ -1160,6 +1160,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*idmsa.apple.com/appleauth/jslog
 
 !A
+*://*a.mafiagameglobal.com
+*://*ana.whisper.sh
+*://*analyticsacademy.withgoogle.com
+*://*a.nytimes.com
 *://*ad2up.com
 *://*adw.wp.pl
 *://*adocean.cz
@@ -4104,6 +4108,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*a.ads2.msads.net
 
 !B
+*://*bi.kinecosystembi.com
+*://*bidbarrel.cbsnews.com
+*://*bucket1.mm-syringe.com
 *://*bigrewards.com-new.net
 *://*bango.com
 *://*bdfsf.comundefined
@@ -5061,6 +5068,13 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*bam.nr-data.net
 
 !C
+*://*clientmetrics.kik.com
+*://*clientmetrics-augmentum.kik.com
+*://*clientmetrics-augmentum.kik.com
+*://*clientmetrics.kik.com
+*://*clientmetrics-ws-b-65556556.us-east-1.elb.amazonaws.com
+*://*config.inmobi.com
+*://*config.eastus.avi.inmobi.com
 *://*clickfancy.wap.com
 *://*c.ipaddress.com
 *://*cnt.nuvid.com
@@ -6207,6 +6221,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*creative.medialytics.com
 
 !D
+*://*data.media-lab.ai
 *://*die-deutsch-methode.com
 *://*dashgreen.online
 *://*djfiln.com
@@ -6962,6 +6977,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*downloads.mailchimp.com
 
 !E
+*://*ezojs.com
 *://*en.offergate.pro
 *://*eclick.baidu.com
 *://*event-reporting-dot-webylytics.appspot.com
@@ -7700,6 +7716,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*freshmarketer.com
 
 !G
+*://*geo-media.beatport.com
+*://*googlezip.net
+*://*gingie.com
+*://*gamestats.gs.nintendowifi.net
+*://*gamestats2.gs.nintendowifi.net
 *://*gifts.stkfree.xyz
 *://*gstsvc.webcamwiz.com
 *://*growingio.com
@@ -8115,6 +8136,9 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*gannett.hb.omtrdc.net
 
 !H
+*://*hope-of-israel.org
+*://*hstry.eu
+*://*hhsstopbullying.mpeasylink.com
 *://*hnyny.com
 *://*horoscope.cmcm.com
 *://*helpcmbrowser1.ksmobile.com
@@ -8360,6 +8384,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*helpshift.com
 
 !I
+*://*iq-in-xbc.1e100.net
+*://*iz-in-f188.1e100.net
 *://*i-stream.pl
 *://*imlive.servicebus.windows.net
 *://*indieclicktv.com
@@ -9080,6 +9106,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*init.supersonicads.com
 
 !J
+*://*jm-in-xbc.1e100.net
 *://*justads.link
 *://*js.hsleadflows.net
 *://*js.usemessages.com
@@ -9195,6 +9222,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*js.users.51.la
 
 !K
+*://*kvinit-prod.api.kochava.com
+*://*kikinteractive.zendesk.com
 *://*keepmydevicesafe.com
 *://*keapeiros.xyz
 *://*killsironmentord.com
@@ -10001,6 +10030,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*krxd.net
 
 !L
+*://*live-playphoto.servers.kwalee.com
+*://*lga15s48-in-f194.1e100.net
 *://*light-client-log.getapk.cn
 *://*lgsmartad.com
 *://*lbmarie.alegrium.com
@@ -10290,6 +10321,10 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*location.silverpush.com
 
 !M
+*://*mktcs-cloudapps.glb-ext.cisco.com
+*://*meter-svc.nytimes.com
+*://*mm-syringe.com
+*://*mpeasylink.com
 *://*message-76.xyz
 *://*ms3388.com
 *://*matomo.darken.eu
@@ -10879,7 +10914,6 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*myad.clicksor.net
 *://*mp.clicksor.net
 *://*m.servedby-buysellads.com
-*://*mobilenetworkscoring-pa.googleapis.com
 *://*mimageads.googleadservices.com
 *://*mimageads1.googleadservices.com
 *://*mimageads2.googleadservices.com
@@ -11229,6 +11263,11 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*n149adserv.com
 
 !O
+*://*ord37s03-in-x02.1e100.net
+*://*ord30s26-in-f10.1e100.net
+*://*ord38s19-in-x02.1e100.net
+*://*ord38s18-in-x0a.1e100.net
+*://*ord36s01-in-f14.1e100.net
 *://*onclkds.com
 *://*offergate.pro
 *://*olymptrade.com
@@ -11447,6 +11486,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*open.ad.yieldmanager.net
 
 !P
+*://*pornhub-d.com
 *://*pfundertrk.me
 *://*perfectsafeadz.com
 *://*parandaya.com
@@ -12164,6 +12204,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*qnsr.com
 
 !R
+*://*raintwig.com
 *://*roomapi-signalr.prod-aws.purechat.com
 *://*reklama.mail.ru
 *://*radar.imgsmail.ru
@@ -12511,6 +12552,8 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*r.skimresources.com
 
 !S
+*://*scorecard.wspisp.net
+*://*stats.monohost.com
 *://*share-apps.xyz
 *://*social-thunder.com
 *://*stkfree.xyz
@@ -14915,6 +14958,7 @@ oui.sncf##+js(acis, document.getElementById, vscaUrl)
 *://*v.admaster.com.cn
 
 !W
+*://*wspisp.net
 *://*weekly-prizes.co
 *://*wap.com
 *://*wh.ip-adress.com
@@ -22966,6 +23010,55 @@ www.cnet.com###-egto-tw-ienl-extwxk
 ||tenta.com/pw.php
 ||tenta.com/pwjs
 ||ipchicken.com/images/pixel.gif
+open.spotify.com##.LeaderboardAdContainer
+www.sheerid.com##.avia-cookiemessage-bottom-left.avia-cookie-consent
+www.1001tracklists.com###cookieMessage
+www.beatport.com##.cookie-banner
+||www.1001tracklists.com/images/artworks/campaigns/*.gif$image
+spinninrecords.com###cookies-eu-banner
+www.1001tracklists.com##[href*="spinninrecords.release.link"]
+www.1001tracklists.com##[href*="nyx.lnk.to"]
+www.1001tracklists.com##[href*="thrive.fanlink.to"]
+youtube.com##a[href*="googleadservices.com"]
+www.youtube.com##.ytd-compact-promoted-video-renderer
+||paypal.com/tagmanager/
+www.kik.com##.on.cookie_policy_outer
+www.kik.com##.floating_help_center
+||secure.informaction.com/ipecho
+www.color-hex.com###cookielaw
+||jg.bjpengyi.com/index/game/count?
+evutec.com##.modal--exit-popup.modal
+www.juji.tv##[href^="http://jg.bjpengyi.com/index/game/count"]
+||tt.douyaobuy.com/ezidcz?$subdocument
+quizlet.com##.SetPageTerms-embeddedDesktopAdWrapper
+quizlet.com##.SetPage-inferiorAdz.SetPage-adz
+||gannett-cdn.com/partner/vendor/pbjsandwich-$script
+||gannett-cdn.com/uxstatic/*overlay/pages/story-overlay.js
+www.dailywire.com##.ehgqkai0.css-5fqhws > div:nth-of-type(1)
+www.dailywire.com##.enc9ux60.css-sabs64.fitvids.load-external-scripts.fbia-body.post-body > div:nth-of-type(1)
+www.dailywire.com##.enc9ux60.css-sabs64.fitvids.load-external-scripts.fbia-body.post-body > div:nth-of-type(2) > div
+www.dailywire.com##div:nth-of-type(3) > div
+www.dailywire.com##.e1rizci20.css-99f077
+www.ancient.eu###mc-embedded-subscribe-form
+www.ancient.eu##.membership_below_notice
+www.dkfindout.com##.cookies-container
+www.britannica.com##.center-xs.catfish
+www.historyonthenet.com##.is_desktop
+itbimg/itb.jpg$domain=tubeoffline.com
+theculturetrip.com##.bannerstyled__CookieBannerWrapper-irgboo-1
+||services.adremover.org/api/pipe/view.gif
+||services.adremover.org/api/match/
+||adremover.org/templates.html
+www.coolmathgames.com##.pane-cmatgame-advertisement-cm-g-otherpages-728-90
+www.acikkart.com###cookiesdirective
+www.bing.com###b_op_anch
+www.boston.com##.content-toaster--newsletter.content-toaster
+! From uBlock Filters
+bing.com##.b_algo:has(p:matches-css-before(content: "Ad"))
+!
+||bestgore.com/hzizvfcvxr.php
+knowyourmeme.com##.complex-ad-wrapper
+||horizon.kinfederation.com/metrics
 
 ! Nano Adblocker Stuffs
 dailycaller.com##+js(nanop-easy-set-cookie.js, __adblocker = false)
@@ -23042,7 +23135,7 @@ dailycaller.com#%#document.cookie = "__adblocker = false"
 businessinsider.com#%#document.cookie = "__adblocker = false"
 ! Anti Tracking Cookies
 !+ NOT_OPTIMIZED
-*$cookie=/wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript/
+*$cookie=/wordpress_last_visit|wpdiscuz_last_visit|_landing_page|http_referrer|_device_id|_parsely_visitor|slimstat_tracking_code|view_count|played_games_ids|ABTEST|ip|KinjaSession|country|visited|counter|countrycode|city|session_tracker|cookies.js|location-data|smpush_safari_device_token|smpush_device_token|_gcl_au|gup_clientid|floodlightPixelTimer|geo|IPLOC|browerV|__utmz|__utma|__utmc|__utmb|__utmt|_ga|uid|_gat|PHPSESSID|__cfduid|UIDR|pid|uuid2|tuuid|_drt_|uuidc|__gads|ASP.NET_SessionId|anj|__atuvc|__atuvs|di2|rpx|rpb|bku|bkdc|yandexuid|TDID|yabs-sid|khaos|TDCPM|__qca|IDE|PUBMDCID|guest_id|wfivefivec|na_tc|bkc|bklc|OAID|JEB2|CMPS|CMID|CfP|ra1_uid|CMST|CMDD|CMSC|_cc_cc|_cc_id|_cc_dc|_cc_aud|rtc_AAAA|ljt_reader|ra1_sid|RA1balancer|MUID|sto-id-20480-bh|pudm_AAAA|adaptv_unique_user_cookie|put_1185|MR|CMRUM3|__auc|__asc|KRTBCOOKIE_22|everest_g_v2|TapAd_TS|TapAd_DID|icu|everest_session_v2|Gdyn|is_unique|TMP_X1ID|__unam|X1ID|matchgoogle|put_1986|KADUSERCOOKIE|ServedBy|optimizelyEndUserId|optimizelyBuckets|optimizelySegments|optimizelyPendingLogEvents|put_1512|KTPCACOOKIE|pi|KRTBCOOKIE_27|ev_t|ev_t2|SERVERID|KRTBCOOKIE_57|KRTBCOOKIE_80|put_2249|__utmv|_ljtrtb_1|SyncRTB|SYNCUPPIX_ON|put_2313|_ym_uid|_ym_isad|put_2132|PUBRETARGET|KRTBCOOKIE_148|__zlcmid|taboola_session_id|taboola_upci|end_user_id|__adroll|OAGEO|KRTBCOOKIE_240|put_2146|put_2309|_ljtrtb_2|put_2596|mako_uid|ANON_ID|put_2307|_rxuuid|put_2810|ra1_pd|put_1523|GPS|ljtrtb|KRTBCOOKIE_52|parsely_network_uuid|put_3876|KRTBCOOKIE_466|_chartbeat2|put_2676|sc_is_visitor_unique|put_2046|FFad|FFcat|KRTBCOOKIE_200|put_2238|BizoData|ads_prefs|personalization_id|1P_JAR|cp_id_ec364pageLoads|AMCVS_041A7C73585A5C360A495CC2%40AdobeOrg|lithiumSSO%3Apandora.prod|isp|_device_id|ghostmonitor_session_id|_orig_referrer|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|AMCVS_CF4957F555EE9B727F000101%40AdobeOrg|AMCV_CF4957F555EE9B727F000101%40AdobeOrg|gup_clientid|utag_main|_uv3_session|_device_id|has_recent_activity|click_id_time|LOCATION_FROM_IP|IP_COUNTRY|_wamtcstandards|com.tree.widgets\$IGoogleAdServingTest|com.yahoo.\$IB|i10c.referrer|[a-zA-Z0-9]+.uservisit|i10c3C|i10c.SIBC|i10c.ss|i10c.uid|morphi10c|m0r9h.route|m0r9h.salt|m0r9h.bsalt|_chartbeat[0-9]|MUID|_EDGE_V|_EDGE_S|net.media.contextual\$Nhbcm_sd|i10cTS|i10cTC|SRCHUSR|SRCHUID|SRCHD|com.linkedin.\$Ilidc|com.linkedin.ads.\$Nlang|com.linkedin.\$Ili_sugr|com.scorecardresearch.\$IUIDR|com.scorecardresearch.\$IUID|net.media.\$Idata-nms|net.media.\$Ivisitor-id|msaOptout|_cb_svref|session_tracker|PLAY_FLASH|PLAY_SESSION|AkaSTrackingID|comment_author_|_snow_id.|_snow_ses.|is_mobile|sucuri_cloudproxy_uuid_|popups_session_duration|_referrer|_pageviews|ReturningSession|CurrentSession|watched|_youtube_session|ad_group|_dmp_uid|G_ENABLED_IDPS|xf_id|melody_device|ufp2|ezoab_|ezoadgid_|ezopvc_|ezoref_|ezux_et_|ezux_lpl_|ezux_tos_|ezux_ifep_|ezCMPCCS|VISITOR|session-id|session-id-time|session-token|ubid-main|csm-hit|exp-ck|pxvid|akavpau_p.|com.wm.reflector|PAIDCONTENT|adsense|pgv_pvid|lv_play_indexl|psessiontime|psessionid|appuser|visid_|_ses_|tagit_params|tagit_session|cf_clearance|previous_detail|search_list|playwirePageViews|user_var|xtag|_views|xv_nbview|html5_networkspeed|id_op|sqsess|sqvisitor|yt-campaign-coo|yt-referrer-coo|kt_ips|pmpro_visit|AdBlockerState|show_only_once_per_day6|laravel_session|pwg_id|cip|ips4_IPSSessionFront|ips4_hasJS|ips4_ipsTimezone|IMGURUIDJAFO|amplitude_cookie_test|amplitude_id_|amplitude_|pa_device_id|ads_count|ASPSESSIONIDQUABAQSB|remix_adbook|__uts1|0ae10|_subid|bilginpro|itools_session|BAIDUID|s_ht_pageid|tnwhiteft|ISBID|ISUS|__bsi|CraftSessionId|opref|ASPSESSIONIDASCSQTSA|wpml_browser_redirect_test|OGPC|NID|PixelDensity|_px2|bbhive|disco_client_id|arxiv_browse|browser|stats|visits|platform|platform_cookie_reset|atatusScript|areviwes_session|_previous_pathname|areviwes_session|_viewhistroy/
 googlevideo.com$cookie
 msn.com$cookie=anoncknm|RecentStocks
 ninecorners.com$cookie
@@ -23104,8 +23197,6 @@ $webrtc,domain=nsa.gov
 151.101.193.7$network
 151.101.1.7$network
 151.101.65.7$network
-172.217.6.110$network
-172.217.1.46$network
 192.99.211.67$network
 52.72.245.79$network
 52.27.7.77$network
@@ -23128,11 +23219,9 @@ $webrtc,domain=nsa.gov
 216.58.192.205$network
 216.56.192.205$network
 172.217.4.40$network
-172.217.6.10$network
 172.217.9.67$network
 216.239.35.4$network
 172.217.4.195$network
-35.201.97.85$network
 ! Facebook IP
 157.240.18.15$network
 ! GoGuardian IPs
@@ -23142,7 +23231,8 @@ $webrtc,domain=nsa.gov
 !#endif
 !#if (adguard_app_android && !ext_ublock)
 ! App Specific
-||firebaseremoteconfig.googleapis.com^$app=com.hecorat.screenrecorder.free
+@@||[2607:f8b0:4009:80f::2001]:443^$app=com.android.vending
+firebaseremoteconfig.googleapis.com^$app=com.hecorat.screenrecorder.free
 35.241.26.53$network,app=com.creativegap.lastdefender
 34.231.178.101$network,app=com.sharkjump.castlefusion
 96.6.26.216$network,app=com.sharkjump.castlefusion
@@ -23219,6 +23309,8 @@ perf-events.cloud.unity3d.com$app=com.codigames.idle.fitness.gym.tycoon
 99.192.182.100$network,app=com.tenta.android
 209.244.0.3$network,app=com.tenta.android
 208.67.222.222$network,app=com.tenta.android
+52.27.247.253$network,app=com.kwalee.gunpuzzle
+firebaseremoteconfig.googleapis.com^$app=co.yellw.yellowapp
 ! Nox Android Emulator
 47.254.40.233$network,app=system
 47.88.66.23$network,app=system
@@ -23231,6 +23323,13 @@ perf-events.cloud.unity3d.com$app=com.codigames.idle.fitness.gym.tycoon
 *freemonies*
 
 ! Wildcard
+=nyt-vi&referrer=
+/tagmanager/
+/doctracking.js
+/bidbarrel-cbsnews$script
+/vhs-plugin-*-analytics.min.js
+/ip_seg_
+/gciAnalytics.js
 /google-tracking/
 /gaT.module.js
 /ruxitagentjs_
@@ -24032,6 +24131,24 @@ _statsonlineinfo
 ###adsense_center
 ###adsense_insert
 ###fam_rectp
+##.partner-overlay-top-ad
+##.poster-scroll-ad
+##.ahe-ad
+##.ad-disclaimer
+##.ad-container
+##.ad-container--inarticle1
+##.ad-container--inarticle2
+##.ad-container--inarticle3
+##.ad-container--inarticle4
+##.ad-container--inarticle5
+##.ad-container--inarticle6
+##.ad-container--inarticle7
+##.ad-container--inarticle8
+##.ad-container--inarticle9
+##.ad-container--inarticle10
+##.ad-container__notification
+##.ad-container--lead1--18
+##.ad-container--lead1.ad-container
 ##[data-google-query-id]
 ##iframe[id^="google_ads_iframe"]
 ##[id^="bestgoogleadsense-"]
