@@ -26,6 +26,23 @@
 * Slimjet
 * uBlock Origin
 
+#### Anti Everything
+* AdAway
+* AdGuard Home
+* AdGuard
+* AdNauseam
+* Blokada
+* Diversion
+* DNS66
+* Gas Mask
+* Hosts File Editor
+* hostsmgr
+* Nano Adblocker
+* PersonalDNSfilter
+* Pi-hole
+* uBlock Origin
+* uMatrix
+
 #### Anti Facebook
 * AdAway
 * AdGuard Home
