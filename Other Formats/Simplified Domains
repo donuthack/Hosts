@@ -1,7 +1,7 @@
 ! Title: Cybo's Simplified Domains
 ! Expires: 8 hours
-! Version: 1186
-! Last Modified: Sunday, December 15, 2019
+! Version: 1187
+! Last Modified: Saturday, December 21, 2019
 
 ! This List Is Better Than The Other Hosts For DNS Sinkholes And Slow Computers
 ! (If Used With An Adblocker)
@@ -31,7 +31,6 @@ reddit.com#@#:-abp-has(div[data-before-content="advertisement"])
 @@||external-preview.redd.it/*.gif
 pandora.com$genericblock
 @@||apis.google.com/js/platform.js$domain=graspablemath.com
-@@||laptop-updates.brave.com/latest/*$domain=brave.com
 @@||cdnjs.cloudflare.com/ajax/$domain=emsicc.com
 @@||facebook.com/settings/*/?ref=settings
 @@||google.com/recaptcha/api*
@@ -388,7 +387,6 @@ pandora.com$genericblock
 0.0.0.0 redcarpet.apple.com
 0.0.0.0 speedtracer.apple.com
 0.0.0.0 tracerx-radars.apple.com
-0.0.0.0 init-p01st.push.apple.com
 0.0.0.0 internalcheck.apple.com
 0.0.0.0 depot.info.apple.com
 0.0.0.0 time-ios.apple.com
@@ -451,7 +449,6 @@ pandora.com$genericblock
 0.0.0.0 13-courier.push.apple.com
 0.0.0.0 14-courier.push.apple.com
 0.0.0.0 15-courier.push.apple.com
-0.0.0.0 16-courier.push.apple.com
 0.0.0.0 17-courier.push.apple.com
 0.0.0.0 18-courier.push.apple.com
 0.0.0.0 19-courier.push.apple.com
@@ -475,9 +472,7 @@ pandora.com$genericblock
 0.0.0.0 3-courier.sandbox.push.apple.com
 0.0.0.0 3.courier-sandbox-push-apple.com.akadns.net
 0.0.0.0 30-courier.push.apple.com
-0.0.0.0 31-courier.push.apple.com
 0.0.0.0 31.courier-push-apple.com.akadns.net
-0.0.0.0 32-courier.push.apple.com
 0.0.0.0 33-courier.push.apple.com
 0.0.0.0 34-courier.push.apple.com
 0.0.0.0 35-courier.push.apple.com
@@ -507,14 +502,11 @@ pandora.com$genericblock
 0.0.0.0 48-courier.push.apple.com
 0.0.0.0 48.courier-push-apple.com.akadns.net
 0.0.0.0 49-courier.push.apple.com
-0.0.0.0 5-courier.push.apple.com
 0.0.0.0 5-courier.sandbox.push.apple.com
 0.0.0.0 5.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 50-courier.push.apple.com
 0.0.0.0 6-courier.push.apple.com
 0.0.0.0 6-courier.sandbox.push.apple.com
 0.0.0.0 6.courier-sandbox-push-apple.com.akadns.net
-0.0.0.0 7-courier.push.apple.com
 0.0.0.0 7-courier.sandbox.push.apple.com
 0.0.0.0 7.courier-sandbox-push-apple.com.akadns.net
 0.0.0.0 8-courier.push.apple.com
@@ -941,6 +933,20 @@ pandora.com$genericblock
 0.0.0.0 idmsa.apple.com/appleauth/jslog
 
 !A
+0.0.0.0 api.crashlytics.com
+0.0.0.0 api-proxy.nevo.app
+0.0.0.0 analytics.valuepotion.com
+0.0.0.0 a001fraamz.kdn.bitdefender.net
+0.0.0.0 aolon-redirector-farm-m-sdk-b-780386223.us-east-1.elb.amazonaws.com
+0.0.0.0 activision.helpshift.com
+0.0.0.0 a001fraamz.kdn.bitdefender.net
+0.0.0.0 adpopcorn.com
+0.0.0.0 adservice.google.nl
+0.0.0.0 analytics.publitas.com
+0.0.0.0 annualconsumersurvey.com
+0.0.0.0 amarktflow.com
+0.0.0.0 adviggroupdailyfxcom.112.2o7.net
+0.0.0.0 analytics-collector-28944298.us-east-1.elb.amazonaws.com
 0.0.0.0 a.mafiagameglobal.com
 0.0.0.0 ana.whisper.sh
 0.0.0.0 analyticsacademy.withgoogle.com
@@ -3889,6 +3895,7 @@ pandora.com$genericblock
 0.0.0.0 a.ads2.msads.net
 
 !B
+0.0.0.0 bitdefender.sc.omtrdc.net
 0.0.0.0 bi.kinecosystembi.com
 0.0.0.0 bidbarrel.cbsnews.com
 0.0.0.0 bucket1.mm-syringe.com
@@ -4003,7 +4010,6 @@ pandora.com$genericblock
 0.0.0.0 bam-x.com
 0.0.0.0 b0e8.com
 0.0.0.0 b.c8.net.ua
-0.0.0.0 btms.samsungsemi.com
 0.0.0.0 bi.yeshen.com
 0.0.0.0 bidr.io
 0.0.0.0 brass.account.t-mobile.com
@@ -4849,6 +4855,14 @@ pandora.com$genericblock
 0.0.0.0 bam.nr-data.net
 
 !C
+0.0.0.0 cdn.serverable.com
+0.0.0.0 cfgr2.com
+0.0.0.0 csp-collector.appspot.com
+0.0.0.0 cdn-cbc-v3.conductrics.com
+0.0.0.0 crutchfield.com.ssl.sc.omtrdc.net
+0.0.0.0 cdn.wetest.qq.com
+0.0.0.0 commnat-cohort-gc.ess.apple.com
+0.0.0.0 commnat-cohort-gc.ess-apple.com.akadns.net
 0.0.0.0 clientmetrics.kik.com
 0.0.0.0 clientmetrics-augmentum.kik.com
 0.0.0.0 clientmetrics-augmentum.kik.com
@@ -6002,6 +6016,12 @@ pandora.com$genericblock
 0.0.0.0 creative.medialytics.com
 
 !D
+0.0.0.0 dualstack.api-crashlytics-1180101475.us-east-1.elb.amazonaws.com
+0.0.0.0 dl.vaccine.line.naver.jp
+0.0.0.0 dnl-13.geo.kaspersky.com
+0.0.0.0 dlied1.qq.com
+0.0.0.0 datadoghq-browser-agent.com
+0.0.0.0 dchoc.com
 0.0.0.0 data.media-lab.ai
 0.0.0.0 die-deutsch-methode.com
 0.0.0.0 dashgreen.online
@@ -6758,6 +6778,7 @@ pandora.com$genericblock
 0.0.0.0 downloads.mailchimp.com
 
 !E
+0.0.0.0 edge.simplereach.com
 0.0.0.0 ezojs.com
 0.0.0.0 en.offergate.pro
 0.0.0.0 eclick.baidu.com
@@ -7185,6 +7206,9 @@ pandora.com$genericblock
 0.0.0.0 ec2-18-214-27-216.compute-1.amazonaws.com
 
 !F
+0.0.0.0 fgn.cdn.serverable.com
+0.0.0.0 falseclab.tk
+0.0.0.0 floatplane.com$websocket
 0.0.0.0 fly202.globalmailer.com
 0.0.0.0 free.easydirectionsfinder.com
 0.0.0.0 freetemplatefinder.com
@@ -7497,6 +7521,11 @@ pandora.com$genericblock
 0.0.0.0 freshmarketer.com
 
 !G
+0.0.0.0 g.luckfun.vip
+0.0.0.0 g.luckywinnervip.com
+0.0.0.0 geo.iplocation.com
+0.0.0.0 gstaticadssl.l.google.com
+0.0.0.0 g4mz.com
 0.0.0.0 geo-media.beatport.com
 0.0.0.0 googlezip.net
 0.0.0.0 gingie.com
@@ -7613,7 +7642,6 @@ pandora.com$genericblock
 0.0.0.0 *-goog.l.google.com
 0.0.0.0 go.mobtrks.com
 0.0.0.0 global-dealer-ssl.spotify.com
-0.0.0.0 github.map.fastly.net
 0.0.0.0 gs.dailymail.co.uk
 0.0.0.0 goreal.at
 0.0.0.0 gallery.smartadserver.com
@@ -7661,7 +7689,6 @@ pandora.com$genericblock
 0.0.0.0 goodwaygroup.com
 0.0.0.0 groupm.com
 0.0.0.0 getblue.io
-0.0.0.0 gcs.sc-cdn.net
 0.0.0.0 gyazo.nl
 0.0.0.0 gap.sp1.convertro.com
 0.0.0.0 gettally.com
@@ -7981,7 +8008,6 @@ pandora.com$genericblock
 0.0.0.0 humanpresence.io
 0.0.0.0 hrnorth.se
 0.0.0.0 host.bannerflow.com
-0.0.0.0 h2.twitch.map.fastly.net
 0.0.0.0 homeitmaster.com
 0.0.0.0 hasoffers.com
 0.0.0.0 hits.blog.sina.com.cn
@@ -8165,6 +8191,12 @@ pandora.com$genericblock
 0.0.0.0 helpshift.com
 
 !I
+0.0.0.0 ipm-west-us-content-service.azurewebsites.net
+0.0.0.0 ipm-cloud.trafficmanager.net
+0.0.0.0 identity.mparticle.com
+0.0.0.0 irtyf.com
+0.0.0.0 idead.dchoc.com
+0.0.0.0 iad.t100.prod.ter.amazonvideo.com
 0.0.0.0 iq-in-xbc.1e100.net
 0.0.0.0 iz-in-f188.1e100.net
 0.0.0.0 i-stream.pl
@@ -9003,6 +9035,12 @@ pandora.com$genericblock
 0.0.0.0 js.users.51.la
 
 !K
+0.0.0.0 ksn-cinfo-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-info-geo.kaspersky-labs.com
+0.0.0.0 ksn-fr-geo.kaspersky-labs.com
+0.0.0.0 ksn-crypto-info-geo.kas-labs.com
+0.0.0.0 ksn-cinfo-geo.kas-labs.com
+0.0.0.0 ksn-crypto-whocalls-geo.kaspersky-labs.com
 0.0.0.0 kvinit-prod.api.kochava.com
 0.0.0.0 kikinteractive.zendesk.com
 0.0.0.0 keepmydevicesafe.com
@@ -9811,6 +9849,11 @@ pandora.com$genericblock
 0.0.0.0 krxd.net
 
 !L
+0.0.0.0 log.avlyun.com
+0.0.0.0 launches.appsflyer.com
+0.0.0.0 log.avlyun.com
+0.0.0.0 lp-push-server-860.lastpass.com
+0.0.0.0 lb-140-82-113-3-iad.github.com
 0.0.0.0 live-playphoto.servers.kwalee.com
 0.0.0.0 lga15s48-in-f194.1e100.net
 0.0.0.0 light-client-log.getapk.cn
@@ -9905,7 +9948,6 @@ pandora.com$genericblock
 0.0.0.0 listjoe.com
 0.0.0.0 legacyteamcoop.com
 0.0.0.0 legacyhits.com
-0.0.0.0 laptop-updates.brave.com
 0.0.0.0 leadsleap.com
 0.0.0.0 ladsdown.com
 0.0.0.0 lookips.com
@@ -10102,6 +10144,7 @@ pandora.com$genericblock
 0.0.0.0 location.silverpush.com
 
 !M
+0.0.0.0 mparticle.com
 0.0.0.0 mktcs-cloudapps.glb-ext.cisco.com
 0.0.0.0 meter-svc.nytimes.com
 0.0.0.0 mm-syringe.com
@@ -10756,6 +10799,7 @@ pandora.com$genericblock
 0.0.0.0 memo2.nl
 
 !N
+0.0.0.0 www.nativo.com
 0.0.0.0 nexstardigital.com
 0.0.0.0 newoctads.com
 0.0.0.0 newwedads.com
@@ -11267,6 +11311,10 @@ pandora.com$genericblock
 0.0.0.0 open.ad.yieldmanager.net
 
 !P
+0.0.0.0 play.wudiads.com
+0.0.0.0 paramsystem.securitytech.space
+0.0.0.0 pornhuv.com
+0.0.0.0 pop-iad-2.cf.dash.row.aiv-cdn.net
 0.0.0.0 pornhub-d.com
 0.0.0.0 pfundertrk.me
 0.0.0.0 perfectsafeadz.com
@@ -11441,7 +11489,6 @@ pandora.com$genericblock
 0.0.0.0 partner.sbaffiliates.com
 0.0.0.0 pymx5.com
 0.0.0.0 pki-goog.l.google.com
-0.0.0.0 photos-ugc.l.googleusercontent.com
 0.0.0.0 pcweb.tmobile.com
 0.0.0.0 pdn.applovin.com
 0.0.0.0 p.d.1emn.com
@@ -11985,6 +12032,7 @@ pandora.com$genericblock
 0.0.0.0 qnsr.com
 
 !R
+0.0.0.0 redirect.geo.kaspersky.com
 0.0.0.0 raintwig.com
 0.0.0.0 roomapi-signalr.prod-aws.purechat.com
 0.0.0.0 reklama.mail.ru
@@ -12333,6 +12381,20 @@ pandora.com$genericblock
 0.0.0.0 r.skimresources.com
 
 !S
+0.0.0.0 srv.pixel.parsely.com
+0.0.0.0 smetrics.cbc.ca
+0.0.0.0 sla-intl.trustlook.com
+0.0.0.0 safety.securitytech.space
+0.0.0.0 szmg.qq.com
+0.0.0.0 sspi.adpopcorn.com
+0.0.0.0 simplereach.com
+0.0.0.0 s3-iad-ww.cf.videorolls.row.aiv-cdn.net
+0.0.0.0 serverable.com
+0.0.0.0 s1.static.cfgr2.com
+0.0.0.0 s2.static.cfgr2.com
+0.0.0.0 static.cfgr2.com
+0.0.0.0 sexad.net$popup
+0.0.0.0 speed-route.com
 0.0.0.0 scorecard.wspisp.net
 0.0.0.0 stats.monohost.com
 0.0.0.0 share-apps.xyz
@@ -12516,7 +12578,6 @@ pandora.com$genericblock
 0.0.0.0 seesmic.com
 0.0.0.0 socialminer.com
 0.0.0.0 socialinterface.com
-0.0.0.0 s.aolcdn.com
 0.0.0.0 s-img.adskeeper.co.uk
 0.0.0.0 s.dolphincdn.xyz
 0.0.0.0 stats.wwitv.com
@@ -13695,6 +13756,13 @@ pandora.com$genericblock
 0.0.0.0 scripts.kissmetrics.com
 
 !T
+0.0.0.0 t.huvlemobile.com
+0.0.0.0 toolkits.mobi
+0.0.0.0 t.irtyf.com
+0.0.0.0 titpus.com
+0.0.0.0 tr.iadsdk.apple.com
+0.0.0.0 tvpage.com
+0.0.0.0 trak.rbxcdn.com
 0.0.0.0 traffictrader.net
 0.0.0.0 t.propbn.com
 0.0.0.0 tanx.com
@@ -14739,6 +14807,10 @@ pandora.com$genericblock
 0.0.0.0 v.admaster.com.cn
 
 !W
+0.0.0.0 waws-prod-bay-011.sip.azurewebsites.windows.net
+0.0.0.0 web-networking.com
+0.0.0.0 wudiads.s3.amazonaws.com
+0.0.0.0 www-google-analytics.l.google.com
 0.0.0.0 wspisp.net
 0.0.0.0 weekly-prizes.co
 0.0.0.0 wap.com
@@ -15212,10 +15284,8 @@ pandora.com$genericblock
 0.0.0.0 yxsu5ufd2m.kameleoon.eu
 0.0.0.0 y4681.6128786.com
 0.0.0.0 yourofferpro.com
-0.0.0.0 ytimg.l.google.com
 0.0.0.0 yarn.ideaeggs.press
 0.0.0.0 yotpo.com
-0.0.0.0 ytimg-edge-static.l.google.com
 0.0.0.0 yb.163yun.com
 0.0.0.0 yumimobi.com
 0.0.0.0 yollamedia.com
@@ -15590,6 +15660,9 @@ pandora.com$genericblock
 0.0.0.0 zyqlfplqdgxu.com
 
 !Misc
+0.0.0.0 4.sophosxl.net
+0.0.0.0 1uzxr3b3jraw5nlmnvbsikiioud2vilw5.web-networking.com
+0.0.0.0 4.sophosxl.net
 0.0.0.0 5eb.cc
 0.0.0.0 9icmzvn6.website
 0.0.0.0 894de8bb784.com
