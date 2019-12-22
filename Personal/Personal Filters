@@ -1,6 +1,6 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
-! Version: 3
+! Version: 4
 
 !#if (adguard && !ext_ublock)
 ! Non uBlock/Nano Supported Include
@@ -44,11 +44,18 @@
 ||cnvid.net^$all
 ||dnspod.net^$all
 ||dnspod.cn^$all
+! Other Chinese Crap
+qq.com|
+gtimg.cn|
+baidu.com|
+bdstatic.com|
+weibo.com|
 ! Stores
 ||refer.walmart.com^$all
 ! Amazon Hosting
-||*cloudfront.*^$all
-||*aws.amazon.*^$all
+*cloudfront.*|
+*aws.amazon.*|
+*elasticbeanstalk.*|
 ! CSP
 *$csp='upgrade-insecure-requests';
 ! Add Event Listener Defuser
