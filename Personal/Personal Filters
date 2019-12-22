@@ -9,6 +9,34 @@
 !#endif
 
 !--- PERSONAL FILTERS DONT ADD TO LISTS ---!
+! Sites that can work without scripts
+marketwatch.com^$script,inline-script
+nytimes.com^$script
+dailycaller.com$inline-script
+neonnettle.com$inline-script
+content-security-policy.com$script,inline-script
+computerhope.com$script,inline-script
+ip-tracker.org$script
+ccc.de$script
+duckduckgo.com$script
+restoreprivacy.com$script
+wikipedia.org$script
+baxtel.com$script
+twitter.com$script
+androidauthority.com$script,inline-script
+itechgyd.com$script,inline-script
+androidleo.com$script,inline-script
+thehackernews.com$script
+technobezz.com$script,inline-script
+foxnews.com$script,inline-script
+techwiser.com$script,inline-script
+talkandroid.com$script,inline-script
+techreviewpro.com$script
+systweak.com$script,inline-script
+appsapk.com$script
+wired.co.uk$script,inline-script
+zdnet.com$script
+!
 ||cloudfront.net^$all
 ||bit.ly^$all
 ||bitly.com^$all
