@@ -1,6 +1,6 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 29
+! Version: 30
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
 ! Last Modified: Wednesday, December 11, 2019
@@ -33,6 +33,19 @@ restoreprivacy.com$script
 wikipedia.org$script
 baxtel.com$script
 twitter.com$script
+androidauthority.com$script,inline-script
+itechgyd.com$script,inline-script
+androidleo.com$script,inline-script
+thehackernews.com$script
+technobezz.com$script,inline-script
+foxnews.com$script,inline-script
+techwiser.com$script,inline-script
+talkandroid.com$script,inline-script
+techreviewpro.com$script
+systweak.com$script,inline-script
+appsapk.com$script
+wired.co.uk$script,inline-script
+zdnet.com$script
 
 ! Can Break Some Things Making It Not Suitable For Normal Hosts File
 ! Block possibly suspicious top-level domains from running as third-party on sites
@@ -108,10 +121,7 @@ google.*,bing.com,duckduckgo.com,startpage.com#?#a:-abp-contains(.gov.)
 ||facebook.com^$third-party,cookie=c_user
 
 ! Third-Party cookies
-facebook.*^$third-party,cookie
-google.*^$third-party,cookie
-bing.*^$third-party,cookie
-windows.*^$third-party,cookie
+/.+/^$third-party,cookie
 
 ! Adblock Plus Logs Your IP - https://adblockplus.org/en/privacy
 ||adblockplus.org^
