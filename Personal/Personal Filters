@@ -1,6 +1,5 @@
 ! Title: Cybo's Personal Filters
 ! Expires: 1 hours
-! Version: 4
 
 !#if (adguard && !ext_ublock)
 ! Non uBlock/Nano Supported Include
@@ -9,7 +8,6 @@
 !#include ../Other%20Formats/Extra%20Format
 !#endif
 
-! uBlock/Nano
 !--- PERSONAL FILTERS DONT ADD TO LISTS ---!
 ||cloudfront.net^$all
 ||bit.ly^$all
@@ -45,6 +43,7 @@
 ||dnspod.net^$all
 ||dnspod.cn^$all
 ! Other Chinese Crap
+!#if (adguard && !ext_ublock)
 qq.com|
 gtimg.cn|
 baidu.com|
@@ -56,6 +55,7 @@ weibo.com|
 *cloudfront.*|
 *aws.amazon.*|
 *elasticbeanstalk.*|
+!#endif
 ! CSP
 *$csp='upgrade-insecure-requests';
 ! Add Event Listener Defuser
@@ -70,10 +70,7 @@ discordapp.com##.noticeDefault-362Ko2, .notice-2FJMB4
 discordapp.com##.fixClipping-3qAKRb.container-16j22k
 discordapp.com###app-mount > .app-19_DXt > .app-2rEoOp > .layers-3q14ss.layers-3iHuyZ > .baseLayer-35bLyl.layer-3QrUeG > .container-2lgZY8 > .base-3dtUhz > .content-98HsJk > .activityFeed-1C0EmJ > .container-3T1zWi.noWrap-3jynv6.alignCenter-1dQNNs.justifyCenter-3D2jYp.directionRow-3v3tfG.horizontal-2EEEnY.horizontal-1ae9ci.flex-1O1GKY.flex-1xMQg5
 discordapp.com##.activityFeed-1C0EmJ
-!--- END PERSONAL FILTERS ---!
-
-! AdGuard
-!--- PERSONAL FILTERS DONT ADD TO LISTS ---!
+!#if (adguard && !ext_ublock)
 ! AdGuard Specific
 ||cloudflare.*^$network,all
 ||cloudflare-dns.com^$network,all
@@ -91,4 +88,5 @@ discordapp.com##.activityFeed-1C0EmJ
 ! Cookies
 *^$cookie=/.+/;maxAge=-999999,domain=~youtube.com|~accounts.google.com|~discordapp.com|~discord.gg|~pandora.com|mega.nz
 *^$cookie=/lithiumSSO%3A[a-z]+.prod|_wamtcstandards|http_referrer|at|__cfduid/
+!#endif
 !--- END PERSONAL FILTERS ---!
