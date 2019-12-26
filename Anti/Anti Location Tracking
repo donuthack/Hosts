@@ -1,6 +1,6 @@
 ! Title: Cybo's Anti Location Tracking
 ! Expires: 1 day
-! Version: 15
+! Version: 16
 
 ! Block maps, location analytics, and GPS services
 
@@ -112,6 +112,14 @@
 0.0.0.0 geo4.weatherzone.com.au
 0.0.0.0 ip-adress.com
 0.0.0.0 ipaddress.com
+0.0.0.0 foursquare.com
+0.0.0.0 api.telogis.eu
+0.0.0.0 spotlight.telogis.com
+0.0.0.0 trips.telogis.com
+0.0.0.0 mobilecore-dist.flows.telogis.com
+0.0.0.0 static.telogis.com
+0.0.0.0 login.platform.telogis.com
+0.0.0.0 geo-pro.beatport.com
 
 ! https://android.googlesource.com/device/moto/shamu/+/master/gps.conf
 ! https://wwws.nightwatchcybersecurity.com/tag/gps/
@@ -260,6 +268,7 @@ geo3.weatherzone.com.au|
 geo4.weatherzone.com.au|
 ip-adress.com|
 ipaddress.com|
+foursquare.com|
 
 ! Generic
 *map.online*
