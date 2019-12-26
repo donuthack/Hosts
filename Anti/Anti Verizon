@@ -478,12 +478,13 @@
 0.0.0.0 vznavigator.net
 0.0.0.0 sts.503a90a9c435.us.fm-cloud.com
 0.0.0.0 alb-loadb-pmfmsu6lx4vr-1241112320.us-west-2.elb.amazonaws.com
+0.0.0.0 go.vzw.com
 
 ! Things that wont work in DNS blocking methods
 /foryourhome/ordering/checkavailabilitylq.aspx
 /vzauth
 /verizonrewards
-?goto=https://*.verizonwireless.com
+?goto=https://*.verizon*
 %2everizon%2ecom%
 ||pandora.com/verizon
 
