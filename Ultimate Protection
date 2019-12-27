@@ -1,9 +1,9 @@
 ! Title: Cybo's Ultimate Protection
 ! Expires: 8 hours
-! Version: 30
+! Version: 31
 ! This list was made to block trackers that WILL BREAK some sites
 ! Number Of Ad Services, Trackers, And Malware Blocked: 52K (Give Or Take A Few Thousand)
-! Last Modified: Wednesday, December 11, 2019
+! Last Modified: Thursday, December 26, 2019
 
 !#include Hosts
 !#include /Anti/Anti%20Alphabet
@@ -46,6 +46,14 @@ systweak.com$script,inline-script
 appsapk.com$script
 wired.co.uk$script,inline-script
 zdnet.com$script
+promiseskept.com$script,inline-script
+beebom.com$script,inline-script
+techtiptrick.com$script,inline-script
+saucelabs.com$script,inline-script
+mashtips.com$script,inline-script
+mistersaad.com$script,inline-script
+thinkmobiles.com$script,inline-script
+techiespad.com$script,inline-script
 
 ! Can Break Some Things Making It Not Suitable For Normal Hosts File
 ! Block possibly suspicious top-level domains from running as third-party on sites
