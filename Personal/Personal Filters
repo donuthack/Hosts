@@ -36,14 +36,22 @@ systweak.com$script,inline-script
 appsapk.com$script
 wired.co.uk$script,inline-script
 zdnet.com$script
+promiseskept.com$script,inline-script
+beebom.com$script,inline-script
+techtiptrick.com$script,inline-script
+saucelabs.com$script,inline-script
+mashtips.com$script,inline-script
+mistersaad.com$script,inline-script
+thinkmobiles.com$script,inline-script
+techiespad.com$script,inline-script
 !
-||cloudfront.net^$all
+!||cloudfront.net^$all
 ||bit.ly^$all
 ||bitly.com^$all
 ||microsoftonline.com^$all
 ||mirmay.com^$all
 ! Cloudflare (https://www.cloudflare.com/privacypolicy/)
-||cloudflare.*^$all
+!||cloudflare.*^$all
 ||cloudflare-dns.com^$all
 ||cloudflareinsights.com^$all
 ||cloudflarestream.com^$all
@@ -80,7 +88,7 @@ weibo.com|
 ! Stores
 ||refer.walmart.com^$all
 ! Amazon Hosting
-*cloudfront.*|
+!*cloudfront.*|
 *aws.amazon.*|
 *elasticbeanstalk.*|
 !#endif
@@ -100,7 +108,7 @@ discordapp.com###app-mount > .app-19_DXt > .app-2rEoOp > .layers-3q14ss.layers-3
 discordapp.com##.activityFeed-1C0EmJ
 !#if (adguard && !ext_ublock)
 ! AdGuard Specific
-||cloudflare.*^$network,all
+!||cloudflare.*^$network,all
 ||cloudflare-dns.com^$network,all
 ||cloudflareinsights.com^$network,all
 ||cloudflarestream.com^$network,all
