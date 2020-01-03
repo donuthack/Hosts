@@ -116,3 +116,80 @@
 ||widget.us.criteo.com^
 ||gnar.grammarly.com^
 @@49.51.229.37$network,app=com.activision.callofduty.shooter
+
+! School Laptop (unfiltered)
+edhesive.com#@#+js(nobab)
+docs.google.com#@#+js(ra, ping|href, a[href*="javascript:void(0);])
+@@||cursecdn.com
+
+0.0.0.0 ad.broadstreetads.com
+0.0.0.0 cdn.broadstreetads.com
+0.0.0.0 red.broadstreetads.com
+0.0.0.0 broadstreetads.com
+0.0.0.0 robotornotcheckonline.icu
+0.0.0.0 pixel.cdnwidget.com
+0.0.0.0 cdn.getambassador.com
+0.0.0.0 getambassador.com
+
+*$cookie=/OptanonConsent/
+
+/cmd.php?ad=*
+*ext.track.scripts*
+
+www.agame.com##.LbGp1.leaderboard.top.advert
+www.webmd.com###-bbet3-qpt-212-be-cboofs
+www.webmd.com###webmdHoverOverlay
+www.webmd.com###-bDpoufouQbof49
+www.webmd.com##.tags-module-title
+www.webmd.com###newsletterHover
+www.proprofs.com###myModal_popup
+www.proprofs.com##.in.fade.modal-backdrop
+www.proprofs.com##body > .custom_size_container.container > .row
+webcammictest.com##.workbench__information
+www.bandwidthplace.com##.horizontal.da-wrapper
+www.bandwidthplace.com###call-button
+www.washingtonpost.com##.__sf_ftk__nokrctxq
+www.nytimes.com###top-wrapper
+www.nytimes.com###bottom-wrapper
+www.sandiegouniontribune.com###ensNotifyBanner
+||www.sandiegouniontribune.com/subscriptions/ad-arc-ears/$image
+www.sandiegouniontribune.com##.met-rule-2687.met-flyout
+www.sandiegouniontribune.com##div.GoogleDfpAd-wrapper
+www.kake.com##.wn-bg-page-header.header > .simple-a
+||images.worldnow.com/images/static/container-e/ad43_header.gif$image
+www.kake.com###WNAd43
+www.kake.com###WNAd44
+||images.worldnow.com/images/static/container-e/ad52_header.gif$image
+www.kake.com###WNAd52
+www.kake.com###col4-social-icons
+||ftpcontent.worldnow.com/wncorp/logos/worldnow_white.png$image
+thecaliforniasun.com##.td-icon-vk
+thecaliforniasun.com##.td-icon-pinterest
+thecaliforniasun.com##.td-post-sharing-bottom
+www.kxnet.com##.social-links__list
+||www.kxnet.com/wp-content/themes/nexstar/client/src/images/footer/app-stores/appstore_footer.png$image
+||www.kxnet.com/wp-content/themes/nexstar/client/src/images/footer/app-stores/googleplay_footer.png$image
+www.kxnet.com##.site-footer__social
+www.kxnet.com##.site-footer__apps
+www.kxnet.com##.site-footer__weather-apps
+www.kob.com###ADSPACE01
+www.kob.com##.hbi-ad-advertiser
+www.kob.com##div.panel-default.panel:nth-of-type(1) > p > [href="/share4/"]
+||www.kob.com/kobtvimages/repository/cs/icons/youtube_32x32.jpg$image
+||www.kob.com/kobtvimages/cs/icons/instagram_32x32.jpg$image
+||www.kob.com/kobtvimages/repository/cs/icons/android_32x32.jpg$image
+||www.kob.com/kobtvimages/repository/cs/icons/apple_32x32.jpg$image
+www.mayoclinic.org##.internal-promo-stack-order
+||latimes.com/subscriptions/ad-arc-ears/
+www2.deloitte.com##.cookie-container
+www2.deloitte.com###poll-bar
+courses.lumenlearning.com###wpipa-2120-container
+neonnettle.com###bottomBar
+constitution.laws.com##.td-front-end-display-block.td-more-articles-box
+www.practicalmoneyskills.com###CookieReportsBanner
+www.practicalmoneyskills.com###CookieReportsPanel > div
+financialfootball.com###CookieReportsBanner
+financialfootball.com###CookieReportsPanel > div
+||mytribe101.com/crest/cafepress_redirect.html
+neonnettle.com##a[href*="gundrymd.com"]
+neonnettle.com##a[href*="beverlyhillsmd.com"]
