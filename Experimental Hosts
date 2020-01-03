@@ -3,3 +3,42 @@
 
 ! Needs a lot of testing
 ||s.yimg.com/wi/ytc.js
+
+@@||inquisition.goguardian.com.home
+@@||star-mini.c10r.facebook.com
+@@||star.c10r.facebook.com
+@@||init.itunes.apple.com
+@@||fbsbx.com
+@@||ir.ebaycdn.net
+@@||graph.facebook.com
+@@||e6858.dsce9.akamaiedge.net
+@@||e673.dsce9.akamaiedge.net
+@@||ghs.google.com
+@@||tools.google.com
+@@||time-ios.apple.com
+
+0.0.0.0 t8webware.com
+0.0.0.0 pass.t8webware.com
+0.0.0.0 ow1.res.office365.com
+0.0.0.0 a-ring.msedge.net
+0.0.0.0 count.romwe.com
+0.0.0.0 e673.dsce9.akamaiedge.net
+0.0.0.0 api.curbside.com
+0.0.0.0 promo-router-prod-dxe.us-east-1.elasticbeanstalk.com
+0.0.0.0 promo-internal.api.my.chick-fil-a.com
+0.0.0.0 promo.api.my.chick-fil-a.com
+0.0.0.0 equuleus.iad.appboy.com
+0.0.0.0 collect.vuevideo.net
+0.0.0.0 consumer.exacttargetapis.com
+0.0.0.0 3czf6pxue8-dsn.algolia.net
+0.0.0.0 gdi-loyaltymobile-lb-prod.galepartners.com
+0.0.0.0 gdi-mobile-server-prod.us-west-2.elasticbeanstalk.com
+0.0.0.0 consumer-s7.exacttargetapis.com
+0.0.0.0 consumer.n.exacttargetapis.com
+0.0.0.0 exacttargetapis.com
+0.0.0.0 3czf6pxue8-1.algolianet.com
+0.0.0.0 3czf6pxue8-3.algolianet.com
+0.0.0.0 3czf6pxue8-2.algolianet.com
+0.0.0.0 kinesis.us-east-1.amazonaws.com
+0.0.0.0 ecc4091c0db0f4da8da2ec50fac7234c230207ef.cws.conviva.com
+0.0.0.0 4zxuvp1ohns9s6m7sbncdiejmryhe1577969424.uaid.imrworldwide.com
