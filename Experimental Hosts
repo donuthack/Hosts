@@ -193,3 +193,111 @@ financialfootball.com###CookieReportsPanel > div
 ||mytribe101.com/crest/cafepress_redirect.html
 neonnettle.com##a[href*="gundrymd.com"]
 neonnettle.com##a[href*="beverlyhillsmd.com"]
+
+! Home PC (unfiltered)
+@@||cursecdn.com
+
+exoclick.com$popup,popunder
+
+0.0.0.0 sia.socialblade.com
+0.0.0.0 static.surfe.pro
+0.0.0.0 surfe.pro
+0.0.0.0 ifbubmsr.com
+0.0.0.0 xlbbhdarc.com
+0.0.0.0 pixapi.net
+0.0.0.0 tracker.mtrtb.com
+0.0.0.0 mtrtb.com
+0.0.0.0 tracking.ws.eurosport.com
+0.0.0.0 tracker.rqmob.com
+0.0.0.0 rqmob.com
+0.0.0.0 logconfig.polarisoffice.com
+0.0.0.0 analysis.polarisoffice.com
+0.0.0.0 log.polarisoffice.com
+0.0.0.0 fraudmetrix.cn
+0.0.0.0 plbslog.umeng.com
+0.0.0.0 analysys.cn
+0.0.0.0 log.apk.v-mate.mobi
+0.0.0.0 track.mobshark.net
+0.0.0.0 dsp-adcreative.mobshark.net
+0.0.0.0 dsptrack.mobshark.net
+0.0.0.0 mobshark.net
+0.0.0.0 analytics.metrix.ir
+0.0.0.0 metrix.ir
+0.0.0.0 cdn.iwmf.ir
+0.0.0.0 iwmf.ir
+0.0.0.0 hwstats.unity3d.com
+0.0.0.0 dsp-tracking.unityads.unity3d.com
+0.0.0.0 installtracker.unityads.unity3d.com
+0.0.0.0 tracking.prd.mz.internal.unity3d.com
+0.0.0.0 publisher-event.ads.prd.ie.internal.unity3d.com
+0.0.0.0 userreporting.cloud.unity3d.com
+0.0.0.0 analytics.cloud.unity3d.com
+0.0.0.0 cafe-log.myshoplus.com
+0.0.0.0 stat.m.360.cn
+0.0.0.0 stats-a.maxthon.com
+0.0.0.0 maxthon.com
+0.0.0.0 gameanalisys.appcpi.net
+0.0.0.0 adsaccount.appcpi.net
+0.0.0.0 adtrack.appcpi.net
+0.0.0.0 remain.appcpi.net
+0.0.0.0 appcpi.net
+0.0.0.0 ninja.onap.io
+0.0.0.0 onap.io
+0.0.0.0 ben.crxmouse.com
+0.0.0.0 collection-endpoint-prod.herokuapp.com
+0.0.0.0 collection-endpoint-staging.herokuapp.com
+0.0.0.0 journey.unicef.de
+0.0.0.0 track.berliner-kurier.de
+0.0.0.0 d.nativendo.de
+0.0.0.0 nativendo.de
+0.0.0.0 consent.berliner-kurier.de
+0.0.0.0 wwwlog.thebell.co.kr
+0.0.0.0 stats.wpmudev.com
+0.0.0.0 stats1.wpmudev.com
+0.0.0.0 statistics.news1.kr
+0.0.0.0 e.dr-zh.com
+0.0.0.0 dr-zh.com
+0.0.0.0 rta2.metro.co.uk
+0.0.0.0 mpsnare.iesnare.com
+0.0.0.0 ads.ebay.com
+
+/logcollect/
+/metaTag.min.js
+/log.asp?callback=
+
+mashtips.com##.td-post-sharing-bottom
+mashtips.com###td_social_sharing_article_top
+www.techrepublic.com##.ad-active
+www.techrepublic.com##.content-leaderboard-top
+www.techrepublic.com##.col-12 > .row > .col-4
+www.techrepublic.com##.content > div:nth-of-type(2)
+youtube.com##.ytd-mealbar-promo-renderer
+link.clashofclans.com##.cc-bottom.cc-theme-classic.cc-type-info.cc-banner.cc-window
+answers.microsoft.com###threadfooter
+www.snaware.com##.notify
+tracklink.top###myModal
+tracklink.top##.in.fade.modal-backdrop
+www.eurosport.com###ad-banner-sponsorship-t
+www.eurosport.com###ad-mpu-1-t
+www.eurosport.com###ad-mpu-2-t
+myshoplus.com##.show.bgmark_activity
+poperblocker.com##.dialog-lightbox-message.dialog-message
+www.berliner-kurier.de##.dm_ad-container
+www.berliner-kurier.de###nativendo-oms-infeed
+www.berliner-kurier.de##section.dm_content_block.module_for_tracking:nth-of-type(3)
+||image.thebell.co.kr/banner/$image
+||thebell.co.kr/log/
+||news1.kr/system/ads_*$image
+news1.kr##.txt_crypto.ir
+metro.co.uk##.ad-slot-label
+www.fleurancenature.fr###facebox_overlay
+||www.fleurancenature.fr/media//contest/stores/1/Pop-up_*.jpg$image
+www.fleurancenature.fr###cookie-notice-banner
+||www.fleurancenature.fr/skin/frontend/enterprise/fleurance2017/image/X.png$image
+||match.com/iojs/*/dyn_wdp.js?
+||downloads.raspberrypi.org/icons/blank.gif
+thehentaiworld.com##.mobilead
+thehentaiworld.com##.ad
+answers.microsoft.com##.theme-light.epb-container.f-information.c-uhfh-alert
+||instagram.com/service-worker-prod-*.js?x-user-agent
+www.androidpit.com##.cookinfo__wrapper
